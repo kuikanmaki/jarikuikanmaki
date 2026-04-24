@@ -300,6 +300,12 @@ section { position: relative; }
   object-fit: cover;
 }
 
+.portrait img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .book-cover-wrap {
   position: relative;
   margin: 0 auto;
@@ -323,6 +329,12 @@ section { position: relative; }
   object-fit: contain;
   box-shadow: 0 25px 60px -15px hsl(var(--foreground) / 0.45);
   outline: 1px solid hsl(var(--border) / 0.4);
+}
+
+.book-cover img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 /* About author portrait small */
