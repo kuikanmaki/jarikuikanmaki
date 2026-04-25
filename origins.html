@@ -3,135 +3,167 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Origins of Coronavirus — Jari Kuikanmäki</title>
-  <meta name="description" content="Origins of Coronavirus by Jari Kuikanmäki — a six-year investigation into the true origins of SARS-CoV-2 and the cover-up of the century." />
-  <meta name="author" content="Jari Kuikanmäki" />
-  <meta property="og:title" content="Origins of Coronavirus — Jari Kuikanmäki" />
-  <meta property="og:description" content="A true crime investigation into the cover-up of the century." />
-  <meta property="og:type" content="book" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <meta name="description" content="Origins of Coronavirus by Jari Kuikanmäki — a true crime investigation into the cover-up of the century. Pre-order now." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans:    ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['"Space Grotesk"', 'Inter', 'sans-serif'],
+          },
+          colors: {
+            background: 'hsl(var(--background))',
+            foreground: 'hsl(var(--foreground))',
+            card:       'hsl(var(--card))',
+            border:     'hsl(var(--border))',
+            accent:     'hsl(var(--accent))',
+            muted: { foreground: 'hsl(var(--muted-foreground))' },
+          },
+        },
+      },
+    };
+  </script>
+
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <!-- Header -->
+
+<body class="bg-background text-foreground font-sans overflow-x-hidden">
+
+  <!-- HEADER -->
   <header class="site-header">
-    <nav class="container-narrow nav">
-      <a href="index.html" class="brand">JARI KUIKANMÄKI</a>
-      <ul class="nav-links">
-        <li><a href="origins.html">Origins Book</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com">Contact / Media</a></li>
+    <nav class="container-narrow flex h-16 items-center justify-between">
+      <a href="index.html" class="font-display text-base sm:text-lg font-bold uppercase tracking-tight">
+        JARI KUIKANMÄKI
+      </a>
+      <ul class="hidden md:flex items-center gap-8">
+        <li><a href="origins.html"                         class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Origins Book</a></li>
+        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Substack</a></li>
+        <li><a href="mailto:contact@jarikuikanmaki.com"    class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Contact / Media</a></li>
       </ul>
-      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
-        <span class="sr-only">Menu</span>
-        <span class="bars"><span></span><span></span><span></span></span>
+      <button data-menu-button
+              class="hamburger md:hidden flex flex-col h-10 w-10 items-center justify-center"
+              aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
       </button>
     </nav>
-    <div class="mobile-menu">
-      <ul class="container-narrow">
-        <li><a href="origins.html">Origins Book</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com">Contact / Media</a></li>
+    <div data-menu class="mobile-menu md:hidden border-t border-border bg-background">
+      <ul class="container-narrow flex flex-col py-4">
+        <li><a href="origins.html"                         class="block py-3 text-base font-medium">Origins Book</a></li>
+        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="block py-3 text-base font-medium">Substack</a></li>
+        <li><a href="mailto:contact@jarikuikanmaki.com"    class="block py-3 text-base font-medium">Contact / Media</a></li>
       </ul>
     </div>
   </header>
 
-  <!-- Hero / Book -->
+  <!-- HERO / BOOK -->
   <section id="book">
-    <div class="container-narrow grid-12 py-hero">
-      <div class="col-5">
-        <div class="book-cover-wrap">
-          <div class="book-cover-glow" aria-hidden="true"></div>
-          <img class="book-cover" src="assets/book-cover.webp" alt="Cover of Origins of Coronavirus by Jari Kuikanmäki"/>
+    <div class="container-narrow grid gap-12 py-16 sm:py-24 lg:grid-cols-12 lg:gap-16 lg:py-28">
+      <div class="lg:col-span-5">
+        <div class="relative mx-auto max-w-sm lg:max-w-none">
+          <img src="assets/book-cover.webp"
+               alt="Cover of Origins of Coronavirus by Jari Kuikanmäki"
+               width="1200" height="1800"
+               class="book-cover-shadow relative w-full object-contain rounded-md" />
         </div>
       </div>
-      <div class="col-7">
+      <div class="lg:col-span-7 lg:pt-6">
         <span class="eyebrow">New book out now</span>
-        <h1 class="h-display-lg-uc">ORIGINS OF CORONAVIRUS</h1>
-        <p class="subtitle-italic">Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century</p>
-        <p class="kicker-accent">A true crime investigation into the cover-up of the century</p>
-        <p class="lead">
+        <h1 class="mt-6 font-display text-4xl sm:text-5xl lg:text-6xl font-bold uppercase leading-[1.05]">
+          ORIGINS OF CORONAVIRUS
+        </h1>
+        <p class="mt-4 max-w-xl font-display text-lg sm:text-xl font-medium italic leading-snug">
+          Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
+        </p>
+        <p class="mt-6 text-xs font-semibold uppercase tracking-[0.22em] text-accent">
+          A true crime investigation into the cover-up of the century
+        </p>
+        <p class="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-muted-foreground">
           Six years in the making — a gripping investigation into the true origins of
           SARS-CoV-2 and what may be the greatest cover-up of the 21st century.
         </p>
-        <div class="book-meta">
-          <p class="label">Available May 2026</p>
-          <p class="formats">Paperback · Ebook · Audiobook</p>
+
+        <div class="mt-8 border-l-2 border-accent pl-5">
+          <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Available May 2026</p>
+          <p class="mt-2 text-sm sm:text-base">Paperback · Ebook · Audiobook</p>
         </div>
-        <div class="btn-row cta-row">
-          <a class="btn btn-amazon" href="#">
-            Pre-order on Amazon
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-          <a class="btn btn-outline" href="#">Pre-order on Audible</a>
+
+        <div class="mt-10 flex flex-col sm:flex-row gap-3">
+          <a href="#" class="btn btn-amazon">Pre-order on Amazon →</a>
+          <a href="#" class="btn btn-outline">Pre-order on Audible</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Description -->
-  <section id="description" class="section-bordered">
-    <div class="container-narrow py-section">
-      <div class="prose-narrow">
+  <!-- DESCRIPTION -->
+  <section id="description" class="border-t border-border">
+    <div class="container-narrow py-20 lg:py-28">
+      <div class="mx-auto max-w-3xl">
         <span class="eyebrow">About the Book</span>
-        <h2 class="h-section">A True Crime Investigation into the Cover-Up of the Century</h2>
-        <div class="prose-text">
+        <h2 class="mt-6 font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+          A True Crime Investigation into the Cover-Up of the Century
+        </h2>
+
+        <div class="mt-10 space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
           <p>For years, people all over the world were told that the laboratory origin of SARS-CoV-2 was a dangerous conspiracy theory — and that the virus was of natural origin.</p>
-          <p class="highlight">But now, it is time for the truth.</p>
+          <p class="font-display text-xl sm:text-2xl font-semibold text-foreground">But now, it is time for the truth.</p>
           <p>In January 2020, journalist Jari Kuikanmäki began investigating emerging reports of a novel virus in Wuhan, China — and an explosive theory that it may have originated not in nature, but in a laboratory.</p>
           <p>What began as a news story turned into a five-year global investigation — unearthing a tangled web of bioweapons research, scientific cover-ups, government corruption, and clandestine operations at the highest levels of power.</p>
           <p>What was the United States' role in the controversial Wuhan research? What does the evidence truly reveal about the virus's origins? Was this the result of a natural spillover — or something far more sinister?</p>
-          <p>A gripping blend of thriller, investigative journalism, and scientific detective work, <em class="plain">Origins of Coronavirus</em> is a definitive, meticulously researched account that unravels the greatest mystery — and potential crime — of our time.</p>
-          <p>Backed by hundreds of sources and a thorough examination of the available evidence, <em class="plain">Origins of Coronavirus</em> is essential reading for anyone who wants to know how the SARS-CoV-2 pandemic truly began — and how those in power tried to silence the truth.</p>
+          <p>A gripping blend of thriller, investigative journalism, and scientific detective work, <em class="not-italic text-foreground">Origins of Coronavirus</em> is a definitive, meticulously researched account that unravels the greatest mystery — and potential crime — of our time.</p>
+          <p>Backed by hundreds of sources and a thorough examination of the available evidence, <em class="not-italic text-foreground">Origins of Coronavirus</em> is essential reading for anyone who wants to know how the SARS-CoV-2 pandemic truly began — and how those in power tried to silence the truth.</p>
         </div>
-        <div class="btn-row cta-row-lg">
-          <a class="btn btn-amazon" href="#">
-            Pre-order on Amazon
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-          <a class="btn btn-outline" href="#">Pre-order on Audible</a>
+
+        <div class="mt-12 flex flex-col sm:flex-row gap-3">
+          <a href="#" class="btn btn-amazon">Pre-order on Amazon →</a>
+          <a href="#" class="btn btn-outline">Pre-order on Audible</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="section-bordered section-card">
-    <div class="container-narrow grid-12 py-section">
-      <div class="col-4">
+  <!-- ABOUT THE AUTHOR -->
+  <section id="about" class="border-t border-border bg-card">
+    <div class="container-narrow grid gap-12 py-20 lg:grid-cols-12 lg:gap-16 lg:py-28">
+      <div class="lg:col-span-4">
         <span class="eyebrow">About the Author</span>
-        <h2 class="h-author">Jari Kuikanmäki</h2>
-        <div class="author-portrait-sm">
-          <img src="assets/author-portrait-thumb.webp" alt="Portrait of journalist Jari Kuikanmäki" width="256" height="256" loading="lazy" />
+        <h2 class="mt-6 font-display text-3xl sm:text-4xl font-bold leading-tight">Jari Kuikanmäki</h2>
+        <div class="mt-8 max-w-[220px]">
+          <img src="assets/author-portrait-thumb.webp"
+               alt="Portrait of journalist Jari Kuikanmäki"
+               width="256" height="256" loading="lazy"
+               class="aspect-square w-full rounded-md object-cover" />
         </div>
       </div>
-      <div class="col-8">
-        <div class="prose-text" style="margin-top:0;">
-          <p>Jari Kuikanmäki is an investigative journalist, podcast host, and producer with a background in Finnish national television. He holds a BSc in Political Science from the University of Helsinki and an MSc in Media and Communications from the London School of Economics.</p>
-          <p style="color:hsl(var(--foreground));"><em class="plain">Origins of Coronavirus</em> is his first book.</p>
-        </div>
-        <div class="btn-row" style="margin-top:1.5rem;">
-          <a class="btn btn-outline" href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Jari Kuikanmäki's Substack</a>
-          <a class="btn btn-outline" href="https://x.com/jarikuikanmaki" target="_blank" rel="noopener noreferrer">Follow @jarikuikanmaki on X</a>
+      <div class="lg:col-span-8 lg:pt-20 space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
+        <p>Jari Kuikanmäki is an investigative journalist, podcast host, and producer with a background in Finnish national television. He holds a BSc in Political Science from the University of Helsinki and an MSc in Media and Communications from the London School of Economics.</p>
+        <p class="text-foreground"><em class="not-italic">Origins of Coronavirus</em> is his first book.</p>
+        <div class="flex flex-col sm:flex-row gap-3 pt-2">
+          <a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Jari Kuikanmäki's Substack</a>
+          <a href="https://x.com/jarikuikanmaki"         target="_blank" rel="noopener noreferrer" class="btn btn-outline">Follow @jarikuikanmaki on X</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container-narrow footer-inner">
+  <!-- FOOTER -->
+  <footer class="border-t border-border">
+    <div class="container-narrow flex flex-col gap-6 py-10 sm:flex-row sm:items-center sm:justify-between">
       <div>
-        <p class="footer-brand">Jari Kuikanmäki</p>
-        <p class="footer-copy">© <span data-year>2026</span> All rights reserved. Helsinki, Finland.</p>
+        <p class="font-display text-sm font-bold">Jari Kuikanmäki</p>
+        <p class="mt-1 text-xs text-muted-foreground">
+          © <span data-year>2026</span> All rights reserved. Helsinki, Finland.
+        </p>
       </div>
-      <ul class="footer-links">
-        <li><a href="origins.html">Origins Book</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com">Contact / Media</a></li>
+      <ul class="flex flex-wrap gap-x-6 gap-y-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+        <li><a href="origins.html"                         class="hover:text-foreground">Origins Book</a></li>
+        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="hover:text-foreground">Substack</a></li>
+        <li><a href="mailto:contact@jarikuikanmaki.com"    class="hover:text-foreground">Contact / Media</a></li>
       </ul>
     </div>
   </footer>

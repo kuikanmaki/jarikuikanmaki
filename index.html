@@ -2,131 +2,201 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <!-- CRITICAL for mobile: tells the browser to use device width instead of zooming out -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Jari Kuikanmäki — Investigative Journalist & Podcaster</title>
-  <meta name="description" content="Official site of Jari Kuikanmäki." />
+  <meta name="description" content="Official site of Jari Kuikanmäki — investigative journalist, independent media producer and podcaster covering crime, power and accountability." />
   <meta name="author" content="Jari Kuikanmäki" />
-  <meta property="og:title" content="Jari Kuikanmäki | Origins of Coronavirus" />
-  <meta property="og:description" content="Investigative journalist Jari Kuikanmäki's six-year investigation into the true origins of SARS-CoV-2. Origins of Coronavirus examines the lab leak theory, scientific conflicts of interest, and the greatest cover-up of the 21st century." />
+
+  <meta property="og:title" content="Jari Kuikanmäki — Investigative Journalist" />
+  <meta property="og:description" content="Long-form investigations, podcasts and a debut book on stories that powerful people would rather see buried." />
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN — no build step, GitHub Pages friendly -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Map Tailwind's color/font names to our design tokens (defined in styles.css).
+    // This lets us use familiar utilities like `text-foreground`, `bg-card`,
+    // `font-display`, `border-border`, `text-accent`, etc.
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans:    ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['"Space Grotesk"', 'Inter', 'sans-serif'],
+          },
+          colors: {
+            background: 'hsl(var(--background))',
+            foreground: 'hsl(var(--foreground))',
+            card:       'hsl(var(--card))',
+            border:     'hsl(var(--border))',
+            accent:     'hsl(var(--accent))',
+            muted: { foreground: 'hsl(var(--muted-foreground))' },
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Our small custom stylesheet (tokens, helper classes, button styles) -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <!-- Header -->
+
+<body class="bg-background text-foreground font-sans overflow-x-hidden">
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+       Desktop nav is hidden on mobile (md:flex). Hamburger is hidden
+       on desktop (md:hidden). Mobile menu lives directly under the
+       <nav> and is toggled by JavaScript.
+       ============================================================ -->
   <header class="site-header">
-    <nav class="container-narrow nav">
-      <a href="#top" class="brand">JARI KUIKANMÄKI</a>
-      <ul class="nav-links">
-        <li><a href="origins.html">Origins</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com">Contact / Media</a></li>
+    <nav class="container-narrow flex h-16 items-center justify-between">
+      <a href="#top" class="font-display text-base sm:text-lg font-bold uppercase tracking-tight">
+        JARI KUIKANMÄKI
+      </a>
+
+      <!-- Desktop nav (visible from 768px and up) -->
+      <ul class="hidden md:flex items-center gap-8">
+        <li><a href="origins.html"                          class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Origins</a></li>
+        <li><a href="https://substack.com/@jarikuikanmaki"  target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Substack</a></li>
+        <li><a href="mailto:contact@jarikuikanmaki.com"     class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Contact / Media</a></li>
       </ul>
-      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
-        <span class="sr-only">Menu</span>
-        <span class="bars"><span></span><span></span><span></span></span>
+
+      <!-- Hamburger button (visible only on mobile) -->
+      <button data-menu-button
+              class="hamburger md:hidden flex flex-col h-10 w-10 items-center justify-center"
+              aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
       </button>
     </nav>
-    <div class="mobile-menu">
-      <ul class="container-narrow">
-        <li><a href="origins.html">Origins</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com">Contact / Media</a></li>
+
+    <!-- Mobile menu (toggled by JS via .open class) -->
+    <div data-menu class="mobile-menu md:hidden border-t border-border bg-background">
+      <ul class="container-narrow flex flex-col py-4">
+        <li><a href="origins.html"                         class="block py-3 text-base font-medium">Origins</a></li>
+        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="block py-3 text-base font-medium">Substack</a></li>
+        <li><a href="mailto:contact@jarikuikanmaki.com"    class="block py-3 text-base font-medium">Contact / Media</a></li>
       </ul>
     </div>
   </header>
 
-  <!-- Hero -->
+  <!-- ============================================================
+       HERO
+       Mobile: stacks vertically (single column).
+       Desktop (lg, 1024px+): becomes a 12-column grid (text 7 / image 5).
+       ============================================================ -->
   <section id="top">
-    <div class="container-narrow grid-12 py-hero">
-      <div class="col-7">
+    <div class="container-narrow grid gap-12 py-16 sm:py-24 lg:grid-cols-12 lg:gap-16 lg:py-32">
+      <div class="lg:col-span-7 lg:pt-8">
         <span class="eyebrow">Investigative journalist · Podcaster</span>
-        <h1 class="h-display text-balance">Jari Kuikanmäki</h1>
-        <p class="lead text-balance">
+        <h1 class="mt-6 font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05]">
+          Jari Kuikanmäki
+        </h1>
+        <p class="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-muted-foreground">
           Here you'll find my latest work, including behind-the-scenes research and updates
           from my six-year investigation into the origins of SARS-CoV-2.
         </p>
-        <div class="btn-row cta-row">
-          <a class="btn btn-primary" href="#book">
-            Pre-order book
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-          <a class="btn btn-outline" href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Jari Kuikanmäki's Substack</a>
+        <div class="mt-10 flex flex-col sm:flex-row sm:items-center gap-3">
+          <a href="#book"                                  class="btn btn-primary">Pre-order book →</a>
+          <a href="https://substack.com/@jarikuikanmaki"   target="_blank" rel="noopener noreferrer" class="btn btn-outline">Jari Kuikanmäki's Substack</a>
         </div>
       </div>
-      <div class="col-5">
-        <div class="portrait-wrap">
-          <img class="portrait" src="assets/author-portrait.webp" alt="Portrait of journalist Jari Kuikanmäki"/>
+
+      <div class="lg:col-span-5">
+        <div class="relative mx-auto max-w-md lg:max-w-none">
+          <!-- The width/height attributes act as a hint for aspect ratio only;
+               our CSS rule `img { max-width:100%; height:auto }` keeps it responsive. -->
+          <img src="assets/author-portrait.webp"
+               alt="Portrait of journalist Jari Kuikanmäki"
+               width="1024" height="1024"
+               class="aspect-square w-full rounded-md object-cover" />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Book -->
-  <section id="book" class="section-bordered">
-    <div class="container-narrow grid-12 py-section">
-      <div class="col-5">
-        <div class="book-cover-wrap" style="max-width:260px;">
-          <div class="book-cover-glow" aria-hidden="true"></div>
-          <img class="book-cover" src="assets/book-cover-thumb.webp" alt="Cover of Origins of Coronavirus by Jari Kuikanmäki" loading="lazy" />
+  <!-- ============================================================
+       BOOK SECTION
+       Mobile: book on top, text below.
+       Desktop: book left (5 cols), text right (7 cols).
+       ============================================================ -->
+  <section id="book" class="border-t border-border">
+    <div class="container-narrow grid gap-12 py-20 lg:grid-cols-12 lg:gap-16 lg:py-28">
+      <div class="lg:col-span-5">
+        <div class="relative mx-auto max-w-[220px] sm:max-w-[260px]">
+          <img src="assets/book-cover-thumb.webp"
+               alt="Cover of Origins of Coronavirus by Jari Kuikanmäki"
+               width="1200" height="1800" loading="lazy"
+               class="book-cover-shadow relative w-full object-contain rounded-md" />
         </div>
       </div>
-      <div class="col-7">
+
+      <div class="lg:col-span-7 lg:pt-6">
         <span class="eyebrow">New book out now</span>
-        <h2 class="h-display-lg-uc">ORIGINS OF CORONAVIRUS</h2>
-        <p class="subtitle-italic">Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century</p>
-        <p class="kicker-accent">A true crime investigation into the cover-up of the century</p>
-        <p class="lead">
+        <h2 class="mt-6 font-display text-4xl sm:text-5xl font-bold uppercase leading-[1.05]">
+          ORIGINS OF CORONAVIRUS
+        </h2>
+        <p class="mt-4 max-w-xl font-display text-lg sm:text-xl font-medium leading-snug">
+          Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
+        </p>
+        <p class="mt-6 text-xs font-semibold uppercase tracking-[0.22em] text-accent">
+          A true crime investigation into the cover-up of the century
+        </p>
+        <p class="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-muted-foreground">
           Six years in the making — a gripping investigation into the true origins of
           SARS-CoV-2 and what may be the greatest cover-up of the 21st century.
         </p>
-        <div class="book-meta">
-          <p class="label">Available May 2026</p>
-          <p class="formats">Paperback · Ebook · Audiobook (Audible and other major platforms)</p>
+
+        <div class="mt-8 border-l-2 border-accent pl-5">
+          <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Available May 2026</p>
+          <p class="mt-2 text-sm sm:text-base">Paperback · Ebook · Audiobook (Audible and other major platforms)</p>
         </div>
-        <div class="btn-row cta-row">
-          <a class="btn btn-primary" href="#">Pre-order</a>
-          <a class="btn btn-outline" href="origins.html">Learn more</a>
+
+        <div class="mt-10 flex flex-col sm:flex-row gap-3">
+          <a href="#"             class="btn btn-primary">Pre-order</a>
+          <a href="origins.html"  class="btn btn-outline">Learn more</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section-bordered">
-    <div class="container-narrow py-section">
-      <div class="contact-wrap">
-        <span class="eyebrow center">Get in touch</span>
-        <h2 class="h-section text-balance">For Media</h2>
-        <p class="lead text-balance" style="margin-left:auto;margin-right:auto;">
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section id="contact" class="border-t border-border">
+    <div class="container-narrow py-20 lg:py-28">
+      <div class="mx-auto max-w-3xl text-center">
+        <span class="eyebrow eyebrow-center">Get in touch</span>
+        <h2 class="mt-6 font-display text-3xl sm:text-5xl font-bold leading-tight">For Media</h2>
+        <p class="mt-5 text-base sm:text-lg text-muted-foreground">
           For media inquiries, interviews, advance review copies, speaking engagements,
-          or other press matters regarding <em style="font-style:normal;">Origins of Coronavirus</em>,
+          or other press matters regarding <em class="not-italic">Origins of Coronavirus</em>,
           please contact:
         </p>
-        <div style="margin-top:2.5rem;">
-          <a class="btn btn-primary" href="mailto:contact@jarikuikanmaki.com">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            contact@jarikuikanmaki.com
-          </a>
+        <div class="mt-10">
+          <a href="mailto:contact@jarikuikanmaki.com" class="btn btn-primary">✉ contact@jarikuikanmaki.com</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container-narrow footer-inner">
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="border-t border-border">
+    <div class="container-narrow flex flex-col gap-6 py-10 sm:flex-row sm:items-center sm:justify-between">
       <div>
-        <p class="footer-brand">Jari Kuikanmäki</p>
-        <p class="footer-copy">© <span data-year>2026</span> All rights reserved. Helsinki, Finland.</p>
+        <p class="font-display text-sm font-bold">Jari Kuikanmäki</p>
+        <p class="mt-1 text-xs text-muted-foreground">
+          © <span data-year>2026</span> All rights reserved. Helsinki, Finland.
+        </p>
       </div>
-      <ul class="footer-links">
-        <li><a href="origins.html">Origins Book</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com">Contact / Media</a></li>
+      <ul class="flex flex-wrap gap-x-6 gap-y-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+        <li><a href="origins.html"                         class="hover:text-foreground">Origins Book</a></li>
+        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="hover:text-foreground">Substack</a></li>
+        <li><a href="mailto:contact@jarikuikanmaki.com"    class="hover:text-foreground">Contact / Media</a></li>
       </ul>
     </div>
   </footer>
