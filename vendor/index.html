@@ -208,7 +208,7 @@
           // #id, <a href="#url" target="_blank">#author, <i>#title</i>, #publication, #date, #type. </a><br>
           return id + ', <a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
                  author + ', <i>' + title + '</i>, ' +
-                 publication + ', ' + date + ', ' + type + '. </a><br>';
+                 publication + ', ' + date + '</a><br>';
         }).join("\n");
 
         outEl.innerHTML = html;
