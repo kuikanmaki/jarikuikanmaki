@@ -3,21 +3,120 @@
   "sources": [
     {
       "id": 1,
-      "type": "Type",
-      "author": "Author name(s)",
-      "title": "Source title",
-      "publication": "Publication",
-      "date": "00-00-0000",
-      "url": "#"
+      "author": "Qiu, Jane",
+      "title": "How China's 'Bat Woman' Hunted Down Viruses from SARS to the New Coronavirus",
+      "publication": "Scientific American",
+      "date": "June 1, 2020",
+      "url": "https://www.scientificamerican.com/article/how-chinas-bat-woman-hunted-down-viruses-from-sars-to-the-new-coronavirus1/",
+      "type": ""
     },
     {
       "id": 2,
-      "type": "Type",
-      "author": "Author name(s)",
-      "title": "Source title",
-      "publication": "Publication",
-      "date": "00-00-0000",
-      "url": "#"
+      "author": "Cyranoski, David",
+      "title": "Inside the Chinese lab poised to study world's most dangerous pathogens",
+      "publication": "Nature",
+      "date": "February 23, 2017",
+      "url": "https://www.nature.com/articles/nature.2017.21487",
+      "type": ""
+    },
+    {
+      "id": 3,
+      "author": "Birrell, Ian",
+      "title": "How China muzzled its Bat Woman: Beijing authorities hushed up the findings of a scientist who unlocked the genetic make-up of the coronavirus",
+      "publication": "Daily Mail",
+      "date": "April 11, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-8210951/Beijing-authorities-hushed-findings-Chinese-scientist.html",
+      "type": ""
+    },
+    {
+      "id": 4,
+      "author": "Cohen, Jon",
+      "title": "Trump ‘owes us an apology.' Chinese scientist at the center of COVID-19 origin theories speaks out",
+      "publication": "Science",
+      "date": "July 24, 2020",
+      "url": "https://www.science.org/content/article/trump-owes-us-apology-chinese-scientist-center-covid-19-origin-theories-speaks-out",
+      "type": ""
+    },
+    {
+      "id": 5,
+      "author": "Qiu, Jane",
+      "title": "Meet the scientist at the center of the covid lab leak controversy",
+      "publication": "Scientific American",
+      "date": "February 9, 2022",
+      "url": "https://www.technologyreview.com/2022/02/09/1044985/shi-zhengli-covid-lab-leak-wuhan",
+      "type": ""
+    },
+    {
+      "id": 6,
+      "author": "Dou, Eva, et al.",
+      "title": "Inside the Wuhan lab: French engineering, deadly viruses, and a big mystery",
+      "publication": "Washington Post",
+      "date": "August 7, 2021",
+      "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-covid-china/2021/09/07/f293325c-fb11-11eb-911c-524bc8b68f17_story.html",
+      "type": ""
+    },
+    {
+      "id": 7,
+      "author": "Demaneuf, Gilles",
+      "title": "Wuhan BSL-4: Project Overview. Research by the DRASTIC collective",
+      "publication": "Medium",
+      "date": "May 28, 2022",
+      "url": "https://gillesdemaneuf.medium.com/wuhan-bsl-4-project-overview-80376a165b00",
+      "type": "Blog post"
+    },
+    {
+      "id": 8,
+      "author": "World Health Organization",
+      "title": "Disease Outbreak News: Pneumonia of unknown cause – China",
+      "publication": "WHO",
+      "date": "January 5, 2020",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON229",
+      "type": "Bulletin"
+    },
+    {
+      "id": 9,
+      "author": "ProMED",
+      "title": "UNDIAGNOSED PNEUMONIA - CHINA (HUBEI): REQUEST FOR INFORMATION",
+      "publication": "ProMED",
+      "date": "December 30, 2019",
+      "url": "https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+      "type": "Bulletin"
+    },
+    {
+      "id": 10,
+      "author": "Wuhan Police Bureau",
+      "title": "Li Wenliang Admonishment letter",
+      "publication": "Weibo",
+      "date": "January 3, 2020",
+      "url": "https://web.archive.org/web/20200206144253/http://www.bjnews.com.cn/feature/2020/01/31/682076.html",
+      "type": "Official document"
+    },
+    {
+      "id": 11,
+      "author": "Tan, Jianxing",
+      "title": "Li Wenliang, the “whistleblower” of the coronavirus outbreak: Truth matters more than rehabilitation",
+      "publication": "Caixin",
+      "date": "January 31, 2020",
+      "url": "https://web.archive.org/web/20200131074029/http://china.caixin.com/2020-01-31/101509761.html",
+      "type": ""
+    },
+    {
+      "id": 12,
+      "author": "People's Daily Client",
+      "title": "Wuhan’s unexplained pneumonia cases cannot be confirmed as SARS; 7 patients in critical condition",
+      "publication": "People's Daily",
+      "date": "December 31, 2019",
+      "url": "https://web.archive.org/web/20200315052717/http://news.iqilu.com/china/gedi/2019/1231/4407838.shtml",
+      "type": ""
+    },
+    {
+      "id": 13,
+      "author": "BBC News",
+      "title": "Li Wenliang: Coronavirus kills Chinese whistleblower doctor",
+      "publication": "BBC News",
+      "date": "February 7, 2020",
+      "url": "https://www.bbc.com/news/world-asia-china-51403795",
+      "type": ""
     }
   ]
 }
