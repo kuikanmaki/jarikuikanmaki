@@ -29,25 +29,30 @@
       margin: 2rem 0 0.75rem;
     }
 
-    /* ---------- Chapter index list ---------- */
+    /* ---------- Chapter index list (inline, "|"-separated) ---------- */
     #chapter-list {
-      list-style: none;
-      padding: 0;
       margin: 0 0 2rem;
+      padding: 0.75rem 0;
       border-top: 1px solid #e5e5e5;
-    }
-    #chapter-list li {
       border-bottom: 1px solid #e5e5e5;
+      line-height: 1.9;       /* breathing room when links wrap to new lines */
+      word-spacing: 0.15rem;  /* small visual gap around the "|" separators */
     }
+    
     #chapter-list a {
-      display: block;
-      padding: 0.75rem 0.25rem;
       color: #0645ad;
       text-decoration: none;
     }
+    
     #chapter-list a:hover,
-    #chapter-list a:focus { text-decoration: underline; }
-    #chapter-list a.active { font-weight: 600; color: #111; }
+    #chapter-list a:focus {
+      text-decoration: underline;
+    }
+    
+    #chapter-list a.active {
+      font-weight: 600;
+      color: #111;
+    }
 
     /* ---------- Sources output ---------- */
     #sources-output {
@@ -69,9 +74,10 @@
        Select a chapter to view its sources.</p>
 
     <h2>Chapters</h2>
-    <ul id="chapter-list" aria-label="Chapter list">
-      <li class="status">Loading chapters…</li>
-    </ul>
+    
+    <div id="chapter-list" aria-label="Chapter list">
+      <span class="status">Loading chapters…</span>
+    </div>
 
     <h2 id="sources-heading" hidden>Sources</h2>
     <div id="sources-output" aria-live="polite"></div>
@@ -123,15 +129,16 @@
             escapeHtml(err.message) + "</li>";
         });
 
-      // ---------- Render chapter index ----------
+      // ---------- Render chapter index (inline, "|"-separated) ----------
       function renderChapterList(chapters) {
         listEl.innerHTML = "";
-        chapters.forEach(function (ch) {
+      
+        chapters.forEach(function (ch, idx) {
           if (!ch || typeof ch.file !== "string" || typeof ch.name !== "string") {
             return; // skip malformed entry
           }
-          const li = document.createElement("li");
-          const a  = document.createElement("a");
+      
+          const a = document.createElement("a");
           a.href = "#chapter-" + ch.number;
           a.textContent = ch.name;
           a.addEventListener("click", function (e) {
@@ -144,8 +151,13 @@
             a.classList.add("active");
             loadChapter(ch);
           });
-          li.appendChild(a);
-          listEl.appendChild(li);
+      
+          listEl.appendChild(a);
+      
+          // Add " | " separator between links (not after the last one)
+          if (idx < chapters.length - 1) {
+            listEl.appendChild(document.createTextNode(" | "));
+          }
         });
       }
 
