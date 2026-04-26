@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sources — Origins of Coronavirus</title>
+  <meta name="description" content="Source references for Origins of Coronavirus by Jari Kuikanmäki, organised by chapter." />
+  <style>
+    /* ---------- Base layout ---------- */
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.55;
+      color: #111;
+      background: #fff;
+      padding: 2rem 1.25rem 4rem;
+    }
+    .wrap { max-width: 820px; margin: 0 auto; }
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      margin: 0 0 1.5rem;
+      letter-spacing: -0.01em;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 0.75rem;
+    }
+
+    /* ---------- Chapter index list ---------- */
+    #chapter-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2rem;
+      border-top: 1px solid #e5e5e5;
+    }
+    #chapter-list li {
+      border-bottom: 1px solid #e5e5e5;
+    }
+    #chapter-list a {
+      display: block;
+      padding: 0.75rem 0.25rem;
+      color: #0645ad;
+      text-decoration: none;
+    }
+    #chapter-list a:hover,
+    #chapter-list a:focus { text-decoration: underline; }
+    #chapter-list a.active { font-weight: 600; color: #111; }
+
+    /* ---------- Sources output ---------- */
+    #sources-output {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e5e5;
+      word-wrap: break-word;
+    }
+    #sources-output a { color: #0645ad; text-decoration: none; }
+    #sources-output a:hover { text-decoration: underline; }
+    .status { color: #666; font-style: italic; }
+    .error { color: #b00020; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Sources</h1>
+    <p>References for <em>Origins of Coronavirus</em>, listed by chapter.
+       Select a chapter to view its sources.</p>
+
+    <h2>Chapters</h2>
+    <ul id="chapter-list" aria-label="Chapter list">
+      <li class="status">Loading chapters…</li>
+    </ul>
+
+    <h2 id="sources-heading" hidden>Sources</h2>
+    <div id="sources-output" aria-live="polite"></div>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const INDEX_URL = "data/sources-index.json";
+      const DATA_DIR  = "data/";
+
+      const listEl    = document.getElementById("chapter-list");
+      const outEl     = document.getElementById("sources-output");
+      const headingEl = document.getElementById("sources-heading");
+
+      // ---------- Helpers ----------
+      function escapeHtml(value) {
+        if (value === undefined || value === null) return "";
+        return String(value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function showError(target, message) {
+        target.innerHTML =
+          '<p class="error">' + escapeHtml(message) + "</p>";
+      }
+
+      // ---------- Load chapter index ----------
+      fetch(INDEX_URL, { cache: "no-cache" })
+        .then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status + " loading index");
+          return res.json();
+        })
+        .then(function (data) {
+          if (!data || !Array.isArray(data.chapters)) {
+            throw new Error("Invalid sources-index.json: missing 'chapters' array");
+          }
+          renderChapterList(data.chapters);
+        })
+        .catch(function (err) {
+          console.error(err);
+          listEl.innerHTML =
+            '<li class="error">Could not load chapter index: ' +
+            escapeHtml(err.message) + "</li>";
+        });
+
+      // ---------- Render chapter index ----------
+      function renderChapterList(chapters) {
+        listEl.innerHTML = "";
+        chapters.forEach(function (ch) {
+          if (!ch || typeof ch.file !== "string" || typeof ch.name !== "string") {
+            return; // skip malformed entry
+          }
+          const li = document.createElement("li");
+          const a  = document.createElement("a");
+          a.href = "#chapter-" + ch.number;
+          a.textContent = ch.name;
+          a.addEventListener("click", function (e) {
+            e.preventDefault();
+            // mark active
+            Array.prototype.forEach.call(
+              listEl.querySelectorAll("a.active"),
+              function (el) { el.classList.remove("active"); }
+            );
+            a.classList.add("active");
+            loadChapter(ch);
+          });
+          li.appendChild(a);
+          listEl.appendChild(li);
+        });
+      }
+
+      // ---------- Load + render a chapter's sources ----------
+      function loadChapter(ch) {
+        headingEl.hidden = false;
+        headingEl.textContent = "Sources — " + ch.name;
+        outEl.innerHTML = '<p class="status">Loading sources…</p>';
+
+        fetch(DATA_DIR + ch.file, { cache: "no-cache" })
+          .then(function (res) {
+            if (!res.ok) throw new Error("HTTP " + res.status + " loading " + ch.file);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!data || !Array.isArray(data.sources)) {
+              throw new Error("Invalid file '" + ch.file + "': missing 'sources' array");
+            }
+            renderSources(data.sources);
+          })
+          .catch(function (err) {
+            console.error(err);
+            showError(outEl, "Could not load sources: " + err.message);
+          });
+      }
+
+      // ---------- Render sources list ----------
+      function renderSources(sources) {
+        if (sources.length === 0) {
+          outEl.innerHTML = '<p class="status">No sources listed for this chapter.</p>';
+          return;
+        }
+
+        const html = sources.map(function (s) {
+          if (!s || typeof s !== "object") {
+            return '<span class="error">[Skipped invalid source entry]</span><br>';
+          }
+          // Required pieces are tolerated as missing — show what we have.
+          const id  = escapeHtml(s.id != null ? s.id : "?");
+          const url = (typeof s.url === "string" && s.url) ? s.url : "#";
+          const author      = escapeHtml(s.author);
+          const title       = escapeHtml(s.title);
+          const publication = escapeHtml(s.publication);
+          const date        = escapeHtml(s.date);
+          const type        = escapeHtml(s.type);
+
+          // Build the inner text per the spec:
+          // #id, <a href="#url" target="_blank">#author, <i>#title</i>, #publication, #date, #type. </a><br>
+          return id + ', <a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+                 author + ', <i>' + title + '</i>, ' +
+                 publication + ', ' + date + ', ' + type + '. </a><br>';
+        }).join("\n");
+
+        outEl.innerHTML = html;
+      }
+    })();
+  </script>
+</body>
+</html>

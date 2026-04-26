@@ -1,0 +1,23 @@
+{
+  "chapter": 15,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Type",
+      "author": "Author name(s)",
+      "title": "Source title",
+      "publication": "Publication",
+      "date": "00-00-0000",
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "type": "Type",
+      "author": "Author name(s)",
+      "title": "Source title",
+      "publication": "Publication",
+      "date": "00-00-0000",
+      "url": "#"
+    }
+  ]
+}
