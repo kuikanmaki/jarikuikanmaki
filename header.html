@@ -1,25 +1,39 @@
-<!--  HEADER  -->
-  <header class="site-header">
-    <nav class="container-narrow flex h-16 items-center justify-between">
-      <a href="/" class="font-display text-base sm:text-lg font-bold uppercase tracking-tight">
-        JARI KUIKANMÄKI
-      </a>
-      <ul class="hidden md:flex items-center gap-8">
-        <li><a href="/origins" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Origins</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Contact / Media</a></li>
-      </ul>
-      <button data-menu-button
-              class="hamburger md:hidden flex flex-col h-10 w-10 items-center justify-center"
-              aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </nav>
-    <div data-menu class="mobile-menu md:hidden border-t border-border bg-background">
-      <ul class="container-narrow flex flex-col py-4">
-        <li><a href="/origins/" rel="noopener noreferrer" class="block py-3 text-base font-medium">Origins</a></li>
-        <li><a href="https://substack.com/@jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="block py-3 text-base font-medium">Substack</a></li>
-        <li><a href="mailto:contact@jarikuikanmaki.com" class="block py-3 text-base font-medium">Contact / Media</a></li>
-      </ul>
-    </div>
-  </header>
+<header class="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur-md">
+  <nav class="container-narrow py-4 md:flex md:h-16 md:items-center md:justify-between md:py-0">
+    <a
+      href="/"
+      class="block font-display text-base font-bold uppercase tracking-tight sm:text-lg"
+    >
+      JARI KUIKANMÄKI
+    </a>
+
+    <ul class="mt-4 flex flex-col gap-3 md:mt-0 md:flex-row md:items-center md:gap-8">
+      <li>
+        <a
+          href="/origins/index.html"
+          class="block text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+        >
+          Origins
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://substack.com/@jarikuikanmaki"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+        >
+          Substack
+        </a>
+      </li>
+      <li>
+        <a
+          href="mailto:contact@jarikuikanmaki.com"
+          class="block text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+        >
+          Contact / Media
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
