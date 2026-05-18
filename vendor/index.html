@@ -215,6 +215,7 @@
             renderSources(data.sources);
       
             // ---------- Load chapter notes (optional) ----------
+            outEl.insertAdjacentHTML("beforeend", '<hr class="my-6 border-border">');
             return fetch("data/notes/" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
               .then(function (res) {
                 if (!res.ok) throw new Error("HTTP " + res.status);
