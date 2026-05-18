@@ -215,7 +215,7 @@
             renderSources(data.sources);
       
             // ---------- Load chapter notes (optional) ----------
-            return fetch("data/notes/chapter-notes-" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
+            return fetch("data/notes/" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
               .then(function (res) {
                 if (!res.ok) throw new Error("HTTP " + res.status);
                 return res.text();
