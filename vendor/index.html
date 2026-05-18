@@ -202,7 +202,7 @@
         headingEl.hidden = false;
         headingEl.textContent = "Sources — " + ch.name;
         outEl.innerHTML = '<p class="status">Loading sources…</p>';
-
+      
         fetch(DATA_DIR + ch.file, { cache: "no-cache" })
           .then(function (res) {
             if (!res.ok) throw new Error("HTTP " + res.status + " loading " + ch.file);
@@ -213,12 +213,26 @@
               throw new Error("Invalid file '" + ch.file + "': missing 'sources' array");
             }
             renderSources(data.sources);
+      
+            // ---------- Load chapter notes (optional) ----------
+            return fetch("data/notes/chapter-notes-" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
+              .then(function (res) {
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                return res.text();
+              })
+              .then(function (html) {
+                outEl.insertAdjacentHTML("beforeend", html);
+              })
+              .catch(function (err) {
+                console.warn("No notes for chapter " + ch.number + ":", err.message);
+              });
           })
           .catch(function (err) {
             console.error(err);
             showError(outEl, "Could not load sources: " + err.message);
           });
       }
+
 
       // ---------- Render sources list ----------
       function renderSources(sources) {
