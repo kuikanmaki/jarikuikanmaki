@@ -1,0 +1,50 @@
+{
+  "chapter": 2,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Newspaper article",
+      "author": "Gertz, Bill",
+      "title": "Coronavirus link to China biowarfare program possible, analyst says",
+      "publication": "Washington Times",
+      "date": "January 26, 2020",
+      "url": "https://www.washingtontimes.com/news/2020/jan/26/coronavirus-link-to-china-biowarfare-program-possi/"
+    },
+    {
+      "id": 2,
+      "type": "Book",
+      "author": "Hoffman, David",
+      "title": "The Dead Hand: The Untold Story of the Cold War Arms Race and Its Dangerous Legacy",
+      "publication": "Doubleday",
+      "date": "September 22, 2009",
+      "url": "https://www.amazon.com/Dead-Hand-Untold-Dangerous-Legacy/dp/0385524374"
+    },
+    {
+      "id": 3,
+      "type": "Book",
+      "author": "Alibek, Ken, with Handelman, Stephen",
+      "title": "Biohazard: The Chilling True Story of the Largest Covert Biological Weapons Program in the World—Told from Inside by the Man Who Ran It",
+      "publication": "Random House",
+      "date": "1999",
+      "url": "https://www.amazon.com/Biohazard-Chilling-Largest-Biological-World-Told/dp/0385334966"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Branswell, Helen",
+      "title": "WHO says mysterious illness in China likely being caused by new virus",
+      "publication": "STAT News",
+      "date": "January 8, 2020",
+      "url": "https://www.statnews.com/2020/01/08/who-says-mysterious-illness-in-china-likely-being-caused-by-new-virus/"
+    },
+    {
+      "id": 5,
+      "type": "Journal article",
+      "author": "Rozo, Michelle, and Gigi Kwik Gronvall",
+      "title": "The reemergent 1977 H1N1 strain and the gain-of-function debate",
+      "publication": "mBio",
+      "date": "August 18, 2015",
+      "url": "https://journals.asm.org/doi/10.1128/mbio.01013-15"
+    }
+  ]
+}

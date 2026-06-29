@@ -1,0 +1,158 @@
+{
+  "chapter": 6,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Furmanski, Martin",
+      "title": "Threatened pandemics and laboratory escapes: Self-fulfilling prophecies",
+      "publication": "Bulletin of the Atomic Scientists",
+      "date": "March 31, 2014",
+      "url": "https://thebulletin.org/2014/03/threatened-pandemics-and-laboratory-escapes-self-fulfilling-prophecies/"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Shih, Gerry, et al.",
+      "title": "Early missteps and state secrecy in China probably allowed the coronavirus to spread farther and faster",
+      "publication": "Washington Post",
+      "date": "February 1, 2020",
+      "url": "https://www.washingtonpost.com/world/2020/02/01/early-missteps-state-secrecy-china-likely-allowed-coronavirus-spread-farther-faster/"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Kuo, Lily",
+      "title": "Coronavirus: journalist missing in Wuhan as anger towards Chinese authorities grows",
+      "publication": "The Guardian",
+      "date": "February 10, 2020",
+      "url": "https://www.theguardian.com/world/2020/feb/10/coronavirus-journalist-missing-in-wuhan-as-anger-towards-chinese-authorities-grows"
+    },
+    {
+      "id": 4,
+      "type": "Report",
+      "author": "",
+      "title": "Russian Disinformation Apparatus Taking Advantage of Coronavirus Concerns",
+      "publication": "GEC",
+      "date": "February 14, 2020",
+      "url": "https://irp.fas.org/eprint/gec-disinfo.pdf"
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "",
+      "title": "Russia-linked disinformation campaign fueling coronavirus alarm, US says",
+      "publication": "AFP / France 24",
+      "date": "February 22, 2020",
+      "url": "https://www.france24.com/en/20200222-russia-linked-disinformation-campaign-fueling-coronavirus-alarm-us-says"
+    },
+    {
+      "id": 6,
+      "type": "Declassified report",
+      "author": "",
+      "title": "An Analysis of Circumstantial Evidence for Wuhan Labs as the Source of the Coronavirus",
+      "publication": "US State Department",
+      "date": "March 24, 2022",
+      "url": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-Circumstantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf"
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "Choi, David",
+      "title": "Republican senator suggests 'worse than Chernobyl' coronavirus could've come from Chinese 'superlaboratory'",
+      "publication": "Business Insider",
+      "date": "February 4, 2020",
+      "url": "https://www.businessinsider.com/tom-cotton-coronavirus-come-from-chinese-super-laboratory-2020-2"
+    },
+    {
+      "id": 8,
+      "type": "News article",
+      "author": "Stevenson, Alexandra",
+      "title": "Senator Tom Cotton Repeats Fringe Theory of Coronavirus Origins",
+      "publication": "New York Times",
+      "date": "February 17, 2020",
+      "url": "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html"
+    },
+    {
+      "id": 9,
+      "type": "News article",
+      "author": "Firozi, Paulina",
+      "title": "Tom Cotton repeats debunked conspiracy theory about coronavirus",
+      "publication": "Washington Post",
+      "date": "February 17, 2020",
+      "url": "https://www.washingtonpost.com/politics/2020/02/16/tom-cotton-coronavirus-conspiracy/"
+    },
+    {
+      "id": 10,
+      "type": "Journal article",
+      "author": "Andersen, Kristian, et al.",
+      "title": "The proximal origin of SARS-CoV-2",
+      "publication": "Nature Medicine",
+      "date": "March 17, 2020",
+      "url": "https://www.nature.com/articles/s41591-020-0820-9"
+    },
+    {
+      "id": 11,
+      "type": "Investigative article",
+      "author": "Suryanarayanan, Sainath",
+      "title": "EcoHealth Alliance Orchestrated Key Scientists’ Statement on Natural Origin of SARS‑CoV‑2",
+      "publication": "U.S. Right to Know",
+      "date": "November 18, 2020",
+      "url": "https://usrtk.org/covid-19-origins/ecohealth-alliance-orchestrated-key-scientists-statement-on-natural-origin-of-sars-cov-2/"
+    },
+    {
+      "id": 12,
+      "type": "Article",
+      "author": "Wade, Nicholas",
+      "title": "Proximal Orchestrations",
+      "publication": "City Journal",
+      "date": "December 4, 2022",
+      "url": "https://www.city-journal.org/article/proximal-orchestrations"
+    },
+    {
+      "id": 13,
+      "type": "Investigative article",
+      "author": "Kopp, Emily",
+      "title": "Timeline: The Proximal Origin of SARS-CoV-2",
+      "publication": "U.S. Right to Know",
+      "date": "April 11, 2023",
+      "url": "https://usrtk.org/covid-19-origins/timeline-the-proximal-origin-of-sars-cov-2/"
+    },
+    {
+      "id": 14,
+      "type": "Letter",
+      "author": "Calisher, Charles, et al.",
+      "title": "Statement in support of the scientists, public health professionals, and medical professionals of China combatting COVID-19",
+      "publication": "The Lancet",
+      "date": "February 19, 2020",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext"
+    },
+    {
+      "id": 15,
+      "type": "News article",
+      "author": "Cohen, Jon",
+      "title": "Scientists ‘strongly condemn' rumors and conspiracy theories about origin of coronavirus outbreak",
+      "publication": "Science",
+      "date": "February 19, 2020",
+      "url": "https://www.science.org/content/article/scientists-strongly-condemn-rumors-and-conspiracy-theories-about-origin-coronavirus"
+    },
+    {
+      "id": 16,
+      "type": "Book",
+      "author": "Farrar, Jeremy, and Ahuja, Anjana",
+      "title": "Spike: The Virus vs. the People – The Inside Story",
+      "publication": "Profile Books",
+      "date": "July 22, 2021",
+      "url": "https://www.amazon.com/Spike-Virus-People-Inside-Story-ebook/dp/B08X671H6M"
+    },
+    {
+      "id": 17,
+      "type": "News article",
+      "author": "Mishra, Manas, and Dey, Mrinmay",
+      "title": "WHO appoints Jeremy Farrar as chief scientist",
+      "publication": "Reuters",
+      "date": "December 13, 2022",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-appoints-jeremy-farrar-chief-scientist-2022-12-13"
+    }
+  ]
+}

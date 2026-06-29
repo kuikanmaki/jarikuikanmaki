@@ -1,0 +1,221 @@
+{
+  "chapter": 8,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Kontis, Vasilis, et al.",
+      "title": "Magnitude, demographics and dynamics of the effect of the first wave of the COVID‑19 pandemic on all‑cause mortality in 21 industrialized countries",
+      "publication": "Nature Medicine",
+      "date": "October 14, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33057181/"
+    },
+    {
+      "id": 2,
+      "type": "Official report",
+      "author": "",
+      "title": "The First Phase of the Coronavirus Epidemic in Finland in 2020",
+      "publication": "Safety Investigation Authority of Finland (SIAF)",
+      "date": "June 30, 2021",
+      "url": "https://www.turvallisuustutkinta.fi/material/collections/20210630071110/7RRUvNDBZ/P2020-01_Korona.pdf"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Joseph, Andrew",
+      "title": "First Covid-19 reinfection documented in Hong Kong, researchers say",
+      "publication": "Stat News",
+      "date": "August 24, 2020",
+      "url": "https://www.statnews.com/2020/08/24/first-covid-19-reinfection-documented-in-hong-kong-researchers-say/"
+    },
+    {
+      "id": 4,
+      "type": "Technical document",
+      "author": "",
+      "title": "Historical working definitions and primary actions for SARS-CoV-2 variants",
+      "publication": "WHO",
+      "date": "March 15, 2023",
+      "url": "https://www.who.int/publications/m/item/historical-working-definitions-and-primary-actions-for-sars-cov-2-variants"
+    },
+    {
+      "id": 5,
+      "type": "Press release",
+      "author": "",
+      "title": "Pfizer and BioNTech Announce Vaccine Candidate Against COVID-19 Achieved Success in First Interim Analysis from Phase 3 Study",
+      "publication": "Pfizer",
+      "date": "November 9, 2020",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-vaccine-candidate-against"
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "Gallagher, James",
+      "title": "Covid vaccine: First 'milestone' vaccine offers 90% protection",
+      "publication": "BBC News",
+      "date": "November 9, 2020",
+      "url": "https://www.bbc.com/news/health-54873105"
+    },
+    {
+      "id": 7,
+      "type": "Official webpage",
+      "author": "",
+      "title": "Identifying conspiracy theories",
+      "publication": "European Commission",
+      "date": "2020",
+      "url": "https://commission.europa.eu/strategy-and-policy/coronavirus-response/fighting-disinformation/identifying-conspiracy-theories_en#conspiracy-theories-the-link-to-covid-19"
+    },
+    {
+      "id": 8,
+      "type": "News article",
+      "author": "Owen, Glen",
+      "title": "Army spied on lockdown critics: Sceptics, including Peter Hitchens, suspected they being watched",
+      "publication": "Daily Mail",
+      "date": "January 28, 2023",
+      "url": "https://www.dailymail.co.uk/news/article-11687675/Army-spied-lockdown-critics-Sceptics-including-Peter-Hitchens-suspected-watched.html"
+    },
+    {
+      "id": 9,
+      "type": "Journal article",
+      "author": "Liu, Ping, et al.",
+      "title": "Are pangolins the intermediate host of the 2019 novel coronavirus (SARS-CoV-2)?",
+      "publication": "PLOS Pathogens",
+      "date": "May 14, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32407364/"
+    },
+    {
+      "id": 10,
+      "type": "News article",
+      "author": "Myers, Steven, and Chris Buckley",
+      "title": "China Created a Fail-Safe System to Track Contagions. It Failed.",
+      "publication": "New York Times",
+      "date": "March 29, 2020",
+      "url": "https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html"
+    },
+    {
+      "id": 11,
+      "type": "News article",
+      "author": "Chen, Frank",
+      "title": "China Seeks to Flip the Script on COVID-19 Origins",
+      "publication": "Asia Times",
+      "date": "November 4, 2020",
+      "url": "https://asiatimes.com/2020/11/china-seeks-to-flip-the-script-on-covid-blame-game/"
+    },
+    {
+      "id": 12,
+      "type": "News article",
+      "author": "Cohen, Zachary, et al.",
+      "title": "Trump's claim he's seen evidence coronavirus originated in China lab contradicts US intel community",
+      "publication": "CNN",
+      "date": "May 1, 2020",
+      "url": "https://edition.cnn.com/2020/04/30/politics/trump-intelligence-community-china-coronavirus-origins/index.html"
+    },
+    {
+      "id": 13,
+      "type": "News video",
+      "author": "Raddatz, Martha",
+      "title": "China's coronavirus response was a 'classic communist disinformation effort': Pompeo",
+      "publication": "ABC News",
+      "date": "May 3, 2020",
+      "url": "https://youtu.be/fRea4yIE7_8?t=468"
+    },
+    {
+      "id": 14,
+      "type": "News article",
+      "author": "Sabbagh, Dan",
+      "title": "Five Eyes network contradicts theory Covid-19 leaked from lab",
+      "publication": "Guardian",
+      "date": "May 4, 2020",
+      "url": "https://www.theguardian.com/world/2020/may/04/five-eyes-network-contradicts-theory-covid-19-leaked-from-lab"
+    },
+    {
+      "id": 15,
+      "type": "News article",
+      "author": "Markson, Sharri",
+      "title": "Coronavirus NSW: Dossier lays out case against China bat virus program",
+      "publication": "Daily Telegraph",
+      "date": "May 4, 2020",
+      "url": "https://www.dailytelegraph.com.au/coronavirus/bombshell-dossier-lays-out-case-against-chinese-bat-virus-program/news-story/55add857058731c9c71c0e96ad17da60"
+    },
+    {
+      "id": 16,
+      "type": "Official statement",
+      "author": "",
+      "title": "Intelligence Community Statement on Origins of COVID-19",
+      "publication": "ODNI",
+      "date": "April 30, 2020",
+      "url": "https://web.archive.org/web/20200430150704/https://www.dni.gov/index.php/newsroom/press-releases/item/2112-intelligence-community-statement-on-origins-of-covid-19"
+    },
+    {
+      "id": 17,
+      "type": "News article",
+      "author": "Strobel, Warren P., and Dustin Volz",
+      "title": "In Rare Move, U.S. Intelligence Agencies Confirm Investigating if Coronavirus Emerged From Lab Accident",
+      "publication": "Wall Street Journal",
+      "date": "April 30, 2020",
+      "url": "https://www.wsj.com/articles/u-s-intelligence-agencies-say-coronavirus-originated-in-china-wasnt-man-madeor-genetically-modified-11588260228"
+    },
+    {
+      "id": 18,
+      "type": "Report",
+      "author": "",
+      "title": "Project Evidence, Evidence SARS-CoV-2 Emerged From a Biological Laboratory in Wuhan, China",
+      "publication": "",
+      "date": "",
+      "url": "https://web.archive.org/web/20200427205921/https://project-evidence.github.io/"
+    },
+    {
+      "id": 19,
+      "type": "Journal article",
+      "author": "Zhou, Shen, et al.",
+      "title": "A conserved region of nonstructural protein 1 from alphacoronaviruses inhibits host gene expression and is critical for viral virulence",
+      "publication": "Journal of Biological Chemistry",
+      "date": "July 26, 2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6746460/"
+    },
+    {
+      "id": 20,
+      "type": "News article",
+      "author": "Zhuang, Pinghui",
+      "title": "Chinese laboratory that first shared coronavirus genome with world ordered to close for ‘rectification’",
+      "publication": "South China Morning Post",
+      "date": "February 28, 2020",
+      "url": "https://www.scmp.com/news/china/society/article/3052966/chinese-laboratory-first-shared-coronavirus-genome-world-ordered"
+    },
+    {
+      "id": 21,
+      "type": "News article",
+      "author": "Gao, Yu, et al.",
+      "title": "How early signs of the coronavirus were spotted, spread and throttled in China",
+      "publication": "The Straits Times",
+      "date": "February 28, 2020",
+      "url": "https://www.straitstimes.com/asia/east-asia/how-early-signs-of-the-coronavirus-were-spotted-spread-and-throttled-in-china"
+    },
+    {
+      "id": 22,
+      "type": "News article",
+      "author": "Rogin, Josh",
+      "title": "State Department cables warned of safety issues at Wuhan lab studying bat coronaviruses",
+      "publication": "Washington Post",
+      "date": "April 14, 2020",
+      "url": "https://www.washingtonpost.com/opinions/2020/04/14/state-department-cables-warned-safety-issues-wuhan-lab-studying-bat-coronaviruses/"
+    },
+    {
+      "id": 23,
+      "type": "Article",
+      "author": "Fridstrøm, Aksel",
+      "title": "The evidence which suggests that this is no naturally evolved virus",
+      "publication": "Minerva",
+      "date": "July 13, 2020",
+      "url": "https://www.minerva.no/angus-dalgleish-birger-sorensen-coronavirus/the-evidence-which-suggests-that-this-is-no-naturally-evolved-virus/362529"
+    },
+    {
+      "id": 24,
+      "type": "News article",
+      "author": "Gardner, Bill",
+      "title": "Exclusive: Coronavirus began 'as an accident' in Chinese lab, says former MI6 boss",
+      "publication": "Telegraph",
+      "date": "June 3, 2020",
+      "url": "https://www.telegraph.co.uk/news/2020/06/03/exclusive-coronavirus-began-accident-disease-escaped-chinese/"
+    }
+  ]
+}

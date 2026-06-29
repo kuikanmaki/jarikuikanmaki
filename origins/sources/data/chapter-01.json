@@ -1,0 +1,113 @@
+{
+  "chapter": 1,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Personal journal",
+      "author": "Kuikanmäki, Jari",
+      "title": "Personal journal",
+      "publication": "",
+      "date": "January 26, 2020",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "type": "Newspaper article",
+      "author": "Qin, Amy, and Javier C. Hernández",
+      "title": "China Reports First Death From New Virus",
+      "publication": "New York Times",
+      "date": "January 10, 2020",
+      "url": "https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "",
+      "title": "China coronavirus: Lockdown measures rise across Hubei province",
+      "publication": "BBC News",
+      "date": "January 23, 2020",
+      "url": "https://www.bbc.com/news/world-asia-china-51217455"
+    },
+    {
+      "id": 4,
+      "type": "Blog post",
+      "author": "Holmes, Edward",
+      "title": "Novel 2019 coronavirus genome",
+      "publication": "Virological.org",
+      "date": "January 11, 2020",
+      "url": "https://virological.org/t/novel-2019-coronavirus-genome/319"
+    },
+    {
+      "id": 5,
+      "type": "Newspaper article",
+      "author": "Wang, Xiaodong",
+      "title": "New pneumonia-type virus can cause infection among humans, says expert",
+      "publication": "China Daily",
+      "date": "January 20, 2020",
+      "url": "https://www.chinadaily.com.cn/a/202001/20/WS5e25bfd8a310128217272550.html"
+    },
+    {
+      "id": 6,
+      "type": "Twitter post",
+      "author": "WHO",
+      "title": "No clear evidence of human-to-human transmission of the novel #coronavirus (2019-nCoV) identified in #Wuhan, #China.",
+      "publication": "WHO",
+      "date": "January 14, 2020",
+      "url": "https://twitter.com/WHO/status/1217043229427761152"
+    },
+    {
+      "id": 7,
+      "type": "Editorial",
+      "author": "",
+      "title": "An Engineered Doomsday",
+      "publication": "New York Times",
+      "date": "January 7, 2012",
+      "url": "https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html"
+    },
+    {
+      "id": 8,
+      "type": "Statement",
+      "author": "",
+      "title": "Consensus Statement on the Creation of Potential Pandemic Pathogens (PPPs)",
+      "publication": "Cambridge Working Group",
+      "date": "July 14, 2014",
+      "url": "https://www.cambridgeworkinggroup.org/"
+    },
+    {
+      "id": 9,
+      "type": "Official document",
+      "author": "",
+      "title": "U.S. Government Gain-of-Function Deliberative Process and Research Funding Pause on Selected Gain-of-Function Research Involving Influenza, MERS, and SARS Viruses",
+      "publication": "OSTP, HHS",
+      "date": "October 17, 2014",
+      "url": "https://osp.od.nih.gov/wp-content/uploads/2025/02/USG-Gain-of-Function-Deliberative-Process-and-Research-Funding-Pause-on-Selected-Gain-of-Function-Research.pdf"
+    },
+    {
+      "id": 10,
+      "type": "Journal article",
+      "author": "Herfst, Sander, et al.",
+      "title": "Airborne Transmission of Influenza A/H5N1 Virus Between Ferrets",
+      "publication": "Science",
+      "date": "June 22, 2012",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810786/"
+    },
+    {
+      "id": 11,
+      "type": "News article",
+      "author": "Branswell, Helen",
+      "title": "Experts search for answers in limited information about mystery pneumonia outbreak in China",
+      "publication": "STAT News",
+      "date": "January 4, 2020",
+      "url": "https://www.statnews.com/2020/01/04/mystery-pneumonia-outbreak-china/"
+    },
+    {
+      "id": 12,
+      "type": "Newspaper article",
+      "author": "Khan, Natasha",
+      "title": "New Virus Discovered by Chinese Scientists Investigating Pneumonia Outbreak",
+      "publication": "Wall Street Journal",
+      "date": "January 8, 2020",
+      "url": "https://www.wsj.com/articles/new-virus-discovered-by-chinese-scientists-investigating-pneumonia-outbreak-11578485668"
+    }
+  ]
+}

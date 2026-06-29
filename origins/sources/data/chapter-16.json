@@ -1,0 +1,122 @@
+{
+  "chapter": 16,
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Chamberlain, Samuel",
+      "title": "Pentagon gave millions to EcoHealth Alliance for weapons research program",
+      "publication": "New York Post",
+      "date": "July 1, 2021",
+      "url": "https://nypost.com/2021/07/01/pentagon-gave-millions-to-ecohealth-alliance-for-wuhan-lab/"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Hvistendahl, Mara, and Sharon Lerner",
+      "title": "NIH Bat Coronavirus Grant Report Was Submitted More Than Two Years Late",
+      "publication": "The Intercept",
+      "date": "October 1, 2021",
+      "url": "https://theintercept.com/2021/10/01/nih-bat-coronavirus-grant-ecohealth-alliance/"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Eban, Katherine",
+      "title": "Inside the Virus-Hunting Nonprofit at the Center of the Lab-Leak Controversy",
+      "publication": "Vanity Fair",
+      "date": "March 31, 2022",
+      "url": "https://www.vanityfair.com/news/2022/03/the-virus-hunting-nonprofit-at-the-center-of-the-lab-leak-controversy"
+    },
+    {
+      "id": 4,
+      "type": "Official website",
+      "author": "",
+      "title": "Our History, Leadership Team",
+      "publication": "Global Virome Project",
+      "date": "",
+      "url": "https://www.globalviromeproject.org/our-history"
+    },
+    {
+      "id": 5,
+      "type": "Official website",
+      "author": "",
+      "title": "About: Mission",
+      "publication": "Defense Threat Reduction Agency",
+      "date": "",
+      "url": "https://www.dtra.mil/About/Mission/"
+    },
+    {
+      "id": 6,
+      "type": "Grant record",
+      "author": "",
+      "title": "EcoHealth Alliance Project Grant HDTRA11910033 — Scientific Research: Combating Weapons of Mass Destruction",
+      "publication": "U.S. Department of Defense, Defense Threat Reduction Agency",
+      "date": "August 19, 2019 – June 20, 2024",
+      "url": "https://www.usaspending.gov/award/ASST_NON_HDTRA11910033_9761"
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "Eban, Katherine",
+      "title": "The Lab-Leak Theory: Inside the Fight to Uncover COVID-19’s Origins",
+      "publication": "Vanity Fair",
+      "date": "June 3, 2021",
+      "url": "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins"
+    },
+    {
+      "id": 8,
+      "type": "Journal article",
+      "author": "Cheng, Jinlong, et al.",
+      "title": "The S2 Subunit of QX-type Infectious Bronchitis Coronavirus Spike Protein Is an Essential Determinant of Neurotropism",
+      "publication": "Viruses",
+      "date": "October 22, 2019",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6832359/"
+    },
+    {
+      "id": 9,
+      "type": "Journal article",
+      "author": "Almazán, Fernando, et al.",
+      "title": "Coronavirus reverse genetic systems: infectious clones and replicons",
+      "publication": "Virus Research",
+      "date": "June 12, 2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4727449/"
+    },
+    {
+      "id": 10,
+      "type": "Presentation",
+      "author": "Zhengli, Shi",
+      "title": "From SARS, MERS to COVID-19: a journey to understand bat coronaviruses",
+      "publication": "French National Academy of Medicine & French Veterinary Academy Joint Webinar",
+      "date": "December 3, 2020",
+      "url": ""
+    },
+    {
+      "id": 11,
+      "type": "News article",
+      "author": "Willan, Philip, and Didi Tang",
+      "title": "Wuhan lab used Chinese military as key advisers",
+      "publication": "The Times",
+      "date": "June 21, 2021",
+      "url": "https://www.thetimes.co.uk/article/china-nominates-lab-leak-wuhan-institute-of-virology-for-top-science-award-37pg72gx5"
+    },
+    {
+      "id": 12,
+      "type": "Email / FOIA release",
+      "author": "Daszak, Peter",
+      "title": "Email to NIAID’s Jenny Greer: “Dear Jenny, This is terrific! We are very happy to hear that our Gain of Function research funding pause has been lifted. Cheers, Peter”",
+      "publication": "White Coat Waste Project",
+      "date": "July 11, 2016",
+      "url": "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf"
+    },
+    {
+      "id": 13,
+      "type": "Newsletter / document",
+      "author": "",
+      "title": "Newsletter of the 8th International Symposium on Emerging Viral Diseases, October 20–22, 2018",
+      "publication": "Wuhan Institute of Virology",
+      "date": "November 30, 2018",
+      "url": "http://institute.wuhanvirology.org/Newsletter2016/201811/P020181130367907308937.pdf"
+    }
+  ]
+}

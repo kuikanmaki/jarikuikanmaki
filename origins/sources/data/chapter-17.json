@@ -1,0 +1,149 @@
+{
+  "chapter": 17,
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Kuikanmäki, Jari, and Matti Virtanen",
+      "title": "Did the Wuhan Virus Institute Trigger the Coronavirus Pandemic? – More Evidence for the Laboratory Theory",
+      "publication": "AlfaTV Uutiset",
+      "date": "October 25, 2021",
+      "url": "https://web.archive.org/web/20211025121653/https://alfatvuutiset.fi/laukaisiko-wuhanin-virusinstituutti-koronapandemian-laboratorioteorialle-lisaa-todisteita/"
+    },
+    {
+      "id": 2,
+      "type": "FOIA document",
+      "author": "",
+      "title": "Understanding the Risk of Bat Coronavirus Emergence (including the Year-5 Interim RPPR)",
+      "publication": "NIH FOIA Library",
+      "date": "October 20, 2021",
+      "url": "https://www.nih.gov/sites/default/files/institutes/foia/20211020-risk-of-bat-emergence.pdf"
+    },
+    {
+      "id": 3,
+      "type": "Official letter",
+      "author": "Tabak, Lawrence",
+      "title": "Letter to Rep. Cathy McMorris Rodgers (House Committee on Energy and Commerce), regarding EcoHealth Alliance grant materials",
+      "publication": "National Institutes of Health, Department of Health and Human Services",
+      "date": "October 20, 2021",
+      "url": "https://s.wsj.net/public/resources/documents/NIH%20letter.pdf"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Eban, Katherine",
+      "title": "In Major Shift, NIH Admits Funding Risky Virus Research in Wuhan",
+      "publication": "Vanity Fair",
+      "date": "October 22, 2021",
+      "url": "https://www.vanityfair.com/news/2021/10/nih-admits-funding-risky-virus-research-in-wuhan"
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Mallapaty, Smriti",
+      "title": "Closest known relatives of virus behind COVID-19 found in Laos",
+      "publication": "Nature",
+      "date": "September 24, 2021",
+      "url": "https://www.nature.com/articles/d41586-021-02596-2"
+    },
+    {
+      "id": 6,
+      "type": "Article",
+      "author": "Demaneuf, Gilles",
+      "title": "Overview of Biological Laboratories in Wuhan and their roles in Coronavirus Research",
+      "publication": "Medium",
+      "date": "April 27, 2022",
+      "url": "https://gillesdemaneuf.medium.com/overview-of-biological-laboratories-in-wuhan-withtheir-roles-in-coronavirus-research-bca6c1cd1f74"
+    },
+    {
+      "id": 7,
+      "type": "Journal article",
+      "author": "Pekar, Jonathan, et al.",
+      "title": "Timing the SARS-CoV-2 index case in Hubei province",
+      "publication": "Science",
+      "date": "March 18, 2021",
+      "url": "https://www.science.org/doi/10.1126/science.abf8003"
+    },
+    {
+      "id": 8,
+      "type": "Article",
+      "author": "Washburne, Alex",
+      "title": "Zoonotic Origin Evidence We Don't Have",
+      "publication": "Substack",
+      "date": "November 21, 2022",
+      "url": "https://alexwasburne.substack.com/p/zoonotic-origin-evidence-we-dont"
+    },
+    {
+      "id": 9,
+      "type": "Preprint",
+      "author": "Zhan, Shing Hei, et al.",
+      "title": "SARS-CoV-2 is well adapted for humans. What does this mean for re-emergence?",
+      "publication": "bioRxiv",
+      "date": "May 2, 2020",
+      "url": "https://www.biorxiv.org/content/10.1101/2020.05.01.073262v1"
+    },
+    {
+      "id": 10,
+      "type": "Journal article",
+      "author": "Fauci, Anthony S.",
+      "title": "Research on Highly Pathogenic H5N1 Influenza Virus: The Way Forward",
+      "publication": "mBio",
+      "date": "October 9, 2012",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3484390/"
+    },
+    {
+      "id": 11,
+      "type": "Article",
+      "author": "Klotz, Lynn",
+      "title": "Human error in high-biocontainment labs: a likely pandemic threat",
+      "publication": "Bulletin of the Atomic Scientists",
+      "date": "February 25, 2019",
+      "url": "https://thebulletin.org/2019/02/human-error-in-high-biocontainment-labs-a-likely-pandemic-threat/"
+    },
+    {
+      "id": 12,
+      "type": "Procurement notice",
+      "author": "",
+      "title": "Competitive Consultation on Central Air Conditioning Renovation Project of the Wuhan Institute of Virology",
+      "publication": "China Government Procurement Network, Chinese Academy of Sciences",
+      "date": "September 16, 2019",
+      "url": "https://archive.is/bfoTD"
+    },
+    {
+      "id": 13,
+      "type": "News article",
+      "author": "Dilanian, Ken, et al.",
+      "title": "Report says cellphone data suggests October shutdown at Wuhan lab, but experts are skeptical",
+      "publication": "NBC News",
+      "date": "May 8, 2020",
+      "url": "https://www.yahoo.com/news/report-says-cellphone-data-suggests-001233644.html"
+    },
+    {
+      "id": 14,
+      "type": "News article",
+      "author": "Allen, Nick",
+      "title": "US and UK intelligence agencies 'examining report on mobile phone data at Wuhan laboratory'",
+      "publication": "The Telegraph",
+      "date": "May 9, 2020",
+      "url": "https://web.archive.org/web/20200510091529/https://www.telegraph.co.uk/news/2020/05/09/us-uk-intelligence-agencies-examining-report-mobile-phone-data/"
+    },
+    {
+      "id": 15,
+      "type": "News article",
+      "author": "Ai, Hongxia",
+      "title": "Dedicated airport port-of-entry for the Military World Games opened for testing",
+      "publication": "Xinhua News Agency",
+      "date": "September 26, 2019",
+      "url": "https://web.archive.org/web/20200206050707/https://m.xinhuanet.com/hb/2019-09/26/c_1125040756.htm"
+    },
+    {
+      "id": 16,
+      "type": "Preprint",
+      "author": "Quay, Steven Carl",
+      "title": "Where Did the 2019 Coronavirus Pandemic Begin and How Did it Spread? The People's Liberation Army Hospital in Wuhan China and Line 2 of the Wuhan Metro System Are Compelling Answers",
+      "publication": "Zenodo",
+      "date": "October 28, 2020",
+      "url": "https://zenodo.org/record/4119263"
+    }
+  ]
+}

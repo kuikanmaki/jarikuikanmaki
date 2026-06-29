@@ -1,0 +1,68 @@
+{
+  "chapter": 15,
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Browne, Ed",
+      "title": "DARPA Denies Funding Wuhan Institute of Virology Amid Alleged Document Leak",
+      "publication": "Newsweek",
+      "date": "September 22, 2021",
+      "url": "https://www.newsweek.com/darpa-denies-funding-defuse-wuhan-institute-virology-proposal-leak-drastic-1631512"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Robinson, Nathan",
+      "title": "Why the Chair of the Lancet’s COVID-19 Commission Thinks The US Government Is Preventing a Real Investigation Into the Pandemic",
+      "publication": "Current Affairs",
+      "date": "August 2, 2022",
+      "url": "https://www.currentaffairs.org/2022/08/why-the-chair-of-the-lancets-covid-19-commission-thinks-the-us-government-is-preventing-a-real-investigation-into-the-pandemic"
+    },
+    {
+      "id": 3,
+      "type": "Article",
+      "author": "Rindsberg, Ashley",
+      "title": "How Dick Cheney created Anthony Fauci",
+      "publication": "UnHerd",
+      "date": "August 29, 2022",
+      "url": "https://unherd.com/2022/08/how-dick-cheney-created-anthony-fauci/"
+    },
+    {
+      "id": 4,
+      "type": "Journal article",
+      "author": "Richards, Stephanie, et al.",
+      "title": "BSL-3 Laboratory Practices in the United States: Comparison of Select Agent and Non–Select Agent Facilities",
+      "publication": "Biosecurity and Bioterrorism: Biodefense Strategy, Practice, and Science",
+      "date": "March 6, 2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3934440"
+    },
+    {
+      "id": 5,
+      "type": "Report / paper",
+      "author": "Baric, Ralph",
+      "title": "Synthetic Viral Genomics: Risks and Benefits for Science and Society",
+      "publication": "ResearchGate",
+      "date": "December 2007",
+      "url": "https://www.researchgate.net/publication/38000014_Synthetic_Viral_Genomics_Risks_and_Benefits_for_Science_and_Society"
+    },
+    {
+      "id": 6,
+      "type": "Book",
+      "author": "Xu, Dezhong, et al.",
+      "title": "The Unnatural Origin of SARS and New Species of Artificial Humanized Viruses as Genetic Weapons",
+      "publication": "Academy of Military Medical Sciences Press",
+      "date": "2015",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "",
+      "title": "Anthrax scientist commits suicide as FBI closes in",
+      "publication": "Associated Press / CBC News",
+      "date": "August 1, 2008",
+      "url": "https://www.cbc.ca/news/world/anthrax-scientist-commits-suicide-as-fbi-closes-in-1.761552"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "chapter": 7,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Podcast episode",
+      "author": "Kuikanmäki, Jari, and Otto Juote",
+      "title": "Everything is Under Control",
+      "publication": "Jari & Otto Show",
+      "date": "February 17, 2020",
+      "url": "https://youtu.be/qvNITz_tzhg"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Chung, Jane, and Emily Chow",
+      "title": "Concern over coronavirus spread as cases jump in South Korea, Italy and Iran",
+      "publication": "Reuters",
+      "date": "February 23, 2020",
+      "url": "https://www.reuters.com/article/world/concern-over-coronavirus-spread-as-cases-jump-in-south-korea-italy-and-iran-idUSKCN20H03N/"
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Coutard, B, et al.",
+      "title": "The spike glycoprotein of the new coronavirus 2019-nCoV contains a furin-like cleavage site absent in CoV of the same clade",
+      "publication": "Antiviral Research",
+      "date": "April 1, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32057769/"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "",
+      "title": "Coronavirus: Italy extends emergency measures nationwide",
+      "publication": "BBC",
+      "date": "March 10, 2020",
+      "url": "https://www.bbc.com/news/world-europe-51810673"
+    },
+    {
+      "id": 5,
+      "type": "Situation report",
+      "author": "",
+      "title": "Novel Coronavirus (COVID‑19) Situation Report 39",
+      "publication": "WHO",
+      "date": "February 28, 2020",
+      "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200228-sitrep-39-covid-19.pdf"
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "",
+      "title": "THL director considers Italy’s coronavirus restrictions excessive: 'I think the Italians were quite badly caught off guard here'",
+      "publication": "Yle News",
+      "date": "February 24, 2020",
+      "url": "https://yle.fi/a/3-11225142"
+    }
+  ]
+}

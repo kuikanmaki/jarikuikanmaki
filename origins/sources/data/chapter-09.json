@@ -1,0 +1,176 @@
+{
+  "chapter": 9,
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Boseley, Sarah",
+      "title": "China blocks entry to WHO team studying Covid's origins",
+      "publication": "Guardian",
+      "date": "January 5, 2021",
+      "url": "https://www.theguardian.com/world/2021/jan/05/china-blocks-entry-to-who-team-studying-covids-origins"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "McNeil, Sam, and Huizhong Wu",
+      "title": "WHO team arrives in Wuhan to investigate pandemic origins",
+      "publication": "Associated Press",
+      "date": "January 14, 2021",
+      "url": "https://apnews.com/article/who-team-arrives-wuhan-virus-origins-db3e9adcbfa801d3e8274c1976ea5fcd"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Roberts, Michelle",
+      "title": "Covid: WHO says 'extremely unlikely' virus leaked from lab in China",
+      "publication": "BBC News",
+      "date": "February 9, 2021",
+      "url": "https://www.bbc.com/news/world-asia-china-55996728"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Birrell, Ian",
+      "title": "Will we ever learn the truth about China and the pandemic",
+      "publication": "Daily Mail",
+      "date": "December 19, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-9071191/Will-learn-truth-China-pandemic-writes-IAN-BIRRELL.html"
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Owermohle, Sarah",
+      "title": "Trump cuts U.S. research on bat-human virus transmission over China ties",
+      "publication": "Politico",
+      "date": "April 27, 2020",
+      "url": "https://www.politico.com/news/2020/04/27/trump-cuts-research-bat-human-virus-china-213076"
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "",
+      "title": "Nobel laureates and science groups demand NIH review decision to kill coronavirus grant",
+      "publication": "Science",
+      "date": "May 21, 2020",
+      "url": "https://www.science.org/content/article/preposterous-77-nobel-laureates-blast-nih-decision-cancel-coronavirus-grant-demand"
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "Evelyn, Kenya",
+      "title": "Fauci accepts Biden’s offer to serve as chief medical adviser in Biden administration",
+      "publication": "The Guardian",
+      "date": "December 4, 2020",
+      "url": "https://www.theguardian.com/us-news/2020/dec/04/fauci-accepts-biden-offer-chief-medical-adviser"
+    },
+    {
+      "id": 8,
+      "type": "Twitter post",
+      "author": "Daszak, Peter",
+      "title": "“It boils down to this: Who do you trust? Our Nation’s most eminent infectious disease scientist, or politicized conspiracy theorists?”",
+      "publication": "Twitter",
+      "date": "April 19, 2020",
+      "url": ""
+    },
+    {
+      "id": 9,
+      "type": "Twitter post",
+      "author": "Daszak, Peter",
+      "title": "“Thank you @Nature! @realDonaldTrump is not just someone who ignores science, he's an anti-science candidate w/ an anti-science, conspiracy-based agenda that is pushing our country down a very dangerous path. That’s why I’m ‘Ridin’ with Biden’”",
+      "publication": "Twitter",
+      "date": "October 14, 2020",
+      "url": ""
+    },
+    {
+      "id": 10,
+      "type": "News article",
+      "author": "Bucks, Jonathan",
+      "title": "New cover-up fears as Chinese officials delete critical data about the Wuhan lab",
+      "publication": "Daily Mail",
+      "date": "January 9, 2021",
+      "url": "https://www.dailymail.co.uk/news/article-9129681/New-cover-fears-Chinese-officials-delete-critical-data-Wuhan-lab.html"
+    },
+    {
+      "id": 11,
+      "type": "Official statement",
+      "author": "Rosen, Guy",
+      "title": "An Update on Our Work to Keep People Informed and Limit Misinformation About COVID-19",
+      "publication": "Meta",
+      "date": "April 16, 2020",
+      "url": "https://about.fb.com/news/2020/04/covid-19-misinfo-update/"
+    },
+    {
+      "id": 12,
+      "type": "News article",
+      "author": "Kuikanmäki, Jari",
+      "title": "The Dispute Over the Origin of the Coronavirus Strains U.S.–China Relations",
+      "publication": "Suomen Uutiset",
+      "date": "May 6, 2020",
+      "url": "https://www.suomenuutiset.fi/kiista-koronaviruksen-alkuperasta-kiristaa-yhdysvaltain-ja-kiinan-suhteita/"
+    },
+    {
+      "id": 13,
+      "type": "News article",
+      "author": "Kuikanmäki, Jari",
+      "title": "Outgoing U.S. Secretary of State Criticizes Uyghur Genocide – China Imposes Entry Ban",
+      "publication": "Suomen Uutiset",
+      "date": "January 27, 2021",
+      "url": "https://www.suomenuutiset.fi/yhdysvaltain-vaistyva-ulkoministeri-kritisoi-uiguurien-kansanmurhaa-kiina-asetti-maahantulokiellon/"
+    },
+    {
+      "id": 14,
+      "type": "Article",
+      "author": "Wade, Nicholas",
+      "title": "The origin of COVID: Did people or nature open Pandora’s box at Wuhan?",
+      "publication": "Bulletin of the Atomic Scientists",
+      "date": "May 5, 2021",
+      "url": "https://thebulletin.org/2021/05/the-origin-of-covid-did-people-or-nature-open-pandoras-box-at-wuhan/"
+    },
+    {
+      "id": 15,
+      "type": "News article",
+      "author": "Dockser Marcus, Amy, and Betsy McKay",
+      "title": "Scientists call for deeper investigation into COVID-19 origin",
+      "publication": "Wall Street Journal",
+      "date": "May 13, 2021",
+      "url": "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801"
+    },
+    {
+      "id": 16,
+      "type": "Letter",
+      "author": "Bloom, Jesse D., et al.",
+      "title": "Investigate the origins of COVID-19",
+      "publication": "Science",
+      "date": "May 14, 2021",
+      "url": "https://www.science.org/doi/10.1126/science.abj0016"
+    },
+    {
+      "id": 17,
+      "type": "News article",
+      "author": "Gordon, Michael R., et al.",
+      "title": "Intelligence on Sick Staff at Wuhan Lab Fuels Debate on Covid-19 Origin",
+      "publication": "Wall Street Journal",
+      "date": "May 23, 2021",
+      "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228"
+    },
+    {
+      "id": 18,
+      "type": "Fact sheet",
+      "author": "",
+      "title": "Fact Sheet: Activity at the Wuhan Institute of Virology",
+      "publication": "United States Department of State",
+      "date": "January 15, 2021",
+      "url": "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/"
+    },
+    {
+      "id": 19,
+      "type": "News article",
+      "author": "Page, Jeremy, et al.",
+      "title": "The Wuhan Lab Leak Question: A Disused Chinese Mine Takes Center Stage",
+      "publication": "Wall Street Journal",
+      "date": "May 24, 2021",
+      "url": "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125"
+    }
+  ]
+}

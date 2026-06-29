@@ -1,0 +1,491 @@
+{
+  "chapter": 19,
+  "sources": [
+    {
+      "id": 1,
+      "type": "GenBank entry",
+      "author": "Shi, Zhengli; Holmes, Edward et al.",
+      "title": "Bat SARS-like coronavirus strain RaTG13_Yunnan RNA-dependent RNA polymerase (RdRp) gene, partial cds",
+      "publication": "GenBank (NCBI)",
+      "date": "August 10, 2022 (originally submitted July 12, 2018)",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MH615898.1"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Dunleavy, Jerry",
+      "title": "Fauci suggested FBI be warned about possible lab leak before he dismissed hypothesis",
+      "publication": "Washington Examiner",
+      "date": "December 4, 2022",
+      "url": "https://www.washingtonexaminer.com/news/1027800/fauci-suggested-fbi-be-warned-about-possible-lab-leak-before-he-dismissed-hypothesis/"
+    },
+    {
+      "id": 3,
+      "type": "Congressional press release",
+      "author": "House Committee on Energy and Commerce",
+      "title": "E&C Investigation Uncovers Earliest Known SARS-CoV-2 Sequence Released Outside of China",
+      "publication": "U.S. House of Representatives",
+      "date": "January 17, 2024",
+      "url": "https://energycommerce.house.gov/posts/e-and-c-investigation-uncovers-earliest-known-sars-co-v-2-sequence-released-outside-of-china"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Strobel, Warren",
+      "title": "Chinese Lab Mapped Deadly Coronavirus Two Weeks Before Beijing Told the World",
+      "publication": "Wall Street Journal",
+      "date": "January 17, 2024",
+      "url": "https://www.wsj.com/world/china/chinese-lab-mapped-deadly-coronavirus-two-weeks-before-beijing-told-the-world-documents-show-9bca8865"
+    },
+    {
+      "id": 5,
+      "type": "GenBank submission record",
+      "author": "Ren, Lili",
+      "title": "BetaCoV/Wuhan/IPBCAMS-WH-01/2019",
+      "publication": "GenBank (NCBI) / IPB-CAMS, Beijing",
+      "date": "December 28, 2019 (released January 17, 2024)",
+      "url": "https://d1dth6e84htgma.cloudfront.net/Ford_H2_316_20240111_152518_05f9837537.pdf"
+    },
+    {
+      "id": 6,
+      "type": "Email / Official correspondence",
+      "author": "NCBI GenBank Submissions Staff",
+      "title": "Email regarding deletion of submission “BankIt2298002 Coronavirus/Wuhan/2019/WH01”",
+      "publication": "GenBank (NCBI)",
+      "date": "January 16, 2020",
+      "url": "https://d1dth6e84htgma.cloudfront.net/Ford_H2_316_20240111_152518_05f9837537.pdf"
+    },
+    {
+      "id": 7,
+      "type": "Social media post",
+      "author": "Holmes, Edward",
+      "title": "The 163 sequences from this paper were sent to GenBank in July 2018 with a 4-year embargo...",
+      "publication": "Twitter (X)",
+      "date": "March 6, 2023",
+      "url": "https://web.archive.org/web/20230306190554/https://twitter.com/edwardcholmes/status/1632652392650117120"
+    },
+    {
+      "id": 8,
+      "type": "News article",
+      "author": "Thacker, Paul",
+      "title": "Chinese Researcher Who Mapped COVID Virus Two Weeks Before China Released Sequence Was on Anthony Fauci’s Payroll",
+      "publication": "The DisInformation Chronicle",
+      "date": "January 19, 2024",
+      "url": "https://disinformationchronicle.substack.com/p/documents-chinese-researcher-who"
+    },
+    {
+      "id": 9,
+      "type": "News article",
+      "author": "Tobias, Jimmy",
+      "title": "Top NIH official advised COVID scientists that he uses personal email to evade FOIA",
+      "publication": "The Intercept",
+      "date": "June 29, 2023",
+      "url": "https://theintercept.com/2023/06/29/covid-nih-personal-email-foia/"
+    },
+    {
+      "id": 10,
+      "type": "News article",
+      "author": "Christenson, Josh",
+      "title": "Explosive emails show top NIH adviser deleted records, used ‘secret’ back channels to help Fauci evade COVID transparency",
+      "publication": "New York Post",
+      "date": "May 22, 2024",
+      "url": "https://nypost.com/2023/06/29/fauci-adviser-hid-nih-emails-from-foia-requests-during-covid/"
+    },
+    {
+      "id": 11,
+      "type": "Congressional hearing",
+      "author": "U.S. House of Representatives Select Subcommittee on the Coronavirus Pandemic",
+      "title": "A Hearing with the National Institute of Allergy and Infectious Diseases Senior Scientific Advisor, Dr. David Morens",
+      "publication": "U.S. Congress",
+      "date": "May 22, 2024",
+      "url": "https://www.congress.gov/118/chrg/CHRG-118hhrg55828/CHRG-118hhrg55828.pdf"
+    },
+    {
+      "id": 12,
+      "type": "Congressional deposition",
+      "author": "U.S. House of Representatives Committee on Oversight and Accountability",
+      "title": "Deposition of Margaret Moore",
+      "publication": "U.S. Congress",
+      "date": "October 4, 2024",
+      "url": "https://oversight.house.gov/wp-content/uploads/2024/12/Moore_Final-Redacted.pdf"
+    },
+    {
+      "id": 13,
+      "type": "News article",
+      "author": "Mueller, Benjamin",
+      "title": "Health Officials Tried to Evade Public Records Laws, Lawmakers Say",
+      "publication": "The New York Times",
+      "date": "May 28, 2024",
+      "url": "https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html"
+    },
+    {
+      "id": 14,
+      "type": "News article",
+      "author": "Kopp, Emily",
+      "title": "Scientists at the center of the ‘lab leak’ controversy met with NIH, Fauci",
+      "publication": "U.S. Right to Know",
+      "date": "January 6, 2024",
+      "url": "https://usrtk.org/covid-19-origins/daszak-shi-visits-nih-fauci/"
+    },
+    {
+      "id": 15,
+      "type": "Conference program",
+      "author": "Cell Press",
+      "title": "Cell Symposium: Emerging and Re-emerging Viruses",
+      "publication": "Cell Symposia",
+      "date": "October 1–3, 2017",
+      "url": "https://web.archive.org/web/20210610124810/http://www.cell-symposia.com/emerging-viruses-2017/_common/updateable/pdf/Cellsymposia_CVIR2017_Oral%20Program.pdf"
+    },
+    {
+      "id": 16,
+      "type": "News article",
+      "author": "Calvert, Jonathan; Arbuthnott, George",
+      "title": "What really went on inside the Wuhan lab weeks before Covid erupted",
+      "publication": "The Sunday Times",
+      "date": "June 10, 2023",
+      "url": "https://www.thetimes.com/uk/article/inside-wuhan-lab-covid-pandemic-china-america-qhjwwwvm0"
+    },
+    {
+      "id": 17,
+      "type": "Congressional press release",
+      "author": "Turner and Wenstrup, U.S. House Permanent Select Committee on Intelligence",
+      "title": "GAO Report Confirms U.S. Taxpayer Dollars Flowed to Wuhan Institute of Virology",
+      "publication": "U.S. House of Representatives",
+      "date": "June 14, 2023",
+      "url": "https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=1230"
+    },
+    {
+      "id": 18,
+      "type": "News article",
+      "author": "Kopp, Emily",
+      "title": "State Department cables: Wuhan Institute of Virology conducted classified research",
+      "publication": "U.S. Right to Know",
+      "date": "June 14, 2023",
+      "url": "https://usrtk.org/covid-19-origins/cables-wuhan-institute-of-virology-classified-research/"
+    },
+    {
+      "id": 19,
+      "type": "News article",
+      "author": "Birrell, Ian",
+      "title": "Worrying new clues about the origins of Covid: How scientists at Wuhan lab helped Chinese army in secret project to find animal viruses",
+      "publication": "Daily Mail",
+      "date": "April 24, 2021",
+      "url": "https://www.dailymail.co.uk/news/article-9507749/How-scientists-Wuhan-lab-helped-Chinese-army-secret-project-animal-viruses.html"
+    },
+    {
+      "id": 20,
+      "type": "FOIA document",
+      "author": "China National Virome Project",
+      "title": "China National Virome Project (CNVP) Initiative Meeting Agenda",
+      "publication": "Beijing Institute of Microbiology, CAS / U.S. Right to Know",
+      "date": "February 7, 2017",
+      "url": "https://usrtk.org/wp-content/uploads/2023/10/FL-2021-00033-May-2023-production-PT-3.pdf"
+    },
+    {
+      "id": 21,
+      "type": "FOIA document",
+      "author": "National Institutes of Health",
+      "title": "Foreign Collaborators for U.S. Research Grants (FY 2014–2017) - Cao Wuchun",
+      "publication": "NIH / U.S. Right to Know",
+      "date": "June 17, 2022",
+      "url": "https://usrtk.org/wp-content/uploads/2022/06/NIH-FOIA-Request-54696-May-Production_Redacted.pdf"
+    },
+    {
+      "id": 23,
+      "type": "Government report",
+      "author": "Defense Intelligence Agency",
+      "title": "SARS-CoV-2 Genome Analysis (Declassified)",
+      "publication": "Defense Intelligence Agency / U.S. Right to Know",
+      "date": "June 25, 2020 (released March 2025)",
+      "url": "https://usrtk.org/wp-content/uploads/2025/03/6-20200625-SARS-CoV-2-Genome-Analysis.pdf"
+    },
+    {
+      "id": 24,
+      "type": "News article",
+      "author": "Corin, Karolina; Kamb, Lewis",
+      "title": "US intelligence agency’s classified analysis offers detailed scientific view that COVID-19 may have come from Wuhan lab",
+      "publication": "U.S. Right to Know",
+      "date": "April 7, 2025",
+      "url": "https://usrtk.org/covid-19-origins/dia-analysis-covid-may-have-come-from-wuhan-lab/"
+    },
+    {
+      "id": 25,
+      "type": "Government report",
+      "author": "Defense Intelligence Agency",
+      "title": "DIA Authoritative Assessment on SARS-CoV-2 Origins",
+      "publication": "Defense Intelligence Agency / U.S. Right to Know",
+      "date": "March 27, 2020 (released February 2026)",
+      "url": "https://usrtk.org/wp-content/uploads/2026/02/DIA-release-12.23.25.pdf"
+    },
+    {
+      "id": 26,
+      "type": "News article",
+      "author": "Kamb, Lewis",
+      "title": "Defense Intelligence Agency considered lab leak scenario in March 2020, new records show",
+      "publication": "U.S. Right to Know",
+      "date": "February 5, 2026",
+      "url": "https://usrtk.org/covid-19-origins/defense-intelligence-agency-considered-lab-leak-scenario-in-march-2020/"
+    },
+    {
+      "id": 27,
+      "type": "News article",
+      "author": "Gordon, Michael; Strobel, Warren",
+      "title": "A Lab Leak in China Most Likely Origin of Covid Pandemic, Energy Department Says",
+      "publication": "Wall Street Journal",
+      "date": "February 26, 2023",
+      "url": "https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a"
+    },
+    {
+      "id": 28,
+      "type": "News article",
+      "author": "Gordon, Michael; Strobel, Warren",
+      "title": "FBI Director Says Covid Pandemic Likely Caused by Chinese Lab Leak",
+      "publication": "Wall Street Journal",
+      "date": "February 28, 2023",
+      "url": "https://www.wsj.com/politics/national-security/fbi-director-says-covid-pandemic-likely-caused-by-chinese-lab-leak-13a5e69b"
+    },
+    {
+      "id": 29,
+      "type": "News article",
+      "author": "De Luce, Dan",
+      "title": "CIA shifts assessment of COVID origins, saying a leak from a lab is the most likely cause",
+      "publication": "NBC News",
+      "date": "January 25, 2025",
+      "url": "https://www.nbcnews.com/politics/politics-news/cia-shifts-assessment-covid-origins-saying-lab-leak-likely-caused-outb-rcna189284"
+    },
+    {
+      "id": 30,
+      "type": "Congressional press release",
+      "author": "U.S. House Committee on Oversight and Government Reform",
+      "title": "Testimony From CIA Whistleblower Alleges New Information on COVID-19 Origins",
+      "publication": "U.S. Congress",
+      "date": "September 12, 2023",
+      "url": "https://oversight.house.gov/release/testimony-from-cia-whistleblower-alleges-new-information-on-covid-19-origins/"
+    },
+    {
+      "id": 31,
+      "type": "Social media post",
+      "author": "Huff, Andrew",
+      "title": "For the Record: In 2015, Dr. Peter Daszak stopped me as we were leaving work late at night, and asked me if he should work with the CIA",
+      "publication": "Twitter (X)",
+      "date": "January 13, 2022",
+      "url": "https://nationalfile.com/report-peter-daszak-worked-cia-ecohealth-alliance-cia-front-organization/"
+    },
+    {
+      "id": 32,
+      "type": "Book",
+      "author": "Huff, Andrew",
+      "title": "The Truth about Wuhan: How I Uncovered the Biggest Lie in History",
+      "publication": "Skyhorse Publishing",
+      "date": "2022",
+      "url": "https://www.amazon.com/Truth-about-Wuhan-Uncovered-Biggest/dp/1510773886"
+    },
+    {
+      "id": 33,
+      "type": "Press release",
+      "author": "EcoHealth Alliance",
+      "title": "EcoHealth Alliance Statement Regarding Book by Andrew Huff",
+      "publication": "EcoHealth Alliance",
+      "date": "December 5, 2022",
+      "url": "https://www.ecohealthalliance.org/2022/12/ecohealth-alliance-statement-regarding-book-by-andrew-huff"
+    },
+    {
+      "id": 34,
+      "type": "Congressional hearing",
+      "author": "U.S. House Committee on Oversight and Accountability",
+      "title": "A Hearing with the President of EcoHealth Alliance, Dr. Peter Daszak",
+      "publication": "U.S. Congress",
+      "date": "May 1, 2024",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/"
+    },
+    {
+      "id": 35,
+      "type": "Congressional press release",
+      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "title": "Chairman Rand Paul Seeks Intelligence Community Records Related to COVID Origins",
+      "publication": "U.S. Senate",
+      "date": "October 30, 2025",
+      "url": "https://www.hsgac.senate.gov/media/reps/chairman-rand-paul-seeks-intelligence-community-records-related-to-covid-origins/"
+    },
+    {
+      "id": 36,
+      "type": "Government presentation",
+      "author": "Baric, Ralph",
+      "title": "2019-nHCoV",
+      "publication": "ODNI Biological Sciences Experts Group (BSEG) / U.S. Senate HSGAC",
+      "date": "January 29, 2020 (released October 30, 2025)",
+      "url": "https://drive.google.com/file/d/1VKidVxBK7QQO0T3gnAZSDEl_k9yOgrb5/view"
+    },
+    {
+      "id": 37,
+      "type": "Congressional transcript",
+      "author": "Baric, Ralph",
+      "title": "Transcribed Interview before the U.S. House Committee on Oversight and Accountability",
+      "publication": "U.S. Congress",
+      "date": "January 22, 2024 (released April 30, 2024)",
+      "url": "https://oversight.house.gov/wp-content/uploads/2024/04/Baric-TI-Transcript.pdf"
+    },
+    {
+      "id": 38,
+      "type": "News article",
+      "author": "Kerr, Andrew",
+      "title": "Prominent Virologist Warned Intelligence Community COVID-19 Could Have Leaked from Wuhan Lab, Then He Met With Fauci and Changed His Tune",
+      "publication": "Washington Free Beacon",
+      "date": "November 4, 2025",
+      "url": "https://freebeacon.com/biden-administration/prominent-virologist-warned-intelligence-community-covid-19-could-have-leaked-from-wuhan-lab-then-he-met-with-fauci-and-changed-his-tune/"
+    },
+    {
+      "id": 39,
+      "type": "Video / Congressional presentation",
+      "author": "Baric, Ralph",
+      "title": "Presentation to the Congressional Biomedical Research Caucus",
+      "publication": "U.S. House of Representatives",
+      "date": "February 26, 2020",
+      "url": "https://www.youtube.com/watch?v=BE_H7dTqJXU"
+    },
+    {
+      "id": 40,
+      "type": "Congressional press release",
+      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "title": "Dr. Paul Sends Letters to Fifteen Federal Agencies After Discovering Their Knowledge of Risky DEFUSE Project",
+      "publication": "U.S. Senate",
+      "date": "April 9, 2024",
+      "url": "https://www.hsgac.senate.gov/media/reps/dr-paul-sends-letters-to-fifteen-federal-agencies-after-discovering-their-knowledge-of-risky-defuse-project/"
+    },
+    {
+      "id": 41,
+      "type": "Research note",
+      "author": "Demaneuf, Gilles; Bostickson, Billy",
+      "title": "Findings from EHA documents made public by Congress: Peter Daszak's Calendar, Wed 28 Jun 2017, Meeting with DARPA's James Gimlett and Shi Zhengli",
+      "publication": "DRASTIC / ResearchGate",
+      "date": "September 2025",
+      "url": "https://www.researchgate.net/publication/395016679_Findings_from_EHA_documents_made_public_by_Congress_in_December_2024_-DRASTIC_Working_Notes_-_PREVIEW_LINKS_REMOVED"
+    },
+    {
+      "id": 42,
+      "type": "News article",
+      "author": "Burger, Ludwig; Rinke, Andreas",
+      "title": "German spy agency concluded COVID virus likely leaked from lab, papers say",
+      "publication": "Reuters",
+      "date": "March 12, 2025",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/german-spy-agency-concluded-covid-virus-likely-leaked-lab-papers-say-2025-03-12/"
+    },
+    {
+      "id": 43,
+      "type": "Government memorandum",
+      "author": "U.S. Department of State",
+      "title": "An Analysis of Circumstantial Evidence for Wuhan Labs as the Source of the Coronavirus",
+      "publication": "U.S. Department of State",
+      "date": "Spring 2020 (declassified March 2022)",
+      "url": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-tantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf"
+    },
+    {
+      "id": 44,
+      "type": "Podcast episode",
+      "author": "Zuckerberg, Mark",
+      "title": "Remarks on Episode #2255 of The Joe Rogan Experience",
+      "publication": "Spotify",
+      "date": "January 10, 2025",
+      "url": "https://open.spotify.com/episode/3kDr0LcmqOHOz3mBHMdDuV"
+    },
+    {
+      "id": 45,
+      "type": "News article",
+      "author": "BBC News",
+      "title": "USAID staff told to shred and burn classified documents",
+      "publication": "BBC News",
+      "date": "March 12, 2025",
+      "url": "https://www.bbc.co.uk/news/articles/cjw2yywy3x7o"
+    },
+    {
+      "id": 46,
+      "type": "News article",
+      "author": "Suryanarayanan, Sainath",
+      "title": "EcoHealth Alliance wanted to block disclosure of Covid-19-relevant virus data from China",
+      "publication": "U.S. Right to Know",
+      "date": "January 10, 2022",
+      "url": "https://usrtk.org/covid-19-origins/ecohealth-alliance-wanted-to-block-disclosure-of-covid-19-relevant-virus-data-from-china/"
+    },
+    {
+      "id": 47,
+      "type": "News article",
+      "author": "Kopp, Emily",
+      "title": "WHO top scientist was ‘collaborator’ of Peter Daszak",
+      "publication": "U.S. Right to Know",
+      "date": "January 16, 2025",
+      "url": "https://usrtk.org/covid-19-origins/who-top-scientist-farrar-was-collaborator-of-peter-daszak/"
+    },
+    {
+      "id": 48,
+      "type": "Presentation",
+      "author": "Daszak, Peter; Shi, Zhengli",
+      "title": "SARS, MERS and the risk of novel viral emergence from bats",
+      "publication": "NIAID",
+      "date": "June 29, 2017",
+      "url": "https://drive.proton.me/urls/VN3MF2HGWC#govvqyBNAxOX"
+    },
+    {
+      "id": 49,
+      "type": "Email",
+      "author": "Morens, David",
+      "title": "Email to Peter Daszak",
+      "publication": "U.S. House Select Coronavirus Subcommittee",
+      "date": "April 26, 2020",
+      "url": "https://oversight.house.gov/wp-content/uploads/2024/12/COMBINED-SSCP-Final-Report-Documents-2-of-8compressed.pdf"
+    },
+    {
+      "id": 50,
+      "type": "Congressional press release",
+      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "title": "Dr. Paul Issues Subpoenas to Fourteen Agencies Regarding COVID-19 Origins and Risky Gain-of-Function Research",
+      "publication": "U.S. Senate",
+      "date": "January 27, 2025",
+      "url": "https://www.hsgac.senate.gov/media/reps/dr-paul-issues-subpoenas-to-fourteen-agencies-regarding-covid-19-origins-and-risky-gain-of-function-research/"
+    },
+    {
+      "id": 51,
+      "type": "News article",
+      "author": "White Coat Waste Project",
+      "title": "WCW Investigation: EcoHealth raked in $46M in new taxpayer funds during pandemic it probably caused",
+      "publication": "White Coat Waste Project",
+      "date": "February 11, 2023",
+      "url": "https://blog.whitecoatwaste.org/2023/02/11/wcw-investigation-ecohealth-raked-in-46m-in-new-taxpayer-funds-during-pandemic-it-probably-caused/"
+    },
+    {
+      "id": 52,
+      "type": "Congressional Research Service report",
+      "author": "Weed, Matthew",
+      "title": "Termination of the State Department’s Global Engagement Center",
+      "publication": "Congressional Research Service",
+      "date": "December 26, 2024",
+      "url": "https://www.congress.gov/crs-product/IN12475"
+    },
+    {
+      "id": 53,
+      "type": "Congressional press release",
+      "author": "Select Subcommittee on the Coronavirus Pandemic",
+      "title": "HHS Formally Debars EcoHealth Alliance, Dr. Peter Daszak After COVID Select Reveals Pandemic-Era Wrongdoing",
+      "publication": "U.S. House of Representatives",
+      "date": "January 17, 2025",
+      "url": "https://oversight.house.gov/release/breaking-hhs-formally-debars-ecohealth-alliance-dr-peter-daszak-after-covid-select-reveals-pandemic-era-wrongdoing/"
+    },
+    {
+      "id": 54,
+      "type": "Congressional press release",
+      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "title": "Chairman Rand Paul Uncovers New Evidence of Fauci Deleting Official Records, Calls Him to Testify Before HSGAC",
+      "publication": "U.S. Senate",
+      "date": "September 12, 2025",
+      "url": "https://www.hsgac.senate.gov/media/reps/chairman-rand-paul-uncovers-new-evidence-of-fauci-deleting-official-records-calls-him-to-testify-before-hsgac/"
+    },
+    {
+      "id": 55,
+      "type": "News article",
+      "author": "Hutzler, Alexandra",
+      "title": "Biden preemptively pardons Anthony Fauci, Mark Milley and Jan. 6 committee members",
+      "publication": "ABC News",
+      "date": "January 20, 2025",
+      "url": "https://abcnews.go.com/Politics/biden-preemptively-pardons-anthony-fauci-mark-milley-jan/story?id=117878813"
+    }
+  ]
+}

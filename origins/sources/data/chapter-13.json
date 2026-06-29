@@ -1,0 +1,50 @@
+{
+  "chapter": 13,
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Dou, Eva",
+      "title": "Wuhan lab did secret research, complicating hunt for coronavirus pandemic origins",
+      "publication": "Washington Post",
+      "date": "June 22, 2021",
+      "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html"
+    },
+    {
+      "id": 2,
+      "type": "Twitter post",
+      "author": "HumbleScientist",
+      "title": "Here is one of the redacted emails from February 1, 2020, discussing the teleconference: “We need to talk about the backbone too, not just the insert?”",
+      "publication": "X (Twitter)",
+      "date": "July 18, 2021",
+      "url": "https://x.com/humblesci/status/1416745810608353282"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Birrell, Ian",
+      "title": "Will we ever learn the truth about China and the pandemic? Two inquiries are 'cloaked in secrecy', WHO lets Beijing vet investigators and it appoints British scientist with links to Wuhan",
+      "publication": "The Mail on Sunday",
+      "date": "December 19, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-9071191/Will-learn-truth-China-pandemic-writes-IAN-BIRRELL.html"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Cortez, Michelle Fay",
+      "title": "Wuhan Lab's Last–And Only–Foreign Scientist Speaks Out on Covid Origins Debate",
+      "publication": "Bloomberg",
+      "date": "June 28, 2021",
+      "url": "https://www.bloomberg.com/news/features/2021-06-27/did-covid-come-from-a-lab-scientist-at-wuhan-institute-speaks-out"
+    },
+    {
+      "id": 5,
+      "type": "Official webpage",
+      "author": "",
+      "title": "Who we are",
+      "publication": "Wellcome Trust",
+      "date": "",
+      "url": "https://wellcome.org/who-we-are"
+    }
+  ]
+}

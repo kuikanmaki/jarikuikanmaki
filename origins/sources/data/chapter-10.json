@@ -1,0 +1,185 @@
+{
+  "chapter": 10,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Official statement",
+      "author": "",
+      "title": "Statement by President Joe Biden on the Investigation into the Origins of COVID-19",
+      "publication": "White House",
+      "date": "May 26, 2021",
+      "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/26/statement-by-president-joe-biden-on-the-investigation-into-the-origins-of-covid-19/"
+    },
+    {
+      "id": 2,
+      "type": "Speech / remarks",
+      "author": "Ghebreyesus, Tedros",
+      "title": "Director-General's remarks at the Member State Briefing on the report of the international team studying the origins of SARS-CoV-2",
+      "publication": "WHO",
+      "date": "March 30, 2021",
+      "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-remarks-at-the-member-state-briefing-on-the-report-of-the-international-team-studying-the-origins-of-sars-cov-2"
+    },
+    {
+      "id": 3,
+      "type": "Joint statement",
+      "author": "",
+      "title": "Joint Statement on the WHO-Convened COVID-19 Origins Study",
+      "publication": "U.S. Department of State",
+      "date": "March 30, 2021",
+      "url": "https://2021-2025.state.gov/joint-statement-on-the-who-convened-covid-19-origins-study/"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Lima, Cristiano",
+      "title": "Facebook no longer treating 'man-made' Covid as a crackpot idea",
+      "publication": "Politico",
+      "date": "May 26, 2021",
+      "url": "https://www.politico.com/news/2021/05/26/facebook-ban-covid-man-made-491053"
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Oshin, Olafimihan",
+      "title": "Washington Post issues correction on 2020 report on Tom Cotton, lab-leak theory",
+      "publication": "The Hill",
+      "date": "June 1, 2021",
+      "url": "https://thehill.com/homenews/media/556418-washington-post-issues-correction-on-2020-report-on-tom-cotton-lab-leak-theory/"
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "Kessler, Glenn",
+      "title": "Timeline: How the Wuhan lab-leak theory suddenly became credible",
+      "publication": "Washington Post",
+      "date": "May 25, 2021",
+      "url": "https://www.washingtonpost.com/politics/2021/05/25/timeline-how-wuhan-lab-leak-theory-suddenly-became-credible/"
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "Barclay, Eliza",
+      "title": "The conspiracy theories about the origins of the coronavirus, debunked",
+      "publication": "Vox",
+      "date": "Editor’s Note, May 25, 2021 (originally published March 12, 2020)",
+      "url": "https://www.vox.com/2020/3/4/21156607/how-did-the-coronavirus-get-started-china-wuhan-lab"
+    },
+    {
+      "id": 8,
+      "type": "Email / FOIA release",
+      "author": "Fauci, Anthony",
+      "title": "Email to Hugh Auchincloss re: “Baric, Shi et al – Nature Medicine – SARS Gain of Function”",
+      "publication": "",
+      "date": "February 1, 2020",
+      "url": "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails/"
+    },
+    {
+      "id": 9,
+      "type": "Press briefing",
+      "author": "",
+      "title": "Remarks by President Trump, Vice President Pence, and Members of the Coronavirus Task Force in Press Briefing",
+      "publication": "White House",
+      "date": "April 17, 2020",
+      "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-briefing-april-17-2020/"
+    },
+    {
+      "id": 10,
+      "type": "Addendum / letter",
+      "author": "",
+      "title": "Addendum: competing interests and the origins of SARS-CoV-2",
+      "publication": "The Lancet",
+      "date": "June 21, 2021",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01377-5/fulltext"
+    },
+    {
+      "id": 11,
+      "type": "News article",
+      "author": "Knapton, Sarah",
+      "title": "Revealed: How scientists who dismissed Wuhan lab theory are linked to Chinese researchers",
+      "publication": "Telegraph",
+      "date": "September 10, 2021",
+      "url": "https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/"
+    },
+    {
+      "id": 12,
+      "type": "Podcast episode",
+      "author": "Racaniello, Vincent",
+      "title": "TWiV 615: Peter Daszak of EcoHealth Alliance",
+      "publication": "This Week in Virology",
+      "date": "May 19, 2020",
+      "url": "https://www.youtube.com/watch?v=IdYDL_RK--w"
+    },
+    {
+      "id": 13,
+      "type": "Grant record",
+      "author": "",
+      "title": "Understanding the Risk of Bat Coronavirus Emergence",
+      "publication": "NIH RePORTER",
+      "date": "June 1, 2014",
+      "url": "https://reporter.nih.gov/project-details/9819304"
+    },
+    {
+      "id": 14,
+      "type": "News article",
+      "author": "Guterl, Fred",
+      "title": "How Amateur Sleuths Broke the Wuhan Lab Story and Embarrassed the Media",
+      "publication": "Newsweek",
+      "date": "June 2, 2021",
+      "url": "https://www.newsweek.com/exclusive-how-amateur-sleuths-broke-wuhan-lab-story-embarrassed-media-1596958"
+    },
+    {
+      "id": 15,
+      "type": "Report",
+      "author": "Small, Charles, et al.",
+      "title": "An Investigation into the WIV Databases That Were Taken Offline",
+      "publication": "ResearchGate",
+      "date": "February 2021",
+      "url": "https://www.researchgate.net/publication/349073738_An_investigation_into_the_WIV_databases_that_were_taken_offline"
+    },
+    {
+      "id": 16,
+      "type": "News article",
+      "author": "Devine, Miranda",
+      "title": "What is China covering up about the coronavirus?",
+      "publication": "New York Post",
+      "date": "May 6, 2020",
+      "url": "https://nypost.com/2020/05/06/what-is-china-covering-up-about-the-coronavirus-devine/"
+    },
+    {
+      "id": 17,
+      "type": "Journal article",
+      "author": "Bloom, Jesse",
+      "title": "Recovery of Deleted Deep Sequencing Data Sheds More Light on the Early Wuhan SARS-CoV-2 Epidemic",
+      "publication": "Molecular Biology and Evolution",
+      "date": "December 2021 (originally bioRxiv preprint June 22, 2021)",
+      "url": "https://www.biorxiv.org/content/10.1101/2021.06.18.449051v1"
+    },
+    {
+      "id": 18,
+      "type": "Article",
+      "author": "Birrell, Ian",
+      "title": "Did scientists stifle the lab-leak theory?",
+      "publication": "UnHerd",
+      "date": "July 22, 2021",
+      "url": "https://unherd.com/2021/07/how-scientists-stifled-the-lab-leak-theory/"
+    },
+    {
+      "id": 19,
+      "type": "News article",
+      "author": "Grim, Ryan",
+      "title": "Key Scientist in Covid Origin Controversy Misled Congress on Status of $8.9 Million NIH Grant",
+      "publication": "The Intercept",
+      "date": "July 21, 2023",
+      "url": "https://theintercept.com/2023/07/21/covid-origin-nih-lab-leak/"
+    },
+    {
+      "id": 20,
+      "type": "News article",
+      "author": "Birrell, Ian",
+      "title": "Government Condemned for Refusing to Release Details of Key Email Conversations on Covid Origins",
+      "publication": "Daily Mail",
+      "date": "October 2, 2021",
+      "url": "https://www.dailymail.co.uk/news/article-10052689/Government-condemned-refusing-release-details-key-email-conversations-Covid-origins.html"
+    }
+  ]
+}

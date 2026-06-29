@@ -1,0 +1,140 @@
+{
+  "chapter": 4,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Podcast episode",
+      "author": "Kuikanmäki, Jari, and Otto Juote",
+      "title": "Loppu on lähellä",
+      "publication": "Jari & Otto Show",
+      "date": "January 28, 2020",
+      "url": "https://www.youtube.com/watch?v=9T40bgtABno"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "",
+      "title": "France confirms first three cases of coronavirus in Europe",
+      "publication": "Reuters",
+      "date": "January 24, 2020",
+      "url": "https://www.reuters.com/article/world/france-confirms-first-three-cases-of-coronavirus-in-europe-idUSKBN1ZN2CW"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "",
+      "title": "Finland's first coronavirus case confirmed in Lapland",
+      "publication": "Yle News",
+      "date": "January 29, 2020",
+      "url": "https://yle.fi/uutiset/3-11183390"
+    },
+    {
+      "id": 4,
+      "type": "Journal article",
+      "author": "Dong, Ensheng, Du, Hongru, and Gardner, Lauren",
+      "title": "An interactive web-based dashboard to track COVID-19 in real time",
+      "publication": "The Lancet Infectious Diseases",
+      "date": "February 19, 2020",
+      "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext"
+    },
+    {
+      "id": 5,
+      "type": "Twitter post",
+      "author": "Ferguson, Neil",
+      "title": "Latest estimates of H2H transmissibility of 2019-nCoV. Despite the enormous and admirable efforts in China and around the world, we need to plan for the possibility containment of this epidemic isn’t possible",
+      "publication": "Twitter",
+      "date": "January 25, 2020",
+      "url": "https://twitter.com/neil_ferguson/status/1221048222820524032"
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "Ting, Victor",
+      "title": "China coronavirus: Hong Kong medical experts call for ‘draconian’ measures in city as research estimates there are already 44,000 cases in Wuhan",
+      "publication": "South China Morning Post",
+      "date": "January 27, 2020",
+      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3047813/china-coronavirus-hong-kong-medical-experts-call"
+    },
+    {
+      "id": 7,
+      "type": "Dataset",
+      "author": "",
+      "title": "Air transport, passengers carried – China",
+      "publication": "World Bank Data",
+      "date": "2020",
+      "url": "https://data.worldbank.org/indicator/IS.AIR.PSGR?locations=CN"
+    },
+    {
+      "id": 8,
+      "type": "Report",
+      "author": "Norman, Joseph, et al.",
+      "title": "Systemic Risk of Pandemic via Novel Pathogens – Coronavirus: A Note",
+      "publication": "New England Complex Systems Institute",
+      "date": "January 26, 2020",
+      "url": "https://static1.squarespace.com/static/5b68a4e4a2772c2a206180a1/t/5e2efaa2ff2cf27efbe8fc91/1580137123173/Systemic_Risk_of_Pandemic_via_Novel_Path.pdf"
+    },
+    {
+      "id": 9,
+      "type": "Book",
+      "author": "Taleb, Nassim",
+      "title": "The Black Swan: The Impact of the Highly Improbable",
+      "publication": "Random House",
+      "date": "May 11, 2010",
+      "url": ""
+    },
+    {
+      "id": 10,
+      "type": "Report",
+      "author": "Ferguson, Neil, et al.",
+      "title": "Report 3: Transmissibility of 2019-nCoV",
+      "publication": "Imperial College London",
+      "date": "January 25, 2020",
+      "url": "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-transmissibility-25-01-2020.pdf"
+    },
+    {
+      "id": 11,
+      "type": "Situation report",
+      "author": "",
+      "title": "Novel Coronavirus (2019-nCoV) Situation Report – 7",
+      "publication": "WHO",
+      "date": "January 27, 2020",
+      "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf"
+    },
+    {
+      "id": 12,
+      "type": "Statement",
+      "author": "",
+      "title": "Statement on the second meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)",
+      "publication": "WHO",
+      "date": "January 30, 2020",
+      "url": "https://www.who.int/news/item/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)"
+    },
+    {
+      "id": 13,
+      "type": "News article",
+      "author": "",
+      "title": "Italy declares coronavirus emergency after first two cases confirmed",
+      "publication": "Reuters",
+      "date": "January 31, 2020",
+      "url": "https://www.reuters.com/article/world/italy-declares-coronavirus-emergency-after-first-two-cases-confirmed-idUSKBN1ZU1HX"
+    },
+    {
+      "id": 14,
+      "type": "News article",
+      "author": "Rintala, Mirja",
+      "title": "The government was urged to respond to the spread of the coronavirus – now Minister Kiuru responds to MPs’ criticism",
+      "publication": "Iltasanomat",
+      "date": "January 31, 2020",
+      "url": "https://www.is.fi/politiikka/art-2000006390666.html"
+    },
+    {
+      "id": 15,
+      "type": "Dataset",
+      "author": "Bedford, Trevor, and Emma Hodcroft",
+      "title": "Nextstrain / groups / blab / sars-like-cov",
+      "publication": "Nextstrain",
+      "date": "updated June 4, 2020",
+      "url": "https://nextstrain.org/groups/blab/sars-like-cov"
+    }
+  ]
+}

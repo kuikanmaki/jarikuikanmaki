@@ -1,0 +1,149 @@
+{
+  "chapter": 12,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Yount, Boyd, et al.",
+      "title": "Systematic assembly of a full-length infectious cDNA of mouse hepatitis virus strain A59",
+      "publication": "Journal of Virology",
+      "date": "November 2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12368349/"
+    },
+    {
+      "id": 2,
+      "type": "Journal article",
+      "author": "Roberts, Anjeanette, et al.",
+      "title": "A Mouse-Adapted SARS-Coronavirus Causes Disease and Mortality in BALB/c Mice",
+      "publication": "PLOS Pathogens",
+      "date": "2007",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0030005"
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Becker, Michelle, et al.",
+      "title": "Synthetic recombinant bat SARS-like coronavirus is infectious in cultured cells and in mice",
+      "publication": "PNAS",
+      "date": "December 16, 2008",
+      "url": "https://www.pnas.org/doi/full/10.1073/pnas.0808116105"
+    },
+    {
+      "id": 4,
+      "type": "Journal article",
+      "author": "Li, Wendong, et al.",
+      "title": "Bats are natural reservoirs of SARS-like coronaviruses",
+      "publication": "Science",
+      "date": "October 28, 2005",
+      "url": "https://www.science.org/doi/10.1126/science.1118391"
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Jacobsen, Rowan",
+      "title": "Inside the risky bat-virus engineering that links America to Wuhan",
+      "publication": "MIT Technology Review",
+      "date": "June 29, 2021",
+      "url": "https://www.technologyreview.com/2021/06/29/1027290/gain-of-function-risky-bat-virus-engineering-links-america-to-wuhan/"
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "Butler, Declan",
+      "title": "Engineered bat virus stirs debate over risky research",
+      "publication": "Nature",
+      "date": "November 12, 2015",
+      "url": "https://www.nature.com/articles/nature.2015.18787"
+    },
+    {
+      "id": 7,
+      "type": "Journal article",
+      "author": "Ren, Wuze, et al.",
+      "title": "Difference in Receptor Usage Between Severe Acute Respiratory Syndrome (SARS) Coronavirus and SARS-Like Coronavirus of Bat Origin",
+      "publication": "Journal of Virology",
+      "date": "February 2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18077725/"
+    },
+    {
+      "id": 8,
+      "type": "Journal article",
+      "author": "Hou, Yuxuan, et al.",
+      "title": "Angiotensin-converting enzyme 2 (ACE2) proteins of different bat species confer variable susceptibility to SARS-CoV entry",
+      "publication": "Archives of Virology",
+      "date": "October 2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20567988/"
+    },
+    {
+      "id": 9,
+      "type": "Journal article",
+      "author": "Zeng, Lei-Ping, et al.",
+      "title": "Bat Severe Acute Respiratory Syndrome-Like Coronavirus WIV1 Encodes an Extra Accessory Protein, ORFX, Involved in Modulation of the Host Immune Response",
+      "publication": "Journal of Virology",
+      "date": "June 24, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27170748/"
+    },
+    {
+      "id": 10,
+      "type": "Journal article",
+      "author": "Hu, Ben, et al.",
+      "title": "Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus",
+      "publication": "PLoS Pathogens",
+      "date": "November 30, 2017",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698"
+    },
+    {
+      "id": 11,
+      "type": "Journal article",
+      "author": "Zhou, Peng, et al.",
+      "title": "Fatal swine acute diarrhoea syndrome caused by an HKU2-related coronavirus of bat origin",
+      "publication": "Nature",
+      "date": "April 4, 2018",
+      "url": "https://www.nature.com/articles/s41586-018-0010-9"
+    },
+    {
+      "id": 12,
+      "type": "News article",
+      "author": "Lin, Christina",
+      "title": "Why US outsourced bat virus research to Wuhan",
+      "publication": "Asia Times",
+      "date": "April 22, 2020",
+      "url": "https://asiatimes.com/2020/04/why-us-outsourced-bat-virus-research-to-wuhan/"
+    },
+    {
+      "id": 13,
+      "type": "Grant record",
+      "author": "",
+      "title": "Understanding the Risk of Bat Coronavirus Emergence",
+      "publication": "NIAID Project Grant R01AI110964",
+      "date": "June 1, 2014",
+      "url": "https://reporter.nih.gov/project-details/9819304"
+    },
+    {
+      "id": 14,
+      "type": "Journal article",
+      "author": "Hu, Ben, et al.",
+      "title": "Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus",
+      "publication": "PLoS Pathogens",
+      "date": "July 2017",
+      "url": "https://doi.org/10.1371/journal.ppat.1006698"
+    },
+    {
+      "id": 15,
+      "type": "Transcript",
+      "author": "",
+      "title": "Dr. Fauci, CDC Director Testify Before Senate on COVID-19 Guidelines",
+      "publication": "rev.com",
+      "date": "May 11, 2021",
+      "url": "https://www.rev.com/blog/transcripts/dr-fauci-cdc-director-testify-before-senate-on-covid-19-guidelines-transcript"
+    },
+    {
+      "id": 16,
+      "type": "Video",
+      "author": "",
+      "title": "Complete Heated Exchange between Sen. Rand Paul and Dr. Anthony Fauci",
+      "publication": "C-SPAN",
+      "date": "January 11, 2022",
+      "url": "https://www.youtube.com/watch?v=kz7OGxb9X6E"
+    }
+  ]
+}

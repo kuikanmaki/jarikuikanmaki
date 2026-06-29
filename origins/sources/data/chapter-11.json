@@ -1,0 +1,185 @@
+{
+  "chapter": 11,
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Rahalkar, Monali, and Rahul Bahulikar",
+      "title": "How an Indian scientist couple worked to trace origin, course of COVID-19",
+      "publication": "The Week",
+      "date": "June 13, 2021",
+      "url": "https://www.theweek.in/theweek/cover/2021/06/03/how-an-indian-scientist-couple-worked-to-trace-origin-course-of-covid-19.html"
+    },
+    {
+      "id": 2,
+      "type": "Blog post",
+      "author": "Racaniello, Vincent",
+      "title": "Pangolins and the origin of SARS-CoV-2 coronavirus",
+      "publication": "Virology Blog",
+      "date": "February 20, 2020",
+      "url": "https://virology.ws/2020/02/20/pangolins-and-the-origin-of-sars-cov-2-coronavirus/#comment-55702"
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Ge, X.Y., et al.",
+      "title": "Coexistence of multiple coronaviruses in several bat colonies in an abandoned mineshaft",
+      "publication": "Virologica Sinica",
+      "date": "2016",
+      "url": "https://link.springer.com/article/10.1007/s12250-016-3713-9"
+    },
+    {
+      "id": 4,
+      "type": "GenBank entry",
+      "author": "Wuhan Institute of Virology",
+      "title": "Rhinolophus bat coronavirus BtCoV/4991 RNA-dependent RNA polymerase (RdRp) gene, partial cds",
+      "publication": "GenBank",
+      "date": "March 4, 2016",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/KP876546"
+    },
+    {
+      "id": 5,
+      "type": "Journal article",
+      "author": "Rahalkar, Monali, and Rahul Bahulikar",
+      "title": "Lethal Pneumonia Cases in Mojiang Miners (2012) and the Mineshaft Could Provide Important Clues to the Origin of SARS-CoV-2",
+      "publication": "Frontiers in Public Health",
+      "date": "October 20, 2020",
+      "url": "https://www.frontiersin.org/articles/10.3389/fpubh.2020.581569/full"
+    },
+    {
+      "id": 6,
+      "type": "GenBank entry",
+      "author": "Wuhan Institute of Virology",
+      "title": "Bat coronavirus RaTG13, complete genome",
+      "publication": "GenBank",
+      "date": "January 27, 2020",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1"
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "@TheSeeker268",
+      "title": "What exactly happened in Wuhan?",
+      "publication": "The Week",
+      "date": "July 11, 2021",
+      "url": "https://www.theweek.in/theweek/cover/2021/07/01/what-exactly-happened-in-wuhan.html"
+    },
+    {
+      "id": 8,
+      "type": "Document",
+      "author": "Xu, Li",
+      "title": "Analysis of Six Patients With Unknown Viruses",
+      "publication": "",
+      "date": "May 2013",
+      "url": "https://www.documentcloud.org/documents/6981198-Analysis-of-Six-Patients-With-Unknown-Viruses.html"
+    },
+    {
+      "id": 9,
+      "type": "Thesis / document",
+      "author": "Huang, Canping",
+      "title": "Novel Virus Discovery in Bat and the Exploration of Receptor of Bat Coronavirus HKU9",
+      "publication": "",
+      "date": "June 2016",
+      "url": "https://www.documentcloud.org/documents/20694207-canping-huang-phd-novel-virus-discovery-in-bat-isn-translation"
+    },
+    {
+      "id": 10,
+      "type": "Magazine profile",
+      "author": "Chan, Margaret",
+      "title": "The Most Influential People of 2020, Titans: Zhong Nanshan",
+      "publication": "Time Magazine",
+      "date": "September 22, 2020",
+      "url": "https://time.com/collection/100-most-influential-people-2020/5888415/zhong-nanshan/"
+    },
+    {
+      "id": 11,
+      "type": "Article",
+      "author": "Latham, Jonathan, and Allison Wilson",
+      "title": "A Chinese PhD Thesis Sheds Important New Light On The Origin of the COVID-19 Coronavirus",
+      "publication": "Independent Science News",
+      "date": "May 11, 2021",
+      "url": "https://www.independentsciencenews.org/commentaries/a-chinese-phd-thesis-sheds-important-new-light-on-the-origin-of-the-covid-19-coronavirus/"
+    },
+    {
+      "id": 12,
+      "type": "News article",
+      "author": "Ridley, Matt, and Alina Chan",
+      "title": "Did the Covid-19 virus really escape from a Wuhan lab?",
+      "publication": "The Telegraph",
+      "date": "February 6, 2021",
+      "url": "https://www.telegraph.co.uk/news/2021/02/06/did-covid-19-virus-really-escape-wuhan-lab/"
+    },
+    {
+      "id": 13,
+      "type": "News article",
+      "author": "Cadell, Cate, and Yawen Chen",
+      "title": "Painful lesson: how a military-style lockdown unfolded in Wuhan",
+      "publication": "Reuters",
+      "date": "April 8, 2020",
+      "url": "https://www.reuters.com/article/us-health-coronavirus-wuhan-scientists-i/painful-lesson-how-a-military-style-lockdown-unfolded-in-wuhan-idUSKBN21Q0KD"
+    },
+    {
+      "id": 14,
+      "type": "Journal article",
+      "author": "Xing-Yi Ge, et al.",
+      "title": "Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor",
+      "publication": "Nature",
+      "date": "October 30, 2013",
+      "url": "https://www.nature.com/articles/nature12711"
+    },
+    {
+      "id": 15,
+      "type": "Journal article",
+      "author": "Follis, Kathryn, et al.",
+      "title": "Furin cleavage of the SARS coronavirus spike glycoprotein enhances cell–cell fusion but does not affect virion entry",
+      "publication": "Virology",
+      "date": "July 5, 2006",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7111780/"
+    },
+    {
+      "id": 16,
+      "type": "Journal article",
+      "author": "Kuo, L., et al.",
+      "title": "Retargeting of coronavirus by substitution of the spike glycoprotein ectodomain: crossing the host cell species barrier",
+      "publication": "Journal of Virology",
+      "date": "February 1, 2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10627550/"
+    },
+    {
+      "id": 17,
+      "type": "Journal article",
+      "author": "Liu, Shan-Lu, et al.",
+      "title": "No credible evidence supporting claims of the laboratory engineering of SARS-CoV-2",
+      "publication": "Emerging Microbes & Infections",
+      "date": "February 26, 2020",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/22221751.2020.1733440"
+    },
+    {
+      "id": 18,
+      "type": "Investigative article",
+      "author": "Murray, Shannon",
+      "title": "Scientists who authored article denying lab engineering of SARS-CoV-2 privately acknowledged possible lab origin, emails show",
+      "publication": "U.S. Right to Know",
+      "date": "August 11, 2021",
+      "url": "https://usrtk.org/covid-19-origins/scientists-who-authored-article-denying-lab-engineering-of-sars-cov-2-privately-acknowledged-possible-lab-origin-emails-show/"
+    },
+    {
+      "id": 19,
+      "type": "News article",
+      "author": "Kang, Dake, and Yawen Chen",
+      "title": "China clamps down in hidden hunt for coronavirus origins",
+      "publication": "AP News",
+      "date": "December 30, 2020",
+      "url": "https://apnews.com/article/united-nations-coronavirus-pandemic-china-only-on-ap-bats-24fbadc58cee3a40bca2ddf7a14d2955"
+    },
+    {
+      "id": 20,
+      "type": "Journal article",
+      "author": "Shi, Z.-L., et al.",
+      "title": "Coexistence of multiple coronaviruses in several bat colonies in an abandoned mineshaft",
+      "publication": "Virologica Sinica",
+      "date": "February 18, 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7090819/"
+    }
+  ]
+}

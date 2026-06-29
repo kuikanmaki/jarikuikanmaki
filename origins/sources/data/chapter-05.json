@@ -1,0 +1,59 @@
+{
+  "chapter": 5,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Zhou, Peng, et al.",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "publication": "Nature",
+      "date": "February 3, 2020",
+      "url": "https://www.nature.com/articles/s41586-020-2012-7"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Cyranoski, David",
+      "title": "Did pangolins spread the China coronavirus to people?",
+      "publication": "Nature",
+      "date": "February 7, 2020",
+      "url": "https://www.nature.com/articles/d41586-020-00364-2"
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Beilfuss, Lisa",
+      "title": "China’s Coronavirus Figures Don’t Add Up. ‘This Never Happens With Real Data.’",
+      "publication": "Barron's",
+      "date": "February 13, 2020",
+      "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840"
+    },
+    {
+      "id": 4,
+      "type": "Preprint",
+      "author": "Xiao, Botao, and Lei Xiao",
+      "title": "The possible origins of 2019-nCoV coronavirus (preprint)",
+      "publication": "ResearchGate",
+      "date": "February 1, 2020",
+      "url": "https://www.researchgate.net/publication/360910691_The_possible_origins_of_2019-nCoV_coronavirus"
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Ibbetson, Ross",
+      "title": "Did coronavirus originate in Chinese government laboratory?",
+      "publication": "Daily Mail",
+      "date": "February 16, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-8009669/Did-coronavirus-originate-Chinese-government-laboratory.html"
+    },
+    {
+      "id": 6,
+      "type": "Journal article",
+      "author": "Menachery, Vineet, et al.",
+      "title": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "publication": "Nature Medicine",
+      "date": "November 9, 2015",
+      "url": "https://www.nature.com/articles/nm.3985"
+    }
+  ]
+}

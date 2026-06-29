@@ -1,0 +1,122 @@
+{
+  "chapter": 3,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Huang, Chaolin, et al.",
+      "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+      "publication": "The Lancet",
+      "date": "January 24, 2020",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext"
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Cohen, Jon",
+      "title": "Wuhan seafood market may not be source of novel virus spreading globally",
+      "publication": "Science",
+      "date": "January 26, 2020",
+      "url": "https://www.science.org/content/article/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally"
+    },
+    {
+      "id": 3,
+      "type": "FOIA release",
+      "author": "",
+      "title": "Anthony Fauci’s Work Calendar",
+      "publication": "NIAID",
+      "date": "January 27, 2020",
+      "url": "https://www.openthebooks.com/assets/1/6/10.12_NIH_FOIA_57351_07.29.2022_Production1.pdf"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "",
+      "title": "Snohomish County man has the United States’ first known case of the new coronavirus",
+      "publication": "The Seattle Times",
+      "date": "January 21, 2020",
+      "url": "https://www.seattletimes.com/seattle-news/health/case-of-wuhan-coronavirus-detected-in-washington-state-first-in-united-states/"
+    },
+    {
+      "id": 5,
+      "type": "Opinion article",
+      "author": "Curley, Grace",
+      "title": "Anthony Fauci does a victory lap while we suffer from the real Fauci effect",
+      "publication": "Boston Herald",
+      "date": "October 3, 2022",
+      "url": "https://www.bostonherald.com/2022/09/03/grace-curley-anthony-fauci-does-a-victory-lap-while-we-suffer-from-the-real-fauci-effect/"
+    },
+    {
+      "id": 6,
+      "type": "Email / FOIA release",
+      "author": "Folkers, Greg",
+      "title": "Email to Anthony Fauci on WIV, EcoHealth, NIAID Grant",
+      "publication": "",
+      "date": "January 27, 2020",
+      "url": "https://usrtk.org/wp-content/uploads/2022/08/Talking-Points-for-NIAID-Director-Dr.-Fauci.pdf"
+    },
+    {
+      "id": 7,
+      "type": "Grant document",
+      "author": "",
+      "title": "Understanding the Risk of Bat Coronavirus Emergence",
+      "publication": "EcoHealth Alliance NIAID Grant award R01AI110964",
+      "date": "",
+      "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R01AI110964&arg_ProgOfficeCode=104"
+    },
+    {
+      "id": 8,
+      "type": "News article",
+      "author": "Kopp, Emily",
+      "title": "Fauci discussed gain-of-function work with Wuhan collaborator in pandemic’s earliest days, emails suggest",
+      "publication": "U.S. Right to Know",
+      "date": "February 21, 2023",
+      "url": "https://usrtk.org/covid-19-origins/fauci-discussed-gain-of-function-work-with-wuhan-collaborator-in-pandemics-earliest-days-emails-suggest/"
+    },
+    {
+      "id": 9,
+      "type": "FOIA release",
+      "author": "",
+      "title": "Anthony Fauci’s Work Calendar, Meeting with Dr Ralph Baric",
+      "publication": "NIAID",
+      "date": "February 11, 2020",
+      "url": "https://www.openthebooks.com/substack-historic-release-dr-anthony-faucis-official-work-calendar-november-2019--march-2020/"
+    },
+    {
+      "id": 10,
+      "type": "Court deposition transcript",
+      "author": "",
+      "title": "Anthony Fauci’s deposition transcript",
+      "publication": "United States District Court for the Western District of Louisiana",
+      "date": "November 23, 2022",
+      "url": "https://www.documentcloud.org/documents/23347988-fauci-deposition/"
+    },
+    {
+      "id": 11,
+      "type": "Slack message / FOIA release",
+      "author": "Frieman, Matt",
+      "title": "Slack message to Vineet Menachery",
+      "publication": "",
+      "date": "February 18, 2020",
+      "url": "https://usrtk.org/wp-content/uploads/2023/02/Baric_Slack_EDDec2022Production.pdf"
+    },
+    {
+      "id": 12,
+      "type": "Blog post",
+      "author": "Sirotkin, Karl, and Dan Sirotkin",
+      "title": "Logistical and Technical Exploration into the Origins of the Wuhan Strain of Coronavirus (COVID-19)",
+      "publication": "Harvardtothebighouse.com",
+      "date": "January 31, 2020",
+      "url": "https://harvardtothebighouse.com/2020/01/31/logistical-and-technical-analysis-of-the-origins-of-the-wuhan-coronavirus-2019-ncov/"
+    },
+    {
+      "id": 13,
+      "type": "Blog post",
+      "author": "Deigin, Yuri",
+      "title": "Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research",
+      "publication": "Medium",
+      "date": "April 22, 2020",
+      "url": "https://yurideigin.medium.com/lab-made-cov2-genealogy-through-the-lens-of-gain-of-function-research-f96dd7413748"
+    }
+  ]
+}

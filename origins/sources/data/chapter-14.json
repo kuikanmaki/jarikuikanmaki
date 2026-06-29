@@ -1,0 +1,86 @@
+{
+  "chapter": 14,
+  "sources": [
+    {
+      "id": 1,
+      "type": "Twitter post",
+      "author": "TheSeeker268",
+      "title": "DRASTIC EXCLUSIVE: Leaked 2018 EcoHealth proposal to DARPA → Project DEFUSE …",
+      "publication": "X (Twitter)",
+      "date": "September 20, 2021",
+      "url": "https://x.com/TheSeeker268/status/1439943910390845448"
+    },
+    {
+      "id": 2,
+      "type": "Proposal document",
+      "author": "Daszak, Peter",
+      "title": "DEFUSE proposal",
+      "publication": "EcoHealth Alliance",
+      "date": "March 27, 2018",
+      "url": "https://www.documentcloud.org/documents/21066966-defuse-proposal"
+    },
+    {
+      "id": 3,
+      "type": "News video",
+      "author": "Markson, Sharri",
+      "title": "Footage proves bats were kept in Wuhan lab",
+      "publication": "Sky News Australia",
+      "date": "June 13, 2021",
+      "url": "https://www.youtube.com/watch?v=ANRs4DojOek"
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Owen, Glen, and Jake Ryan",
+      "title": "Secret bat cages at Wuhan lab where researchers planned to breed animals for virus experiments",
+      "publication": "Daily Mail",
+      "date": "February 13, 2021",
+      "url": "https://www.dailymail.co.uk/news/article-9257413/Secret-bat-cages-Wuhan-lab-researchers-planned-breed-animals-virus-experiments.html"
+    },
+    {
+      "id": 5,
+      "type": "Twitter post",
+      "author": "Daszak, Peter",
+      "title": "“This is a widely circulated conspiracy theory. This piece describes work I'm the lead on & labs I've collaborated w/ for 15 yrs. They DO NOT have live or dead bats in them. There is no evidence anywhere that this happened. It's an error that I hope will be corrected.”",
+      "publication": "Twitter",
+      "date": "December 10, 2020",
+      "url": "https://x.com/peterdaszak/status/1337047733253836803"
+    },
+    {
+      "id": 6,
+      "type": "Twitter post",
+      "author": "Daszak, Peter",
+      "title": "“Important error in this piece. No BATS were \"sent to Wuhan lab for genetic analyses of viruses collected in the field\" That's not how this science works. We collect bat samples, send them to the lab. We RELEASE bats where we catch them!”",
+      "publication": "Twitter",
+      "date": "December 10, 2020",
+      "url": "https://twitter.com/PeterDaszak/status/1336998740981403649"
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "Lerner, Sharon, and Mara Hvistendahl",
+      "title": "New Details Emerge About Coronavirus Research at Chinese Lab",
+      "publication": "The Intercept",
+      "date": "September 6, 2021",
+      "url": "https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/"
+    },
+    {
+      "id": 8,
+      "type": "FOIA document",
+      "author": "",
+      "title": "Understanding the Risk of Bat Coronavirus Emergence (FOIA documents; includes EcoHealth Alliance Year-4 Progress Report — reporting period 1.6.2017–31.5.2018; originally filed to NIH 13.4.2018)",
+      "publication": "The Intercept",
+      "date": "September 8, 2021",
+      "url": "https://theintercept.com/document/2021/09/08/understanding-the-risk-of-bat-coronavirus-emergence/"
+    },
+    {
+      "id": 9,
+      "type": "Article",
+      "author": "Thacker, Paul D.",
+      "title": "Funding Documents Expose Virologist Danielle Anderson, Once Feted as a \"Conspiracy Buster\"",
+      "publication": "Substack",
+      "date": "September 20, 2022",
+      "url": "https://disinformationchronicle.substack.com/p/funding-documents-expose-virologist"
+    }
+  ]
+}
