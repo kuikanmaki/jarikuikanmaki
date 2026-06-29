@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sources — Origins of Coronavirus</title>
+  <meta name="description" content="Source references for Origins of Coronavirus by Jari Kuikanmäki, organised by chapter." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans:    ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['"Space Grotesk"', 'Inter', 'sans-serif'],
+          },
+          colors: {
+            background: 'hsl(var(--background))',
+            foreground: 'hsl(var(--foreground))',
+            card:       'hsl(var(--card))',
+            border:     'hsl(var(--border))',
+            accent:     'hsl(var(--accent))',
+            muted: { foreground: 'hsl(var(--muted-foreground))' },
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="stylesheet" href="/styles.css" />  
+</head>
+<body>
+
+  <div id="site-header"></div>
+  
+    <main class="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <section class="border-t border-border">
+        <div class="container-narrow py-20 lg:py-28">
+          
+          <nav aria-label="Breadcrumb" class="border-b border-border bg-background">
+            <div class="container-narrow flex h-10 items-center">
+              <ol class="flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                <li>
+                  <a href="/origins/index.html" class="transition-colors hover:text-foreground">Origins of Coronavirus</a>
+                </li>
+              </ol>
+            </div>
+          </nav>
+
+          <div class="border-y border-border bg-card">
+            <div class="container-narrow py-8">
+              <div class="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:gap-8 sm:text-left">
+                <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                  <img
+                    src="/assets/img/book-cover-thumb.webp"
+                    alt="Cover of Origins of Coronavirus"
+                    width="120"
+                    height="180"
+                    class="w-24 rounded-sm shadow-[0_15px_35px_-10px_hsl(var(--foreground)/0.4)] ring-1 ring-border/40"
+                  />
+                </a>
+          
+                <div class="flex-1 text-center sm:text-left">
+                  <span class="eyebrow">OUT NOW ON AMAZON</span>
+                  <h3 class="mt-2 font-display text-lg font-bold uppercase leading-tight">
+                    Origins of Coronavirus: Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
+                  </h3>
+                  <br>
+                <a
+                  href="https://mybook.to/origins-amazon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex shrink-0 items-center justify-center rounded-md bg-[#FF9900] px-5 py-2.5 text-sm font-semibold text-black transition-opacity hover:opacity-90"
+                >
+                  Buy now on Amazon →
+                </a>
+                </div>
+          
+
+              </div>
+            </div>
+          </div>
+
+            <h3 class="mt-6 font-display text-3xl font-bold leading-tight sm:text-4xl" style="margin-bottom:10px;">Sources and Notes</h3>
+            <p>Select a Chapter to see Sources and Notes.<br><br><p>
+                <div id="chapter-list" aria-label="Chapter list">
+                <span class="status">Loading chapters…</span>
+              </div>
+        
+            <h2 id="sources-heading" hidden>Sources</h2>
+            <div id="sources-output" aria-live="polite"></div>
+        </div>
+        
+      </section>
+
+    </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    (async () => {
+      const load = async (id, url) => {
+        const res = await fetch(url);
+        document.getElementById(id).innerHTML = await res.text();
+      };
+      await Promise.all([
+        load("site-header", "/header.html"),
+        load("site-footer", "/footer.html"),
+      ]);
+    })();
+  </script>
+  
+  <script>
+    (function () {
+      "use strict";
+
+      const INDEX_URL = "data/sources-index.json";
+      const DATA_DIR  = "data/";
+
+      const listEl    = document.getElementById("chapter-list");
+      const outEl     = document.getElementById("sources-output");
+      const headingEl = document.getElementById("sources-heading");
+
+      // ---------- Helpers ----------
+      function escapeHtml(value) {
+        if (value === undefined || value === null) return "";
+        return String(value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function showError(target, message) {
+        target.innerHTML =
+          '<p class="error">' + escapeHtml(message) + "</p>";
+      }
+
+      // ---------- Load chapter index ----------
+      fetch(INDEX_URL, { cache: "no-cache" })
+        .then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status + " loading index");
+          return res.json();
+        })
+        .then(function (data) {
+          if (!data || !Array.isArray(data.chapters)) {
+            throw new Error("Invalid sources-index.json: missing 'chapters' array");
+          }
+          renderChapterList(data.chapters);
+        })
+        .catch(function (err) {
+          console.error(err);
+          listEl.innerHTML =
+            '<li class="error">Could not load chapter index: ' +
+            escapeHtml(err.message) + "</li>";
+        });
+
+      // ---------- Render chapter index (inline, "|"-separated) ----------
+      function renderChapterList(chapters) {
+        listEl.innerHTML = "";
+      
+        chapters.forEach(function (ch, idx) {
+          if (!ch || typeof ch.file !== "string" || typeof ch.name !== "string") {
+            return; // skip malformed entry
+          }
+      
+          const a = document.createElement("a");
+          a.href = "#chapter-" + ch.number;
+          a.textContent = ch.name;
+          a.addEventListener("click", function (e) {
+            e.preventDefault();
+            // mark active
+            Array.prototype.forEach.call(
+              listEl.querySelectorAll("a.active"),
+              function (el) { el.classList.remove("active"); }
+            );
+            a.classList.add("active");
+            loadChapter(ch);
+          });
+      
+          listEl.appendChild(a);
+      
+          // Add " | " separator between links (not after the last one)
+          if (idx < chapters.length - 1) {
+            listEl.appendChild(document.createTextNode(" | "));
+          }
+        });
+      }
+
+      // ---------- Load + render a chapter's sources ----------
+      function loadChapter(ch) {
+        headingEl.hidden = false;
+        headingEl.textContent = "Sources — " + ch.name;
+        outEl.innerHTML = '<p class="status">Loading sources…</p>';
+      
+        fetch(DATA_DIR + ch.file, { cache: "no-cache" })
+          .then(function (res) {
+            if (!res.ok) throw new Error("HTTP " + res.status + " loading " + ch.file);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!data || !Array.isArray(data.sources)) {
+              throw new Error("Invalid file '" + ch.file + "': missing 'sources' array");
+            }
+            renderSources(data.sources);
+      
+            // ---------- Load chapter notes (optional) ----------
+            outEl.insertAdjacentHTML("beforeend", '<hr class="my-6 border-border">');
+            return fetch("data/notes/" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
+              .then(function (res) {
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                return res.text();
+              })
+              .then(function (html) {
+                outEl.insertAdjacentHTML("beforeend", html);
+              })
+              .catch(function (err) {
+                console.warn("No notes for chapter " + ch.number + ":", err.message);
+              });
+          })
+          .catch(function (err) {
+            console.error(err);
+            showError(outEl, "Could not load sources: " + err.message);
+          });
+      }
+
+
+      // ---------- Render sources list ----------
+      function renderSources(sources) {
+        if (sources.length === 0) {
+          outEl.innerHTML = '<p class="status">No sources listed for this chapter.</p>';
+          return;
+        }
+
+        const html = sources.map(function (s) {
+          if (!s || typeof s !== "object") {
+            return '<span class="error">[Skipped invalid source entry]</span><br>';
+          }
+          // Required pieces are tolerated as missing — show what we have.
+          const id  = escapeHtml(s.id != null ? s.id : "?");
+          const url = (typeof s.url === "string" && s.url) ? s.url : "#";
+          const author      = escapeHtml(s.author);
+          const title       = escapeHtml(s.title);
+          const publication = escapeHtml(s.publication);
+          const date        = escapeHtml(s.date);
+          const type        = escapeHtml(s.type);
+
+          // Build the inner text per the spec:
+          // #id, <a href="#url" target="_blank">#author, <i>#title</i>, #publication, #date, #type. </a><br>
+          return id + '. <a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+                 author + ', ' + title + ', ' +
+                 publication + ', ' + date + '</a>.<br>';
+        }).join("\n");
+
+        outEl.innerHTML = html;
+      }
+    })();
+  </script>
+  
+</body>
+</html>
