@@ -43,6 +43,9 @@
     };
   </script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 
     <!-- Google tag (gtag.js) -->
@@ -75,7 +78,7 @@
   
 </head>
 
-<body class="bg-background text-foreground font-sans overflow-x-hidden">
+<body class="origins-page bg-background text-foreground font-sans overflow-x-hidden">
 
   <div id="site-header"></div>
   
@@ -104,16 +107,13 @@
         </p>
         <p class="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-muted-foreground">
           Six years in the making — a gripping investigation into the true origins of
-          SARS-CoV-2 and what may be the greatest cover-up of the 21st century.
+          <span class="whitespace-nowrap">SARS-CoV-2</span> and what may be the greatest cover-up of the 21st century.
         </p>
 
-        <div class="mt-8 border-l-2 border-accent pl-5">
-          <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Available Now</p>
-          <p class="mt-2 text-sm sm:text-base">Paperback · Ebook</p>
-        </div>
 
         <div class="mt-10 flex flex-col sm:flex-row gap-3">
-          <a href="https://mybook.to/origins-amazon" target="_blank" class="btn btn-primary">Buy on Amazon →</a>
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy on Amazon →</a>
+          <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Listen on Storytel</a>
         </div>
       </div>
     </div>
@@ -139,7 +139,8 @@
         </div>
 
         <div class="mt-12 flex flex-col sm:flex-row gap-3">
-          <a href="https://mybook.to/origins-amazon" target="_blank" class="btn btn-primary">Buy on Amazon →</a>
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy on Amazon →</a>
+          <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Listen on Storytel</a>
         </div>
       </div>
     </div>
@@ -154,11 +155,11 @@
           Sources and Notes
         </h2>
         <div class="mt-10">
-          <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
+          <p class="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
             Browse the complete, chapter-by-chapter list of sources and author's notes
-            that underpin the six-year investigation behind <em className="not-italic text-foreground">Origins of Coronavirus</em>.
-          </p><br>
-        <div className="mt-10">
+            that underpin the six-year investigation behind <em class="not-italic text-foreground">Origins of Coronavirus</em>.
+          </p>
+        <div class="mt-10">
           <div class="mt-10 flex flex-col sm:flex-row gap-3">
             <a href="/origins/sources/" class="btn btn-primary">Sources and Notes →</a>
           </div>
