@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sources — Origins of Coronavirus</title>
-  <meta name="description" content="Source references for Origins of Coronavirus by Jari Kuikanmäki, organised by chapter." />
-  
+  <title>Sources and Notes — Origins of Coronavirus | Jari Kuikanmäki</title>
+  <meta name="description" content="Chapter-by-chapter sources and author's notes for Origins of Coronavirus by Jari Kuikanmäki — over 400 primary documents behind the investigation." />
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -28,73 +28,81 @@
     };
   </script>
 
-  <link rel="stylesheet" href="/styles.css" />  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
-<body>
+<body class="sources-page bg-background text-foreground font-sans overflow-x-hidden">
 
   <div id="site-header"></div>
-  
-    <main class="min-h-screen bg-background text-foreground overflow-x-hidden">
-      <section class="border-t border-border">
-        <div class="container-narrow py-20 lg:py-28">
-          
-          <nav aria-label="Breadcrumb" class="border-b border-border bg-background">
-            <div class="container-narrow flex h-10 items-center">
-              <ol class="flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
-                <li>
-                  <a href="/origins/index.html" class="transition-colors hover:text-foreground">Origins of Coronavirus</a>
-                </li>
-              </ol>
-            </div>
-          </nav>
 
-          <div class="border-y border-border bg-card">
-            <div class="container-narrow py-8">
-              <div class="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:gap-8 sm:text-left">
-                <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="shrink-0">
-                  <img
-                    src="/assets/img/book-cover-thumb.webp"
-                    alt="Cover of Origins of Coronavirus"
-                    width="120"
-                    height="180"
-                    class="w-24 rounded-sm shadow-[0_15px_35px_-10px_hsl(var(--foreground)/0.4)] ring-1 ring-border/40"
-                  />
-                </a>
-          
-                <div class="flex-1 text-center sm:text-left">
-                  <span class="eyebrow">OUT NOW ON AMAZON</span>
-                  <h3 class="mt-2 font-display text-lg font-bold uppercase leading-tight">
-                    Origins of Coronavirus: Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
-                  </h3>
-                  <br>
-                <a
-                  href="https://mybook.to/origins-amazon"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex shrink-0 items-center justify-center rounded-md bg-[#FF9900] px-5 py-2.5 text-sm font-semibold text-black transition-opacity hover:opacity-90"
-                >
-                  Buy now on Amazon →
-                </a>
-                </div>
-          
+  <main class="min-h-screen bg-background text-foreground overflow-x-hidden">
 
-              </div>
+    <!-- ============================================================
+         BOOK SALES BANNER (compact, full-width strip)
+         ============================================================ -->
+    <aside class="sources-book-banner" aria-label="Buy the book">
+      <div class="container-narrow">
+        <div class="flex flex-col gap-5 py-8 sm:flex-row sm:items-center sm:gap-8">
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="shrink-0 self-start sm:self-center">
+            <img
+              src="/assets/img/book-cover-thumb.webp"
+              alt="Cover of Origins of Coronavirus"
+              width="120" height="180" loading="lazy"
+              class="w-24 rounded-sm ring-1 ring-white/20"
+            />
+          </a>
+
+          <div class="min-w-0 flex-1">
+            <span class="sources-banner-eyebrow">Out now</span>
+            <h2 class="mt-1.5 font-display text-lg font-bold uppercase leading-tight text-white sm:text-xl">
+              <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
+            </h2>
+            <p class="mt-1 text-sm italic text-white/80 sm:text-base">
+              Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2.5">
+              <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-amazon">
+                Buy on Amazon
+              </a>
+              <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline-invert">
+                Listen on Storytel
+              </a>
             </div>
           </div>
-
-            <h3 class="mt-6 font-display text-3xl font-bold leading-tight sm:text-4xl" style="margin-bottom:10px;">Sources and Notes</h3>
-            <p>Select a Chapter to see Sources and Notes.<br><br><p>
-                <div id="chapter-list" aria-label="Chapter list">
-                <span class="status">Loading chapters…</span>
-              </div>
-        
-            <h2 id="sources-heading" hidden>Sources</h2>
-            <div id="sources-output" aria-live="polite"></div>
         </div>
-        
-      </section>
+      </div>
+    </aside>
 
-    </main>
+    <!-- ============================================================
+         SOURCES AND NOTES
+         ============================================================ -->
+    <section id="sources">
+      <div class="container-narrow">
+
+        <div class="mx-auto max-w-3xl pt-6 sm:pt-9">
+          <h1 id="sources-top" class="font-display font-bold">Sources and Notes</h1>
+          <p class="sources-intro">
+            The complete, chapter-by-chapter record of the sources and author's notes
+            behind <em class="not-italic text-foreground">Origins of Coronavirus</em>.
+            Select a chapter to see its sources and notes.
+          </p>
+
+          <div id="chapter-list" aria-label="Chapter list">
+            <span class="status">Loading chapters…</span>
+          </div>
+          <h2 id="sources-heading" hidden>Sources</h2>
+          <div id="sources-output" aria-live="polite"></div>
+          <p id="back-to-top" hidden class="back-to-top">
+            <a href="#sources-top" class="text-sm font-semibold text-accent hover:underline">↑ Back to Top</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
 
   <div id="site-footer"></div>
 
@@ -110,7 +118,7 @@
       ]);
     })();
   </script>
-  
+
   <script>
     (function () {
       "use strict";
@@ -121,6 +129,7 @@
       const listEl    = document.getElementById("chapter-list");
       const outEl     = document.getElementById("sources-output");
       const headingEl = document.getElementById("sources-heading");
+      const backEl    = document.getElementById("back-to-top");
 
       // ---------- Helpers ----------
       function escapeHtml(value) {
@@ -153,19 +162,19 @@
         .catch(function (err) {
           console.error(err);
           listEl.innerHTML =
-            '<li class="error">Could not load chapter index: ' +
-            escapeHtml(err.message) + "</li>";
+            '<span class="error">Could not load chapter index: ' +
+            escapeHtml(err.message) + "</span>";
         });
 
       // ---------- Render chapter index (inline, "|"-separated) ----------
       function renderChapterList(chapters) {
         listEl.innerHTML = "";
-      
+
         chapters.forEach(function (ch, idx) {
           if (!ch || typeof ch.file !== "string" || typeof ch.name !== "string") {
             return; // skip malformed entry
           }
-      
+
           const a = document.createElement("a");
           a.href = "#chapter-" + ch.number;
           a.textContent = ch.name;
@@ -179,9 +188,9 @@
             a.classList.add("active");
             loadChapter(ch);
           });
-      
+
           listEl.appendChild(a);
-      
+
           // Add " | " separator between links (not after the last one)
           if (idx < chapters.length - 1) {
             listEl.appendChild(document.createTextNode(" | "));
@@ -194,7 +203,8 @@
         headingEl.hidden = false;
         headingEl.textContent = "Sources — " + ch.name;
         outEl.innerHTML = '<p class="status">Loading sources…</p>';
-      
+        backEl.hidden = false;
+
         fetch(DATA_DIR + ch.file, { cache: "no-cache" })
           .then(function (res) {
             if (!res.ok) throw new Error("HTTP " + res.status + " loading " + ch.file);
@@ -205,9 +215,9 @@
               throw new Error("Invalid file '" + ch.file + "': missing 'sources' array");
             }
             renderSources(data.sources);
-      
+
             // ---------- Load chapter notes (optional) ----------
-            outEl.insertAdjacentHTML("beforeend", '<hr class="my-6 border-border">');
+            outEl.insertAdjacentHTML("beforeend", '<hr class="notes-divider">');
             return fetch("data/notes/" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
               .then(function (res) {
                 if (!res.ok) throw new Error("HTTP " + res.status);
@@ -218,6 +228,9 @@
               })
               .catch(function (err) {
                 console.warn("No notes for chapter " + ch.number + ":", err.message);
+                // Remove the divider when there are no notes to show.
+                const divider = outEl.querySelector(".notes-divider:last-of-type");
+                if (divider) divider.remove();
               });
           })
           .catch(function (err) {
@@ -234,9 +247,9 @@
           return;
         }
 
-        const html = sources.map(function (s) {
+        const items = sources.map(function (s) {
           if (!s || typeof s !== "object") {
-            return '<span class="error">[Skipped invalid source entry]</span><br>';
+            return ""; // skip invalid source entry
           }
           // Required pieces are tolerated as missing — show what we have.
           const id  = escapeHtml(s.id != null ? s.id : "?");
@@ -245,19 +258,24 @@
           const title       = escapeHtml(s.title);
           const publication = escapeHtml(s.publication);
           const date        = escapeHtml(s.date);
-          const type        = escapeHtml(s.type);
 
-          // Build the inner text per the spec:
-          // #id, <a href="#url" target="_blank">#author, <i>#title</i>, #publication, #date, #type. </a><br>
-          return id + '. <a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-                 author + ', ' + title + ', ' +
-                 publication + ', ' + date + '</a>.<br>';
+          return '<li class="source-item">' +
+                   '<span class="source-id" aria-hidden="true">' + id + '.</span>' +
+                   '<span class="source-ref">' +
+                     '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+                       (author ? author + ', ' : '') +
+                       '<em>' + title + '</em>' +
+                       (publication ? ', ' + publication : '') +
+                       (date ? ', ' + date : '') +
+                     '</a>' +
+                   '</span>' +
+                 '</li>';
         }).join("\n");
 
-        outEl.innerHTML = html;
+        outEl.innerHTML = '<ol class="sources-list">' + items + '</ol>';
       }
     })();
   </script>
-  
+
 </body>
 </html>
