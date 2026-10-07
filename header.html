@@ -1,28 +1,37 @@
 <header class="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur-md">
   <aside class="audiobook-announcement" aria-label="Audiobook release">
-    <a class="container-narrow audiobook-announcement-inner" href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer">
-      <img src="https://id-preview--a025d224-8a3f-4e23-ac4e-ee608b4f5f94.lovable.app/__l5e/assets-v1/62834711-762f-4b37-9a1d-90b940d1a721/origins-audiobook-thumb.webp" alt="Origins of Coronavirus audiobook cover" width="40" height="40" />
-      <span class="audiobook-announcement-copy"><strong>Origins of Coronavirus</strong><span>Audiobook available now</span></span>
-      <span class="audiobook-announcement-link">Listen on Storytel <span aria-hidden="true">→</span></span>
-    </a>
+    <div class="container-narrow audiobook-announcement-inner">
+      <span class="audiobook-announcement-main">
+        <img src="https://id-preview--a025d224-8a3f-4e23-ac4e-ee608b4f5f94.lovable.app/__l5e/assets-v1/62834711-762f-4b37-9a1d-90b940d1a721/origins-audiobook-thumb.webp" alt="Origins of Coronavirus audiobook cover" width="40" height="40" />
+        <span class="audiobook-announcement-copy"><strong>Origins of Coronavirus</strong><span>Audiobook available now</span></span>
+      </span>
+      <span class="audiobook-announcement-links" data-editions data-format="audiobook" data-sort="retailer" data-style="inline" data-label="Listen on {retailer}"></span>
+    </div>
   </aside>
   <nav class="container-narrow flex h-16 items-center justify-between gap-4">
     <a href="/" class="font-display text-base font-bold uppercase tracking-tight sm:text-lg">
       JARI KUIKANMÄKI
     </a>
-    <ul class="flex flex-row items-center gap-x-4 sm:gap-x-5 md:gap-8">
+
+    <!-- Hamburger button: only visible on mobile (below 768px). -->
+    <button type="button" class="hamburger menu-button" data-menu-button aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Menu: vertical list under the header on mobile; inline row on desktop. -->
+    <ul id="site-menu" data-menu class="site-menu">
       <li>
-        <a href="/origins/index.html" class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+        <a href="/origins/index.html">
           Origins
         </a>
       </li>
       <li>
-        <a href="https://x.com/jarikuikanmaki" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+        <a href="https://x.com/jarikuikanmaki" target="_blank" rel="noopener noreferrer">
           X
         </a>
       </li>
       <li>
-        <a href="mailto:contact@jarikuikanmaki.com" class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+        <a href="mailto:contact@jarikuikanmaki.com">
           Contact / Media
         </a>
       </li>
