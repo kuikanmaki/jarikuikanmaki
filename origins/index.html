@@ -111,10 +111,8 @@
         </p>
 
 
-        <div class="mt-10 flex flex-col sm:flex-row gap-3">
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy on Amazon →</a>
-          <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Listen on Storytel</a>
-        </div>
+        <div class="mt-10 flex flex-col sm:flex-row gap-3"
+             data-editions data-sort="retailer"></div>
       </div>
     </div>
   </section>
@@ -138,10 +136,8 @@
           <p>Backed by hundreds of sources and a thorough examination of the available evidence, <em class="not-italic text-foreground">Origins of Coronavirus</em> is essential reading for anyone who wants to know how the SARS-CoV-2 pandemic truly began — and how those in power tried to silence the truth.</p>      
         </div>
 
-        <div class="mt-12 flex flex-col sm:flex-row gap-3">
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy on Amazon →</a>
-          <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Listen on Storytel</a>
-        </div>
+        <div class="mt-12 flex flex-col sm:flex-row gap-3"
+             data-editions data-sort="retailer"></div>
       </div>
     </div>
   </section>
@@ -355,9 +351,11 @@
         load("site-header", "/header.html"),
         load("site-footer", "/footer.html"),
       ]);
+      document.dispatchEvent(new Event('site-partials-loaded'));
     })();
   </script>
 
+  <script src="/data/origins-editions.js"></script>
   <script src="/script.js"></script>
 </body>
 </html>
