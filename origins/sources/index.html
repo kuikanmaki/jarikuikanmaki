@@ -45,7 +45,18 @@
     <aside class="sources-book-banner" aria-label="Buy the book">
       <div class="container-narrow">
         <div class="flex flex-col gap-5 py-8 sm:flex-row sm:items-center sm:gap-8">
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="shrink-0 self-start sm:self-center">
+          <div class="min-w-0 flex-1">
+            <h2 class="font-display text-lg font-bold uppercase leading-tight text-white sm:text-xl">
+              <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
+            </h2>
+            <p class="mt-1 text-sm italic text-white/80 sm:text-base">
+              Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
+            </p>
+            <div class="sources-banner-cta mt-4 flex flex-wrap gap-2.5"
+                 data-editions data-sort="retailer"></div>
+          </div>
+
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="order-first shrink-0 self-start sm:order-last sm:self-center">
             <img
               src="/assets/img/book-cover-thumb.webp"
               alt="Cover of Origins of Coronavirus"
@@ -53,24 +64,6 @@
               class="w-24 rounded-sm ring-1 ring-white/20"
             />
           </a>
-
-          <div class="min-w-0 flex-1">
-            <span class="sources-banner-eyebrow">Out now</span>
-            <h2 class="mt-1.5 font-display text-lg font-bold uppercase leading-tight text-white sm:text-xl">
-              <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
-            </h2>
-            <p class="mt-1 text-sm italic text-white/80 sm:text-base">
-              Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
-            </p>
-            <div class="mt-4 flex flex-wrap gap-2.5">
-              <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-amazon">
-                Buy on Amazon
-              </a>
-              <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline-invert">
-                Listen on Storytel
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </aside>
@@ -81,7 +74,7 @@
     <section id="sources">
       <div class="container-narrow">
 
-        <div class="mx-auto max-w-3xl pt-6 sm:pt-9">
+        <div class="mx-auto max-w-3xl">
           <h1 id="sources-top" class="font-display font-bold">Sources and Notes</h1>
           <p class="sources-intro">
             The complete, chapter-by-chapter record of the sources and author's notes
@@ -116,6 +109,7 @@
         load("site-header", "/header.html"),
         load("site-footer", "/footer.html"),
       ]);
+      document.dispatchEvent(new Event('site-partials-loaded'));
     })();
   </script>
 
@@ -170,6 +164,8 @@
       function renderChapterList(chapters) {
         listEl.innerHTML = "";
 
+        let firstChapter = null;
+
         chapters.forEach(function (ch, idx) {
           if (!ch || typeof ch.file !== "string" || typeof ch.name !== "string") {
             return; // skip malformed entry
@@ -195,7 +191,17 @@
           if (idx < chapters.length - 1) {
             listEl.appendChild(document.createTextNode(" | "));
           }
+
+          // Remember the first valid chapter so it can be opened on load.
+          if (!firstChapter) firstChapter = { chapter: ch, link: a };
         });
+
+        // Open the Prologue (first chapter) as soon as the list is built,
+        // so the page never loads with an empty sources area.
+        if (firstChapter) {
+          firstChapter.link.classList.add("active");
+          loadChapter(firstChapter.chapter);
+        }
       }
 
       // ---------- Load + render a chapter's sources ----------
@@ -277,5 +283,7 @@
     })();
   </script>
 
+  <script src="/data/origins-editions.js"></script>
+  <script src="/script.js"></script>
 </body>
 </html>
