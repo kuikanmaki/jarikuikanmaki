@@ -108,10 +108,8 @@ src="https://www.facebook.com/tr?id=977885917988328&ev=PageView&noscript=1"
           Here you'll find my latest work, including behind-the-scenes research and updates
           from my six-year investigation into the origins of <span class="whitespace-nowrap">SARS-CoV-2.</span>
         </p>
-        <div class="mt-10 flex flex-col sm:flex-row sm:items-center gap-3">
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy the book on Amazon →</a>
-          <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Listen on Storytel</a>
-        </div>
+        <div class="mt-10 flex flex-col sm:flex-row sm:items-center gap-3"
+             data-editions data-sort="retailer"></div>
       </div>
 
       <div class="lg:col-span-5">
@@ -159,8 +157,8 @@ src="https://www.facebook.com/tr?id=977885917988328&ev=PageView&noscript=1"
 
 
         <div class="mt-10 flex flex-col sm:flex-row gap-3">
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buy on Amazon</a>
-          <a href="https://www.storytel.com/tv/books/origins-of-coronavirus-wuhan-the-secret-research-that-sparked-the-pandemic-and-the-cover-up-of-the-century-15184969" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Listen on Storytel</a>
+          <div class="flex flex-col sm:flex-row gap-3"
+               data-editions data-sort="retailer"></div>
           <a href="origins/" class="btn btn-text">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
@@ -201,9 +199,11 @@ src="https://www.facebook.com/tr?id=977885917988328&ev=PageView&noscript=1"
         load("site-header", "/header.html"),
         load("site-footer", "/footer.html"),
       ]);
+      document.dispatchEvent(new Event('site-partials-loaded'));
     })();
   </script>
 
+  <script src="/data/origins-editions.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
