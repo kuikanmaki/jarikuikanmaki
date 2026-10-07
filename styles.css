@@ -190,14 +190,21 @@ main .flex:has(> a.btn) { flex-wrap: wrap; }
   flex: 0 0 2.5rem;
   object-fit: contain;
 }
+.audiobook-announcement-main { display: flex; align-items: center; gap: 0.75rem; flex: 1 1 auto; min-width: 0; }
 .audiobook-announcement-copy { display: flex; flex-wrap: wrap; gap: 0.25rem 0.75rem; min-width: 0; }
 .audiobook-announcement-copy strong { font-weight: 600; }
-.audiobook-announcement-link { margin-left: auto; flex-shrink: 0; text-decoration: underline; text-underline-offset: 0.2rem; }
+.audiobook-announcement-links { margin-left: auto; flex-shrink: 0; display: flex; flex-wrap: wrap; gap: 0.15rem 0.5rem; }
+.audiobook-announcement-links a { text-decoration: underline; text-underline-offset: 0.2rem; white-space: nowrap; }
+.audiobook-announcement-links a:hover { opacity: 0.8; }
+.audiobook-announcement-links .editions-sep { opacity: 0.5; }
 .audiobook-announcement-inner:focus-visible { outline: 2px solid currentColor; outline-offset: -3px; }
+/* Mobile: left block (cover + text) keeps its own row; retailer links wrap onto
+   a second row below and flow freely so any number of them fits. */
 @media (max-width: 639px) {
-  .audiobook-announcement-inner { gap: 0.5rem; }
+  .audiobook-announcement-inner { flex-wrap: wrap; gap: 0.5rem; }
+  .audiobook-announcement-main { gap: 0.5rem; }
   .audiobook-announcement-copy { flex-direction: column; gap: 0; }
-  .audiobook-announcement-link { max-width: 6rem; }
+  .audiobook-announcement-links { margin-left: 0; width: 100%; flex: 1 1 100%; }
 }
 
 /* Amazon-branded yellow button with black text */
@@ -251,21 +258,87 @@ main .flex:has(> a.btn) { flex-wrap: wrap; }
    toggles `.open` to show it. We only need this on small screens
    because Tailwind's `md:flex` shows the desktop nav from 768px+.
    ------------------------------------------------------------- */
-.mobile-menu        { display: none; }
-.mobile-menu.open   { display: block; }
+/* The header element is already `position: sticky`, so it anchors the
+   absolutely-positioned dropdown panel below it. */
 
-/* Hamburger -> X animation */
+/* Hamburger button — only shown below 768px, right-aligned by the nav's
+   justify-between. Spans animate from three lines into an X when open. */
+.menu-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-right: -0.75rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.menu-button:focus-visible { outline: 2px solid hsl(var(--accent)); outline-offset: 2px; }
+
 .hamburger span {
   display: block;
   width: 1.5rem;
-  height: 1px;
+  height: 2px;
   background: hsl(var(--foreground));
   transition: transform 200ms, opacity 200ms;
 }
 .hamburger span + span { margin-top: 5px; }
-.hamburger.open span:nth-child(1) { transform: translateY(6px) rotate(45deg);  }
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg);  }
 .hamburger.open span:nth-child(2) { opacity: 0; }
-.hamburger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Menu list.
+   Mobile (below 768px): hidden until the JS toggles `.open`, then a full-width
+   vertical panel drops down below the header bar. */
+.site-menu { display: none; }
+.site-menu a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+  text-decoration: none;
+  transition: color 150ms;
+}
+.site-menu a:hover,
+.site-menu a:focus { color: hsl(var(--foreground)); }
+
+@media (max-width: 767px) {
+  .site-menu.open {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem 1.5rem 0.75rem;
+    background: hsl(var(--background) / 0.97);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid hsl(var(--border));
+    box-shadow: 0 12px 24px -16px hsl(var(--foreground) / 0.3);
+  }
+  .site-menu.open a {
+    display: block;
+    padding: 0.875rem 0;
+    border-bottom: 1px solid hsl(var(--border) / 0.5);
+  }
+  .site-menu.open li:last-child a { border-bottom: 0; }
+}
+
+/* Desktop (768px+): button hidden, links inline in a row. */
+@media (min-width: 768px) {
+  .menu-button { display: none; }
+  .site-menu,
+  .site-menu.open {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+}
 
 
 /* -------------------------------------------------------------
@@ -390,9 +463,6 @@ img {
   .homepage #book .btn-text { flex-basis: 100%; justify-content: flex-start; }
 }
 @media (max-width: 639px) {
-  :is(.homepage, .origins-page, .sources-page) header nav { height: auto; min-height: 4rem; flex-wrap: wrap; gap: 0.625rem; padding-block: 0.875rem; }
-  :is(.homepage, .origins-page, .sources-page) header nav ul { width: 100%; justify-content: space-between; gap: 0.75rem; }
-  :is(.homepage, .origins-page, .sources-page) header nav ul a { font-size: 0.8125rem; }
   :is(.homepage, .origins-page, .sources-page) .btn { white-space: normal; min-height: 2.75rem; height: auto; padding-block: 0.625rem; line-height: 1.4; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -480,7 +550,32 @@ img {
 .sources-page .sources-banner-title-red    { color: hsl(0 0% 100%); }
 .sources-page .sources-banner-tagline      { color: #df1627; }
 .sources-page .sources-book-banner .btn { margin-top: 1rem; }
-.sources-page .sources-book-banner .btn-amazon { color: #000; }
+/* Banner purchase buttons sit a size down so more retailers fit on one row. */
+.sources-page .sources-banner-cta .btn {
+  height: auto;
+  min-height: 2.125rem;
+  padding: 0.375rem 0.875rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  gap: 0.375rem;
+}
+/* Editions renderer outputs .btn-primary for Amazon and .btn-outline for the rest;
+   inside the dark banner both get the banner's own looks. */
+.sources-page .sources-book-banner .btn-primary {
+  background: #ff9900;
+  border-color: #ff9900;
+  color: #000;
+}
+.sources-page .sources-book-banner .btn-primary:hover { background: #e68a00; border-color: #e68a00; }
+.sources-page .sources-book-banner .btn-outline {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: hsl(0 0% 100%);
+}
+.sources-page .sources-book-banner .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.6);
+}
 .sources-page .btn-outline-invert {
   border: 1px solid rgba(255, 255, 255, 0.35);
   color: hsl(0 0% 100%);
@@ -494,7 +589,10 @@ img {
 /* Hide the shared audiobook strip on the Sources page only. */
 .sources-page .audiobook-announcement { display: none; }
 /* Back-to-top lands just above the "Sources and Notes" title with a comfortable margin. */
-.sources-page #sources-top { scroll-margin-top: 2rem; }
+.sources-page #sources-top { scroll-margin-top: 2rem; margin-top: 0; }
+/* The banner above already carries the page's opening whitespace, so the
+   first section only needs a small breath before its title. */
+.sources-page #sources > .container-narrow { padding-top: 2rem; }
 .sources-page #sources-heading { margin-top: 2rem; }
 
 /* Chapter index: bordered card with wrapping inline links */
