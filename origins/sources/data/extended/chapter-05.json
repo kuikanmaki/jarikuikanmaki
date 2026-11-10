@@ -1,0 +1,133 @@
+{
+  "chapter": 5,
+  "chapter_title": "Pangolins",
+  "printed_pages": { "start": 58, "end": 67 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Zhou, Peng, et al.",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "publication": "Nature",
+      "date": "February 3, 2020",
+      "url": "https://www.nature.com/articles/s41586-020-2012-7",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Nature paper from Shi Zhengli’s group identifying 2019-nCoV as a new SARS-related coronavirus of probable bat origin, reporting characterization of the Wuhan outbreak virus and its relationship to bat SARSr-CoVs (later tied to the RaTG13 narrative).",
+      "book_role": "Foundational WIV Nature paper asserting probable bat origin—the scientific frame Chapter 5 interrogates alongside pangolin and market claims.",
+      "topics": ["2019-nCoV", "bat origin", "RaTG13", "Wuhan Institute of Virology", "Shi Zhengli"],
+      "entities": {
+        "people": ["Peng Zhou", "Shi Zhengli"],
+        "orgs": ["Nature", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Cyranoski, David",
+      "title": "Did pangolins spread the China coronavirus to people?",
+      "publication": "Nature",
+      "date": "February 7, 2020",
+      "url": "https://www.nature.com/articles/d41586-020-00364-2",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Nature news report on Guangzhou researchers suggesting pangolins as the probable intermediate animal source of the coronavirus outbreak then infecting tens of thousands.",
+      "book_role": "Introduces the pangolin-intermediate-host hypothesis that gives the chapter its title and competing origin narrative.",
+      "topics": ["pangolins", "intermediate host", "zoonosis", "Guangzhou research"],
+      "entities": {
+        "people": ["David Cyranoski"],
+        "orgs": ["Nature"],
+        "places": ["Guangzhou", "China", "Wuhan"]
+      }
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Beilfuss, Lisa",
+      "title": "China’s Coronavirus Figures Don’t Add Up. ‘This Never Happens With Real Data.’",
+      "publication": "Barron's",
+      "date": "February 13, 2020",
+      "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
+      "status": "paywall",
+      "artifact": "artifacts/ch05-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Barron’s piece arguing China’s coronavirus statistics look too perfect to be trustworthy, echoing long-standing skepticism about Chinese official data. Full article behind subscription; only lede retrieved.",
+      "book_role": "Supports the chapter’s skepticism about official Chinese case numbers while origin stories (bats vs pangolins) were being sold.",
+      "topics": ["Chinese official data", "case counts", "data reliability"],
+      "entities": {
+        "people": ["Lisa Beilfuss"],
+        "orgs": ["Barron's", "Dow Jones"],
+        "places": ["China"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "Preprint",
+      "author": "Xiao, Botao, and Lei Xiao",
+      "title": "The possible origins of 2019-nCoV coronavirus (preprint)",
+      "publication": "ResearchGate",
+      "date": "February 1, 2020",
+      "url": "https://www.researchgate.net/publication/360910691_The_possible_origins_of_2019-nCoV_coronavirus",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s04.md",
+      "content_kind": "preprint",
+      "language": "en",
+      "summary": "Early February 2020 preprint discussing possible origins of 2019-nCoV, noting genomic similarity to bat CoV ZC45 and questioning whether the Huanan market alone explains the epidemic’s start.",
+      "book_role": "Early alternative-origin preprint circulating as the bat/pangolin narratives were being locked in.",
+      "topics": ["2019-nCoV origins", "bat CoV ZC45", "Huanan Seafood Market", "preprint"],
+      "entities": {
+        "people": ["Botao Xiao", "Lei Xiao"],
+        "orgs": ["ResearchGate"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Ibbetson, Ross",
+      "title": "Did coronavirus originate in Chinese government laboratory?",
+      "publication": "Daily Mail",
+      "date": "February 16, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-8009669/Did-coronavirus-originate-Chinese-government-laboratory.html",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Daily Mail report on the Xiao/Xiao preprint arguing the virus likely came from a Wuhan lab (WHCDC and/or WIV), citing bat research near the Huanan market, bat–researcher accidents, and the distance of native bats from Wuhan.",
+      "book_role": "Brings the lab-origin reading of the Xiao preprint into mass media while pangolin and bat-market stories were still the official line.",
+      "topics": ["lab origin", "Wuhan CDC", "Wuhan Institute of Virology", "bats", "Huanan Seafood Market"],
+      "entities": {
+        "people": ["Ross Ibbetson", "Botao Xiao", "Lei Xiao"],
+        "orgs": ["Daily Mail", "South China University of Technology", "Wuhan CDC", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "Hubei", "Yunnan", "China"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "Journal article",
+      "author": "Menachery, Vineet, et al.",
+      "title": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "publication": "Nature Medicine",
+      "date": "November 9, 2015",
+      "url": "https://www.nature.com/articles/nm.3985",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2015 Nature Medicine study (Menachery/Baric et al.) showing a SARS-like bat coronavirus cluster with potential for human emergence; later cited in COVID origin debates (with a 2020 editors’ note rejecting unverified engineering claims).",
+      "book_role": "Pre-pandemic chimeric/bat-CoV research paper that Chapter 5 uses to show human-emergence potential was already being demonstrated in the lab years earlier.",
+      "topics": ["bat coronaviruses", "human emergence", "chimeric viruses", "Ralph Baric"],
+      "entities": {
+        "people": ["Vineet Menachery", "Ralph Baric"],
+        "orgs": ["Nature Medicine", "University of North Carolina"],
+        "places": ["United States", "China"]
+      }
+    }
+  ]
+}

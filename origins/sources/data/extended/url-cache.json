@@ -268,5 +268,35 @@
     "source_key": "ch04-s15",
     "artifact": "artifacts/ch04-s15.md",
     "status": "ok"
+  },
+  "https://www.nature.com/articles/s41586-020-2012-7": {
+    "source_key": "ch05-s01",
+    "artifact": "artifacts/ch05-s01.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/d41586-020-00364-2": {
+    "source_key": "ch05-s02",
+    "artifact": "artifacts/ch05-s02.md",
+    "status": "ok"
+  },
+  "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840": {
+    "source_key": "ch05-s03",
+    "artifact": "artifacts/ch05-s03.md",
+    "status": "ok"
+  },
+  "https://www.researchgate.net/publication/360910691_The_possible_origins_of_2019-nCoV_coronavirus": {
+    "source_key": "ch05-s04",
+    "artifact": "artifacts/ch05-s04.md",
+    "status": "ok"
+  },
+  "https://www.dailymail.co.uk/news/article-8009669/Did-coronavirus-originate-Chinese-government-laboratory.html": {
+    "source_key": "ch05-s05",
+    "artifact": "artifacts/ch05-s05.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/nm.3985": {
+    "source_key": "ch05-s06",
+    "artifact": "artifacts/ch05-s06.md",
+    "status": "ok"
   }
 }

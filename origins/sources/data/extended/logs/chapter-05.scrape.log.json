@@ -1,0 +1,73 @@
+{
+  "chapter": 5,
+  "credits_before": 803,
+  "credits_after": 797,
+  "sources": [
+    {
+      "id": 1,
+      "source_key": "ch05-s01",
+      "url": "https://www.nature.com/articles/s41586-020-2012-7",
+      "ok": true,
+      "status": "ok",
+      "bytes": 87598,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch05-s01.md"
+    },
+    {
+      "id": 2,
+      "source_key": "ch05-s02",
+      "url": "https://www.nature.com/articles/d41586-020-00364-2",
+      "ok": true,
+      "status": "ok",
+      "bytes": 10161,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch05-s02.md"
+    },
+    {
+      "id": 3,
+      "source_key": "ch05-s03",
+      "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
+      "ok": true,
+      "status": "ok",
+      "bytes": 11880,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch05-s03.md"
+    },
+    {
+      "id": 4,
+      "source_key": "ch05-s04",
+      "url": "https://www.researchgate.net/publication/360910691_The_possible_origins_of_2019-nCoV_coronavirus",
+      "ok": true,
+      "status": "ok",
+      "bytes": 35866,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch05-s04.md"
+    },
+    {
+      "id": 5,
+      "source_key": "ch05-s05",
+      "url": "https://www.dailymail.co.uk/news/article-8009669/Did-coronavirus-originate-Chinese-government-laboratory.html",
+      "ok": true,
+      "status": "ok",
+      "bytes": 124551,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch05-s05.md"
+    },
+    {
+      "id": 6,
+      "source_key": "ch05-s06",
+      "url": "https://www.nature.com/articles/nm.3985",
+      "ok": true,
+      "status": "ok",
+      "bytes": 84386,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch05-s06.md"
+    }
+  ]
+}
