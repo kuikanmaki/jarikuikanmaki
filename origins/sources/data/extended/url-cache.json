@@ -583,5 +583,10 @@
     "source_key": "ch09-s19",
     "artifact": "artifacts/ch09-s19.md",
     "status": "ok"
+  },
+  "https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/26/statement-by-president-joe-biden-on-the-investigation-into-the-origins-of-covid-19/": {
+    "source_key": "ch10-s01",
+    "artifact": "artifacts/ch10-s01.md",
+    "status": "ok"
   }
 }
