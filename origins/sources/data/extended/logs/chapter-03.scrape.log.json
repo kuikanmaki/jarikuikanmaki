@@ -1,7 +1,7 @@
 {
   "chapter": 3,
-  "credits_before": 991,
-  "credits_after": 969,
+  "credits_before": 847,
+  "credits_after": 825,
   "sources": [
     {
       "id": 1,
@@ -31,7 +31,7 @@
       "url": "https://www.openthebooks.com/assets/1/6/10.12_NIH_FOIA_57351_07.29.2022_Production1.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 11286,
+      "bytes": 11302,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch03-s03.md"
@@ -64,7 +64,7 @@
       "url": "https://usrtk.org/wp-content/uploads/2022/08/Talking-Points-for-NIAID-Director-Dr.-Fauci.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 2059,
+      "bytes": 2066,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch03-s06.md"
@@ -119,7 +119,7 @@
       "url": "https://usrtk.org/wp-content/uploads/2023/02/Baric_Slack_EDDec2022Production.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 1385,
+      "bytes": 1482,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch03-s11.md"

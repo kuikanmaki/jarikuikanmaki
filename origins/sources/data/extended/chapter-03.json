@@ -1,10 +1,7 @@
 {
   "chapter": 3,
   "chapter_title": "Fauci Receives the Email",
-  "printed_pages": {
-    "start": 38,
-    "end": 47
-  },
+  "printed_pages": { "start": 38, "end": 47 },
   "sources": [
     {
       "id": 1,
@@ -14,26 +11,17 @@
       "publication": "The Lancet",
       "date": "January 24, 2020",
       "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext",
-      "status": "ok",
+      "status": "paywall",
       "artifact": "artifacts/ch03-s01.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Source from The Lancet, captured for the chapter research corpus.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, Chi.",
-      "topics": [
-        "Wuhan"
-      ],
+      "summary": "Lancet clinical report on the first hospitalized 2019-nCoV patients in Wuhan. Full text was not retrieved (paywall/chrome only). This is the case series later cited to show the earliest patient had no seafood-market link.",
+      "book_role": "Provides the early Wuhan clinical case series that challenges a simple Huanan-market origin just as Fauci’s circle begins reacting to the outbreak.",
+      "topics": ["2019-nCoV clinical features", "early cases", "Huanan Seafood Market", "Wuhan"],
       "entities": {
-        "people": [
-          "Chaolin Huang"
-        ],
-        "orgs": [
-          "The Lancet"
-        ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "people": ["Chaolin Huang"],
+        "orgs": ["The Lancet"],
+        "places": ["Wuhan", "China"]
       }
     },
     {
@@ -48,22 +36,13 @@
       "artifact": "artifacts/ch03-s02.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Wuhan seafood market may not be source of novel virus spreading globally Description of earliest cases suggests outbreak began elsewhere The Huanan seafood market in Wuhan has been widely considered the source of the outbreak of a novel coronavirus. But the virus may have infected people elsewhere first.REUTERS As confirmed cases of a novel virus surge around the world with worrisome speed, all eyes have so far focused on a seafood market in Wuha…",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Wuhan seafood market may not be source of novel virus spreading globally.",
-      "topics": [
-        "Wuhan"
-      ],
+      "summary": "Science news piece on the Lancet first-41-patients paper, noting the earliest case became ill on 1 December 2019 with no reported market link and arguing the Huanan seafood market may not be where the outbreak began.",
+      "book_role": "Brings market-origin doubts into Western scientific coverage at the same moment U.S. officials are absorbing the new virus.",
+      "topics": ["Huanan Seafood Market", "early cases", "outbreak origin", "2019-nCoV"],
       "entities": {
-        "people": [
-          "Jon Cohen"
-        ],
-        "orgs": [
-          "Science"
-        ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "people": ["Jon Cohen"],
+        "orgs": ["Science", "The Lancet"],
+        "places": ["Wuhan", "Huanan Seafood Market", "China"]
       }
     },
     {
@@ -78,18 +57,13 @@
       "artifact": "artifacts/ch03-s03.md",
       "content_kind": "pdf",
       "language": "en",
-      "summary": "| November 1, 2019 |  |  |  | November 2019 |  |  |  | December 2019 |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | Friday |  |  |  | SuMo TuWe Th Fr Sa |  |  |  | SuMo TuWe Th Fr Sa |  |  |  | |  |  |  |  | 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 |  |  |  | 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 |  |  |  | |  | FRIDAY |  |  |…",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Anthony Fauci’s Work Calendar.",
-      "topics": [
-        "Anthony Fauci",
-        "FOIA"
-      ],
+      "summary": "FOIA-released pages from Anthony Fauci’s official work calendar around the turn of 2019/2020, listing day-to-day NIAID meetings as the novel coronavirus emerges.",
+      "book_role": "Documentary schedule evidence for what Fauci was doing when emails and briefings about Wuhan-linked coronavirus work reach him.",
+      "topics": ["Anthony Fauci", "NIAID calendar", "FOIA", "early pandemic response"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "NIAID"
-        ],
-        "places": []
+        "people": ["Anthony Fauci"],
+        "orgs": ["NIAID", "NIH", "OpenTheBooks"],
+        "places": ["Bethesda", "United States"]
       }
     },
     {
@@ -104,23 +78,13 @@
       "artifact": "artifacts/ch03-s04.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "1 of 3 \\| At a news conference at the Washington state Department of Health’s Public Health Laboratories on Tuesday, Dr. Satish Pillai of the Centers for Disease Control and Prevention joined other health professionals to discuss what they know about the first confirmed U.S.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Snohomish County man has the United States’ first known case of the new coronavi.",
-      "topics": [
-        "Snohomish",
-        "County",
-        "United",
-        "States"
-      ],
+      "summary": "Seattle Times report that a Snohomish County resident is the first confirmed U.S. case of the new coronavirus, with CDC and Washington state officials briefing the public.",
+      "book_role": "Marks the virus’s arrival in the United States—the domestic backdrop to the emails hitting Fauci’s inbox.",
+      "topics": ["first U.S. case", "Snohomish County", "2019-nCoV", "CDC"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "The Seattle Times"
-        ],
-        "places": [
-          "United States",
-          "Washington"
-        ]
+        "people": ["Satish Pillai", "John Wiesman", "Jay Inslee"],
+        "orgs": ["The Seattle Times", "CDC", "Washington State Department of Health"],
+        "places": ["Snohomish County", "Washington", "United States", "Wuhan"]
       }
     },
     {
@@ -135,19 +99,13 @@
       "artifact": "artifacts/ch03-s05.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Dr. Anthony Fauci throws out the first pitch before a baseball game between the Seattle Mariners and the New York Yankees, Tuesday, Aug.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Anthony Fauci does a victory lap while we suffer from the real Fauci effect.",
-      "topics": [
-        "Anthony Fauci"
-      ],
+      "summary": "Critical Boston Herald opinion on Fauci’s later ‘Fauci Effect’ remarks at Fred Hutchinson, attacking his public self-mythology after the pandemic.",
+      "book_role": "Later commentary used to frame how Fauci’s early power and public image were remembered once the email trail became controversial.",
+      "topics": ["Anthony Fauci", "Fauci Effect", "pandemic politics"],
       "entities": {
-        "people": [
-          "Grace Curley"
-        ],
-        "orgs": [
-          "Boston Herald"
-        ],
-        "places": []
+        "people": ["Grace Curley", "Anthony Fauci"],
+        "orgs": ["Boston Herald", "Fred Hutchinson Cancer Center", "NIAID"],
+        "places": ["Seattle", "United States"]
       }
     },
     {
@@ -162,19 +120,13 @@
       "artifact": "artifacts/ch03-s06.md",
       "content_kind": "pdf",
       "language": "en",
-      "summary": "| From: | Folkers, Greg (NIH/NIAID) [E] | | To: | Routh, Jennifer (NIH/NIAID) [E]; Fauci, Anthony (NIH/NIAID) [E] | | Cc: | Billet, Courtney (NIH/NIAID) [E]; Stover, Kathy (NIH/NIAID) [E]; Conrad, Patricia (NIH/NIAID) [E]; Marston, Hilary (NIH/NIAID) [E]; Lerner, Andrea (NIH/NIAID) [E] | | Subject: | RE: For review (due to HHS for White House by 8:30 tonight): press conference talking points | | Date: | Monday, January 27, 2020 6:24:59 PM | | Att…",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Email to Anthony Fauci on WIV, EcoHealth, NIAID Grant.",
-      "topics": [
-        "Anthony Fauci",
-        "EcoHealth Alliance",
-        "FOIA"
-      ],
+      "summary": "FOIA email on draft talking points noting that NIAID-funded coronavirus experts—including Peter Daszak’s EcoHealth group with Ralph Baric and others—had been funded for coronavirus work in China via R01AI110964.",
+      "book_role": "The chapter’s central document: the message that puts EcoHealth, Baric, and NIAID China coronavirus funding directly into Fauci’s early briefings.",
+      "topics": ["EcoHealth Alliance", "NIAID grant", "Wuhan Institute of Virology", "Peter Daszak", "Ralph Baric"],
       "entities": {
-        "people": [
-          "Greg Folkers"
-        ],
-        "orgs": [],
-        "places": []
+        "people": ["Greg Folkers", "Anthony Fauci", "Peter Daszak", "Ralph Baric", "Ian Lipkin", "Jennifer Routh", "Hilary Marston"],
+        "orgs": ["NIAID", "NIH", "EcoHealth Alliance", "U.S. Right to Know"],
+        "places": ["China", "United States", "Wuhan"]
       }
     },
     {
@@ -187,21 +139,15 @@
       "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R01AI110964&arg_ProgOfficeCode=104",
       "status": "ok",
       "artifact": "artifacts/ch03-s07.md",
-      "content_kind": "html_article",
+      "content_kind": "gov_doc",
       "language": "en",
-      "summary": "- Grants by Location - US by Metro/Non-Metro An official website of the United States governmentHere's how you know A  .gov  website belongs to an official government organization in the United States. A  lock ( 🔒 )  or  https://  means you've safely connected to the .gov website.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Understanding the Risk of Bat Coronavirus Emergence.",
-      "topics": [
-        "bat coronaviruses"
-      ],
+      "summary": "HHS TAGGS award page for NIAID grant R01AI110964 (2014–2024) to study bat coronavirus emergence risk, summarizing SARSr-CoV surveillance work funded after SARS/MERS and into the COVID era.",
+      "book_role": "Official grant record for the NIAID–EcoHealth bat-coronavirus project named in the Fauci talking-points email.",
+      "topics": ["R01AI110964", "bat coronaviruses", "EcoHealth Alliance", "NIAID funding"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "EcoHealth Alliance NIAID Grant award R01AI110964"
-        ],
-        "places": [
-          "United States"
-        ]
+        "people": ["Peter Daszak"],
+        "orgs": ["EcoHealth Alliance", "NIAID", "HHS TAGGS"],
+        "places": ["United States", "Asia", "China"]
       }
     },
     {
@@ -216,23 +162,13 @@
       "artifact": "artifacts/ch03-s08.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Anthony Fauci met with virologist Ralph Baric about “chimeras” in February 2020, according to a new email. _Photo credit: Rajesh Pamnani_ Fauci discussed gain-of-function work with Wuhan collaborator in pandemic's earliest days, emails suggest            Fauci discussed gain-of-function work with Wuhan collaborator in pandemic's earliest days, emails suggest As the COVID-19 pandemic emerged, Anthony Fauci met with an American collaborator of the …",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Fauci discussed gain-of-function work with Wuhan collaborator in pandemic’s earl.",
-      "topics": [
-        "Anthony Fauci",
-        "gain-of-function",
-        "Wuhan"
-      ],
+      "summary": "USRTK investigation that early emails/schedules show Fauci met Ralph Baric in February 2020 about chimeric/gain-of-function work while Baric’s WIV collaborations were under scrutiny.",
+      "book_role": "Ties the calendar evidence to Fauci’s early conversations with Baric about GoF and chimeras.",
+      "topics": ["gain-of-function", "Ralph Baric", "Anthony Fauci", "chimeric viruses", "WIV collaboration"],
       "entities": {
-        "people": [
-          "Emily Kopp"
-        ],
-        "orgs": [
-          "U.S. Right to Know"
-        ],
-        "places": [
-          "Wuhan"
-        ]
+        "people": ["Emily Kopp", "Anthony Fauci", "Ralph Baric", "Shi Zhengli"],
+        "orgs": ["U.S. Right to Know", "Wuhan Institute of Virology", "University of North Carolina"],
+        "places": ["Wuhan", "Chapel Hill", "United States"]
       }
     },
     {
@@ -247,19 +183,13 @@
       "artifact": "artifacts/ch03-s09.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Substack: HISTORIC RELEASE: Dr. Anthony Fauci’s Official Work Calendar (November 2019 – March 2020) _Photo: Screenshot from C-SPAN video of Dr.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Anthony Fauci’s Work Calendar, Meeting with Dr Ralph Baric.",
-      "topics": [
-        "Anthony Fauci",
-        "Ralph Baric",
-        "FOIA"
-      ],
+      "summary": "OpenTheBooks release of Fauci’s Nov 2019–Mar 2020 calendar, including early NSC/White House coronavirus meetings and the February 2020 Baric meeting entry.",
+      "book_role": "Pins the Fauci–Baric meeting on the official calendar that structures Chapter 3’s chronology.",
+      "topics": ["Anthony Fauci calendar", "Ralph Baric meeting", "NSC", "FOIA"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "NIAID"
-        ],
-        "places": []
+        "people": ["Anthony Fauci", "Ralph Baric"],
+        "orgs": ["NIAID", "National Security Council", "OpenTheBooks"],
+        "places": ["Washington", "United States"]
       }
     },
     {
@@ -274,17 +204,13 @@
       "artifact": "artifacts/ch03-s10.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "www.lexitaslegal.comPhone: 1.800.280.3376Fax: 314.644.1334 13Videotaped Deposition of DR. ANTHONY FAUCI, a 14Defendant herein, called for examination by counsel 15for Plaintiffs in the above-entitled matter, pursuant 16to notice, the witness being duly sworn by Stephanie 17Barnes, a Notary Public in and for the State of 18Maryland, taken at the offices of National Institutes 19of Health, 31 Center Drive, Building 31, Bethesda, 20Maryland, at 8:08…",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Anthony Fauci’s deposition transcript.",
-      "topics": [
-        "Anthony Fauci"
-      ],
+      "summary": "Video-recorded deposition of Anthony Fauci taken 23 November 2022 at NIH in Bethesda for Louisiana federal litigation; the scrape is a large DocumentCloud/OCR transcript dump including counsel captions and sworn Q&A.",
+      "book_role": "Later sworn testimony used to test Fauci’s early-knowledge claims against the 2020 email and calendar record.",
+      "topics": ["Anthony Fauci deposition", "court testimony", "early knowledge"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "United States District Court for the Western District of Louisiana"
-        ],
-        "places": []
+        "people": ["Anthony Fauci"],
+        "orgs": ["United States District Court for the Western District of Louisiana", "NIH", "DocumentCloud"],
+        "places": ["Bethesda", "Louisiana", "United States"]
       }
     },
     {
@@ -299,17 +225,13 @@
       "artifact": "artifacts/ch03-s11.md",
       "content_kind": "pdf",
       "language": "en",
-      "summary": "| From: | Slack [notification@slack.com] | | To: | Menachery, Vineet [vimenach@UTMB.EDU] | | Subject: | [Slack] Notifications from the SARS2 workspace for February 18th, 2020 at 2:29 PM | | WARNING: This email originated from outside of UTMB's email system. Do not click links or open attachments unless you recognize the sender and know the content is safe.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Slack message to Vineet Menachery.",
-      "topics": [
-        "FOIA"
-      ],
+      "summary": "FOIA Slack notification in which Matt Frieman says Ralph Baric sat in Fauci’s office talking about the outbreak and chimeras, bristled at a WIV-link joke, and claimed Shi’s paper lacked Chinese government approval.",
+      "book_role": "Contemporaneous lab-world message corroborating a Fauci–Baric ‘outbreak and chimeras’ conversation in February 2020.",
+      "topics": ["Ralph Baric", "chimeras", "Anthony Fauci", "WIV", "Slack FOIA"],
       "entities": {
-        "people": [
-          "Matt Frieman"
-        ],
-        "orgs": [],
-        "places": []
+        "people": ["Matt Frieman", "Vineet Menachery", "Ralph Baric", "Anthony Fauci", "Shi Zhengli"],
+        "orgs": ["U.S. Right to Know", "Wuhan Institute of Virology"],
+        "places": ["United States", "Wuhan"]
       }
     },
     {
@@ -324,22 +246,13 @@
       "artifact": "artifacts/ch03-s12.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "where criminology, behavioral economics, and evolutionary anthropology make babies _An accessible and comprehensive YouTube summary of the report below by a Professor of Neurobiology at the University of Pittsburgh’s Medical School is available here. And you can read our takedown of Nature magazine’s recent article claiming COVID-19 definitely wasn’t from a lab here._ _Read the peer-reviewed research paper this article seeded, originally submitte…",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Logistical and Technical Exploration into the Origins of the Wuhan Strain of Cor.",
-      "topics": [
-        "Wuhan"
-      ],
+      "summary": "Early January 2020 technical essay by Karl and Dan Sirotkin arguing logistical and genomic reasons to take a laboratory origin for the Wuhan coronavirus seriously.",
+      "book_role": "Example of very early independent technical skepticism about a natural-only origin while official narratives were still forming.",
+      "topics": ["lab origin hypothesis", "Wuhan strain", "genome analysis", "early skepticism"],
       "entities": {
-        "people": [
-          "Karl Sirotkin",
-          "Dan Sirotkin"
-        ],
-        "orgs": [
-          "Harvardtothebighouse.com"
-        ],
-        "places": [
-          "Wuhan"
-        ]
+        "people": ["Karl Sirotkin", "Dan Sirotkin"],
+        "orgs": ["Los Alamos National Laboratory"],
+        "places": ["Wuhan", "China"]
       }
     },
     {
@@ -354,23 +267,13 @@
       "artifact": "artifacts/ch03-s13.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research Press enter or click to view image in full size Staff celebrating the physical completion of the laboratory in 2015, Wuhan, China ( Source) If you hear anyone claim “we know the virus didn’t come from a lab”, don’t buy it — it may well have.",
-      "book_role": "Supports Chapter 3 (“Fauci Receives the Email”) as bibliographic evidence for: Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research.",
-      "topics": [
-        "gain-of-function",
-        "lab origin"
-      ],
+      "summary": "Long Medium essay reading SARS-CoV-2 against published gain-of-function and reverse-genetics work, arguing a lab-related genealogy cannot be dismissed and that modern engineering need leave no obvious genomic scars.",
+      "book_role": "Influential early GoF-genealogy argument that Chapter 3 pairs with the Fauci/Baric/WIV funding thread.",
+      "topics": ["gain-of-function", "SARS-CoV-2 genealogy", "lab origin", "reverse genetics"],
       "entities": {
-        "people": [
-          "Yuri Deigin"
-        ],
-        "orgs": [
-          "Medium"
-        ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "people": ["Yuri Deigin"],
+        "orgs": ["Medium", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "China"]
       }
     }
   ]
