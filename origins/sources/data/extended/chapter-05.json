@@ -1,0 +1,188 @@
+{
+  "chapter": 5,
+  "chapter_title": "Pangolins",
+  "printed_pages": {
+    "start": 58,
+    "end": 67
+  },
+  "sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Zhou, Peng, et al.",
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "publication": "Nature",
+      "date": "February 3, 2020",
+      "url": "https://www.nature.com/articles/s41586-020-2012-7",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+      "book_role": "Supports Chapter 5 (“Pangolins”) as bibliographic evidence for: A pneumonia outbreak associated with a new coronavirus of probable bat origin.",
+      "topics": [
+        "bat coronaviruses"
+      ],
+      "entities": {
+        "people": [
+          "Peng Zhou"
+        ],
+        "orgs": [
+          "Nature"
+        ],
+        "places": []
+      }
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Cyranoski, David",
+      "title": "Did pangolins spread the China coronavirus to people?",
+      "publication": "Nature",
+      "date": "February 7, 2020",
+      "url": "https://www.nature.com/articles/d41586-020-00364-2",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+      "book_role": "Supports Chapter 5 (“Pangolins”) as bibliographic evidence for: Did pangolins spread the China coronavirus to people?.",
+      "topics": [
+        "pangolins"
+      ],
+      "entities": {
+        "people": [
+          "David Cyranoski"
+        ],
+        "orgs": [
+          "Nature"
+        ],
+        "places": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Beilfuss, Lisa",
+      "title": "China’s Coronavirus Figures Don’t Add Up. ‘This Never Happens With Real Data.’",
+      "publication": "Barron's",
+      "date": "February 13, 2020",
+      "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.",
+      "book_role": "Supports Chapter 5 (“Pangolins”) as bibliographic evidence for: China’s Coronavirus Figures Don’t Add Up. ‘This Never Happens With Real Data.’.",
+      "topics": [
+        "China",
+        "Coronavirus",
+        "Figures",
+        "This"
+      ],
+      "entities": {
+        "people": [
+          "Lisa Beilfuss"
+        ],
+        "orgs": [
+          "Barron's"
+        ],
+        "places": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "type": "Preprint",
+      "author": "Xiao, Botao, and Lei Xiao",
+      "title": "The possible origins of 2019-nCoV coronavirus (preprint)",
+      "publication": "ResearchGate",
+      "date": "February 1, 2020",
+      "url": "https://www.researchgate.net/publication/360910691_The_possible_origins_of_2019-nCoV_coronavirus",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s04.md",
+      "content_kind": "preprint",
+      "language": "en",
+      "summary": "The possible origins of 2019-nCoV coronavirus - This person is not on ResearchGate, or hasn't claimed this research yet. - This person is not on ResearchGate, or hasn't claimed this research yet.",
+      "book_role": "Supports Chapter 5 (“Pangolins”) as bibliographic evidence for: The possible origins of 2019-nCoV coronavirus (preprint).",
+      "topics": [
+        "possible",
+        "origins",
+        "2019-nCoV",
+        "coronavirus"
+      ],
+      "entities": {
+        "people": [
+          "Botao Xiao",
+          "Lei Xiao"
+        ],
+        "orgs": [
+          "ResearchGate"
+        ],
+        "places": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "Ibbetson, Ross",
+      "title": "Did coronavirus originate in Chinese government laboratory?",
+      "publication": "Daily Mail",
+      "date": "February 16, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-8009669/Did-coronavirus-originate-Chinese-government-laboratory.html",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "You're viewing the US editionYou can switch to the UK, AU or IE homepage at any time using this menu. -  Tragedy as two Army vet deputies killed during hostage rescue mission after being ambushed by gunman: 'Devastating loss' -  Fairground horror after two teenagers 'intentionally cause ride to swing out of control' before violent collision that left three people injured -  Gavin Newsom has spared our daughter's killer - and made a mockery of her…",
+      "book_role": "Supports Chapter 5 (“Pangolins”) as bibliographic evidence for: Did coronavirus originate in Chinese government laboratory?.",
+      "topics": [
+        "coronavirus",
+        "originate",
+        "Chinese",
+        "government"
+      ],
+      "entities": {
+        "people": [
+          "Ross Ibbetson"
+        ],
+        "orgs": [
+          "Daily Mail"
+        ],
+        "places": []
+      }
+    },
+    {
+      "id": 6,
+      "type": "Journal article",
+      "author": "Menachery, Vineet, et al.",
+      "title": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "publication": "Nature Medicine",
+      "date": "November 9, 2015",
+      "url": "https://www.nature.com/articles/nm.3985",
+      "status": "ok",
+      "artifact": "artifacts/ch05-s06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+      "book_role": "Supports Chapter 5 (“Pangolins”) as bibliographic evidence for: A SARS-like cluster of circulating bat coronaviruses shows potential for human e.",
+      "topics": [
+        "bat coronaviruses"
+      ],
+      "entities": {
+        "people": [
+          "Vineet Menachery"
+        ],
+        "orgs": [
+          "Nature Medicine"
+        ],
+        "places": []
+      }
+    }
+  ]
+}

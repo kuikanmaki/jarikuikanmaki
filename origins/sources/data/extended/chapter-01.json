@@ -1,0 +1,259 @@
+{
+  "chapter": 1,
+  "chapter_title": "The First Time I Heard of the Virus",
+  "printed_pages": { "start": 14, "end": 26 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "Personal journal",
+      "author": "Kuikanmäki, Jari",
+      "title": "Personal journal",
+      "publication": "",
+      "date": "January 26, 2020",
+      "url": "",
+      "status": "empty_url",
+      "artifact": null,
+      "content_kind": "unknown",
+      "language": "en",
+      "summary": "Author’s personal journal entry dated 26 January 2020; no public URL. Used as a first-person timestamp for when the author first registered the outbreak.",
+      "book_role": "Anchors Chapter 1 in the author’s own contemporaneous awareness of the emerging virus.",
+      "topics": ["personal journal", "early outbreak awareness"],
+      "entities": {
+        "people": ["Jari Kuikanmäki"],
+        "orgs": [],
+        "places": []
+      }
+    },
+    {
+      "id": 2,
+      "type": "Newspaper article",
+      "author": "Qin, Amy, and Javier C. Hernández",
+      "title": "China Reports First Death From New Virus",
+      "publication": "New York Times",
+      "date": "January 10, 2020",
+      "url": "https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+      "status": "blocked",
+      "artifact": null,
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus. Firecrawl cannot scrape nytimes.com on this plan; citation retained from the bibliography.",
+      "book_role": "Early Western headline marking the outbreak’s first reported fatality.",
+      "topics": ["first death", "Wuhan outbreak", "early reporting"],
+      "entities": {
+        "people": ["Amy Qin", "Javier C. Hernández"],
+        "orgs": ["New York Times"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "",
+      "title": "China coronavirus: Lockdown measures rise across Hubei province",
+      "publication": "BBC News",
+      "date": "January 23, 2020",
+      "url": "https://www.bbc.com/news/world-asia-china-51217455",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "BBC report on expanding Hubei lockdowns after the novel coronavirus emerged in Wuhan, including transport shutdowns in Wuhan and neighboring cities and rising case counts.",
+      "book_role": "Documents the sudden lockdown phase that framed how outsiders first grasped the outbreak’s seriousness.",
+      "topics": ["Hubei lockdown", "Wuhan", "travel restrictions"],
+      "entities": {
+        "people": [],
+        "orgs": ["BBC News"],
+        "places": ["Wuhan", "Hubei", "China", "Singapore", "Vietnam"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "Blog post",
+      "author": "Holmes, Edward",
+      "title": "Novel 2019 coronavirus genome",
+      "publication": "Virological.org",
+      "date": "January 11, 2020",
+      "url": "https://virological.org/t/novel-2019-coronavirus-genome/319",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Virological.org thread posting the novel 2019 coronavirus genome outside China, a foundational public release for global virologists.",
+      "book_role": "Marks Edward Holmes’s role in first publishing the genome abroad—central to Chapter 1 and later origin debates.",
+      "topics": ["SARS-CoV-2 genome", "Edward Holmes", "Virological", "2019-nCoV"],
+      "entities": {
+        "people": ["Edward Holmes"],
+        "orgs": ["Virological.org"],
+        "places": ["China", "Australia"]
+      }
+    },
+    {
+      "id": 5,
+      "type": "Newspaper article",
+      "author": "Wang, Xiaodong",
+      "title": "New pneumonia-type virus can cause infection among humans, says expert",
+      "publication": "China Daily",
+      "date": "January 20, 2020",
+      "url": "https://www.chinadaily.com.cn/a/202001/20/WS5e25bfd8a310128217272550.html",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "China Daily piece reporting expert confirmation that the new pneumonia-linked virus can infect humans, reflecting shifting official messaging in mid-to-late January 2020.",
+      "book_role": "Shows the transition from uncertainty to acknowledged human infection risk in Chinese state media.",
+      "topics": ["human-to-human transmission", "official messaging", "Wuhan pneumonia"],
+      "entities": {
+        "people": ["Wang Xiaodong"],
+        "orgs": ["China Daily"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "Twitter post",
+      "author": "WHO",
+      "title": "No clear evidence of human-to-human transmission of the novel #coronavirus (2019-nCoV) identified in #Wuhan, #China.",
+      "publication": "WHO",
+      "date": "January 14, 2020",
+      "url": "https://twitter.com/WHO/status/1217043229427761152",
+      "status": "skipped",
+      "artifact": null,
+      "content_kind": "social",
+      "language": "en",
+      "summary": "WHO tweet stating there was then ‘no clear evidence’ of human-to-human transmission of 2019-nCoV in Wuhan. Social URL skipped under scrape policy; text preserved from the bibliography title.",
+      "book_role": "Captures WHO’s early public caution that later contrasted with rapid spread and lockdowns.",
+      "topics": ["WHO", "human-to-human transmission", "2019-nCoV"],
+      "entities": {
+        "people": [],
+        "orgs": ["World Health Organization"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 7,
+      "type": "Editorial",
+      "author": "",
+      "title": "An Engineered Doomsday",
+      "publication": "New York Times",
+      "date": "January 7, 2012",
+      "url": "https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+      "status": "blocked",
+      "artifact": null,
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research. Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
+      "book_role": "Historical context for GoF risk debates that Chapter 1 connects to the author’s early questions about the new virus.",
+      "topics": ["gain-of-function", "engineered pathogens", "biosafety debate"],
+      "entities": {
+        "people": [],
+        "orgs": ["New York Times"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 8,
+      "type": "Statement",
+      "author": "",
+      "title": "Consensus Statement on the Creation of Potential Pandemic Pathogens (PPPs)",
+      "publication": "Cambridge Working Group",
+      "date": "July 14, 2014",
+      "url": "https://www.cambridgeworkinggroup.org/",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Cambridge Working Group consensus statement opposing certain creation of potential pandemic pathogens, preserved as a historical biosafety advocacy document.",
+      "book_role": "Primary text of the mid-2010s scientific opposition to risky PPP/GoF experiments.",
+      "topics": ["potential pandemic pathogens", "Cambridge Working Group", "gain-of-function"],
+      "entities": {
+        "people": [],
+        "orgs": ["Cambridge Working Group"],
+        "places": ["Cambridge", "United States"]
+      }
+    },
+    {
+      "id": 9,
+      "type": "Official document",
+      "author": "",
+      "title": "U.S. Government Gain-of-Function Deliberative Process and Research Funding Pause on Selected Gain-of-Function Research Involving Influenza, MERS, and SARS Viruses",
+      "publication": "OSTP, HHS",
+      "date": "October 17, 2014",
+      "url": "https://osp.od.nih.gov/wp-content/uploads/2025/02/USG-Gain-of-Function-Deliberative-Process-and-Research-Funding-Pause-on-Selected-Gain-of-Function-Research.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s09.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "U.S. government document announcing the 2014 funding pause and deliberative process for selected gain-of-function research on influenza, MERS, and SARS viruses.",
+      "book_role": "Official U.S. policy backdrop for why controversial GoF work was constrained—and later relevant to research moved abroad.",
+      "topics": ["gain-of-function pause", "OSTP", "HHS", "MERS", "SARS"],
+      "entities": {
+        "people": [],
+        "orgs": ["Office of Science and Technology Policy", "Department of Health and Human Services", "NIH"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 10,
+      "type": "Journal article",
+      "author": "Herfst, Sander, et al.",
+      "title": "Airborne Transmission of Influenza A/H5N1 Virus Between Ferrets",
+      "publication": "Science",
+      "date": "June 22, 2012",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810786/",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s10.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Landmark Science paper demonstrating airborne transmission of H5N1 influenza between ferrets—central exhibit in gain-of-function controversy.",
+      "book_role": "Scientific exemplar of GoF research that informed the author’s early mental model of engineered-pandemic risk.",
+      "topics": ["H5N1", "ferrets", "airborne transmission", "gain-of-function"],
+      "entities": {
+        "people": ["Sander Herfst"],
+        "orgs": ["Science", "Erasmus Medical Center"],
+        "places": ["Netherlands"]
+      }
+    },
+    {
+      "id": 11,
+      "type": "News article",
+      "author": "Branswell, Helen",
+      "title": "Experts search for answers in limited information about mystery pneumonia outbreak in China",
+      "publication": "STAT News",
+      "date": "January 4, 2020",
+      "url": "https://www.statnews.com/2020/01/04/mystery-pneumonia-outbreak-china/",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "STAT early report on experts parsing sparse Chinese statements about Wuhan’s unexplained pneumonia cluster, including rising case counts and coronavirus speculation.",
+      "book_role": "Shows how Western infectious-disease reporters first encountered the outbreak amid information scarcity.",
+      "topics": ["mystery pneumonia", "Wuhan", "early reporting", "information scarcity"],
+      "entities": {
+        "people": ["Helen Branswell", "Marion Koopmans"],
+        "orgs": ["STAT News", "Wuhan Municipal Health Commission", "Erasmus Medical Center"],
+        "places": ["Wuhan", "China", "Rotterdam"]
+      }
+    },
+    {
+      "id": 12,
+      "type": "Newspaper article",
+      "author": "Khan, Natasha",
+      "title": "New Virus Discovered by Chinese Scientists Investigating Pneumonia Outbreak",
+      "publication": "Wall Street Journal",
+      "date": "January 8, 2020",
+      "url": "https://www.wsj.com/articles/new-virus-discovered-by-chinese-scientists-investigating-pneumonia-outbreak-11578485668",
+      "status": "paywall",
+      "artifact": "artifacts/ch01-s12.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Wall Street Journal report that Chinese scientists had identified a new virus in the pneumonia outbreak. Retrieved page is mostly paywall/chrome; citation retained.",
+      "book_role": "Early mainstream confirmation that a novel virus—not ordinary pneumonia—had been identified in Wuhan.",
+      "topics": ["novel virus discovery", "Wuhan pneumonia", "early reporting"],
+      "entities": {
+        "people": ["Natasha Khan"],
+        "orgs": ["Wall Street Journal"],
+        "places": ["Wuhan", "China"]
+      }
+    }
+  ]
+}
