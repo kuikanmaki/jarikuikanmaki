@@ -298,5 +298,90 @@
     "source_key": "ch05-s06",
     "artifact": "artifacts/ch05-s06.md",
     "status": "ok"
+  },
+  "https://thebulletin.org/2014/03/threatened-pandemics-and-laboratory-escapes-self-fulfilling-prophecies/": {
+    "source_key": "ch06-s01",
+    "artifact": "artifacts/ch06-s01.md",
+    "status": "ok"
+  },
+  "https://www.washingtonpost.com/world/2020/02/01/early-missteps-state-secrecy-china-likely-allowed-coronavirus-spread-farther-faster/": {
+    "source_key": "ch06-s02",
+    "artifact": "artifacts/ch06-s02.md",
+    "status": "ok"
+  },
+  "https://www.theguardian.com/world/2020/feb/10/coronavirus-journalist-missing-in-wuhan-as-anger-towards-chinese-authorities-grows": {
+    "source_key": "ch06-s03",
+    "artifact": "artifacts/ch06-s03.md",
+    "status": "ok"
+  },
+  "https://irp.fas.org/eprint/gec-disinfo.pdf": {
+    "source_key": "ch06-s04",
+    "artifact": "artifacts/ch06-s04.md",
+    "status": "ok"
+  },
+  "https://www.france24.com/en/20200222-russia-linked-disinformation-campaign-fueling-coronavirus-alarm-us-says": {
+    "source_key": "ch06-s05",
+    "artifact": "artifacts/ch06-s05.md",
+    "status": "ok"
+  },
+  "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-Circumstantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf": {
+    "source_key": "ch06-s06",
+    "artifact": "artifacts/ch06-s06.md",
+    "status": "ok"
+  },
+  "https://www.businessinsider.com/tom-cotton-coronavirus-come-from-chinese-super-laboratory-2020-2": {
+    "source_key": "ch06-s07",
+    "artifact": "artifacts/ch06-s07.md",
+    "status": "ok"
+  },
+  "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html": {
+    "source_key": "ch06-s08",
+    "artifact": null,
+    "status": "blocked"
+  },
+  "https://www.washingtonpost.com/politics/2020/02/16/tom-cotton-coronavirus-conspiracy/": {
+    "source_key": "ch06-s09",
+    "artifact": "artifacts/ch06-s09.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/s41591-020-0820-9": {
+    "source_key": "ch06-s10",
+    "artifact": "artifacts/ch06-s10.md",
+    "status": "ok"
+  },
+  "https://usrtk.org/covid-19-origins/ecohealth-alliance-orchestrated-key-scientists-statement-on-natural-origin-of-sars-cov-2/": {
+    "source_key": "ch06-s11",
+    "artifact": "artifacts/ch06-s11.md",
+    "status": "ok"
+  },
+  "https://www.city-journal.org/article/proximal-orchestrations": {
+    "source_key": "ch06-s12",
+    "artifact": "artifacts/ch06-s12.md",
+    "status": "ok"
+  },
+  "https://usrtk.org/covid-19-origins/timeline-the-proximal-origin-of-sars-cov-2/": {
+    "source_key": "ch06-s13",
+    "artifact": "artifacts/ch06-s13.md",
+    "status": "ok"
+  },
+  "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext": {
+    "source_key": "ch06-s14",
+    "artifact": "artifacts/ch06-s14.md",
+    "status": "ok"
+  },
+  "https://www.science.org/content/article/scientists-strongly-condemn-rumors-and-conspiracy-theories-about-origin-coronavirus": {
+    "source_key": "ch06-s15",
+    "artifact": "artifacts/ch06-s15.md",
+    "status": "ok"
+  },
+  "https://www.amazon.com/Spike-Virus-People-Inside-Story-ebook/dp/B08X671H6M": {
+    "source_key": "ch06-s16",
+    "artifact": "artifacts/ch06-s16.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/business/healthcare-pharmaceuticals/who-appoints-jeremy-farrar-chief-scientist-2022-12-13": {
+    "source_key": "ch06-s17",
+    "artifact": "artifacts/ch06-s17.md",
+    "status": "ok"
   }
 }
