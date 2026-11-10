@@ -1,0 +1,133 @@
+{
+  "chapter": 7,
+  "chapter_title": "Everything Is Under Control",
+  "printed_pages": { "start": 78, "end": 85 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "Podcast episode",
+      "author": "Kuikanmäki, Jari, and Otto Juote",
+      "title": "Everything is Under Control",
+      "publication": "Jari & Otto Show",
+      "date": "February 17, 2020",
+      "url": "https://youtu.be/qvNITz_tzhg",
+      "status": "skipped",
+      "artifact": null,
+      "content_kind": "video",
+      "language": "fi",
+      "summary": "YouTube episode of the Jari & Otto Show titled ‘Everything is Under Control’ (17 Feb 2020). Video skipped under scrape policy; citation retained.",
+      "book_role": "Author’s podcast episode that gives the chapter its ironic title as authorities insist the situation remains under control.",
+      "topics": ["podcast", "early pandemic", "Finland"],
+      "entities": {
+        "people": ["Jari Kuikanmäki", "Otto Juote"],
+        "orgs": ["Jari & Otto Show", "YouTube"],
+        "places": ["Finland"]
+      }
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Chung, Jane, and Emily Chow",
+      "title": "Concern over coronavirus spread as cases jump in South Korea, Italy and Iran",
+      "publication": "Reuters",
+      "date": "February 23, 2020",
+      "url": "https://www.reuters.com/article/world/concern-over-coronavirus-spread-as-cases-jump-in-south-korea-italy-and-iran-idUSKCN20H03N/",
+      "status": "ok",
+      "artifact": "artifacts/ch07-s02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters report on surging cases outside China—South Korea past 600 with a Daegu church cluster, Italy above 150 with town lockdowns, and rising concern in Iran—showing the epidemic escaping containment.",
+      "book_role": "Documents the late-February multi-country jump that undercuts ‘everything under control’ messaging.",
+      "topics": ["South Korea", "Italy", "Iran", "community spread", "Daegu"],
+      "entities": {
+        "people": ["Jane Chung", "Emily Chow"],
+        "orgs": ["Reuters"],
+        "places": ["South Korea", "Daegu", "Italy", "Iran", "China"]
+      }
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Coutard, B, et al.",
+      "title": "The spike glycoprotein of the new coronavirus 2019-nCoV contains a furin-like cleavage site absent in CoV of the same clade",
+      "publication": "Antiviral Research",
+      "date": "April 1, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32057769/",
+      "status": "ok",
+      "artifact": "artifacts/ch07-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "PubMed record for the Coutard et al. Antiviral Research paper identifying a furin-like cleavage site in the 2019-nCoV spike that is absent in related sarbecoviruses of the same clade.",
+      "book_role": "Scientific marker of the unusual furin cleavage site—key technical anomaly while public messaging still claimed control.",
+      "topics": ["furin cleavage site", "spike glycoprotein", "2019-nCoV", "sarbecoviruses"],
+      "entities": {
+        "people": ["B. Coutard"],
+        "orgs": ["Antiviral Research", "PubMed"],
+        "places": []
+      }
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "",
+      "title": "Coronavirus: Italy extends emergency measures nationwide",
+      "publication": "BBC",
+      "date": "March 10, 2020",
+      "url": "https://www.bbc.com/news/world-europe-51810673",
+      "status": "ok",
+      "artifact": "artifacts/ch07-s04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "BBC report that Italy extended coronavirus emergency measures nationwide, with Conte ordering people to stay home as deaths jumped and cases rose across all regions—then the worst-hit country after China.",
+      "book_role": "Shows Europe’s first full national lockdown as the ‘under control’ narrative collapses.",
+      "topics": ["Italy lockdown", "Giuseppe Conte", "nationwide restrictions"],
+      "entities": {
+        "people": ["Giuseppe Conte"],
+        "orgs": ["BBC"],
+        "places": ["Italy", "China", "Europe"]
+      }
+    },
+    {
+      "id": 5,
+      "type": "Situation report",
+      "author": "",
+      "title": "Novel Coronavirus (COVID‑19) Situation Report 39",
+      "publication": "WHO",
+      "date": "February 28, 2020",
+      "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200228-sitrep-39-covid-19.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch07-s05.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "WHO Situation Report 39 raising global spread/impact risk to ‘very high,’ noting new countries reporting cases, the WHO–China Joint Mission findings, and—as the book notes—continued advice against travel/trade restrictions.",
+      "book_role": "Official WHO snapshot combining rising risk assessment with advice against travel restrictions—the control narrative Chapter 7 critiques.",
+      "topics": ["WHO situation report", "travel restrictions", "WHO-China Joint Mission", "global risk"],
+      "entities": {
+        "people": [],
+        "orgs": ["World Health Organization"],
+        "places": ["China", "Belarus", "Lithuania", "Netherlands", "New Zealand", "Nigeria"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "",
+      "title": "THL director considers Italy’s coronavirus restrictions excessive: 'I think the Italians were quite badly caught off guard here'",
+      "publication": "Yle News",
+      "date": "February 24, 2020",
+      "url": "https://yle.fi/a/3-11225142",
+      "status": "ok",
+      "artifact": "artifacts/ch07-s06.md",
+      "content_kind": "html_article",
+      "language": "fi",
+      "summary": "Yle report quoting THL’s Mika Salminen calling Italy’s municipal lockdowns excessive and saying Italians were caught badly off guard—as Europe’s first major outbreak unfolds in northern Italy.",
+      "book_role": "Finnish official voice insisting Italy overreacted—local color for the ‘everything under control’ complacency theme.",
+      "topics": ["Mika Salminen", "THL", "Italy restrictions", "Finland preparedness"],
+      "entities": {
+        "people": ["Mika Salminen"],
+        "orgs": ["Yle", "THL"],
+        "places": ["Italy", "Finland", "Europe"]
+      }
+    }
+  ]
+}

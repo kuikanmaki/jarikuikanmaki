@@ -383,5 +383,30 @@
     "source_key": "ch06-s17",
     "artifact": "artifacts/ch06-s17.md",
     "status": "ok"
+  },
+  "https://www.reuters.com/article/world/concern-over-coronavirus-spread-as-cases-jump-in-south-korea-italy-and-iran-idUSKCN20H03N/": {
+    "source_key": "ch07-s02",
+    "artifact": "artifacts/ch07-s02.md",
+    "status": "ok"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/32057769/": {
+    "source_key": "ch07-s03",
+    "artifact": "artifacts/ch07-s03.md",
+    "status": "ok"
+  },
+  "https://www.bbc.com/news/world-europe-51810673": {
+    "source_key": "ch07-s04",
+    "artifact": "artifacts/ch07-s04.md",
+    "status": "ok"
+  },
+  "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200228-sitrep-39-covid-19.pdf": {
+    "source_key": "ch07-s05",
+    "artifact": "artifacts/ch07-s05.md",
+    "status": "ok"
+  },
+  "https://yle.fi/a/3-11225142": {
+    "source_key": "ch07-s06",
+    "artifact": "artifacts/ch07-s06.md",
+    "status": "ok"
   }
 }
