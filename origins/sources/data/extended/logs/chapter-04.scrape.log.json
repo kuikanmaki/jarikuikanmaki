@@ -1,7 +1,7 @@
 {
   "chapter": 4,
-  "credits_before": 969,
-  "credits_after": 947,
+  "credits_before": 825,
+  "credits_after": 803,
   "sources": [
     {
       "id": 1,
@@ -84,7 +84,7 @@
       "url": "https://static1.squarespace.com/static/5b68a4e4a2772c2a206180a1/t/5e2efaa2ff2cf27efbe8fc91/1580137123173/Systemic_Risk_of_Pandemic_via_Novel_Path.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 6462,
+      "bytes": 6410,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch04-s08.md"
@@ -105,7 +105,7 @@
       "url": "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-transmissibility-25-01-2020.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 17614,
+      "bytes": 17750,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch04-s10.md"
@@ -116,7 +116,7 @@
       "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 12396,
+      "bytes": 13531,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch04-s11.md"

@@ -208,5 +208,65 @@
     "source_key": "ch03-s13",
     "artifact": "artifacts/ch03-s13.md",
     "status": "ok"
+  },
+  "https://www.reuters.com/article/world/france-confirms-first-three-cases-of-coronavirus-in-europe-idUSKBN1ZN2CW": {
+    "source_key": "ch04-s02",
+    "artifact": "artifacts/ch04-s02.md",
+    "status": "ok"
+  },
+  "https://yle.fi/uutiset/3-11183390": {
+    "source_key": "ch04-s03",
+    "artifact": "artifacts/ch04-s03.md",
+    "status": "ok"
+  },
+  "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext": {
+    "source_key": "ch04-s04",
+    "artifact": "artifacts/ch04-s04.md",
+    "status": "ok"
+  },
+  "https://www.scmp.com/news/hong-kong/health-environment/article/3047813/china-coronavirus-hong-kong-medical-experts-call": {
+    "source_key": "ch04-s06",
+    "artifact": "artifacts/ch04-s06.md",
+    "status": "ok"
+  },
+  "https://data.worldbank.org/indicator/IS.AIR.PSGR?locations=CN": {
+    "source_key": "ch04-s07",
+    "artifact": "artifacts/ch04-s07.md",
+    "status": "ok"
+  },
+  "https://static1.squarespace.com/static/5b68a4e4a2772c2a206180a1/t/5e2efaa2ff2cf27efbe8fc91/1580137123173/Systemic_Risk_of_Pandemic_via_Novel_Path.pdf": {
+    "source_key": "ch04-s08",
+    "artifact": "artifacts/ch04-s08.md",
+    "status": "ok"
+  },
+  "https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-transmissibility-25-01-2020.pdf": {
+    "source_key": "ch04-s10",
+    "artifact": "artifacts/ch04-s10.md",
+    "status": "ok"
+  },
+  "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf": {
+    "source_key": "ch04-s11",
+    "artifact": "artifacts/ch04-s11.md",
+    "status": "ok"
+  },
+  "https://www.who.int/news/item/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)": {
+    "source_key": "ch04-s12",
+    "artifact": "artifacts/ch04-s12.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/article/world/italy-declares-coronavirus-emergency-after-first-two-cases-confirmed-idUSKBN1ZU1HX": {
+    "source_key": "ch04-s13",
+    "artifact": "artifacts/ch04-s13.md",
+    "status": "ok"
+  },
+  "https://www.is.fi/politiikka/art-2000006390666.html": {
+    "source_key": "ch04-s14",
+    "artifact": "artifacts/ch04-s14.md",
+    "status": "ok"
+  },
+  "https://nextstrain.org/groups/blab/sars-like-cov": {
+    "source_key": "ch04-s15",
+    "artifact": "artifacts/ch04-s15.md",
+    "status": "ok"
   }
 }

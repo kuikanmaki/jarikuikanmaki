@@ -1,10 +1,7 @@
 {
   "chapter": 4,
   "chapter_title": "Bats, Yunnan, 2013",
-  "printed_pages": {
-    "start": 48,
-    "end": 57
-  },
+  "printed_pages": { "start": 48, "end": 57 },
   "sources": [
     {
       "id": 1,
@@ -17,22 +14,14 @@
       "status": "skipped",
       "artifact": null,
       "content_kind": "video",
-      "language": "en",
-      "summary": "Loppu on lähellä (Jari & Otto Show). Skipped under scrape policy (social/video). Citation retained from the chapter bibliography.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Loppu on lähellä.",
-      "topics": [
-        "Loppu",
-        "hell"
-      ],
+      "language": "fi",
+      "summary": "YouTube episode of the Jari & Otto Show titled ‘Loppu on lähellä’ (28 Jan 2020). Video URLs are skipped under scrape policy; citation retained from the bibliography.",
+      "book_role": "Author’s own contemporaneous podcast reaction as the outbreak reaches Europe and Finland.",
+      "topics": ["podcast", "early outbreak", "Finland"],
       "entities": {
-        "people": [
-          "Jari Kuikanmäki",
-          "Otto Juote"
-        ],
-        "orgs": [
-          "Jari & Otto Show"
-        ],
-        "places": []
+        "people": ["Jari Kuikanmäki", "Otto Juote"],
+        "orgs": ["Jari & Otto Show", "YouTube"],
+        "places": ["Finland"]
       }
     },
     {
@@ -47,24 +36,13 @@
       "artifact": "artifacts/ch04-s02.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv A worker in protective suits checks the temperature of a passenger arriving at the Xianning North Station on the eve of the Chinese Lunar New Year celebrations, in Xianning, a city bordering Wuhan to the north, in Hubei province, China January 24, 2020. REUTERS/Martin Pollard Purchase Licensing Rights, opens new tab PARIS (Reuters) - France confirmed on…",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: France confirms first three cases of coronavirus in Europe.",
-      "topics": [
-        "France",
-        "confirms",
-        "first",
-        "three"
-      ],
+      "summary": "Reuters report that France confirmed Europe’s first three Wuhan coronavirus cases—two hospitalized in Paris and one in Bordeaux—with Health Minister Agnès Buzyn warning more were likely.",
+      "book_role": "Documents the outbreak’s first confirmed foothold in Europe; notes later point to even earlier undetected spread in France.",
+      "topics": ["first European cases", "France", "2019-nCoV", "exportations"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "Reuters"
-        ],
-        "places": [
-          "Wuhan",
-          "China",
-          "Hubei"
-        ]
+        "people": ["Agnès Buzyn"],
+        "orgs": ["Reuters", "French Health Ministry"],
+        "places": ["Paris", "Bordeaux", "France", "Wuhan", "Europe"]
       }
     },
     {
@@ -78,23 +56,14 @@
       "status": "ok",
       "artifact": "artifacts/ch04-s03.md",
       "content_kind": "html_article",
-      "language": "en",
-      "summary": "Suomen ensimmäinen koronavirustartuntatapaus on varmistunut. Ensihoitoyksikön Lapin keskussairaalaan kuljettamalla kiinalaisturistilla todettiin koronavirustartunta laboratoriotutkimuksissa keskiviikkona.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Finland's first coronavirus case confirmed in Lapland.",
-      "topics": [
-        "Finland",
-        "first",
-        "coronavirus",
-        "case"
-      ],
+      "language": "fi",
+      "summary": "Yle report confirming Finland’s first coronavirus case: a Chinese tourist from Wuhan isolated in good condition at Lapland Central Hospital in Rovaniemi after travel via Saariselkä.",
+      "book_role": "Brings the outbreak into Finland—the author’s home frame for following early international spread.",
+      "topics": ["first Finnish case", "Lapland", "Wuhan tourist", "THL"],
       "entities": {
         "people": [],
-        "orgs": [
-          "Yle News"
-        ],
-        "places": [
-          "Wuhan"
-        ]
+        "orgs": ["Yle", "THL", "Lapland Central Hospital"],
+        "places": ["Rovaniemi", "Saariselkä", "Lapland", "Finland", "Wuhan"]
       }
     },
     {
@@ -105,27 +74,17 @@
       "publication": "The Lancet Infectious Diseases",
       "date": "February 19, 2020",
       "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext",
-      "status": "ok",
+      "status": "paywall",
       "artifact": "artifacts/ch04-s04.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "An interactive web-based dashboard to track COVID-19 in real time. Source from The Lancet Infectious Diseases, captured for the chapter research corpus.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: An interactive web-based dashboard to track COVID-19 in real time.",
-      "topics": [
-        "interactive",
-        "web-based",
-        "dashboard",
-        "track"
-      ],
+      "summary": "Lancet Infectious Diseases note introducing the Johns Hopkins interactive COVID-19 dashboard. Full text was not retrieved (paywall/chrome only).",
+      "book_role": "Citation for the real-time case-tracking dashboards that shaped how outsiders watched the epidemic explode in January–February 2020.",
+      "topics": ["COVID-19 dashboard", "real-time tracking", "Johns Hopkins"],
       "entities": {
-        "people": [
-          "Dong, Ensheng, Du, Hongru",
-          "Lauren Gardner"
-        ],
-        "orgs": [
-          "The Lancet Infectious Diseases"
-        ],
-        "places": []
+        "people": ["Ensheng Dong", "Hongru Du", "Lauren Gardner"],
+        "orgs": ["The Lancet Infectious Diseases", "Johns Hopkins University"],
+        "places": ["United States", "China"]
       }
     },
     {
@@ -140,24 +99,13 @@
       "artifact": null,
       "content_kind": "social",
       "language": "en",
-      "summary": "Latest estimates of H2H transmissibility of 2019-nCoV. Despite the enormous and admirable efforts in China and around the world, we need to plan for the possibility containment of this epidemic isn’t possible (Twitter). Skipped under scrape policy (social/video). Citation retained from the chapter bibliography.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Latest estimates of H2H transmissibility of 2019-nCoV. Despite the enormous and .",
-      "topics": [
-        "Latest",
-        "estimates",
-        "transmissibility",
-        "2019-nCoV"
-      ],
+      "summary": "Neil Ferguson tweet warning that despite containment efforts, planning must assume the 2019-nCoV epidemic might not be containable, citing new human-to-human transmissibility estimates. Social URL skipped; text kept from the bibliography title.",
+      "book_role": "Public signal from Imperial College modelling that containment might fail—paired with Report 3 in this chapter.",
+      "topics": ["transmissibility", "containment", "Neil Ferguson", "2019-nCoV"],
       "entities": {
-        "people": [
-          "Neil Ferguson"
-        ],
-        "orgs": [
-          "Twitter"
-        ],
-        "places": [
-          "China"
-        ]
+        "people": ["Neil Ferguson"],
+        "orgs": ["Imperial College London", "Twitter"],
+        "places": ["China", "United Kingdom"]
       }
     },
     {
@@ -172,22 +120,13 @@
       "artifact": "artifacts/ch04-s06.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "China coronavirus: Hong Kong medical experts call for ‘draconian’ measures in city as research estimates there are already 44,000 cases in Wuhan - HKU’s faculty of medicine dean Gabriel Leung says research shows self-sustaining human-to-human transmission is already happening in all major mainland cities - He called for measures to limit people’s movement, school closures, work-from-home arrangements and cancellation of mass gatherings Published:…",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: China coronavirus: Hong Kong medical experts call for ‘draconian’ measures in ci.",
-      "topics": [
-        "Wuhan"
-      ],
+      "summary": "SCMP report that HKU’s Gabriel Leung and colleagues urged ‘draconian’ Hong Kong measures after modelling suggested ~44,000 Wuhan infections and self-sustaining spread in major mainland cities.",
+      "book_role": "Shows how early academic modelling already implied far larger Wuhan caseloads than official counts—central to Chapter 4’s scale-of-outbreak argument.",
+      "topics": ["Wuhan case estimates", "Hong Kong measures", "human-to-human transmission", "Gabriel Leung"],
       "entities": {
-        "people": [
-          "Victor Ting"
-        ],
-        "orgs": [
-          "South China Morning Post"
-        ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "people": ["Victor Ting", "Gabriel Leung"],
+        "orgs": ["South China Morning Post", "University of Hong Kong"],
+        "places": ["Hong Kong", "Wuhan", "China"]
       }
     },
     {
@@ -202,22 +141,13 @@
       "artifact": "artifacts/ch04-s07.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Air transport, passengers carried - China Civil Aviation Statistics of the World, International Civil Aviation Organization ( ICAO ), uri: data.icao.int/newdataplus/ :~:text=ICAO%20data%20is%20comprised%20of,information%20about%20commercial%20air%20carriers; ICAO Staff estimates, International Civil Aviation Organization ( ICAO ), uri: data.icao.int/newdataplus/ :~:text=ICAO%20data%20is%20comprised%20of,information%20about%20commercial%20air%20ca…",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Air transport, passengers carried – China.",
-      "topics": [
-        "transport",
-        "passengers",
-        "carried",
-        "China"
-      ],
+      "summary": "World Bank indicator page for air passengers carried in China, used as quantitative context for how extensively China was connected by aviation before the outbreak.",
+      "book_role": "Supports the chapter’s point about China’s air-travel volume and how quickly an emerging pathogen could seed abroad.",
+      "topics": ["air travel", "China passengers", "global seeding"],
       "entities": {
         "people": [],
-        "orgs": [
-          "World Bank Data"
-        ],
-        "places": [
-          "China"
-        ]
+        "orgs": ["World Bank", "ICAO"],
+        "places": ["China"]
       }
     },
     {
@@ -232,25 +162,13 @@
       "artifact": "artifacts/ch04-s08.md",
       "content_kind": "pdf",
       "language": "en",
-      "summary": "Systemic Risk of Pandemic via Novel Pathogens – Coronavirus: A Note Joseph Norman<sup †</sup , Yaneer Bar-Yam<sup †</sup , Nassim Nicholas Taleb <sup †</sup New England Complex Systems Institute, <sup ∗</sup School of Engineering, New York University ,<sup ‡</sup  Universa Investments HE NOVEL CORONAVIRUS emerging out of Wuhan, TChina has been identified as a deadly strain that is also highly contagious. The response by China to date has included…",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Systemic Risk of Pandemic via Novel Pathogens – Coronavirus: A Note.",
-      "topics": [
-        "Systemic",
-        "Risk",
-        "Pandemic",
-        "Novel"
-      ],
+      "summary": "NECSI/NYU note by Norman, Bar-Yam, and Taleb arguing the new coronavirus poses systemic pandemic risk and that travel bans and precautionary responses should be taken seriously despite incomplete data.",
+      "book_role": "Early complex-systems warning that the outbreak should be treated as a fat-tailed pandemic threat, not a containable local event.",
+      "topics": ["systemic risk", "pandemic precaution", "travel restrictions", "Nassim Taleb"],
       "entities": {
-        "people": [
-          "Joseph Norman"
-        ],
-        "orgs": [
-          "New England Complex Systems Institute"
-        ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "people": ["Joseph Norman", "Yaneer Bar-Yam", "Nassim Nicholas Taleb"],
+        "orgs": ["New England Complex Systems Institute", "New York University", "Universa Investments"],
+        "places": ["China", "United States"]
       }
     },
     {
@@ -263,23 +181,14 @@
       "url": "",
       "status": "empty_url",
       "artifact": null,
-      "content_kind": "landing",
+      "content_kind": "unknown",
       "language": "en",
-      "summary": "The Black Swan: The Impact of the Highly Improbable (Random House). No public URL in the bibliography. Citation retained from the chapter bibliography.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: The Black Swan: The Impact of the Highly Improbable.",
-      "topics": [
-        "Black",
-        "Swan",
-        "Impact",
-        "Highly"
-      ],
+      "summary": "Nassim Taleb’s book on highly improbable, high-impact events. No URL in the bibliography; cited as conceptual background for pandemic fat-tail risk.",
+      "book_role": "Intellectual backdrop for treating the new coronavirus as a Black Swan–style systemic risk rather than a routine outbreak.",
+      "topics": ["Black Swan", "fat tails", "uncertainty"],
       "entities": {
-        "people": [
-          "Nassim Taleb"
-        ],
-        "orgs": [
-          "Random House"
-        ],
+        "people": ["Nassim Taleb"],
+        "orgs": ["Random House"],
         "places": []
       }
     },
@@ -295,21 +204,13 @@
       "artifact": "artifacts/ch04-s10.md",
       "content_kind": "pdf",
       "language": "en",
-      "summary": "Natsuko Imai, Anne Cori, Ilaria Dorigatti, Marc Baguelin, Christl A. Donnelly, Steven Riley, Neil M.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Report 3: Transmissibility of 2019-nCoV.",
-      "topics": [
-        "Report",
-        "Transmissibility",
-        "2019-nCoV"
-      ],
+      "summary": "Imperial College Report 3 estimating R≈2.6 (1.5–3.5) for 2019-nCoV up to 18 January 2020 and concluding self-sustaining human-to-human transmission is the only plausible explanation for Wuhan’s scale; >60% of transmission would need blocking for control.",
+      "book_role": "Key early modelling estimate that the outbreak was already self-sustaining and likely uncontainable without extreme transmission blocking.",
+      "topics": ["R0", "transmissibility", "Wuhan outbreak size", "Imperial College"],
       "entities": {
-        "people": [
-          "Neil Ferguson"
-        ],
-        "orgs": [
-          "Imperial College London"
-        ],
-        "places": []
+        "people": ["Neil Ferguson", "Natsuko Imai", "Ilaria Dorigatti", "Christl Donnelly", "Steven Riley"],
+        "orgs": ["Imperial College London", "WHO Collaborating Centre for Infectious Disease Modelling"],
+        "places": ["Wuhan", "China", "United Kingdom"]
       }
     },
     {
@@ -324,23 +225,13 @@
       "artifact": "artifacts/ch04-s11.md",
       "content_kind": "pdf",
       "language": "en",
-      "summary": "• WHO Director-General Dr Tedros Adhanom Ghebreyesus and colleagues are in Beijing to meet with government and health experts supporting the response. The mission’s aim is to understand the latest developments and strengthen the partnership with China, in particular for the response.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Novel Coronavirus (2019-nCoV) Situation Report – 7.",
-      "topics": [
-        "Novel",
-        "Coronavirus",
-        "2019-nCoV",
-        "Situation"
-      ],
+      "summary": "WHO Situation Report 7 noting the Director-General’s Beijing mission, incubation-period estimates of about 2–10 days, and the need for better data on the infectious period including possible asymptomatic transmission.",
+      "book_role": "Official WHO snapshot of what was publicly known (and still uncertain) about spread and incubation in late January.",
+      "topics": ["WHO situation report", "incubation period", "Beijing mission", "2019-nCoV"],
       "entities": {
-        "people": [],
-        "orgs": [
-          "WHO"
-        ],
-        "places": [
-          "Beijing",
-          "China"
-        ]
+        "people": ["Tedros Adhanom Ghebreyesus"],
+        "orgs": ["World Health Organization"],
+        "places": ["Beijing", "China"]
       }
     },
     {
@@ -355,20 +246,13 @@
       "artifact": "artifacts/ch04-s12.md",
       "content_kind": "gov_doc",
       "language": "en",
-      "summary": "Statement on the second meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV) العربية-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)) 中文-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)) Français-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)) Русский-emergency-committee-regarding-the-ou…",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Statement on the second meeting of the International Health Regulations (2005) E.",
-      "topics": [
-        "Statement",
-        "second",
-        "meeting",
-        "International"
-      ],
+      "summary": "WHO statement from the second IHR Emergency Committee meeting on 2019-nCoV, the meeting that led to declaring a Public Health Emergency of International Concern.",
+      "book_role": "Marks the formal international emergency declaration as cases begin appearing across Europe and beyond.",
+      "topics": ["PHEIC", "IHR Emergency Committee", "WHO", "2019-nCoV"],
       "entities": {
         "people": [],
-        "orgs": [
-          "WHO"
-        ],
-        "places": []
+        "orgs": ["World Health Organization", "IHR Emergency Committee"],
+        "places": ["China"]
       }
     },
     {
@@ -383,20 +267,13 @@
       "artifact": "artifacts/ch04-s13.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv A passenger in a protective mask talks on phone at Rome's Fiumicino airport, after first cases of coronavirus were confirmed in Italy, January 31, 2020. REUTERS/Yara Nardi Purchase Licensing Rights, opens new tab ROME (Reuters) - Italy declared a six-month state of emergency on Friday over the new coronavirus, allowing the government to cut through red …",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Italy declares coronavirus emergency after first two cases confirmed.",
-      "topics": [
-        "Italy",
-        "declares",
-        "coronavirus",
-        "emergency"
-      ],
+      "summary": "Reuters report that Italy declared a six-month state of emergency after two Chinese tourists from Wuhan tested positive, and halted flights to and from China.",
+      "book_role": "Documents Italy’s first confirmed cases and emergency powers; notes later cite even earlier undetected Italian spread.",
+      "topics": ["Italy emergency", "first Italian cases", "flight suspensions"],
       "entities": {
         "people": [],
-        "orgs": [
-          "Reuters"
-        ],
-        "places": []
+        "orgs": ["Reuters", "Italian government"],
+        "places": ["Rome", "Italy", "Wuhan", "China"]
       }
     },
     {
@@ -410,23 +287,14 @@
       "status": "ok",
       "artifact": "artifacts/ch04-s14.md",
       "content_kind": "html_article",
-      "language": "en",
-      "summary": "PODCAST: Likainen totuus julki: HIFK:n pukukopissa tapahtui erikoisia asioita Olli Jokisen aikana IS ExtraAuvo Karhumaa tuijotti Youtubea, torjui vaimonsa ja ajautui eron partaalle – taustalla kipeä syy, joka voi selittää monen miehen käytöksen MAINOS: Rajoittamattomasti uutisia, viihdettä ja tietoa – kokeile IS Extraa kuukausi maksutta. Voit irtisanoa tilauksen koska tahansa.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: The government was urged to respond to the spread of the coronavirus – now Minis.",
-      "topics": [
-        "government",
-        "urged",
-        "respond",
-        "spread"
-      ],
+      "language": "fi",
+      "summary": "Iltasanomat piece in which Family and Care Services Minister Krista Kiuru answers MPs’ criticism of government quietness, saying Finland follows WHO and THL guidance and that virus control is not a political matter.",
+      "book_role": "Finnish political reaction as the first local case and European spread force the government on the defensive.",
+      "topics": ["Krista Kiuru", "Finnish government response", "THL", "WHO guidance"],
       "entities": {
-        "people": [
-          "Mirja Rintala"
-        ],
-        "orgs": [
-          "Iltasanomat"
-        ],
-        "places": []
+        "people": ["Mirja Rintala", "Krista Kiuru"],
+        "orgs": ["Iltasanomat", "THL", "WHO"],
+        "places": ["Oulu", "Finland"]
       }
     },
     {
@@ -441,22 +309,12 @@
       "artifact": "artifacts/ch04-s15.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Change the metadata field which the visualisation is coloured by. The phylogeny, map and frequencies panel (if available) will all be coloured in a consistent fashion.",
-      "book_role": "Supports Chapter 4 (“Bats, Yunnan, 2013”) as bibliographic evidence for: Nextstrain / groups / blab / sars-like-cov.",
-      "topics": [
-        "Nextstrain",
-        "groups",
-        "blab",
-        "sars-like-cov"
-      ],
+      "summary": "Nextstrain phylogenetic visualization page for sars-like coronaviruses (Bedford/Hodcroft blab group), presenting evolutionary relationships among SARS-related CoV samples.",
+      "book_role": "Points readers to the genomic tree context for SARS-like viruses that Chapter 4 begins connecting to bats and Yunnan.",
+      "topics": ["Nextstrain", "sarbecoviruses", "phylogenetics", "RaTG13 context"],
       "entities": {
-        "people": [
-          "Trevor Bedford",
-          "Emma Hodcroft"
-        ],
-        "orgs": [
-          "Nextstrain"
-        ],
+        "people": ["Trevor Bedford", "Emma Hodcroft"],
+        "orgs": ["Nextstrain"],
         "places": []
       }
     }
