@@ -1,0 +1,26 @@
+{
+  "chapter": 0,
+  "credits_before": 1020,
+  "credits_after": 1006,
+  "credits_spent_approx": 14,
+  "notes": [
+    "Free-plan rate limit (~10 scrapes/min) hit once; retries after brief wait succeeded for s11/s12.",
+    "s09 ProMED PDF blocked twice by host CDN (Akamai error page); artifact removed.",
+    "s02 Nature and s06 Washington Post marked paywall (partial text kept)."
+  ],
+  "sources": [
+    { "id": 1, "source_key": "ch00-s01", "status": "ok" },
+    { "id": 2, "source_key": "ch00-s02", "status": "paywall" },
+    { "id": 3, "source_key": "ch00-s03", "status": "ok" },
+    { "id": 4, "source_key": "ch00-s04", "status": "ok" },
+    { "id": 5, "source_key": "ch00-s05", "status": "ok" },
+    { "id": 6, "source_key": "ch00-s06", "status": "paywall" },
+    { "id": 7, "source_key": "ch00-s07", "status": "ok" },
+    { "id": 8, "source_key": "ch00-s08", "status": "ok" },
+    { "id": 9, "source_key": "ch00-s09", "status": "blocked" },
+    { "id": 10, "source_key": "ch00-s10", "status": "ok" },
+    { "id": 11, "source_key": "ch00-s11", "status": "ok" },
+    { "id": 12, "source_key": "ch00-s12", "status": "ok" },
+    { "id": 13, "source_key": "ch00-s13", "status": "ok" }
+  ]
+}

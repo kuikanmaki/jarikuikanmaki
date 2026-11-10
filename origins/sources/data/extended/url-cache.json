@@ -1,0 +1,67 @@
+{
+  "https://www.scientificamerican.com/article/how-chinas-bat-woman-hunted-down-viruses-from-sars-to-the-new-coronavirus1/": {
+    "source_key": "ch00-s01",
+    "artifact": "artifacts/ch00-s01.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/nature.2017.21487": {
+    "source_key": "ch00-s02",
+    "artifact": "artifacts/ch00-s02.md",
+    "status": "paywall"
+  },
+  "https://www.dailymail.co.uk/news/article-8210951/Beijing-authorities-hushed-findings-Chinese-scientist.html": {
+    "source_key": "ch00-s03",
+    "artifact": "artifacts/ch00-s03.md",
+    "status": "ok"
+  },
+  "https://www.science.org/content/article/trump-owes-us-apology-chinese-scientist-center-covid-19-origin-theories-speaks-out": {
+    "source_key": "ch00-s04",
+    "artifact": "artifacts/ch00-s04.md",
+    "status": "ok"
+  },
+  "https://www.technologyreview.com/2022/02/09/1044985/shi-zhengli-covid-lab-leak-wuhan": {
+    "source_key": "ch00-s05",
+    "artifact": "artifacts/ch00-s05.md",
+    "status": "ok"
+  },
+  "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-covid-china/2021/09/07/f293325c-fb11-11eb-911c-524bc8b68f17_story.html": {
+    "source_key": "ch00-s06",
+    "artifact": "artifacts/ch00-s06.md",
+    "status": "paywall"
+  },
+  "https://gillesdemaneuf.medium.com/wuhan-bsl-4-project-overview-80376a165b00": {
+    "source_key": "ch00-s07",
+    "artifact": "artifacts/ch00-s07.md",
+    "status": "ok"
+  },
+  "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON229": {
+    "source_key": "ch00-s08",
+    "artifact": "artifacts/ch00-s08.md",
+    "status": "ok"
+  },
+  "https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf": {
+    "source_key": "ch00-s09",
+    "artifact": null,
+    "status": "blocked"
+  },
+  "https://web.archive.org/web/20200206144253/http://www.bjnews.com.cn/feature/2020/01/31/682076.html": {
+    "source_key": "ch00-s10",
+    "artifact": "artifacts/ch00-s10.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20200131074029/http://china.caixin.com/2020-01-31/101509761.html": {
+    "source_key": "ch00-s11",
+    "artifact": "artifacts/ch00-s11.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20200315052717/http://news.iqilu.com/china/gedi/2019/1231/4407838.shtml": {
+    "source_key": "ch00-s12",
+    "artifact": "artifacts/ch00-s12.md",
+    "status": "ok"
+  },
+  "https://www.bbc.com/news/world-asia-china-51403795": {
+    "source_key": "ch00-s13",
+    "artifact": "artifacts/ch00-s13.md",
+    "status": "ok"
+  }
+}
