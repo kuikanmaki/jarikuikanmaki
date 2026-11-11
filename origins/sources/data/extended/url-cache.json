@@ -578,5 +578,120 @@
     "source_key": "ch09-s13",
     "artifact": "artifacts/ch09-s13.md",
     "status": "ok"
+  },
+  "https://thebulletin.org/2021/05/the-origin-of-covid-did-people-or-nature-open-pandoras-box-at-wuhan/": {
+    "source_key": "ch09-s14",
+    "artifact": "artifacts/ch09-s14.md",
+    "status": "ok"
+  },
+  "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801": {
+    "source_key": "ch09-s15",
+    "artifact": "artifacts/ch09-s15.md",
+    "status": "ok"
+  },
+  "https://www.science.org/doi/10.1126/science.abj0016": {
+    "source_key": "ch09-s16",
+    "artifact": "artifacts/ch09-s16.md",
+    "status": "ok"
+  },
+  "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228": {
+    "source_key": "ch09-s17",
+    "artifact": "artifacts/ch09-s17.md",
+    "status": "ok"
+  },
+  "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/": {
+    "source_key": "ch09-s18",
+    "artifact": "artifacts/ch09-s18.md",
+    "status": "ok"
+  },
+  "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125": {
+    "source_key": "ch09-s19",
+    "artifact": "artifacts/ch09-s19.md",
+    "status": "ok"
+  },
+  "https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/26/statement-by-president-joe-biden-on-the-investigation-into-the-origins-of-covid-19/": {
+    "source_key": "ch10-s01",
+    "artifact": "artifacts/ch10-s01.md",
+    "status": "ok"
+  },
+  "https://www.who.int/news-room/speeches/item/who-director-general-s-remarks-at-the-member-state-briefing-on-the-report-of-the-international-team-studying-the-origins-of-sars-cov-2": {
+    "source_key": "ch10-s02",
+    "artifact": "artifacts/ch10-s02.md",
+    "status": "ok"
+  },
+  "https://2021-2025.state.gov/joint-statement-on-the-who-convened-covid-19-origins-study/": {
+    "source_key": "ch10-s03",
+    "artifact": "artifacts/ch10-s03.md",
+    "status": "ok"
+  },
+  "https://www.politico.com/news/2021/05/26/facebook-ban-covid-man-made-491053": {
+    "source_key": "ch10-s04",
+    "artifact": "artifacts/ch10-s04.md",
+    "status": "ok"
+  },
+  "https://thehill.com/homenews/media/556418-washington-post-issues-correction-on-2020-report-on-tom-cotton-lab-leak-theory/": {
+    "source_key": "ch10-s05",
+    "artifact": "artifacts/ch10-s05.md",
+    "status": "ok"
+  },
+  "https://www.washingtonpost.com/politics/2021/05/25/timeline-how-wuhan-lab-leak-theory-suddenly-became-credible/": {
+    "source_key": "ch10-s06",
+    "artifact": "artifacts/ch10-s06.md",
+    "status": "ok"
+  },
+  "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails/": {
+    "source_key": "ch10-s08",
+    "artifact": "artifacts/ch10-s08.md",
+    "status": "ok"
+  },
+  "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-briefing-april-17-2020/": {
+    "source_key": "ch10-s09",
+    "artifact": "artifacts/ch10-s09.md",
+    "status": "ok"
+  },
+  "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01377-5/fulltext": {
+    "source_key": "ch10-s10",
+    "artifact": "artifacts/ch10-s10.md",
+    "status": "ok"
+  },
+  "https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/": {
+    "source_key": "ch10-s11",
+    "artifact": "artifacts/ch10-s11.md",
+    "status": "ok"
+  },
+  "https://reporter.nih.gov/project-details/9819304": {
+    "source_key": "ch10-s13",
+    "artifact": "artifacts/ch10-s13.md",
+    "status": "ok"
+  },
+  "https://www.newsweek.com/exclusive-how-amateur-sleuths-broke-wuhan-lab-story-embarrassed-media-1596958": {
+    "source_key": "ch10-s14",
+    "artifact": "artifacts/ch10-s14.md",
+    "status": "ok"
+  },
+  "https://www.researchgate.net/publication/349073738_An_investigation_into_the_WIV_databases_that_were_taken_offline": {
+    "source_key": "ch10-s15",
+    "artifact": "artifacts/ch10-s15.md",
+    "status": "ok"
+  },
+  "https://nypost.com/2020/05/06/what-is-china-covering-up-about-the-coronavirus-devine/": {
+    "source_key": "ch10-s16",
+    "artifact": "artifacts/ch10-s16.md",
+    "status": "ok"
+  },
+  "https://www.biorxiv.org/content/10.1101/2021.06.18.449051v1": {
+    "source_key": "ch10-s17",
+    "artifact": "artifacts/ch10-s17.md",
+    "status": "ok"
+  },
+  "https://unherd.com/2021/07/how-scientists-stifled-the-lab-leak-theory/": {
+    "source_key": "ch10-s18",
+    "artifact": "artifacts/ch10-s18.md",
+    "status": "ok"
+  },
+  "https://theintercept.com/2023/07/21/covid-origin-nih-lab-leak/": {
+    "source_key": "ch10-s19",
+    "artifact": "artifacts/ch10-s19.md",
+    "status": "ok"
   }
 }
