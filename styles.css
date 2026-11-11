@@ -949,8 +949,12 @@ img {
 .sources-page .source-item-detail .catalog-card-meta {
   margin-bottom: 0.45rem;
 }
-.sources-page .source-item-detail .catalog-card-summary {
-  margin-top: 0;
+.sources-page #sources-output .catalog-card-copy p {
+  margin-block: 0;
+}
+.sources-page #sources-output .catalog-card-copy .catalog-card-topics,
+.sources-page #sources-output .catalog-card-copy .catalog-card-status {
+  margin-top: 0.55rem;
 }
 .sources-page .catalog-card-enrichment {
   display: flex;
@@ -987,7 +991,9 @@ img {
   object-fit: cover;
 }
 .sources-page .catalog-card-copy { min-width: 0; }
-.sources-page .catalog-card-copy .catalog-card-summary { margin-top: 0; }
+.sources-page .catalog-card-copy .catalog-card-summary {
+  margin: 0;
+}
 .sources-page .catalog-card .catalog-card-enrichment {
   margin-top: 0.65rem;
 }
