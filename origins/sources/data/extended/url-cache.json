@@ -938,5 +938,270 @@
     "source_key": "ch15-s07",
     "artifact": "artifacts/ch15-s07.md",
     "status": "ok"
+  },
+  "https://nypost.com/2021/07/01/pentagon-gave-millions-to-ecohealth-alliance-for-wuhan-lab/": {
+    "source_key": "ch16-s01",
+    "artifact": "artifacts/ch16-s01.md",
+    "status": "ok"
+  },
+  "https://theintercept.com/2021/10/01/nih-bat-coronavirus-grant-ecohealth-alliance/": {
+    "source_key": "ch16-s02",
+    "artifact": "artifacts/ch16-s02.md",
+    "status": "ok"
+  },
+  "https://www.vanityfair.com/news/2022/03/the-virus-hunting-nonprofit-at-the-center-of-the-lab-leak-controversy": {
+    "source_key": "ch16-s03",
+    "artifact": "artifacts/ch16-s03.md",
+    "status": "ok"
+  },
+  "https://www.globalviromeproject.org/our-history": {
+    "source_key": "ch16-s04",
+    "artifact": null,
+    "status": "error"
+  },
+  "https://www.dtra.mil/About/Mission/": {
+    "source_key": "ch16-s05",
+    "artifact": "artifacts/ch16-s05.md",
+    "status": "ok"
+  },
+  "https://www.usaspending.gov/award/ASST_NON_HDTRA11910033_9761": {
+    "source_key": "ch16-s06",
+    "artifact": null,
+    "status": "error"
+  },
+  "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins": {
+    "source_key": "ch16-s07",
+    "artifact": "artifacts/ch16-s07.md",
+    "status": "ok"
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6832359/": {
+    "source_key": "ch16-s08",
+    "artifact": "artifacts/ch16-s08.md",
+    "status": "ok"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4727449/": {
+    "source_key": "ch16-s09",
+    "artifact": "artifacts/ch16-s09.md",
+    "status": "ok"
+  },
+  "https://www.thetimes.co.uk/article/china-nominates-lab-leak-wuhan-institute-of-virology-for-top-science-award-37pg72gx5": {
+    "source_key": "ch16-s11",
+    "artifact": "artifacts/ch16-s11.md",
+    "status": "ok"
+  },
+  "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf": {
+    "source_key": "ch16-s12",
+    "artifact": null,
+    "status": "error"
+  },
+  "http://institute.wuhanvirology.org/Newsletter2016/201811/P020181130367907308937.pdf": {
+    "source_key": "ch16-s13",
+    "artifact": "artifacts/ch16-s13.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20211025121653/https://alfatvuutiset.fi/laukaisiko-wuhanin-virusinstituutti-koronapandemian-laboratorioteorialle-lisaa-todisteita/": {
+    "source_key": "ch17-s01",
+    "artifact": "artifacts/ch17-s01.md",
+    "status": "ok"
+  },
+  "https://www.nih.gov/sites/default/files/institutes/foia/20211020-risk-of-bat-emergence.pdf": {
+    "source_key": "ch17-s02",
+    "artifact": "artifacts/ch17-s02.md",
+    "status": "ok"
+  },
+  "https://s.wsj.net/public/resources/documents/NIH%20letter.pdf": {
+    "source_key": "ch17-s03",
+    "artifact": "artifacts/ch17-s03.md",
+    "status": "ok"
+  },
+  "https://www.vanityfair.com/news/2021/10/nih-admits-funding-risky-virus-research-in-wuhan": {
+    "source_key": "ch17-s04",
+    "artifact": "artifacts/ch17-s04.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/d41586-021-02596-2": {
+    "source_key": "ch17-s05",
+    "artifact": "artifacts/ch17-s05.md",
+    "status": "ok"
+  },
+  "https://gillesdemaneuf.medium.com/overview-of-biological-laboratories-in-wuhan-withtheir-roles-in-coronavirus-research-bca6c1cd1f74": {
+    "source_key": "ch17-s06",
+    "artifact": "artifacts/ch17-s06.md",
+    "status": "ok"
+  },
+  "https://www.science.org/doi/10.1126/science.abf8003": {
+    "source_key": "ch17-s07",
+    "artifact": "artifacts/ch17-s07.md",
+    "status": "ok"
+  },
+  "https://alexwasburne.substack.com/p/zoonotic-origin-evidence-we-dont": {
+    "source_key": "ch17-s08",
+    "artifact": "artifacts/ch17-s08.md",
+    "status": "ok"
+  },
+  "https://www.biorxiv.org/content/10.1101/2020.05.01.073262v1": {
+    "source_key": "ch17-s09",
+    "artifact": "artifacts/ch17-s09.md",
+    "status": "ok"
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3484390/": {
+    "source_key": "ch17-s10",
+    "artifact": "artifacts/ch17-s10.md",
+    "status": "ok"
+  },
+  "https://thebulletin.org/2019/02/human-error-in-high-biocontainment-labs-a-likely-pandemic-threat/": {
+    "source_key": "ch17-s11",
+    "artifact": "artifacts/ch17-s11.md",
+    "status": "ok"
+  },
+  "https://archive.is/bfoTD": {
+    "source_key": "ch17-s12",
+    "artifact": "artifacts/ch17-s12.md",
+    "status": "ok"
+  },
+  "https://www.yahoo.com/news/report-says-cellphone-data-suggests-001233644.html": {
+    "source_key": "ch17-s13",
+    "artifact": "artifacts/ch17-s13.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20200510091529/https://www.telegraph.co.uk/news/2020/05/09/us-uk-intelligence-agencies-examining-report-mobile-phone-data/": {
+    "source_key": "ch17-s14",
+    "artifact": "artifacts/ch17-s14.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20200206050707/https://m.xinhuanet.com/hb/2019-09/26/c_1125040756.htm": {
+    "source_key": "ch17-s15",
+    "artifact": "artifacts/ch17-s15.md",
+    "status": "ok"
+  },
+  "https://zenodo.org/record/4119263": {
+    "source_key": "ch17-s16",
+    "artifact": "artifacts/ch17-s16.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/world/asia-pacific/us-troops-arrive-afghan-capital-assist-evacuations-2021-08-14/": {
+    "source_key": "ch18-s01",
+    "artifact": "artifacts/ch18-s01.md",
+    "status": "ok"
+  },
+  "https://www.euronews.com/2021/11/10/dozens-of-migrants-detained-in-poland-after-breaking-across-belarus-border": {
+    "source_key": "ch18-s02",
+    "artifact": "artifacts/ch18-s02.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/world/europe/ukraine-says-russia-has-nearly-100000-troops-near-its-border-2021-11-13/": {
+    "source_key": "ch18-s03",
+    "artifact": "artifacts/ch18-s03.md",
+    "status": "ok"
+  },
+  "https://www.aljazeera.com/news/2021/12/28/uk-reports-covid-cases-record-as-omicron-surges-in-europe-live": {
+    "source_key": "ch18-s04",
+    "artifact": "artifacts/ch18-s04.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/world/us/us-breaks-covid-19-hospitalization-record-omicron-surges-2022-01-10/": {
+    "source_key": "ch18-s05",
+    "artifact": "artifacts/ch18-s05.md",
+    "status": "ok"
+  },
+  "https://www.france24.com/en/europe/20220123-clashes-erupt-in-brussels-as-tens-of-thousands-protest-covid-rules": {
+    "source_key": "ch18-s06",
+    "artifact": "artifacts/ch18-s06.md",
+    "status": "ok"
+  },
+  "https://apnews.com/article/ottawa-canada-state-of-emergency-covid-19-protests-e9295f9f379ffdb114b6c063f5c77a98": {
+    "source_key": "ch18-s07",
+    "artifact": "artifacts/ch18-s07.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/world/europe/putin-orders-military-operations-ukraine-demands-kyiv-forces-surrender-2022-02-24/": {
+    "source_key": "ch18-s08",
+    "artifact": "artifacts/ch18-s08.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/world/europe/russia-has-launched-full-scale-invasion-ukraine-kyiv-says-2022-02-24/": {
+    "source_key": "ch18-s09",
+    "artifact": "artifacts/ch18-s09.md",
+    "status": "ok"
+  },
+  "https://www.unesco.org/en/legal-affairs/constitution": {
+    "source_key": "ch18-s11",
+    "artifact": "artifacts/ch18-s11.md",
+    "status": "ok"
+  },
+  "https://apnews.com/general-news-39eeee023efdf7ea59c4a20b7e018169": {
+    "source_key": "ch18-s12",
+    "artifact": "artifacts/ch18-s12.md",
+    "status": "ok"
+  },
+  "https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address": {
+    "source_key": "ch18-s13",
+    "artifact": "artifacts/ch18-s13.md",
+    "status": "ok"
+  },
+  "https://www.nato.int/cps/en/natohq/news_195468.htm": {
+    "source_key": "ch18-s14",
+    "artifact": "artifacts/ch18-s14.md",
+    "status": "ok"
+  },
+  "https://www.theguardian.com/global/2022/sep/07/ukraine-launches-surprise-counterattack-kharkiv-region-russia": {
+    "source_key": "ch18-s15",
+    "artifact": "artifacts/ch18-s15.md",
+    "status": "ok"
+  },
+  "https://www.ncbi.nlm.nih.gov/nuccore/MH615898.1": {
+    "source_key": "ch19-s01",
+    "artifact": null,
+    "status": "not_found"
+  },
+  "https://www.washingtonexaminer.com/news/1027800/fauci-suggested-fbi-be-warned-about-possible-lab-leak-before-he-dismissed-hypothesis/": {
+    "source_key": "ch19-s02",
+    "artifact": "artifacts/ch19-s02.md",
+    "status": "ok"
+  },
+  "https://energycommerce.house.gov/posts/e-and-c-investigation-uncovers-earliest-known-sars-co-v-2-sequence-released-outside-of-china": {
+    "source_key": "ch19-s03",
+    "artifact": "artifacts/ch19-s03.md",
+    "status": "ok"
+  },
+  "https://www.wsj.com/world/china/chinese-lab-mapped-deadly-coronavirus-two-weeks-before-beijing-told-the-world-documents-show-9bca8865": {
+    "source_key": "ch19-s04",
+    "artifact": "artifacts/ch19-s04.md",
+    "status": "ok"
+  },
+  "https://d1dth6e84htgma.cloudfront.net/Ford_H2_316_20240111_152518_05f9837537.pdf": {
+    "source_key": "ch19-s05",
+    "artifact": "artifacts/ch19-s05.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20230306190554/https://twitter.com/edwardcholmes/status/1632652392650117120": {
+    "source_key": "ch19-s07",
+    "artifact": "artifacts/ch19-s07.md",
+    "status": "ok"
+  },
+  "https://disinformationchronicle.substack.com/p/documents-chinese-researcher-who": {
+    "source_key": "ch19-s08",
+    "artifact": "artifacts/ch19-s08.md",
+    "status": "ok"
+  },
+  "https://theintercept.com/2023/06/29/covid-nih-personal-email-foia/": {
+    "source_key": "ch19-s09",
+    "artifact": "artifacts/ch19-s09.md",
+    "status": "ok"
+  },
+  "https://nypost.com/2023/06/29/fauci-adviser-hid-nih-emails-from-foia-requests-during-covid/": {
+    "source_key": "ch19-s10",
+    "artifact": "artifacts/ch19-s10.md",
+    "status": "ok"
+  },
+  "https://www.congress.gov/118/chrg/CHRG-118hhrg55828/CHRG-118hhrg55828.pdf": {
+    "source_key": "ch19-s11",
+    "artifact": "artifacts/ch19-s11.md",
+    "status": "ok"
+  },
+  "https://oversight.house.gov/wp-content/uploads/2024/12/Moore_Final-Redacted.pdf": {
+    "source_key": "ch19-s12",
+    "artifact": "artifacts/ch19-s12.md",
+    "status": "ok"
   }
 }

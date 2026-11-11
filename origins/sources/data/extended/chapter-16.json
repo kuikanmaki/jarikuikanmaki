@@ -1,0 +1,280 @@
+{
+  "chapter": 16,
+  "chapter_title": "Covert Operations",
+  "printed_pages": { "start": 183, "end": 197 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Chamberlain, Samuel",
+      "title": "Pentagon gave millions to EcoHealth Alliance for weapons research program",
+      "publication": "New York Post",
+      "date": "July 1, 2021",
+      "url": "https://nypost.com/2021/07/01/pentagon-gave-millions-to-ecohealth-alliance-for-wuhan-lab/",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "NY Post report that the Pentagon/DTRA gave millions to EcoHealth Alliance under a combating-WMD research program tied to the broader Wuhan-lab funding controversy.",
+      "book_role": "Opens Chapter 16’s covert/defense-funding thread: EcoHealth paid by Pentagon threat-reduction money.",
+      "topics": ["Pentagon", "EcoHealth Alliance", "DTRA", "WMD research"],
+      "entities": {
+        "people": ["Samuel Chamberlain", "Peter Daszak"],
+        "orgs": ["New York Post", "EcoHealth Alliance", "U.S. Department of Defense"],
+        "places": ["Wuhan", "United States"]
+      }
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "Hvistendahl, Mara, and Sharon Lerner",
+      "title": "NIH Bat Coronavirus Grant Report Was Submitted More Than Two Years Late",
+      "publication": "The Intercept",
+      "date": "October 1, 2021",
+      "url": "https://theintercept.com/2021/10/01/nih-bat-coronavirus-grant-ecohealth-alliance/",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Intercept report that EcoHealth’s NIH bat-coronavirus progress report was filed more than two years late—oversight failure in the WIV collaboration grant.",
+      "book_role": "Documents delayed disclosure of risky WIV experiments—covertness through bureaucratic lag.",
+      "topics": ["late progress report", "NIH grant", "EcoHealth Alliance", "oversight"],
+      "entities": {
+        "people": ["Mara Hvistendahl", "Sharon Lerner", "Peter Daszak"],
+        "orgs": ["The Intercept", "NIH", "EcoHealth Alliance"],
+        "places": ["Wuhan", "United States"]
+      }
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Eban, Katherine",
+      "title": "Inside the Virus-Hunting Nonprofit at the Center of the Lab-Leak Controversy",
+      "publication": "Vanity Fair",
+      "date": "March 31, 2022",
+      "url": "https://www.vanityfair.com/news/2022/03/the-virus-hunting-nonprofit-at-the-center-of-the-lab-leak-controversy",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Vanity Fair long-form on EcoHealth Alliance’s virus-hunting network, Daszak, WIV ties, and the lab-leak controversy’s funding politics.",
+      "book_role": "Institutional biography of the nonprofit at the center of Chapter 16’s covert-operations map.",
+      "topics": ["EcoHealth Alliance", "virus hunting", "lab leak", "Peter Daszak"],
+      "entities": {
+        "people": ["Katherine Eban", "Peter Daszak"],
+        "orgs": ["Vanity Fair", "EcoHealth Alliance", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "United States"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "Official website",
+      "author": "",
+      "title": "Our History, Leadership Team",
+      "publication": "Global Virome Project",
+      "date": "",
+      "url": "https://www.globalviromeproject.org/our-history",
+      "status": "error",
+      "artifact": null,
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Global Virome Project history/leadership page. DNS resolution failed at scrape time.",
+      "book_role": "Institutional face of the global virus-discovery agenda overlapping EcoHealth networks.",
+      "topics": ["Global Virome Project", "virus discovery", "leadership"],
+      "entities": {
+        "people": [],
+        "orgs": ["Global Virome Project"],
+        "places": []
+      }
+    },
+    {
+      "id": 5,
+      "type": "Official website",
+      "author": "",
+      "title": "About: Mission",
+      "publication": "Defense Threat Reduction Agency",
+      "date": "",
+      "url": "https://www.dtra.mil/About/Mission/",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "DTRA official mission page describing the agency’s role countering WMD threats—institutional home of EcoHealth’s HDTRA grant.",
+      "book_role": "Defines the Pentagon threat-reduction agency funding EcoHealth’s ‘combating WMD’ science.",
+      "topics": ["DTRA mission", "WMD", "defense threat reduction"],
+      "entities": {
+        "people": [],
+        "orgs": ["Defense Threat Reduction Agency", "U.S. Department of Defense"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "Grant record",
+      "author": "",
+      "title": "EcoHealth Alliance Project Grant HDTRA11910033 — Scientific Research: Combating Weapons of Mass Destruction",
+      "publication": "U.S. Department of Defense, Defense Threat Reduction Agency",
+      "date": "August 19, 2019 – June 20, 2024",
+      "url": "https://www.usaspending.gov/award/ASST_NON_HDTRA11910033_9761",
+      "status": "error",
+      "artifact": null,
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "USAspending.gov award record for EcoHealth HDTRA11910033 combating-WMD scientific research. Scrape failed.",
+      "book_role": "Primary award ID for Pentagon money to EcoHealth in the Chapter 16 funding web.",
+      "topics": ["HDTRA11910033", "EcoHealth Alliance", "combating WMD", "USAspending"],
+      "entities": {
+        "people": [],
+        "orgs": ["EcoHealth Alliance", "Defense Threat Reduction Agency"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "Eban, Katherine",
+      "title": "The Lab-Leak Theory: Inside the Fight to Uncover COVID-19’s Origins",
+      "publication": "Vanity Fair",
+      "date": "June 3, 2021",
+      "url": "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
+      "book_role": "Narrative of covert bureaucratic warfare over what origins evidence could surface.",
+      "topics": ["lab-leak theory", "State Department", "intelligence", "origins investigation"],
+      "entities": {
+        "people": ["Katherine Eban"],
+        "orgs": ["Vanity Fair", "U.S. Department of State"],
+        "places": ["Wuhan", "United States"]
+      }
+    },
+    {
+      "id": 8,
+      "type": "Journal article",
+      "author": "Cheng, Jinlong, et al.",
+      "title": "The S2 Subunit of QX-type Infectious Bronchitis Coronavirus Spike Protein Is an Essential Determinant of Neurotropism",
+      "publication": "Viruses",
+      "date": "October 22, 2019",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6832359/",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2019 Viruses paper on QX-type IBV spike S2 determining neurotropism—example of coronavirus spike/domain engineering literature in the Chinese research ecosystem.",
+      "book_role": "Technical marker of spike-subunit manipulation know-how circulating near the pandemic’s eve.",
+      "topics": ["spike S2", "neurotropism", "infectious bronchitis coronavirus"],
+      "entities": {
+        "people": ["Jinlong Cheng"],
+        "orgs": ["Viruses", "PMC"],
+        "places": ["China"]
+      }
+    },
+    {
+      "id": 9,
+      "type": "Journal article",
+      "author": "Almazán, Fernando, et al.",
+      "title": "Coronavirus reverse genetic systems: infectious clones and replicons",
+      "publication": "Virus Research",
+      "date": "June 12, 2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4727449/",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2014 review of coronavirus reverse-genetic systems—infectious clones and replicons enabling engineered CoV recovery.",
+      "book_role": "Technical backdrop for the reverse-genetics toolkit Chapter 16 links to defense and Wuhan research.",
+      "topics": ["reverse genetics", "infectious clones", "replicons", "coronavirus"],
+      "entities": {
+        "people": ["Fernando Almazán"],
+        "orgs": ["Virus Research", "PMC"],
+        "places": []
+      }
+    },
+    {
+      "id": 10,
+      "type": "Presentation",
+      "author": "Zhengli, Shi",
+      "title": "From SARS, MERS to COVID-19: a journey to understand bat coronaviruses",
+      "publication": "French National Academy of Medicine & French Veterinary Academy Joint Webinar",
+      "date": "December 3, 2020",
+      "url": "",
+      "status": "empty_url",
+      "artifact": null,
+      "content_kind": "presentation",
+      "language": "en",
+      "summary": "Shi Zhengli webinar presentation on bat coronaviruses from SARS/MERS to COVID-19. No URL in source data.",
+      "book_role": "Shi’s own public narrative of the bat-CoV journey while covert military/adviser questions mounted.",
+      "topics": ["Shi Zhengli", "bat coronaviruses", "SARS", "MERS", "COVID-19"],
+      "entities": {
+        "people": ["Shi Zhengli"],
+        "orgs": ["French National Academy of Medicine", "Wuhan Institute of Virology"],
+        "places": ["France", "Wuhan"]
+      }
+    },
+    {
+      "id": 11,
+      "type": "News article",
+      "author": "Willan, Philip, and Didi Tang",
+      "title": "Wuhan lab used Chinese military as key advisers",
+      "publication": "The Times",
+      "date": "June 21, 2021",
+      "url": "https://www.thetimes.co.uk/article/china-nominates-lab-leak-wuhan-institute-of-virology-for-top-science-award-37pg72gx5",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Times reporting that WIV used Chinese military as key advisers—and related coverage of China nominating WIV for a top science award amid lab-leak debate.",
+      "book_role": "Military-adviser link that makes WIV’s ‘civilian’ posture look covert.",
+      "topics": ["Chinese military", "WIV advisers", "science award", "lab leak"],
+      "entities": {
+        "people": ["Philip Willan", "Didi Tang"],
+        "orgs": ["The Times", "Wuhan Institute of Virology", "People's Liberation Army"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 12,
+      "type": "Email / FOIA release",
+      "author": "Daszak, Peter",
+      "title": "Email to NIAID’s Jenny Greer: “Dear Jenny, This is terrific! We are very happy to hear that our Gain of Function research funding pause has been lifted. Cheers, Peter”",
+      "publication": "White Coat Waste Project",
+      "date": "July 11, 2016",
+      "url": "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
+      "status": "error",
+      "artifact": null,
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "FOIA’d 2016 Daszak email celebrating lifting of the gain-of-function funding pause. Scrape failed; citation retained from bibliography.",
+      "book_role": "Smoking-gun tone on GoF pause lift—EcoHealth cheering resumed risky-funding eligibility.",
+      "topics": ["gain-of-function pause", "NIAID", "EcoHealth Alliance", "FOIA"],
+      "entities": {
+        "people": ["Peter Daszak", "Jenny Greer"],
+        "orgs": ["EcoHealth Alliance", "NIAID", "White Coat Waste Project"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 13,
+      "type": "Newsletter / document",
+      "author": "",
+      "title": "Newsletter of the 8th International Symposium on Emerging Viral Diseases, October 20–22, 2018",
+      "publication": "Wuhan Institute of Virology",
+      "date": "November 30, 2018",
+      "url": "http://institute.wuhanvirology.org/Newsletter2016/201811/P020181130367907308937.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s13.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "WIV newsletter of the Oct 2018 international emerging-viral-diseases symposium—programmatic window into Wuhan’s pre-pandemic virus-research network.",
+      "book_role": "On-the-ground symposium record of the international/military-adjacent scientific traffic through WIV.",
+      "topics": ["emerging viral diseases symposium", "WIV", "2018", "international collaboration"],
+      "entities": {
+        "people": [],
+        "orgs": ["Wuhan Institute of Virology"],
+        "places": ["Wuhan", "China"]
+      }
+    }
+  ]
+}

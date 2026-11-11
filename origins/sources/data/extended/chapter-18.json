@@ -1,0 +1,322 @@
+{
+  "chapter": 18,
+  "chapter_title": "Fog of War",
+  "printed_pages": { "start": 214, "end": 225 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "",
+      "title": "Taliban enter Afghan capital as U.S. diplomats evacuate by chopper",
+      "publication": "Reuters",
+      "date": "August 15, 2021",
+      "url": "https://www.reuters.com/world/asia-pacific/us-troops-arrive-afghan-capital-assist-evacuations-2021-08-14/",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters on the Taliban entering Kabul as U.S. diplomats evacuated by helicopter—collapse of the Afghanistan mission.",
+      "book_role": "Opens Chapter 18’s geopolitical fog: great-power chaos drowning origins focus.",
+      "topics": ["Afghanistan", "Taliban", "U.S. withdrawal", "Kabul"],
+      "entities": {
+        "people": [],
+        "orgs": ["Reuters", "Taliban"],
+        "places": ["Kabul", "Afghanistan", "United States"]
+      }
+    },
+    {
+      "id": 2,
+      "type": "News article",
+      "author": "",
+      "title": "Belarus border chaos a 'hybrid attack not a migration crisis'",
+      "publication": "Euronews",
+      "date": "November 10, 2021",
+      "url": "https://www.euronews.com/2021/11/10/dozens-of-migrants-detained-in-poland-after-breaking-across-belarus-border",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Euronews on Poland–Belarus border migrant chaos framed as hybrid attack rather than ordinary migration crisis.",
+      "book_role": "European hybrid-warfare front in the same fog-of-war months.",
+      "topics": ["Belarus border", "hybrid attack", "Poland", "migration"],
+      "entities": {
+        "people": [],
+        "orgs": ["Euronews"],
+        "places": ["Belarus", "Poland", "Europe"]
+      }
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "",
+      "title": "Ukraine says Russia has nearly 100,000 troops near its border",
+      "publication": "Reuters",
+      "date": "November 13, 2021",
+      "url": "https://www.reuters.com/world/europe/ukraine-says-russia-has-nearly-100000-troops-near-its-border-2021-11-13/",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters: Ukraine reports nearly 100,000 Russian troops near its border—pre-invasion buildup.",
+      "book_role": "Marks the gathering Ukraine war that soon eclipses pandemic origins politics.",
+      "topics": ["Russia troop buildup", "Ukraine border", "pre-invasion"],
+      "entities": {
+        "people": [],
+        "orgs": ["Reuters"],
+        "places": ["Ukraine", "Russia"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "",
+      "title": "Omicron drives record daily COVID cases across Europe",
+      "publication": "Al Jazeera",
+      "date": "December 28, 2021",
+      "url": "https://www.aljazeera.com/news/2021/12/28/uk-reports-covid-cases-record-as-omicron-surges-in-europe-live",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Al Jazeera on Omicron driving record daily COVID cases across Europe in late December 2021.",
+      "book_role": "Pandemic’s new wave still raging as geopolitical fog thickens.",
+      "topics": ["Omicron", "Europe", "record COVID cases"],
+      "entities": {
+        "people": [],
+        "orgs": ["Al Jazeera"],
+        "places": ["Europe", "United Kingdom"]
+      }
+    },
+    {
+      "id": 5,
+      "type": "News article",
+      "author": "",
+      "title": "U.S. breaks COVID-19 hospitalization record at over 132,000 as Omicron surges",
+      "publication": "Reuters",
+      "date": "January 10, 2022",
+      "url": "https://www.reuters.com/world/us/us-breaks-covid-19-hospitalization-record-omicron-surges-2022-01-10/",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters: U.S. COVID hospitalizations exceed 132,000 under Omicron—new pandemic peak.",
+      "book_role": "U.S. domestic COVID crisis concurrent with war drums and protest politics.",
+      "topics": ["Omicron", "U.S. hospitalizations", "COVID surge"],
+      "entities": {
+        "people": [],
+        "orgs": ["Reuters"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "News article",
+      "author": "",
+      "title": "Clashes erupt in Brussels as tens of thousands protest Covid rules",
+      "publication": "France 24",
+      "date": "January 23, 2022",
+      "url": "https://www.france24.com/en/europe/20220123-clashes-erupt-in-brussels-as-tens-of-thousands-protest-covid-rules",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "France 24 on clashes in Brussels as tens of thousands protest COVID rules.",
+      "book_role": "European civil unrest over pandemic controls—fog of domestic legitimacy crisis.",
+      "topics": ["COVID protests", "Brussels", "clashes", "pandemic rules"],
+      "entities": {
+        "people": [],
+        "orgs": ["France 24"],
+        "places": ["Brussels", "Belgium", "Europe"]
+      }
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "",
+      "title": "Ottawa declares state of emergency over COVID protests",
+      "publication": "Associated Press",
+      "date": "February 7, 2022",
+      "url": "https://apnews.com/article/ottawa-canada-state-of-emergency-covid-19-protests-e9295f9f379ffdb114b6c063f5c77a98",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "AP: Ottawa declares a state of emergency amid COVID trucker/convoy protests.",
+      "book_role": "North American protest emergency as the war fog arrives.",
+      "topics": ["Ottawa", "state of emergency", "COVID protests", "Freedom Convoy"],
+      "entities": {
+        "people": [],
+        "orgs": ["Associated Press"],
+        "places": ["Ottawa", "Canada"]
+      }
+    },
+    {
+      "id": 8,
+      "type": "News article",
+      "author": "",
+      "title": "Missiles rain down on targets across Ukraine, Russia invades",
+      "publication": "Reuters",
+      "date": "February 24, 2022",
+      "url": "https://www.reuters.com/world/europe/putin-orders-military-operations-ukraine-demands-kyiv-forces-surrender-2022-02-24/",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters day-of-invasion report: missiles across Ukraine as Russia launches full-scale war.",
+      "book_role": "The war that Chapter 18 says swallows remaining attention to pandemic origins.",
+      "topics": ["Russia invasion", "Ukraine", "missiles", "February 24 2022"],
+      "entities": {
+        "people": ["Vladimir Putin"],
+        "orgs": ["Reuters"],
+        "places": ["Ukraine", "Russia", "Kyiv"]
+      }
+    },
+    {
+      "id": 9,
+      "type": "News article",
+      "author": "",
+      "title": "Russia has launched full-scale invasion of Ukraine, Kyiv says",
+      "publication": "Reuters",
+      "date": "February 24, 2022",
+      "url": "https://www.reuters.com/world/europe/russia-has-launched-full-scale-invasion-ukraine-kyiv-says-2022-02-24/",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Companion Reuters piece confirming Kyiv’s assessment of a full-scale Russian invasion.",
+      "book_role": "Second confirmation of the war’s start—historical hinge of the fog-of-war chapter.",
+      "topics": ["full-scale invasion", "Ukraine", "Kyiv", "Russia"],
+      "entities": {
+        "people": [],
+        "orgs": ["Reuters"],
+        "places": ["Ukraine", "Kyiv", "Russia"]
+      }
+    },
+    {
+      "id": 10,
+      "type": "Personal journal",
+      "author": "Kuikanmäki, Jari",
+      "title": "Personal Journal",
+      "publication": "",
+      "date": "January 25, 2022",
+      "url": "",
+      "status": "empty_url",
+      "artifact": null,
+      "content_kind": "personal_note",
+      "language": "fi",
+      "summary": "Author’s personal journal entry dated 25 Jan 2022. No public URL; private contemporaneous note.",
+      "book_role": "Author’s private vantage as COVID politics and war fears converge.",
+      "topics": ["personal journal", "author contemporaneous note"],
+      "entities": {
+        "people": ["Jari Kuikanmäki"],
+        "orgs": [],
+        "places": ["Finland"]
+      }
+    },
+    {
+      "id": 11,
+      "type": "Founding document",
+      "author": "",
+      "title": "Constitution of UNESCO",
+      "publication": "UNESCO",
+      "date": "November 16, 1945",
+      "url": "https://www.unesco.org/en/legal-affairs/constitution",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "UNESCO Constitution (1945)—founding text on education, science, culture and peace after world war.",
+      "book_role": "Normative contrast: postwar institutions meant to prevent the fog of war Chapter 18 describes returning.",
+      "topics": ["UNESCO Constitution", "peace", "science and culture", "1945"],
+      "entities": {
+        "people": [],
+        "orgs": ["UNESCO"],
+        "places": []
+      }
+    },
+    {
+      "id": 12,
+      "type": "News article",
+      "author": "Rising, David",
+      "title": "China amplifies unsupported Russian claim of Ukraine biolabs",
+      "publication": "Associated Press",
+      "date": "March 11, 2022",
+      "url": "https://apnews.com/general-news-39eeee023efdf7ea59c4a20b7e018169",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s12.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "AP: China amplifies unsupported Russian claims about Ukraine biolabs—origins/bioweapons rhetoric weaponized in the new war.",
+      "book_role": "Shows how biolab narratives are recycled as wartime propaganda, muddying COVID-origins discourse.",
+      "topics": ["Ukraine biolabs", "Russian claims", "China amplification", "disinformation"],
+      "entities": {
+        "people": ["David Rising"],
+        "orgs": ["Associated Press"],
+        "places": ["Ukraine", "Russia", "China"]
+      }
+    },
+    {
+      "id": 13,
+      "type": "Speech",
+      "author": "Eisenhower, Dwight",
+      "title": "Farewell Address",
+      "publication": "National Archives",
+      "date": "January 17, 1961",
+      "url": "https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s13.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Eisenhower’s farewell address warning of the military-industrial complex—canonical text on permanent war-and-science machinery.",
+      "book_role": "Historical lens Chapter 18 uses for the biodefense/military complex behind pandemic and war politics.",
+      "topics": ["military-industrial complex", "Eisenhower", "farewell address"],
+      "entities": {
+        "people": ["Dwight Eisenhower"],
+        "orgs": ["National Archives"],
+        "places": ["United States"]
+      }
+    },
+    {
+      "id": 14,
+      "type": "News article",
+      "author": "",
+      "title": "Finland and Sweden submit applications to join NATO",
+      "publication": "NATO News",
+      "date": "May 18, 2022",
+      "url": "https://www.nato.int/cps/en/natohq/news_195468.htm",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s14.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "NATO announcement that Finland and Sweden submitted applications to join the Alliance after Russia’s invasion.",
+      "book_role": "Finnish security realignment—author’s national context inside the fog of war.",
+      "topics": ["NATO enlargement", "Finland", "Sweden", "Ukraine war"],
+      "entities": {
+        "people": [],
+        "orgs": ["NATO"],
+        "places": ["Finland", "Sweden", "Europe"]
+      }
+    },
+    {
+      "id": 15,
+      "type": "News article",
+      "author": "",
+      "title": "Ukraine launches surprise counterattack in Kharkiv region",
+      "publication": "The Guardian",
+      "date": "September 8, 2022",
+      "url": "https://www.theguardian.com/global/2022/sep/07/ukraine-launches-surprise-counterattack-kharkiv-region-russia",
+      "status": "ok",
+      "artifact": "artifacts/ch18-s15.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Guardian on Ukraine’s surprise Kharkiv-region counteroffensive against Russian forces.",
+      "book_role": "War’s continuing churn as Chapter 18 closes—origins questions still unresolved amid battle.",
+      "topics": ["Kharkiv counteroffensive", "Ukraine war", "Russia"],
+      "entities": {
+        "people": [],
+        "orgs": ["The Guardian"],
+        "places": ["Kharkiv", "Ukraine", "Russia"]
+      }
+    }
+  ]
+}
