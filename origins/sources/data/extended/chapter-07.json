@@ -52,9 +52,7 @@
         "places": [
           "place:finland"
         ]
-      },
-      "source_key": "ch07-s01",
-      "date_iso": "2020-02-17"
+      }
     },
     {
       "id": 2,
@@ -105,9 +103,7 @@
           "place:italy",
           "place:china"
         ]
-      },
-      "source_key": "ch07-s02",
-      "date_iso": "2020-02-23"
+      }
     },
     {
       "id": 3,
@@ -150,9 +146,7 @@
           "org:pubmed"
         ],
         "places": []
-      },
-      "source_key": "ch07-s03",
-      "date_iso": "2020-04-01"
+      }
     },
     {
       "id": 4,
@@ -194,9 +188,7 @@
           "place:china",
           "place:europe"
         ]
-      },
-      "source_key": "ch07-s04",
-      "date_iso": "2020-03-10"
+      }
     },
     {
       "id": 5,
@@ -240,9 +232,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch07-s05",
-      "date_iso": "2020-02-28"
+      }
     },
     {
       "id": 6,
@@ -288,9 +278,7 @@
           "place:finland",
           "place:europe"
         ]
-      },
-      "source_key": "ch07-s06",
-      "date_iso": "2020-02-24"
+      }
     }
   ]
 }

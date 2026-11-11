@@ -58,9 +58,7 @@
           "place:wuhan",
           "place:united-states"
         ]
-      },
-      "source_key": "ch15-s01",
-      "date_iso": "2021-09-22"
+      }
     },
     {
       "id": 2,
@@ -109,9 +107,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch15-s02",
-      "date_iso": "2022-08-02"
+      }
     },
     {
       "id": 3,
@@ -162,9 +158,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch15-s03",
-      "date_iso": "2022-08-29"
+      }
     },
     {
       "id": 4,
@@ -209,9 +203,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch15-s04",
-      "date_iso": "2014-03-06"
+      }
     },
     {
       "id": 5,
@@ -258,9 +250,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch15-s05",
-      "date_iso": "2007-12"
+      }
     },
     {
       "id": 6,
@@ -299,9 +289,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch15-s06",
-      "date_iso": "2015"
+      }
     },
     {
       "id": 7,
@@ -349,9 +337,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch15-s07",
-      "date_iso": "2008-08-01"
+      }
     }
   ]
 }

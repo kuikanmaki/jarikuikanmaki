@@ -45,17 +45,12 @@ Each extended chapter source may include:
 
 Display strings in `topics` / `entities` are normalized to `prefLabel` when matched.
 
-## Site search & corpus browse
+## Site search
 
-The Sources page uses:
-
-- MiniSearch over `../authority-search-index.json` (keyword → tagged sources)
-- `../corpus-index.json` for visitor-facing corpus browse cards (public fields only)
+The Sources page uses MiniSearch over `../authority-search-index.json` (keyword → tagged sources).
 
 Rebuild after authority or extended-chapter changes:
 
 ```bash
-python3 origins/sources/data/_normalize_catalog.py
-python3 origins/sources/data/_build_corpus_index.py
 python3 origins/sources/data/_build_authority_search_index.py
 ```

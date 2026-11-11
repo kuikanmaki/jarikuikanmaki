@@ -79,17 +79,8 @@
           <p class="sources-intro">
             The complete, chapter-by-chapter record of the sources and author's notes
             behind <em class="not-italic text-foreground">Origins of Coronavirus</em>.
-            Search by keyword, browse the enriched corpus, or open a chapter below.
+            Search by person, organization, place, or topic — or select a chapter below.
           </p>
-
-          <div class="sources-mode-tabs" role="tablist" aria-label="Sources view">
-            <button type="button" class="sources-mode-tab is-active" role="tab" aria-selected="true" data-mode="chapter" id="mode-chapter">
-              By chapter
-            </button>
-            <button type="button" class="sources-mode-tab" role="tab" aria-selected="false" data-mode="browse" id="mode-browse">
-              Browse corpus
-            </button>
-          </div>
 
           <div class="sources-search" id="sources-search">
             <label class="sources-search-label" for="authority-search-input">Search sources by keyword</label>
@@ -116,38 +107,6 @@
               hidden
             ></ul>
             <p id="authority-search-status" class="sources-search-status status" hidden></p>
-          </div>
-
-          <div id="corpus-browse" class="corpus-browse" hidden>
-            <div class="corpus-browse-filters">
-              <label>
-                <span>Chapter</span>
-                <select id="browse-chapter">
-                  <option value="">All chapters</option>
-                </select>
-              </label>
-              <label>
-                <span>Kind</span>
-                <select id="browse-kind">
-                  <option value="">All kinds</option>
-                </select>
-              </label>
-              <label>
-                <span>Year</span>
-                <select id="browse-year">
-                  <option value="">All years</option>
-                </select>
-              </label>
-              <label>
-                <span>Sort</span>
-                <select id="browse-sort">
-                  <option value="date-desc">Date ↓</option>
-                  <option value="date-asc">Date ↑</option>
-                  <option value="chapter">Chapter</option>
-                </select>
-              </label>
-            </div>
-            <p id="browse-count" class="corpus-browse-count status"></p>
           </div>
 
           <div id="chapter-list" aria-label="Chapter list">
@@ -188,7 +147,6 @@
 
       const INDEX_URL = "data/sources-index.json";
       const SEARCH_INDEX_URL = "data/authority-search-index.json";
-      const CORPUS_INDEX_URL = "data/corpus-index.json";
       const DATA_DIR  = "data/";
 
       const listEl    = document.getElementById("chapter-list");
@@ -199,22 +157,13 @@
       const suggestEl = document.getElementById("authority-search-suggestions");
       const clearEl   = document.getElementById("authority-search-clear");
       const statusEl  = document.getElementById("authority-search-status");
-      const browseEl  = document.getElementById("corpus-browse");
-      const browseCountEl = document.getElementById("browse-count");
-      const browseChapterEl = document.getElementById("browse-chapter");
-      const browseKindEl = document.getElementById("browse-kind");
-      const browseYearEl = document.getElementById("browse-year");
-      const browseSortEl = document.getElementById("browse-sort");
-      const modeTabs = document.querySelectorAll(".sources-mode-tab");
 
       let firstChapter = null;
       let searchIndex = null;
-      let corpusIndex = null;
       let miniSearch = null;
       let activeSuggestion = -1;
       let currentSuggestions = [];
       let searchMode = false;
-      let viewMode = "chapter"; // "chapter" | "browse"
 
       // ---------- Helpers ----------
       function escapeHtml(value) {
@@ -306,7 +255,6 @@
           a.textContent = ch.name;
           a.addEventListener("click", function (e) {
             e.preventDefault();
-            setViewMode("chapter", false);
             exitSearchMode(false);
             clearChapterActive();
             a.classList.add("active");
@@ -322,209 +270,11 @@
           if (!firstChapter) firstChapter = { chapter: ch, link: a };
         });
 
-        if (firstChapter && !searchMode && viewMode === "chapter") {
+        if (firstChapter && !searchMode) {
           firstChapter.link.classList.add("active");
           loadChapter(firstChapter.chapter);
         }
       }
-
-      // ---------- Corpus browse ----------
-      function fillSelect(selectEl, values, allLabel) {
-        const current = selectEl.value;
-        selectEl.innerHTML = "";
-        const all = document.createElement("option");
-        all.value = "";
-        all.textContent = allLabel;
-        selectEl.appendChild(all);
-        values.forEach(function (item) {
-          const opt = document.createElement("option");
-          if (typeof item === "string") {
-            opt.value = item;
-            opt.textContent = item;
-          } else {
-            opt.value = String(item.value);
-            opt.textContent = item.label;
-          }
-          selectEl.appendChild(opt);
-        });
-        if (current) selectEl.value = current;
-      }
-
-      function initBrowseFilters() {
-        if (!corpusIndex) return;
-        fillSelect(
-          browseChapterEl,
-          (corpusIndex.chapters || []).map(function (ch) {
-            return { value: ch.number, label: ch.name + " — " + ch.title };
-          }),
-          "All chapters"
-        );
-
-        const kinds = {};
-        (corpusIndex.sources || []).forEach(function (s) {
-          if (s.content_kind) {
-            kinds[s.content_kind] = s.content_kind_label || s.content_kind;
-          }
-        });
-        fillSelect(
-          browseKindEl,
-          Object.keys(kinds).sort().map(function (k) {
-            return { value: k, label: kinds[k] };
-          }),
-          "All kinds"
-        );
-
-        const years = {};
-        (corpusIndex.sources || []).forEach(function (s) {
-          const iso = s.date_iso || "";
-          if (iso.length >= 4) years[iso.slice(0, 4)] = true;
-        });
-        fillSelect(
-          browseYearEl,
-          Object.keys(years).sort().reverse(),
-          "All years"
-        );
-      }
-
-      function filteredCorpusSources() {
-        if (!corpusIndex) return [];
-        let rows = (corpusIndex.sources || []).slice();
-        const chapter = browseChapterEl.value;
-        const kind = browseKindEl.value;
-        const year = browseYearEl.value;
-        const sort = browseSortEl.value;
-
-        if (chapter !== "") {
-          rows = rows.filter(function (s) { return String(s.chapter) === chapter; });
-        }
-        if (kind) {
-          rows = rows.filter(function (s) { return s.content_kind === kind; });
-        }
-        if (year) {
-          rows = rows.filter(function (s) {
-            return (s.date_iso || "").slice(0, 4) === year;
-          });
-        }
-
-        rows.sort(function (a, b) {
-          if (sort === "chapter") {
-            if (a.chapter !== b.chapter) return a.chapter - b.chapter;
-            return (a.id || 0) - (b.id || 0);
-          }
-          const da = a.date_iso || "9999";
-          const db = b.date_iso || "9999";
-          if (da !== db) return sort === "date-desc" ? (da < db ? 1 : -1) : (da > db ? 1 : -1);
-          if (a.chapter !== b.chapter) return a.chapter - b.chapter;
-          return (a.id || 0) - (b.id || 0);
-        });
-        return rows;
-      }
-
-      function renderCorpusCards(rows) {
-        if (!rows.length) {
-          outEl.innerHTML = '<p class="status">No sources match these filters.</p>';
-          return;
-        }
-        const items = rows.map(function (s) {
-          const chapterLabel = s.chapter === 0 ? "Prologue" : ("Chapter " + s.chapter);
-          const topics = (s.topics || []).slice(0, 5).map(function (t) {
-            return "<li>" + escapeHtml(t) + "</li>";
-          }).join("");
-          const biblio = [
-            s.author,
-            s.publication,
-            s.date
-          ].filter(Boolean).map(escapeHtml).join(" · ");
-          const url = s.url || "#";
-          return '<li class="corpus-card" id="' + escapeHtml(s.source_key || "") + '">' +
-            '<div class="corpus-card-meta">' +
-              '<span>' + escapeHtml(chapterLabel) + '</span>' +
-              (s.content_kind_label ? '<span>' + escapeHtml(s.content_kind_label) + '</span>' : '') +
-              (s.source_key ? '<span>' + escapeHtml(s.source_key) + '</span>' : '') +
-            '</div>' +
-            '<h3 class="corpus-card-title">' +
-              '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-                escapeHtml(s.title || "Untitled source") +
-              '</a>' +
-            '</h3>' +
-            (biblio ? '<p class="corpus-card-biblio">' + biblio + '</p>' : '') +
-            (s.summary ? '<p class="corpus-card-summary">' + escapeHtml(s.summary) + '</p>' : '') +
-            (topics ? '<ul class="corpus-card-topics">' + topics + '</ul>' : '') +
-            (s.status && s.status !== "ok"
-              ? '<p class="corpus-card-status">Access: ' + escapeHtml(s.status) + '</p>'
-              : '') +
-          '</li>';
-        }).join("\n");
-        outEl.innerHTML = '<ul class="corpus-card-list">' + items + '</ul>';
-      }
-
-      function renderBrowse() {
-        if (!corpusIndex) {
-          headingEl.hidden = false;
-          headingEl.textContent = "Corpus";
-          outEl.innerHTML = '<p class="status">Loading corpus…</p>';
-          return;
-        }
-        const rows = filteredCorpusSources();
-        headingEl.hidden = false;
-        headingEl.textContent = "Corpus browse";
-        browseCountEl.textContent =
-          rows.length + " of " + (corpusIndex.sources || []).length + " sources";
-        backEl.hidden = false;
-        renderCorpusCards(rows);
-      }
-
-      function setViewMode(mode, render) {
-        viewMode = mode;
-        Array.prototype.forEach.call(modeTabs, function (tab) {
-          const on = tab.getAttribute("data-mode") === mode;
-          tab.classList.toggle("is-active", on);
-          tab.setAttribute("aria-selected", on ? "true" : "false");
-        });
-        browseEl.hidden = mode !== "browse";
-        listEl.hidden = mode !== "chapter";
-        if (render === false) return;
-        if (mode === "browse") {
-          searchMode = false;
-          hideSuggestions();
-          statusEl.hidden = true;
-          clearChapterActive();
-          renderBrowse();
-        } else if (!searchMode && firstChapter) {
-          clearChapterActive();
-          firstChapter.link.classList.add("active");
-          loadChapter(firstChapter.chapter);
-        }
-      }
-
-      Array.prototype.forEach.call(modeTabs, function (tab) {
-        tab.addEventListener("click", function () {
-          setViewMode(tab.getAttribute("data-mode"));
-        });
-      });
-
-      [browseChapterEl, browseKindEl, browseYearEl, browseSortEl].forEach(function (el) {
-        el.addEventListener("change", function () {
-          if (viewMode === "browse" && !searchMode) renderBrowse();
-        });
-      });
-
-      fetch(CORPUS_INDEX_URL, { cache: "no-cache" })
-        .then(function (res) {
-          if (!res.ok) throw new Error("HTTP " + res.status);
-          return res.json();
-        })
-        .then(function (data) {
-          corpusIndex = data;
-          initBrowseFilters();
-          if (viewMode === "browse" && !searchMode) renderBrowse();
-        })
-        .catch(function (err) {
-          console.error(err);
-          if (viewMode === "browse") {
-            showError(outEl, "Could not load corpus index: " + err.message);
-          }
-        });
 
       // ---------- Load + render a chapter's sources ----------
       function loadChapter(ch) {
@@ -663,21 +413,6 @@
           " tagged with “" + hit.label + "”";
 
         const keys = searchIndex.keywordSources[hit.id] || [];
-        // Prefer enriched corpus cards when available.
-        if (corpusIndex && corpusIndex.sources) {
-          const wanted = {};
-          keys.forEach(function (k) { wanted[k] = true; });
-          const rows = corpusIndex.sources.filter(function (s) {
-            return wanted[s.source_key];
-          });
-          headingEl.hidden = false;
-          headingEl.textContent = "Sources — " + hit.label;
-          backEl.hidden = false;
-          browseCountEl.textContent = "";
-          renderCorpusCards(rows);
-          return;
-        }
-
         const rows = keys.map(function (key) {
           return searchIndex.sources[key];
         }).filter(Boolean);
@@ -724,19 +459,14 @@
         outEl.innerHTML = '<ol class="sources-list">' + items + '</ol>';
       }
 
-      function exitSearchMode(restoreView) {
+      function exitSearchMode(restoreChapter) {
         searchMode = false;
         hideSuggestions();
         clearEl.hidden = true;
         statusEl.hidden = true;
         statusEl.textContent = "";
         inputEl.value = "";
-        if (!restoreView) return;
-        if (viewMode === "browse") {
-          renderBrowse();
-          return;
-        }
-        if (firstChapter) {
+        if (restoreChapter && firstChapter) {
           clearChapterActive();
           firstChapter.link.classList.add("active");
           loadChapter(firstChapter.chapter);
@@ -813,8 +543,6 @@
       clearEl.addEventListener("click", function () {
         exitSearchMode(true);
       });
-
-      // Keep clear visible while a keyword filter is active.
 
       document.addEventListener("click", function (e) {
         if (!e.target.closest("#sources-search")) hideSuggestions();

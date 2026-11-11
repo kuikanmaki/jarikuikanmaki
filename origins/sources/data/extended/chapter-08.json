@@ -43,9 +43,7 @@
           "org:pubmed"
         ],
         "places": []
-      },
-      "source_key": "ch08-s01",
-      "date_iso": "2020-10-14"
+      }
     },
     {
       "id": 2,
@@ -86,9 +84,7 @@
         "places": [
           "place:finland"
         ]
-      },
-      "source_key": "ch08-s02",
-      "date_iso": "2021-06-30"
+      }
     },
     {
       "id": 3,
@@ -139,9 +135,7 @@
       },
       "topic_ids": [
         "place:hong-kong"
-      ],
-      "source_key": "ch08-s03",
-      "date_iso": "2020-08-24"
+      ]
     },
     {
       "id": 4,
@@ -180,9 +174,7 @@
           "org:who"
         ],
         "places": []
-      },
-      "source_key": "ch08-s04",
-      "date_iso": "2023-03-15"
+      }
     },
     {
       "id": 5,
@@ -226,9 +218,7 @@
           "place:united-states",
           "place:germany"
         ]
-      },
-      "source_key": "ch08-s05",
-      "date_iso": "2020-11-09"
+      }
     },
     {
       "id": 6,
@@ -261,9 +251,7 @@
           "BioNTech"
         ],
         "places": []
-      },
-      "source_key": "ch08-s06",
-      "date_iso": "2020-11-09"
+      }
     },
     {
       "id": 7,
@@ -303,9 +291,7 @@
         "places": [
           "place:europe"
         ]
-      },
-      "source_key": "ch08-s07",
-      "date_iso": "2020"
+      }
     },
     {
       "id": 8,
@@ -351,9 +337,7 @@
         "places": [
           "place:united-kingdom"
         ]
-      },
-      "source_key": "ch08-s08",
-      "date_iso": "2023-01-28"
+      }
     },
     {
       "id": 9,
@@ -401,9 +385,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch08-s09",
-      "date_iso": "2020-05-14"
+      }
     },
     {
       "id": 10,
@@ -447,9 +429,7 @@
           "place:china",
           "place:wuhan"
         ]
-      },
-      "source_key": "ch08-s10",
-      "date_iso": "2020-03-29"
+      }
     },
     {
       "id": 11,
@@ -487,9 +467,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch08-s11",
-      "date_iso": "2020-11-04"
+      }
     },
     {
       "id": 12,
@@ -541,9 +519,7 @@
           "place:china",
           "place:united-states"
         ]
-      },
-      "source_key": "ch08-s12",
-      "date_iso": "2020-05-01"
+      }
     },
     {
       "id": 13,
@@ -589,9 +565,7 @@
           "place:china",
           "place:united-states"
         ]
-      },
-      "source_key": "ch08-s13",
-      "date_iso": "2020-05-03"
+      }
     },
     {
       "id": 14,
@@ -650,9 +624,7 @@
           "place:united-kingdom",
           "place:australia"
         ]
-      },
-      "source_key": "ch08-s14",
-      "date_iso": "2020-05-04"
+      }
     },
     {
       "id": 15,
@@ -698,9 +670,7 @@
           "place:australia",
           "place:wuhan"
         ]
-      },
-      "source_key": "ch08-s15",
-      "date_iso": "2020-05-04"
+      }
     },
     {
       "id": 16,
@@ -741,9 +711,7 @@
           "place:china",
           "place:united-states"
         ]
-      },
-      "source_key": "ch08-s16",
-      "date_iso": "2020-04-30"
+      }
     },
     {
       "id": 17,
@@ -792,9 +760,7 @@
       },
       "topic_ids": [
         "place:wuhan"
-      ],
-      "source_key": "ch08-s17",
-      "date_iso": "2020-04-30"
+      ]
     },
     {
       "id": 18,
@@ -841,8 +807,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch08-s18"
+      }
     },
     {
       "id": 19,
@@ -880,9 +845,7 @@
           "org:pmc"
         ],
         "places": []
-      },
-      "source_key": "ch08-s19",
-      "date_iso": "2019-07-26"
+      }
     },
     {
       "id": 20,
@@ -923,9 +886,7 @@
           "place:shanghai",
           "place:china"
         ]
-      },
-      "source_key": "ch08-s20",
-      "date_iso": "2020-02-28"
+      }
     },
     {
       "id": 21,
@@ -972,9 +933,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch08-s21",
-      "date_iso": "2020-02-28"
+      }
     },
     {
       "id": 22,
@@ -1032,9 +991,7 @@
           "place:beijing",
           "place:yunnan"
         ]
-      },
-      "source_key": "ch08-s22",
-      "date_iso": "2020-04-14"
+      }
     },
     {
       "id": 23,
@@ -1078,9 +1035,7 @@
         ],
         "orgs": [],
         "places": []
-      },
-      "source_key": "ch08-s23",
-      "date_iso": "2020-07-13"
+      }
     },
     {
       "id": 24,
@@ -1133,9 +1088,7 @@
           "place:china",
           "place:united-kingdom"
         ]
-      },
-      "source_key": "ch08-s24",
-      "date_iso": "2020-06-03"
+      }
     }
   ]
 }

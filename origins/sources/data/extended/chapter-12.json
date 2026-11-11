@@ -50,9 +50,7 @@
           "org:pubmed"
         ],
         "places": []
-      },
-      "source_key": "ch12-s01",
-      "date_iso": "2002-11"
+      }
     },
     {
       "id": 2,
@@ -90,9 +88,7 @@
         ],
         "orgs": [],
         "places": []
-      },
-      "source_key": "ch12-s02",
-      "date_iso": "2007"
+      }
     },
     {
       "id": 3,
@@ -130,9 +126,7 @@
         ],
         "orgs": [],
         "places": []
-      },
-      "source_key": "ch12-s03",
-      "date_iso": "2008-12-16"
+      }
     },
     {
       "id": 4,
@@ -177,9 +171,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch12-s04",
-      "date_iso": "2005-10-28"
+      }
     },
     {
       "id": 5,
@@ -240,9 +232,7 @@
           "place:wuhan",
           "place:united-states"
         ]
-      },
-      "source_key": "ch12-s05",
-      "date_iso": "2021-06-29"
+      }
     },
     {
       "id": 6,
@@ -291,9 +281,7 @@
           "place:united-states",
           "place:wuhan"
         ]
-      },
-      "source_key": "ch12-s06",
-      "date_iso": "2015-11-12"
+      }
     },
     {
       "id": 7,
@@ -339,9 +327,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch12-s07",
-      "date_iso": "2008-02"
+      }
     },
     {
       "id": 8,
@@ -385,9 +371,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch12-s08",
-      "date_iso": "2010-10"
+      }
     },
     {
       "id": 9,
@@ -438,9 +422,7 @@
         "places": [
           "place:wuhan"
         ]
-      },
-      "source_key": "ch12-s09",
-      "date_iso": "2016-06-24"
+      }
     },
     {
       "id": 10,
@@ -490,9 +472,7 @@
           "place:yunnan",
           "place:china"
         ]
-      },
-      "source_key": "ch12-s10",
-      "date_iso": "2017-11-30"
+      }
     },
     {
       "id": 11,
@@ -538,9 +518,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch12-s11",
-      "date_iso": "2018-04-04"
+      }
     },
     {
       "id": 12,
@@ -587,9 +565,7 @@
       },
       "topic_ids": [
         "place:wuhan"
-      ],
-      "source_key": "ch12-s12",
-      "date_iso": "2020-04-22"
+      ]
     },
     {
       "id": 13,
@@ -642,9 +618,7 @@
           "place:united-states",
           "place:china"
         ]
-      },
-      "source_key": "ch12-s13",
-      "date_iso": "2014-06-01"
+      }
     },
     {
       "id": 14,
@@ -694,9 +668,7 @@
           "place:yunnan",
           "place:china"
         ]
-      },
-      "source_key": "ch12-s14",
-      "date_iso": "2017-07"
+      }
     },
     {
       "id": 15,
@@ -753,9 +725,7 @@
           "place:united-states",
           "place:wuhan"
         ]
-      },
-      "source_key": "ch12-s15",
-      "date_iso": "2021-05-11"
+      }
     },
     {
       "id": 16,
@@ -808,9 +778,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch12-s16",
-      "date_iso": "2022-01-11"
+      }
     }
   ]
 }

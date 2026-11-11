@@ -13,7 +13,7 @@
       "publication": "Scientific American",
       "date": "June 1, 2020",
       "url": "https://www.scientificamerican.com/article/how-chinas-bat-woman-hunted-down-viruses-from-sars-to-the-new-coronavirus1/",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s01.md",
       "content_kind": "html_article",
@@ -67,9 +67,7 @@
           "place:zhengdian",
           "place:yunnan"
         ]
-      },
-      "source_key": "ch00-s01",
-      "date_iso": "2020-06-01"
+      }
     },
     {
       "id": 2,
@@ -78,7 +76,7 @@
       "publication": "Nature",
       "date": "February 23, 2017",
       "url": "https://www.nature.com/articles/nature.2017.21487",
-      "type": "Article",
+      "type": "",
       "status": "paywall",
       "artifact": "artifacts/ch00-s02.md",
       "content_kind": "html_article",
@@ -118,9 +116,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s02",
-      "date_iso": "2017-02-23"
+      }
     },
     {
       "id": 3,
@@ -129,7 +125,7 @@
       "publication": "Daily Mail",
       "date": "April 11, 2020",
       "url": "https://www.dailymail.co.uk/news/article-8210951/Beijing-authorities-hushed-findings-Chinese-scientist.html",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s03.md",
       "content_kind": "html_article",
@@ -174,9 +170,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s03",
-      "date_iso": "2020-04-11"
+      }
     },
     {
       "id": 4,
@@ -185,7 +179,7 @@
       "publication": "Science",
       "date": "July 24, 2020",
       "url": "https://www.science.org/content/article/trump-owes-us-apology-chinese-scientist-center-covid-19-origin-theories-speaks-out",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s04.md",
       "content_kind": "html_article",
@@ -235,9 +229,7 @@
           "place:china",
           "place:united-states"
         ]
-      },
-      "source_key": "ch00-s04",
-      "date_iso": "2020-07-24"
+      }
     },
     {
       "id": 5,
@@ -246,7 +238,7 @@
       "publication": "Scientific American",
       "date": "February 9, 2022",
       "url": "https://www.technologyreview.com/2022/02/09/1044985/shi-zhengli-covid-lab-leak-wuhan",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s05.md",
       "content_kind": "html_article",
@@ -291,9 +283,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s05",
-      "date_iso": "2022-02-09"
+      }
     },
     {
       "id": 6,
@@ -302,7 +292,7 @@
       "publication": "Washington Post",
       "date": "August 7, 2021",
       "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-covid-china/2021/09/07/f293325c-fb11-11eb-911c-524bc8b68f17_story.html",
-      "type": "Article",
+      "type": "",
       "status": "paywall",
       "artifact": "artifacts/ch00-s06.md",
       "content_kind": "html_article",
@@ -348,9 +338,7 @@
           "place:france",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s06",
-      "date_iso": "2021-08-07"
+      }
     },
     {
       "id": 7,
@@ -404,9 +392,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s07",
-      "date_iso": "2022-05-28"
+      }
     },
     {
       "id": 8,
@@ -457,9 +443,7 @@
           "place:china",
           "place:huanan-seafood-market"
         ]
-      },
-      "source_key": "ch00-s08",
-      "date_iso": "2020-01-05"
+      }
     },
     {
       "id": 9,
@@ -500,9 +484,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s09",
-      "date_iso": "2019-12-30"
+      }
     },
     {
       "id": 10,
@@ -554,9 +536,7 @@
           "place:wuhan",
           "place:huanan-seafood-market"
         ]
-      },
-      "source_key": "ch00-s10",
-      "date_iso": "2020-01-03"
+      }
     },
     {
       "id": 11,
@@ -565,7 +545,7 @@
       "publication": "Caixin",
       "date": "January 31, 2020",
       "url": "https://web.archive.org/web/20200131074029/http://china.caixin.com/2020-01-31/101509761.html",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s11.md",
       "content_kind": "html_article",
@@ -606,9 +586,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s11",
-      "date_iso": "2020-01-31"
+      }
     },
     {
       "id": 12,
@@ -617,7 +595,7 @@
       "publication": "People's Daily",
       "date": "December 31, 2019",
       "url": "https://web.archive.org/web/20200315052717/http://news.iqilu.com/china/gedi/2019/1231/4407838.shtml",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s12.md",
       "content_kind": "html_article",
@@ -649,9 +627,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s12",
-      "date_iso": "2019-12-31"
+      }
     },
     {
       "id": 13,
@@ -660,7 +636,7 @@
       "publication": "BBC News",
       "date": "February 7, 2020",
       "url": "https://www.bbc.com/news/world-asia-china-51403795",
-      "type": "Article",
+      "type": "",
       "status": "ok",
       "artifact": "artifacts/ch00-s13.md",
       "content_kind": "html_article",
@@ -701,9 +677,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch00-s13",
-      "date_iso": "2020-02-07"
+      }
     }
   ]
 }

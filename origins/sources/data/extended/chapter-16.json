@@ -56,9 +56,7 @@
           "place:wuhan",
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s01",
-      "date_iso": "2021-07-01"
+      }
     },
     {
       "id": 2,
@@ -112,9 +110,7 @@
           "place:wuhan",
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s02",
-      "date_iso": "2021-10-01"
+      }
     },
     {
       "id": 3,
@@ -168,9 +164,7 @@
           "place:wuhan",
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s03",
-      "date_iso": "2022-03-31"
+      }
     },
     {
       "id": 4,
@@ -207,8 +201,7 @@
           "org:global-virome-project"
         ],
         "places": []
-      },
-      "source_key": "ch16-s04"
+      }
     },
     {
       "id": 5,
@@ -245,8 +238,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s05"
+      }
     },
     {
       "id": 6,
@@ -289,9 +281,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s06",
-      "date_iso": "2019-08-19"
+      }
     },
     {
       "id": 7,
@@ -338,9 +328,7 @@
           "place:wuhan",
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s07",
-      "date_iso": "2021-06-03"
+      }
     },
     {
       "id": 8,
@@ -381,9 +369,7 @@
         "places": [
           "place:china"
         ]
-      },
-      "source_key": "ch16-s08",
-      "date_iso": "2019-10-22"
+      }
     },
     {
       "id": 9,
@@ -424,9 +410,7 @@
       },
       "topic_ids": [
         "topic:reverse-genetics"
-      ],
-      "source_key": "ch16-s09",
-      "date_iso": "2014-06-12"
+      ]
     },
     {
       "id": 10,
@@ -480,9 +464,7 @@
           "place:france",
           "place:wuhan"
         ]
-      },
-      "source_key": "ch16-s10",
-      "date_iso": "2020-12-03"
+      }
     },
     {
       "id": 11,
@@ -533,9 +515,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch16-s11",
-      "date_iso": "2021-06-21"
+      }
     },
     {
       "id": 12,
@@ -587,9 +567,7 @@
         "places": [
           "place:united-states"
         ]
-      },
-      "source_key": "ch16-s12",
-      "date_iso": "2016-07-11"
+      }
     },
     {
       "id": 13,
@@ -633,9 +611,7 @@
           "place:wuhan",
           "place:china"
         ]
-      },
-      "source_key": "ch16-s13",
-      "date_iso": "2018-11-30"
+      }
     }
   ]
 }
