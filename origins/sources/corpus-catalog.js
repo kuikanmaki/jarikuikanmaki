@@ -85,6 +85,9 @@
     var topicLine = topics.length
       ? '<p class="catalog-card-topics">' + topics.map(escapeHtml).join(" · ") + "</p>"
       : "";
+    var role = s.book_role
+      ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
+      : "";
     var status = s.status && s.status !== "ok"
       ? '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>"
       : "";
@@ -99,6 +102,7 @@
     var text =
       '<div class="catalog-card-copy">' +
         (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
+        role +
         topicLine +
         status +
       "</div>";
@@ -143,7 +147,7 @@
       var date = escapeHtml(s.date || "");
       var key = escapeHtml(s.source_key || ("ch" + s.chapter + "-s" + s.id));
       var detail = enrichmentBlock(s);
-      var hasDetail = !!(s.image_url || s.summary || (s.topics && s.topics.length) || (s.status && s.status !== "ok"));
+      var hasDetail = !!(s.image_url || s.summary || s.book_role || (s.topics && s.topics.length) || (s.status && s.status !== "ok"));
       return (
         '<li class="source-item source-item-expandable" data-source-key="' + key + '">' +
           '<div class="source-item-main">' +
