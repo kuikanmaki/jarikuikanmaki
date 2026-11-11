@@ -1,0 +1,112 @@
+{
+  "chapter": 13,
+  "chapter_title": "Chasing Shadows – Who Are “They”?",
+  "printed_pages": { "start": 147, "end": 157 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Dou, Eva",
+      "title": "Wuhan lab did secret research, complicating hunt for coronavirus pandemic origins",
+      "publication": "Washington Post",
+      "date": "June 22, 2021",
+      "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html",
+      "status": "paywall",
+      "artifact": "artifacts/ch13-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "WaPo report that WIV staff received state-secrets training in May 2019 and that classified military-linked research at the lab complicates origins inquiries. Opening retrieved behind subscription wall.",
+      "book_role": "Documents secret/military-linked WIV work—the shadowy ‘they’ Chapter 13 tries to identify.",
+      "topics": ["WIV secrecy", "state secrets training", "military research", "lab leak"],
+      "entities": {
+        "people": ["Eva Dou"],
+        "orgs": ["Washington Post", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 2,
+      "type": "Twitter post",
+      "author": "HumbleScientist",
+      "title": "Here is one of the redacted emails from February 1, 2020, discussing the teleconference: “We need to talk about the backbone too, not just the insert?”",
+      "publication": "X (Twitter)",
+      "date": "July 18, 2021",
+      "url": "https://x.com/humblesci/status/1416745810608353282",
+      "status": "skipped",
+      "artifact": null,
+      "content_kind": "social_post",
+      "language": "en",
+      "summary": "Tweet highlighting a redacted Feb 1, 2020 teleconference email line about discussing the viral ‘backbone’ as well as the ‘insert.’ X/Twitter skipped under scrape policy.",
+      "book_role": "Points to FOIA language suggesting scientists privately worried about backbone engineering, not only the furin insert.",
+      "topics": ["Feb 1 teleconference", "backbone", "furin insert", "redacted emails"],
+      "entities": {
+        "people": ["HumbleScientist"],
+        "orgs": ["X (Twitter)"],
+        "places": []
+      }
+    },
+    {
+      "id": 3,
+      "type": "News article",
+      "author": "Birrell, Ian",
+      "title": "Will we ever learn the truth about China and the pandemic? Two inquiries are 'cloaked in secrecy', WHO lets Beijing vet investigators and it appoints British scientist with links to Wuhan",
+      "publication": "The Mail on Sunday",
+      "date": "December 19, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-9071191/Will-learn-truth-China-pandemic-writes-IAN-BIRRELL.html",
+      "status": "ok",
+      "artifact": "artifacts/ch13-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Birrell Mail on Sunday column on secrecy-cloaked inquiries, WHO letting Beijing vet investigators, and Daszak’s Wuhan-linked appointment—reused artifact from chapter 9.",
+      "book_role": "Maps institutional ‘they’—WHO, EcoHealth, Beijing—who shaped what could be asked about origins.",
+      "topics": ["WHO conflicts", "Peter Daszak", "secrecy", "China"],
+      "entities": {
+        "people": ["Ian Birrell", "Peter Daszak"],
+        "orgs": ["Daily Mail", "World Health Organization", "EcoHealth Alliance"],
+        "places": ["China", "Wuhan", "United Kingdom"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "News article",
+      "author": "Cortez, Michelle Fay",
+      "title": "Wuhan Lab's Last–And Only–Foreign Scientist Speaks Out on Covid Origins Debate",
+      "publication": "Bloomberg",
+      "date": "June 28, 2021",
+      "url": "https://www.bloomberg.com/news/features/2021-06-27/did-covid-come-from-a-lab-scientist-at-wuhan-institute-speaks-out",
+      "status": "ok",
+      "artifact": "artifacts/ch13-s04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Bloomberg feature on Danielle Anderson, the last foreign scientist at WIV before COVID, speaking on the origins debate and what she observed in the lab.",
+      "book_role": "Rare insider voice from inside WIV—complicating simple conspiracy frames while still leaving shadows.",
+      "topics": ["Danielle Anderson", "WIV foreign scientist", "origins debate"],
+      "entities": {
+        "people": ["Michelle Fay Cortez", "Danielle Anderson"],
+        "orgs": ["Bloomberg", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "China", "Melbourne"]
+      }
+    },
+    {
+      "id": 5,
+      "type": "Official webpage",
+      "author": "",
+      "title": "Who we are",
+      "publication": "Wellcome Trust",
+      "date": "",
+      "url": "https://wellcome.org/who-we-are",
+      "status": "ok",
+      "artifact": "artifacts/ch13-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Wellcome Trust ‘Who we are’ institutional page—context for Jeremy Farrar’s foundation role in early origins teleconferences and scientific funding networks.",
+      "book_role": "Institutional identity page for one of the powerful Western funders in the Chapter 13 ‘who are they’ cast.",
+      "topics": ["Wellcome Trust", "Jeremy Farrar", "research funding"],
+      "entities": {
+        "people": ["Jeremy Farrar"],
+        "orgs": ["Wellcome Trust"],
+        "places": ["United Kingdom"]
+      }
+    }
+  ]
+}

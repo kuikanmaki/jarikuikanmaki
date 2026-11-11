@@ -888,5 +888,55 @@
     "source_key": "ch14-s02",
     "artifact": "artifacts/ch14-s02.md",
     "status": "ok"
+  },
+  "https://www.dailymail.co.uk/news/article-9257413/Secret-bat-cages-Wuhan-lab-researchers-planned-breed-animals-virus-experiments.html": {
+    "source_key": "ch14-s04",
+    "artifact": "artifacts/ch14-s04.md",
+    "status": "ok"
+  },
+  "https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/": {
+    "source_key": "ch14-s07",
+    "artifact": "artifacts/ch14-s07.md",
+    "status": "ok"
+  },
+  "https://theintercept.com/document/2021/09/08/understanding-the-risk-of-bat-coronavirus-emergence/": {
+    "source_key": "ch14-s08",
+    "artifact": "artifacts/ch14-s08.md",
+    "status": "ok"
+  },
+  "https://disinformationchronicle.substack.com/p/funding-documents-expose-virologist": {
+    "source_key": "ch14-s09",
+    "artifact": "artifacts/ch14-s09.md",
+    "status": "ok"
+  },
+  "https://www.newsweek.com/darpa-denies-funding-defuse-wuhan-institute-virology-proposal-leak-drastic-1631512": {
+    "source_key": "ch15-s01",
+    "artifact": "artifacts/ch15-s01.md",
+    "status": "ok"
+  },
+  "https://www.currentaffairs.org/2022/08/why-the-chair-of-the-lancets-covid-19-commission-thinks-the-us-government-is-preventing-a-real-investigation-into-the-pandemic": {
+    "source_key": "ch15-s02",
+    "artifact": "artifacts/ch15-s02.md",
+    "status": "ok"
+  },
+  "https://unherd.com/2022/08/how-dick-cheney-created-anthony-fauci/": {
+    "source_key": "ch15-s03",
+    "artifact": "artifacts/ch15-s03.md",
+    "status": "ok"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3934440": {
+    "source_key": "ch15-s04",
+    "artifact": "artifacts/ch15-s04.md",
+    "status": "ok"
+  },
+  "https://www.researchgate.net/publication/38000014_Synthetic_Viral_Genomics_Risks_and_Benefits_for_Science_and_Society": {
+    "source_key": "ch15-s05",
+    "artifact": "artifacts/ch15-s05.md",
+    "status": "ok"
+  },
+  "https://www.cbc.ca/news/world/anthrax-scientist-commits-suicide-as-fbi-closes-in-1.761552": {
+    "source_key": "ch15-s07",
+    "artifact": "artifacts/ch15-s07.md",
+    "status": "ok"
   }
 }
