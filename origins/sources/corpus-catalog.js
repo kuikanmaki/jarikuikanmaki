@@ -151,8 +151,8 @@
       var chName = chapterLabel(view.chapter);
       var meta = (corpus.chapters || []).find(function (c) { return c.number === view.chapter; });
       headingEl.textContent = meta ? meta.name + " — " + meta.title : chName;
-      statusEl.hidden = false;
-      statusEl.textContent = total + (total === 1 ? " source" : " sources") + " in this chapter";
+      statusEl.hidden = true;
+      statusEl.textContent = "";
     }
 
     if (!pageRows.length) {
@@ -335,9 +335,9 @@
     if (!searchIndex) return;
     var preferredTypes = { person: 1, org: 1, topic: 1, work: 1 };
     var picks = (searchIndex.keywords || [])
-      .filter(function (k) { return preferredTypes[k.type] && k.sourceCount >= 5; })
+      .filter(function (k) { return preferredTypes[k.type] && k.sourceCount >= 8; })
       .sort(function (a, b) { return b.sourceCount - a.sourceCount; })
-      .slice(0, 14);
+      .slice(0, 8);
 
     exploreEl.innerHTML = "";
     picks.forEach(function (k, idx) {
