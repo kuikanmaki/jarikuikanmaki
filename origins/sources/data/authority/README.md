@@ -45,6 +45,22 @@ Each extended chapter source may include:
 
 Display strings in `topics` / `entities` are normalized to `prefLabel` when matched.
 
+## Site catalog
+
+The Sources page is a search-led catalog:
+
+- MiniSearch over `../authority-search-index.json`
+- Enriched cards from `../corpus-index.json` (public fields only; no artifacts)
+- Chapter shelf + Explore shelf + paginated results
+
+Rebuild after authority or extended-chapter changes:
+
+```bash
+python3 origins/sources/data/_normalize_catalog.py
+python3 origins/sources/data/_build_corpus_index.py
+python3 origins/sources/data/_build_authority_search_index.py
+```
+
 ## Site search
 
 The Sources page uses MiniSearch over `../authority-search-index.json` (keyword → tagged sources).

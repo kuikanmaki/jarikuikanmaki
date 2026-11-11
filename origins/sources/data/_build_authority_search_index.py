@@ -38,7 +38,7 @@ def main() -> None:
                 ids.update(entities.get(bucket) or [])
             if not ids:
                 continue
-            key = f"ch{int(chapter):02d}-s{int(source.get('id')):02d}"
+            key = source.get("source_key") or f"ch{int(chapter):02d}-s{int(source.get('id')):02d}"
             if key not in sources:
                 sources[key] = {
                     "key": key,
@@ -49,6 +49,7 @@ def main() -> None:
                     "title": source.get("title") or "",
                     "publication": source.get("publication") or "",
                     "date": source.get("date") or "",
+                    "date_iso": source.get("date_iso") or "",
                     "url": source.get("url") or "",
                     "summary": (source.get("summary") or "")[:220],
                 }

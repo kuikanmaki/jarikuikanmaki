@@ -59,7 +59,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch05-s01",
+      "date_iso": "2020-02-03"
     },
     {
       "id": 2,
@@ -108,7 +110,9 @@
           "place:china",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch05-s02",
+      "date_iso": "2020-02-07"
     },
     {
       "id": 3,
@@ -147,7 +151,9 @@
         "places": [
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch05-s03",
+      "date_iso": "2020-02-13"
     },
     {
       "id": 4,
@@ -192,7 +198,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch05-s04",
+      "date_iso": "2020-02-01"
     },
     {
       "id": 5,
@@ -251,7 +259,9 @@
           "place:yunnan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch05-s05",
+      "date_iso": "2020-02-16"
     },
     {
       "id": 6,
@@ -305,7 +315,9 @@
           "place:united-states",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch05-s06",
+      "date_iso": "2015-11-09"
     }
   ]
 }

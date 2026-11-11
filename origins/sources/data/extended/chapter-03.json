@@ -51,7 +51,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch03-s01",
+      "date_iso": "2020-01-24"
     },
     {
       "id": 2,
@@ -104,7 +106,9 @@
           "place:huanan-seafood-market",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch03-s02",
+      "date_iso": "2020-01-26"
     },
     {
       "id": 3,
@@ -155,7 +159,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch03-s03",
+      "date_iso": "2020-01-27"
     },
     {
       "id": 4,
@@ -208,7 +214,9 @@
           "place:united-states",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch03-s04",
+      "date_iso": "2020-01-21"
     },
     {
       "id": 5,
@@ -257,7 +265,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch03-s05",
+      "date_iso": "2022-10-03"
     },
     {
       "id": 6,
@@ -327,7 +337,9 @@
           "place:united-states",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch03-s06",
+      "date_iso": "2020-01-27"
     },
     {
       "id": 7,
@@ -380,7 +392,8 @@
           "place:united-states",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch03-s07"
     },
     {
       "id": 8,
@@ -442,7 +455,9 @@
           "place:wuhan",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch03-s08",
+      "date_iso": "2023-02-21"
     },
     {
       "id": 9,
@@ -493,7 +508,9 @@
       },
       "topic_ids": [
         "topic:freedom-of-information-requests"
-      ]
+      ],
+      "source_key": "ch03-s09",
+      "date_iso": "2020-02-11"
     },
     {
       "id": 10,
@@ -540,7 +557,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch03-s10",
+      "date_iso": "2022-11-23"
     },
     {
       "id": 11,
@@ -600,7 +619,9 @@
           "place:united-states",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch03-s11",
+      "date_iso": "2020-02-18"
     },
     {
       "id": 12,
@@ -645,7 +666,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch03-s12",
+      "date_iso": "2020-01-31"
     },
     {
       "id": 13,
@@ -697,7 +720,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch03-s13",
+      "date_iso": "2020-04-22"
     }
   ]
 }

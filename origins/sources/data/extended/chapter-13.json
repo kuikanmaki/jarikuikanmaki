@@ -52,7 +52,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch13-s01",
+      "date_iso": "2021-06-22"
     },
     {
       "id": 2,
@@ -89,7 +91,9 @@
           "org:twitter"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch13-s02",
+      "date_iso": "2021-07-18"
     },
     {
       "id": 3,
@@ -146,7 +150,9 @@
           "place:wuhan",
           "place:united-kingdom"
         ]
-      }
+      },
+      "source_key": "ch13-s03",
+      "date_iso": "2020-12-19"
     },
     {
       "id": 4,
@@ -196,7 +202,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch13-s04",
+      "date_iso": "2021-06-28"
     },
     {
       "id": 5,
@@ -242,7 +250,8 @@
         "places": [
           "place:united-kingdom"
         ]
-      }
+      },
+      "source_key": "ch13-s05"
     }
   ]
 }

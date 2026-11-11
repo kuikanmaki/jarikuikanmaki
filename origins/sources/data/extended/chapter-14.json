@@ -56,7 +56,9 @@
           "org:twitter"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch14-s01",
+      "date_iso": "2021-09-20"
     },
     {
       "id": 2,
@@ -120,7 +122,9 @@
           "place:yunnan",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch14-s02",
+      "date_iso": "2018-03-27"
     },
     {
       "id": 3,
@@ -166,7 +170,9 @@
         "places": [
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch14-s03",
+      "date_iso": "2021-06-13"
     },
     {
       "id": 4,
@@ -215,7 +221,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch14-s04",
+      "date_iso": "2021-02-13"
     },
     {
       "id": 5,
@@ -263,7 +271,9 @@
         "places": [
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch14-s05",
+      "date_iso": "2020-12-10"
     },
     {
       "id": 6,
@@ -312,7 +322,9 @@
         "places": [
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch14-s06",
+      "date_iso": "2020-12-10"
     },
     {
       "id": 7,
@@ -364,7 +376,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch14-s07",
+      "date_iso": "2021-09-06"
     },
     {
       "id": 8,
@@ -420,7 +434,9 @@
           "place:wuhan",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch14-s08",
+      "date_iso": "2021-09-08"
     },
     {
       "id": 9,
@@ -469,7 +485,9 @@
         "places": [
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch14-s09",
+      "date_iso": "2022-09-20"
     }
   ]
 }

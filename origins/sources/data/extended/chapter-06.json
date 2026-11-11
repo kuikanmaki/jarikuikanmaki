@@ -38,7 +38,9 @@
       "topic_ids": [
         "topic:gain-of-function-research",
         "topic:biosafety"
-      ]
+      ],
+      "source_key": "ch06-s01",
+      "date_iso": "2014-03-31"
     },
     {
       "id": 2,
@@ -87,7 +89,9 @@
       },
       "topic_ids": [
         "place:wuhan"
-      ]
+      ],
+      "source_key": "ch06-s02",
+      "date_iso": "2020-02-01"
     },
     {
       "id": 3,
@@ -137,7 +141,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch06-s03",
+      "date_iso": "2020-02-10"
     },
     {
       "id": 4,
@@ -184,7 +190,9 @@
           "place:united-states",
           "place:france"
         ]
-      }
+      },
+      "source_key": "ch06-s04",
+      "date_iso": "2020-02-14"
     },
     {
       "id": 5,
@@ -224,7 +232,9 @@
           "place:russia",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch06-s05",
+      "date_iso": "2020-02-22"
     },
     {
       "id": 6,
@@ -278,7 +288,9 @@
           "place:italy",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch06-s06",
+      "date_iso": "2022-03-24"
     },
     {
       "id": 7,
@@ -333,7 +345,9 @@
           "place:wuhan",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch06-s07",
+      "date_iso": "2020-02-04"
     },
     {
       "id": 8,
@@ -381,7 +395,9 @@
       },
       "topic_ids": [
         "person:tom-cotton"
-      ]
+      ],
+      "source_key": "ch06-s08",
+      "date_iso": "2020-02-17"
     },
     {
       "id": 9,
@@ -431,7 +447,9 @@
       },
       "topic_ids": [
         "person:tom-cotton"
-      ]
+      ],
+      "source_key": "ch06-s09",
+      "date_iso": "2020-02-17"
     },
     {
       "id": 10,
@@ -490,7 +508,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch06-s10",
+      "date_iso": "2020-03-17"
     },
     {
       "id": 11,
@@ -549,7 +569,9 @@
           "place:united-states",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch06-s11",
+      "date_iso": "2020-11-18"
     },
     {
       "id": 12,
@@ -598,7 +620,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch06-s12",
+      "date_iso": "2022-12-04"
     },
     {
       "id": 13,
@@ -650,7 +674,9 @@
       "topic_ids": [
         "topic:furin-cleavage-site",
         "org:nature-medicine"
-      ]
+      ],
+      "source_key": "ch06-s13",
+      "date_iso": "2023-04-11"
     },
     {
       "id": 14,
@@ -699,7 +725,9 @@
           "place:china",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch06-s14",
+      "date_iso": "2020-02-19"
     },
     {
       "id": 15,
@@ -749,7 +777,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch06-s15",
+      "date_iso": "2020-02-19"
     },
     {
       "id": 16,
@@ -798,7 +828,9 @@
         "places": [
           "place:united-kingdom"
         ]
-      }
+      },
+      "source_key": "ch06-s16",
+      "date_iso": "2021-07-22"
     },
     {
       "id": 17,
@@ -849,7 +881,9 @@
           "org:who"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch06-s17",
+      "date_iso": "2022-12-13"
     }
   ]
 }

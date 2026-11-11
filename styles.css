@@ -684,22 +684,148 @@ img {
   white-space: nowrap;
 }
 .sources-page .sources-search-status { margin-top: 0.625rem; margin-bottom: 0; }
-.sources-page .search-result-item { margin-bottom: 1.25rem; }
-.sources-page .search-result-chapter {
-  display: block;
-  font-size: 0.75rem;
+
+/* Catalog shelves + cards */
+.sources-page .catalog-shelves {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.sources-page .catalog-shelves.is-filtered {
+  opacity: 0.55;
+}
+.sources-page .catalog-shelf-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: hsl(var(--muted-foreground));
-  margin-bottom: 0.2rem;
 }
-.sources-page .search-result-summary {
-  margin: 0.35rem 0 0;
+.sources-page .catalog-shelf #chapter-list,
+.sources-page .catalog-explore {
+  margin-top: 0;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--card));
+  color: hsl(var(--muted-foreground));
   font-size: 0.9375rem;
-  line-height: 1.55;
+  line-height: 1.9;
+}
+.sources-page .catalog-explore-link {
+  border: 0;
+  background: transparent;
+  color: hsl(var(--foreground));
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+.sources-page .catalog-explore-link:hover,
+.sources-page .catalog-explore-link.active,
+.sources-page .catalog-shelf #chapter-list a.active {
+  color: hsl(var(--accent));
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+.sources-page .catalog-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.sources-page .catalog-card {
+  padding: 1.35rem 0;
+  border-bottom: 1px solid hsl(var(--border));
+}
+.sources-page .catalog-card:first-child { padding-top: 0.35rem; }
+.sources-page .catalog-card-meta {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: hsl(var(--muted-foreground));
 }
+.sources-page .catalog-card-title {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+.sources-page .catalog-card-title a {
+  color: hsl(var(--reference-link));
+  text-decoration: none;
+}
+.sources-page .catalog-card-title a:hover { text-decoration: underline; }
+.sources-page .catalog-card-biblio {
+  margin: 0.4rem 0 0;
+  font-size: 0.9375rem;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-card-summary {
+  margin: 0.7rem 0 0;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: hsl(var(--foreground));
+}
+.sources-page .catalog-card-role {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: hsl(var(--foreground));
+}
+.sources-page .catalog-card-role span {
+  display: inline-block;
+  margin-right: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-card-topics {
+  margin: 0.55rem 0 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-card-status {
+  margin: 0.45rem 0 0;
+  font-size: 0.8125rem;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.sources-page .catalog-page-btn {
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  color: hsl(var(--foreground));
+  border-radius: var(--radius);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sources-page .catalog-page-btn:hover:not(:disabled) {
+  border-color: hsl(var(--accent));
+  color: hsl(var(--accent));
+}
+.sources-page .catalog-page-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.sources-page .catalog-page-status {
+  font-size: 0.875rem;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-notes { margin-top: 0.5rem; }
+.sources-page #sources-heading { scroll-margin-top: 1.25rem; }
 /* Hide the shared audiobook strip on the Sources page only. */
 .sources-page .audiobook-announcement { display: none; }
 /* Back-to-top lands just above the "Sources and Notes" title with a comfortable margin. */
@@ -709,18 +835,8 @@ img {
 .sources-page #sources > .container-narrow { padding-top: 2rem; }
 .sources-page #sources-heading { margin-top: 2rem; }
 
-/* Chapter index: bordered card with wrapping inline links */
-.sources-page #chapter-list {
-  margin-top: 1.5rem;
-  padding: 1rem 1.25rem;
-  border: 1px solid hsl(var(--border));
-  border-radius: var(--radius);
-  background: hsl(var(--card));
-  color: hsl(var(--muted-foreground));
-  font-size: 0.9375rem;
-  line-height: 2;
-}
-.sources-page #chapter-list a { color: hsl(var(--foreground)); }
+/* Chapter index links (shelf container provides the border panel) */
+.sources-page #chapter-list a { color: hsl(var(--foreground)); text-decoration: none; }
 .sources-page #chapter-list a:hover,
 .sources-page #chapter-list a.active { color: hsl(var(--accent)); text-decoration: underline; text-underline-offset: 0.2rem; }
 .sources-page #chapter-list a.active { font-weight: 600; }

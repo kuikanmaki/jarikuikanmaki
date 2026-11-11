@@ -77,13 +77,13 @@
         <div class="mx-auto max-w-3xl">
           <h1 id="sources-top" class="font-display font-bold">Sources and Notes</h1>
           <p class="sources-intro">
-            The complete, chapter-by-chapter record of the sources and author's notes
-            behind <em class="not-italic text-foreground">Origins of Coronavirus</em>.
-            Search by person, organization, place, or topic — or select a chapter below.
+            A research catalog for <em class="not-italic text-foreground">Origins of Coronavirus</em>:
+            search the evidence by name or topic, or browse by chapter. Summaries are editorial;
+            full source texts are not hosted here — each card links to the original.
           </p>
 
           <div class="sources-search" id="sources-search">
-            <label class="sources-search-label" for="authority-search-input">Search sources by keyword</label>
+            <label class="sources-search-label" for="authority-search-input">Search the catalog</label>
             <div class="sources-search-controls">
               <input
                 id="authority-search-input"
@@ -91,7 +91,7 @@
                 autocomplete="off"
                 spellcheck="false"
                 disabled
-                placeholder="Loading keyword search…"
+                placeholder="Loading catalog…"
                 aria-autocomplete="list"
                 aria-controls="authority-search-suggestions"
                 aria-expanded="false"
@@ -109,11 +109,25 @@
             <p id="authority-search-status" class="sources-search-status status" hidden></p>
           </div>
 
-          <div id="chapter-list" aria-label="Chapter list">
-            <span class="status">Loading chapters…</span>
+          <div id="catalog-shelves" class="catalog-shelves">
+            <div class="catalog-shelf">
+              <h2 class="catalog-shelf-title">Chapters</h2>
+              <div id="chapter-list" aria-label="Chapter list">
+                <span class="status">Loading chapters…</span>
+              </div>
+            </div>
+            <div class="catalog-shelf">
+              <h2 class="catalog-shelf-title">Explore</h2>
+              <div id="explore-keywords" class="catalog-explore" aria-label="Popular people, organizations, and topics">
+                <span class="status">Loading…</span>
+              </div>
+            </div>
           </div>
+
           <h2 id="sources-heading" hidden>Sources</h2>
           <div id="sources-output" aria-live="polite"></div>
+          <div id="catalog-pager" class="catalog-pager" hidden></div>
+          <div id="catalog-notes" class="catalog-notes" hidden></div>
           <p id="back-to-top" hidden class="back-to-top">
             <a href="#sources-top" class="text-sm font-semibold text-accent hover:underline">↑ Back to Top</a>
           </p>
@@ -141,415 +155,7 @@
   </script>
 
   <script src="/assets/js/minisearch.min.js"></script>
-  <script>
-    (function () {
-      "use strict";
-
-      const INDEX_URL = "data/sources-index.json";
-      const SEARCH_INDEX_URL = "data/authority-search-index.json";
-      const DATA_DIR  = "data/";
-
-      const listEl    = document.getElementById("chapter-list");
-      const outEl     = document.getElementById("sources-output");
-      const headingEl = document.getElementById("sources-heading");
-      const backEl    = document.getElementById("back-to-top");
-      const inputEl   = document.getElementById("authority-search-input");
-      const suggestEl = document.getElementById("authority-search-suggestions");
-      const clearEl   = document.getElementById("authority-search-clear");
-      const statusEl  = document.getElementById("authority-search-status");
-
-      let firstChapter = null;
-      let searchIndex = null;
-      let miniSearch = null;
-      let activeSuggestion = -1;
-      let currentSuggestions = [];
-      let searchMode = false;
-
-      // ---------- Helpers ----------
-      function escapeHtml(value) {
-        if (value === undefined || value === null) return "";
-        return String(value)
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/"/g, "&quot;")
-          .replace(/'/g, "&#39;");
-      }
-
-      function showError(target, message) {
-        target.innerHTML =
-          '<p class="error">' + escapeHtml(message) + "</p>";
-      }
-
-      function clearChapterActive() {
-        Array.prototype.forEach.call(
-          listEl.querySelectorAll("a.active"),
-          function (el) { el.classList.remove("active"); }
-        );
-      }
-
-      // ---------- Load chapter index ----------
-      fetch(INDEX_URL, { cache: "no-cache" })
-        .then(function (res) {
-          if (!res.ok) throw new Error("HTTP " + res.status + " loading index");
-          return res.json();
-        })
-        .then(function (data) {
-          if (!data || !Array.isArray(data.chapters)) {
-            throw new Error("Invalid sources-index.json: missing 'chapters' array");
-          }
-          renderChapterList(data.chapters);
-        })
-        .catch(function (err) {
-          console.error(err);
-          listEl.innerHTML =
-            '<span class="error">Could not load chapter index: ' +
-            escapeHtml(err.message) + "</span>";
-        });
-
-      // ---------- Load MiniSearch keyword index ----------
-      fetch(SEARCH_INDEX_URL, { cache: "no-cache" })
-        .then(function (res) {
-          if (!res.ok) throw new Error("HTTP " + res.status);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!data || !Array.isArray(data.keywords) || typeof MiniSearch !== "function") {
-            throw new Error("Search index or MiniSearch unavailable");
-          }
-          searchIndex = data;
-          miniSearch = new MiniSearch({
-            fields: ["label", "searchText", "typeLabel"],
-            storeFields: ["label", "type", "typeLabel", "sourceCount"],
-            searchOptions: {
-              boost: { label: 4, searchText: 2, typeLabel: 1 },
-              prefix: true,
-              fuzzy: 0.15,
-            },
-          });
-          miniSearch.addAll(data.keywords);
-          inputEl.disabled = false;
-          inputEl.placeholder = "Try WIV, Daszak, lab leak, RaTG13…";
-          statusEl.hidden = true;
-        })
-        .catch(function (err) {
-          console.error(err);
-          inputEl.disabled = true;
-          inputEl.placeholder = "Keyword search unavailable";
-          statusEl.hidden = false;
-          statusEl.textContent = "Could not load keyword search: " + err.message;
-        });
-
-      // ---------- Render chapter index (inline, "|"-separated) ----------
-      function renderChapterList(chapters) {
-        listEl.innerHTML = "";
-        firstChapter = null;
-
-        chapters.forEach(function (ch, idx) {
-          if (!ch || typeof ch.file !== "string" || typeof ch.name !== "string") {
-            return;
-          }
-
-          const a = document.createElement("a");
-          a.href = "#chapter-" + ch.number;
-          a.textContent = ch.name;
-          a.addEventListener("click", function (e) {
-            e.preventDefault();
-            exitSearchMode(false);
-            clearChapterActive();
-            a.classList.add("active");
-            loadChapter(ch);
-          });
-
-          listEl.appendChild(a);
-
-          if (idx < chapters.length - 1) {
-            listEl.appendChild(document.createTextNode(" | "));
-          }
-
-          if (!firstChapter) firstChapter = { chapter: ch, link: a };
-        });
-
-        if (firstChapter && !searchMode) {
-          firstChapter.link.classList.add("active");
-          loadChapter(firstChapter.chapter);
-        }
-      }
-
-      // ---------- Load + render a chapter's sources ----------
-      function loadChapter(ch) {
-        headingEl.hidden = false;
-        headingEl.textContent = "Sources — " + ch.name;
-        outEl.innerHTML = '<p class="status">Loading sources…</p>';
-        backEl.hidden = false;
-
-        fetch(DATA_DIR + ch.file, { cache: "no-cache" })
-          .then(function (res) {
-            if (!res.ok) throw new Error("HTTP " + res.status + " loading " + ch.file);
-            return res.json();
-          })
-          .then(function (data) {
-            if (!data || !Array.isArray(data.sources)) {
-              throw new Error("Invalid file '" + ch.file + "': missing 'sources' array");
-            }
-            renderSources(data.sources);
-
-            outEl.insertAdjacentHTML("beforeend", '<hr class="notes-divider">');
-            return fetch("data/notes/" + String(ch.number).padStart(2, "0") + ".html", { cache: "no-cache" })
-              .then(function (res) {
-                if (!res.ok) throw new Error("HTTP " + res.status);
-                return res.text();
-              })
-              .then(function (html) {
-                outEl.insertAdjacentHTML("beforeend", html);
-              })
-              .catch(function (err) {
-                console.warn("No notes for chapter " + ch.number + ":", err.message);
-                const divider = outEl.querySelector(".notes-divider:last-of-type");
-                if (divider) divider.remove();
-              });
-          })
-          .catch(function (err) {
-            console.error(err);
-            showError(outEl, "Could not load sources: " + err.message);
-          });
-      }
-
-      // ---------- Render sources list ----------
-      function renderSources(sources) {
-        if (sources.length === 0) {
-          outEl.innerHTML = '<p class="status">No sources listed for this chapter.</p>';
-          return;
-        }
-
-        const items = sources.map(function (s) {
-          if (!s || typeof s !== "object") return "";
-          const id  = escapeHtml(s.id != null ? s.id : "?");
-          const url = (typeof s.url === "string" && s.url) ? s.url : "#";
-          const author      = escapeHtml(s.author);
-          const title       = escapeHtml(s.title);
-          const publication = escapeHtml(s.publication);
-          const date        = escapeHtml(s.date);
-
-          return '<li class="source-item">' +
-                   '<span class="source-id" aria-hidden="true">' + id + '.</span>' +
-                   '<span class="source-ref">' +
-                     '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-                       (author ? author + ', ' : '') +
-                       '<em>' + title + '</em>' +
-                       (publication ? ', ' + publication : '') +
-                       (date ? ', ' + date : '') +
-                     '</a>' +
-                   '</span>' +
-                 '</li>';
-        }).join("\n");
-
-        outEl.innerHTML = '<ol class="sources-list">' + items + '</ol>';
-      }
-
-      // ---------- Keyword search UI ----------
-      function hideSuggestions() {
-        suggestEl.hidden = true;
-        suggestEl.innerHTML = "";
-        currentSuggestions = [];
-        activeSuggestion = -1;
-        inputEl.setAttribute("aria-expanded", "false");
-      }
-
-      function renderSuggestions(results) {
-        currentSuggestions = results.slice(0, 8);
-        activeSuggestion = currentSuggestions.length ? 0 : -1;
-
-        if (!currentSuggestions.length) {
-          hideSuggestions();
-          return;
-        }
-
-        suggestEl.innerHTML = currentSuggestions.map(function (hit, idx) {
-          return '<li role="option" id="authority-suggestion-' + idx + '">' +
-            '<button type="button" class="sources-search-suggestion' +
-              (idx === 0 ? ' is-active' : '') + '"' +
-              ' data-index="' + idx + '"' +
-              ' aria-selected="' + (idx === 0 ? 'true' : 'false') + '">' +
-              '<span class="sources-search-suggestion-label">' + escapeHtml(hit.label) + '</span>' +
-              '<span class="sources-search-suggestion-meta">' +
-                escapeHtml(hit.typeLabel) + ' · ' + hit.sourceCount +
-                (hit.sourceCount === 1 ? ' source' : ' sources') +
-              '</span>' +
-            '</button>' +
-          '</li>';
-        }).join("");
-
-        suggestEl.hidden = false;
-        inputEl.setAttribute("aria-expanded", "true");
-      }
-
-      function setActiveSuggestion(index) {
-        const buttons = suggestEl.querySelectorAll(".sources-search-suggestion");
-        if (!buttons.length) return;
-        activeSuggestion = (index + buttons.length) % buttons.length;
-        Array.prototype.forEach.call(buttons, function (btn, i) {
-          const on = i === activeSuggestion;
-          btn.classList.toggle("is-active", on);
-          btn.setAttribute("aria-selected", on ? "true" : "false");
-        });
-        const active = buttons[activeSuggestion];
-        if (active && typeof active.scrollIntoView === "function") {
-          active.scrollIntoView({ block: "nearest" });
-        }
-      }
-
-      function selectKeyword(hit) {
-        if (!hit || !searchIndex) return;
-        searchMode = true;
-        hideSuggestions();
-        clearChapterActive();
-        inputEl.value = hit.label;
-        clearEl.hidden = false;
-        statusEl.hidden = false;
-        statusEl.textContent =
-          hit.sourceCount +
-          (hit.sourceCount === 1 ? " source" : " sources") +
-          " tagged with “" + hit.label + "”";
-
-        const keys = searchIndex.keywordSources[hit.id] || [];
-        const rows = keys.map(function (key) {
-          return searchIndex.sources[key];
-        }).filter(Boolean);
-
-        headingEl.hidden = false;
-        headingEl.textContent = "Sources — " + hit.label;
-        backEl.hidden = false;
-        renderSearchResults(rows);
-      }
-
-      function renderSearchResults(rows) {
-        if (!rows.length) {
-          outEl.innerHTML = '<p class="status">No sources are tagged with this keyword yet.</p>';
-          return;
-        }
-
-        const items = rows.map(function (s) {
-          const url = s.url || "#";
-          const chapterLabel = (s.chapter === 0)
-            ? "Prologue"
-            : ("Chapter " + s.chapter);
-          return '<li class="source-item search-result-item">' +
-            '<span class="source-id" aria-hidden="true">' +
-              escapeHtml(String(s.source_id != null ? s.source_id : "?")) + '.' +
-            '</span>' +
-            '<span class="source-ref">' +
-              '<span class="search-result-chapter">' +
-                escapeHtml(chapterLabel) +
-                (s.chapter_title ? ' · ' + escapeHtml(s.chapter_title) : '') +
-              '</span>' +
-              '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-                (s.author ? escapeHtml(s.author) + ', ' : '') +
-                '<em>' + escapeHtml(s.title) + '</em>' +
-                (s.publication ? ', ' + escapeHtml(s.publication) : '') +
-                (s.date ? ', ' + escapeHtml(s.date) : '') +
-              '</a>' +
-              (s.summary
-                ? '<p class="search-result-summary">' + escapeHtml(s.summary) + '</p>'
-                : '') +
-            '</span>' +
-          '</li>';
-        }).join("\n");
-
-        outEl.innerHTML = '<ol class="sources-list">' + items + '</ol>';
-      }
-
-      function exitSearchMode(restoreChapter) {
-        searchMode = false;
-        hideSuggestions();
-        clearEl.hidden = true;
-        statusEl.hidden = true;
-        statusEl.textContent = "";
-        inputEl.value = "";
-        if (restoreChapter && firstChapter) {
-          clearChapterActive();
-          firstChapter.link.classList.add("active");
-          loadChapter(firstChapter.chapter);
-        }
-      }
-
-      function runPredictiveSearch() {
-        if (!miniSearch) return;
-        const q = inputEl.value.trim();
-        if (q.length < 1) {
-          hideSuggestions();
-          return;
-        }
-        const qLower = q.toLowerCase();
-        const results = miniSearch.search(q, {
-          prefix: true,
-          fuzzy: q.length > 3 ? 0.15 : false,
-          boost: { label: 4, searchText: 2, typeLabel: 1 },
-          boostDocument: function (id, term) {
-            const row = (searchIndex.keywords || []).find(function (k) {
-              return k.id === id;
-            });
-            if (!row) return 1;
-            let boost = 1 + Math.min(row.sourceCount, 40) / 40;
-            if (row.label.toLowerCase() === qLower) boost *= 4;
-            else if (row.label.toLowerCase().startsWith(qLower)) boost *= 2;
-            // Prefer exact alias tokens in searchText (e.g. "WIV") over prefix hits like "WIV1".
-            const tokens = String(row.searchText || "").toLowerCase().split(/\s+/);
-            if (tokens.indexOf(qLower) !== -1) boost *= 3.5;
-            return boost;
-          },
-        });
-        renderSuggestions(results);
-      }
-
-      inputEl.addEventListener("input", function () {
-        clearEl.hidden = inputEl.value.trim().length === 0 && !searchMode;
-        if (!inputEl.value.trim() && searchMode) {
-          // keep results until Clear; only update suggestions
-        }
-        runPredictiveSearch();
-      });
-
-      inputEl.addEventListener("keydown", function (e) {
-        if (suggestEl.hidden || !currentSuggestions.length) {
-          if (e.key === "Escape") hideSuggestions();
-          return;
-        }
-        if (e.key === "ArrowDown") {
-          e.preventDefault();
-          setActiveSuggestion(activeSuggestion + 1);
-        } else if (e.key === "ArrowUp") {
-          e.preventDefault();
-          setActiveSuggestion(activeSuggestion - 1);
-        } else if (e.key === "Enter") {
-          e.preventDefault();
-          if (activeSuggestion >= 0) selectKeyword(currentSuggestions[activeSuggestion]);
-        } else if (e.key === "Escape") {
-          e.preventDefault();
-          hideSuggestions();
-        }
-      });
-
-      suggestEl.addEventListener("mousedown", function (e) {
-        const btn = e.target.closest(".sources-search-suggestion");
-        if (!btn) return;
-        e.preventDefault();
-        const idx = Number(btn.getAttribute("data-index"));
-        if (!Number.isNaN(idx) && currentSuggestions[idx]) {
-          selectKeyword(currentSuggestions[idx]);
-        }
-      });
-
-      clearEl.addEventListener("click", function () {
-        exitSearchMode(true);
-      });
-
-      document.addEventListener("click", function (e) {
-        if (!e.target.closest("#sources-search")) hideSuggestions();
-      });
-    })();
-  </script>
-
+  <script src="corpus-catalog.js"></script>
   <script src="/data/origins-editions.js"></script>
   <script src="/script.js"></script>
 </body>

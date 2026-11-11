@@ -48,7 +48,9 @@
           "place:united-states",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s01",
+      "date_iso": "2021-05-26"
     },
     {
       "id": 2,
@@ -96,7 +98,9 @@
           "place:china",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch10-s02",
+      "date_iso": "2021-03-30"
     },
     {
       "id": 3,
@@ -143,7 +147,9 @@
           "place:united-kingdom",
           "place:australia"
         ]
-      }
+      },
+      "source_key": "ch10-s03",
+      "date_iso": "2021-03-30"
     },
     {
       "id": 4,
@@ -186,7 +192,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch10-s04",
+      "date_iso": "2021-05-26"
     },
     {
       "id": 5,
@@ -237,7 +245,9 @@
           "place:wuhan",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch10-s05",
+      "date_iso": "2021-06-01"
     },
     {
       "id": 6,
@@ -284,7 +294,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s06",
+      "date_iso": "2021-05-25"
     },
     {
       "id": 7,
@@ -331,7 +343,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s07",
+      "date_iso": "2021-05-25"
     },
     {
       "id": 8,
@@ -385,7 +399,9 @@
       "topic_ids": [
         "topic:freedom-of-information-requests",
         "topic:gain-of-function-research"
-      ]
+      ],
+      "source_key": "ch10-s08",
+      "date_iso": "2020-02-01"
     },
     {
       "id": 9,
@@ -440,7 +456,9 @@
           "place:wuhan",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch10-s09",
+      "date_iso": "2020-04-17"
     },
     {
       "id": 10,
@@ -486,7 +504,9 @@
           "org:ecohealth-alliance"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch10-s10",
+      "date_iso": "2021-06-21"
     },
     {
       "id": 11,
@@ -530,7 +550,9 @@
           "place:wuhan",
           "place:united-kingdom"
         ]
-      }
+      },
+      "source_key": "ch10-s11",
+      "date_iso": "2021-09-10"
     },
     {
       "id": 12,
@@ -577,7 +599,9 @@
           "org:youtube"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch10-s12",
+      "date_iso": "2020-05-19"
     },
     {
       "id": 13,
@@ -628,7 +652,9 @@
           "place:united-states",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s13",
+      "date_iso": "2014-06-01"
     },
     {
       "id": 14,
@@ -681,7 +707,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s14",
+      "date_iso": "2021-06-02"
     },
     {
       "id": 15,
@@ -730,7 +758,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s15",
+      "date_iso": "2021-02"
     },
     {
       "id": 16,
@@ -775,7 +805,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s16",
+      "date_iso": "2020-05-06"
     },
     {
       "id": 17,
@@ -823,7 +855,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch10-s17",
+      "date_iso": "2021-06-22"
     },
     {
       "id": 18,
@@ -887,7 +921,9 @@
           "place:united-states",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch10-s18",
+      "date_iso": "2021-07-22"
     },
     {
       "id": 19,
@@ -947,7 +983,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch10-s19",
+      "date_iso": "2023-07-21"
     },
     {
       "id": 20,
@@ -998,7 +1036,9 @@
           "place:united-kingdom",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch10-s20",
+      "date_iso": "2021-10-02"
     }
   ]
 }
