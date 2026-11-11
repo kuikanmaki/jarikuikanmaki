@@ -47,18 +47,8 @@
     return n === 0 ? "Prologue" : "Chapter " + n;
   }
 
-  function sortByDateDesc(rows) {
+  function sortByChapterThenId(rows) {
     return rows.slice().sort(function (a, b) {
-      var da = a.date_iso || "";
-      var db = b.date_iso || "";
-      // Undated last
-      if (!da && !db) {
-        if (a.chapter !== b.chapter) return a.chapter - b.chapter;
-        return (a.id || 0) - (b.id || 0);
-      }
-      if (!da) return 1;
-      if (!db) return -1;
-      if (da !== db) return da < db ? 1 : -1;
       if (a.chapter !== b.chapter) return a.chapter - b.chapter;
       return (a.id || 0) - (b.id || 0);
     });
@@ -70,7 +60,7 @@
       var keys = searchIndex.keywordSources[view.keyword.id] || [];
       var wanted = {};
       keys.forEach(function (k) { wanted[k] = true; });
-      return sortByDateDesc(corpus.sources.filter(function (s) {
+      return sortByChapterThenId(corpus.sources.filter(function (s) {
         return wanted[s.source_key];
       }));
     }
@@ -78,12 +68,12 @@
       var keys2 = searchIndex.keywordSources[view.keyword.id] || [];
       var wanted2 = {};
       keys2.forEach(function (k) { wanted2[k] = true; });
-      return sortByDateDesc(corpus.sources.filter(function (s) {
+      return sortByChapterThenId(corpus.sources.filter(function (s) {
         return wanted2[s.source_key];
       }));
     }
     if (view.chapter != null) {
-      return sortByDateDesc(corpus.sources.filter(function (s) {
+      return sortByChapterThenId(corpus.sources.filter(function (s) {
         return s.chapter === view.chapter;
       }));
     }
