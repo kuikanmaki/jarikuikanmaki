@@ -1,0 +1,192 @@
+{
+  "type": "event",
+  "items": [
+    {
+      "id": "event:aral-smallpox-outbreak-1971",
+      "prefLabel": "Aral smallpox outbreak (1971)",
+      "indexTerm": "Aral smallpox outbreak, 1971",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "34"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:biological-weapons-convention-1972",
+      "prefLabel": "Biological Weapons Convention (1972)",
+      "indexTerm": "Bioweapons Convention, 1972",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "31",
+        "175"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:gain-of-function-moratorium-2014",
+      "prefLabel": "Gain-of-function moratorium (2014)",
+      "indexTerm": "gain-of-function moratorium, 2014",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "gain-of-function research",
+          "id": null
+        }
+      ],
+      "subentries": [],
+      "pages": [
+        "23",
+        "142",
+        "172"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:mkultra",
+      "prefLabel": "MKUltra",
+      "indexTerm": "MKUltra",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "180"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:operation-paperclip",
+      "prefLabel": "Operation Paperclip",
+      "indexTerm": "Operation Paperclip",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "35"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:operation-sea-spray-1950",
+      "prefLabel": "Operation Sea-Spray (1950)",
+      "indexTerm": "Operation Sea-Spray, 1950",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "34"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:russian-flu-1977",
+      "prefLabel": "Russian flu (1977)",
+      "indexTerm": "Russian flu, 1977",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "33"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:russia-ukraine-war",
+      "prefLabel": "Russia–Ukraine war",
+      "indexTerm": "Ukraine war, Russia–",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "biolabs disinformation",
+        "origins debate displaced"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "event:sars-epidemic-2002-2004",
+      "prefLabel": "SARS epidemic (2002–2004)",
+      "indexTerm": "SARS epidemic (2002–2004)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "bat-coronavirus research",
+        "experimental-model similarities",
+        "impact and case count",
+        "lab escapes",
+        "origin controversies",
+        "Wuhan lab development"
+      ],
+      "pages": [
+        "130"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:september-11-attacks",
+      "prefLabel": "September 11 attacks",
+      "indexTerm": "September 11 attacks",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "biodefense complex",
+          "id": "topic:biodefense-complex"
+        }
+      ],
+      "subentries": [
+        "anthrax attacks"
+      ],
+      "pages": [
+        "157",
+        "173–176",
+        "209"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:sverdlovsk-anthrax-outbreak-1979",
+      "prefLabel": "Sverdlovsk anthrax outbreak (1979)",
+      "indexTerm": "Sverdlovsk anthrax outbreak, 1979",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "biological weapons",
+          "id": "topic:biological-weapons"
+        }
+      ],
+      "subentries": [
+        "bioweapons accident",
+        "WHO investigation comparison"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "event:taiwan-bsl-4-laboratory-breach-2003",
+      "prefLabel": "Taiwan BSL-4 laboratory breach (2003)",
+      "indexTerm": "Taiwan BSL-4 laboratory breach, 2003",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "209"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "event:trinity-test-1945",
+      "prefLabel": "Trinity test (1945)",
+      "indexTerm": "Trinity test, 1945",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "220"
+      ],
+      "source": "book-index"
+    }
+  ]
+}

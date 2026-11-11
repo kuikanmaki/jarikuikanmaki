@@ -1,7 +1,10 @@
 {
   "chapter": 18,
   "chapter_title": "Fog of War",
-  "printed_pages": { "start": 214, "end": 225 },
+  "printed_pages": {
+    "start": 214,
+    "end": 225
+  },
   "sources": [
     {
       "id": 1,
@@ -17,11 +20,32 @@
       "language": "en",
       "summary": "Reuters on the Taliban entering Kabul as U.S. diplomats evacuated by helicopter—collapse of the Afghanistan mission.",
       "book_role": "Opens Chapter 18’s geopolitical fog: great-power chaos drowning origins focus.",
-      "topics": ["Afghanistan", "Taliban", "U.S. withdrawal", "Kabul"],
+      "topics": [
+        "Afghanistan",
+        "Taliban",
+        "U.S. withdrawal",
+        "Kabul"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Reuters", "Taliban"],
-        "places": ["Kabul", "Afghanistan", "United States"]
+        "orgs": [
+          "Reuters",
+          "Taliban"
+        ],
+        "places": [
+          "Kabul",
+          "Afghanistan",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:reuters"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -38,11 +62,29 @@
       "language": "en",
       "summary": "Euronews on Poland–Belarus border migrant chaos framed as hybrid attack rather than ordinary migration crisis.",
       "book_role": "European hybrid-warfare front in the same fog-of-war months.",
-      "topics": ["Belarus border", "hybrid attack", "Poland", "migration"],
+      "topics": [
+        "Belarus border",
+        "hybrid attack",
+        "Poland",
+        "migration"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Euronews"],
-        "places": ["Belarus", "Poland", "Europe"]
+        "orgs": [
+          "Euronews"
+        ],
+        "places": [
+          "Belarus",
+          "Poland",
+          "Europe"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:europe"
+        ]
       }
     },
     {
@@ -59,11 +101,30 @@
       "language": "en",
       "summary": "Reuters: Ukraine reports nearly 100,000 Russian troops near its border—pre-invasion buildup.",
       "book_role": "Marks the gathering Ukraine war that soon eclipses pandemic origins politics.",
-      "topics": ["Russia troop buildup", "Ukraine border", "pre-invasion"],
+      "topics": [
+        "Russia troop buildup",
+        "Ukraine border",
+        "pre-invasion"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Reuters"],
-        "places": ["Ukraine", "Russia"]
+        "orgs": [
+          "Reuters"
+        ],
+        "places": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:reuters"
+        ],
+        "places": [
+          "place:ukraine",
+          "place:russia"
+        ]
       }
     },
     {
@@ -80,12 +141,32 @@
       "language": "en",
       "summary": "Al Jazeera on Omicron driving record daily COVID cases across Europe in late December 2021.",
       "book_role": "Pandemic’s new wave still raging as geopolitical fog thickens.",
-      "topics": ["Omicron", "Europe", "record COVID cases"],
+      "topics": [
+        "Omicron",
+        "Europe",
+        "record COVID cases"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Al Jazeera"],
-        "places": ["Europe", "United Kingdom"]
-      }
+        "orgs": [
+          "Al Jazeera"
+        ],
+        "places": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:europe",
+          "place:united-kingdom"
+        ]
+      },
+      "topic_ids": [
+        "place:europe"
+      ]
     },
     {
       "id": 5,
@@ -101,11 +182,28 @@
       "language": "en",
       "summary": "Reuters: U.S. COVID hospitalizations exceed 132,000 under Omicron—new pandemic peak.",
       "book_role": "U.S. domestic COVID crisis concurrent with war drums and protest politics.",
-      "topics": ["Omicron", "U.S. hospitalizations", "COVID surge"],
+      "topics": [
+        "Omicron",
+        "U.S. hospitalizations",
+        "COVID surge"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Reuters"],
-        "places": ["United States"]
+        "orgs": [
+          "Reuters"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:reuters"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -122,11 +220,29 @@
       "language": "en",
       "summary": "France 24 on clashes in Brussels as tens of thousands protest COVID rules.",
       "book_role": "European civil unrest over pandemic controls—fog of domestic legitimacy crisis.",
-      "topics": ["COVID protests", "Brussels", "clashes", "pandemic rules"],
+      "topics": [
+        "COVID protests",
+        "Brussels",
+        "clashes",
+        "pandemic rules"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["France 24"],
-        "places": ["Brussels", "Belgium", "Europe"]
+        "orgs": [
+          "France 24"
+        ],
+        "places": [
+          "Brussels",
+          "Belgium",
+          "Europe"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:europe"
+        ]
       }
     },
     {
@@ -143,11 +259,30 @@
       "language": "en",
       "summary": "AP: Ottawa declares a state of emergency amid COVID trucker/convoy protests.",
       "book_role": "North American protest emergency as the war fog arrives.",
-      "topics": ["Ottawa", "state of emergency", "COVID protests", "Freedom Convoy"],
+      "topics": [
+        "Ottawa",
+        "state of emergency",
+        "COVID protests",
+        "Freedom Convoy"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Associated Press"],
-        "places": ["Ottawa", "Canada"]
+        "orgs": [
+          "Associated Press"
+        ],
+        "places": [
+          "Ottawa",
+          "Canada"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:associated-press"
+        ],
+        "places": [
+          "place:canada"
+        ]
       }
     },
     {
@@ -164,12 +299,40 @@
       "language": "en",
       "summary": "Reuters day-of-invasion report: missiles across Ukraine as Russia launches full-scale war.",
       "book_role": "The war that Chapter 18 says swallows remaining attention to pandemic origins.",
-      "topics": ["Russia invasion", "Ukraine", "missiles", "February 24 2022"],
+      "topics": [
+        "Russia invasion",
+        "Ukraine",
+        "missiles",
+        "February 24 2022"
+      ],
       "entities": {
-        "people": ["Vladimir Putin"],
-        "orgs": ["Reuters"],
-        "places": ["Ukraine", "Russia", "Kyiv"]
-      }
+        "people": [
+          "Vladimir Putin"
+        ],
+        "orgs": [
+          "Reuters"
+        ],
+        "places": [
+          "Ukraine",
+          "Russia",
+          "Kyiv"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:vladimir-putin"
+        ],
+        "orgs": [
+          "org:reuters"
+        ],
+        "places": [
+          "place:ukraine",
+          "place:russia"
+        ]
+      },
+      "topic_ids": [
+        "place:ukraine"
+      ]
     },
     {
       "id": 9,
@@ -185,11 +348,36 @@
       "language": "en",
       "summary": "Companion Reuters piece confirming Kyiv’s assessment of a full-scale Russian invasion.",
       "book_role": "Second confirmation of the war’s start—historical hinge of the fog-of-war chapter.",
-      "topics": ["full-scale invasion", "Ukraine", "Kyiv", "Russia"],
+      "topics": [
+        "full-scale invasion",
+        "Ukraine",
+        "Kyiv",
+        "Russia"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Reuters"],
-        "places": ["Ukraine", "Kyiv", "Russia"]
+        "orgs": [
+          "Reuters"
+        ],
+        "places": [
+          "Ukraine",
+          "Kyiv",
+          "Russia"
+        ]
+      },
+      "topic_ids": [
+        "place:ukraine",
+        "place:russia"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:reuters"
+        ],
+        "places": [
+          "place:ukraine",
+          "place:russia"
+        ]
       }
     },
     {
@@ -206,11 +394,27 @@
       "language": "fi",
       "summary": "Author’s personal journal entry dated 25 Jan 2022. No public URL; private contemporaneous note.",
       "book_role": "Author’s private vantage as COVID politics and war fears converge.",
-      "topics": ["personal journal", "author contemporaneous note"],
+      "topics": [
+        "personal journal",
+        "author contemporaneous note"
+      ],
       "entities": {
-        "people": ["Jari Kuikanmäki"],
+        "people": [
+          "Jari Kuikanmäki"
+        ],
         "orgs": [],
-        "places": ["Finland"]
+        "places": [
+          "Finland"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jari-kuikanmaki"
+        ],
+        "orgs": [],
+        "places": [
+          "place:finland"
+        ]
       }
     },
     {
@@ -227,10 +431,24 @@
       "language": "en",
       "summary": "UNESCO Constitution (1945)—founding text on education, science, culture and peace after world war.",
       "book_role": "Normative contrast: postwar institutions meant to prevent the fog of war Chapter 18 describes returning.",
-      "topics": ["UNESCO Constitution", "peace", "science and culture", "1945"],
+      "topics": [
+        "UNESCO Constitution",
+        "peace",
+        "science and culture",
+        "1945"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["UNESCO"],
+        "orgs": [
+          "UNESCO"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:unesco"
+        ],
         "places": []
       }
     },
@@ -248,11 +466,35 @@
       "language": "en",
       "summary": "AP: China amplifies unsupported Russian claims about Ukraine biolabs—origins/bioweapons rhetoric weaponized in the new war.",
       "book_role": "Shows how biolab narratives are recycled as wartime propaganda, muddying COVID-origins discourse.",
-      "topics": ["Ukraine biolabs", "Russian claims", "China amplification", "disinformation"],
+      "topics": [
+        "Ukraine biolabs",
+        "Russian claims",
+        "China amplification",
+        "disinformation"
+      ],
       "entities": {
-        "people": ["David Rising"],
-        "orgs": ["Associated Press"],
-        "places": ["Ukraine", "Russia", "China"]
+        "people": [
+          "David Rising"
+        ],
+        "orgs": [
+          "Associated Press"
+        ],
+        "places": [
+          "Ukraine",
+          "Russia",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:associated-press"
+        ],
+        "places": [
+          "place:ukraine",
+          "place:russia",
+          "place:china"
+        ]
       }
     },
     {
@@ -269,11 +511,28 @@
       "language": "en",
       "summary": "Eisenhower’s farewell address warning of the military-industrial complex—canonical text on permanent war-and-science machinery.",
       "book_role": "Historical lens Chapter 18 uses for the biodefense/military complex behind pandemic and war politics.",
-      "topics": ["military-industrial complex", "Eisenhower", "farewell address"],
+      "topics": [
+        "military-industrial complex",
+        "Eisenhower",
+        "farewell address"
+      ],
       "entities": {
-        "people": ["Dwight Eisenhower"],
-        "orgs": ["National Archives"],
-        "places": ["United States"]
+        "people": [
+          "Dwight Eisenhower"
+        ],
+        "orgs": [
+          "National Archives"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -290,11 +549,33 @@
       "language": "en",
       "summary": "NATO announcement that Finland and Sweden submitted applications to join the Alliance after Russia’s invasion.",
       "book_role": "Finnish security realignment—author’s national context inside the fog of war.",
-      "topics": ["NATO enlargement", "Finland", "Sweden", "Ukraine war"],
+      "topics": [
+        "NATO enlargement",
+        "Finland",
+        "Sweden",
+        "Ukraine war"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["NATO"],
-        "places": ["Finland", "Sweden", "Europe"]
+        "orgs": [
+          "NATO"
+        ],
+        "places": [
+          "Finland",
+          "Sweden",
+          "Europe"
+        ]
+      },
+      "topic_ids": [
+        "place:finland"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:finland",
+          "place:europe"
+        ]
       }
     },
     {
@@ -311,11 +592,34 @@
       "language": "en",
       "summary": "Guardian on Ukraine’s surprise Kharkiv-region counteroffensive against Russian forces.",
       "book_role": "War’s continuing churn as Chapter 18 closes—origins questions still unresolved amid battle.",
-      "topics": ["Kharkiv counteroffensive", "Ukraine war", "Russia"],
+      "topics": [
+        "Kharkiv counteroffensive",
+        "Ukraine war",
+        "Russia"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["The Guardian"],
-        "places": ["Kharkiv", "Ukraine", "Russia"]
+        "orgs": [
+          "The Guardian"
+        ],
+        "places": [
+          "Kharkiv",
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      "topic_ids": [
+        "place:russia"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-guardian"
+        ],
+        "places": [
+          "place:ukraine",
+          "place:russia"
+        ]
       }
     }
   ]

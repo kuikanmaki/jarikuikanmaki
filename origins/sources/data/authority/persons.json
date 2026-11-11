@@ -1,0 +1,1163 @@
+{
+  "type": "person",
+  "items": [
+    {
+      "id": "person:andrew-huff",
+      "prefLabel": "Andrew Huff",
+      "indexTerm": "Huff, Andrew",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "238"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:andrew-rambaut",
+      "prefLabel": "Andrew Rambaut",
+      "indexTerm": "Rambaut, Andrew",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "75",
+        "155"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:anthony-fauci",
+      "prefLabel": "Anthony Fauci",
+      "indexTerm": "Fauci, Anthony",
+      "altLabels": [
+        "Dr. Fauci",
+        "Fauci"
+      ],
+      "related": [],
+      "subentries": [
+        "biodefense expansion",
+        "biosafety criticism",
+        "DARPA-Pentagon links",
+        "early response",
+        "funding emails",
+        "NIAID gain-of-function funding",
+        "origins coordination",
+        "record deletion",
+        "scientist network",
+        "WIV collaborations"
+      ],
+      "pages": [
+        "37",
+        "73",
+        "77–78",
+        "100",
+        "114",
+        "116–117",
+        "143–146",
+        "156",
+        "165",
+        "170–171",
+        "183",
+        "192–194",
+        "226–227",
+        "229–230",
+        "234",
+        "236–237",
+        "244"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:birger-s-rensen",
+      "prefLabel": "Birger Sørensen",
+      "indexTerm": "Sørensen, Birger",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "97–98"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:boris-yeltsin",
+      "prefLabel": "Boris Yeltsin",
+      "indexTerm": "Yeltsin, Boris",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "31"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:bruce-e-ivins",
+      "prefLabel": "Bruce E. Ivins",
+      "indexTerm": "Ivins, Bruce E.",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "179–181"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:cao-wuchun",
+      "prefLabel": "Cao Wuchun",
+      "indexTerm": "Cao Wuchun",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "235"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:chen-wei",
+      "prefLabel": "Chen Wei",
+      "indexTerm": "Wei, Chen",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "235"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:christian-drosten",
+      "prefLabel": "Christian Drosten",
+      "indexTerm": "Drosten, Christian",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "155"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:christopher-wray",
+      "prefLabel": "Christopher Wray",
+      "indexTerm": "Wray, Christopher",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "237"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:dan-sirotkin",
+      "prefLabel": "Dan Sirotkin",
+      "indexTerm": "Sirotkin, Dan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "46"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:danielle-anderson",
+      "prefLabel": "Danielle Anderson",
+      "indexTerm": "Anderson, Danielle",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "credibility questioned",
+        "WIV testimony"
+      ],
+      "pages": [
+        "152"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:dany-shoham",
+      "prefLabel": "Dany Shoham",
+      "indexTerm": "Shoham, Dany",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "intelligence investigations",
+        "Wuhan bioweapons allegations"
+      ],
+      "pages": [
+        "26",
+        "38"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:david-morens",
+      "prefLabel": "David Morens",
+      "indexTerm": "Morens, David",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "232",
+        "242"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:dennis-carroll",
+      "prefLabel": "Dennis Carroll",
+      "indexTerm": "Carroll, Dennis",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "PREDICT revolving door",
+        "WIV-linked collaborations"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:dick-cheney",
+      "prefLabel": "Dick Cheney",
+      "indexTerm": "Cheney, Dick",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "173"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:donald-trump",
+      "prefLabel": "Donald Trump",
+      "indexTerm": "Trump, Donald",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "origin claims",
+        "political interference"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:dwight-d-eisenhower",
+      "prefLabel": "Dwight D. Eisenhower",
+      "indexTerm": "Eisenhower, Dwight D.",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "221"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:edward-holmes",
+      "prefLabel": "Edward Holmes",
+      "indexTerm": "Holmes, Edward",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "early sequencing",
+        "lab-origin doubts",
+        "RaTG13 deposit",
+        "secrecy controversies"
+      ],
+      "pages": [
+        "15"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:eliza-manningham-buller",
+      "prefLabel": "Eliza Manningham-Buller",
+      "indexTerm": "Manningham-Buller, Eliza",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "156"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:erik-stemmy",
+      "prefLabel": "Erik Stemmy",
+      "indexTerm": "Stemmy, Erik",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "192",
+        "233"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:francis-collins",
+      "prefLabel": "Francis Collins",
+      "indexTerm": "Collins, Francis",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "155"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:george-gao",
+      "prefLabel": "George Gao",
+      "indexTerm": "Gao, George",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "184",
+        "205"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:george-w-bush",
+      "prefLabel": "George W. Bush",
+      "indexTerm": "Bush, George W.",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "173"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:gilles-demaneuf",
+      "prefLabel": "Gilles Demaneuf",
+      "indexTerm": "Gilles Demaneuf",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:greg-folkers",
+      "prefLabel": "Greg Folkers",
+      "indexTerm": "Folkers, Greg",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "42",
+        "192"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:helen-branswell",
+      "prefLabel": "Helen Branswell",
+      "indexTerm": "Branswell, Helen",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "24",
+        "32"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:hugh-auchincloss",
+      "prefLabel": "Hugh Auchincloss",
+      "indexTerm": "Auchincloss, Hugh",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "chimeric-coronavirus research",
+        "funding-link communications"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:ian-birrell",
+      "prefLabel": "Ian Birrell",
+      "indexTerm": "Birrell, Ian",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "101",
+        "116"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:ian-lipkin",
+      "prefLabel": "Ian Lipkin",
+      "indexTerm": "Lipkin, Ian",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "EcoHealth/WIV network",
+        "February 1 teleconference"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:james-gimlett",
+      "prefLabel": "James Gimlett",
+      "indexTerm": "Gimlett, James",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "239"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:jane-qiu",
+      "prefLabel": "Jane Qiu",
+      "indexTerm": "Qiu, Jane",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "139"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:jari-kuikanmaki",
+      "prefLabel": "Jari Kuikanmäki",
+      "indexTerm": "Jari Kuikanmäki",
+      "altLabels": [
+        "Kuikanmäki",
+        "Jari Kuikanmaki"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jeffrey-sachs",
+      "prefLabel": "Jeffrey Sachs",
+      "indexTerm": "Sachs, Jeffrey",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "Lancet COVID-19 Commission",
+          "id": "org:lancet-covid-19-commission"
+        }
+      ],
+      "subentries": [],
+      "pages": [
+        "171–172"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:jeremy-farrar",
+      "prefLabel": "Jeremy Farrar",
+      "indexTerm": "Farrar, Jeremy",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "EcoHealth Vietnam research",
+        "gain-of-function ties",
+        "Lancet letter, signatory",
+        "redacted emails"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:jesse-bloom",
+      "prefLabel": "Jesse Bloom",
+      "indexTerm": "Bloom, Jesse",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "118"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:joe-biden",
+      "prefLabel": "Joe Biden",
+      "indexTerm": "Biden, Joe",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "intelligence deadline",
+        "social media censorship",
+        "transition, 2021"
+      ],
+      "pages": [
+        "152"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:jon-cohen",
+      "prefLabel": "Jon Cohen",
+      "indexTerm": "Jon Cohen",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:karl-sirotkin",
+      "prefLabel": "Karl Sirotkin",
+      "indexTerm": "Sirotkin, Karl",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "46"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:ken-alibek",
+      "prefLabel": "Ken Alibek",
+      "indexTerm": "Alibek, Ken",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "35–36"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:kristian-andersen",
+      "prefLabel": "Kristian Andersen",
+      "indexTerm": "Andersen, Kristian",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "NIH communications",
+        "zoonotic narrative shaping"
+      ],
+      "pages": [
+        "231"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:lawrence-tabak",
+      "prefLabel": "Lawrence Tabak",
+      "indexTerm": "Tabak, Lawrence",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "198–199"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:li-wenliang",
+      "prefLabel": "Li Wenliang",
+      "indexTerm": "Li Wenliang",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "9",
+        "64"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:li-xu",
+      "prefLabel": "Li Xu",
+      "indexTerm": "Li Xu",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "128"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:lili-ren",
+      "prefLabel": "Lili Ren",
+      "indexTerm": "Ren, Lili",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "231"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:linfa-wang",
+      "prefLabel": "Linfa Wang",
+      "indexTerm": "Wang, Linfa",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "162",
+        "168"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:margaret-moore",
+      "prefLabel": "Margaret Moore",
+      "indexTerm": "Moore, Margaret",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "232"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:maria-van-kerkhove",
+      "prefLabel": "Maria Van Kerkhove",
+      "indexTerm": "Kerkhove, Maria van",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "184"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:mark-zuckerberg",
+      "prefLabel": "Mark Zuckerberg",
+      "indexTerm": "Zuckerberg, Mark",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "240"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:matt-friedman",
+      "prefLabel": "Matt Friedman",
+      "indexTerm": "Friedman, Matt",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "Baric conversations",
+        "Shi arrest concern"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:matti-virtanen",
+      "prefLabel": "Matti Virtanen",
+      "indexTerm": "Virtanen, Matti",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "author collaboration",
+        "media projects"
+      ],
+      "pages": [
+        "222"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:michael-farzan",
+      "prefLabel": "Michael Farzan",
+      "indexTerm": "Farzan, Michael",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "natural-origin skepticism",
+        "origins email coterie"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:mike-pompeo",
+      "prefLabel": "Mike Pompeo",
+      "indexTerm": "Pompeo, Mike",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "94",
+        "152"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:monali-rahalkar",
+      "prefLabel": "Monali Rahalkar",
+      "indexTerm": "Rahalkar, Monali",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "105",
+        "125–127",
+        "133"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:nassim-nicholas-taleb",
+      "prefLabel": "Nassim Nicholas Taleb",
+      "indexTerm": "Taleb, Nassim Nicholas",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "52–53"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:nicholas-wade",
+      "prefLabel": "Nicholas Wade",
+      "indexTerm": "Wade, Nicholas",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "106"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:olli-vapalahti",
+      "prefLabel": "Olli Vapalahti",
+      "indexTerm": "Vapalahti, Olli",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "199"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:otto-juote",
+      "prefLabel": "Otto Juote",
+      "indexTerm": "Juote, Otto",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "laboratory-origin inquiry"
+      ],
+      "pages": [
+        "23"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:patrick-vallance",
+      "prefLabel": "Patrick Vallance",
+      "indexTerm": "Vallance, Patrick",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "120",
+        "155"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:peter-daszak",
+      "prefLabel": "Peter Daszak",
+      "indexTerm": "Daszak, Peter",
+      "altLabels": [
+        "Daszak"
+      ],
+      "related": [
+        {
+          "label": "EcoHealth Alliance",
+          "id": "org:ecohealth-alliance"
+        }
+      ],
+      "subentries": [
+        "conflicts of interest",
+        "DEFUSE project",
+        "EcoHealth presidency",
+        "Fauci and Baric ties",
+        "FOIA scrutiny",
+        "gain-of-function funding",
+        "Lancet letter",
+        "NIH briefings",
+        "WHO panels",
+        "Yunnan sampling"
+      ],
+      "pages": [
+        "44–45",
+        "112",
+        "115",
+        "120–121",
+        "136",
+        "147",
+        "150–151",
+        "163",
+        "166",
+        "169",
+        "190–191",
+        "194",
+        "240"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:peter-embarek",
+      "prefLabel": "Peter Embarek",
+      "indexTerm": "Embarek, Peter",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "100"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:rahul-bahulikar",
+      "prefLabel": "Rahul Bahulikar",
+      "indexTerm": "Bahulikar, Rahul",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "125–127",
+        "133"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:ralph-baric",
+      "prefLabel": "Ralph Baric",
+      "indexTerm": "Baric, Ralph",
+      "altLabels": [
+        "Baric"
+      ],
+      "related": [],
+      "subentries": [
+        "chimeric coronaviruses",
+        "coronavirus research role",
+        "government funding",
+        "humanized mice",
+        "research proposals",
+        "reverse genetics",
+        "Shi collaboration"
+      ],
+      "pages": [
+        "60"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:rand-paul",
+      "prefLabel": "Rand Paul",
+      "indexTerm": "Paul, Rand",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "105",
+        "145"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:richard-dearlove",
+      "prefLabel": "Richard Dearlove",
+      "indexTerm": "Dearlove, Richard",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "97"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:richard-ebright",
+      "prefLabel": "Richard Ebright",
+      "indexTerm": "Ebright, Richard",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "188"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:robert-garry",
+      "prefLabel": "Robert Garry",
+      "indexTerm": "Garry, Robert",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "funding increase",
+        "furin-cleavage-site doubts",
+        "Proximal Origin coauthorship"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:ron-fouchier",
+      "prefLabel": "Ron Fouchier",
+      "indexTerm": "Fouchier, Ron",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "biosecurity debates",
+        "H5N1 ferret passaging"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:rossana-segreto",
+      "prefLabel": "Rossana Segreto",
+      "indexTerm": "Segreto, Rossana",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "126",
+        "227"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:shi-zhengli",
+      "prefLabel": "Shi Zhengli",
+      "indexTerm": "Shi Zhengli",
+      "altLabels": [
+        "China's Bat Woman",
+        "Shi Zheng-li",
+        "Zhengli Shi"
+      ],
+      "related": [],
+      "subentries": [
+        "Baric, Ralph collaboration",
+        "bat-coronavirus career",
+        "gain-of-function collaborations",
+        "military links",
+        "outbreak reaction",
+        "RaTG13",
+        "research controversies",
+        "Rhinolophus affinis",
+        "sequencing timeline"
+      ],
+      "pages": [
+        "1",
+        "3",
+        "8",
+        "148"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:stephane-bancel",
+      "prefLabel": "Stéphane Bancel",
+      "indexTerm": "Bancel, Stéphane",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "40"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:tedros-adhanom-ghebreyesus",
+      "prefLabel": "Tedros Adhanom Ghebreyesus",
+      "indexTerm": "Ghebreyesus, Tedros Adhanom",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "110"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:theseeker",
+      "prefLabel": "TheSeeker",
+      "indexTerm": "TheSeeker",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "105",
+        "128",
+        "158"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:tian-junhua",
+      "prefLabel": "Tian Junhua",
+      "indexTerm": "Tian Junhua",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "230"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:tom-cotton",
+      "prefLabel": "Tom Cotton",
+      "indexTerm": "Tom Cotton",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:trevor-bedford",
+      "prefLabel": "Trevor Bedford",
+      "indexTerm": "Bedford, Trevor",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "56"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:vineet-menachery",
+      "prefLabel": "Vineet Menachery",
+      "indexTerm": "Vineet Menachery",
+      "altLabels": [
+        "Menachery"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:vladimir-putin",
+      "prefLabel": "Vladimir Putin",
+      "indexTerm": "Putin, Vladimir",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "Ukraine, invasion of"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "person:wang-yanyi",
+      "prefLabel": "Wang Yanyi",
+      "indexTerm": "Yanyi, Wang",
+      "altLabels": [
+        "Wang Yan-yi",
+        "Yanyi Wang"
+      ],
+      "related": [],
+      "subentries": [
+        "crisis communications"
+      ],
+      "pages": [
+        "2–3",
+        "9"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:xiao-botao",
+      "prefLabel": "Xiao Botao",
+      "indexTerm": "Botao, Xiao",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "66",
+        "69",
+        "230"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:xiao-lei",
+      "prefLabel": "Xiao Lei",
+      "indexTerm": "Xiao Lei",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "66"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:yoshihiro-kawaoka",
+      "prefLabel": "Yoshihiro Kawaoka",
+      "indexTerm": "Kawaoka, Yoshihiro",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "19"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:yuri-deigin",
+      "prefLabel": "Yuri Deigin",
+      "indexTerm": "Deigin, Yuri",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "46"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "person:zhong-nanshan",
+      "prefLabel": "Zhong Nanshan",
+      "indexTerm": "Zhong Nanshan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "129",
+        "135"
+      ],
+      "source": "book-index"
+    }
+  ]
+}

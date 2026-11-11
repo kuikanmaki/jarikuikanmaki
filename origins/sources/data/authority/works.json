@@ -1,0 +1,229 @@
+{
+  "type": "work",
+  "items": [
+    {
+      "id": "work:a-pneumonia-outbreak-associated-with-a-new-coronavirus-of-probable-bat-origin",
+      "prefLabel": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "indexTerm": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "cover-up debates",
+        "data reliability",
+        "furin cleavage site",
+        "paper title",
+        "RaTG13 link"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "work:a-sars-like-cluster-of-circulating-bat-coronaviruses-shows-potential-for-human-emergence",
+      "prefLabel": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "indexTerm": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "67",
+        "113",
+        "142"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:defuse",
+      "prefLabel": "DEFUSE",
+      "indexTerm": "DEFUSE",
+      "altLabels": [
+        "DARPA DEFUSE",
+        "DEFUSE proposal"
+      ],
+      "related": [
+        {
+          "label": "DARPA",
+          "id": "org:darpa"
+        }
+      ],
+      "subentries": [
+        "Baric, Ralph and Daszak, Peter",
+        "biodefense funding",
+        "BsmBI enzymes",
+        "FOIA disclosures",
+        "gain-of-function plans",
+        "military-intelligence links",
+        "WIV–EcoHealth links"
+      ],
+      "pages": [
+        "157",
+        "164",
+        "168",
+        "170–173",
+        "198",
+        "243"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:lancet-letter-february-2020",
+      "prefLabel": "Lancet letter (February 2020)",
+      "indexTerm": "Lancet letter (February 2020)",
+      "altLabels": [
+        "Lancet letter",
+        "Lancet statement"
+      ],
+      "related": [
+        {
+          "label": "The proximal origin of SARS-CoV-2",
+          "id": "work:the-proximal-origin-of-sars-cov-2"
+        }
+      ],
+      "subentries": [
+        "PREDICT program",
+        "signatory conflicts"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "work:preempt",
+      "prefLabel": "PREEMPT",
+      "indexTerm": "PREEMPT",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "159",
+        "239"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:sars-cov-2-genome-analysis-dia-report",
+      "prefLabel": "SARS-CoV-2 Genome Analysis (DIA report)",
+      "indexTerm": "SARS-CoV-2 Genome Analysis (DIA report)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "237",
+        "242"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:synthetic-viral-genomics-risks-and-benefits-for-science-and-society",
+      "prefLabel": "Synthetic Viral Genomics: Risks and Benefits for Science and Society",
+      "indexTerm": "Synthetic Viral Genomics: Risks and Benefits for Science and Society",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "176–177",
+        "187"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:the-dead-hand",
+      "prefLabel": "The Dead Hand",
+      "indexTerm": "The Dead Hand: The Untold Story of the Cold War Arms Race and Its Dangerous Legacy",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "29"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:the-possible-origins-of-the-2019-ncov-coronavirus",
+      "prefLabel": "The possible origins of the 2019-nCoV coronavirus",
+      "indexTerm": "The possible origins of the 2019-nCoV coronavirus",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "66–67",
+        "70"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:the-proximal-origin-of-sars-cov-2",
+      "prefLabel": "The proximal origin of SARS-CoV-2",
+      "indexTerm": "The proximal origin of SARS-CoV-2",
+      "altLabels": [
+        "Proximal Origin",
+        "proximal origin paper"
+      ],
+      "related": [
+        {
+          "label": "Lancet letter (February 2020)",
+          "id": "work:lancet-letter-february-2020"
+        }
+      ],
+      "subentries": [
+        "Morens emails",
+        "narrative suppression",
+        "seamless assembly",
+        "serial passaging question"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "work:u-s-state-department-fact-sheet",
+      "prefLabel": "U.S. State Department Fact Sheet",
+      "indexTerm": "US State Department Fact Sheet",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "biosafety warnings",
+        "classified PLA research",
+        "worker illnesses"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "work:understanding-the-risk-of-bat-coronavirus-emergence",
+      "prefLabel": "Understanding the Risk of Bat Coronavirus Emergence",
+      "indexTerm": "Understanding the Risk of Bat Coronavirus Emergence",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "43",
+        "115",
+        "165"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "work:year-4-progress-report-ecohealth-alliance",
+      "prefLabel": "Year-4 Progress Report (EcoHealth Alliance)",
+      "indexTerm": "Year-4 Progress Report (EcoHealth Alliance)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "chimeric-virus pathogenicity",
+        "cover-up evidence"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "work:year-5-progress-report-ecohealth-alliance",
+      "prefLabel": "Year-5 Progress Report (EcoHealth Alliance)",
+      "indexTerm": "Year-5 Progress Report (EcoHealth Alliance)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "231"
+      ],
+      "source": "book-index"
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "type": "org",
+  "items": [
+    {
+      "id": "org:academy-of-military-medical-sciences",
+      "prefLabel": "Academy of Military Medical Sciences",
+      "indexTerm": "China, Academy of Military Medical Sciences",
+      "altLabels": [
+        "AMMS",
+        "China, Academy of Military Medical Sciences"
+      ],
+      "related": [
+        {
+          "label": "PLA",
+          "id": "org:people-s-liberation-army"
+        }
+      ],
+      "subentries": [],
+      "pages": [
+        "177"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:amazon",
+      "prefLabel": "Amazon",
+      "indexTerm": "Amazon",
+      "altLabels": [
+        "Amazon.com"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:associated-press",
+      "prefLabel": "Associated Press",
+      "indexTerm": "Associated Press",
+      "altLabels": [
+        "AP"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:barda",
+      "prefLabel": "BARDA",
+      "indexTerm": "BARDA",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "175"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:biological-sciences-experts-group",
+      "prefLabel": "Biological Sciences Experts Group",
+      "indexTerm": "Biological Sciences Experts Group",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "238"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:biopreparat",
+      "prefLabel": "Biopreparat",
+      "indexTerm": "Biopreparat",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "35"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:bnd",
+      "prefLabel": "BND",
+      "indexTerm": "BND",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "239–240"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:cambridge-working-group",
+      "prefLabel": "Cambridge Working Group",
+      "indexTerm": "Cambridge Working Group",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "23",
+        "188"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:cdc",
+      "prefLabel": "CDC",
+      "indexTerm": "CDC",
+      "altLabels": [
+        "U.S. CDC",
+        "US CDC",
+        "Centers for Disease Control and Prevention"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:chengdu-military-center",
+      "prefLabel": "Chengdu Military Center",
+      "indexTerm": "Chengdu Military Center",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "235"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:china-virome-project",
+      "prefLabel": "China Virome Project",
+      "indexTerm": "China Virome Project",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "235"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:chinese-academy-of-medical-sciences",
+      "prefLabel": "Chinese Academy of Medical Sciences",
+      "indexTerm": "Chinese Academy of Medical Sciences",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "228–231"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:chinese-academy-of-sciences",
+      "prefLabel": "Chinese Academy of Sciences",
+      "indexTerm": "Sciences, Chinese Academy of",
+      "altLabels": [
+        "CAS",
+        "Sciences, Chinese Academy of"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "168"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:chinese-center-for-disease-control-and-prevention",
+      "prefLabel": "Chinese Center for Disease Control and Prevention",
+      "indexTerm": "CCDC",
+      "altLabels": [
+        "CCDC",
+        "China CDC"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "205"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:chinese-communist-party",
+      "prefLabel": "Chinese Communist Party",
+      "indexTerm": "CCP",
+      "altLabels": [
+        "CCP",
+        "Communist Party of China"
+      ],
+      "related": [],
+      "subentries": [
+        "origins secrecy",
+        "WIV oversight"
+      ],
+      "pages": [
+        "24",
+        "65"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:church-committee",
+      "prefLabel": "Church Committee",
+      "indexTerm": "Church Committee",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "34"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:cia",
+      "prefLabel": "CIA",
+      "indexTerm": "CIA",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "237–240"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:daily-mail",
+      "prefLabel": "Daily Mail",
+      "indexTerm": "Daily Mail",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:darpa",
+      "prefLabel": "DARPA",
+      "indexTerm": "DARPA",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "DEFUSE",
+          "id": "work:defuse"
+        }
+      ],
+      "subentries": [
+        "cover-up allegations",
+        "DEFUSE documents",
+        "post-9/11 biodefense",
+        "Wuhan gain-of-function funding"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:defense-intelligence-agency",
+      "prefLabel": "Defense Intelligence Agency",
+      "indexTerm": "Defense Intelligence Agency",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "185",
+        "237",
+        "242"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:department-of-energy-us",
+      "prefLabel": "Department of Energy (US)",
+      "indexTerm": "Department of Energy (US)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "237"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:director-of-national-intelligence",
+      "prefLabel": "Director of National Intelligence",
+      "indexTerm": "Director of National Intelligence",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "94"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:documentcloud",
+      "prefLabel": "DocumentCloud",
+      "indexTerm": "DocumentCloud",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:drastic",
+      "prefLabel": "DRASTIC",
+      "indexTerm": "DRASTIC",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "official narratives challenged",
+        "WIV database disappearances"
+      ],
+      "pages": [
+        "194"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:dtra",
+      "prefLabel": "DTRA",
+      "indexTerm": "DTRA",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "186–187"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:ecohealth-alliance",
+      "prefLabel": "EcoHealth Alliance",
+      "indexTerm": "EcoHealth Alliance",
+      "altLabels": [
+        "EcoHealth",
+        "EHA"
+      ],
+      "related": [
+        {
+          "label": "Daszak, Peter",
+          "id": "person:peter-daszak"
+        }
+      ],
+      "subentries": [
+        "DEFUSE proposal",
+        "NIAID-WIV collaboration",
+        "US grant documentation"
+      ],
+      "pages": [
+        "114–115",
+        "166–169",
+        "190–192",
+        "206",
+        "241",
+        "243"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:fbi",
+      "prefLabel": "FBI",
+      "indexTerm": "FBI",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "237"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:five-eyes",
+      "prefLabel": "Five Eyes",
+      "indexTerm": "Five Eyes",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "94",
+        "151"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:genbank",
+      "prefLabel": "GenBank",
+      "indexTerm": "GenBank",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "deleted entries"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:global-engagement-center",
+      "prefLabel": "Global Engagement Center",
+      "indexTerm": "Global Engagement Center",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "censorship",
+          "id": "topic:censorship"
+        }
+      ],
+      "subentries": [
+        "information operations",
+        "Russian Disinformation report"
+      ],
+      "pages": [
+        "72"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:global-virome-project",
+      "prefLabel": "Global Virome Project",
+      "indexTerm": "Global Virome Project",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "PREDICT program",
+          "id": null
+        }
+      ],
+      "subentries": [],
+      "pages": [
+        "184–185",
+        "206"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:house-intelligence-committee",
+      "prefLabel": "House Intelligence Committee",
+      "indexTerm": "House Intelligence Committee",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "234"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:house-oversight-and-reform-committee",
+      "prefLabel": "House Oversight and Reform Committee",
+      "indexTerm": "House Oversight and Reform Committee",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "42",
+        "198"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:journal-of-virology",
+      "prefLabel": "Journal of Virology",
+      "indexTerm": "Journal of Virology",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:lancet-covid-19-commission",
+      "prefLabel": "Lancet COVID-19 Commission",
+      "indexTerm": "Lancet COVID-19 Commission",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "Sachs, Jeffrey",
+          "id": "person:jeffrey-sachs"
+        }
+      ],
+      "subentries": [],
+      "pages": [
+        "170–172"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:lawrence-livermore-national-laboratory",
+      "prefLabel": "Lawrence Livermore National Laboratory",
+      "indexTerm": "Lawrence Livermore National Laboratory",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "237"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:medium",
+      "prefLabel": "Medium",
+      "indexTerm": "Medium",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:meta",
+      "prefLabel": "Meta",
+      "indexTerm": "Meta (Facebook)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "lab-origin bans",
+        "White House pressure"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:moderna",
+      "prefLabel": "Moderna",
+      "indexTerm": "Moderna",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "40"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:nature",
+      "prefLabel": "Nature",
+      "indexTerm": "Nature (journal)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "Proximal Origin",
+        "publication debates",
+        "Shi RaTG13 paper"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:nature-medicine",
+      "prefLabel": "Nature Medicine",
+      "indexTerm": "Nature Medicine",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:niaid",
+      "prefLabel": "NIAID",
+      "indexTerm": "NIAID",
+      "altLabels": [
+        "National Institute of Allergy and Infectious Diseases"
+      ],
+      "related": [],
+      "subentries": [
+        "Baric knowledge denial",
+        "biodefense infrastructure",
+        "Fauci response role",
+        "FOIA cover-up evidence",
+        "institutional investigations",
+        "spike-protein emails",
+        "WIV grant funding",
+        "Wuhan engineered viruses"
+      ],
+      "pages": [
+        "37",
+        "239",
+        "242"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:nih",
+      "prefLabel": "NIH",
+      "indexTerm": "NIH",
+      "altLabels": [
+        "National Institutes of Health",
+        "U.S. NIH"
+      ],
+      "related": [],
+      "subentries": [
+        "cover-up complicity",
+        "deleted sequences",
+        "EcoHealth collaborations"
+      ],
+      "pages": [
+        "232–233"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:people-s-liberation-army",
+      "prefLabel": "People’s Liberation Army",
+      "indexTerm": "PLA",
+      "altLabels": [
+        "People's Liberation Army",
+        "Peoples Liberation Army",
+        "PLA"
+      ],
+      "related": [
+        {
+          "label": "China, Academy of Military Medical Sciences",
+          "id": "org:academy-of-military-medical-sciences"
+        }
+      ],
+      "subentries": [
+        "gain-of-function experiments",
+        "WIV classified research"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:pmc",
+      "prefLabel": "PMC",
+      "indexTerm": "PMC",
+      "altLabels": [
+        "PubMed Central"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:project-coast",
+      "prefLabel": "Project Coast",
+      "indexTerm": "Project Coast",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "35"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:project-evidence",
+      "prefLabel": "Project Evidence",
+      "indexTerm": "Project Evidence",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "95",
+        "105",
+        "113"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:pubmed",
+      "prefLabel": "PubMed",
+      "indexTerm": "PubMed",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:reuters",
+      "prefLabel": "Reuters",
+      "indexTerm": "Reuters",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:science",
+      "prefLabel": "Science",
+      "indexTerm": "Science",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "Fouchier, H5N1 paper",
+        "gain-of-function reports",
+        "origin debate"
+      ],
+      "pages": [
+        "151"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:scientific-american",
+      "prefLabel": "Scientific American",
+      "indexTerm": "Scientific American",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "4",
+        "139"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:sequence-read-archive",
+      "prefLabel": "Sequence Read Archive",
+      "indexTerm": "Sequence Read Archive",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "118"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-guardian",
+      "prefLabel": "The Guardian",
+      "indexTerm": "The Guardian",
+      "altLabels": [
+        "Guardian"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:the-intercept",
+      "prefLabel": "The Intercept",
+      "indexTerm": "Intercept, The",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "165",
+        "183",
+        "193"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-lancet",
+      "prefLabel": "The Lancet",
+      "indexTerm": "Lancet, The",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "27-scientist statement",
+        "secret calls",
+        "Wuhan clinical-features paper"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-new-york-times",
+      "prefLabel": "The New York Times",
+      "indexTerm": "New York Times",
+      "altLabels": [
+        "New York Times",
+        "NYT"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "74–75",
+        "232"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-sunday-times",
+      "prefLabel": "The Sunday Times",
+      "indexTerm": "Sunday Times",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "high-risk WIV research",
+        "Mojiang mine connection"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-telegraph",
+      "prefLabel": "The Telegraph",
+      "indexTerm": "The Telegraph",
+      "altLabels": [
+        "Telegraph"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:the-times",
+      "prefLabel": "The Times",
+      "indexTerm": "Times, The (London)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "192"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-wall-street-journal",
+      "prefLabel": "The Wall Street Journal",
+      "indexTerm": "Wall Street Journal",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "24",
+        "107–108",
+        "124"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-washington-post",
+      "prefLabel": "The Washington Post",
+      "indexTerm": "Washington Post",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "classified Wuhan research",
+        "lab-leak dismissal"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:the-washington-times",
+      "prefLabel": "The Washington Times",
+      "indexTerm": "Washington Times",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "27"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:this-week-in-virology",
+      "prefLabel": "This Week in Virology",
+      "indexTerm": "This Week in Virology",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "114"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:twitter",
+      "prefLabel": "Twitter",
+      "indexTerm": "Twitter",
+      "altLabels": [
+        "X (Twitter)",
+        "X"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-congress",
+      "prefLabel": "U.S. Congress",
+      "indexTerm": "U.S. Congress",
+      "altLabels": [
+        "Congress",
+        "US Congress"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-department-of-state",
+      "prefLabel": "U.S. Department of State",
+      "indexTerm": "U.S. Department of State",
+      "altLabels": [
+        "State Department",
+        "US State Department",
+        "U.S. State Department"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-right-to-know",
+      "prefLabel": "U.S. Right to Know",
+      "indexTerm": "US Right to Know",
+      "altLabels": [
+        "US Right to Know",
+        "USRTK"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "235"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:u-s-senate",
+      "prefLabel": "U.S. Senate",
+      "indexTerm": "U.S. Senate",
+      "altLabels": [
+        "US Senate",
+        "Senate"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:unesco",
+      "prefLabel": "UNESCO",
+      "indexTerm": "UNESCO",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "91",
+        "218"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:unit-731",
+      "prefLabel": "Unit 731",
+      "indexTerm": "Unit 731",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "35"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:university-of-north-carolina",
+      "prefLabel": "University of North Carolina",
+      "indexTerm": "North Carolina, University of",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "Baric, [given name not provided]",
+        "biodefense projects"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:us-geological-survey-national-wildlife-health-center",
+      "prefLabel": "US Geological Survey National Wildlife Health Center",
+      "indexTerm": "US Geological Survey National Wildlife Health Center",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "162"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:usaid",
+      "prefLabel": "USAID",
+      "indexTerm": "USAID",
+      "altLabels": [
+        "U.S. Agency for International Development"
+      ],
+      "related": [
+        {
+          "label": "PREDICT program",
+          "id": null
+        }
+      ],
+      "subentries": [
+        "EcoHealth Alliance funding",
+        "virus-sequence withholding"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:usamriid",
+      "prefLabel": "USAMRIID",
+      "indexTerm": "USAMRIID",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "Fort Detrick",
+          "id": "place:fort-detrick"
+        }
+      ],
+      "subentries": [],
+      "pages": [
+        "140"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:vox",
+      "prefLabel": "Vox",
+      "indexTerm": "Vox",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "111"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wellcome-trust",
+      "prefLabel": "Wellcome Trust",
+      "indexTerm": "Wellcome Trust",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "covert communications",
+        "Farrar directorship",
+        "research funding"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "org:who",
+      "prefLabel": "WHO",
+      "indexTerm": "WHO",
+      "altLabels": [
+        "World Health Organization"
+      ],
+      "related": [],
+      "subentries": [
+        "China obstruction",
+        "Daszak, Peter, conflicts",
+        "investigative authority",
+        "origin reports",
+        "PHEIC declaration",
+        "risk-assessment delays",
+        "scientist-policy networks",
+        "WIV investigation"
+      ],
+      "pages": [
+        "14–17",
+        "79–80",
+        "82–83",
+        "103",
+        "105"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:who-sago",
+      "prefLabel": "WHO SAGO",
+      "indexTerm": "WHO SAGO",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "184"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wikipedia",
+      "prefLabel": "Wikipedia",
+      "indexTerm": "Wikipedia",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "111"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wuhan-center-for-disease-control-and-prevention",
+      "prefLabel": "Wuhan Center for Disease Control and Prevention",
+      "indexTerm": "Wuhan Center for Disease Control and Prevention",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "3",
+        "57",
+        "70"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wuhan-central-hospital",
+      "prefLabel": "Wuhan Central Hospital",
+      "indexTerm": "Wuhan Central Hospital",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "9"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wuhan-institute-of-biological-products",
+      "prefLabel": "Wuhan Institute of Biological Products",
+      "indexTerm": "Wuhan Institute of Biological Products",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "28"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wuhan-institute-of-virology",
+      "prefLabel": "Wuhan Institute of Virology",
+      "indexTerm": "Wuhan Institute of Virology",
+      "altLabels": [
+        "WIV",
+        "Wuhan Institute of Virology (WIV)",
+        "Wuhan lab"
+      ],
+      "related": [
+        {
+          "label": "BSL-4 laboratory",
+          "id": "org:bsl-4-laboratory"
+        }
+      ],
+      "subentries": [
+        "Baric collaboration",
+        "biosafety lapses",
+        "classified research",
+        "genetic manipulation",
+        "genomic-data concealment",
+        "international investigations",
+        "military collaboration",
+        "Mojiang miners",
+        "outbreak proximity",
+        "Shi Zhengli lab"
+      ],
+      "pages": [
+        "1–4",
+        "38",
+        "60",
+        "68–69",
+        "71–75",
+        "77",
+        "109",
+        "126",
+        "130",
+        "133–134",
+        "152–153",
+        "160",
+        "163",
+        "166–167",
+        "210",
+        "236–239",
+        "241"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:wuhan-municipal-health-commission",
+      "prefLabel": "Wuhan Municipal Health Commission",
+      "indexTerm": "Wuhan Municipal Health Commission",
+      "altLabels": [
+        "WMHC"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:yle",
+      "prefLabel": "Yle",
+      "indexTerm": "Yle (Finnish Public Broadcasting Company)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "81",
+        "121"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "org:youtube",
+      "prefLabel": "YouTube",
+      "indexTerm": "YouTube",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    }
+  ]
+}

@@ -1,7 +1,10 @@
 {
   "chapter": 16,
   "chapter_title": "Covert Operations",
-  "printed_pages": { "start": 183, "end": 197 },
+  "printed_pages": {
+    "start": 183,
+    "end": 197
+  },
   "sources": [
     {
       "id": 1,
@@ -17,11 +20,42 @@
       "language": "en",
       "summary": "NY Post report that the Pentagon/DTRA gave millions to EcoHealth Alliance under a combating-WMD research program tied to the broader Wuhan-lab funding controversy.",
       "book_role": "Opens Chapter 16’s covert/defense-funding thread: EcoHealth paid by Pentagon threat-reduction money.",
-      "topics": ["Pentagon", "EcoHealth Alliance", "DTRA", "WMD research"],
+      "topics": [
+        "Pentagon",
+        "EcoHealth Alliance",
+        "DTRA",
+        "WMD research"
+      ],
       "entities": {
-        "people": ["Samuel Chamberlain", "Peter Daszak"],
-        "orgs": ["New York Post", "EcoHealth Alliance", "U.S. Department of Defense"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Samuel Chamberlain",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "New York Post",
+          "EcoHealth Alliance",
+          "U.S. Department of Defense"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance",
+        "org:dtra"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -38,11 +72,44 @@
       "language": "en",
       "summary": "Intercept report that EcoHealth’s NIH bat-coronavirus progress report was filed more than two years late—oversight failure in the WIV collaboration grant.",
       "book_role": "Documents delayed disclosure of risky WIV experiments—covertness through bureaucratic lag.",
-      "topics": ["late progress report", "NIH grant", "EcoHealth Alliance", "oversight"],
+      "topics": [
+        "late progress report",
+        "NIH grant",
+        "EcoHealth Alliance",
+        "oversight"
+      ],
       "entities": {
-        "people": ["Mara Hvistendahl", "Sharon Lerner", "Peter Daszak"],
-        "orgs": ["The Intercept", "NIH", "EcoHealth Alliance"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Mara Hvistendahl",
+          "Sharon Lerner",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "The Intercept",
+          "NIH",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:the-intercept",
+          "org:nih",
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -59,11 +126,44 @@
       "language": "en",
       "summary": "Vanity Fair long-form on EcoHealth Alliance’s virus-hunting network, Daszak, WIV ties, and the lab-leak controversy’s funding politics.",
       "book_role": "Institutional biography of the nonprofit at the center of Chapter 16’s covert-operations map.",
-      "topics": ["EcoHealth Alliance", "virus hunting", "lab leak", "Peter Daszak"],
+      "topics": [
+        "EcoHealth Alliance",
+        "virus hunting",
+        "lab-leak hypothesis",
+        "Peter Daszak"
+      ],
       "entities": {
-        "people": ["Katherine Eban", "Peter Daszak"],
-        "orgs": ["Vanity Fair", "EcoHealth Alliance", "Wuhan Institute of Virology"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Katherine Eban",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "Vanity Fair",
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance",
+        "topic:lab-leak-hypothesis",
+        "person:peter-daszak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -80,10 +180,26 @@
       "language": "en",
       "summary": "Global Virome Project history/leadership page. DNS resolution failed at scrape time.",
       "book_role": "Institutional face of the global virus-discovery agenda overlapping EcoHealth networks.",
-      "topics": ["Global Virome Project", "virus discovery", "leadership"],
+      "topics": [
+        "Global Virome Project",
+        "virus discovery",
+        "leadership"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Global Virome Project"],
+        "orgs": [
+          "Global Virome Project"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "org:global-virome-project"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:global-virome-project"
+        ],
         "places": []
       }
     },
@@ -101,11 +217,27 @@
       "language": "en",
       "summary": "DTRA official mission page describing the agency’s role countering WMD threats—institutional home of EcoHealth’s HDTRA grant.",
       "book_role": "Defines the Pentagon threat-reduction agency funding EcoHealth’s ‘combating WMD’ science.",
-      "topics": ["DTRA mission", "WMD", "defense threat reduction"],
+      "topics": [
+        "DTRA mission",
+        "WMD",
+        "defense threat reduction"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Defense Threat Reduction Agency", "U.S. Department of Defense"],
-        "places": ["United States"]
+        "orgs": [
+          "Defense Threat Reduction Agency",
+          "U.S. Department of Defense"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -122,11 +254,33 @@
       "language": "en",
       "summary": "USAspending.gov award record for EcoHealth HDTRA11910033 combating-WMD scientific research. Scrape failed.",
       "book_role": "Primary award ID for Pentagon money to EcoHealth in the Chapter 16 funding web.",
-      "topics": ["HDTRA11910033", "EcoHealth Alliance", "combating WMD", "USAspending"],
+      "topics": [
+        "HDTRA11910033",
+        "EcoHealth Alliance",
+        "combating WMD",
+        "USAspending"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["EcoHealth Alliance", "Defense Threat Reduction Agency"],
-        "places": ["United States"]
+        "orgs": [
+          "EcoHealth Alliance",
+          "Defense Threat Reduction Agency"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -143,11 +297,37 @@
       "language": "en",
       "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
       "book_role": "Narrative of covert bureaucratic warfare over what origins evidence could surface.",
-      "topics": ["lab-leak theory", "State Department", "intelligence", "origins investigation"],
+      "topics": [
+        "lab-leak theory",
+        "U.S. Department of State",
+        "intelligence",
+        "origins investigation"
+      ],
       "entities": {
-        "people": ["Katherine Eban"],
-        "orgs": ["Vanity Fair", "U.S. Department of State"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Katherine Eban"
+        ],
+        "orgs": [
+          "Vanity Fair",
+          "U.S. Department of State"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:u-s-department-of-state"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:u-s-department-of-state"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -164,11 +344,31 @@
       "language": "en",
       "summary": "2019 Viruses paper on QX-type IBV spike S2 determining neurotropism—example of coronavirus spike/domain engineering literature in the Chinese research ecosystem.",
       "book_role": "Technical marker of spike-subunit manipulation know-how circulating near the pandemic’s eve.",
-      "topics": ["spike S2", "neurotropism", "infectious bronchitis coronavirus"],
+      "topics": [
+        "spike S2",
+        "neurotropism",
+        "infectious bronchitis coronavirus"
+      ],
       "entities": {
-        "people": ["Jinlong Cheng"],
-        "orgs": ["Viruses", "PMC"],
-        "places": ["China"]
+        "people": [
+          "Jinlong Cheng"
+        ],
+        "orgs": [
+          "Viruses",
+          "PMC"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pmc"
+        ],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -185,12 +385,32 @@
       "language": "en",
       "summary": "2014 review of coronavirus reverse-genetic systems—infectious clones and replicons enabling engineered CoV recovery.",
       "book_role": "Technical backdrop for the reverse-genetics toolkit Chapter 16 links to defense and Wuhan research.",
-      "topics": ["reverse genetics", "infectious clones", "replicons", "coronavirus"],
+      "topics": [
+        "reverse genetics",
+        "infectious clones",
+        "replicons",
+        "coronavirus"
+      ],
       "entities": {
-        "people": ["Fernando Almazán"],
-        "orgs": ["Virus Research", "PMC"],
+        "people": [
+          "Fernando Almazán"
+        ],
+        "orgs": [
+          "Virus Research",
+          "PMC"
+        ],
         "places": []
-      }
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pmc"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:reverse-genetics"
+      ]
     },
     {
       "id": 10,
@@ -206,11 +426,44 @@
       "language": "en",
       "summary": "Shi Zhengli webinar presentation on bat coronaviruses from SARS/MERS to COVID-19. No URL in source data.",
       "book_role": "Shi’s own public narrative of the bat-CoV journey while covert military/adviser questions mounted.",
-      "topics": ["Shi Zhengli", "bat coronaviruses", "SARS", "MERS", "COVID-19"],
+      "topics": [
+        "Shi Zhengli",
+        "bat coronaviruses",
+        "SARS",
+        "MERS",
+        "COVID-19"
+      ],
       "entities": {
-        "people": ["Shi Zhengli"],
-        "orgs": ["French National Academy of Medicine", "Wuhan Institute of Virology"],
-        "places": ["France", "Wuhan"]
+        "people": [
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "French National Academy of Medicine",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "France",
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "person:shi-zhengli",
+        "topic:bat-coronaviruses",
+        "topic:sars",
+        "topic:mers",
+        "topic:covid-19"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:france",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -227,11 +480,41 @@
       "language": "en",
       "summary": "Times reporting that WIV used Chinese military as key advisers—and related coverage of China nominating WIV for a top science award amid lab-leak debate.",
       "book_role": "Military-adviser link that makes WIV’s ‘civilian’ posture look covert.",
-      "topics": ["Chinese military", "WIV advisers", "science award", "lab leak"],
+      "topics": [
+        "Chinese military",
+        "WIV advisers",
+        "science award",
+        "lab-leak hypothesis"
+      ],
       "entities": {
-        "people": ["Philip Willan", "Didi Tang"],
-        "orgs": ["The Times", "Wuhan Institute of Virology", "People's Liberation Army"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Philip Willan",
+          "Didi Tang"
+        ],
+        "orgs": [
+          "The Times",
+          "Wuhan Institute of Virology",
+          "People’s Liberation Army"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-times",
+          "org:wuhan-institute-of-virology",
+          "org:people-s-liberation-army"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -248,11 +531,42 @@
       "language": "en",
       "summary": "FOIA’d 2016 Daszak email celebrating lifting of the gain-of-function funding pause. Scrape failed; citation retained from bibliography.",
       "book_role": "Smoking-gun tone on GoF pause lift—EcoHealth cheering resumed risky-funding eligibility.",
-      "topics": ["gain-of-function pause", "NIAID", "EcoHealth Alliance", "FOIA"],
+      "topics": [
+        "gain-of-function pause",
+        "NIAID",
+        "EcoHealth Alliance",
+        "Freedom of Information requests"
+      ],
       "entities": {
-        "people": ["Peter Daszak", "Jenny Greer"],
-        "orgs": ["EcoHealth Alliance", "NIAID", "White Coat Waste Project"],
-        "places": ["United States"]
+        "people": [
+          "Peter Daszak",
+          "Jenny Greer"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "NIAID",
+          "White Coat Waste Project"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:niaid",
+        "org:ecohealth-alliance",
+        "topic:freedom-of-information-requests"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:niaid"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -269,11 +583,34 @@
       "language": "en",
       "summary": "WIV newsletter of the Oct 2018 international emerging-viral-diseases symposium—programmatic window into Wuhan’s pre-pandemic virus-research network.",
       "book_role": "On-the-ground symposium record of the international/military-adjacent scientific traffic through WIV.",
-      "topics": ["emerging viral diseases symposium", "WIV", "2018", "international collaboration"],
+      "topics": [
+        "emerging viral diseases symposium",
+        "Wuhan Institute of Virology",
+        "2018",
+        "international collaboration"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Wuhan Institute of Virology"],
-        "places": ["Wuhan", "China"]
+        "orgs": [
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     }
   ]

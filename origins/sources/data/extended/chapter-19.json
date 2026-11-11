@@ -34,6 +34,20 @@
         "places": [
           "Yunnan"
         ]
+      },
+      "topic_ids": [
+        "topic:ratg13",
+        "org:genbank"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:genbank",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:yunnan"
+        ]
       }
     },
     {
@@ -51,9 +65,9 @@
       "summary": "Washington Examiner: in early 2020 Fauci suggested FBI and MI5 might need warning that COVID could have emerged from a Wuhan lab—before he publicly argued the virus most likely arose naturally.",
       "book_role": "Opens the revelations chapter with Fauci’s private-vs-public gap on lab leak.",
       "topics": [
-        "Fauci",
+        "Anthony Fauci",
         "FBI",
-        "lab leak"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -66,6 +80,24 @@
         "places": [
           "United States",
           "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "person:anthony-fauci",
+        "org:fbi",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:fbi",
+          "org:niaid"
+        ],
+        "places": [
+          "place:united-states",
+          "place:wuhan"
         ]
       }
     },
@@ -97,6 +129,17 @@
           "Wuhan",
           "China"
         ]
+      },
+      "topic_ids": [
+        "topic:sars-cov-2"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -124,6 +167,14 @@
         "places": [
           "China",
           "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china",
+          "place:wuhan"
         ]
       }
     },
@@ -155,6 +206,18 @@
         "places": [
           "Wuhan"
         ]
+      },
+      "topic_ids": [
+        "org:genbank"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:genbank"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -185,6 +248,15 @@
         "places": [
           "Wuhan"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:genbank"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -210,6 +282,16 @@
         "people": [],
         "orgs": [
           "GenBank"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "org:genbank"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:genbank"
         ],
         "places": []
       }
@@ -240,6 +322,14 @@
           "China",
           "Shanghai"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china",
+          "place:shanghai"
+        ]
       }
     },
     {
@@ -268,6 +358,18 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:nih"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -298,6 +400,15 @@
         "places": [
           "United States"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -316,7 +427,7 @@
       "book_role": "On-the-record NIAID testimony under House scrutiny.",
       "topics": [
         "NIAID hearing",
-        "Congress",
+        "U.S. Congress",
         "oversight"
       ],
       "entities": {
@@ -330,7 +441,22 @@
         "places": [
           "United States"
         ]
-      }
+      },
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:niaid",
+          "org:u-s-congress"
+        ],
+        "places": [
+          "place:united-states"
+        ]
+      },
+      "topic_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 12,
@@ -361,6 +487,20 @@
         "places": [
           "United States"
         ]
+      },
+      "topic_ids": [
+        "person:margaret-moore"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:margaret-moore"
+        ],
+        "orgs": [
+          "org:u-s-congress"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -385,10 +525,19 @@
       "entities": {
         "people": [],
         "orgs": [
-          "New York Times"
+          "The New York Times"
         ],
         "places": [
           "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-new-york-times"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -407,7 +556,7 @@
       "summary": "Report that scientists at the center of the lab-leak controversy met with NIH and Fauci around Proximal Origin timing.",
       "book_role": "Meeting chronology tying Proximal Origin authors to NIH leadership.",
       "topics": [
-        "Proximal Origin",
+        "The proximal origin of SARS-CoV-2",
         "NIH meeting",
         "lab leak scientists"
       ],
@@ -421,6 +570,21 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "work:the-proximal-origin-of-sars-cov-2"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci",
+          "person:kristian-andersen"
+        ],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -465,9 +629,8 @@
       "summary": "Sunday Times Insight: fresh evidence from confidential files that Chinese scientists spliced together deadly pathogens shortly before the pandemic—reconstruction of WIV’s pre-outbreak weeks.",
       "book_role": "Narrative reconstruction of WIV’s critical pre-outbreak weeks.",
       "topics": [
-        "Wuhan lab",
-        "pre-outbreak",
-        "WIV"
+        "Wuhan Institute of Virology",
+        "pre-outbreak"
       ],
       "entities": {
         "people": [],
@@ -476,6 +639,18 @@
         ],
         "places": [
           "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
         ]
       }
     },
@@ -496,7 +671,7 @@
       "topics": [
         "GAO",
         "taxpayer dollars",
-        "WIV"
+        "Wuhan Institute of Virology"
       ],
       "entities": {
         "people": [],
@@ -507,6 +682,19 @@
         "places": [
           "Wuhan",
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
         ]
       }
     },
@@ -538,6 +726,16 @@
         "places": [
           "Wuhan"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:u-s-department-of-state",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -567,6 +765,15 @@
         "places": [
           "Wuhan"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -586,7 +793,7 @@
       "topics": [
         "CNVP",
         "virome project",
-        "FOIA"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [],
@@ -595,6 +802,16 @@
         ],
         "places": [
           "China"
+        ]
+      },
+      "topic_ids": [
+        "topic:freedom-of-information-requests"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china"
         ]
       }
     },
@@ -628,7 +845,20 @@
           "China",
           "United States"
         ]
-      }
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:china",
+          "place:united-states"
+        ]
+      },
+      "topic_ids": [
+        "place:wuhan"
+      ]
     },
     {
       "id": 23,
@@ -658,6 +888,16 @@
           "Wuhan",
           "China"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:defense-intelligence-agency"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -677,7 +917,7 @@
       "topics": [
         "classified analysis",
         "intelligence",
-        "lab origin"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
@@ -685,6 +925,17 @@
         "places": [
           "United States",
           "China"
+        ]
+      },
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:united-states",
+          "place:china"
         ]
       }
     },
@@ -713,6 +964,15 @@
         ],
         "places": [
           "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:defense-intelligence-agency"
+        ],
+        "places": [
+          "place:china"
         ]
       }
     },
@@ -743,6 +1003,15 @@
         "places": [
           "Wuhan"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:defense-intelligence-agency"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -771,6 +1040,13 @@
         "places": [
           "China"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -790,7 +1066,7 @@
       "topics": [
         "FBI",
         "Christopher Wray",
-        "lab leak"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -801,6 +1077,22 @@
         ],
         "places": [
           "China"
+        ]
+      },
+      "topic_ids": [
+        "org:fbi",
+        "person:christopher-wray",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:christopher-wray"
+        ],
+        "orgs": [
+          "org:fbi"
+        ],
+        "places": [
+          "place:china"
         ]
       }
     },
@@ -821,7 +1113,7 @@
       "topics": [
         "CIA",
         "origins assessment",
-        "lab leak"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
@@ -830,6 +1122,19 @@
         ],
         "places": [
           "China"
+        ]
+      },
+      "topic_ids": [
+        "org:cia",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:cia"
+        ],
+        "places": [
+          "place:china"
         ]
       }
     },
@@ -850,7 +1155,7 @@
       "topics": [
         "CIA whistleblower",
         "COVID origins",
-        "Congress"
+        "U.S. Congress"
       ],
       "entities": {
         "people": [],
@@ -861,7 +1166,20 @@
         "places": [
           "United States"
         ]
-      }
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:cia",
+          "org:u-s-congress"
+        ],
+        "places": [
+          "place:united-states"
+        ]
+      },
+      "topic_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 31,
@@ -888,6 +1206,18 @@
         ],
         "orgs": [
           "EcoHealth Alliance"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "person:peter-daszak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
         ],
         "places": []
       }
@@ -921,6 +1251,22 @@
         "places": [
           "Wuhan"
         ]
+      },
+      "topic_ids": [
+        "person:andrew-huff",
+        "org:ecohealth-alliance",
+        "place:wuhan"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:andrew-huff"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -950,6 +1296,19 @@
           "EcoHealth Alliance"
         ],
         "places": []
+      },
+      "topic_ids": [
+        "person:andrew-huff"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:andrew-huff",
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": []
       }
     },
     {
@@ -969,7 +1328,7 @@
       "topics": [
         "Peter Daszak hearing",
         "EcoHealth Alliance",
-        "Congress"
+        "U.S. Congress"
       ],
       "entities": {
         "people": [
@@ -981,6 +1340,22 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance",
+        "org:u-s-congress"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:u-s-congress"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -1013,6 +1388,20 @@
         "places": [
           "United States"
         ]
+      },
+      "topic_ids": [
+        "person:rand-paul"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1038,6 +1427,13 @@
         "orgs": [],
         "places": [
           "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china"
         ]
       }
     },
@@ -1068,6 +1464,13 @@
         "places": [
           "United States"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1087,13 +1490,23 @@
       "topics": [
         "virologist warning",
         "intelligence community",
-        "lab origin"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
         "orgs": [],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -1120,6 +1533,14 @@
         "orgs": [
           "U.S. Congress",
           "YouTube"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:u-s-congress",
+          "org:youtube"
         ],
         "places": []
       }
@@ -1153,6 +1574,20 @@
         "places": [
           "United States"
         ]
+      },
+      "topic_ids": [
+        "person:rand-paul"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1172,7 +1607,7 @@
       "topics": [
         "EcoHealth documents",
         "Daszak calendar",
-        "Congress"
+        "U.S. Congress"
       ],
       "entities": {
         "people": [
@@ -1182,7 +1617,19 @@
           "EcoHealth Alliance"
         ],
         "places": []
-      }
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 42,
@@ -1201,7 +1648,7 @@
       "topics": [
         "BND",
         "Germany",
-        "lab leak"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
@@ -1211,6 +1658,21 @@
         "places": [
           "Germany",
           "China"
+        ]
+      },
+      "topic_ids": [
+        "org:bnd",
+        "place:germany",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:bnd"
+        ],
+        "places": [
+          "place:germany",
+          "place:china"
         ]
       }
     },
@@ -1238,6 +1700,13 @@
         "orgs": [],
         "places": [
           "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
         ]
       }
     },
@@ -1268,6 +1737,13 @@
         "places": [
           "United States"
         ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1296,6 +1772,18 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:usaid"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:usaid"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -1326,6 +1814,18 @@
           "EcoHealth Alliance"
         ],
         "places": []
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": []
       }
     },
     {
@@ -1353,8 +1853,22 @@
           "Peter Daszak"
         ],
         "orgs": [
-          "World Health Organization",
+          "WHO",
           "EcoHealth Alliance"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "org:who",
+        "person:peter-daszak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:who",
+          "org:ecohealth-alliance"
         ],
         "places": []
       }
@@ -1382,7 +1896,11 @@
         "people": [],
         "orgs": [],
         "places": []
-      }
+      },
+      "topic_ids": [
+        "topic:sars",
+        "topic:mers"
+      ]
     },
     {
       "id": 49,
@@ -1401,7 +1919,7 @@
       "topics": [
         "Peter Daszak",
         "email",
-        "FOIA"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -1409,6 +1927,19 @@
         ],
         "orgs": [
           "EcoHealth Alliance"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "person:peter-daszak",
+        "topic:freedom-of-information-requests"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
         ],
         "places": []
       }
@@ -1442,6 +1973,20 @@
         "places": [
           "United States"
         ]
+      },
+      "topic_ids": [
+        "person:rand-paul"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1474,6 +2019,17 @@
         "places": [
           "United States"
         ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1492,7 +2048,7 @@
       "book_role": "Side revelation on U.S. counter-disinfo apparatus shutdown amid origins politics.",
       "topics": [
         "Global Engagement Center",
-        "State Department",
+        "U.S. Department of State",
         "CRS"
       ],
       "entities": {
@@ -1503,6 +2059,19 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:global-engagement-center",
+        "org:u-s-department-of-state"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:u-s-department-of-state"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -1536,6 +2105,21 @@
         "places": [
           "United States"
         ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance",
+        "person:peter-daszak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -1553,7 +2137,7 @@
       "summary": "Rand Paul uncovers new evidence of Fauci deleting official records.",
       "book_role": "Latest records-deletion allegation against Fauci in the revelations cascade.",
       "topics": [
-        "Fauci",
+        "Anthony Fauci",
         "deleted records",
         "Rand Paul"
       ],
@@ -1568,6 +2152,23 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:anthony-fauci",
+        "person:rand-paul"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci",
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate",
+          "org:niaid"
+        ],
+        "places": [
+          "place:united-states"
         ]
       }
     },
@@ -1601,6 +2202,20 @@
         ],
         "places": [
           "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:anthony-fauci",
+        "person:joe-biden"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:joe-biden",
+          "person:anthony-fauci"
+        ],
+        "orgs": [],
+        "places": [
+          "place:united-states"
         ]
       }
     }

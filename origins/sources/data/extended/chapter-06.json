@@ -1,7 +1,10 @@
 {
   "chapter": 6,
   "chapter_title": "Conspiracy Theories Condemned",
-  "printed_pages": { "start": 68, "end": 77 },
+  "printed_pages": {
+    "start": 68,
+    "end": 77
+  },
   "sources": [
     {
       "id": 1,
@@ -17,12 +20,25 @@
       "language": "en",
       "summary": "Bulletin essay warning that gain-of-function work on potential pandemic pathogens creates a self-fulfilling risk of laboratory escape, surveying historical lab-escape episodes and biosafety debates.",
       "book_role": "Establishes that lab-escape pandemics were a serious, mainstream biosafety concern years before COVID—before such talk was branded conspiracy theory.",
-      "topics": ["laboratory escapes", "gain-of-function", "biosafety", "potential pandemic pathogens"],
+      "topics": [
+        "laboratory escapes",
+        "gain-of-function research",
+        "biosafety",
+        "potential pandemic pathogens"
+      ],
       "entities": {
-        "people": ["Martin Furmanski"],
-        "orgs": ["Bulletin of the Atomic Scientists"],
+        "people": [
+          "Martin Furmanski"
+        ],
+        "orgs": [
+          "Bulletin of the Atomic Scientists"
+        ],
         "places": []
-      }
+      },
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:biosafety"
+      ]
     },
     {
       "id": 2,
@@ -38,12 +54,40 @@
       "language": "en",
       "summary": "Washington Post investigation of early Chinese official secrecy and missteps that likely let the virus spread farther and faster. Only a short opening was retrieved before the paywall.",
       "book_role": "Documents Beijing’s early information control—the backdrop against which Western ‘conspiracy’ branding of origin questions takes shape.",
-      "topics": ["Chinese secrecy", "early outbreak response", "Wuhan", "information control"],
+      "topics": [
+        "Chinese secrecy",
+        "early outbreak response",
+        "Wuhan",
+        "information control"
+      ],
       "entities": {
-        "people": ["Gerry Shih", "Pan Chuntao"],
-        "orgs": ["Washington Post"],
-        "places": ["Wuhan", "Beijing", "China"]
-      }
+        "people": [
+          "Gerry Shih",
+          "Pan Chuntao"
+        ],
+        "orgs": [
+          "The Washington Post"
+        ],
+        "places": [
+          "Wuhan",
+          "Beijing",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-washington-post"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:beijing",
+          "place:china"
+        ]
+      },
+      "topic_ids": [
+        "place:wuhan"
+      ]
     },
     {
       "id": 3,
@@ -59,11 +103,40 @@
       "language": "en",
       "summary": "Guardian report on citizen journalist Chen Qiushi going missing in Wuhan amid anger after Li Wenliang’s death, with claims authorities were silencing another whistleblower.",
       "book_role": "Shows continued suppression of independent reporting from Wuhan while origin questions were being policed abroad as ‘rumors.’",
-      "topics": ["Chen Qiushi", "whistleblowers", "Li Wenliang", "media suppression"],
+      "topics": [
+        "Chen Qiushi",
+        "whistleblowers",
+        "Li Wenliang",
+        "media suppression"
+      ],
       "entities": {
-        "people": ["Lily Kuo", "Chen Qiushi", "Li Wenliang"],
-        "orgs": ["The Guardian"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Lily Kuo",
+          "Chen Qiushi",
+          "Li Wenliang"
+        ],
+        "orgs": [
+          "The Guardian"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "person:li-wenliang"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:li-wenliang"
+        ],
+        "orgs": [
+          "org:the-guardian"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -80,11 +153,37 @@
       "language": "en",
       "summary": "U.S. Global Engagement Center report tracking Russia-linked personas amplifying coronavirus themes in multiple languages from late January 2020 as part of a broader disinformation apparatus.",
       "book_role": "Primary U.S. government document used to frame early origin/lab talk as foreign disinformation rather than open scientific debate.",
-      "topics": ["GEC", "Russian disinformation", "coronavirus propaganda", "narrative control"],
+      "topics": [
+        "GEC",
+        "Russian disinformation",
+        "coronavirus propaganda",
+        "narrative control"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Global Engagement Center", "U.S. State Department", "FAS"],
-        "places": ["Russia", "United States", "France", "Syria"]
+        "orgs": [
+          "Global Engagement Center",
+          "U.S. Department of State",
+          "FAS"
+        ],
+        "places": [
+          "Russia",
+          "United States",
+          "France",
+          "Syria"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:global-engagement-center",
+          "org:u-s-department-of-state"
+        ],
+        "places": [
+          "place:russia",
+          "place:united-states",
+          "place:france"
+        ]
       }
     },
     {
@@ -101,11 +200,30 @@
       "language": "en",
       "summary": "France 24/AFP report summarizing U.S. claims that a Russia-linked campaign was fueling coronavirus alarm and related narratives online.",
       "book_role": "Media amplification of the GEC disinformation frame that Chapter 6 argues helped stigmatize lab-origin hypotheses.",
-      "topics": ["Russian disinformation", "U.S. government messaging", "coronavirus alarm"],
+      "topics": [
+        "Russian disinformation",
+        "U.S. government messaging",
+        "coronavirus alarm"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["AFP", "France 24", "U.S. government"],
-        "places": ["Russia", "United States"]
+        "orgs": [
+          "AFP",
+          "France 24",
+          "U.S. government"
+        ],
+        "places": [
+          "Russia",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:russia",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -122,11 +240,44 @@
       "language": "en",
       "summary": "FOIA-released State Department analysis arguing there is no smoking-gun proof of a lab leak but substantial circumstantial evidence pointing to Wuhan CDC and WIV as the least probed, most plausible sources.",
       "book_role": "Later declassified U.S. analysis that undercuts the early dismissal of Wuhan-lab hypotheses as mere conspiracy theory.",
-      "topics": ["Wuhan labs", "circumstantial evidence", "WIV", "Wuhan CDC", "lab leak"],
+      "topics": [
+        "Wuhan labs",
+        "circumstantial evidence",
+        "Wuhan Institute of Virology",
+        "Wuhan CDC",
+        "lab-leak hypothesis"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["U.S. State Department", "Wuhan Institute of Virology", "Wuhan CDC", "U.S. Right to Know"],
-        "places": ["Wuhan", "Guangdong", "Italy", "United States"]
+        "orgs": [
+          "U.S. Department of State",
+          "Wuhan Institute of Virology",
+          "Wuhan CDC",
+          "U.S. Right to Know"
+        ],
+        "places": [
+          "Wuhan",
+          "Guangdong",
+          "Italy",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:u-s-department-of-state",
+          "org:wuhan-institute-of-virology",
+          "org:u-s-right-to-know"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:italy",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -143,11 +294,45 @@
       "language": "en",
       "summary": "Business Insider coverage of Sen. Tom Cotton suggesting at a Senate hearing that the coronavirus—‘worse than Chernobyl’—might have come from a Chinese ‘superlaboratory’ and that Beijing had misled about the outbreak.",
       "book_role": "Early high-profile U.S. political airing of a Wuhan-lab hypothesis that media soon labeled fringe/conspiracy.",
-      "topics": ["Tom Cotton", "superlaboratory", "China transparency", "lab origin"],
+      "topics": [
+        "Tom Cotton",
+        "superlaboratory",
+        "China transparency",
+        "lab-leak hypothesis"
+      ],
       "entities": {
-        "people": ["David Choi", "Tom Cotton", "Mike Pompeo"],
-        "orgs": ["Business Insider", "U.S. Senate"],
-        "places": ["China", "Wuhan", "United States"]
+        "people": [
+          "David Choi",
+          "Tom Cotton",
+          "Mike Pompeo"
+        ],
+        "orgs": [
+          "Business Insider",
+          "U.S. Senate"
+        ],
+        "places": [
+          "China",
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:tom-cotton",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:tom-cotton",
+          "person:mike-pompeo"
+        ],
+        "orgs": [
+          "org:u-s-senate"
+        ],
+        "places": [
+          "place:china",
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -164,12 +349,39 @@
       "language": "en",
       "summary": "New York Times piece framing Cotton’s Wuhan-lab comments as a fringe origin theory. Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
       "book_role": "Exhibit of prestige-media ‘fringe theory’ branding that Chapter 6 argues shut down legitimate origin questions.",
-      "topics": ["Tom Cotton", "fringe theory framing", "media narrative"],
+      "topics": [
+        "Tom Cotton",
+        "fringe theory framing",
+        "media narrative"
+      ],
       "entities": {
-        "people": ["Alexandra Stevenson", "Tom Cotton"],
-        "orgs": ["New York Times"],
-        "places": ["China", "United States"]
-      }
+        "people": [
+          "Alexandra Stevenson",
+          "Tom Cotton"
+        ],
+        "orgs": [
+          "The New York Times"
+        ],
+        "places": [
+          "China",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:tom-cotton"
+        ],
+        "orgs": [
+          "org:the-new-york-times"
+        ],
+        "places": [
+          "place:china",
+          "place:united-states"
+        ]
+      },
+      "topic_ids": [
+        "person:tom-cotton"
+      ]
     },
     {
       "id": 9,
@@ -185,12 +397,41 @@
       "language": "en",
       "summary": "Washington Post politics piece that originally called Cotton’s Wuhan-research comments a debunked conspiracy theory; a later correction removed ‘debunked’/‘conspiracy theory’ language. Only partial text retrieved.",
       "book_role": "Key example of media ‘conspiracy theory’ labeling—and a later correction that Chapter 6 uses to show how overconfident that labeling was.",
-      "topics": ["Tom Cotton", "conspiracy theory framing", "media correction"],
+      "topics": [
+        "Tom Cotton",
+        "conspiracy theory framing",
+        "media correction"
+      ],
       "entities": {
-        "people": ["Paulina Firozi", "Tom Cotton"],
-        "orgs": ["Washington Post"],
-        "places": ["Wuhan", "China", "United States"]
-      }
+        "people": [
+          "Paulina Firozi",
+          "Tom Cotton"
+        ],
+        "orgs": [
+          "The Washington Post"
+        ],
+        "places": [
+          "Wuhan",
+          "China",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:tom-cotton"
+        ],
+        "orgs": [
+          "org:the-washington-post"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china",
+          "place:united-states"
+        ]
+      },
+      "topic_ids": [
+        "person:tom-cotton"
+      ]
     },
     {
       "id": 10,
@@ -206,11 +447,49 @@
       "language": "en",
       "summary": "Nature Medicine correspondence arguing SARS-CoV-2 is not a laboratory construct and that no laboratory-based scenario is plausible—the paper that became the scientific centerpiece of ‘natural origin’ certainty.",
       "book_role": "The chapter’s central scientific document: ‘Proximal Origin,’ used to condemn lab-leak ideas as scientifically closed.",
-      "topics": ["Proximal Origin", "SARS-CoV-2", "natural origin", "furin cleavage site", "lab leak dismissal"],
+      "topics": [
+        "The proximal origin of SARS-CoV-2",
+        "SARS-CoV-2",
+        "natural origin",
+        "furin cleavage site",
+        "lab leak dismissal"
+      ],
       "entities": {
-        "people": ["Kristian Andersen", "Edward Holmes", "Andrew Rambaut", "Robert Garry", "Ian Lipkin"],
-        "orgs": ["Nature Medicine"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Kristian Andersen",
+          "Edward Holmes",
+          "Andrew Rambaut",
+          "Robert Garry",
+          "Ian Lipkin"
+        ],
+        "orgs": [
+          "Nature Medicine"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "work:the-proximal-origin-of-sars-cov-2",
+        "topic:sars-cov-2",
+        "topic:furin-cleavage-site"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:kristian-andersen",
+          "person:edward-holmes",
+          "person:andrew-rambaut",
+          "person:robert-garry",
+          "person:ian-lipkin"
+        ],
+        "orgs": [
+          "org:nature-medicine"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -227,11 +506,49 @@
       "language": "en",
       "summary": "USRTK FOIA-based report that EcoHealth’s Peter Daszak drafted The Lancet statement condemning lab-origin ‘conspiracy theories,’ intending it not to look like it came from any one organization.",
       "book_role": "Exposes the behind-the-scenes EcoHealth orchestration of the Lancet scientists’ statement that policed origin debate.",
-      "topics": ["Lancet statement", "Peter Daszak", "EcoHealth Alliance", "FOIA emails"],
+      "topics": [
+        "Lancet letter (February 2020)",
+        "Peter Daszak",
+        "EcoHealth Alliance",
+        "FOIA emails"
+      ],
       "entities": {
-        "people": ["Sainath Suryanarayanan", "Peter Daszak", "Ralph Baric"],
-        "orgs": ["U.S. Right to Know", "EcoHealth Alliance", "The Lancet", "Wuhan Institute of Virology"],
-        "places": ["United States", "Wuhan"]
+        "people": [
+          "Sainath Suryanarayanan",
+          "Peter Daszak",
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "EcoHealth Alliance",
+          "The Lancet",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "United States",
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "work:lancet-letter-february-2020",
+        "person:peter-daszak",
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak",
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know",
+          "org:ecohealth-alliance",
+          "org:the-lancet",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:united-states",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -248,11 +565,39 @@
       "language": "en",
       "summary": "Nicholas Wade analysis of newly released emails arguing Proximal Origin authors rushed a predetermined anti-lab-leak conclusion while sidelining features suggestive of manipulation.",
       "book_role": "Critical reconstruction of how Proximal Origin was intellectually steered, reinforcing Chapter 6’s ‘orchestration’ theme.",
-      "topics": ["Proximal Origin emails", "lab leak", "NIH FOIA", "furin cleavage site"],
+      "topics": [
+        "Proximal Origin emails",
+        "lab-leak hypothesis",
+        "NIH FOIA",
+        "furin cleavage site"
+      ],
       "entities": {
-        "people": ["Nicholas Wade", "Jimmy Tobias"],
-        "orgs": ["City Journal", "NIH"],
-        "places": ["United States"]
+        "people": [
+          "Nicholas Wade",
+          "Jimmy Tobias"
+        ],
+        "orgs": [
+          "City Journal",
+          "NIH"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:furin-cleavage-site"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:nicholas-wade"
+        ],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -269,12 +614,43 @@
       "language": "en",
       "summary": "Detailed USRTK timeline of how five virologists moved from overnight alarm about the furin cleavage site to publishing Nature Medicine’s claim that no lab scenario was plausible.",
       "book_role": "Chronological spine for how Proximal Origin was written and then used to close the lab-leak question in media and policy circles.",
-      "topics": ["Proximal Origin timeline", "furin cleavage site", "Nature Medicine", "Wuhan labs"],
+      "topics": [
+        "Proximal Origin timeline",
+        "furin cleavage site",
+        "Nature Medicine",
+        "Wuhan labs"
+      ],
       "entities": {
-        "people": ["Emily Kopp", "Kristian Andersen"],
-        "orgs": ["U.S. Right to Know", "Nature Medicine"],
-        "places": ["Wuhan", "China"]
-      }
+        "people": [
+          "Emily Kopp",
+          "Kristian Andersen"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "Nature Medicine"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:kristian-andersen"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know",
+          "org:nature-medicine"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
+      },
+      "topic_ids": [
+        "topic:furin-cleavage-site",
+        "org:nature-medicine"
+      ]
     },
     {
       "id": 14,
@@ -290,11 +666,39 @@
       "language": "en",
       "summary": "Lancet multi-author statement supporting Chinese scientists and condemning conspiracy theories that COVID-19 lacked a natural origin. Full text not retrieved (paywall/chrome).",
       "book_role": "The public letter—later shown to be Daszak-organized—that branded lab-origin talk as conspiracy while defending China’s scientists.",
-      "topics": ["Lancet statement", "natural origin", "conspiracy theories", "China scientists"],
+      "topics": [
+        "Lancet letter (February 2020)",
+        "natural origin",
+        "conspiracy theories",
+        "China scientists"
+      ],
       "entities": {
-        "people": ["Charles Calisher", "Peter Daszak"],
-        "orgs": ["The Lancet"],
-        "places": ["China", "Wuhan"]
+        "people": [
+          "Charles Calisher",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "The Lancet"
+        ],
+        "places": [
+          "China",
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "work:lancet-letter-february-2020"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:the-lancet"
+        ],
+        "places": [
+          "place:china",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -311,11 +715,40 @@
       "language": "en",
       "summary": "Science news coverage of the 27-scientist Lancet statement condemning rumors that COVID-19 came from a Wuhan lab and warning that such talk threatened open data sharing.",
       "book_role": "Shows how quickly elite scientific media echoed and legitimized the Lancet condemnation of lab-origin hypotheses.",
-      "topics": ["Lancet statement", "conspiracy theories", "Wuhan lab rumors", "scientific messaging"],
+      "topics": [
+        "Lancet letter (February 2020)",
+        "conspiracy theories",
+        "Wuhan lab rumors",
+        "scientific messaging"
+      ],
       "entities": {
-        "people": ["Jon Cohen"],
-        "orgs": ["Science", "The Lancet"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Jon Cohen"
+        ],
+        "orgs": [
+          "Science",
+          "The Lancet"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "work:lancet-letter-february-2020"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:jon-cohen"
+        ],
+        "orgs": [
+          "org:science",
+          "org:the-lancet"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -332,11 +765,39 @@
       "language": "en",
       "summary": "Amazon product page for Jeremy Farrar’s memoir Spike, his insider account of early pandemic science and policy. Retail landing page only, not book text.",
       "book_role": "Primary-source memoir from a central Proximal Origin–era scientific insider later elevated at WHO.",
-      "topics": ["Jeremy Farrar", "early pandemic insider account", "Wellcome"],
+      "topics": [
+        "Jeremy Farrar",
+        "early pandemic insider account",
+        "Wellcome"
+      ],
       "entities": {
-        "people": ["Jeremy Farrar", "Anjana Ahuja"],
-        "orgs": ["Profile Books", "Amazon", "Wellcome Trust"],
-        "places": ["United Kingdom"]
+        "people": [
+          "Jeremy Farrar",
+          "Anjana Ahuja"
+        ],
+        "orgs": [
+          "Profile Books",
+          "Amazon",
+          "Wellcome Trust"
+        ],
+        "places": [
+          "United Kingdom"
+        ]
+      },
+      "topic_ids": [
+        "person:jeremy-farrar"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:jeremy-farrar"
+        ],
+        "orgs": [
+          "org:amazon",
+          "org:wellcome-trust"
+        ],
+        "places": [
+          "place:united-kingdom"
+        ]
       }
     },
     {
@@ -353,11 +814,41 @@
       "language": "en",
       "summary": "Reuters report that WHO appointed Jeremy Farrar as chief scientist in 2022, succeeding Soumya Swaminathan amid a broader agency shakeup.",
       "book_role": "Tracks Farrar’s later elevation to WHO leadership after his early role in shaping origin narratives.",
-      "topics": ["Jeremy Farrar", "WHO chief scientist", "Tedros"],
+      "topics": [
+        "Jeremy Farrar",
+        "WHO chief scientist",
+        "Tedros"
+      ],
       "entities": {
-        "people": ["Manas Mishra", "Mrinmay Dey", "Jeremy Farrar", "Soumya Swaminathan", "Tedros Adhanom Ghebreyesus"],
-        "orgs": ["Reuters", "World Health Organization"],
-        "places": ["Geneva", "Switzerland"]
+        "people": [
+          "Manas Mishra",
+          "Mrinmay Dey",
+          "Jeremy Farrar",
+          "Soumya Swaminathan",
+          "Tedros Adhanom Ghebreyesus"
+        ],
+        "orgs": [
+          "Reuters",
+          "WHO"
+        ],
+        "places": [
+          "Geneva",
+          "Switzerland"
+        ]
+      },
+      "topic_ids": [
+        "person:jeremy-farrar"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:jeremy-farrar",
+          "person:tedros-adhanom-ghebreyesus"
+        ],
+        "orgs": [
+          "org:reuters",
+          "org:who"
+        ],
+        "places": []
       }
     }
   ]

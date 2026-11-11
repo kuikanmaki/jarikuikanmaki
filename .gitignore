@@ -1,5 +1,6 @@
 .firecrawl/
 .venv-pdf/
+.DS_Store
 
 # Scraped source copies — kept locally for corpus work; not published
 origins/sources/data/extended/artifacts/

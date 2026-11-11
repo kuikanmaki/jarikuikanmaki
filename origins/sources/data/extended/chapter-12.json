@@ -1,7 +1,10 @@
 {
   "chapter": 12,
   "chapter_title": "What Did They Study in Wuhan?",
-  "printed_pages": { "start": 137, "end": 146 },
+  "printed_pages": {
+    "start": 137,
+    "end": 146
+  },
   "sources": [
     {
       "id": 1,
@@ -17,10 +20,35 @@
       "language": "en",
       "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform. PubMed scrape failed.",
       "book_role": "Opens Baric’s trajectory: creating synthetic coronavirus clones in the lab (chapter notes).",
-      "topics": ["infectious cDNA", "mouse hepatitis virus", "reverse genetics", "Ralph Baric"],
+      "topics": [
+        "infectious cDNA",
+        "mouse hepatitis virus",
+        "reverse genetics",
+        "Ralph Baric"
+      ],
       "entities": {
-        "people": ["Boyd Yount", "Ralph Baric"],
-        "orgs": ["Journal of Virology", "PubMed"],
+        "people": [
+          "Boyd Yount",
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "Journal of Virology",
+          "PubMed"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:reverse-genetics",
+        "person:ralph-baric"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:journal-of-virology",
+          "org:pubmed"
+        ],
         "places": []
       }
     },
@@ -38,10 +66,27 @@
       "language": "en",
       "summary": "2007 PLOS Pathogens study creating a mouse-adapted SARS-CoV that causes disease and mortality in BALB/c mice via serial passage—lab evolution of pathogenicity.",
       "book_role": "Baric-lineage work adapting SARS-CoV-1 in mice—step two of the research trajectory Chapter 12 traces.",
-      "topics": ["mouse-adapted SARS", "serial passage", "BALB/c", "pathogenicity"],
+      "topics": [
+        "mouse-adapted SARS",
+        "serial passage",
+        "BALB/c",
+        "pathogenicity"
+      ],
       "entities": {
-        "people": ["Anjeanette Roberts", "Ralph Baric"],
-        "orgs": ["PLOS Pathogens"],
+        "people": [
+          "Anjeanette Roberts",
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "PLOS Pathogens"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric"
+        ],
+        "orgs": [],
         "places": []
       }
     },
@@ -59,10 +104,27 @@
       "language": "en",
       "summary": "2008 PNAS paper on a synthetic recombinant bat SARS-like coronavirus infectious in cells and mice—spike/backbone chimera work in the Baric orbit.",
       "book_role": "Shows insertion of SARS spike into a synthetic backbone—bridging bat CoV genetics and mammalian infection (chapter notes).",
-      "topics": ["synthetic bat SARS-like CoV", "recombinant virus", "mice", "chimera"],
+      "topics": [
+        "synthetic bat SARS-like CoV",
+        "recombinant virus",
+        "mice",
+        "chimera"
+      ],
       "entities": {
-        "people": ["Michelle Becker", "Ralph Baric"],
-        "orgs": ["PNAS"],
+        "people": [
+          "Michelle Becker",
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "PNAS"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric"
+        ],
+        "orgs": [],
         "places": []
       }
     },
@@ -80,11 +142,35 @@
       "language": "en",
       "summary": "2005 Science paper establishing horseshoe bats as natural reservoirs of SARS-like coronaviruses—foundational for Shi Zhengli’s subsequent WIV program.",
       "book_role": "Starts Shi’s research trajectory Chapter 12 maps: bats as SARS-like CoV reservoirs.",
-      "topics": ["bat reservoirs", "SARS-like coronaviruses", "horseshoe bats"],
+      "topics": [
+        "bat reservoirs",
+        "SARS-like coronaviruses",
+        "horseshoe bats"
+      ],
       "entities": {
-        "people": ["Wendong Li", "Shi Zhengli"],
-        "orgs": ["Science", "Wuhan Institute of Virology"],
-        "places": ["China"]
+        "people": [
+          "Wendong Li",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Science",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:science",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -101,11 +187,51 @@
       "language": "en",
       "summary": "MIT Technology Review deep dive on gain-of-function bat-virus engineering linking U.S. labs (Baric/EcoHealth) to Wuhan, including WIV1 reverse genetics under lower biosafety.",
       "book_role": "Narrative bridge explaining how American and Wuhan bat-virus engineering programs connected.",
-      "topics": ["gain-of-function", "WIV1", "EcoHealth", "Baric", "biosafety"],
+      "topics": [
+        "gain-of-function research",
+        "WIV1",
+        "EcoHealth Alliance",
+        "Ralph Baric",
+        "biosafety"
+      ],
       "entities": {
-        "people": ["Rowan Jacobsen", "Ralph Baric", "Shi Zhengli", "Peter Daszak"],
-        "orgs": ["MIT Technology Review", "Wuhan Institute of Virology", "EcoHealth Alliance"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Rowan Jacobsen",
+          "Ralph Baric",
+          "Shi Zhengli",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "MIT Technology Review",
+          "Wuhan Institute of Virology",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:wiv1",
+        "org:ecohealth-alliance",
+        "person:ralph-baric",
+        "topic:biosafety"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric",
+          "person:shi-zhengli",
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology",
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -122,11 +248,39 @@
       "language": "en",
       "summary": "2015 Nature news on the Menachery/Baric/Shi chimeric bat SARS-like virus paper that stirred gain-of-function debate over risky research.",
       "book_role": "Contemporaneous alarm at engineered bat–SARS chimeras—the controversy Chapter 12 revisits.",
-      "topics": ["engineered bat virus", "gain-of-function debate", "Menachery 2015"],
+      "topics": [
+        "engineered bat virus",
+        "gain-of-function debate",
+        "Menachery 2015"
+      ],
       "entities": {
-        "people": ["Declan Butler", "Ralph Baric", "Shi Zhengli", "Vineet Menachery"],
-        "orgs": ["Nature"],
-        "places": ["United States", "Wuhan"]
+        "people": [
+          "Declan Butler",
+          "Ralph Baric",
+          "Shi Zhengli",
+          "Vineet Menachery"
+        ],
+        "orgs": [
+          "Nature"
+        ],
+        "places": [
+          "United States",
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric",
+          "person:shi-zhengli",
+          "person:vineet-menachery"
+        ],
+        "orgs": [
+          "org:nature"
+        ],
+        "places": [
+          "place:united-states",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -143,11 +297,36 @@
       "language": "en",
       "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells. PubMed scrape failed.",
       "book_role": "Documents WIV capability to retarget bat CoV spikes toward human cells.",
-      "topics": ["receptor usage", "chimeric spike", "bat SARS-like CoV", "human cells"],
+      "topics": [
+        "receptor usage",
+        "chimeric spike",
+        "bat SARS-like CoV",
+        "human cells"
+      ],
       "entities": {
-        "people": ["Wuze Ren", "Shi Zhengli"],
-        "orgs": ["Journal of Virology", "PubMed"],
-        "places": ["China"]
+        "people": [
+          "Wuze Ren",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Journal of Virology",
+          "PubMed"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:journal-of-virology",
+          "org:pubmed"
+        ],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -164,11 +343,34 @@
       "language": "en",
       "summary": "2010 Archives of Virology study testing ACE2 from different bat species for variable SARS-CoV entry susceptibility—mapping which bat receptors allow infection.",
       "book_role": "Shows WIV systematically probing bat ACE2 compatibility with SARS entry.",
-      "topics": ["bat ACE2", "SARS-CoV entry", "species susceptibility"],
+      "topics": [
+        "bat ACE2",
+        "SARS-CoV entry",
+        "species susceptibility"
+      ],
       "entities": {
-        "people": ["Yuxuan Hou", "Shi Zhengli"],
-        "orgs": ["Archives of Virology", "PubMed"],
-        "places": ["China"]
+        "people": [
+          "Yuxuan Hou",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Archives of Virology",
+          "PubMed"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:pubmed"
+        ],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -185,11 +387,41 @@
       "language": "en",
       "summary": "2016 JVI paper on WIV1 infectious clone and ORFX mutants—reverse-genetics platform later cited in DIA analysis; experiments under BSL-2 per chapter notes. PubMed scrape failed.",
       "book_role": "Marks WIV’s live bat CoV infectious-clone capability—central to ‘what they studied in Wuhan.’",
-      "topics": ["WIV1", "infectious clone", "ORFX", "BSL-2", "reverse genetics"],
+      "topics": [
+        "WIV1",
+        "infectious clone",
+        "ORFX",
+        "BSL-2",
+        "reverse genetics"
+      ],
       "entities": {
-        "people": ["Lei-Ping Zeng", "Shi Zhengli"],
-        "orgs": ["Journal of Virology", "Wuhan Institute of Virology"],
-        "places": ["Wuhan"]
+        "people": [
+          "Lei-Ping Zeng",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Journal of Virology",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "topic:wiv1",
+        "topic:reverse-genetics"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:journal-of-virology",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -206,11 +438,40 @@
       "language": "en",
       "summary": "2017 PLoS Pathogens Hu et al.: rich Yunnan-cave gene pool of bat SARS-related CoVs; native and chimeric viruses infect human cells—direct WIV lab characterization of spillover-capable viruses.",
       "book_role": "Shows WIV isolating and chimera-testing human-cell-infecting bat SARSr-CoVs from Yunnan caves.",
-      "topics": ["Yunnan cave", "SARSr-CoV gene pool", "chimeric viruses", "human cells"],
+      "topics": [
+        "Yunnan cave",
+        "SARSr-CoV gene pool",
+        "chimeric viruses",
+        "human cells"
+      ],
       "entities": {
-        "people": ["Ben Hu", "Shi Zhengli"],
-        "orgs": ["PLoS Pathogens", "Wuhan Institute of Virology"],
-        "places": ["Yunnan", "China"]
+        "people": [
+          "Ben Hu",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "PLoS Pathogens",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Yunnan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "topic:chimeric-viruses"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:yunnan",
+          "place:china"
+        ]
       }
     },
     {
@@ -227,11 +488,36 @@
       "language": "en",
       "summary": "2018 Nature Zhou et al. on SADS: fatal swine acute diarrhoea from an HKU2-related bat coronavirus—WIV work infecting piglets with a bat CoV (chapter notes).",
       "book_role": "Documents WIV moving from cell work to infecting livestock with bat coronaviruses.",
-      "topics": ["SADS", "HKU2-related CoV", "piglets", "bat origin"],
+      "topics": [
+        "SADS",
+        "HKU2-related CoV",
+        "piglets",
+        "bat origin"
+      ],
       "entities": {
-        "people": ["Peng Zhou", "Shi Zhengli"],
-        "orgs": ["Nature", "Wuhan Institute of Virology"],
-        "places": ["China"]
+        "people": [
+          "Peng Zhou",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Nature",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:nature",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -248,12 +534,38 @@
       "language": "en",
       "summary": "Asia Times piece on why U.S. entities outsourced bat-virus research to Wuhan. Only a browser-check interstitial was retrieved.",
       "book_role": "Frames the U.S.–Wuhan outsourcing politics around the research Chapter 12 catalogs.",
-      "topics": ["U.S. outsourcing", "bat virus research", "Wuhan", "funding"],
+      "topics": [
+        "U.S. outsourcing",
+        "bat virus research",
+        "Wuhan",
+        "funding"
+      ],
       "entities": {
-        "people": ["Christina Lin"],
-        "orgs": ["Asia Times", "Wuhan Institute of Virology"],
-        "places": ["Wuhan", "United States"]
-      }
+        "people": [
+          "Christina Lin"
+        ],
+        "orgs": [
+          "Asia Times",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
+      },
+      "topic_ids": [
+        "place:wuhan"
+      ]
     },
     {
       "id": 13,
@@ -269,11 +581,43 @@
       "language": "en",
       "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant—funding link reused from chapter 10 scrape cache.",
       "book_role": "The NIAID grant tying U.S. money to the Wuhan bat-CoV agenda Chapter 12 inventories.",
-      "topics": ["R01AI110964", "EcoHealth Alliance", "NIAID", "bat coronavirus"],
+      "topics": [
+        "R01AI110964",
+        "EcoHealth Alliance",
+        "NIAID",
+        "bat coronavirus"
+      ],
       "entities": {
-        "people": ["Peter Daszak"],
-        "orgs": ["NIAID", "NIH", "EcoHealth Alliance"],
-        "places": ["United States", "China"]
+        "people": [
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "NIAID",
+          "NIH",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "United States",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance",
+        "org:niaid"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:niaid",
+          "org:nih",
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:united-states",
+          "place:china"
+        ]
       }
     },
     {
@@ -290,11 +634,40 @@
       "language": "en",
       "summary": "DOI twin of Hu et al. 2017 PLoS Pathogens Yunnan SARSr-CoV gene-pool paper (same study as s10).",
       "book_role": "Alternate citation path for the same rich gene-pool / chimera findings.",
-      "topics": ["SARSr-CoV gene pool", "Yunnan", "chimeric viruses"],
+      "topics": [
+        "SARSr-CoV gene pool",
+        "Yunnan",
+        "chimeric viruses"
+      ],
       "entities": {
-        "people": ["Ben Hu", "Shi Zhengli"],
-        "orgs": ["PLoS Pathogens", "Wuhan Institute of Virology"],
-        "places": ["Yunnan", "China"]
+        "people": [
+          "Ben Hu",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "PLoS Pathogens",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Yunnan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "place:yunnan",
+        "topic:chimeric-viruses"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:yunnan",
+          "place:china"
+        ]
       }
     },
     {
@@ -311,11 +684,47 @@
       "language": "en",
       "summary": "Rev transcript of May 11, 2021 Senate testimony including Fauci’s exchange on NIH funding and gain-of-function research linked to Wuhan.",
       "book_role": "Primary transcript of the Rand Paul–Fauci GoF confrontation Chapter 12’s notes discuss.",
-      "topics": ["Senate testimony", "Rand Paul", "Fauci", "gain-of-function"],
+      "topics": [
+        "Senate testimony",
+        "Rand Paul",
+        "Anthony Fauci",
+        "gain-of-function research"
+      ],
       "entities": {
-        "people": ["Anthony Fauci", "Rand Paul"],
-        "orgs": ["U.S. Senate", "CDC", "NIAID", "Rev"],
-        "places": ["United States", "Wuhan"]
+        "people": [
+          "Anthony Fauci",
+          "Rand Paul"
+        ],
+        "orgs": [
+          "U.S. Senate",
+          "CDC",
+          "NIAID",
+          "Rev"
+        ],
+        "places": [
+          "United States",
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "person:rand-paul",
+        "person:anthony-fauci",
+        "topic:gain-of-function-research"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci",
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate",
+          "org:cdc",
+          "org:niaid"
+        ],
+        "places": [
+          "place:united-states",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -332,11 +741,43 @@
       "language": "en",
       "summary": "C-SPAN/YouTube video of a heated Rand Paul–Fauci exchange on gain-of-function. Video skipped under scrape policy.",
       "book_role": "Video record of the continuing GoF dispute after the May 2021 hearing.",
-      "topics": ["Rand Paul", "Fauci", "gain-of-function", "C-SPAN"],
+      "topics": [
+        "Rand Paul",
+        "Anthony Fauci",
+        "gain-of-function research",
+        "C-SPAN"
+      ],
       "entities": {
-        "people": ["Rand Paul", "Anthony Fauci"],
-        "orgs": ["C-SPAN", "YouTube", "U.S. Senate"],
-        "places": ["United States"]
+        "people": [
+          "Rand Paul",
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "C-SPAN",
+          "YouTube",
+          "U.S. Senate"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:rand-paul",
+        "person:anthony-fauci",
+        "topic:gain-of-function-research"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:rand-paul",
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:youtube",
+          "org:u-s-senate"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     }
   ]

@@ -1,0 +1,346 @@
+{
+  "type": "place",
+  "items": [
+    {
+      "id": "place:australia",
+      "prefLabel": "Australia",
+      "indexTerm": "Australia",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:beijing",
+      "prefLabel": "Beijing",
+      "indexTerm": "Beijing",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:canada",
+      "prefLabel": "Canada",
+      "indexTerm": "Canada",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:china",
+      "prefLabel": "China",
+      "indexTerm": "China",
+      "altLabels": [
+        "PRC",
+        "People's Republic of China"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:europe",
+      "prefLabel": "Europe",
+      "indexTerm": "Europe",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:finland",
+      "prefLabel": "Finland",
+      "indexTerm": "Finland",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "first European case",
+        "lab-origin suspicions",
+        "origins-investigation neglect",
+        "Safety Investigation Authority report"
+      ],
+      "pages": [
+        "14",
+        "49",
+        "86–87"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:fort-detrick",
+      "prefLabel": "Fort Detrick",
+      "indexTerm": "Fort Detrick",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "USAMRIID",
+          "id": "org:usamriid"
+        }
+      ],
+      "subentries": [
+        "USAMRIID, Fort Detrick"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "place:france",
+      "prefLabel": "France",
+      "indexTerm": "France",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:germany",
+      "prefLabel": "Germany",
+      "indexTerm": "Germany",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:hong-kong",
+      "prefLabel": "Hong Kong",
+      "indexTerm": "Hong Kong",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:huanan-seafood-market",
+      "prefLabel": "Huanan Seafood Market",
+      "indexTerm": "Huanan Seafood Market",
+      "altLabels": [
+        "Huanan market",
+        "Wuhan seafood market"
+      ],
+      "related": [],
+      "subentries": [
+        "early investigations",
+        "environmental evidence",
+        "laboratory proximity",
+        "origins controversy",
+        "unlinked early cases"
+      ],
+      "pages": [
+        "24",
+        "207"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:hubei",
+      "prefLabel": "Hubei",
+      "indexTerm": "Hubei",
+      "altLabels": [
+        "Hubei province",
+        "Hubei Province"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:italy",
+      "prefLabel": "Italy",
+      "indexTerm": "Italy",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:laos",
+      "prefLabel": "Laos",
+      "indexTerm": "Laos",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "199"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:mojiang-mine",
+      "prefLabel": "Mojiang mine",
+      "indexTerm": "Mojiang mine",
+      "altLabels": [
+        "Mojiang",
+        "Mojiang copper mine"
+      ],
+      "related": [
+        {
+          "label": "RaTG13",
+          "id": null
+        }
+      ],
+      "subentries": [
+        "independent researchers",
+        "military laboratories",
+        "miners' illness, 2012",
+        "RaTG13/Ra4991 link",
+        "secrecy and obfuscation",
+        "US funding"
+      ],
+      "pages": [
+        "122",
+        "159"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:russia",
+      "prefLabel": "Russia",
+      "indexTerm": "Russia",
+      "altLabels": [
+        "Russian Federation"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:shanghai",
+      "prefLabel": "Shanghai",
+      "indexTerm": "Shanghai",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:soviet-union",
+      "prefLabel": "Soviet Union",
+      "indexTerm": "Soviet Union",
+      "altLabels": [
+        "USSR",
+        "U.S.S.R."
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:taiwan",
+      "prefLabel": "Taiwan",
+      "indexTerm": "Taiwan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:ukraine",
+      "prefLabel": "Ukraine",
+      "indexTerm": "Ukraine",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:united-kingdom",
+      "prefLabel": "United Kingdom",
+      "indexTerm": "United Kingdom",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "92"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:united-states",
+      "prefLabel": "United States",
+      "indexTerm": "United States",
+      "altLabels": [
+        "US",
+        "U.S.",
+        "USA",
+        "America",
+        "United States of America"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:wuhan",
+      "prefLabel": "Wuhan",
+      "indexTerm": "Wuhan",
+      "altLabels": [
+        "Wuhan City",
+        "Wuhan, China"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "place:wuhan-metro-line-2",
+      "prefLabel": "Wuhan Metro Line 2",
+      "indexTerm": "Wuhan Metro Line 2",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "211"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:yunnan",
+      "prefLabel": "Yunnan",
+      "indexTerm": "Yunnan province",
+      "altLabels": [
+        "Yunnan Province",
+        "Yunnan province"
+      ],
+      "related": [],
+      "subentries": [
+        "bat-coronavirus discovery",
+        "Wuhan transmission pathways"
+      ],
+      "pages": [
+        "48",
+        "108"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "place:zhengdian",
+      "prefLabel": "Zhengdian",
+      "indexTerm": "Zhengdian",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    }
+  ]
+}

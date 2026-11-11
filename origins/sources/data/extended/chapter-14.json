@@ -1,7 +1,10 @@
 {
   "chapter": 14,
   "chapter_title": "Blueprint for a Pandemic? DARPA DEFUSE",
-  "printed_pages": { "start": 158, "end": 168 },
+  "printed_pages": {
+    "start": 158,
+    "end": 168
+  },
   "sources": [
     {
       "id": 1,
@@ -17,10 +20,41 @@
       "language": "en",
       "summary": "DRASTIC tweet announcing the leaked 2018 EcoHealth DEFUSE proposal to DARPA. X skipped under scrape policy.",
       "book_role": "Public release moment for the DEFUSE documents that Chapter 14 analyzes.",
-      "topics": ["DEFUSE", "DRASTIC", "DARPA", "EcoHealth Alliance"],
+      "topics": [
+        "DEFUSE",
+        "DRASTIC",
+        "DARPA",
+        "EcoHealth Alliance"
+      ],
       "entities": {
-        "people": ["TheSeeker268", "Peter Daszak"],
-        "orgs": ["DRASTIC", "EcoHealth Alliance", "DARPA", "X (Twitter)"],
+        "people": [
+          "TheSeeker268",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "DARPA",
+          "Twitter"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "work:defuse",
+        "org:drastic",
+        "org:darpa",
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:drastic",
+          "org:ecohealth-alliance",
+          "org:darpa",
+          "org:twitter"
+        ],
         "places": []
       }
     },
@@ -38,11 +72,54 @@
       "language": "en",
       "summary": "2018 EcoHealth Alliance DEFUSE proposal to DARPA PREEMPT: engineer SARS-related bat CoVs with novel/human-specific cleavage sites (including furin-like), test chimeras in human airway cells and hACE2 mice at WIV, with Baric UNC work and Yunnan bat sampling.",
       "book_role": "Central primary document—the rejected blueprint Chapter 14 argues foreshadows pandemic-relevant research.",
-      "topics": ["DEFUSE", "furin cleavage sites", "chimeric viruses", "hACE2 mice", "WIV", "PREEMPT"],
+      "topics": [
+        "DEFUSE",
+        "furin cleavage sites",
+        "chimeric viruses",
+        "hACE2 mice",
+        "Wuhan Institute of Virology",
+        "PREEMPT"
+      ],
       "entities": {
-        "people": ["Peter Daszak", "Ralph Baric", "Shi Zhengli"],
-        "orgs": ["EcoHealth Alliance", "DARPA", "Wuhan Institute of Virology", "University of North Carolina"],
-        "places": ["Yunnan", "Wuhan", "Chapel Hill"]
+        "people": [
+          "Peter Daszak",
+          "Ralph Baric",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "DARPA",
+          "Wuhan Institute of Virology",
+          "University of North Carolina"
+        ],
+        "places": [
+          "Yunnan",
+          "Wuhan",
+          "Chapel Hill"
+        ]
+      },
+      "topic_ids": [
+        "work:defuse",
+        "topic:chimeric-viruses",
+        "org:wuhan-institute-of-virology",
+        "work:preempt"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak",
+          "person:ralph-baric",
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:darpa",
+          "org:wuhan-institute-of-virology",
+          "org:university-of-north-carolina"
+        ],
+        "places": [
+          "place:yunnan",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -59,11 +136,36 @@
       "language": "en",
       "summary": "Sky News Australia video claiming footage shows bats kept in a Wuhan lab. YouTube skipped under scrape policy.",
       "book_role": "Visual claim about live bats at WIV—contrasted with Daszak’s denials in s05–s06.",
-      "topics": ["bats in Wuhan lab", "footage", "WIV"],
+      "topics": [
+        "bats in Wuhan lab",
+        "footage",
+        "Wuhan Institute of Virology"
+      ],
       "entities": {
-        "people": ["Sharri Markson"],
-        "orgs": ["Sky News Australia", "YouTube", "Wuhan Institute of Virology"],
-        "places": ["Wuhan"]
+        "people": [
+          "Sharri Markson"
+        ],
+        "orgs": [
+          "Sky News Australia",
+          "YouTube",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:youtube",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -80,11 +182,39 @@
       "language": "en",
       "summary": "Mail on Sunday report on secret bat cages at a Wuhan lab where researchers planned to breed animals for virus experiments—live-animal infrastructure for bat CoV work.",
       "book_role": "Reporting that live bats were part of Wuhan lab plans—context for DEFUSE’s wild-bat inoculation aims.",
-      "topics": ["bat cages", "Wuhan lab", "animal breeding", "virus experiments"],
+      "topics": [
+        "bat cages",
+        "Wuhan Institute of Virology",
+        "animal breeding",
+        "virus experiments"
+      ],
       "entities": {
-        "people": ["Glen Owen", "Jake Ryan"],
-        "orgs": ["Daily Mail", "Wuhan Institute of Virology"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Glen Owen",
+          "Jake Ryan"
+        ],
+        "orgs": [
+          "Daily Mail",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:daily-mail",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -101,11 +231,38 @@
       "language": "en",
       "summary": "Daszak tweet denying live or dead bats in labs he collaborated with for 15 years, calling bat-in-lab claims a conspiracy theory. X skipped.",
       "book_role": "Daszak’s public denial of bats in Wuhan labs—set against DEFUSE and later reporting.",
-      "topics": ["Peter Daszak", "bats in labs", "denial", "conspiracy framing"],
+      "topics": [
+        "Peter Daszak",
+        "bats in labs",
+        "denial",
+        "conspiracy framing"
+      ],
       "entities": {
-        "people": ["Peter Daszak"],
-        "orgs": ["EcoHealth Alliance", "X (Twitter)"],
-        "places": ["Wuhan"]
+        "people": [
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "Twitter"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "person:peter-daszak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:twitter"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -122,11 +279,39 @@
       "language": "en",
       "summary": "Daszak tweet insisting only samples—not bats—went to Wuhan labs and that bats are released where caught. Twitter skipped.",
       "book_role": "Second denial clarifying sample-vs-animal logistics—Chapter 14 tests against DEFUSE’s wild-bat plans.",
-      "topics": ["bat samples", "field collection", "Wuhan lab", "Daszak"],
+      "topics": [
+        "bat samples",
+        "field collection",
+        "Wuhan Institute of Virology",
+        "Peter Daszak"
+      ],
       "entities": {
-        "people": ["Peter Daszak"],
-        "orgs": ["EcoHealth Alliance", "Twitter"],
-        "places": ["Wuhan"]
+        "people": [
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "Twitter"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology",
+        "person:peter-daszak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:twitter"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -143,11 +328,42 @@
       "language": "en",
       "summary": "Intercept reporting new details from FOIA’d EcoHealth/NIH documents on coronavirus research at the Chinese lab—progress reports and experimental descriptions.",
       "book_role": "FOIA-based reporting that fleshes out what EcoHealth–WIV actually did alongside the DEFUSE blueprint.",
-      "topics": ["EcoHealth FOIA", "WIV coronavirus research", "NIH grant documents"],
+      "topics": [
+        "EcoHealth FOIA",
+        "WIV coronavirus research",
+        "NIH grant documents"
+      ],
       "entities": {
-        "people": ["Sharon Lerner", "Mara Hvistendahl", "Peter Daszak"],
-        "orgs": ["The Intercept", "EcoHealth Alliance", "Wuhan Institute of Virology", "NIH"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Sharon Lerner",
+          "Mara Hvistendahl",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "The Intercept",
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "NIH"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:the-intercept",
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology",
+          "org:nih"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -164,11 +380,46 @@
       "language": "en",
       "summary": "Large FOIA dump of the EcoHealth/NIH bat-coronavirus emergence grant materials, including the Year-4 progress report (2017–2018) describing WIV collaborative experiments.",
       "book_role": "Primary grant/progress-report evidence of ongoing EcoHealth–WIV work contemporaneous with DEFUSE.",
-      "topics": ["NIH FOIA", "Year-4 progress report", "bat coronavirus emergence", "EcoHealth"],
+      "topics": [
+        "NIH FOIA",
+        "Year-4 progress report",
+        "bat coronavirus emergence",
+        "EcoHealth Alliance"
+      ],
       "entities": {
-        "people": ["Peter Daszak", "Ralph Baric"],
-        "orgs": ["The Intercept", "EcoHealth Alliance", "NIH", "NIAID"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Peter Daszak",
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "The Intercept",
+          "EcoHealth Alliance",
+          "NIH",
+          "NIAID"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak",
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:the-intercept",
+          "org:ecohealth-alliance",
+          "org:nih",
+          "org:niaid"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -185,11 +436,39 @@
       "language": "en",
       "summary": "Thacker Substack piece arguing funding documents complicate Danielle Anderson’s role as a ‘conspiracy buster’ on Wuhan lab origins.",
       "book_role": "Critical counterweight to Anderson’s insider testimony—funding ties in the DEFUSE-era network.",
-      "topics": ["Danielle Anderson", "funding documents", "WIV", "origins debate"],
+      "topics": [
+        "Danielle Anderson",
+        "funding documents",
+        "Wuhan Institute of Virology",
+        "origins debate"
+      ],
       "entities": {
-        "people": ["Paul D. Thacker", "Danielle Anderson"],
-        "orgs": ["DisInformation Chronicle", "Wuhan Institute of Virology"],
-        "places": ["Wuhan"]
+        "people": [
+          "Paul D. Thacker",
+          "Danielle Anderson"
+        ],
+        "orgs": [
+          "DisInformation Chronicle",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "person:danielle-anderson",
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:danielle-anderson"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     }
   ]

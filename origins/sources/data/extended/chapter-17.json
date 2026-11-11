@@ -1,7 +1,10 @@
 {
   "chapter": 17,
   "chapter_title": "Enigma",
-  "printed_pages": { "start": 198, "end": 213 },
+  "printed_pages": {
+    "start": 198,
+    "end": 213
+  },
   "sources": [
     {
       "id": 1,
@@ -17,11 +20,41 @@
       "language": "fi",
       "summary": "Author’s archived AlfaTV piece arguing accumulating evidence that WIV may have triggered the pandemic—Finnish-language lab-theory roundup.",
       "book_role": "Author’s own contemporary synthesis as NIH admissions and new relatives emerge—Chapter 17’s enigma frame.",
-      "topics": ["lab theory", "WIV", "Finland media", "origins evidence"],
+      "topics": [
+        "lab theory",
+        "Wuhan Institute of Virology",
+        "Finland media",
+        "origins evidence"
+      ],
       "entities": {
-        "people": ["Jari Kuikanmäki", "Matti Virtanen"],
-        "orgs": ["AlfaTV Uutiset", "Wuhan Institute of Virology"],
-        "places": ["Wuhan", "Finland"]
+        "people": [
+          "Jari Kuikanmäki",
+          "Matti Virtanen"
+        ],
+        "orgs": [
+          "AlfaTV Uutiset",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "Finland"
+        ]
+      },
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:jari-kuikanmaki",
+          "person:matti-virtanen"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:finland"
+        ]
       }
     },
     {
@@ -38,11 +71,42 @@
       "language": "en",
       "summary": "NIH FOIA release of EcoHealth bat-coronavirus emergence materials including the late Year-5 interim RPPR describing WIV experiments.",
       "book_role": "Document dump that forced NIH’s public reckoning with funded Wuhan virus work.",
-      "topics": ["Year-5 RPPR", "EcoHealth Alliance", "NIH FOIA", "WIV experiments"],
+      "topics": [
+        "Year-5 RPPR",
+        "EcoHealth Alliance",
+        "NIH FOIA",
+        "WIV experiments"
+      ],
       "entities": {
-        "people": ["Peter Daszak"],
-        "orgs": ["NIH", "EcoHealth Alliance", "Wuhan Institute of Virology"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "NIH",
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:nih",
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -59,11 +123,41 @@
       "language": "en",
       "summary": "NIH Principal Deputy Director Lawrence Tabak’s letter to Rep. McMorris Rodgers transmitting EcoHealth grant materials and acknowledging limited experiments that should have triggered further review.",
       "book_role": "Official NIH admission letter that shifted the ‘we never funded risky Wuhan research’ line.",
-      "topics": ["Lawrence Tabak", "EcoHealth grant", "congressional oversight", "NIH admission"],
+      "topics": [
+        "Lawrence Tabak",
+        "EcoHealth grant",
+        "congressional oversight",
+        "NIH admission"
+      ],
       "entities": {
-        "people": ["Lawrence Tabak", "Cathy McMorris Rodgers"],
-        "orgs": ["NIH", "HHS", "U.S. House Energy and Commerce Committee"],
-        "places": ["United States", "Wuhan"]
+        "people": [
+          "Lawrence Tabak",
+          "Cathy McMorris Rodgers"
+        ],
+        "orgs": [
+          "NIH",
+          "HHS",
+          "U.S. House Energy and Commerce Committee"
+        ],
+        "places": [
+          "United States",
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "person:lawrence-tabak"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:lawrence-tabak"
+        ],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:united-states",
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -80,11 +174,43 @@
       "language": "en",
       "summary": "Vanity Fair on NIH’s major shift admitting it funded risky virus research in Wuhan via EcoHealth—coverage of the Tabak letter fallout.",
       "book_role": "Mainstream framing of the NIH admission as a turning point in the enigma.",
-      "topics": ["NIH admission", "risky virus research", "Wuhan", "EcoHealth"],
+      "topics": [
+        "NIH admission",
+        "risky virus research",
+        "Wuhan",
+        "EcoHealth Alliance"
+      ],
       "entities": {
-        "people": ["Katherine Eban", "Lawrence Tabak"],
-        "orgs": ["Vanity Fair", "NIH", "EcoHealth Alliance"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Katherine Eban",
+          "Lawrence Tabak"
+        ],
+        "orgs": [
+          "Vanity Fair",
+          "NIH",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "place:wuhan",
+        "org:ecohealth-alliance"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:lawrence-tabak"
+        ],
+        "orgs": [
+          "org:nih",
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -101,11 +227,36 @@
       "language": "en",
       "summary": "Nature news on BANAL bat coronaviruses from Laos—closer relatives to SARS-CoV-2 than RaTG13 in key spike regions—complicating simple Wuhan-only stories.",
       "book_role": "New natural-relative evidence that deepens rather than resolves the origin enigma.",
-      "topics": ["BANAL viruses", "Laos", "closest relatives", "RaTG13"],
+      "topics": [
+        "BANAL viruses",
+        "Laos",
+        "closest relatives",
+        "RaTG13"
+      ],
       "entities": {
-        "people": ["Smriti Mallapaty"],
-        "orgs": ["Nature"],
-        "places": ["Laos", "Southeast Asia"]
+        "people": [
+          "Smriti Mallapaty"
+        ],
+        "orgs": [
+          "Nature"
+        ],
+        "places": [
+          "Laos",
+          "Southeast Asia"
+        ]
+      },
+      "topic_ids": [
+        "place:laos",
+        "topic:ratg13"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:nature"
+        ],
+        "places": [
+          "place:laos"
+        ]
       }
     },
     {
@@ -122,11 +273,40 @@
       "language": "en",
       "summary": "Demaneuf overview mapping Wuhan’s biological laboratories and their coronavirus-research roles—beyond WIV alone.",
       "book_role": "Widens the enigma: multiple Wuhan labs, not a single building.",
-      "topics": ["Wuhan laboratories", "coronavirus research", "lab map", "DRASTIC"],
+      "topics": [
+        "Wuhan laboratories",
+        "coronavirus research",
+        "lab map",
+        "DRASTIC"
+      ],
       "entities": {
-        "people": ["Gilles Demaneuf"],
-        "orgs": ["Medium", "Wuhan Institute of Virology"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Gilles Demaneuf"
+        ],
+        "orgs": [
+          "Medium",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "org:drastic"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:gilles-demaneuf"
+        ],
+        "orgs": [
+          "org:medium",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -143,12 +323,39 @@
       "language": "en",
       "summary": "Science paper timing the SARS-CoV-2 index case in Hubei—molecular-clock estimates of when the outbreak began relative to reported December cases.",
       "book_role": "Chronological constraint on the enigma: when did human transmission start?",
-      "topics": ["index case", "Hubei", "molecular clock", "outbreak timing"],
+      "topics": [
+        "index case",
+        "Hubei",
+        "molecular clock",
+        "outbreak timing"
+      ],
       "entities": {
-        "people": ["Jonathan Pekar"],
-        "orgs": ["Science"],
-        "places": ["Hubei", "Wuhan", "China"]
-      }
+        "people": [
+          "Jonathan Pekar"
+        ],
+        "orgs": [
+          "Science"
+        ],
+        "places": [
+          "Hubei",
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:science"
+        ],
+        "places": [
+          "place:hubei",
+          "place:wuhan",
+          "place:china"
+        ]
+      },
+      "topic_ids": [
+        "place:hubei"
+      ]
     },
     {
       "id": 8,
@@ -164,11 +371,31 @@
       "language": "en",
       "summary": "Washburne Substack cataloging zoonotic-origin evidence that is still missing—intermediate hosts, early animal positives, market chain—versus what lab-leak critics demand.",
       "book_role": "Negative-evidence checklist keeping the zoonosis claim incomplete.",
-      "topics": ["missing zoonotic evidence", "intermediate host", "lab vs natural"],
+      "topics": [
+        "missing zoonotic evidence",
+        "intermediate host",
+        "lab vs natural"
+      ],
       "entities": {
-        "people": ["Alex Washburne"],
-        "orgs": ["Substack"],
-        "places": ["Wuhan"]
+        "people": [
+          "Alex Washburne"
+        ],
+        "orgs": [
+          "Substack"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "topic:intermediate-host"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -185,12 +412,24 @@
       "language": "en",
       "summary": "Early bioRxiv preprint arguing SARS-CoV-2 appears well adapted to humans from the outset—flagged later in classified analyses for FCS/adaptation implications (chapter notes).",
       "book_role": "Adaptation puzzle that resists a simple fresh-spillover story.",
-      "topics": ["human adaptation", "SARS-CoV-2", "re-emergence", "preprint"],
+      "topics": [
+        "human adaptation",
+        "SARS-CoV-2",
+        "re-emergence",
+        "preprint"
+      ],
       "entities": {
-        "people": ["Shing Hei Zhan"],
-        "orgs": ["bioRxiv"],
+        "people": [
+          "Shing Hei Zhan"
+        ],
+        "orgs": [
+          "bioRxiv"
+        ],
         "places": []
-      }
+      },
+      "topic_ids": [
+        "topic:sars-cov-2"
+      ]
     },
     {
       "id": 10,
@@ -206,11 +445,38 @@
       "language": "en",
       "summary": "Fauci’s 2012 mBio commentary defending a path forward for highly pathogenic H5N1 research amid gain-of-function controversy.",
       "book_role": "Fauci’s own prior GoF philosophy—context for later Wuhan-funding denials.",
-      "topics": ["H5N1", "gain-of-function", "Anthony Fauci", "biosafety policy"],
+      "topics": [
+        "H5N1",
+        "gain-of-function research",
+        "Anthony Fauci",
+        "biosafety policy"
+      ],
       "entities": {
-        "people": ["Anthony S. Fauci"],
-        "orgs": ["mBio", "NIAID", "PMC"],
-        "places": ["United States"]
+        "people": [
+          "Anthony S. Fauci"
+        ],
+        "orgs": [
+          "mBio",
+          "NIAID",
+          "PMC"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "person:anthony-fauci"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:niaid",
+          "org:pmc"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -227,10 +493,19 @@
       "language": "en",
       "summary": "Pre-COVID Bulletin warning that human error in high-biocontainment labs is a likely pandemic threat—lab-accident risk as mainstream biosafety concern.",
       "book_role": "2019 baseline: lab accidents were predicted pandemic pathways before COVID.",
-      "topics": ["lab accidents", "BSL labs", "human error", "pandemic threat"],
+      "topics": [
+        "lab accidents",
+        "BSL labs",
+        "human error",
+        "pandemic threat"
+      ],
       "entities": {
-        "people": ["Lynn Klotz"],
-        "orgs": ["Bulletin of the Atomic Scientists"],
+        "people": [
+          "Lynn Klotz"
+        ],
+        "orgs": [
+          "Bulletin of the Atomic Scientists"
+        ],
         "places": []
       }
     },
@@ -248,11 +523,31 @@
       "language": "zh",
       "summary": "Archived Sept 2019 procurement notice for WIV central air-conditioning renovation—cited in debates over pre-outbreak lab infrastructure problems. Thin archive capture.",
       "book_role": "Biosafety-infrastructure clue timed just before the outbreak window.",
-      "topics": ["WIV air conditioning", "procurement", "biosafety infrastructure", "September 2019"],
+      "topics": [
+        "WIV air conditioning",
+        "procurement",
+        "biosafety infrastructure",
+        "September 2019"
+      ],
       "entities": {
         "people": [],
-        "orgs": ["Wuhan Institute of Virology", "Chinese Academy of Sciences"],
-        "places": ["Wuhan"]
+        "orgs": [
+          "Wuhan Institute of Virology",
+          "Chinese Academy of Sciences"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology",
+          "org:chinese-academy-of-sciences"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -269,11 +564,30 @@
       "language": "en",
       "summary": "NBC/Yahoo report on a disputed claim that cellphone data showed an October 2019 Wuhan-lab shutdown—experts skeptical.",
       "book_role": "Contested early-signal claim in the timeline enigma—possible precursor event vs noise.",
-      "topics": ["cellphone data", "October 2019", "Wuhan lab shutdown", "skepticism"],
+      "topics": [
+        "cellphone data",
+        "October 2019",
+        "Wuhan lab shutdown",
+        "skepticism"
+      ],
       "entities": {
-        "people": ["Ken Dilanian"],
-        "orgs": ["NBC News", "Yahoo"],
-        "places": ["Wuhan"]
+        "people": [
+          "Ken Dilanian"
+        ],
+        "orgs": [
+          "NBC News",
+          "Yahoo"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
+        ]
       }
     },
     {
@@ -290,11 +604,34 @@
       "language": "en",
       "summary": "Archived Telegraph report that U.S. and UK intelligence were examining the mobile-phone data claims about the Wuhan laboratory.",
       "book_role": "Shows intel interest in the same contested October-activity signal.",
-      "topics": ["intelligence agencies", "mobile phone data", "Wuhan laboratory"],
+      "topics": [
+        "intelligence agencies",
+        "mobile phone data",
+        "Wuhan laboratory"
+      ],
       "entities": {
-        "people": ["Nick Allen"],
-        "orgs": ["The Telegraph"],
-        "places": ["Wuhan", "United States", "United Kingdom"]
+        "people": [
+          "Nick Allen"
+        ],
+        "orgs": [
+          "The Telegraph"
+        ],
+        "places": [
+          "Wuhan",
+          "United States",
+          "United Kingdom"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-telegraph"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states",
+          "place:united-kingdom"
+        ]
       }
     },
     {
@@ -311,11 +648,30 @@
       "language": "zh",
       "summary": "Xinhua (archived) on opening a dedicated airport port-of-entry for the Wuhan Military World Games testing—pre-outbreak mass international military gathering in Wuhan.",
       "book_role": "Timeline context: major military sports event in Wuhan weeks before recognized outbreak.",
-      "topics": ["Military World Games", "Wuhan airport", "September 2019"],
+      "topics": [
+        "Military World Games",
+        "Wuhan airport",
+        "September 2019"
+      ],
       "entities": {
-        "people": ["Ai Hongxia"],
-        "orgs": ["Xinhua News Agency"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Ai Hongxia"
+        ],
+        "orgs": [
+          "Xinhua News Agency"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -332,11 +688,37 @@
       "language": "en",
       "summary": "Quay Zenodo preprint arguing PLA hospital and Wuhan Metro Line 2 as compelling early-spread nodes—alternative geography of the outbreak’s start.",
       "book_role": "Alternative spatial hypothesis inside the enigma: military hospital and metro, not only the market.",
-      "topics": ["PLA hospital", "Wuhan Metro Line 2", "early spread", "outbreak geography"],
+      "topics": [
+        "PLA hospital",
+        "Wuhan Metro Line 2",
+        "early spread",
+        "outbreak geography"
+      ],
       "entities": {
-        "people": ["Steven Carl Quay"],
-        "orgs": ["Zenodo", "People's Liberation Army"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Steven Carl Quay"
+        ],
+        "orgs": [
+          "Zenodo",
+          "People’s Liberation Army"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "place:wuhan-metro-line-2"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:people-s-liberation-army"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     }
   ]

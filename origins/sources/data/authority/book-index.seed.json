@@ -1,0 +1,5167 @@
+{
+  "source": "origins/sources/data/authority/book-index.bits.xml",
+  "title": "Origins of Coronavirus",
+  "entries": [
+    {
+      "indexTerm": "ACE2 receptors",
+      "prefLabel": "ACE2 receptors",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "chimeric-virus experiments",
+          "pages": [
+            "67",
+            "141",
+            "145",
+            "161",
+            "165–166",
+            "193",
+            "201",
+            "231"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "data suppression",
+          "pages": [
+            "194"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "human-cell entry",
+          "pages": [
+            "51",
+            "61",
+            "97",
+            "132"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origin debates",
+          "pages": [
+            "75"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Alibek, Ken",
+      "prefLabel": "Ken Alibek",
+      "type": "person",
+      "pages": [
+        "35–36"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "AMMS",
+      "prefLabel": "AMMS",
+      "type": "org",
+      "pages": [
+        "235"
+      ],
+      "see": [
+        "China, Academy of Military Medical Sciences"
+      ],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Andersen, Kristian",
+      "prefLabel": "Kristian Andersen",
+      "type": "person",
+      "pages": [
+        "231"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "NIH communications",
+          "pages": [
+            "120",
+            "228",
+            "232–233"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "zoonotic narrative shaping",
+          "pages": [
+            "75–77",
+            "118–119",
+            "155",
+            "226–230"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Anderson, Danielle",
+      "prefLabel": "Danielle Anderson",
+      "type": "person",
+      "pages": [
+        "152"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "credibility questioned",
+          "pages": [
+            "168"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV testimony",
+          "pages": [
+            "153"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "anthrax",
+      "prefLabel": "anthrax",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "biodefense buildup",
+          "pages": [
+            "172–173"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Cold War testing",
+          "pages": [
+            "29–30"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Ivins, Bruce case",
+          "pages": [
+            "179–180"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Aral smallpox outbreak, 1971",
+      "prefLabel": "Aral smallpox outbreak, 1971",
+      "type": "event",
+      "pages": [
+        "34"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Auchincloss, Hugh",
+      "prefLabel": "Hugh Auchincloss",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "chimeric-coronavirus research",
+          "pages": [
+            "137",
+            "142"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "funding-link communications",
+          "pages": [
+            "112–113",
+            "120"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Bahulikar, Rahul",
+      "prefLabel": "Rahul Bahulikar",
+      "type": "person",
+      "pages": [
+        "125–127",
+        "133"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "BANAL-52",
+      "prefLabel": "BANAL-52",
+      "type": "topic",
+      "pages": [
+        "199"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Bancel, Stéphane",
+      "prefLabel": "Stéphane Bancel",
+      "type": "person",
+      "pages": [
+        "40"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "BARDA",
+      "prefLabel": "BARDA",
+      "type": "org",
+      "pages": [
+        "175"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Baric, Ralph",
+      "prefLabel": "Ralph Baric",
+      "type": "person",
+      "pages": [
+        "60"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "chimeric coronaviruses",
+          "pages": [
+            "67",
+            "177",
+            "186–188",
+            "193"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "coronavirus research role",
+          "pages": [
+            "32",
+            "138–139",
+            "238–239"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "government funding",
+          "pages": [
+            "43–46",
+            "125",
+            "159–164"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "humanized mice",
+          "pages": [
+            "44",
+            "51",
+            "61",
+            "114",
+            "176"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "research proposals",
+          "pages": [
+            "45",
+            "160–165",
+            "236"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "reverse genetics",
+          "pages": [
+            "140–142",
+            "147",
+            "163–166",
+            "193",
+            "201",
+            "241–242"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Shi collaboration",
+          "pages": [
+            "59",
+            "141",
+            "194"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "bat coronaviruses",
+      "prefLabel": "bat coronaviruses",
+      "type": "topic",
+      "pages": [
+        "3–4",
+        "61–62",
+        "96",
+        "100",
+        "115–117",
+        "126",
+        "136–140",
+        "178",
+        "186",
+        "188–190"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "chimeric-virus creation",
+          "pages": [
+            "5"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "DARPA DEFUSE links",
+          "pages": [
+            "107",
+            "143",
+            "159–169",
+            "187"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "furin-site insertion",
+          "pages": [
+            "114",
+            "121",
+            "125",
+            "142",
+            "148"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "humanized-mouse testing",
+          "pages": [
+            "67",
+            "113",
+            "201"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "RaTG13 genomic link",
+          "pages": [
+            "60",
+            "203"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Shi Zhengli research",
+          "pages": [
+            "2",
+            "6"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "US agency funding",
+          "pages": [
+            "43–45",
+            "78",
+            "165",
+            "185",
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Yunnan-Wuhan pathways",
+          "pages": [
+            "66",
+            "112",
+            "127–130",
+            "141",
+            "191"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Bedford, Trevor",
+      "prefLabel": "Trevor Bedford",
+      "type": "person",
+      "pages": [
+        "56"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Biden, Joe",
+      "prefLabel": "Joe Biden",
+      "type": "person",
+      "pages": [
+        "152"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "intelligence deadline",
+          "pages": [
+            "110"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "social media censorship",
+          "pages": [
+            "240"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "transition, 2021",
+          "pages": [
+            "101",
+            "244"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "biodefense complex",
+      "prefLabel": "biodefense complex",
+      "type": "topic",
+      "pages": [
+        "178"
+      ],
+      "see": [],
+      "see_also": [
+        "September 11 attacks"
+      ],
+      "subentries": [
+        {
+          "term": "clandestine research",
+          "pages": [
+            "172",
+            "176–177",
+            "180"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Doomsday Machine fears",
+          "pages": [
+            "179–181",
+            "209"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "post-9/11 expansion",
+          "pages": [
+            "140",
+            "173–175",
+            "239"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Biological Sciences Experts Group",
+      "prefLabel": "Biological Sciences Experts Group",
+      "type": "org",
+      "pages": [
+        "238"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "biological weapons",
+      "prefLabel": "biological weapons",
+      "type": "topic",
+      "pages": [
+        "29",
+        "36",
+        "38",
+        "48",
+        "221"
+      ],
+      "see": [],
+      "see_also": [
+        "Sverdlovsk anthrax outbreak, 1979"
+      ],
+      "subentries": [
+        {
+          "term": "Chinese program allegations",
+          "pages": [
+            "27–28",
+            "43",
+            "148",
+            "189",
+            "201"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Detrick, Fort",
+          "pages": [
+            "179–180"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "secrecy and suppression",
+          "pages": [
+            "37",
+            "149"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Soviet-Chinese parallels",
+          "pages": [
+            "30–31"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "synthetic-virus engineering",
+          "pages": [
+            "148",
+            "177–178",
+            "187"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "US biodefense complex",
+          "pages": [
+            "175–176",
+            "186",
+            "188"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Biopreparat",
+      "prefLabel": "Biopreparat",
+      "type": "topic",
+      "pages": [
+        "35"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "biosecurity",
+      "prefLabel": "biosecurity",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "dual-use publication debate",
+          "pages": [
+            "21–22"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function moratorium",
+          "pages": [
+            "23",
+            "209"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan lab warnings",
+          "pages": [
+            "96",
+            "143",
+            "194",
+            "202"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Bioweapons Convention, 1972",
+      "prefLabel": "Bioweapons Convention, 1972",
+      "type": "event",
+      "pages": [
+        "31",
+        "175"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Birrell, Ian",
+      "prefLabel": "Ian Birrell",
+      "type": "person",
+      "pages": [
+        "101",
+        "116"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "BLAST",
+      "prefLabel": "BLAST",
+      "type": "org",
+      "pages": [
+        "126",
+        "227–229"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Bloom, Jesse",
+      "prefLabel": "Jesse Bloom",
+      "type": "person",
+      "pages": [
+        "118"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "BND",
+      "prefLabel": "BND",
+      "type": "org",
+      "pages": [
+        "239–240"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Botao, Xiao",
+      "prefLabel": "Xiao Botao",
+      "type": "person",
+      "pages": [
+        "66",
+        "69",
+        "230"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Branswell, Helen",
+      "prefLabel": "Helen Branswell",
+      "type": "person",
+      "pages": [
+        "24",
+        "32"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "BSL-4 laboratory",
+      "prefLabel": "BSL-4 laboratory",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "Wuhan Institute of Virology"
+      ],
+      "subentries": [
+        {
+          "term": "construction and purpose",
+          "pages": [
+            "2",
+            "24"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "international collaboration",
+          "pages": [
+            "141–143"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Bush, George W.",
+      "prefLabel": "Bush, George W.",
+      "type": "topic",
+      "pages": [
+        "173"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Cambridge Working Group",
+      "prefLabel": "Cambridge Working Group",
+      "type": "org",
+      "pages": [
+        "23",
+        "188"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Cao Wuchun",
+      "prefLabel": "Cao Wuchun",
+      "type": "topic",
+      "pages": [
+        "235"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Carroll, Dennis",
+      "prefLabel": "Dennis Carroll",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "PREDICT revolving door",
+          "pages": [
+            "184–185"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV-linked collaborations",
+          "pages": [
+            "235"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "CCDC",
+      "prefLabel": "CCDC",
+      "type": "org",
+      "pages": [
+        "205"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "CCP",
+      "prefLabel": "CCP",
+      "type": "org",
+      "pages": [
+        "24",
+        "65"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "origins secrecy",
+          "pages": [
+            "18",
+            "29",
+            "57",
+            "66",
+            "75",
+            "93",
+            "99",
+            "103",
+            "116",
+            "133–134",
+            "205"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV oversight",
+          "pages": [
+            "138"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "censorship",
+      "prefLabel": "censorship",
+      "type": "topic",
+      "pages": [
+        "91"
+      ],
+      "see": [],
+      "see_also": [
+        "Global Engagement Center"
+      ],
+      "subentries": [
+        {
+          "term": "foreknowledge concealed",
+          "pages": [
+            "192",
+            "194–195"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "public discourse impact",
+          "pages": [
+            "58",
+            "105",
+            "217",
+            "240"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "social media restrictions",
+          "pages": [
+            "32",
+            "66",
+            "71–75",
+            "79",
+            "92",
+            "102–108",
+            "150",
+            "164"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Cheney, Dick",
+      "prefLabel": "Dick Cheney",
+      "type": "person",
+      "pages": [
+        "173"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Chengdu Military Center",
+      "prefLabel": "Chengdu Military Center",
+      "type": "org",
+      "pages": [
+        "235"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "chimeric viruses",
+      "prefLabel": "chimeric viruses",
+      "type": "topic",
+      "pages": [
+        "231–233"
+      ],
+      "see": [],
+      "see_also": [
+        "reverse genetics"
+      ],
+      "subentries": [
+        {
+          "term": "gain-of-function methods",
+          "pages": [
+            "5",
+            "19–20",
+            "46",
+            "51",
+            "67",
+            "113",
+            "141–142",
+            "148",
+            "160–166",
+            "193",
+            "234"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "China Virome Project",
+      "prefLabel": "China Virome Project",
+      "type": "org",
+      "pages": [
+        "235"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "China, Academy of Military Medical Sciences",
+      "prefLabel": "China, Academy of Military Medical Sciences",
+      "type": "org",
+      "pages": [
+        "177"
+      ],
+      "see": [],
+      "see_also": [
+        "PLA"
+      ],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Chinese Academy of Medical Sciences",
+      "prefLabel": "Chinese Academy of Medical Sciences",
+      "type": "org",
+      "pages": [
+        "228–231"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Church Committee",
+      "prefLabel": "Church Committee",
+      "type": "org",
+      "pages": [
+        "34"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "CIA",
+      "prefLabel": "CIA",
+      "type": "org",
+      "pages": [
+        "237–240"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Collins, Francis",
+      "prefLabel": "Francis Collins",
+      "type": "person",
+      "pages": [
+        "155"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "DARPA",
+      "prefLabel": "DARPA",
+      "type": "org",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "DEFUSE"
+      ],
+      "subentries": [
+        {
+          "term": "cover-up allegations",
+          "pages": [
+            "74",
+            "164",
+            "170",
+            "172",
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "DEFUSE documents",
+          "pages": [
+            "46",
+            "157–161",
+            "167–171"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "post-9/11 biodefense",
+          "pages": [
+            "173–174"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan gain-of-function funding",
+          "pages": [
+            "162–166",
+            "172",
+            "183",
+            "201",
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Daszak, Peter",
+      "prefLabel": "Peter Daszak",
+      "type": "person",
+      "pages": [
+        "44–45",
+        "112",
+        "115",
+        "120–121",
+        "136",
+        "147",
+        "150–151",
+        "163",
+        "166",
+        "169",
+        "190–191",
+        "194",
+        "240"
+      ],
+      "see": [],
+      "see_also": [
+        "EcoHealth Alliance"
+      ],
+      "subentries": [
+        {
+          "term": "conflicts of interest",
+          "pages": [
+            "101",
+            "114",
+            "167",
+            "171",
+            "185–189",
+            "238",
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "DEFUSE project",
+          "pages": [
+            "46",
+            "161–162",
+            "164",
+            "170",
+            "239"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "EcoHealth presidency",
+          "pages": [
+            "43",
+            "159",
+            "184",
+            "206"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Fauci and Baric ties",
+          "pages": [
+            "137",
+            "168"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "FOIA scrutiny",
+          "pages": [
+            "134",
+            "167",
+            "232",
+            "242–243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function funding",
+          "pages": [
+            "125",
+            "160",
+            "165",
+            "192–193",
+            "234"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Lancet letter",
+          "pages": [
+            "78",
+            "113"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "NIH briefings",
+          "pages": [
+            "233",
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WHO panels",
+          "pages": [
+            "100",
+            "102–103",
+            "111",
+            "116"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Yunnan sampling",
+          "pages": [
+            "130",
+            "135",
+            "141"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "The Dead Hand: The Untold Story of the Cold War Arms Race and Its Dangerous Legacy",
+      "prefLabel": "The Dead Hand: The Untold Story of the Cold War Arms Race and Its Dangerous Legacy",
+      "type": "topic",
+      "pages": [
+        "29"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Dearlove, Richard",
+      "prefLabel": "Richard Dearlove",
+      "type": "person",
+      "pages": [
+        "97"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Defense Intelligence Agency",
+      "prefLabel": "Defense Intelligence Agency",
+      "type": "org",
+      "pages": [
+        "185",
+        "237",
+        "242"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "DEFUSE",
+      "prefLabel": "DEFUSE",
+      "type": "work",
+      "pages": [
+        "157",
+        "164",
+        "168",
+        "170–173",
+        "198",
+        "243"
+      ],
+      "see": [],
+      "see_also": [
+        "DARPA"
+      ],
+      "subentries": [
+        {
+          "term": "Baric, Ralph and Daszak, Peter",
+          "pages": [
+            "161"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "biodefense funding",
+          "pages": [
+            "174",
+            "183"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "BsmBI enzymes",
+          "pages": [
+            "166",
+            "236–237"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "FOIA disclosures",
+          "pages": [
+            "158"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function plans",
+          "pages": [
+            "160–163",
+            "167"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "military-intelligence links",
+          "pages": [
+            "169",
+            "239"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV–EcoHealth links",
+          "pages": [
+            "159",
+            "165"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Deigin, Yuri",
+      "prefLabel": "Yuri Deigin",
+      "type": "person",
+      "pages": [
+        "46"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Department of Energy (US)",
+      "prefLabel": "Department of Energy (US)",
+      "type": "org",
+      "pages": [
+        "237"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Director of National Intelligence",
+      "prefLabel": "Director of National Intelligence",
+      "type": "topic",
+      "pages": [
+        "94"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "DRASTIC",
+      "prefLabel": "DRASTIC",
+      "type": "org",
+      "pages": [
+        "194"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "official narratives challenged",
+          "pages": [
+            "105"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV database disappearances",
+          "pages": [
+            "116–117"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Drosten, Christian",
+      "prefLabel": "Christian Drosten",
+      "type": "person",
+      "pages": [
+        "155"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "DTRA",
+      "prefLabel": "DTRA",
+      "type": "org",
+      "pages": [
+        "186–187"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Ebright, Richard",
+      "prefLabel": "Richard Ebright",
+      "type": "person",
+      "pages": [
+        "188"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "EcoHealth Alliance",
+      "prefLabel": "EcoHealth Alliance",
+      "type": "org",
+      "pages": [
+        "114–115",
+        "166–169",
+        "190–192",
+        "206",
+        "241",
+        "243"
+      ],
+      "see": [],
+      "see_also": [
+        "Daszak, Peter"
+      ],
+      "subentries": [
+        {
+          "term": "DEFUSE proposal",
+          "pages": [
+            "159–160",
+            "236–239"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "NIAID-WIV collaboration",
+          "pages": [
+            "43–44",
+            "100–102",
+            "182",
+            "186"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "US grant documentation",
+          "pages": [
+            "125",
+            "145",
+            "164–165",
+            "170–172",
+            "181–189",
+            "193",
+            "198–201",
+            "231",
+            "238"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Eisenhower, Dwight D.",
+      "prefLabel": "Eisenhower, Dwight D.",
+      "type": "topic",
+      "pages": [
+        "221"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Embarek, Peter",
+      "prefLabel": "Peter Embarek",
+      "type": "person",
+      "pages": [
+        "100"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Farrar, Jeremy",
+      "prefLabel": "Jeremy Farrar",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "EcoHealth Vietnam research",
+          "pages": [
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function ties",
+          "pages": [
+            "157",
+            "226–227"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Lancet letter, signatory",
+          "pages": [
+            "78",
+            "156"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "redacted emails",
+          "pages": [
+            "120",
+            "154–155",
+            "188"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Farzan, Michael",
+      "prefLabel": "Michael Farzan",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "natural-origin skepticism",
+          "pages": [
+            "77"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origins email coterie",
+          "pages": [
+            "155"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Fauci, Anthony",
+      "prefLabel": "Anthony Fauci",
+      "type": "person",
+      "pages": [
+        "37",
+        "73",
+        "77–78",
+        "100",
+        "114",
+        "116–117",
+        "143–146",
+        "156",
+        "165",
+        "170–171",
+        "183",
+        "192–194",
+        "226–227",
+        "229–230",
+        "234",
+        "236–237",
+        "244"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "biodefense expansion",
+          "pages": [
+            "157",
+            "173–176",
+            "209"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "biosafety criticism",
+          "pages": [
+            "188",
+            "209"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "DARPA-Pentagon links",
+          "pages": [
+            "172",
+            "235"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "early response",
+          "pages": [
+            "38–41",
+            "101"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "funding emails",
+          "pages": [
+            "42–46",
+            "109–113",
+            "118",
+            "232"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "NIAID gain-of-function funding",
+          "pages": [
+            "142",
+            "176",
+            "231"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origins coordination",
+          "pages": [
+            "67",
+            "119",
+            "137",
+            "155",
+            "228"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "record deletion",
+          "pages": [
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "scientist network",
+          "pages": [
+            "120–125",
+            "147"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV collaborations",
+          "pages": [
+            "67",
+            "115",
+            "233",
+            "238"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "FBI",
+      "prefLabel": "FBI",
+      "type": "org",
+      "pages": [
+        "237"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Finland",
+      "prefLabel": "Finland",
+      "type": "topic",
+      "pages": [
+        "14",
+        "49",
+        "86–87"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "first European case",
+          "pages": [
+            "50",
+            "54"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "lab-origin suspicions",
+          "pages": [
+            "79–81",
+            "164"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origins-investigation neglect",
+          "pages": [
+            "82",
+            "95",
+            "104",
+            "202",
+            "215"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Safety Investigation Authority report",
+          "pages": [
+            "122"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Five Eyes",
+      "prefLabel": "Five Eyes",
+      "type": "topic",
+      "pages": [
+        "94",
+        "151"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Folkers, Greg",
+      "prefLabel": "Greg Folkers",
+      "type": "person",
+      "pages": [
+        "42",
+        "192"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Fort Detrick",
+      "prefLabel": "Fort Detrick",
+      "type": "place",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "USAMRIID"
+      ],
+      "subentries": [
+        {
+          "term": "USAMRIID, Fort Detrick",
+          "pages": [
+            "140",
+            "174",
+            "179–180",
+            "239"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Fouchier, Ron",
+      "prefLabel": "Ron Fouchier",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "biosecurity debates",
+          "pages": [
+            "19–23",
+            "29",
+            "209"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "H5N1 ferret passaging",
+          "pages": [
+            "21",
+            "96"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Freedom of Information requests",
+      "prefLabel": "Freedom of Information requests",
+      "type": "topic",
+      "pages": [
+        "110–111"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Morens email deletion",
+          "pages": [
+            "232–233"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origins-investigation sabotage",
+          "pages": [
+            "109"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV funding disclosures",
+          "pages": [
+            "112",
+            "165"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Friedman, Matt",
+      "prefLabel": "Matt Friedman",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Baric conversations",
+          "pages": [
+            "45–46",
+            "51",
+            "61"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Shi arrest concern",
+          "pages": [
+            "59",
+            "138"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "gain-of-function moratorium, 2014",
+      "prefLabel": "gain-of-function moratorium, 2014",
+      "type": "event",
+      "pages": [
+        "23",
+        "142",
+        "172"
+      ],
+      "see": [],
+      "see_also": [
+        "gain-of-function research"
+      ],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Gao, George",
+      "prefLabel": "George Gao",
+      "type": "person",
+      "pages": [
+        "184",
+        "205"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Garry, Robert",
+      "prefLabel": "Robert Garry",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "funding increase",
+          "pages": [
+            "120"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "furin-cleavage-site doubts",
+          "pages": [
+            "76–77",
+            "118–119",
+            "232"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Proximal Origin coauthorship",
+          "pages": [
+            "75–76",
+            "230"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "GenBank",
+      "prefLabel": "GenBank",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "deleted entries",
+          "pages": [
+            "126",
+            "226–231"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Ghebreyesus, Tedros Adhanom",
+      "prefLabel": "Tedros Adhanom Ghebreyesus",
+      "type": "person",
+      "pages": [
+        "110"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Gimlett, James",
+      "prefLabel": "James Gimlett",
+      "type": "person",
+      "pages": [
+        "239"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Global Engagement Center",
+      "prefLabel": "Global Engagement Center",
+      "type": "org",
+      "pages": [
+        "72"
+      ],
+      "see": [],
+      "see_also": [
+        "censorship"
+      ],
+      "subentries": [
+        {
+          "term": "information operations",
+          "pages": [
+            "73",
+            "164",
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Russian Disinformation report",
+          "pages": [
+            "71"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Global Virome Project",
+      "prefLabel": "Global Virome Project",
+      "type": "org",
+      "pages": [
+        "184–185",
+        "206"
+      ],
+      "see": [],
+      "see_also": [
+        "PREDICT program"
+      ],
+      "subentries": []
+    },
+    {
+      "indexTerm": "H5N1 avian flu",
+      "prefLabel": "H5N1 avian flu",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "pandemic-potential debate",
+          "pages": [
+            "20–22",
+            "29"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV research context",
+          "pages": [
+            "19",
+            "96"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Holmes, Edward",
+      "prefLabel": "Edward Holmes",
+      "type": "person",
+      "pages": [
+        "15"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "early sequencing",
+          "pages": [
+            "75",
+            "229"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "lab-origin doubts",
+          "pages": [
+            "76",
+            "118–119"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "RaTG13 deposit",
+          "pages": [
+            "228–229"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "secrecy controversies",
+          "pages": [
+            "230",
+            "232"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "House Intelligence Committee",
+      "prefLabel": "House Intelligence Committee",
+      "type": "org",
+      "pages": [
+        "234"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "House Oversight and Reform Committee",
+      "prefLabel": "House Oversight and Reform Committee",
+      "type": "org",
+      "pages": [
+        "42",
+        "198"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Huanan Seafood Market",
+      "prefLabel": "Huanan Seafood Market",
+      "type": "topic",
+      "pages": [
+        "24",
+        "207"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "early investigations",
+          "pages": [
+            "9",
+            "32",
+            "96",
+            "229"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "environmental evidence",
+          "pages": [
+            "66",
+            "206"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "laboratory proximity",
+          "pages": [
+            "57",
+            "70",
+            "211",
+            "234"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origins controversy",
+          "pages": [
+            "39",
+            "93",
+            "118",
+            "205",
+            "223",
+            "230"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "unlinked early cases",
+          "pages": [
+            "204"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Huff, Andrew",
+      "prefLabel": "Andrew Huff",
+      "type": "person",
+      "pages": [
+        "238"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "humanized mouse models",
+      "prefLabel": "humanized mouse models",
+      "type": "topic",
+      "pages": [
+        "46",
+        "51",
+        "100",
+        "114",
+        "143",
+        "148",
+        "176",
+        "201"
+      ],
+      "see": [],
+      "see_also": [
+        "serial passaging"
+      ],
+      "subentries": [
+        {
+          "term": "chimeric bat coronaviruses",
+          "pages": [
+            "67",
+            "113",
+            "142",
+            "160–161",
+            "166",
+            "193",
+            "231"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "EcoHealth funding",
+          "pages": [
+            "165"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "genomic features",
+          "pages": [
+            "44",
+            "166"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "military connections",
+          "pages": [
+            "123"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Intercept, The",
+      "prefLabel": "The Intercept",
+      "type": "person",
+      "pages": [
+        "165",
+        "183",
+        "193"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "intermediate host",
+      "prefLabel": "intermediate host",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "missing animal evidence",
+          "pages": [
+            "93",
+            "204–207",
+            "223",
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "pangolin hypothesis",
+          "pages": [
+            "63"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Ivins, Bruce E.",
+      "prefLabel": "Ivins, Bruce E.",
+      "type": "topic",
+      "pages": [
+        "179–181"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Juote, Otto",
+      "prefLabel": "Otto Juote",
+      "type": "person",
+      "pages": [
+        "23"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "laboratory-origin inquiry",
+          "pages": [
+            "18–20",
+            "27",
+            "29",
+            "55",
+            "79",
+            "123",
+            "223"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Kawaoka, Yoshihiro",
+      "prefLabel": "Yoshihiro Kawaoka",
+      "type": "person",
+      "pages": [
+        "19"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Kerkhove, Maria van",
+      "prefLabel": "Kerkhove, Maria van",
+      "type": "topic",
+      "pages": [
+        "184"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "lab-leak hypothesis",
+      "prefLabel": "lab-leak hypothesis",
+      "type": "topic",
+      "pages": [
+        "38–39",
+        "63",
+        "71",
+        "96",
+        "122–124",
+        "130",
+        "134–136",
+        "165–166",
+        "203",
+        "206–208",
+        "210–211",
+        "223",
+        "235–236"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "biosafety breaches",
+          "pages": [
+            "125",
+            "202",
+            "234"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "censorship of",
+          "pages": [
+            "72–73",
+            "91–93",
+            "102",
+            "164",
+            "217",
+            "219"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "early suspicions",
+          "pages": [
+            "36",
+            "57",
+            "62",
+            "69–70",
+            "95",
+            "204"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function research",
+          "pages": [
+            "5–6",
+            "19–24",
+            "51",
+            "67",
+            "98–100",
+            "112–115",
+            "119–120",
+            "125",
+            "138",
+            "142–148",
+            "160–163",
+            "167–172",
+            "183–194",
+            "199–201",
+            "205",
+            "209",
+            "218",
+            "231",
+            "240",
+            "244"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "genomic evidence",
+          "pages": [
+            "77–81",
+            "97"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "government responses",
+          "pages": [
+            "37",
+            "55",
+            "74",
+            "78–79",
+            "94",
+            "99–109",
+            "237–240"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Proximal Origin paper",
+          "pages": [
+            "75–76",
+            "113",
+            "227"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "YouTube advocacy",
+          "pages": [
+            "48–49",
+            "199–200"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Lancet COVID-19 Commission",
+      "prefLabel": "Lancet COVID-19 Commission",
+      "type": "org",
+      "pages": [
+        "170–172"
+      ],
+      "see": [],
+      "see_also": [
+        "Sachs, Jeffrey"
+      ],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Lancet letter (February 2020)",
+      "prefLabel": "Lancet letter (February 2020)",
+      "type": "work",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "The proximal origin of SARS-CoV-2"
+      ],
+      "subentries": [
+        {
+          "term": "PREDICT program",
+          "pages": [
+            "184–191",
+            "235",
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "signatory conflicts",
+          "pages": [
+            "77–78",
+            "114–115",
+            "172"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Lancet, The",
+      "prefLabel": "The Lancet",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "27-scientist statement",
+          "pages": [
+            "77",
+            "113–115"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "secret calls",
+          "pages": [
+            "156",
+            "170–172"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan clinical-features paper",
+          "pages": [
+            "39"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Laos",
+      "prefLabel": "Laos",
+      "type": "place",
+      "pages": [
+        "199"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Lawrence Livermore National Laboratory",
+      "prefLabel": "Lawrence Livermore National Laboratory",
+      "type": "org",
+      "pages": [
+        "237"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Li Wenliang",
+      "prefLabel": "Li Wenliang",
+      "type": "topic",
+      "pages": [
+        "9",
+        "64"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Li Xu",
+      "prefLabel": "Li Xu",
+      "type": "topic",
+      "pages": [
+        "128"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Lipkin, Ian",
+      "prefLabel": "Ian Lipkin",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "EcoHealth/WIV network",
+          "pages": [
+            "43",
+            "75",
+            "184"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "February 1 teleconference",
+          "pages": [
+            "156–157",
+            "226–227"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Manningham-Buller, Eliza",
+      "prefLabel": "Eliza Manningham-Buller",
+      "type": "person",
+      "pages": [
+        "156"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Meta (Facebook)",
+      "prefLabel": "Meta (Facebook)",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "lab-origin bans",
+          "pages": [
+            "102",
+            "111",
+            "150"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "White House pressure",
+          "pages": [
+            "240"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "MKUltra",
+      "prefLabel": "MKUltra",
+      "type": "topic",
+      "pages": [
+        "180"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Moderna",
+      "prefLabel": "Moderna",
+      "type": "topic",
+      "pages": [
+        "40"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Mojiang mine",
+      "prefLabel": "Mojiang mine",
+      "type": "place",
+      "pages": [
+        "122",
+        "159"
+      ],
+      "see": [],
+      "see_also": [
+        "RaTG13"
+      ],
+      "subentries": [
+        {
+          "term": "independent researchers",
+          "pages": [
+            "125–128"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "military laboratories",
+          "pages": [
+            "234–235"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "miners' illness, 2012",
+          "pages": [
+            "108",
+            "123–130",
+            "147–148"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "RaTG13/Ra4991 link",
+          "pages": [
+            "126",
+            "135–136",
+            "226–229"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "secrecy and obfuscation",
+          "pages": [
+            "131–134"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "US funding",
+          "pages": [
+            "185"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Moore, Margaret",
+      "prefLabel": "Margaret Moore",
+      "type": "person",
+      "pages": [
+        "232"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Morens, David",
+      "prefLabel": "David Morens",
+      "type": "person",
+      "pages": [
+        "232",
+        "242"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Nature (journal)",
+      "prefLabel": "Nature (journal)",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Proximal Origin",
+          "pages": [
+            "119"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "publication debates",
+          "pages": [
+            "44",
+            "66"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Shi RaTG13 paper",
+          "pages": [
+            "59–61",
+            "126–138"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "New York Times",
+      "prefLabel": "New York Times",
+      "type": "topic",
+      "pages": [
+        "74–75",
+        "232"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "NIAID",
+      "prefLabel": "NIAID",
+      "type": "org",
+      "pages": [
+        "37",
+        "239",
+        "242"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Baric knowledge denial",
+          "pages": [
+            "45",
+            "238"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "biodefense infrastructure",
+          "pages": [
+            "73",
+            "173"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Fauci response role",
+          "pages": [
+            "38–41"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "FOIA cover-up evidence",
+          "pages": [
+            "44",
+            "100",
+            "120",
+            "125",
+            "193"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "institutional investigations",
+          "pages": [
+            "156",
+            "240",
+            "244"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "spike-protein emails",
+          "pages": [
+            "160",
+            "226",
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV grant funding",
+          "pages": [
+            "22",
+            "42–43",
+            "67",
+            "78",
+            "100",
+            "113",
+            "145",
+            "165–168",
+            "183",
+            "192",
+            "201",
+            "231–233",
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan engineered viruses",
+          "pages": [
+            "77",
+            "194"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "NIH",
+      "prefLabel": "NIH",
+      "type": "org",
+      "pages": [
+        "232–233"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "cover-up complicity",
+          "pages": [
+            "155",
+            "193",
+            "242–243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "deleted sequences",
+          "pages": [
+            "118",
+            "166",
+            "183",
+            "198–199",
+            "226–231"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "EcoHealth collaborations",
+          "pages": [
+            "22",
+            "101",
+            "115",
+            "145",
+            "173",
+            "175",
+            "183",
+            "191–193",
+            "199",
+            "228",
+            "234–235"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "North Carolina, University of",
+      "prefLabel": "North Carolina, University of",
+      "type": "org",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Baric, [given name not provided]",
+          "pages": [
+            "32",
+            "44",
+            "98",
+            "112",
+            "138",
+            "142",
+            "161",
+            "163",
+            "165",
+            "236"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "biodefense projects",
+          "pages": [
+            "121",
+            "160",
+            "162",
+            "164",
+            "166",
+            "176"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Omicron variant",
+      "prefLabel": "Omicron variant",
+      "type": "topic",
+      "pages": [
+        "214"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Operation Paperclip",
+      "prefLabel": "Operation Paperclip",
+      "type": "topic",
+      "pages": [
+        "35"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Operation Sea-Spray, 1950",
+      "prefLabel": "Operation Sea-Spray, 1950",
+      "type": "event",
+      "pages": [
+        "34"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "pangolins",
+      "prefLabel": "pangolins",
+      "type": "topic",
+      "pages": [
+        "64–66"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "intermediate-host theory",
+          "pages": [
+            "63",
+            "67–68",
+            "75",
+            "93",
+            "122"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Patient Zero",
+      "prefLabel": "Patient Zero",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "first infection",
+          "pages": [
+            "93",
+            "203–204",
+            "207",
+            "211",
+            "213",
+            "223"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "transparency failures",
+          "pages": [
+            "243"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Paul, Rand",
+      "prefLabel": "Rand Paul",
+      "type": "person",
+      "pages": [
+        "105",
+        "145"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "PLA",
+      "prefLabel": "PLA",
+      "type": "org",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "China, Academy of Military Medical Sciences"
+      ],
+      "subentries": [
+        {
+          "term": "gain-of-function experiments",
+          "pages": [
+            "3–6",
+            "19",
+            "28",
+            "31",
+            "46",
+            "51",
+            "59",
+            "80",
+            "100",
+            "114",
+            "132",
+            "139–144",
+            "148",
+            "160–161",
+            "163",
+            "166",
+            "176–177",
+            "192–194",
+            "201",
+            "224",
+            "234",
+            "242–244"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV classified research",
+          "pages": [
+            "148–149",
+            "169",
+            "189–192",
+            "211",
+            "234–235",
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "prefLabel": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "type": "event",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "cover-up debates",
+          "pages": [
+            "66",
+            "133–136"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "data reliability",
+          "pages": [
+            "61"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "furin cleavage site",
+          "pages": [
+            "51–52",
+            "56",
+            "76–77",
+            "80",
+            "94",
+            "119",
+            "125",
+            "131–133",
+            "142",
+            "148",
+            "160–163",
+            "167",
+            "187",
+            "189",
+            "203–210",
+            "224",
+            "226",
+            "230",
+            "234",
+            "236–237",
+            "239",
+            "242–243"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "paper title",
+          "pages": [
+            "59"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "RaTG13 link",
+          "pages": [
+            "60"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Pompeo, Mike",
+      "prefLabel": "Mike Pompeo",
+      "type": "person",
+      "pages": [
+        "94",
+        "152"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "The possible origins of the 2019-nCoV coronavirus",
+      "prefLabel": "The possible origins of the 2019-nCoV coronavirus",
+      "type": "topic",
+      "pages": [
+        "66–67",
+        "70"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "PREEMPT",
+      "prefLabel": "PREEMPT",
+      "type": "org",
+      "pages": [
+        "159",
+        "239"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Project Coast",
+      "prefLabel": "Project Coast",
+      "type": "org",
+      "pages": [
+        "35"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Project Evidence",
+      "prefLabel": "Project Evidence",
+      "type": "org",
+      "pages": [
+        "95",
+        "105",
+        "113"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "The proximal origin of SARS-CoV-2",
+      "prefLabel": "The proximal origin of SARS-CoV-2",
+      "type": "work",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "Lancet letter (February 2020)"
+      ],
+      "subentries": [
+        {
+          "term": "Morens emails",
+          "pages": [
+            "232"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "narrative suppression",
+          "pages": [
+            "75–76",
+            "113",
+            "118–120",
+            "155",
+            "227–231"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "seamless assembly",
+          "pages": [
+            "160",
+            "177–178",
+            "190",
+            "236"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "serial passaging question",
+          "pages": [
+            "80"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Putin, Vladimir",
+      "prefLabel": "Vladimir Putin",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Ukraine, invasion of",
+          "pages": [
+            "215–216"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Qiu, Jane",
+      "prefLabel": "Jane Qiu",
+      "type": "person",
+      "pages": [
+        "139"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Ra4991",
+      "prefLabel": "Ra4991",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "RaTG13"
+      ],
+      "subentries": [
+        {
+          "term": "Mojiang sampling link",
+          "pages": [
+            "127",
+            "229"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Nature paper omission",
+          "pages": [
+            "131"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "prepandemic GenBank submission",
+          "pages": [
+            "126",
+            "226–228"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "raccoon dogs",
+      "prefLabel": "raccoon dogs",
+      "type": "topic",
+      "pages": [
+        "230"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Rahalkar, Monali",
+      "prefLabel": "Monali Rahalkar",
+      "type": "person",
+      "pages": [
+        "105",
+        "125–127",
+        "133"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Rambaut, Andrew",
+      "prefLabel": "Andrew Rambaut",
+      "type": "person",
+      "pages": [
+        "75",
+        "155"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Ren, Lili",
+      "prefLabel": "Lili Ren",
+      "type": "person",
+      "pages": [
+        "231"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Russian flu, 1977",
+      "prefLabel": "Russian flu, 1977",
+      "type": "event",
+      "pages": [
+        "33"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Sachs, Jeffrey",
+      "prefLabel": "Jeffrey Sachs",
+      "type": "person",
+      "pages": [
+        "171–172"
+      ],
+      "see": [],
+      "see_also": [
+        "Lancet COVID-19 Commission"
+      ],
+      "subentries": []
+    },
+    {
+      "indexTerm": "sarbecoviruses",
+      "prefLabel": "sarbecoviruses",
+      "type": "topic",
+      "pages": [
+        "61",
+        "132"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "SARS epidemic (2002–2004)",
+      "prefLabel": "SARS epidemic (2002–2004)",
+      "type": "topic",
+      "pages": [
+        "130"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "bat-coronavirus research",
+          "pages": [
+            "4",
+            "115–116",
+            "121",
+            "132",
+            "140",
+            "147–150",
+            "162"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "experimental-model similarities",
+          "pages": [
+            "51",
+            "139–140"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "impact and case count",
+          "pages": [
+            "2"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "lab escapes",
+          "pages": [
+            "70",
+            "208–209"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origin controversies",
+          "pages": [
+            "50",
+            "52",
+            "129",
+            "131",
+            "144"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan lab development",
+          "pages": [
+            "3",
+            "29"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "SARS-CoV-2 Genome Analysis (DIA report)",
+      "prefLabel": "SARS-CoV-2 Genome Analysis (DIA report)",
+      "type": "event",
+      "pages": [
+        "237",
+        "242"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "prefLabel": "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence",
+      "type": "topic",
+      "pages": [
+        "67",
+        "113",
+        "142"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Science",
+      "prefLabel": "Science",
+      "type": "topic",
+      "pages": [
+        "151"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Fouchier, H5N1 paper",
+          "pages": [
+            "22"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function reports",
+          "pages": [
+            "20"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origin debate",
+          "pages": [
+            "81",
+            "106",
+            "192",
+            "230"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Sciences, Chinese Academy of",
+      "prefLabel": "Sciences, Chinese Academy of",
+      "type": "org",
+      "pages": [
+        "168"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Scientific American",
+      "prefLabel": "Scientific American",
+      "type": "topic",
+      "pages": [
+        "4",
+        "139"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Segreto, Rossana",
+      "prefLabel": "Rossana Segreto",
+      "type": "person",
+      "pages": [
+        "126",
+        "227"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "September 11 attacks",
+      "prefLabel": "September 11 attacks",
+      "type": "event",
+      "pages": [
+        "157",
+        "173–176",
+        "209"
+      ],
+      "see": [],
+      "see_also": [
+        "biodefense complex"
+      ],
+      "subentries": [
+        {
+          "term": "anthrax attacks",
+          "pages": [
+            "172"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Sequence Read Archive",
+      "prefLabel": "Sequence Read Archive",
+      "type": "topic",
+      "pages": [
+        "118"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "serial passaging",
+      "prefLabel": "serial passaging",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "gain-of-function research",
+        "humanized mouse models"
+      ],
+      "subentries": [
+        {
+          "term": "gain-of-function technique",
+          "pages": [
+            "19–21",
+            "51",
+            "140",
+            "167"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "SARS-CoV-2 origins",
+          "pages": [
+            "46",
+            "80–81",
+            "96",
+            "141–142",
+            "234"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "US-Chinese programs",
+          "pages": [
+            "148",
+            "160",
+            "201"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "SHC014",
+      "prefLabel": "SHC014",
+      "type": "topic",
+      "pages": [
+        "141–142",
+        "162"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Shi Zhengli",
+      "prefLabel": "Shi Zhengli",
+      "type": "topic",
+      "pages": [
+        "1",
+        "3",
+        "8",
+        "148"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Baric, Ralph collaboration",
+          "pages": [
+            "138–142"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "bat-coronavirus career",
+          "pages": [
+            "2",
+            "59",
+            "140"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "gain-of-function collaborations",
+          "pages": [
+            "46",
+            "67",
+            "78",
+            "97",
+            "112",
+            "132",
+            "137",
+            "141",
+            "165",
+            "172",
+            "189",
+            "191–192",
+            "233",
+            "241–242"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "military links",
+          "pages": [
+            "149",
+            "176"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "outbreak reaction",
+          "pages": [
+            "2",
+            "4–7",
+            "9",
+            "227",
+            "240"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "RaTG13",
+          "pages": [
+            "60",
+            "76",
+            "108",
+            "118",
+            "126–131",
+            "135",
+            "199",
+            "201",
+            "226–230",
+            "234–235"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "research controversies",
+          "pages": [
+            "46",
+            "117",
+            "133–134",
+            "136",
+            "139",
+            "147",
+            "150",
+            "188",
+            "193",
+            "234",
+            "239"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Rhinolophus affinis",
+          "pages": [
+            "5",
+            "60",
+            "66",
+            "124",
+            "130",
+            "163",
+            "169",
+            "201",
+            "203"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "sequencing timeline",
+          "pages": [
+            "190",
+            "228"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Shoham, Dany",
+      "prefLabel": "Dany Shoham",
+      "type": "person",
+      "pages": [
+        "26",
+        "38"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "intelligence investigations",
+          "pages": [
+            "115",
+            "148"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan bioweapons allegations",
+          "pages": [
+            "27–28",
+            "43",
+            "189"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Sirotkin, Dan",
+      "prefLabel": "Dan Sirotkin",
+      "type": "person",
+      "pages": [
+        "46"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Sirotkin, Karl",
+      "prefLabel": "Karl Sirotkin",
+      "type": "person",
+      "pages": [
+        "46"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Sørensen, Birger",
+      "prefLabel": "Birger Sørensen",
+      "type": "person",
+      "pages": [
+        "97–98"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Stemmy, Erik",
+      "prefLabel": "Erik Stemmy",
+      "type": "person",
+      "pages": [
+        "192",
+        "233"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Sunday Times",
+      "prefLabel": "Sunday Times",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "high-risk WIV research",
+          "pages": [
+            "233–234"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Mojiang mine connection",
+          "pages": [
+            "130"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Sverdlovsk anthrax outbreak, 1979",
+      "prefLabel": "Sverdlovsk anthrax outbreak, 1979",
+      "type": "event",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "biological weapons"
+      ],
+      "subentries": [
+        {
+          "term": "bioweapons accident",
+          "pages": [
+            "29–30",
+            "38"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WHO investigation comparison",
+          "pages": [
+            "31",
+            "103",
+            "206"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Synthetic Viral Genomics: Risks and Benefits for Science and Society",
+      "prefLabel": "Synthetic Viral Genomics: Risks and Benefits for Science and Society",
+      "type": "org",
+      "pages": [
+        "176–177",
+        "187"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Tabak, Lawrence",
+      "prefLabel": "Lawrence Tabak",
+      "type": "person",
+      "pages": [
+        "198–199"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Taiwan BSL-4 laboratory breach, 2003",
+      "prefLabel": "Taiwan BSL-4 laboratory breach, 2003",
+      "type": "event",
+      "pages": [
+        "209"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Taleb, Nassim Nicholas",
+      "prefLabel": "Nassim Nicholas Taleb",
+      "type": "person",
+      "pages": [
+        "52–53"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "TheSeeker",
+      "prefLabel": "TheSeeker",
+      "type": "topic",
+      "pages": [
+        "105",
+        "128",
+        "158"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "This Week in Virology",
+      "prefLabel": "This Week in Virology",
+      "type": "topic",
+      "pages": [
+        "114"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Tian Junhua",
+      "prefLabel": "Tian Junhua",
+      "type": "topic",
+      "pages": [
+        "230"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Times, The (London)",
+      "prefLabel": "Times, The (London)",
+      "type": "topic",
+      "pages": [
+        "192"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Trinity test, 1945",
+      "prefLabel": "Trinity test, 1945",
+      "type": "event",
+      "pages": [
+        "220"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Trump, Donald",
+      "prefLabel": "Donald Trump",
+      "type": "person",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "origin claims",
+          "pages": [
+            "94",
+            "113"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "political interference",
+          "pages": [
+            "107",
+            "165"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Ukraine war, Russia–",
+      "prefLabel": "Ukraine war, Russia–",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "biolabs disinformation",
+          "pages": [
+            "219–220"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origins debate displaced",
+          "pages": [
+            "215–218",
+            "221–222"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Understanding the Risk of Bat Coronavirus Emergence",
+      "prefLabel": "Understanding the Risk of Bat Coronavirus Emergence",
+      "type": "topic",
+      "pages": [
+        "43",
+        "115",
+        "165"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "UNESCO",
+      "prefLabel": "UNESCO",
+      "type": "org",
+      "pages": [
+        "91",
+        "218"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Unit 731",
+      "prefLabel": "Unit 731",
+      "type": "org",
+      "pages": [
+        "35"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "United Kingdom",
+      "prefLabel": "United Kingdom",
+      "type": "topic",
+      "pages": [
+        "92"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "US Geological Survey National Wildlife Health Center",
+      "prefLabel": "US Geological Survey National Wildlife Health Center",
+      "type": "org",
+      "pages": [
+        "162"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "US Right to Know",
+      "prefLabel": "US Right to Know",
+      "type": "topic",
+      "pages": [
+        "235"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "US State Department Fact Sheet",
+      "prefLabel": "US State Department Fact Sheet",
+      "type": "org",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "biosafety warnings",
+          "pages": [
+            "202"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "classified PLA research",
+          "pages": [
+            "148",
+            "152",
+            "189"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "worker illnesses",
+          "pages": [
+            "107"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "USAID",
+      "prefLabel": "USAID",
+      "type": "org",
+      "pages": [],
+      "see": [],
+      "see_also": [
+        "PREDICT program"
+      ],
+      "subentries": [
+        {
+          "term": "EcoHealth Alliance funding",
+          "pages": [
+            "183–185",
+            "191",
+            "234–235"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "virus-sequence withholding",
+          "pages": [
+            "201",
+            "241"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "USAMRIID",
+      "prefLabel": "USAMRIID",
+      "type": "org",
+      "pages": [
+        "140"
+      ],
+      "see": [],
+      "see_also": [
+        "Fort Detrick"
+      ],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Vallance, Patrick",
+      "prefLabel": "Patrick Vallance",
+      "type": "person",
+      "pages": [
+        "120",
+        "155"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Vapalahti, Olli",
+      "prefLabel": "Olli Vapalahti",
+      "type": "person",
+      "pages": [
+        "199"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "viral lineages A and B",
+      "prefLabel": "viral lineages A and B",
+      "type": "topic",
+      "pages": [
+        "203"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Virtanen, Matti",
+      "prefLabel": "Matti Virtanen",
+      "type": "person",
+      "pages": [
+        "222"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "author collaboration",
+          "pages": [
+            "18–23",
+            "29",
+            "121–122"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "media projects",
+          "pages": [
+            "164",
+            "198–200",
+            "212",
+            "216"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Vox",
+      "prefLabel": "Vox",
+      "type": "topic",
+      "pages": [
+        "111"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wade, Nicholas",
+      "prefLabel": "Nicholas Wade",
+      "type": "person",
+      "pages": [
+        "106"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wall Street Journal",
+      "prefLabel": "Wall Street Journal",
+      "type": "topic",
+      "pages": [
+        "24",
+        "107–108",
+        "124"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wang, Linfa",
+      "prefLabel": "Linfa Wang",
+      "type": "person",
+      "pages": [
+        "162",
+        "168"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Washington Post",
+      "prefLabel": "Washington Post",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "classified Wuhan research",
+          "pages": [
+            "96",
+            "148–149",
+            "191"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "lab-leak dismissal",
+          "pages": [
+            "74"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Washington Times",
+      "prefLabel": "Washington Times",
+      "type": "topic",
+      "pages": [
+        "27"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wei, Chen",
+      "prefLabel": "Chen Wei",
+      "type": "person",
+      "pages": [
+        "235"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wellcome Trust",
+      "prefLabel": "Wellcome Trust",
+      "type": "topic",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "covert communications",
+          "pages": [
+            "120",
+            "155",
+            "157"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Farrar directorship",
+          "pages": [
+            "78",
+            "154"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "research funding",
+          "pages": [
+            "156"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "WHO",
+      "prefLabel": "WHO",
+      "type": "org",
+      "pages": [
+        "14–17",
+        "79–80",
+        "82–83",
+        "103",
+        "105"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "China obstruction",
+          "pages": [
+            "106"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Daszak, Peter, conflicts",
+          "pages": [
+            "100",
+            "115–116"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "investigative authority",
+          "pages": [
+            "30",
+            "104",
+            "110"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "origin reports",
+          "pages": [
+            "7–8",
+            "119",
+            "129"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "PHEIC declaration",
+          "pages": [
+            "54"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "risk-assessment delays",
+          "pages": [
+            "52",
+            "81"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "scientist-policy networks",
+          "pages": [
+            "78"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "WIV investigation",
+          "pages": [
+            "93",
+            "99–102",
+            "111",
+            "117–118"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "WHO SAGO",
+      "prefLabel": "WHO SAGO",
+      "type": "topic",
+      "pages": [
+        "184"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wikipedia",
+      "prefLabel": "Wikipedia",
+      "type": "topic",
+      "pages": [
+        "111"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "WIV1",
+      "prefLabel": "WIV1",
+      "type": "topic",
+      "pages": [
+        "162",
+        "241"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wray, Christopher",
+      "prefLabel": "Christopher Wray",
+      "type": "person",
+      "pages": [
+        "237"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wuhan Center for Disease Control and Prevention",
+      "prefLabel": "Wuhan Center for Disease Control and Prevention",
+      "type": "org",
+      "pages": [
+        "3",
+        "57",
+        "70"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wuhan Central Hospital",
+      "prefLabel": "Wuhan Central Hospital",
+      "type": "org",
+      "pages": [
+        "9"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wuhan Institute of Biological Products",
+      "prefLabel": "Wuhan Institute of Biological Products",
+      "type": "org",
+      "pages": [
+        "28"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Wuhan Institute of Virology",
+      "prefLabel": "Wuhan Institute of Virology",
+      "type": "org",
+      "pages": [
+        "1–4",
+        "38",
+        "60",
+        "68–69",
+        "71–75",
+        "77",
+        "109",
+        "126",
+        "130",
+        "133–134",
+        "152–153",
+        "160",
+        "163",
+        "166–167",
+        "210",
+        "236–239",
+        "241"
+      ],
+      "see": [],
+      "see_also": [
+        "BSL-4 laboratory"
+      ],
+      "subentries": [
+        {
+          "term": "Baric collaboration",
+          "pages": [
+            "43–46",
+            "76",
+            "78",
+            "161"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "biosafety lapses",
+          "pages": [
+            "96–97",
+            "107",
+            "143",
+            "162",
+            "201–202",
+            "211"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "classified research",
+          "pages": [
+            "6",
+            "42",
+            "114–115",
+            "137",
+            "148–149",
+            "159",
+            "168–172",
+            "185",
+            "189–191",
+            "200",
+            "234"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "genetic manipulation",
+          "pages": [
+            "5",
+            "95",
+            "123–125",
+            "132",
+            "136",
+            "147",
+            "178",
+            "234",
+            "242–244"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "genomic-data concealment",
+          "pages": [
+            "61",
+            "102",
+            "116–117",
+            "131",
+            "150",
+            "190–191"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "international investigations",
+          "pages": [
+            "164–165",
+            "171",
+            "240"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "military collaboration",
+          "pages": [
+            "27–28",
+            "192–194",
+            "234–235"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Mojiang miners",
+          "pages": [
+            "108",
+            "127–129",
+            "135"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "outbreak proximity",
+          "pages": [
+            "66–67",
+            "70",
+            "144–145",
+            "187–188"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Shi Zhengli lab",
+          "pages": [
+            "46",
+            "59",
+            "227"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Wuhan Metro Line 2",
+      "prefLabel": "Wuhan Metro Line 2",
+      "type": "topic",
+      "pages": [
+        "211"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Xiao Lei",
+      "prefLabel": "Xiao Lei",
+      "type": "topic",
+      "pages": [
+        "66"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Yanyi, Wang",
+      "prefLabel": "Wang Yanyi",
+      "type": "person",
+      "pages": [
+        "2–3",
+        "9"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "crisis communications",
+          "pages": [
+            "59",
+            "227–228"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Year-4 Progress Report (EcoHealth Alliance)",
+      "prefLabel": "Year-4 Progress Report (EcoHealth Alliance)",
+      "type": "event",
+      "pages": [],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "chimeric-virus pathogenicity",
+          "pages": [
+            "165",
+            "193"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "cover-up evidence",
+          "pages": [
+            "193–194"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Year-5 Progress Report (EcoHealth Alliance)",
+      "prefLabel": "Year-5 Progress Report (EcoHealth Alliance)",
+      "type": "event",
+      "pages": [
+        "231"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Yeltsin, Boris",
+      "prefLabel": "Boris Yeltsin",
+      "type": "person",
+      "pages": [
+        "31"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Yle (Finnish Public Broadcasting Company)",
+      "prefLabel": "Yle (Finnish Public Broadcasting Company)",
+      "type": "topic",
+      "pages": [
+        "81",
+        "121"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Yunnan province",
+      "prefLabel": "Yunnan province",
+      "type": "topic",
+      "pages": [
+        "48",
+        "108"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "bat-coronavirus discovery",
+          "pages": [
+            "5",
+            "52",
+            "54",
+            "56",
+            "60–61",
+            "94",
+            "122–124",
+            "126–128",
+            "130",
+            "141",
+            "159",
+            "161",
+            "226"
+          ],
+          "see": [],
+          "see_also": []
+        },
+        {
+          "term": "Wuhan transmission pathways",
+          "pages": [
+            "62",
+            "66",
+            "147",
+            "163",
+            "169",
+            "191"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Zero Covid",
+      "prefLabel": "Zero Covid",
+      "type": "topic",
+      "pages": [
+        "87–89",
+        "99"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "Zhong Nanshan",
+      "prefLabel": "Zhong Nanshan",
+      "type": "topic",
+      "pages": [
+        "129",
+        "135"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    },
+    {
+      "indexTerm": "zoonosis",
+      "prefLabel": "zoonosis",
+      "type": "topic",
+      "pages": [
+        "208"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": [
+        {
+          "term": "Huanan market hypothesis",
+          "pages": [
+            "5",
+            "204–207"
+          ],
+          "see": [],
+          "see_also": []
+        }
+      ]
+    },
+    {
+      "indexTerm": "Zuckerberg, Mark",
+      "prefLabel": "Mark Zuckerberg",
+      "type": "person",
+      "pages": [
+        "240"
+      ],
+      "see": [],
+      "see_also": [],
+      "subentries": []
+    }
+  ]
+}

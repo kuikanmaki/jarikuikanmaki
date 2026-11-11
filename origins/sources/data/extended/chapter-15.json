@@ -1,7 +1,10 @@
 {
   "chapter": 15,
   "chapter_title": "The US Biodefense Complex",
-  "printed_pages": { "start": 169, "end": 182 },
+  "printed_pages": {
+    "start": 169,
+    "end": 182
+  },
   "sources": [
     {
       "id": 1,
@@ -17,11 +20,44 @@
       "language": "en",
       "summary": "Newsweek report that DARPA denied funding the EcoHealth DEFUSE proposal involving WIV after DRASTIC leaked the document—proposal rejected, not awarded.",
       "book_role": "Clarifies DEFUSE was rejected by DARPA while situating it inside the U.S. biodefense funding machine Chapter 15 maps.",
-      "topics": ["DARPA", "DEFUSE denial", "WIV", "DRASTIC leak"],
+      "topics": [
+        "DARPA",
+        "DEFUSE denial",
+        "Wuhan Institute of Virology",
+        "DRASTIC leak"
+      ],
       "entities": {
-        "people": ["Ed Browne"],
-        "orgs": ["Newsweek", "DARPA", "EcoHealth Alliance", "Wuhan Institute of Virology", "DRASTIC"],
-        "places": ["Wuhan", "United States"]
+        "people": [
+          "Ed Browne"
+        ],
+        "orgs": [
+          "Newsweek",
+          "DARPA",
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "DRASTIC"
+        ],
+        "places": [
+          "Wuhan",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:darpa",
+        "org:wuhan-institute-of-virology"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:darpa",
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology",
+          "org:drastic"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -38,11 +74,39 @@
       "language": "en",
       "summary": "Current Affairs interview with Jeffrey Sachs arguing he is ‘pretty convinced’ COVID came from U.S. lab biotechnology and that Washington blocks a real origins investigation amid dangerous unregulated virus research.",
       "book_role": "Prominent commission chair pointing the biodefense finger back at U.S. labs and secrecy.",
-      "topics": ["Jeffrey Sachs", "Lancet COVID-19 Commission", "U.S. lab biotechnology", "investigation blocked"],
+      "topics": [
+        "Jeffrey Sachs",
+        "Lancet COVID-19 Commission",
+        "U.S. lab biotechnology",
+        "investigation blocked"
+      ],
       "entities": {
-        "people": ["Nathan Robinson", "Jeffrey Sachs"],
-        "orgs": ["Current Affairs", "The Lancet"],
-        "places": ["United States"]
+        "people": [
+          "Nathan Robinson",
+          "Jeffrey Sachs"
+        ],
+        "orgs": [
+          "Current Affairs",
+          "The Lancet"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:jeffrey-sachs",
+        "org:lancet-covid-19-commission"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:jeffrey-sachs"
+        ],
+        "orgs": [
+          "org:the-lancet"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -59,11 +123,41 @@
       "language": "en",
       "summary": "UnHerd essay arguing post-9/11 Cheney-era biodefense strategy elevated Fauci’s role and built the risky pathogen-research complex that later backfired.",
       "book_role": "Historical thesis for Chapter 15: U.S. biodefense politics created the institutional world of GoF and pandemic preparedness.",
-      "topics": ["Dick Cheney", "Anthony Fauci", "biodefense", "post-9/11"],
+      "topics": [
+        "Dick Cheney",
+        "Anthony Fauci",
+        "biodefense",
+        "post-9/11"
+      ],
       "entities": {
-        "people": ["Ashley Rindsberg", "Dick Cheney", "Anthony Fauci"],
-        "orgs": ["UnHerd", "NIAID"],
-        "places": ["United States"]
+        "people": [
+          "Ashley Rindsberg",
+          "Dick Cheney",
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "UnHerd",
+          "NIAID"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:dick-cheney",
+        "person:anthony-fauci"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:dick-cheney",
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:niaid"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -80,11 +174,35 @@
       "language": "en",
       "summary": "2014 survey comparing BSL-3 practices at U.S. select-agent versus non–select-agent facilities—empirical look at biosafety variation inside the domestic biodefense lab network.",
       "book_role": "Technical evidence that U.S. high-containment practice itself is uneven—context for exporting risky work abroad.",
-      "topics": ["BSL-3", "select agents", "biosafety practices", "United States"],
+      "topics": [
+        "BSL-3",
+        "select agents",
+        "biosafety practices",
+        "United States"
+      ],
       "entities": {
-        "people": ["Stephanie Richards"],
-        "orgs": ["Biosecurity and Bioterrorism", "PMC"],
-        "places": ["United States"]
+        "people": [
+          "Stephanie Richards"
+        ],
+        "orgs": [
+          "Biosecurity and Bioterrorism",
+          "PMC"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "place:united-states"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pmc"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -101,11 +219,37 @@
       "language": "en",
       "summary": "2007 Baric paper on risks and benefits of synthetic viral genomics—early articulation of dual-use coronavirus reverse-genetics capabilities from a central U.S. practitioner.",
       "book_role": "Primary statement from Baric on synthetic virus tech’s dual-use stakes inside the biodefense complex.",
-      "topics": ["synthetic viral genomics", "dual use", "risks and benefits", "Ralph Baric"],
+      "topics": [
+        "synthetic viral genomics",
+        "dual use",
+        "risks and benefits",
+        "Ralph Baric"
+      ],
       "entities": {
-        "people": ["Ralph Baric"],
-        "orgs": ["University of North Carolina", "ResearchGate"],
-        "places": ["United States"]
+        "people": [
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "University of North Carolina",
+          "ResearchGate"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "person:ralph-baric"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:university-of-north-carolina"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     },
     {
@@ -122,11 +266,29 @@
       "language": "zh",
       "summary": "2015 Chinese Academy of Military Medical Sciences Press book on unnatural SARS origin and artificial humanized viruses as genetic weapons. No URL in source data.",
       "book_role": "Chinese military-medical literature treating humanized viruses as genetic weapons—mirror image of U.S. biodefense dual-use discourse.",
-      "topics": ["genetic weapons", "artificial humanized viruses", "SARS origin", "Chinese military medicine"],
+      "topics": [
+        "genetic weapons",
+        "artificial humanized viruses",
+        "SARS origin",
+        "Chinese military medicine"
+      ],
       "entities": {
-        "people": ["Dezhong Xu"],
-        "orgs": ["Academy of Military Medical Sciences Press"],
-        "places": ["China"]
+        "people": [
+          "Dezhong Xu"
+        ],
+        "orgs": [
+          "Academy of Military Medical Sciences Press"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china"
+        ]
       }
     },
     {
@@ -143,11 +305,38 @@
       "language": "en",
       "summary": "AP/CBC report on Bruce Ivins’s suicide as FBI prepared to indict him in the 2001 anthrax-letter attacks—foundational trauma of the U.S. biodefense era.",
       "book_role": "Historical anchor: domestic bioweapons lab insider threat that turbocharged post-anthrax biodefense spending.",
-      "topics": ["anthrax attacks", "Bruce Ivins", "FBI", "biodefense origins"],
+      "topics": [
+        "anthrax attacks",
+        "Bruce Ivins",
+        "FBI",
+        "biodefense origins"
+      ],
       "entities": {
-        "people": ["Bruce Ivins"],
-        "orgs": ["Associated Press", "CBC", "FBI", "U.S. Army"],
-        "places": ["United States"]
+        "people": [
+          "Bruce Ivins"
+        ],
+        "orgs": [
+          "Associated Press",
+          "CBC",
+          "FBI",
+          "U.S. Army"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "org:fbi"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:associated-press",
+          "org:fbi"
+        ],
+        "places": [
+          "place:united-states"
+        ]
       }
     }
   ]

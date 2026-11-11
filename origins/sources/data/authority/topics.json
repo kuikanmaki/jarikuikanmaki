@@ -1,0 +1,622 @@
+{
+  "type": "topic",
+  "items": [
+    {
+      "id": "topic:ace2-receptors",
+      "prefLabel": "ACE2 receptors",
+      "indexTerm": "ACE2 receptors",
+      "altLabels": [
+        "ACE2",
+        "ACE2 receptor"
+      ],
+      "related": [],
+      "subentries": [
+        "chimeric-virus experiments",
+        "data suppression",
+        "human-cell entry",
+        "origin debates"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:anthrax",
+      "prefLabel": "anthrax",
+      "indexTerm": "anthrax",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "biodefense buildup",
+        "Cold War testing",
+        "Ivins, Bruce case"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:banal-52",
+      "prefLabel": "BANAL-52",
+      "indexTerm": "BANAL-52",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "199"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:bat-coronaviruses",
+      "prefLabel": "bat coronaviruses",
+      "indexTerm": "bat coronaviruses",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "chimeric-virus creation",
+        "DARPA DEFUSE links",
+        "furin-site insertion",
+        "humanized-mouse testing",
+        "RaTG13 genomic link",
+        "Shi Zhengli research",
+        "US agency funding",
+        "Yunnan-Wuhan pathways"
+      ],
+      "pages": [
+        "3–4",
+        "61–62",
+        "96",
+        "100",
+        "115–117",
+        "126",
+        "136–140",
+        "178",
+        "186",
+        "188–190"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:biodefense-complex",
+      "prefLabel": "biodefense complex",
+      "indexTerm": "biodefense complex",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "September 11 attacks",
+          "id": "event:september-11-attacks"
+        }
+      ],
+      "subentries": [
+        "clandestine research",
+        "Doomsday Machine fears",
+        "post-9/11 expansion"
+      ],
+      "pages": [
+        "178"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:biological-weapons",
+      "prefLabel": "biological weapons",
+      "indexTerm": "biological weapons",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "Sverdlovsk anthrax outbreak, 1979",
+          "id": "event:sverdlovsk-anthrax-outbreak-1979"
+        }
+      ],
+      "subentries": [
+        "Chinese program allegations",
+        "Detrick, Fort",
+        "secrecy and suppression",
+        "Soviet-Chinese parallels",
+        "synthetic-virus engineering",
+        "US biodefense complex"
+      ],
+      "pages": [
+        "29",
+        "36",
+        "38",
+        "48",
+        "221"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:biosafety",
+      "prefLabel": "biosafety",
+      "indexTerm": "biosafety",
+      "altLabels": [
+        "biosecurity"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:biosecurity",
+      "prefLabel": "biosecurity",
+      "indexTerm": "biosecurity",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "dual-use publication debate",
+        "gain-of-function moratorium",
+        "Wuhan lab warnings"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:blast",
+      "prefLabel": "BLAST",
+      "indexTerm": "BLAST",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "126",
+        "227–229"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:bsl-4-laboratory",
+      "prefLabel": "BSL-4 laboratory",
+      "indexTerm": "BSL-4 laboratory",
+      "altLabels": [
+        "BSL-4",
+        "BSL4",
+        "P4",
+        "P4 lab",
+        "BSL-4 lab"
+      ],
+      "related": [
+        {
+          "label": "Wuhan Institute of Virology",
+          "id": "org:wuhan-institute-of-virology"
+        }
+      ],
+      "subentries": [
+        "construction and purpose",
+        "international collaboration"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:censorship",
+      "prefLabel": "censorship",
+      "indexTerm": "censorship",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "Global Engagement Center",
+          "id": "org:global-engagement-center"
+        }
+      ],
+      "subentries": [
+        "foreknowledge concealed",
+        "public discourse impact",
+        "social media restrictions"
+      ],
+      "pages": [
+        "91"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:chimeric-viruses",
+      "prefLabel": "chimeric viruses",
+      "indexTerm": "chimeric viruses",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "reverse genetics",
+          "id": null
+        }
+      ],
+      "subentries": [
+        "gain-of-function methods"
+      ],
+      "pages": [
+        "231–233"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:covid-19",
+      "prefLabel": "COVID-19",
+      "indexTerm": "COVID-19",
+      "altLabels": [
+        "Covid-19",
+        "covid19",
+        "coronavirus disease 2019"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:freedom-of-information-requests",
+      "prefLabel": "Freedom of Information requests",
+      "indexTerm": "Freedom of Information requests",
+      "altLabels": [
+        "FOIA",
+        "FoIA",
+        "FOI"
+      ],
+      "related": [],
+      "subentries": [
+        "Morens email deletion",
+        "origins-investigation sabotage",
+        "WIV funding disclosures"
+      ],
+      "pages": [
+        "110–111"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:furin-cleavage-site",
+      "prefLabel": "furin cleavage site",
+      "indexTerm": "furin cleavage site",
+      "altLabels": [
+        "FCS",
+        "furin site"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:gain-of-function-research",
+      "prefLabel": "gain-of-function research",
+      "indexTerm": "gain-of-function research",
+      "altLabels": [
+        "gain-of-function",
+        "gain of function",
+        "GoF",
+        "GOF"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:h5n1-avian-flu",
+      "prefLabel": "H5N1 avian flu",
+      "indexTerm": "H5N1 avian flu",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "pandemic-potential debate",
+        "WIV research context"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:humanized-mouse-models",
+      "prefLabel": "humanized mouse models",
+      "indexTerm": "humanized mouse models",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "serial passaging",
+          "id": "topic:serial-passaging"
+        }
+      ],
+      "subentries": [
+        "chimeric bat coronaviruses",
+        "EcoHealth funding",
+        "genomic features",
+        "military connections"
+      ],
+      "pages": [
+        "46",
+        "51",
+        "100",
+        "114",
+        "143",
+        "148",
+        "176",
+        "201"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:intermediate-host",
+      "prefLabel": "intermediate host",
+      "indexTerm": "intermediate host",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "missing animal evidence",
+        "pangolin hypothesis"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:lab-leak-hypothesis",
+      "prefLabel": "lab-leak hypothesis",
+      "indexTerm": "lab-leak hypothesis",
+      "altLabels": [
+        "lab leak",
+        "lab leak hypothesis",
+        "lab origin",
+        "lab-leak",
+        "laboratory leak",
+        "laboratory origin",
+        "lab leak theory"
+      ],
+      "related": [],
+      "subentries": [
+        "biosafety breaches",
+        "censorship of",
+        "early suspicions",
+        "gain-of-function research",
+        "genomic evidence",
+        "government responses",
+        "Proximal Origin paper",
+        "YouTube advocacy"
+      ],
+      "pages": [
+        "38–39",
+        "63",
+        "71",
+        "96",
+        "122–124",
+        "130",
+        "134–136",
+        "165–166",
+        "203",
+        "206–208",
+        "210–211",
+        "223",
+        "235–236"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:mers",
+      "prefLabel": "MERS",
+      "indexTerm": "MERS",
+      "altLabels": [
+        "MERS-CoV"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:omicron-variant",
+      "prefLabel": "Omicron variant",
+      "indexTerm": "Omicron variant",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "214"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:pangolins",
+      "prefLabel": "pangolins",
+      "indexTerm": "pangolins",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "intermediate-host theory"
+      ],
+      "pages": [
+        "64–66"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:patient-zero",
+      "prefLabel": "Patient Zero",
+      "indexTerm": "Patient Zero",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "first infection",
+        "transparency failures"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:ra4991",
+      "prefLabel": "Ra4991",
+      "indexTerm": "Ra4991",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "RaTG13",
+          "id": null
+        }
+      ],
+      "subentries": [
+        "Mojiang sampling link",
+        "Nature paper omission",
+        "prepandemic GenBank submission"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:raccoon-dogs",
+      "prefLabel": "raccoon dogs",
+      "indexTerm": "raccoon dogs",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "230"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:ratg13",
+      "prefLabel": "RaTG13",
+      "indexTerm": "RaTG13",
+      "altLabels": [
+        "RaTG13 virus",
+        "RaTG13 sequence"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:reverse-genetics",
+      "prefLabel": "reverse genetics",
+      "indexTerm": "reverse genetics",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:sarbecoviruses",
+      "prefLabel": "sarbecoviruses",
+      "indexTerm": "sarbecoviruses",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "61",
+        "132"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:sars",
+      "prefLabel": "SARS",
+      "indexTerm": "SARS",
+      "altLabels": [
+        "SARS-CoV",
+        "severe acute respiratory syndrome"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:sars-cov-2",
+      "prefLabel": "SARS-CoV-2",
+      "indexTerm": "SARS-CoV-2",
+      "altLabels": [
+        "2019-nCoV",
+        "COVID-19 virus",
+        "novel coronavirus"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "topic:serial-passaging",
+      "prefLabel": "serial passaging",
+      "indexTerm": "serial passaging",
+      "altLabels": [],
+      "related": [
+        {
+          "label": "gain-of-function research",
+          "id": null
+        },
+        {
+          "label": "humanized mouse models",
+          "id": "topic:humanized-mouse-models"
+        }
+      ],
+      "subentries": [
+        "gain-of-function technique",
+        "SARS-CoV-2 origins",
+        "US-Chinese programs"
+      ],
+      "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:shc014",
+      "prefLabel": "SHC014",
+      "indexTerm": "SHC014",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "141–142",
+        "162"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:viral-lineages-a-and-b",
+      "prefLabel": "viral lineages A and B",
+      "indexTerm": "viral lineages A and B",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "203"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:wiv1",
+      "prefLabel": "WIV1",
+      "indexTerm": "WIV1",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "162",
+        "241"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:zero-covid",
+      "prefLabel": "Zero Covid",
+      "indexTerm": "Zero Covid",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "87–89",
+        "99"
+      ],
+      "source": "book-index"
+    },
+    {
+      "id": "topic:zoonosis",
+      "prefLabel": "zoonosis",
+      "indexTerm": "zoonosis",
+      "altLabels": [],
+      "related": [],
+      "subentries": [
+        "Huanan market hypothesis"
+      ],
+      "pages": [
+        "208"
+      ],
+      "source": "book-index"
+    }
+  ]
+}

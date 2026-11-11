@@ -1,7 +1,10 @@
 {
   "chapter": 2,
   "chapter_title": "Bioweapons?",
-  "printed_pages": { "start": 27, "end": 37 },
+  "printed_pages": {
+    "start": 27,
+    "end": 37
+  },
   "sources": [
     {
       "id": 1,
@@ -17,11 +20,39 @@
       "language": "en",
       "summary": "Washington Times article quoting analyst Dany Shoham on a possible link between the Wuhan outbreak and Chinese biological-warfare–related laboratories. Notes record an earlier 24 January headline variant tying Wuhan labs to a bio-warfare program.",
       "book_role": "Introduces the early bioweapons hypothesis and Shoham’s analysis that Chapter 2 interrogates.",
-      "topics": ["bioweapons", "Dany Shoham", "Wuhan labs", "China BW program"],
+      "topics": [
+        "bioweapons",
+        "Dany Shoham",
+        "Wuhan labs",
+        "China BW program"
+      ],
       "entities": {
-        "people": ["Bill Gertz", "Dany Shoham"],
-        "orgs": ["Washington Times"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Bill Gertz",
+          "Dany Shoham"
+        ],
+        "orgs": [
+          "The Washington Times"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "person:dany-shoham"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:dany-shoham"
+        ],
+        "orgs": [
+          "org:the-washington-times"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -38,11 +69,36 @@
       "language": "en",
       "summary": "Amazon product page for David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy. Page is a retail landing page, not book text.",
       "book_role": "Background reading on Cold War biological-weapons history informing Chapter 2’s bioweapons frame.",
-      "topics": ["Cold War", "biological weapons", "arms race"],
+      "topics": [
+        "Cold War",
+        "biological weapons",
+        "arms race"
+      ],
       "entities": {
-        "people": ["David Hoffman"],
-        "orgs": ["Doubleday", "Amazon"],
-        "places": ["Soviet Union", "United States"]
+        "people": [
+          "David Hoffman"
+        ],
+        "orgs": [
+          "Doubleday",
+          "Amazon"
+        ],
+        "places": [
+          "Soviet Union",
+          "United States"
+        ]
+      },
+      "topic_ids": [
+        "topic:biological-weapons"
+      ],
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": [
+          "place:soviet-union",
+          "place:united-states"
+        ]
       }
     },
     {
@@ -59,11 +115,42 @@
       "language": "en",
       "summary": "Amazon product page for Ken Alibek’s insider account of the Soviet biological weapons program. Retail landing page only.",
       "book_role": "Key historical reference for covert state bioweapons programs discussed in Chapter 2.",
-      "topics": ["Soviet bioweapons", "Ken Alibek", "Biopreparat"],
+      "topics": [
+        "Soviet bioweapons",
+        "Ken Alibek",
+        "Biopreparat"
+      ],
       "entities": {
-        "people": ["Ken Alibek", "Stephen Handelman"],
-        "orgs": ["Random House", "Biopreparat", "Amazon"],
-        "places": ["Soviet Union", "Russia"]
+        "people": [
+          "Ken Alibek",
+          "Stephen Handelman"
+        ],
+        "orgs": [
+          "Random House",
+          "Biopreparat",
+          "Amazon"
+        ],
+        "places": [
+          "Soviet Union",
+          "Russia"
+        ]
+      },
+      "topic_ids": [
+        "person:ken-alibek",
+        "org:biopreparat"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:ken-alibek"
+        ],
+        "orgs": [
+          "org:biopreparat",
+          "org:amazon"
+        ],
+        "places": [
+          "place:soviet-union",
+          "place:russia"
+        ]
       }
     },
     {
@@ -80,11 +167,41 @@
       "language": "en",
       "summary": "STAT report that WHO confirmed Chinese authorities believed a new coronavirus may cause Wuhan’s mysterious pneumonia cases, before China had fully stated that publicly.",
       "book_role": "Tracks the early scientific/WHO framing of the outbreak as a novel coronavirus alongside bioweapons speculation.",
-      "topics": ["WHO", "novel coronavirus", "Wuhan pneumonia"],
+      "topics": [
+        "WHO",
+        "SARS-CoV-2",
+        "Wuhan pneumonia"
+      ],
       "entities": {
-        "people": ["Helen Branswell"],
-        "orgs": ["STAT News", "World Health Organization", "Wall Street Journal"],
-        "places": ["Wuhan", "China"]
+        "people": [
+          "Helen Branswell"
+        ],
+        "orgs": [
+          "STAT News",
+          "WHO",
+          "The Wall Street Journal"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "topic_ids": [
+        "org:who",
+        "topic:sars-cov-2"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:helen-branswell"
+        ],
+        "orgs": [
+          "org:who",
+          "org:the-wall-street-journal"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:china"
+        ]
       }
     },
     {
@@ -101,11 +218,32 @@
       "language": "en",
       "summary": "mBio analysis linking the 1977 H1N1 reemergence (widely discussed as a possible lab-related event) to contemporary gain-of-function policy debates.",
       "book_role": "Scientific precedent for lab-origin influenza used when Chapter 2 weighs accidental release vs bioweapon narratives.",
-      "topics": ["1977 H1N1", "lab escape", "gain-of-function debate"],
+      "topics": [
+        "1977 H1N1",
+        "lab escape",
+        "gain-of-function debate"
+      ],
       "entities": {
-        "people": ["Michelle Rozo", "Gigi Kwik Gronvall"],
-        "orgs": ["mBio", "American Society for Microbiology"],
-        "places": ["China", "Soviet Union"]
+        "people": [
+          "Michelle Rozo",
+          "Gigi Kwik Gronvall"
+        ],
+        "orgs": [
+          "mBio",
+          "American Society for Microbiology"
+        ],
+        "places": [
+          "China",
+          "Soviet Union"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:china",
+          "place:soviet-union"
+        ]
       }
     }
   ]
