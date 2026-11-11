@@ -890,6 +890,15 @@ img {
   gap: 0.625rem;
   padding-block: 0.125rem;
 }
+.sources-page .source-item-expandable {
+  display: block;
+  padding-block: 0.35rem;
+}
+.sources-page .source-item-main {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
 .sources-page .source-id {
   flex: 0 0 auto;
   text-align: left;
@@ -898,8 +907,51 @@ img {
   color: hsl(var(--muted-foreground));
   padding-top: 0.35rem;
 }
-.sources-page .source-ref { min-width: 0; }
+.sources-page .source-ref { min-width: 0; flex: 1 1 auto; }
 .sources-page .source-ref em { font-style: italic; }
+.sources-page .source-expand-btn {
+  flex: 0 0 auto;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.1rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--card));
+  color: hsl(var(--muted-foreground));
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.sources-page .source-expand-btn:hover {
+  border-color: hsl(var(--accent));
+  color: hsl(var(--accent));
+}
+.sources-page .source-expand-icon {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  margin-top: -0.15rem;
+  transition: transform 0.15s ease;
+}
+.sources-page .source-item-expandable.is-expanded .source-expand-icon {
+  transform: rotate(-135deg);
+  margin-top: 0.15rem;
+}
+.sources-page .source-item-detail {
+  margin: 0.55rem 0 0.65rem 1.35rem;
+  padding: 0.75rem 0 0.15rem;
+  border-top: 1px solid hsl(var(--border));
+}
+.sources-page .source-item-detail .catalog-card-meta {
+  margin-bottom: 0.45rem;
+}
+.sources-page .source-item-detail .catalog-card-summary {
+  margin-top: 0;
+}
 .sources-page .notes-divider {
   margin-block: 2rem;
   border: 0;
@@ -908,8 +960,10 @@ img {
 .sources-page .back-to-top { margin-top: 2rem; text-align: center; }
 .sources-page .status { color: hsl(var(--muted-foreground)); }
 @media (max-width: 639px) {
-  .sources-page .source-item { flex-direction: column; gap: 0.125rem; }
+  .sources-page .source-item:not(.source-item-expandable) { flex-direction: column; gap: 0.125rem; }
+  .sources-page .source-item-main { gap: 0.4rem; }
   .sources-page .source-id { flex: none; text-align: left; padding-top: 0; }
+  .sources-page .source-item-detail { margin-left: 0; }
 }
 @media (min-width: 640px) {
   :is(.origins-page, .sources-page) main h1 { font-size: 2.5rem; }

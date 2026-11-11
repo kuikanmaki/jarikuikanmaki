@@ -80,8 +80,7 @@
     return [];
   }
 
-  function renderCard(s) {
-    var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
+  function enrichmentBlock(s) {
     var topics = (s.topics || []).slice(0, 4);
     var topicLine = topics.length
       ? '<p class="catalog-card-topics">' + topics.map(escapeHtml).join(" · ") + "</p>"
@@ -92,6 +91,20 @@
     var status = s.status && s.status !== "ok"
       ? '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>"
       : "";
+    var kind = s.content_kind_label
+      ? '<p class="catalog-card-meta">' + escapeHtml(s.content_kind_label) + "</p>"
+      : "";
+    return (
+      kind +
+      (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
+      role +
+      topicLine +
+      status
+    );
+  }
+
+  function renderCard(s) {
+    var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
     var url = s.url || "#";
     return (
       '<article class="catalog-card">' +
@@ -105,12 +118,50 @@
           "</a>" +
         "</h3>" +
         (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
-        (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
-        role +
-        topicLine +
-        status +
+        enrichmentBlock(s) +
       "</article>"
     );
+  }
+
+  function renderChapterSourceList(rows) {
+    if (!rows.length) {
+      return '<p class="status">No sources listed for this chapter.</p>';
+    }
+    var items = rows.map(function (s) {
+      var id = escapeHtml(s.id != null ? s.id : "?");
+      var url = (typeof s.url === "string" && s.url) ? s.url : "#";
+      var author = escapeHtml(s.author || "");
+      var title = escapeHtml(s.title || "");
+      var publication = escapeHtml(s.publication || "");
+      var date = escapeHtml(s.date || "");
+      var key = escapeHtml(s.source_key || ("ch" + s.chapter + "-s" + s.id));
+      var detail = enrichmentBlock(s);
+      var hasDetail = !!(s.summary || s.book_role || (s.topics && s.topics.length) || (s.status && s.status !== "ok"));
+      return (
+        '<li class="source-item source-item-expandable" data-source-key="' + key + '">' +
+          '<div class="source-item-main">' +
+            '<span class="source-id" aria-hidden="true">' + id + ".</span>" +
+            '<span class="source-ref">' +
+              '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+                (author ? author + ", " : "") +
+                "<em>" + title + "</em>" +
+                (publication ? ", " + publication : "") +
+                (date ? ", " + date : "") +
+              "</a>" +
+            "</span>" +
+            (hasDetail
+              ? '<button type="button" class="source-expand-btn" aria-expanded="false" aria-controls="detail-' + key + '" title="Show source details" aria-label="Show details for source ' + id + '">' +
+                  '<span class="source-expand-icon" aria-hidden="true"></span>' +
+                "</button>"
+              : "") +
+          "</div>" +
+          (hasDetail
+            ? '<div class="source-item-detail" id="detail-' + key + '" hidden>' + detail + "</div>"
+            : "") +
+        "</li>"
+      );
+    }).join("\n");
+    return '<ol class="sources-list">' + items + "</ol>";
   }
 
   function renderPager(total) {
@@ -133,8 +184,6 @@
   function renderResults() {
     var rows = sourcesForView();
     var total = rows.length;
-    var start = (view.page - 1) * PAGE_SIZE;
-    var pageRows = rows.slice(start, start + PAGE_SIZE);
 
     backEl.hidden = false;
     headingEl.hidden = false;
@@ -147,29 +196,31 @@
         (view.keyword ? " tagged with “" + view.keyword.label + "”" : "");
       notesEl.hidden = true;
       notesEl.innerHTML = "";
-    } else {
-      var chName = chapterLabel(view.chapter);
-      var meta = (corpus.chapters || []).find(function (c) { return c.number === view.chapter; });
-      headingEl.textContent = meta ? meta.name + " — " + meta.title : chName;
-      statusEl.hidden = true;
-      statusEl.textContent = "";
-    }
 
-    if (!pageRows.length) {
-      outEl.innerHTML = '<p class="status">No sources match this view.</p>';
-      renderPager(0);
+      var start = (view.page - 1) * PAGE_SIZE;
+      var pageRows = rows.slice(start, start + PAGE_SIZE);
+      if (!pageRows.length) {
+        outEl.innerHTML = '<p class="status">No sources match this view.</p>';
+        renderPager(0);
+        return;
+      }
+      outEl.innerHTML =
+        '<div class="catalog-card-list">' +
+        pageRows.map(renderCard).join("") +
+        "</div>";
+      renderPager(total);
       return;
     }
 
-    outEl.innerHTML =
-      '<div class="catalog-card-list">' +
-      pageRows.map(renderCard).join("") +
-      "</div>";
-    renderPager(total);
-
-    if (view.mode === "chapter") {
-      loadNotes(view.chapter);
-    }
+    var chName = chapterLabel(view.chapter);
+    var meta = (corpus.chapters || []).find(function (c) { return c.number === view.chapter; });
+    headingEl.textContent = meta ? meta.name + " — " + meta.title : chName;
+    statusEl.hidden = true;
+    statusEl.textContent = "";
+    pagerEl.hidden = true;
+    pagerEl.innerHTML = "";
+    outEl.innerHTML = renderChapterSourceList(rows);
+    loadNotes(view.chapter);
   }
 
   function loadNotes(chapterNumber) {
@@ -415,6 +466,21 @@
     if (btn.getAttribute("data-page") === "next") view.page = Math.min(pages, view.page + 1);
     renderResults();
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  outEl.addEventListener("click", function (e) {
+    var btn = e.target.closest(".source-expand-btn");
+    if (!btn) return;
+    e.preventDefault();
+    var item = btn.closest(".source-item-expandable");
+    if (!item) return;
+    var detail = item.querySelector(".source-item-detail");
+    if (!detail) return;
+    var open = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", open ? "false" : "true");
+    detail.hidden = open;
+    item.classList.toggle("is-expanded", !open);
+    btn.title = open ? "Show source details" : "Hide source details";
   });
 
   document.addEventListener("click", function (e) {
