@@ -340,6 +340,11 @@
       .slice(0, 8);
 
     exploreEl.innerHTML = "";
+    var label = document.createElement("span");
+    label.className = "catalog-examples-label";
+    label.textContent = "For example:";
+    exploreEl.appendChild(label);
+    exploreEl.appendChild(document.createTextNode(" "));
     picks.forEach(function (k, idx) {
       var btn = document.createElement("button");
       btn.type = "button";

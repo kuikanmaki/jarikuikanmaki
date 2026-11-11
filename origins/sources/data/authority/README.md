@@ -51,7 +51,7 @@ The Sources page is a search-led catalog:
 
 - MiniSearch over `../authority-search-index.json`
 - Enriched cards from `../corpus-index.json` (public fields only; no artifacts)
-- Try searching shelf + Chapters shelf + paginated results
+- Example-search prompts + Chapters shelf + paginated results
 
 Rebuild after authority or extended-chapter changes:
 
