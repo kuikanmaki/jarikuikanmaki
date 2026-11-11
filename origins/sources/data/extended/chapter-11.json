@@ -55,7 +55,9 @@
           "place:mojiang-mine",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch11-s01",
+      "date_iso": "2021-06-13"
     },
     {
       "id": 2,
@@ -90,7 +92,9 @@
         "topic:pangolins",
         "topic:ratg13",
         "topic:furin-cleavage-site"
-      ]
+      ],
+      "source_key": "ch11-s02",
+      "date_iso": "2020-02-20"
     },
     {
       "id": 3,
@@ -142,7 +146,9 @@
           "place:yunnan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s03",
+      "date_iso": "2016"
     },
     {
       "id": 4,
@@ -189,7 +195,9 @@
           "place:mojiang-mine",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s04",
+      "date_iso": "2016-03-04"
     },
     {
       "id": 5,
@@ -239,7 +247,9 @@
       },
       "topic_ids": [
         "topic:ratg13"
-      ]
+      ],
+      "source_key": "ch11-s05",
+      "date_iso": "2020-10-20"
     },
     {
       "id": 6,
@@ -292,7 +302,9 @@
           "place:mojiang-mine",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch11-s06",
+      "date_iso": "2020-01-27"
     },
     {
       "id": 7,
@@ -343,7 +355,9 @@
           "place:mojiang-mine",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s07",
+      "date_iso": "2021-07-11"
     },
     {
       "id": 8,
@@ -390,7 +404,9 @@
           "place:mojiang-mine",
           "place:yunnan"
         ]
-      }
+      },
+      "source_key": "ch11-s08",
+      "date_iso": "2013-05"
     },
     {
       "id": 9,
@@ -436,7 +452,9 @@
         "places": [
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s09",
+      "date_iso": "2016-06"
     },
     {
       "id": 10,
@@ -483,7 +501,9 @@
           "place:china",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch11-s10",
+      "date_iso": "2020-09-22"
     },
     {
       "id": 11,
@@ -534,7 +554,9 @@
           "place:mojiang-mine",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch11-s11",
+      "date_iso": "2021-05-11"
     },
     {
       "id": 12,
@@ -585,7 +607,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s12",
+      "date_iso": "2021-02-06"
     },
     {
       "id": 13,
@@ -630,7 +654,9 @@
           "place:hubei",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s13",
+      "date_iso": "2020-04-08"
     },
     {
       "id": 14,
@@ -681,7 +707,9 @@
         "places": [
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch11-s14",
+      "date_iso": "2013-10-30"
     },
     {
       "id": 15,
@@ -722,7 +750,9 @@
           "org:pmc"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch11-s15",
+      "date_iso": "2006-07-05"
     },
     {
       "id": 16,
@@ -760,7 +790,9 @@
           "org:pubmed"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch11-s16",
+      "date_iso": "2000-02-01"
     },
     {
       "id": 17,
@@ -792,7 +824,9 @@
           "Emerging Microbes & Infections"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch11-s17",
+      "date_iso": "2020-02-26"
     },
     {
       "id": 18,
@@ -835,7 +869,9 @@
           "org:u-s-right-to-know"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch11-s18",
+      "date_iso": "2021-08-11"
     },
     {
       "id": 19,
@@ -879,7 +915,9 @@
           "place:china",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch11-s19",
+      "date_iso": "2020-12-30"
     },
     {
       "id": 20,
@@ -930,7 +968,9 @@
           "place:mojiang-mine",
           "place:yunnan"
         ]
-      }
+      },
+      "source_key": "ch11-s20",
+      "date_iso": "2016-02-18"
     }
   ]
 }

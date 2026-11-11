@@ -587,6 +587,150 @@ img {
 
 .sources-page .sources-intro { margin-top: 1rem; font-size: 1rem; line-height: 1.75; color: hsl(var(--muted-foreground)); }
 
+/* View mode tabs */
+.sources-page .sources-mode-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.sources-page .sources-mode-tab {
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  color: hsl(var(--muted-foreground));
+  border-radius: var(--radius);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sources-page .sources-mode-tab:hover {
+  color: hsl(var(--foreground));
+  border-color: hsl(var(--accent));
+}
+.sources-page .sources-mode-tab.is-active {
+  color: hsl(var(--foreground));
+  border-color: hsl(var(--accent));
+  box-shadow: inset 0 -2px 0 hsl(var(--accent));
+}
+
+/* Corpus browse filters */
+.sources-page .corpus-browse {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--card));
+}
+.sources-page .corpus-browse-filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1rem;
+}
+@media (min-width: 640px) {
+  .sources-page .corpus-browse-filters {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.sources-page .corpus-browse-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .corpus-browse-filters select {
+  height: 2.5rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0 0.6rem;
+}
+.sources-page .corpus-browse-count {
+  margin: 0.85rem 0 0;
+}
+
+/* Corpus source cards */
+.sources-page .corpus-card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.sources-page .corpus-card {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid hsl(var(--border));
+}
+.sources-page .corpus-card:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.sources-page .corpus-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.35rem;
+}
+.sources-page .corpus-card-title {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.sources-page .corpus-card-title a {
+  color: hsl(var(--reference-link));
+  text-decoration: none;
+}
+.sources-page .corpus-card-title a:hover {
+  text-decoration: underline;
+}
+.sources-page .corpus-card-biblio {
+  margin: 0.35rem 0 0;
+  font-size: 0.9375rem;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .corpus-card-summary {
+  margin: 0.55rem 0 0;
+  font-size: 0.975rem;
+  line-height: 1.6;
+  color: hsl(var(--foreground));
+}
+.sources-page .corpus-card-topics {
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.sources-page .corpus-card-topics li {
+  font-size: 0.75rem;
+  color: hsl(var(--muted-foreground));
+  border: 1px solid hsl(var(--border));
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+}
+.sources-page .corpus-card-status {
+  margin-top: 0.45rem;
+  font-size: 0.75rem;
+  color: hsl(var(--muted-foreground));
+}
+
 /* Authority keyword search (MiniSearch) */
 .sources-page .sources-search {
   position: relative;

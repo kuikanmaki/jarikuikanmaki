@@ -46,7 +46,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch18-s01",
+      "date_iso": "2021-08-15"
     },
     {
       "id": 2,
@@ -85,7 +87,9 @@
         "places": [
           "place:europe"
         ]
-      }
+      },
+      "source_key": "ch18-s02",
+      "date_iso": "2021-11-10"
     },
     {
       "id": 3,
@@ -125,7 +129,9 @@
           "place:ukraine",
           "place:russia"
         ]
-      }
+      },
+      "source_key": "ch18-s03",
+      "date_iso": "2021-11-13"
     },
     {
       "id": 4,
@@ -166,7 +172,9 @@
       },
       "topic_ids": [
         "place:europe"
-      ]
+      ],
+      "source_key": "ch18-s04",
+      "date_iso": "2021-12-28"
     },
     {
       "id": 5,
@@ -204,7 +212,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch18-s05",
+      "date_iso": "2022-01-10"
     },
     {
       "id": 6,
@@ -243,7 +253,9 @@
         "places": [
           "place:europe"
         ]
-      }
+      },
+      "source_key": "ch18-s06",
+      "date_iso": "2022-01-23"
     },
     {
       "id": 7,
@@ -283,7 +295,9 @@
         "places": [
           "place:canada"
         ]
-      }
+      },
+      "source_key": "ch18-s07",
+      "date_iso": "2022-02-07"
     },
     {
       "id": 8,
@@ -332,7 +346,9 @@
       },
       "topic_ids": [
         "place:ukraine"
-      ]
+      ],
+      "source_key": "ch18-s08",
+      "date_iso": "2022-02-24"
     },
     {
       "id": 9,
@@ -378,7 +394,9 @@
           "place:ukraine",
           "place:russia"
         ]
-      }
+      },
+      "source_key": "ch18-s09",
+      "date_iso": "2022-02-24"
     },
     {
       "id": 10,
@@ -415,7 +433,9 @@
         "places": [
           "place:finland"
         ]
-      }
+      },
+      "source_key": "ch18-s10",
+      "date_iso": "2022-01-25"
     },
     {
       "id": 11,
@@ -450,7 +470,9 @@
           "org:unesco"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch18-s11",
+      "date_iso": "1945-11-16"
     },
     {
       "id": 12,
@@ -495,7 +517,9 @@
           "place:russia",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch18-s12",
+      "date_iso": "2022-03-11"
     },
     {
       "id": 13,
@@ -533,7 +557,9 @@
         "places": [
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch18-s13",
+      "date_iso": "1961-01-17"
     },
     {
       "id": 14,
@@ -576,7 +602,9 @@
           "place:finland",
           "place:europe"
         ]
-      }
+      },
+      "source_key": "ch18-s14",
+      "date_iso": "2022-05-18"
     },
     {
       "id": 15,
@@ -620,7 +648,9 @@
           "place:ukraine",
           "place:russia"
         ]
-      }
+      },
+      "source_key": "ch18-s15",
+      "date_iso": "2022-09-08"
     }
   ]
 }

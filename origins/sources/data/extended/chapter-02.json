@@ -53,7 +53,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch02-s01",
+      "date_iso": "2020-01-26"
     },
     {
       "id": 2,
@@ -99,7 +101,9 @@
           "place:soviet-union",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch02-s02",
+      "date_iso": "2009-09-22"
     },
     {
       "id": 3,
@@ -151,7 +155,9 @@
           "place:soviet-union",
           "place:russia"
         ]
-      }
+      },
+      "source_key": "ch02-s03",
+      "date_iso": "1999"
     },
     {
       "id": 4,
@@ -202,7 +208,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch02-s04",
+      "date_iso": "2020-01-08"
     },
     {
       "id": 5,
@@ -244,7 +252,9 @@
           "place:china",
           "place:soviet-union"
         ]
-      }
+      },
+      "source_key": "ch02-s05",
+      "date_iso": "2015-08-18"
     }
   ]
 }

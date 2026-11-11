@@ -52,7 +52,9 @@
         "places": [
           "place:finland"
         ]
-      }
+      },
+      "source_key": "ch04-s01",
+      "date_iso": "2020-01-28"
     },
     {
       "id": 2,
@@ -104,7 +106,9 @@
           "place:wuhan",
           "place:europe"
         ]
-      }
+      },
+      "source_key": "ch04-s02",
+      "date_iso": "2020-01-24"
     },
     {
       "id": 3,
@@ -150,7 +154,9 @@
           "place:finland",
           "place:wuhan"
         ]
-      }
+      },
+      "source_key": "ch04-s03",
+      "date_iso": "2020-01-29"
     },
     {
       "id": 4,
@@ -193,7 +199,9 @@
           "place:united-states",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch04-s04",
+      "date_iso": "2020-02-19"
     },
     {
       "id": 5,
@@ -205,7 +213,7 @@
       "url": "https://twitter.com/neil_ferguson/status/1221048222820524032",
       "status": "skipped",
       "artifact": null,
-      "content_kind": "social",
+      "content_kind": "social_post",
       "language": "en",
       "summary": "Neil Ferguson tweet warning that despite containment efforts, planning must assume the 2019-nCoV epidemic might not be containable, citing new human-to-human transmissibility estimates. Social URL skipped; text kept from the bibliography title.",
       "book_role": "Public signal from Imperial College modelling that containment might fail—paired with Report 3 in this chapter.",
@@ -240,7 +248,9 @@
       },
       "topic_ids": [
         "topic:sars-cov-2"
-      ]
+      ],
+      "source_key": "ch04-s05",
+      "date_iso": "2020-01-25"
     },
     {
       "id": 6,
@@ -285,7 +295,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch04-s06",
+      "date_iso": "2020-01-27"
     },
     {
       "id": 7,
@@ -322,7 +334,9 @@
         "places": [
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch04-s07",
+      "date_iso": "2020"
     },
     {
       "id": 8,
@@ -369,7 +383,9 @@
           "place:china",
           "place:united-states"
         ]
-      }
+      },
+      "source_key": "ch04-s08",
+      "date_iso": "2020-01-26"
     },
     {
       "id": 9,
@@ -398,7 +414,9 @@
           "Random House"
         ],
         "places": []
-      }
+      },
+      "source_key": "ch04-s09",
+      "date_iso": "2010-05-11"
     },
     {
       "id": 10,
@@ -446,7 +464,9 @@
           "place:china",
           "place:united-kingdom"
         ]
-      }
+      },
+      "source_key": "ch04-s10",
+      "date_iso": "2020-01-25"
     },
     {
       "id": 11,
@@ -494,7 +514,9 @@
       },
       "topic_ids": [
         "topic:sars-cov-2"
-      ]
+      ],
+      "source_key": "ch04-s11",
+      "date_iso": "2020-01-27"
     },
     {
       "id": 12,
@@ -538,7 +560,9 @@
         "places": [
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch04-s12",
+      "date_iso": "2020-01-30"
     },
     {
       "id": 13,
@@ -582,7 +606,9 @@
           "place:wuhan",
           "place:china"
         ]
-      }
+      },
+      "source_key": "ch04-s13",
+      "date_iso": "2020-01-31"
     },
     {
       "id": 14,
@@ -627,7 +653,9 @@
         "places": [
           "place:finland"
         ]
-      }
+      },
+      "source_key": "ch04-s14",
+      "date_iso": "2020-01-31"
     },
     {
       "id": 15,
@@ -668,7 +696,9 @@
         ],
         "orgs": [],
         "places": []
-      }
+      },
+      "source_key": "ch04-s15",
+      "date_iso": "2020-06-04"
     }
   ]
 }
