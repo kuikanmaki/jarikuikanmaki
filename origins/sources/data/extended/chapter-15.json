@@ -60,7 +60,8 @@
         ]
       },
       "source_key": "ch15-s01",
-      "date_iso": "2021-09-22"
+      "date_iso": "2021-09-22",
+      "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1899730-wuhan-institute-virology.jpg?w=1200&amp;crop=1"
     },
     {
       "id": 2,
@@ -111,7 +112,8 @@
         ]
       },
       "source_key": "ch15-s02",
-      "date_iso": "2022-08-02"
+      "date_iso": "2022-08-02",
+      "image_url": "https://www.currentaffairs.org/hubfs/Imported_Blog_Media/jeffsachs-1024x646.jpg"
     },
     {
       "id": 3,
@@ -164,7 +166,8 @@
         ]
       },
       "source_key": "ch15-s03",
-      "date_iso": "2022-08-29"
+      "date_iso": "2022-08-29",
+      "image_url": "https://unherd.com/wp-content/uploads/2022/08/GettyImages-1234075892-scaled.jpg"
     },
     {
       "id": 4,
@@ -260,7 +263,8 @@
         ]
       },
       "source_key": "ch15-s05",
-      "date_iso": "2007-12"
+      "date_iso": "2007-12",
+      "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg"
     },
     {
       "id": 6,
@@ -351,7 +355,8 @@
         ]
       },
       "source_key": "ch15-s07",
-      "date_iso": "2008-08-01"
+      "date_iso": "2008-08-01",
+      "image_url": "https://i.cbc.ca/ais/e775da89-3f25-461c-8160-278ddac2d18d,1794011848736/full/max/0/default.jpg?im=Crop%2Crect%3D%28127%2C0%2C1559%2C876%29%3B"
     }
   ]
 }

@@ -92,7 +92,8 @@
         "places": []
       },
       "source_key": "ch12-s02",
-      "date_iso": "2007"
+      "date_iso": "2007",
+      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.0030005.g007&size=inline"
     },
     {
       "id": 3,
@@ -132,7 +133,8 @@
         "places": []
       },
       "source_key": "ch12-s03",
-      "date_iso": "2008-12-16"
+      "date_iso": "2008-12-16",
+      "image_url": "https://www.pnas.org/cms/10.1073/pnas.0808116105/asset/a876f9e6-3613-4196-8b08-f35013154517/assets/graphic/zpq9990857570001.jpeg"
     },
     {
       "id": 4,
@@ -242,7 +244,8 @@
         ]
       },
       "source_key": "ch12-s05",
-      "date_iso": "2021-06-29"
+      "date_iso": "2021-06-29",
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2021/06/Effect.jpg?resize=1200,600"
     },
     {
       "id": 6,
@@ -293,7 +296,8 @@
         ]
       },
       "source_key": "ch12-s06",
-      "date_iso": "2015-11-12"
+      "date_iso": "2015-11-12",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature.2015.18787/MediaObjects/41586_2015_Article_BFnature201518787_Figa_HTML.jpg"
     },
     {
       "id": 7,
@@ -387,7 +391,8 @@
         ]
       },
       "source_key": "ch12-s08",
-      "date_iso": "2010-10"
+      "date_iso": "2010-10",
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/16d7/7086629/cccc66b860d1/705_2010_729_Fig1_HTML.gif"
     },
     {
       "id": 9,
@@ -492,7 +497,8 @@
         ]
       },
       "source_key": "ch12-s10",
-      "date_iso": "2017-11-30"
+      "date_iso": "2017-11-30",
+      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1006698.g009&size=inline"
     },
     {
       "id": 11,
@@ -540,7 +546,8 @@
         ]
       },
       "source_key": "ch12-s11",
-      "date_iso": "2018-04-04"
+      "date_iso": "2018-04-04",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-018-0010-9/MediaObjects/41586_2018_10_Fig1_HTML.jpg"
     },
     {
       "id": 12,
@@ -589,7 +596,8 @@
         "place:wuhan"
       ],
       "source_key": "ch12-s12",
-      "date_iso": "2020-04-22"
+      "date_iso": "2020-04-22",
+      "image_url": "https://i2.wp.com/asiatimes.com/wp-content/uploads/2020/04/Bats-Covid-19-Coronavirus-1.jpg?fit=1600%2C1001"
     },
     {
       "id": 13,
@@ -696,7 +704,8 @@
         ]
       },
       "source_key": "ch12-s14",
-      "date_iso": "2017-07"
+      "date_iso": "2017-07",
+      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1006698.g009&size=inline"
     },
     {
       "id": 15,
@@ -755,7 +764,8 @@
         ]
       },
       "source_key": "ch12-s15",
-      "date_iso": "2021-05-11"
+      "date_iso": "2021-05-11",
+      "image_url": "https://cdn.prod.website-files.com/65e5ae1fb7482afd48d22155/673f1dee8456ca4a2fa2d451_Untitled-design-7-scaled.jpeg"
     },
     {
       "id": 16,

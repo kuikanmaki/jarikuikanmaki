@@ -100,7 +100,8 @@
         ]
       },
       "source_key": "ch10-s02",
-      "date_iso": "2021-03-30"
+      "date_iso": "2021-03-30",
+      "image_url": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30"
     },
     {
       "id": 3,
@@ -149,7 +150,8 @@
         ]
       },
       "source_key": "ch10-s03",
-      "date_iso": "2021-03-30"
+      "date_iso": "2021-03-30",
+      "image_url": "https://2021-2025.state.gov/wp-content/uploads/2021/02/Press_release_gold_edited.png"
     },
     {
       "id": 4,
@@ -194,7 +196,8 @@
         ]
       },
       "source_key": "ch10-s04",
-      "date_iso": "2021-05-26"
+      "date_iso": "2021-05-26",
+      "image_url": "https://static.politico.com/34/89/1f62aabb49b8abc45f32fff85523/ap21076642655125.jpg"
     },
     {
       "id": 5,
@@ -247,7 +250,8 @@
         ]
       },
       "source_key": "ch10-s05",
-      "date_iso": "2021-06-01"
+      "date_iso": "2021-06-01",
+      "image_url": "https://i0.wp.com/thehill.com/wp-content/uploads/sites/2/2021/05/cottontom_051821gn_lead.jpg?w=2000&ssl=1"
     },
     {
       "id": 6,
@@ -296,7 +300,8 @@
         ]
       },
       "source_key": "ch10-s06",
-      "date_iso": "2021-05-25"
+      "date_iso": "2021-05-25",
+      "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg"
     },
     {
       "id": 7,
@@ -709,7 +714,8 @@
         ]
       },
       "source_key": "ch10-s14",
-      "date_iso": "2021-06-02"
+      "date_iso": "2021-06-02",
+      "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1808203-wuhan-lab-theory-gains-traction.jpg?w=1200&amp;crop=1"
     },
     {
       "id": 15,
@@ -760,7 +766,8 @@
         ]
       },
       "source_key": "ch10-s15",
-      "date_iso": "2021-02"
+      "date_iso": "2021-02",
+      "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg"
     },
     {
       "id": 16,
@@ -807,7 +814,8 @@
         ]
       },
       "source_key": "ch10-s16",
-      "date_iso": "2020-05-06"
+      "date_iso": "2020-05-06",
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2020/05/china-coronavirus.jpg?quality=75&#038;strip=all&#038;w=1200"
     },
     {
       "id": 17,
@@ -857,7 +865,8 @@
         ]
       },
       "source_key": "ch10-s17",
-      "date_iso": "2021-06-22"
+      "date_iso": "2021-06-22",
+      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif"
     },
     {
       "id": 18,
@@ -923,7 +932,8 @@
         ]
       },
       "source_key": "ch10-s18",
-      "date_iso": "2021-07-22"
+      "date_iso": "2021-07-22",
+      "image_url": "https://unherd.com/wp-content/uploads/2021/07/2GettyImages-1210084746.jpg"
     },
     {
       "id": 19,
@@ -985,7 +995,8 @@
         ]
       },
       "source_key": "ch10-s19",
-      "date_iso": "2023-07-21"
+      "date_iso": "2023-07-21",
+      "image_url": "https://theintercept.com/wp-content/uploads/2023/07/GettyImages-1534048302gary-anderson-origin-covid.jpg?fit=4696%2C2348&#038;w=1200&#038;h=800"
     },
     {
       "id": 20,
@@ -1038,7 +1049,8 @@
         ]
       },
       "source_key": "ch10-s20",
-      "date_iso": "2021-10-02"
+      "date_iso": "2021-10-02",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     }
   ]
 }

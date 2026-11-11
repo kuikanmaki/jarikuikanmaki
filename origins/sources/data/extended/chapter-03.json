@@ -108,7 +108,8 @@
         ]
       },
       "source_key": "ch03-s02",
-      "date_iso": "2020-01-26"
+      "date_iso": "2020-01-26",
+      "image_url": "https://www.science.org/cms/asset/eff30036-95c6-4ac1-8945-999dec2012f6/Wuhan_Coronavirus_market_hazmat_1280x720_1.jpg"
     },
     {
       "id": 3,
@@ -216,7 +217,8 @@
         ]
       },
       "source_key": "ch03-s04",
-      "date_iso": "2020-01-21"
+      "date_iso": "2020-01-21",
+      "image_url": "https://images.seattletimes.com/wp-content/uploads/2020/01/153738.jpg?d=780x574"
     },
     {
       "id": 5,
@@ -267,7 +269,8 @@
         ]
       },
       "source_key": "ch03-s05",
-      "date_iso": "2022-10-03"
+      "date_iso": "2022-10-03",
+      "image_url": "https://www.bostonherald.com/wp-content/uploads/2022/09/fauci-first-pitch-mariners.jpg?w=4472&#038;h=2981"
     },
     {
       "id": 6,
@@ -393,7 +396,8 @@
           "place:china"
         ]
       },
-      "source_key": "ch03-s07"
+      "source_key": "ch03-s07",
+      "image_url": "https://taggs.hhs.gov/Content/images/flag.jpg"
     },
     {
       "id": 8,
@@ -457,7 +461,8 @@
         ]
       },
       "source_key": "ch03-s08",
-      "date_iso": "2023-02-21"
+      "date_iso": "2023-02-21",
+      "image_url": "https://usrtk.org/wp-content/uploads/2023/02/closed_door_meeting_2013.jpg"
     },
     {
       "id": 9,
@@ -510,7 +515,8 @@
         "topic:freedom-of-information-requests"
       ],
       "source_key": "ch03-s09",
-      "date_iso": "2020-02-11"
+      "date_iso": "2020-02-11",
+      "image_url": "https://www.openthebooks.com/assets/1/6/MainFCKEditorDimension/Substack.png"
     },
     {
       "id": 10,
@@ -722,7 +728,8 @@
         ]
       },
       "source_key": "ch03-s13",
-      "date_iso": "2020-04-22"
+      "date_iso": "2020-04-22",
+      "image_url": "https://miro.medium.com/v2/resize:fit:1102/1*_avmtKnw_ZE-HjyhUyIDpQ.png"
     }
   ]
 }

@@ -103,7 +103,8 @@
         ]
       },
       "source_key": "ch02-s02",
-      "date_iso": "2009-09-22"
+      "date_iso": "2009-09-22",
+      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg"
     },
     {
       "id": 3,
@@ -157,7 +158,8 @@
         ]
       },
       "source_key": "ch02-s03",
-      "date_iso": "1999"
+      "date_iso": "1999",
+      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg"
     },
     {
       "id": 4,
@@ -210,7 +212,8 @@
         ]
       },
       "source_key": "ch02-s04",
-      "date_iso": "2020-01-08"
+      "date_iso": "2020-01-08",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/GettyImages-1192512277-1024x576.jpg"
     },
     {
       "id": 5,
@@ -254,7 +257,8 @@
         ]
       },
       "source_key": "ch02-s05",
-      "date_iso": "2015-08-18"
+      "date_iso": "2015-08-18",
+      "image_url": "https://journals.asm.org/cms/10.1128/mbio.01013-15/asset/aeae5b73-69e1-43c8-b8d7-07ce985cf93d/assets/graphic/mbo0041524260001.jpeg"
     }
   ]
 }

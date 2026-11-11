@@ -223,7 +223,8 @@
         ]
       },
       "source_key": "ch14-s04",
-      "date_iso": "2021-02-13"
+      "date_iso": "2021-02-13",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 5,
@@ -378,7 +379,8 @@
         ]
       },
       "source_key": "ch14-s07",
-      "date_iso": "2021-09-06"
+      "date_iso": "2021-09-06",
+      "image_url": "https://theintercept.com/wp-content/uploads/2021/09/GettyImages-1230940643-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800"
     },
     {
       "id": 8,
@@ -436,7 +438,8 @@
         ]
       },
       "source_key": "ch14-s08",
-      "date_iso": "2021-09-08"
+      "date_iso": "2021-09-08",
+      "image_url": "https://s3.documentcloud.org/documents/21055989/pages/understanding-risk-bat-coronavirus-emergence-grant-notice-p1-large.gif"
     },
     {
       "id": 9,
@@ -487,7 +490,8 @@
         ]
       },
       "source_key": "ch14-s09",
-      "date_iso": "2022-09-20"
+      "date_iso": "2022-09-20",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!fqa5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F91060aa8-e7e7-4a09-ae77-0bb6da044daa_852x806.jpeg"
     }
   ]
 }

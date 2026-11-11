@@ -103,7 +103,8 @@
         ]
       },
       "source_key": "ch19-s02",
-      "date_iso": "2022-12-04"
+      "date_iso": "2022-12-04",
+      "image_url": "https://www.washingtonexaminer.com/wp-content/uploads/2025/09/wex_yoast_1200_v4.png?resize=1200,683"
     },
     {
       "id": 3,
@@ -184,7 +185,8 @@
         ]
       },
       "source_key": "ch19-s04",
-      "date_iso": "2024-01-17"
+      "date_iso": "2024-01-17",
+      "image_url": "https://images.wsj.net/im-913114?width=700&height=493"
     },
     {
       "id": 5,
@@ -308,7 +310,8 @@
         "places": []
       },
       "source_key": "ch19-s07",
-      "date_iso": "2023-03-06"
+      "date_iso": "2023-03-06",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 8,
@@ -346,7 +349,8 @@
         ]
       },
       "source_key": "ch19-s08",
-      "date_iso": "2024-01-19"
+      "date_iso": "2024-01-19",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!6nh-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b6f7c19-c791-455e-99c1-b6ad105a8f39_1736x1050.jpeg"
     },
     {
       "id": 9,
@@ -389,7 +393,8 @@
         ]
       },
       "source_key": "ch19-s09",
-      "date_iso": "2023-06-29"
+      "date_iso": "2023-06-29",
+      "image_url": "https://theintercept.com/wp-content/uploads/2023/06/AP090817020267-NIH-hero.jpg?fit=2016%2C1008&#038;w=1200&#038;h=800"
     },
     {
       "id": 10,
@@ -429,7 +434,8 @@
         ]
       },
       "source_key": "ch19-s10",
-      "date_iso": "2024-05-22"
+      "date_iso": "2024-05-22",
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/06/NYPICHPDPICT000013390615.jpg?quality=75&#038;strip=all&#038;w=1200"
     },
     {
       "id": 11,
@@ -614,7 +620,8 @@
         ]
       },
       "source_key": "ch19-s14",
-      "date_iso": "2024-01-06"
+      "date_iso": "2024-01-06",
+      "image_url": "https://usrtk.org/wp-content/uploads/2024/01/fauci-white-house.jpeg"
     },
     {
       "id": 15,
@@ -642,7 +649,8 @@
         "places": []
       },
       "source_key": "ch19-s15",
-      "date_iso": "2017"
+      "date_iso": "2017",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 16,
@@ -684,7 +692,8 @@
         ]
       },
       "source_key": "ch19-s16",
-      "date_iso": "2023-06-10"
+      "date_iso": "2023-06-10",
+      "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/5aedcbf4-06ec-11ee-a1e5-6222cf71d60e.jpg?amp;sourceHeight=886&#038;strip=all&#038;format=webp&#038;crop=0px%2C0px%2C1575px%2C886px&#038;w=1200"
     },
     {
       "id": 17,
@@ -772,7 +781,8 @@
         ]
       },
       "source_key": "ch19-s18",
-      "date_iso": "2023-06-14"
+      "date_iso": "2023-06-14",
+      "image_url": "https://usrtk.org/wp-content/uploads/2023/06/covid-scaled.jpg"
     },
     {
       "id": 19,
@@ -812,7 +822,8 @@
         ]
       },
       "source_key": "ch19-s19",
-      "date_iso": "2021-04-24"
+      "date_iso": "2021-04-24",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 20,
@@ -983,7 +994,8 @@
         ]
       },
       "source_key": "ch19-s24",
-      "date_iso": "2025-04-07"
+      "date_iso": "2025-04-07",
+      "image_url": "https://usrtk.org/wp-content/uploads/2025/04/Wuhan-Institute-of-Virology-front-view.jpg"
     },
     {
       "id": 25,
@@ -1062,7 +1074,8 @@
         ]
       },
       "source_key": "ch19-s26",
-      "date_iso": "2026-02-05"
+      "date_iso": "2026-02-05",
+      "image_url": "https://usrtk.org/wp-content/uploads/2021/08/WIV-e1770302708388.jpg"
     },
     {
       "id": 27,
@@ -1099,7 +1112,8 @@
         ]
       },
       "source_key": "ch19-s27",
-      "date_iso": "2023-02-26"
+      "date_iso": "2023-02-26",
+      "image_url": "https://images.wsj.net/im-34888661?width=330&height=185"
     },
     {
       "id": 28,
@@ -1148,7 +1162,8 @@
         ]
       },
       "source_key": "ch19-s28",
-      "date_iso": "2023-02-28"
+      "date_iso": "2023-02-28",
+      "image_url": "https://images.wsj.net/im-34888661?width=330&height=185"
     },
     {
       "id": 29,
@@ -1192,7 +1207,8 @@
         ]
       },
       "source_key": "ch19-s29",
-      "date_iso": "2025-01-25"
+      "date_iso": "2025-01-25",
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-01/250125-covid-19-vaccine-wm-1129a-ec66ff.jpg"
     },
     {
       "id": 30,
@@ -1237,7 +1253,8 @@
         "org:u-s-congress"
       ],
       "source_key": "ch19-s30",
-      "date_iso": "2023-09-12"
+      "date_iso": "2023-09-12",
+      "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png"
     },
     {
       "id": 31,
@@ -1280,7 +1297,8 @@
         "places": []
       },
       "source_key": "ch19-s31",
-      "date_iso": "2022-01-13"
+      "date_iso": "2022-01-13",
+      "image_url": "https://nationalfile.com/media/fbd2cdedd5e9f3aba566b396bd83220106cbfc5c5f667ac42b022c8b63ba2fed.jpg"
     },
     {
       "id": 32,
@@ -1329,7 +1347,8 @@
         ]
       },
       "source_key": "ch19-s32",
-      "date_iso": "2022"
+      "date_iso": "2022",
+      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg"
     },
     {
       "id": 33,
@@ -1582,7 +1601,8 @@
         ]
       },
       "source_key": "ch19-s38",
-      "date_iso": "2025-11-04"
+      "date_iso": "2025-11-04",
+      "image_url": "https://freebeacon.com/wp-content/uploads/2023/06/house-hearing-examines-nih-2023-budget-request-e1685985239973.jpg"
     },
     {
       "id": 39,
@@ -1709,7 +1729,8 @@
         "org:u-s-congress"
       ],
       "source_key": "ch19-s41",
-      "date_iso": "2025-09"
+      "date_iso": "2025-09",
+      "image_url": "https://i1.rgstatic.net/ii/profile.image/11431281422588023-1746448964636_Q128/Billy-Bostickson.jpg"
     },
     {
       "id": 42,
@@ -1756,7 +1777,8 @@
         ]
       },
       "source_key": "ch19-s42",
-      "date_iso": "2025-03-12"
+      "date_iso": "2025-03-12",
+      "image_url": "https://www.reuters.com/resizer/v2/TOF4BP7WLZLZNLAAYD2KTEBDYU.jpg?auth=460d2c39b88dffc859c097448997c1ee607143963ab64bacefd6b2817565fe18&width=1080&quality=80"
     },
     {
       "id": 43,
@@ -1830,7 +1852,8 @@
         ]
       },
       "source_key": "ch19-s44",
-      "date_iso": "2025-01-10"
+      "date_iso": "2025-01-10",
+      "image_url": "https://image-cdn-ak.spotifycdn.com/image/ab6772ab000016920dbcd3e556e3c6d45fd8ba6d"
     },
     {
       "id": 45,
@@ -1873,7 +1896,8 @@
         ]
       },
       "source_key": "ch19-s45",
-      "date_iso": "2025-03-12"
+      "date_iso": "2025-03-12",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f512/live/4be07c70-feba-11ef-ad0f-372b7fe3c45e.jpg"
     },
     {
       "id": 46,
@@ -1916,7 +1940,8 @@
         "places": []
       },
       "source_key": "ch19-s46",
-      "date_iso": "2022-01-10"
+      "date_iso": "2022-01-10",
+      "image_url": "https://usrtk.org/wp-content/uploads/2022/01/genbank_1.jpg"
     },
     {
       "id": 47,
@@ -1963,7 +1988,8 @@
         "places": []
       },
       "source_key": "ch19-s47",
-      "date_iso": "2025-01-16"
+      "date_iso": "2025-01-16",
+      "image_url": "https://usrtk.org/wp-content/uploads/2025/01/39148640504_a6df781e92_k.jpg"
     },
     {
       "id": 48,
@@ -1994,7 +2020,8 @@
         "topic:mers"
       ],
       "source_key": "ch19-s48",
-      "date_iso": "2017-06-29"
+      "date_iso": "2017-06-29",
+      "image_url": "https://drive.proton.me/assets/proton-og-image.png"
     },
     {
       "id": 49,
@@ -2130,7 +2157,8 @@
         ]
       },
       "source_key": "ch19-s51",
-      "date_iso": "2023-02-11"
+      "date_iso": "2023-02-11",
+      "image_url": "https://www.whitecoatwaste.org/wp-content/uploads/2023/02/ecohealth_funding-feature-WP-1.webp"
     },
     {
       "id": 52,
@@ -2224,7 +2252,8 @@
         ]
       },
       "source_key": "ch19-s53",
-      "date_iso": "2025-01-17"
+      "date_iso": "2025-01-17",
+      "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png"
     },
     {
       "id": 54,
@@ -2325,7 +2354,8 @@
         ]
       },
       "source_key": "ch19-s55",
-      "date_iso": "2025-01-20"
+      "date_iso": "2025-01-20",
+      "image_url": "https://i.abcnewsfe.com/a/06cd7f4c-e4b4-4d34-b7cb-84f0dde0eb38/biden-fauci-file-gty-ml-250120_1737375325545_hpMain_16x9.jpg?w=1600"
     }
   ]
 }

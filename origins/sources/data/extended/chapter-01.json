@@ -131,7 +131,8 @@
         ]
       },
       "source_key": "ch01-s03",
-      "date_iso": "2020-01-23"
+      "date_iso": "2020-01-23",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/ECFF/production/_110617606_059331569.jpg"
     },
     {
       "id": 4,
@@ -180,7 +181,8 @@
         ]
       },
       "source_key": "ch01-s04",
-      "date_iso": "2020-01-11"
+      "date_iso": "2020-01-11",
+      "image_url": "https://virological.org/uploads/default/original/1X/7897c4e655617c4b6fe71a98eaa97a38778f0623.png"
     },
     {
       "id": 5,
@@ -222,7 +224,8 @@
         ]
       },
       "source_key": "ch01-s05",
-      "date_iso": "2020-01-20"
+      "date_iso": "2020-01-20",
+      "image_url": "http://img2.chinadaily.com.cn/images/202001/21/5e262f65a3101282064d1e74.jpeg"
     },
     {
       "id": 6,
@@ -356,7 +359,8 @@
         ]
       },
       "source_key": "ch01-s08",
-      "date_iso": "2014-07-14"
+      "date_iso": "2014-07-14",
+      "image_url": "https://www.cambridgeworkinggroup.org/images/pdf.png"
     },
     {
       "id": 9,
@@ -503,7 +507,8 @@
         "place:wuhan"
       ],
       "source_key": "ch01-s11",
-      "date_iso": "2020-01-04"
+      "date_iso": "2020-01-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/Wuhan-GettyImages-946736186-1024x576.jpg"
     },
     {
       "id": 12,
@@ -547,7 +552,8 @@
         ]
       },
       "source_key": "ch01-s12",
-      "date_iso": "2020-01-08"
+      "date_iso": "2020-01-08",
+      "image_url": "https://images.wsj.net/im-142407/?width=700&height=467"
     }
   ]
 }

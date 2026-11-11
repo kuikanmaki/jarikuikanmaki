@@ -141,7 +141,8 @@
         "place:hong-kong"
       ],
       "source_key": "ch08-s03",
-      "date_iso": "2020-08-24"
+      "date_iso": "2020-08-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/GettyImages-1225250385-1024x576.jpg"
     },
     {
       "id": 4,
@@ -263,7 +264,8 @@
         "places": []
       },
       "source_key": "ch08-s06",
-      "date_iso": "2020-11-09"
+      "date_iso": "2020-11-09",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/B2AE/production/_115324754_gettyimages-1283824133.jpg"
     },
     {
       "id": 7,
@@ -305,7 +307,8 @@
         ]
       },
       "source_key": "ch08-s07",
-      "date_iso": "2020"
+      "date_iso": "2020",
+      "image_url": "https://commission.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png"
     },
     {
       "id": 8,
@@ -353,7 +356,8 @@
         ]
       },
       "source_key": "ch08-s08",
-      "date_iso": "2023-01-28"
+      "date_iso": "2023-01-28",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 9,
@@ -403,7 +407,8 @@
         ]
       },
       "source_key": "ch08-s09",
-      "date_iso": "2020-05-14"
+      "date_iso": "2020-05-14",
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a2dc/7224457/ea7900f60d83/ppat.1008421.g001.gif"
     },
     {
       "id": 10,
@@ -543,7 +548,8 @@
         ]
       },
       "source_key": "ch08-s12",
-      "date_iso": "2020-05-01"
+      "date_iso": "2020-05-01",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/170706100527-zachary-cohen.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50"
     },
     {
       "id": 13,
@@ -652,7 +658,8 @@
         ]
       },
       "source_key": "ch08-s14",
-      "date_iso": "2020-05-04"
+      "date_iso": "2020-05-04",
+      "image_url": "https://i.guim.co.uk/img/media/c36e0d494293f8ba64d8dfc89f99ec95688b4969/0_189_3048_1829/master/3048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=66b74a2bdb71a64328ab97efb990ca83"
     },
     {
       "id": 15,
@@ -700,7 +707,8 @@
         ]
       },
       "source_key": "ch08-s15",
-      "date_iso": "2020-05-04"
+      "date_iso": "2020-05-04",
+      "image_url": "https://content.api.news/v3/images/bin/f507ede3c072a8a7486986e6ffbf7e41?width=150"
     },
     {
       "id": 16,
@@ -743,7 +751,8 @@
         ]
       },
       "source_key": "ch08-s16",
-      "date_iso": "2020-04-30"
+      "date_iso": "2020-04-30",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 17,
@@ -794,7 +803,8 @@
         "place:wuhan"
       ],
       "source_key": "ch08-s17",
-      "date_iso": "2020-04-30"
+      "date_iso": "2020-04-30",
+      "image_url": "https://images.wsj.net/im-11136007?width=330&height=185"
     },
     {
       "id": 18,
@@ -842,7 +852,8 @@
           "place:china"
         ]
       },
-      "source_key": "ch08-s18"
+      "source_key": "ch08-s18",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 19,
@@ -925,7 +936,8 @@
         ]
       },
       "source_key": "ch08-s20",
-      "date_iso": "2020-02-28"
+      "date_iso": "2020-02-28",
+      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/02/29/70ad35f6-5a29-11ea-b438-8452af50d521_image_hires_024800.JPG?itok=YOu6YWJ2&amp;v=1582915687"
     },
     {
       "id": 21,
@@ -974,7 +986,8 @@
         ]
       },
       "source_key": "ch08-s21",
-      "date_iso": "2020-02-28"
+      "date_iso": "2020-02-28",
+      "image_url": "https://www.straitstimes.com/og/st-bg-1200x630.jpg"
     },
     {
       "id": 22,
@@ -1080,7 +1093,8 @@
         "places": []
       },
       "source_key": "ch08-s23",
-      "date_iso": "2020-07-13"
+      "date_iso": "2020-07-13",
+      "image_url": "https://image.minerva.no/362540.webp?imageId=362540&width=960&height=548&format=jpg"
     },
     {
       "id": 24,
@@ -1135,7 +1149,8 @@
         ]
       },
       "source_key": "ch08-s24",
-      "date_iso": "2020-06-03"
+      "date_iso": "2020-06-03",
+      "image_url": "https://www.telegraph.co.uk/content/dam/news/2020/06/03/PLANET_NORMAL_SLATE_RICHARDDEARLOVE-01_1_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=640"
     }
   ]
 }

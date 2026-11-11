@@ -54,7 +54,8 @@
         ]
       },
       "source_key": "ch13-s01",
-      "date_iso": "2021-06-22"
+      "date_iso": "2021-06-22",
+      "image_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PGUBVUJQIRFYLF6QQYYJ6OXJAA.png"
     },
     {
       "id": 2,
@@ -152,7 +153,8 @@
         ]
       },
       "source_key": "ch13-s03",
-      "date_iso": "2020-12-19"
+      "date_iso": "2020-12-19",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 4,
@@ -204,7 +206,8 @@
         ]
       },
       "source_key": "ch13-s04",
-      "date_iso": "2021-06-28"
+      "date_iso": "2021-06-28",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8J6oFkzuFyg/v0/-1x-1.webp"
     },
     {
       "id": 5,
@@ -251,7 +254,8 @@
           "place:united-kingdom"
         ]
       },
-      "source_key": "ch13-s05"
+      "source_key": "ch13-s05",
+      "image_url": "https://cms.wellcome.org/sites/default/files/styles/image_full/public/2022-07/C0105191_Medium.jpg?itok=h-C3Csvf"
     }
   ]
 }

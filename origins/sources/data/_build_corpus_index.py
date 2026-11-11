@@ -67,6 +67,7 @@ def main() -> None:
                     "date": source.get("date") or "",
                     "date_iso": source.get("date_iso") or "",
                     "url": source.get("url") or "",
+                    "image_url": source.get("image_url") or "",
                     "type": source.get("type") or "",
                     "content_kind": kind,
                     "content_kind_label": KIND_LABEL.get(kind, kind.replace("_", " ")),

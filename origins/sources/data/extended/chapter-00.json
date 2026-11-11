@@ -69,7 +69,8 @@
         ]
       },
       "source_key": "ch00-s01",
-      "date_iso": "2020-06-01"
+      "date_iso": "2020-06-01",
+      "image_url": "https://static.scientificamerican.com/sciam/cache/file/0AEA7BC6-2561-4E38-87C0A2A8F3599D7A_source.jpg?w=1200"
     },
     {
       "id": 2,
@@ -120,7 +121,8 @@
         ]
       },
       "source_key": "ch00-s02",
-      "date_iso": "2017-02-23"
+      "date_iso": "2017-02-23",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature.2017.21487/MediaObjects/41586_2017_Article_BFnature201721487_Figa_HTML.jpg"
     },
     {
       "id": 3,
@@ -176,7 +178,8 @@
         ]
       },
       "source_key": "ch00-s03",
-      "date_iso": "2020-04-11"
+      "date_iso": "2020-04-11",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 4,
@@ -237,7 +240,8 @@
         ]
       },
       "source_key": "ch00-s04",
-      "date_iso": "2020-07-24"
+      "date_iso": "2020-07-24",
+      "image_url": "https://www.science.org/cms/asset/10d04c33-7966-40d7-ab33-35b6e2721279/cc_1_main_gettyimages-643961442_1280p.jpg"
     },
     {
       "id": 5,
@@ -293,7 +297,8 @@
         ]
       },
       "source_key": "ch00-s05",
-      "date_iso": "2022-02-09"
+      "date_iso": "2022-02-09",
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2022/01/Unknown-1.jpeg?resize=1200,600"
     },
     {
       "id": 6,
@@ -350,7 +355,8 @@
         ]
       },
       "source_key": "ch00-s06",
-      "date_iso": "2021-08-07"
+      "date_iso": "2021-08-07",
+      "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg"
     },
     {
       "id": 7,
@@ -406,7 +412,8 @@
         ]
       },
       "source_key": "ch00-s07",
-      "date_iso": "2022-05-28"
+      "date_iso": "2022-05-28",
+      "image_url": "https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png"
     },
     {
       "id": 8,
@@ -556,7 +563,8 @@
         ]
       },
       "source_key": "ch00-s10",
-      "date_iso": "2020-01-03"
+      "date_iso": "2020-01-03",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 11,
@@ -608,7 +616,8 @@
         ]
       },
       "source_key": "ch00-s11",
-      "date_iso": "2020-01-31"
+      "date_iso": "2020-01-31",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 12,
@@ -651,7 +660,8 @@
         ]
       },
       "source_key": "ch00-s12",
-      "date_iso": "2019-12-31"
+      "date_iso": "2019-12-31",
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
     },
     {
       "id": 13,
@@ -703,7 +713,8 @@
         ]
       },
       "source_key": "ch00-s13",
-      "date_iso": "2020-02-07"
+      "date_iso": "2020-02-07",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/11C1A/production/_110803727_mediaitem110803726.jpg"
     }
   ]
 }

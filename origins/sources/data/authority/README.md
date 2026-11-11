@@ -57,9 +57,12 @@ Rebuild after authority or extended-chapter changes:
 
 ```bash
 python3 origins/sources/data/_normalize_catalog.py
+python3 origins/sources/data/_enrich_image_urls.py
 python3 origins/sources/data/_build_corpus_index.py
 python3 origins/sources/data/_build_authority_search_index.py
 ```
+
+Preview images are publisher hotlinks (`image_url` / `og:image`), shown only when available.
 
 ## Site search
 

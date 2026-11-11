@@ -108,7 +108,8 @@
         ]
       },
       "source_key": "ch04-s02",
-      "date_iso": "2020-01-24"
+      "date_iso": "2020-01-24",
+      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F24%2FLYNXMPEG0N22L.JPG?auth=494d53414de2576c9245b5b5bcd33999af3f743a206328cef33b7c34be9aa80b&width=1920&quality=80"
     },
     {
       "id": 3,
@@ -156,7 +157,8 @@
         ]
       },
       "source_key": "ch04-s03",
-      "date_iso": "2020-01-29"
+      "date_iso": "2020-01-29",
+      "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11183219"
     },
     {
       "id": 4,
@@ -297,7 +299,8 @@
         ]
       },
       "source_key": "ch04-s06",
-      "date_iso": "2020-01-27"
+      "date_iso": "2020-01-27",
+      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&amp;v=1580140381"
     },
     {
       "id": 7,
@@ -562,7 +565,8 @@
         ]
       },
       "source_key": "ch04-s12",
-      "date_iso": "2020-01-30"
+      "date_iso": "2020-01-30",
+      "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/gettyimages-943428252.tmb-1200v.jpg?sfvrsn=9bea021c_42"
     },
     {
       "id": 13,
@@ -608,7 +612,8 @@
         ]
       },
       "source_key": "ch04-s13",
-      "date_iso": "2020-01-31"
+      "date_iso": "2020-01-31",
+      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F31%2FLYNXMPEG0U16F.JPG?auth=da131b5e2523e3d0b6779cf73b5293133b5d00886454904a5a83caff35d126ae&width=1920&quality=80"
     },
     {
       "id": 14,
@@ -655,7 +660,8 @@
         ]
       },
       "source_key": "ch04-s14",
-      "date_iso": "2020-01-31"
+      "date_iso": "2020-01-31",
+      "image_url": "https://images.sanoma-sndp.fi/485bc57b785e4d1cb1c0025ca0a8acba.jpg/some/is-default.jpg"
     },
     {
       "id": 15,
@@ -698,7 +704,8 @@
         "places": []
       },
       "source_key": "ch04-s15",
-      "date_iso": "2020-06-04"
+      "date_iso": "2020-06-04",
+      "image_url": "https://nextstrain.org/dist/13fec0d41212fe68ae22.png"
     }
   ]
 }

@@ -57,7 +57,8 @@
         "place:wuhan"
       ],
       "source_key": "ch09-s01",
-      "date_iso": "2021-01-05"
+      "date_iso": "2021-01-05",
+      "image_url": "https://i.guim.co.uk/img/media/1cbf118f5bcae0749bf1670e24ba6fd99f28439f/210_31_1505_903/master/1505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=45f17cd2647be2c8a7b5d64656aee188"
     },
     {
       "id": 2,
@@ -161,7 +162,8 @@
         ]
       },
       "source_key": "ch09-s03",
-      "date_iso": "2021-02-09"
+      "date_iso": "2021-02-09",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/171C2/production/_116885649_mediaitem116885648.jpg"
     },
     {
       "id": 4,
@@ -224,7 +226,8 @@
         ]
       },
       "source_key": "ch09-s04",
-      "date_iso": "2020-12-19"
+      "date_iso": "2020-12-19",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 5,
@@ -385,7 +388,8 @@
         ]
       },
       "source_key": "ch09-s07",
-      "date_iso": "2020-12-04"
+      "date_iso": "2020-12-04",
+      "image_url": "https://i.guim.co.uk/img/media/936eb15416a692d2f2f32c7ac6692c706bd5c070/0_120_3600_2161/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c47e1df9362b0549859622cee80a96e4"
     },
     {
       "id": 8,
@@ -550,7 +554,8 @@
         ]
       },
       "source_key": "ch09-s10",
-      "date_iso": "2021-01-09"
+      "date_iso": "2021-01-09",
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
     },
     {
       "id": 11,
@@ -592,7 +597,8 @@
         "places": []
       },
       "source_key": "ch09-s11",
-      "date_iso": "2020-04-16"
+      "date_iso": "2020-04-16",
+      "image_url": "https://about.fb.com/wp-content/uploads/2020/04/NRP-COVID_Misinfo_Update_inline-1.jpg?resize=960%2C640"
     },
     {
       "id": 12,
@@ -643,7 +649,8 @@
         ]
       },
       "source_key": "ch09-s12",
-      "date_iso": "2020-05-06"
+      "date_iso": "2020-05-06",
+      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2020/05/kiina_korona_yhdysvallast.png"
     },
     {
       "id": 13,
@@ -697,7 +704,8 @@
         ]
       },
       "source_key": "ch09-s13",
-      "date_iso": "2021-01-27"
+      "date_iso": "2021-01-27",
+      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2016/10/suomen-uutiset-default.png"
     },
     {
       "id": 14,
@@ -758,7 +766,8 @@
         ]
       },
       "source_key": "ch09-s14",
-      "date_iso": "2021-05-05"
+      "date_iso": "2021-05-05",
+      "image_url": "https://thebulletin.org/wp-content/uploads/2021/05/WIV.jpg.optimal.jpg"
     },
     {
       "id": 15,
@@ -807,7 +816,8 @@
         ]
       },
       "source_key": "ch09-s15",
-      "date_iso": "2021-05-13"
+      "date_iso": "2021-05-13",
+      "image_url": "https://images.wsj.net/im-86307786?width=330&height=185"
     },
     {
       "id": 16,
@@ -854,7 +864,8 @@
         ]
       },
       "source_key": "ch09-s16",
-      "date_iso": "2021-05-14"
+      "date_iso": "2021-05-14",
+      "image_url": "https://www.science.org/cms/asset/2b03471c-1d31-4cfd-9cda-a9eb9a0c4f00/science.2021.372.issue-6543.cover.gif"
     },
     {
       "id": 17,
@@ -908,7 +919,8 @@
         ]
       },
       "source_key": "ch09-s17",
-      "date_iso": "2021-05-23"
+      "date_iso": "2021-05-23",
+      "image_url": "https://images.wsj.net/im-86307786?width=330&height=185"
     },
     {
       "id": 18,
@@ -963,7 +975,8 @@
         "topic:gain-of-function-research"
       ],
       "source_key": "ch09-s18",
-      "date_iso": "2021-01-15"
+      "date_iso": "2021-01-15",
+      "image_url": "https://2017-2021.state.gov/wp-content/uploads/2019/12/dos_seal.png"
     },
     {
       "id": 19,
@@ -1018,7 +1031,8 @@
         ]
       },
       "source_key": "ch09-s19",
-      "date_iso": "2021-05-24"
+      "date_iso": "2021-05-24",
+      "image_url": "https://images.wsj.net/im-342289/square?width=1280&height=1280"
     }
   ]
 }

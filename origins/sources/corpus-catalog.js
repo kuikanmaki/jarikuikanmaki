@@ -94,13 +94,20 @@
     var kind = s.content_kind_label
       ? '<p class="catalog-card-meta">' + escapeHtml(s.content_kind_label) + "</p>"
       : "";
-    return (
-      kind +
-      (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
-      role +
-      topicLine +
-      status
-    );
+    var media = s.image_url
+      ? '<div class="catalog-card-media">' +
+          '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
+        "</div>"
+      : "";
+    var text =
+      '<div class="catalog-card-copy">' +
+        kind +
+        (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
+        role +
+        topicLine +
+        status +
+      "</div>";
+    return '<div class="catalog-card-enrichment">' + media + text + "</div>";
   }
 
   function renderCard(s) {
@@ -136,7 +143,7 @@
       var date = escapeHtml(s.date || "");
       var key = escapeHtml(s.source_key || ("ch" + s.chapter + "-s" + s.id));
       var detail = enrichmentBlock(s);
-      var hasDetail = !!(s.summary || s.book_role || (s.topics && s.topics.length) || (s.status && s.status !== "ok"));
+      var hasDetail = !!(s.image_url || s.summary || s.book_role || (s.topics && s.topics.length) || (s.status && s.status !== "ok"));
       return (
         '<li class="source-item source-item-expandable" data-source-key="' + key + '">' +
           '<div class="source-item-main">' +
@@ -482,6 +489,13 @@
     item.classList.toggle("is-expanded", !open);
     btn.title = open ? "Show source details" : "Hide source details";
   });
+
+  outEl.addEventListener("error", function (e) {
+    var img = e.target;
+    if (!img || img.tagName !== "IMG" || !img.classList.contains("catalog-card-image")) return;
+    var media = img.closest(".catalog-card-media");
+    if (media) media.remove();
+  }, true);
 
   document.addEventListener("click", function (e) {
     if (!e.target.closest("#sources-search")) hideSuggestions();

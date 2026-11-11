@@ -91,7 +91,8 @@
         "place:wuhan"
       ],
       "source_key": "ch06-s02",
-      "date_iso": "2020-02-01"
+      "date_iso": "2020-02-01",
+      "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg"
     },
     {
       "id": 3,
@@ -143,7 +144,8 @@
         ]
       },
       "source_key": "ch06-s03",
-      "date_iso": "2020-02-10"
+      "date_iso": "2020-02-10",
+      "image_url": "https://i.guim.co.uk/img/media/45295519498603abb65a8f75ccdf8a4df09aeef4/58_0_2084_1251/master/2084.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c8190c40e00e76ba3985f9a0254e8806"
     },
     {
       "id": 4,
@@ -234,7 +236,8 @@
         ]
       },
       "source_key": "ch06-s05",
-      "date_iso": "2020-02-22"
+      "date_iso": "2020-02-22",
+      "image_url": "https://s.france24.com/media/display/99f8a93a-e6c1-11ee-9116-005056bf30b7/w:1280/p:16x9/img-default-F24.jpg"
     },
     {
       "id": 6,
@@ -449,7 +452,8 @@
         "person:tom-cotton"
       ],
       "source_key": "ch06-s09",
-      "date_iso": "2020-02-17"
+      "date_iso": "2020-02-17",
+      "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg"
     },
     {
       "id": 10,
@@ -510,7 +514,8 @@
         ]
       },
       "source_key": "ch06-s10",
-      "date_iso": "2020-03-17"
+      "date_iso": "2020-03-17",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41591-020-0820-9/MediaObjects/41591_2020_820_Fig1_HTML.png"
     },
     {
       "id": 11,
@@ -571,7 +576,8 @@
         ]
       },
       "source_key": "ch06-s11",
-      "date_iso": "2020-11-18"
+      "date_iso": "2020-11-18",
+      "image_url": "https://usrtk.org/wp-content/uploads/2020/12/lancet-pic.png"
     },
     {
       "id": 12,
@@ -622,7 +628,8 @@
         ]
       },
       "source_key": "ch06-s12",
-      "date_iso": "2022-12-04"
+      "date_iso": "2022-12-04",
+      "image_url": "https://media4.manhattan-institute.org/sites/cj/files/emails-cast-more-doubt-on-the-official-covid-story.jpg"
     },
     {
       "id": 13,
@@ -676,7 +683,8 @@
         "org:nature-medicine"
       ],
       "source_key": "ch06-s13",
-      "date_iso": "2023-04-11"
+      "date_iso": "2023-04-11",
+      "image_url": "https://usrtk.org/wp-content/uploads/2022/08/fauci-photo.jpg"
     },
     {
       "id": 14,
@@ -779,7 +787,8 @@
         ]
       },
       "source_key": "ch06-s15",
-      "date_iso": "2020-02-19"
+      "date_iso": "2020-02-19",
+      "image_url": "https://www.science.org/cms/asset/d86b9434-b275-4fba-8db9-3ed7a89f2741/Coronavirus_NIAID_micrograph_1280x720.jpg"
     },
     {
       "id": 16,
@@ -830,7 +839,8 @@
         ]
       },
       "source_key": "ch06-s16",
-      "date_iso": "2021-07-22"
+      "date_iso": "2021-07-22",
+      "image_url": "https://m.media-amazon.com/images/I/41l8oQnQgZL.jpg"
     },
     {
       "id": 17,
@@ -883,7 +893,8 @@
         "places": []
       },
       "source_key": "ch06-s17",
-      "date_iso": "2022-12-13"
+      "date_iso": "2022-12-13",
+      "image_url": "https://www.reuters.com/resizer/v2/VQ5YY73HNVPXJOAXWT3Y3XTYWQ.jpg?auth=b5c4b8ad6ad58ae5962fb5d7cc16ebb01a53ce1be70277371cb88afc60cbca43&width=1920&quality=80"
     }
   ]
 }
