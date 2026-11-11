@@ -693,5 +693,60 @@
     "source_key": "ch10-s19",
     "artifact": "artifacts/ch10-s19.md",
     "status": "ok"
+  },
+  "https://www.dailymail.co.uk/news/article-10052689/Government-condemned-refusing-release-details-key-email-conversations-Covid-origins.html": {
+    "source_key": "ch10-s20",
+    "artifact": "artifacts/ch10-s20.md",
+    "status": "ok"
+  },
+  "https://www.theweek.in/theweek/cover/2021/06/03/how-an-indian-scientist-couple-worked-to-trace-origin-course-of-covid-19.html": {
+    "source_key": "ch11-s01",
+    "artifact": "artifacts/ch11-s01.md",
+    "status": "ok"
+  },
+  "https://virology.ws/2020/02/20/pangolins-and-the-origin-of-sars-cov-2-coronavirus/#comment-55702": {
+    "source_key": "ch11-s02",
+    "artifact": "artifacts/ch11-s02.md",
+    "status": "ok"
+  },
+  "https://link.springer.com/article/10.1007/s12250-016-3713-9": {
+    "source_key": "ch11-s03",
+    "artifact": "artifacts/ch11-s03.md",
+    "status": "ok"
+  },
+  "https://www.ncbi.nlm.nih.gov/nuccore/KP876546": {
+    "source_key": "ch11-s04",
+    "artifact": null,
+    "status": "not_found"
+  },
+  "https://www.frontiersin.org/articles/10.3389/fpubh.2020.581569/full": {
+    "source_key": "ch11-s05",
+    "artifact": "artifacts/ch11-s05.md",
+    "status": "ok"
+  },
+  "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1": {
+    "source_key": "ch11-s06",
+    "artifact": null,
+    "status": "not_found"
+  },
+  "https://www.theweek.in/theweek/cover/2021/07/01/what-exactly-happened-in-wuhan.html": {
+    "source_key": "ch11-s07",
+    "artifact": "artifacts/ch11-s07.md",
+    "status": "ok"
+  },
+  "https://www.documentcloud.org/documents/6981198-Analysis-of-Six-Patients-With-Unknown-Viruses.html": {
+    "source_key": "ch11-s08",
+    "artifact": "artifacts/ch11-s08.md",
+    "status": "ok"
+  },
+  "https://www.documentcloud.org/documents/20694207-canping-huang-phd-novel-virus-discovery-in-bat-isn-translation": {
+    "source_key": "ch11-s09",
+    "artifact": "artifacts/ch11-s09.md",
+    "status": "ok"
+  },
+  "https://time.com/collection/100-most-influential-people-2020/5888415/zhong-nanshan/": {
+    "source_key": "ch11-s10",
+    "artifact": "artifacts/ch11-s10.md",
+    "status": "ok"
   }
 }
