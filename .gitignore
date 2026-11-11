@@ -1,3 +1,5 @@
-
 .firecrawl/
 .venv-pdf/
+
+# Scraped source copies — kept locally for corpus work; not published
+origins/sources/data/extended/artifacts/
