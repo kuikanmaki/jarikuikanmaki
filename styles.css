@@ -942,9 +942,9 @@ img {
   margin-top: 0.15rem;
 }
 .sources-page .source-item-detail {
-  margin: 0.55rem 0 0.65rem 1.35rem;
-  padding: 0.75rem 0 0.15rem;
-  border-top: 1px solid hsl(var(--border));
+  margin: 0.45rem 0 0.35rem 1.35rem;
+  padding: 0.15rem 0 0.75rem;
+  border-bottom: 1px solid hsl(var(--border));
 }
 .sources-page .source-item-detail .catalog-card-meta {
   margin-bottom: 0.45rem;
