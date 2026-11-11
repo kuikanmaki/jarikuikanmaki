@@ -98,12 +98,16 @@
       : "";
     var text =
       '<div class="catalog-card-copy">' +
-        kind +
         (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
         topicLine +
         status +
       "</div>";
-    return '<div class="catalog-card-enrichment">' + text + media + "</div>";
+    return (
+      '<div class="catalog-card-enrichment">' +
+        kind +
+        '<div class="catalog-card-body">' + text + media + "</div>" +
+      "</div>"
+    );
   }
 
   function renderCard(s) {

@@ -953,11 +953,19 @@ img {
   margin-top: 0;
 }
 .sources-page .catalog-card-enrichment {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.sources-page .catalog-card-enrichment > .catalog-card-meta {
+  margin: 0;
+}
+.sources-page .catalog-card-body {
   display: grid;
   gap: 0.85rem;
 }
 @media (min-width: 640px) {
-  .sources-page .catalog-card-enrichment:has(.catalog-card-media) {
+  .sources-page .catalog-card-body:has(.catalog-card-media) {
     grid-template-columns: minmax(0, 1fr) minmax(0, 11rem);
     align-items: start;
   }
@@ -979,6 +987,7 @@ img {
   object-fit: cover;
 }
 .sources-page .catalog-card-copy { min-width: 0; }
+.sources-page .catalog-card-copy .catalog-card-summary { margin-top: 0; }
 .sources-page .catalog-card .catalog-card-enrichment {
   margin-top: 0.65rem;
 }
