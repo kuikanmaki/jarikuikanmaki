@@ -1,0 +1,427 @@
+{
+  "chapter": 11,
+  "chapter_title": "The Mojiang Connection",
+  "printed_pages": { "start": 124, "end": 136 },
+  "sources": [
+    {
+      "id": 1,
+      "type": "News article",
+      "author": "Rahalkar, Monali, and Rahul Bahulikar",
+      "title": "How an Indian scientist couple worked to trace origin, course of COVID-19",
+      "publication": "The Week",
+      "date": "June 13, 2021",
+      "url": "https://www.theweek.in/theweek/cover/2021/06/03/how-an-indian-scientist-couple-worked-to-trace-origin-course-of-covid-19.html",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "The Week profile of Monali Rahalkar and Rahul Bahulikar’s independent work tracing COVID origins—especially reconnecting RaTG13 to the 2012 Mojiang mineshaft pneumonia cases.",
+      "book_role": "Introduces the Indian scientist couple whose Mojiang detective work anchors Chapter 11.",
+      "topics": ["Rahalkar", "Bahulikar", "Mojiang", "RaTG13", "origins sleuthing"],
+      "entities": {
+        "people": ["Monali Rahalkar", "Rahul Bahulikar"],
+        "orgs": ["The Week"],
+        "places": ["India", "Mojiang", "Wuhan"]
+      }
+    },
+    {
+      "id": 2,
+      "type": "Blog post",
+      "author": "Racaniello, Vincent",
+      "title": "Pangolins and the origin of SARS-CoV-2 coronavirus",
+      "publication": "Virology Blog",
+      "date": "February 20, 2020",
+      "url": "https://virology.ws/2020/02/20/pangolins-and-the-origin-of-sars-cov-2-coronavirus/#comment-55702",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Racaniello blog discussing pangolin CoVs, RaTG13 RBD differences, and the SARS-CoV-2 furin cleavage site absent from RaTG13—early technical framing of origin clues.",
+      "book_role": "Early technical discussion of spike features that later Mojiang/RaTG13 arguments build on.",
+      "topics": ["pangolins", "RaTG13", "furin cleavage site", "ACE2 RBD"],
+      "entities": {
+        "people": ["Vincent Racaniello"],
+        "orgs": ["Virology Blog"],
+        "places": []
+      }
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Ge, X.Y., et al.",
+      "title": "Coexistence of multiple coronaviruses in several bat colonies in an abandoned mineshaft",
+      "publication": "Virologica Sinica",
+      "date": "2016",
+      "url": "https://link.springer.com/article/10.1007/s12250-016-3713-9",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2016 Virologica Sinica paper documenting multiple coronaviruses coexisting in bat colonies in an abandoned mineshaft—the Mojiang site later tied to RaTG13/BtCoV/4991.",
+      "book_role": "Primary scientific record of WIV sampling in the Mojiang mineshaft before the pandemic.",
+      "topics": ["Mojiang mineshaft", "bat coronaviruses", "WIV sampling", "coinfection"],
+      "entities": {
+        "people": ["Xing-Yi Ge", "Shi Zhengli"],
+        "orgs": ["Virologica Sinica", "Wuhan Institute of Virology"],
+        "places": ["Mojiang", "Yunnan", "China"]
+      }
+    },
+    {
+      "id": 4,
+      "type": "GenBank entry",
+      "author": "Wuhan Institute of Virology",
+      "title": "Rhinolophus bat coronavirus BtCoV/4991 RNA-dependent RNA polymerase (RdRp) gene, partial cds",
+      "publication": "GenBank",
+      "date": "March 4, 2016",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/KP876546",
+      "status": "not_found",
+      "artifact": null,
+      "content_kind": "database_record",
+      "language": "en",
+      "summary": "GenBank record KP876546 for partial RdRp of Rhinolophus bat coronavirus BtCoV/4991—later recognized as the same virus lineage renamed RaTG13. Scrape returned 404/blocked.",
+      "book_role": "Shows RaTG13 existed in public databases since 2016 under the 4991 name—key Mojiang breadcrumb.",
+      "topics": ["BtCoV/4991", "GenBank", "RaTG13 precursor", "RdRp"],
+      "entities": {
+        "people": [],
+        "orgs": ["Wuhan Institute of Virology", "GenBank", "NCBI"],
+        "places": ["Mojiang", "China"]
+      }
+    },
+    {
+      "id": 5,
+      "type": "Journal article",
+      "author": "Rahalkar, Monali, and Rahul Bahulikar",
+      "title": "Lethal Pneumonia Cases in Mojiang Miners (2012) and the Mineshaft Could Provide Important Clues to the Origin of SARS-CoV-2",
+      "publication": "Frontiers in Public Health",
+      "date": "October 20, 2020",
+      "url": "https://www.frontiersin.org/articles/10.3389/fpubh.2020.581569/full",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Rahalkar & Bahulikar Frontiers paper arguing the 2012 Mojiang miners’ lethal pneumonia and the mineshaft where RaTG13 was sampled are critical, under-examined clues to SARS-CoV-2 origins.",
+      "book_role": "Core scholarly argument reconnecting Mojiang illness, WIV sampling, and RaTG13.",
+      "topics": ["Mojiang miners", "lethal pneumonia 2012", "RaTG13", "mineshaft"],
+      "entities": {
+        "people": ["Monali Rahalkar", "Rahul Bahulikar"],
+        "orgs": ["Frontiers in Public Health"],
+        "places": ["Mojiang", "Yunnan", "China"]
+      }
+    },
+    {
+      "id": 6,
+      "type": "GenBank entry",
+      "author": "Wuhan Institute of Virology",
+      "title": "Bat coronavirus RaTG13, complete genome",
+      "publication": "GenBank",
+      "date": "January 27, 2020",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1",
+      "status": "not_found",
+      "artifact": null,
+      "content_kind": "database_record",
+      "language": "en",
+      "summary": "GenBank MN996532.1 complete RaTG13 genome published by Shi’s team in 2020. Scrape returned 404/blocked; citation retained (chapter notes).",
+      "book_role": "The complete closest known relative sequence whose Mojiang provenance Chapter 11 reconstructs.",
+      "topics": ["RaTG13", "complete genome", "GenBank", "Shi Zhengli"],
+      "entities": {
+        "people": ["Shi Zhengli"],
+        "orgs": ["Wuhan Institute of Virology", "GenBank", "NCBI"],
+        "places": ["Mojiang", "Wuhan"]
+      }
+    },
+    {
+      "id": 7,
+      "type": "News article",
+      "author": "@TheSeeker268",
+      "title": "What exactly happened in Wuhan?",
+      "publication": "The Week",
+      "date": "July 11, 2021",
+      "url": "https://www.theweek.in/theweek/cover/2021/07/01/what-exactly-happened-in-wuhan.html",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "The Week cover piece by DRASTIC researcher @TheSeeker268 synthesizing what open-source investigators pieced together about Wuhan, Mojiang, and lab-linked origin clues.",
+      "book_role": "DRASTIC voice summarizing the Mojiang–Wuhan puzzle for a general audience.",
+      "topics": ["DRASTIC", "Wuhan", "Mojiang", "open-source investigation"],
+      "entities": {
+        "people": ["TheSeeker268"],
+        "orgs": ["The Week", "DRASTIC"],
+        "places": ["Wuhan", "Mojiang", "China"]
+      }
+    },
+    {
+      "id": 8,
+      "type": "Document",
+      "author": "Xu, Li",
+      "title": "Analysis of Six Patients With Unknown Viruses",
+      "publication": "",
+      "date": "May 2013",
+      "url": "https://www.documentcloud.org/documents/6981198-Analysis-of-Six-Patients-With-Unknown-Viruses.html",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "English translation of Li Xu’s 2013 Kunming Medical University master’s thesis analyzing six Mojiang miners with severe pneumonia from unknown viruses—clinical detail on the 2012 outbreak.",
+      "book_role": "Primary clinical document of the Mojiang miner illnesses Chapter 11 centers on.",
+      "topics": ["Mojiang miners", "severe pneumonia", "Li Xu thesis", "unknown virus"],
+      "entities": {
+        "people": ["Li Xu"],
+        "orgs": ["Kunming Medical University", "DocumentCloud"],
+        "places": ["Mojiang", "Kunming", "Yunnan"]
+      }
+    },
+    {
+      "id": 9,
+      "type": "Thesis / document",
+      "author": "Huang, Canping",
+      "title": "Novel Virus Discovery in Bat and the Exploration of Receptor of Bat Coronavirus HKU9",
+      "publication": "",
+      "date": "June 2016",
+      "url": "https://www.documentcloud.org/documents/20694207-canping-huang-phd-novel-virus-discovery-in-bat-isn-translation",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Partial English translation of Canping Huang’s 2016 China CDC PhD thesis on bat virus discovery and HKU9 receptor work—later mined for Mojiang/RaTG13 and WIV research context.",
+      "book_role": "Chinese thesis that Independent Science News and Chapter 11 use to illuminate Mojiang-linked virus work.",
+      "topics": ["Canping Huang thesis", "bat virus discovery", "HKU9", "China CDC"],
+      "entities": {
+        "people": ["Canping Huang"],
+        "orgs": ["Chinese Center for Disease Control and Prevention", "DocumentCloud"],
+        "places": ["China"]
+      }
+    },
+    {
+      "id": 10,
+      "type": "Magazine profile",
+      "author": "Chan, Margaret",
+      "title": "The Most Influential People of 2020, Titans: Zhong Nanshan",
+      "publication": "Time Magazine",
+      "date": "September 22, 2020",
+      "url": "https://time.com/collection/100-most-influential-people-2020/5888415/zhong-nanshan/",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s10.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "TIME Titans profile of Zhong Nanshan as leader of China’s NHC expert panel on COVID—symbolic of the Chinese medical establishment’s outbreak narrative.",
+      "book_role": "Profiles the Chinese public-health titan whose authority framed official outbreak storytelling around Mojiang-era silence.",
+      "topics": ["Zhong Nanshan", "China NHC", "COVID response"],
+      "entities": {
+        "people": ["Margaret Chan", "Zhong Nanshan"],
+        "orgs": ["Time Magazine", "National Health Commission"],
+        "places": ["China", "Wuhan"]
+      }
+    },
+    {
+      "id": 11,
+      "type": "Article",
+      "author": "Latham, Jonathan, and Allison Wilson",
+      "title": "A Chinese PhD Thesis Sheds Important New Light On The Origin of the COVID-19 Coronavirus",
+      "publication": "Independent Science News",
+      "date": "May 11, 2021",
+      "url": "https://www.independentsciencenews.org/commentaries/a-chinese-phd-thesis-sheds-important-new-light-on-the-origin-of-the-covid-19-coronavirus/",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Latham & Wilson analysis of how a Chinese PhD thesis and related materials shed new light on RaTG13’s Mojiang provenance and gaps in Zhou et al. 2020’s brief account of the closest relative.",
+      "book_role": "Key secondary analysis unlocking the Mojiang–RaTG13 connection for Chapter 11’s argument.",
+      "topics": ["RaTG13 provenance", "Chinese PhD thesis", "Zhou et al. 2020", "Mojiang"],
+      "entities": {
+        "people": ["Jonathan Latham", "Allison Wilson", "Shi Zhengli"],
+        "orgs": ["Independent Science News", "Wuhan Institute of Virology"],
+        "places": ["Mojiang", "Wuhan"]
+      }
+    },
+    {
+      "id": 12,
+      "type": "News article",
+      "author": "Ridley, Matt, and Alina Chan",
+      "title": "Did the Covid-19 virus really escape from a Wuhan lab?",
+      "publication": "The Telegraph",
+      "date": "February 6, 2021",
+      "url": "https://www.telegraph.co.uk/news/2021/02/06/did-covid-19-virus-really-escape-wuhan-lab/",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s12.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Ridley & Chan Telegraph essay arguing the lab-escape case: wet-market/pangolin story weaknesses, WIV bat research, and Mojiang-linked closest relatives—foreshadowing their book Viral.",
+      "book_role": "Mainstream long-form staking the lab-escape case around Mojiang and WIV research.",
+      "topics": ["lab escape", "Wuhan lab", "pangolins", "Mojiang"],
+      "entities": {
+        "people": ["Matt Ridley", "Alina Chan"],
+        "orgs": ["The Telegraph", "Wuhan Institute of Virology"],
+        "places": ["Wuhan", "China"]
+      }
+    },
+    {
+      "id": 13,
+      "type": "News article",
+      "author": "Cadell, Cate, and Yawen Chen",
+      "title": "Painful lesson: how a military-style lockdown unfolded in Wuhan",
+      "publication": "Reuters",
+      "date": "April 8, 2020",
+      "url": "https://www.reuters.com/article/us-health-coronavirus-wuhan-scientists-i/painful-lesson-how-a-military-style-lockdown-unfolded-in-wuhan-idUSKBN21Q0KD",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s13.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters reconstruction of Wuhan’s military-style lockdown as the city reopened after more than two months—showing how tightly authorities controlled information and movement at the outbreak epicenter.",
+      "book_role": "Documents the information-control environment surrounding any Wuhan/Mojiang origins inquiry.",
+      "topics": ["Wuhan lockdown", "military-style controls", "China outbreak response"],
+      "entities": {
+        "people": ["Cate Cadell", "Yawen Chen"],
+        "orgs": ["Reuters"],
+        "places": ["Wuhan", "Hubei", "China"]
+      }
+    },
+    {
+      "id": 14,
+      "type": "Journal article",
+      "author": "Xing-Yi Ge, et al.",
+      "title": "Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor",
+      "publication": "Nature",
+      "date": "October 30, 2013",
+      "url": "https://www.nature.com/articles/nature12711",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s14.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Landmark 2013 Nature paper isolating a bat SARS-like coronavirus that uses ACE2—foundational WIV work showing bat sarbecoviruses can bind the human receptor years before COVID.",
+      "book_role": "Establishes WIV’s pre-pandemic ACE2-using bat CoV research program that Mojiang sampling sits inside.",
+      "topics": ["bat SARS-like coronavirus", "ACE2", "WIV", "Shi Zhengli"],
+      "entities": {
+        "people": ["Xing-Yi Ge", "Shi Zhengli"],
+        "orgs": ["Nature", "Wuhan Institute of Virology"],
+        "places": ["China"]
+      }
+    },
+    {
+      "id": 15,
+      "type": "Journal article",
+      "author": "Follis, Kathryn, et al.",
+      "title": "Furin cleavage of the SARS coronavirus spike glycoprotein enhances cell–cell fusion but does not affect virion entry",
+      "publication": "Virology",
+      "date": "July 5, 2006",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7111780/",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s15.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2006 Virology study inserting a furin cleavage site at the SARS-CoV S1–S2 junction—showing the technique was already known (chapter notes).",
+      "book_role": "Historical proof that FCS insertion into SARS spike was an established lab method long before SARS-CoV-2.",
+      "topics": ["furin cleavage site", "SARS-CoV spike", "cell-cell fusion", "lab technique"],
+      "entities": {
+        "people": ["Kathryn Follis"],
+        "orgs": ["Virology", "PMC"],
+        "places": []
+      }
+    },
+    {
+      "id": 16,
+      "type": "Journal article",
+      "author": "Kuo, L., et al.",
+      "title": "Retargeting of coronavirus by substitution of the spike glycoprotein ectodomain: crossing the host cell species barrier",
+      "publication": "Journal of Virology",
+      "date": "February 1, 2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10627550/",
+      "status": "not_found",
+      "artifact": null,
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2000 JVI paper showing coronavirus host-range can be changed by swapping spike ectodomains. PubMed scrape failed; citation retained (chapter notes).",
+      "book_role": "Shows spike retargeting across species barriers was textbook coronavirus reverse genetics by 2000.",
+      "topics": ["spike ectodomain", "host species barrier", "coronavirus retargeting"],
+      "entities": {
+        "people": ["L. Kuo"],
+        "orgs": ["Journal of Virology", "PubMed"],
+        "places": []
+      }
+    },
+    {
+      "id": 17,
+      "type": "Journal article",
+      "author": "Liu, Shan-Lu, et al.",
+      "title": "No credible evidence supporting claims of the laboratory engineering of SARS-CoV-2",
+      "publication": "Emerging Microbes & Infections",
+      "date": "February 26, 2020",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/22221751.2020.1733440",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s17.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Liu, Saif, Weiss & Su commentary asserting no credible evidence of laboratory engineering of SARS-CoV-2—early published dismissal of lab-origin claims.",
+      "book_role": "Public scientific denial piece Chapter 11 contrasts with the authors’ private email doubts (s18).",
+      "topics": ["lab engineering denial", "SARS-CoV-2 origin", "commentary"],
+      "entities": {
+        "people": ["Shan-Lu Liu", "Linda J. Saif", "Susan R. Weiss", "Lishan Su"],
+        "orgs": ["Emerging Microbes & Infections"],
+        "places": []
+      }
+    },
+    {
+      "id": 18,
+      "type": "Investigative article",
+      "author": "Murray, Shannon",
+      "title": "Scientists who authored article denying lab engineering of SARS-CoV-2 privately acknowledged possible lab origin, emails show",
+      "publication": "U.S. Right to Know",
+      "date": "August 11, 2021",
+      "url": "https://usrtk.org/covid-19-origins/scientists-who-authored-article-denying-lab-engineering-of-sars-cov-2-privately-acknowledged-possible-lab-origin-emails-show/",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s18.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "USRTK FOIA reporting that Liu et al. authors privately discussed possible lab origin and furin-cleavage concerns even while publishing ‘no credible evidence’ of engineering.",
+      "book_role": "Exposes the public/private split on FCS and lab origin that Chapter 11 pairs with Mojiang silences.",
+      "topics": ["FOIA emails", "furin cleavage site", "lab origin", "Liu et al."],
+      "entities": {
+        "people": ["Shannon Murray", "Shan-Lu Liu", "Susan R. Weiss"],
+        "orgs": ["U.S. Right to Know"],
+        "places": []
+      }
+    },
+    {
+      "id": 19,
+      "type": "News article",
+      "author": "Kang, Dake, and Yawen Chen",
+      "title": "China clamps down in hidden hunt for coronavirus origins",
+      "publication": "AP News",
+      "date": "December 30, 2020",
+      "url": "https://apnews.com/article/united-nations-coronavirus-pandemic-china-only-on-ap-bats-24fbadc58cee3a40bca2ddf7a14d2955",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s19.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "AP investigation of China’s internal, tightly controlled origins hunt—including bat and animal sampling—while suppressing independent inquiry and controlling what leaves the country.",
+      "book_role": "Shows Beijing’s hidden domestic origins probe while Mojiang/WIV questions stayed unanswered abroad.",
+      "topics": ["China origins clampdown", "bat sampling", "secrecy", "AP investigation"],
+      "entities": {
+        "people": ["Dake Kang", "Yawen Chen"],
+        "orgs": ["Associated Press"],
+        "places": ["China", "Wuhan"]
+      }
+    },
+    {
+      "id": 20,
+      "type": "Journal article",
+      "author": "Shi, Z.-L., et al.",
+      "title": "Coexistence of multiple coronaviruses in several bat colonies in an abandoned mineshaft",
+      "publication": "Virologica Sinica",
+      "date": "February 18, 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7090819/",
+      "status": "ok",
+      "artifact": "artifacts/ch11-s20.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "PMC full text of the 2016 Mojiang mineshaft coronavirus coexistence paper (same study as s03)—open-access copy of the WIV bat-colony survey.",
+      "book_role": "Open full-text twin of the Mojiang mineshaft paper for researchers following Chapter 11’s citations.",
+      "topics": ["Mojiang mineshaft", "bat coronaviruses", "PMC full text"],
+      "entities": {
+        "people": ["Shi Zhengli", "Xing-Yi Ge"],
+        "orgs": ["Virologica Sinica", "PMC", "Wuhan Institute of Virology"],
+        "places": ["Mojiang", "Yunnan"]
+      }
+    }
+  ]
+}

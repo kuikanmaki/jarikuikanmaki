@@ -748,5 +748,85 @@
     "source_key": "ch11-s10",
     "artifact": "artifacts/ch11-s10.md",
     "status": "ok"
+  },
+  "https://www.independentsciencenews.org/commentaries/a-chinese-phd-thesis-sheds-important-new-light-on-the-origin-of-the-covid-19-coronavirus/": {
+    "source_key": "ch11-s11",
+    "artifact": "artifacts/ch11-s11.md",
+    "status": "ok"
+  },
+  "https://www.telegraph.co.uk/news/2021/02/06/did-covid-19-virus-really-escape-wuhan-lab/": {
+    "source_key": "ch11-s12",
+    "artifact": "artifacts/ch11-s12.md",
+    "status": "ok"
+  },
+  "https://www.reuters.com/article/us-health-coronavirus-wuhan-scientists-i/painful-lesson-how-a-military-style-lockdown-unfolded-in-wuhan-idUSKBN21Q0KD": {
+    "source_key": "ch11-s13",
+    "artifact": "artifacts/ch11-s13.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/nature12711": {
+    "source_key": "ch11-s14",
+    "artifact": "artifacts/ch11-s14.md",
+    "status": "ok"
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7111780/": {
+    "source_key": "ch11-s15",
+    "artifact": "artifacts/ch11-s15.md",
+    "status": "ok"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/10627550/": {
+    "source_key": "ch11-s16",
+    "artifact": null,
+    "status": "not_found"
+  },
+  "https://www.tandfonline.com/doi/pdf/10.1080/22221751.2020.1733440": {
+    "source_key": "ch11-s17",
+    "artifact": "artifacts/ch11-s17.md",
+    "status": "ok"
+  },
+  "https://usrtk.org/covid-19-origins/scientists-who-authored-article-denying-lab-engineering-of-sars-cov-2-privately-acknowledged-possible-lab-origin-emails-show/": {
+    "source_key": "ch11-s18",
+    "artifact": "artifacts/ch11-s18.md",
+    "status": "ok"
+  },
+  "https://apnews.com/article/united-nations-coronavirus-pandemic-china-only-on-ap-bats-24fbadc58cee3a40bca2ddf7a14d2955": {
+    "source_key": "ch11-s19",
+    "artifact": "artifacts/ch11-s19.md",
+    "status": "ok"
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7090819/": {
+    "source_key": "ch11-s20",
+    "artifact": "artifacts/ch11-s20.md",
+    "status": "ok"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/12368349/": {
+    "source_key": "ch12-s01",
+    "artifact": null,
+    "status": "not_found"
+  },
+  "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0030005": {
+    "source_key": "ch12-s02",
+    "artifact": "artifacts/ch12-s02.md",
+    "status": "ok"
+  },
+  "https://www.pnas.org/doi/full/10.1073/pnas.0808116105": {
+    "source_key": "ch12-s03",
+    "artifact": "artifacts/ch12-s03.md",
+    "status": "ok"
+  },
+  "https://www.science.org/doi/10.1126/science.1118391": {
+    "source_key": "ch12-s04",
+    "artifact": "artifacts/ch12-s04.md",
+    "status": "ok"
+  },
+  "https://www.technologyreview.com/2021/06/29/1027290/gain-of-function-risky-bat-virus-engineering-links-america-to-wuhan/": {
+    "source_key": "ch12-s05",
+    "artifact": "artifacts/ch12-s05.md",
+    "status": "ok"
+  },
+  "https://www.nature.com/articles/nature.2015.18787": {
+    "source_key": "ch12-s06",
+    "artifact": "artifacts/ch12-s06.md",
+    "status": "ok"
   }
 }
