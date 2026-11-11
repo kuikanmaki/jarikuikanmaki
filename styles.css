@@ -586,6 +586,120 @@ img {
 }
 
 .sources-page .sources-intro { margin-top: 1rem; font-size: 1rem; line-height: 1.75; color: hsl(var(--muted-foreground)); }
+
+/* Authority keyword search (MiniSearch) */
+.sources-page .sources-search {
+  position: relative;
+  margin-top: 1.5rem;
+}
+.sources-page .sources-search-label {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.5rem;
+}
+.sources-page .sources-search-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+.sources-page #authority-search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 2.75rem;
+  padding: 0 0.875rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--card));
+  color: hsl(var(--foreground));
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.sources-page #authority-search-input:focus {
+  outline: 2px solid hsl(var(--accent));
+  outline-offset: 2px;
+  border-color: hsl(var(--accent));
+}
+.sources-page .sources-search-clear {
+  flex: 0 0 auto;
+  padding: 0 0.875rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: transparent;
+  color: hsl(var(--foreground));
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sources-page .sources-search-clear:hover {
+  border-color: hsl(var(--accent));
+  color: hsl(var(--accent));
+}
+.sources-page .sources-search-suggestions {
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  top: calc(100% - 0.15rem);
+  margin: 0;
+  padding: 0.35rem 0;
+  list-style: none;
+  max-height: 18rem;
+  overflow: auto;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--card));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+.sources-page .sources-search-suggestion {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.55rem 0.875rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+.sources-page .sources-search-suggestion:hover,
+.sources-page .sources-search-suggestion.is-active,
+.sources-page .sources-search-suggestion[aria-selected="true"] {
+  background: hsl(var(--accent) / 0.08);
+}
+.sources-page .sources-search-suggestion-label {
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+.sources-page .sources-search-suggestion-meta {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  color: hsl(var(--muted-foreground));
+  white-space: nowrap;
+}
+.sources-page .sources-search-status { margin-top: 0.625rem; margin-bottom: 0; }
+.sources-page .search-result-item { margin-bottom: 1.25rem; }
+.sources-page .search-result-chapter {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.2rem;
+}
+.sources-page .search-result-summary {
+  margin: 0.35rem 0 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: hsl(var(--muted-foreground));
+}
 /* Hide the shared audiobook strip on the Sources page only. */
 .sources-page .audiobook-announcement { display: none; }
 /* Back-to-top lands just above the "Sources and Notes" title with a comfortable margin. */

@@ -44,3 +44,13 @@ Each extended chapter source may include:
 - `entity_ids` — `{ people, orgs, places }` ids resolved from `entities`
 
 Display strings in `topics` / `entities` are normalized to `prefLabel` when matched.
+
+## Site search
+
+The Sources page uses MiniSearch over `../authority-search-index.json` (keyword → tagged sources).
+
+Rebuild after authority or extended-chapter changes:
+
+```bash
+python3 origins/sources/data/_build_authority_search_index.py
+```
