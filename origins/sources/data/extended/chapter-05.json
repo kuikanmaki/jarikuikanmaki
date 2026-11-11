@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nature paper from Shi Zhengli’s group identifying 2019-nCoV as a new SARS-related coronavirus of probable bat origin, reporting characterization of the Wuhan outbreak virus and its relationship to bat SARSr-CoVs (later tied to the RaTG13 narrative).",
-      "book_role": "Foundational WIV Nature paper asserting probable bat origin—the scientific frame Chapter 5 interrogates alongside pangolin and market claims.",
+      "book_role": "WIV Nature paper framing a probable bat origin as the official scientific storyline.",
       "topics": [
         "SARS-CoV-2",
         "bat origin",
@@ -77,7 +77,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nature news report on Guangzhou researchers suggesting pangolins as the probable intermediate animal source of the coronavirus outbreak then infecting tens of thousands.",
-      "book_role": "Introduces the pangolin-intermediate-host hypothesis that gives the chapter its title and competing origin narrative.",
+      "book_role": "",
       "topics": [
         "pangolins",
         "intermediate host",
@@ -129,7 +129,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Barron’s piece arguing China’s coronavirus statistics look too perfect to be trustworthy, echoing long-standing skepticism about Chinese official data. Full article behind subscription; only lede retrieved.",
-      "book_role": "Supports the chapter’s skepticism about official Chinese case numbers while origin stories (bats vs pangolins) were being sold.",
+      "book_role": "",
       "topics": [
         "Chinese official data",
         "case counts",
@@ -171,7 +171,7 @@
       "content_kind": "preprint",
       "language": "en",
       "summary": "Early February 2020 preprint discussing possible origins of 2019-nCoV, noting genomic similarity to bat CoV ZC45 and questioning whether the Huanan market alone explains the epidemic’s start.",
-      "book_role": "Early alternative-origin preprint circulating as the bat/pangolin narratives were being locked in.",
+      "book_role": "Xiao & Xiao preprint that instead pointed toward lab-linked origin possibilities around Wuhan.",
       "topics": [
         "2019-nCoV origins",
         "bat CoV ZC45",
@@ -219,7 +219,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Daily Mail report on the Xiao/Xiao preprint arguing the virus likely came from a Wuhan lab (WHCDC and/or WIV), citing bat research near the Huanan market, bat–researcher accidents, and the distance of native bats from Wuhan.",
-      "book_role": "Brings the lab-origin reading of the Xiao preprint into mass media while pangolin and bat-market stories were still the official line.",
+      "book_role": "",
       "topics": [
         "lab-leak hypothesis",
         "Wuhan CDC",
@@ -281,7 +281,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2015 Nature Medicine study (Menachery/Baric et al.) showing a SARS-like bat coronavirus cluster with potential for human emergence; later cited in COVID origin debates (with a 2020 editors’ note rejecting unverified engineering claims).",
-      "book_role": "Pre-pandemic chimeric/bat-CoV research paper that Chapter 5 uses to show human-emergence potential was already being demonstrated in the lab years earlier.",
+      "book_role": "",
       "topics": [
         "bat coronaviruses",
         "human emergence",

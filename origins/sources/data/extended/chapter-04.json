@@ -19,7 +19,7 @@
       "content_kind": "video",
       "language": "fi",
       "summary": "YouTube episode of the Jari & Otto Show titled ‘Loppu on lähellä’ (28 Jan 2020). Video URLs are skipped under scrape policy; citation retained from the bibliography.",
-      "book_role": "Author’s own contemporaneous podcast reaction as the outbreak reaches Europe and Finland.",
+      "book_role": "",
       "topics": [
         "podcast",
         "early outbreak",
@@ -69,7 +69,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters report that France confirmed Europe’s first three Wuhan coronavirus cases—two hospitalized in Paris and one in Bordeaux—with Health Minister Agnès Buzyn warning more were likely.",
-      "book_role": "Documents the outbreak’s first confirmed foothold in Europe; notes later point to even earlier undetected spread in France.",
+      "book_role": "",
       "topics": [
         "first European cases",
         "France",
@@ -124,7 +124,7 @@
       "content_kind": "html_article",
       "language": "fi",
       "summary": "Yle report confirming Finland’s first coronavirus case: a Chinese tourist from Wuhan isolated in good condition at Lapland Central Hospital in Rovaniemi after travel via Saariselkä.",
-      "book_role": "Brings the outbreak into Finland—the author’s home frame for following early international spread.",
+      "book_role": "",
       "topics": [
         "first Finnish case",
         "Lapland",
@@ -173,7 +173,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Lancet Infectious Diseases note introducing the Johns Hopkins interactive COVID-19 dashboard. Full text was not retrieved (paywall/chrome only).",
-      "book_role": "Citation for the real-time case-tracking dashboards that shaped how outsiders watched the epidemic explode in January–February 2020.",
+      "book_role": "",
       "topics": [
         "COVID-19 dashboard",
         "real-time tracking",
@@ -218,7 +218,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Neil Ferguson tweet warning that despite containment efforts, planning must assume the 2019-nCoV epidemic might not be containable, citing new human-to-human transmissibility estimates. Social URL skipped; text kept from the bibliography title.",
-      "book_role": "Public signal from Imperial College modelling that containment might fail—paired with Report 3 in this chapter.",
+      "book_role": "Ferguson’s early warning that Wuhan containment might already be impossible.",
       "topics": [
         "transmissibility",
         "containment",
@@ -267,7 +267,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "SCMP report that HKU’s Gabriel Leung and colleagues urged ‘draconian’ Hong Kong measures after modelling suggested ~44,000 Wuhan infections and self-sustaining spread in major mainland cities.",
-      "book_role": "Shows how early academic modelling already implied far larger Wuhan caseloads than official counts—central to Chapter 4’s scale-of-outbreak argument.",
+      "book_role": "",
       "topics": [
         "Wuhan case estimates",
         "Hong Kong measures",
@@ -315,7 +315,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "World Bank indicator page for air passengers carried in China, used as quantitative context for how extensively China was connected by aviation before the outbreak.",
-      "book_role": "Supports the chapter’s point about China’s air-travel volume and how quickly an emerging pathogen could seed abroad.",
+      "book_role": "",
       "topics": [
         "air travel",
         "China passengers",
@@ -354,7 +354,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "NECSI/NYU note by Norman, Bar-Yam, and Taleb arguing the new coronavirus poses systemic pandemic risk and that travel bans and precautionary responses should be taken seriously despite incomplete data.",
-      "book_role": "Early complex-systems warning that the outbreak should be treated as a fat-tailed pandemic threat, not a containable local event.",
+      "book_role": "",
       "topics": [
         "systemic risk",
         "pandemic precaution",
@@ -403,7 +403,7 @@
       "content_kind": "unknown",
       "language": "en",
       "summary": "Nassim Taleb’s book on highly improbable, high-impact events. No URL in the bibliography; cited as conceptual background for pandemic fat-tail risk.",
-      "book_role": "Intellectual backdrop for treating the new coronavirus as a Black Swan–style systemic risk rather than a routine outbreak.",
+      "book_role": "Taleb’s early criticism of WHO risk assessment during Chinese New Year travel.",
       "topics": [
         "Black Swan",
         "fat tails",
@@ -434,7 +434,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "Imperial College Report 3 estimating R≈2.6 (1.5–3.5) for 2019-nCoV up to 18 January 2020 and concluding self-sustaining human-to-human transmission is the only plausible explanation for Wuhan’s scale; >60% of transmission would need blocking for control.",
-      "book_role": "Key early modelling estimate that the outbreak was already self-sustaining and likely uncontainable without extreme transmission blocking.",
+      "book_role": "Imperial transmissibility report behind Ferguson’s containment warning.",
       "topics": [
         "R0",
         "transmissibility",
@@ -484,7 +484,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "WHO Situation Report 7 noting the Director-General’s Beijing mission, incubation-period estimates of about 2–10 days, and the need for better data on the infectious period including possible asymptomatic transmission.",
-      "book_role": "Official WHO snapshot of what was publicly known (and still uncertain) about spread and incubation in late January.",
+      "book_role": "",
       "topics": [
         "WHO situation report",
         "incubation period",
@@ -534,7 +534,7 @@
       "content_kind": "gov_doc",
       "language": "en",
       "summary": "WHO statement from the second IHR Emergency Committee meeting on 2019-nCoV, the meeting that led to declaring a Public Health Emergency of International Concern.",
-      "book_role": "Marks the formal international emergency declaration as cases begin appearing across Europe and beyond.",
+      "book_role": "",
       "topics": [
         "PHEIC",
         "IHR Emergency Committee",
@@ -581,7 +581,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters report that Italy declared a six-month state of emergency after two Chinese tourists from Wuhan tested positive, and halted flights to and from China.",
-      "book_role": "Documents Italy’s first confirmed cases and emergency powers; notes later cite even earlier undetected Italian spread.",
+      "book_role": "",
       "topics": [
         "Italy emergency",
         "first Italian cases",
@@ -628,7 +628,7 @@
       "content_kind": "html_article",
       "language": "fi",
       "summary": "Iltasanomat piece in which Family and Care Services Minister Krista Kiuru answers MPs’ criticism of government quietness, saying Finland follows WHO and THL guidance and that virus control is not a political matter.",
-      "book_role": "Finnish political reaction as the first local case and European spread force the government on the defensive.",
+      "book_role": "",
       "topics": [
         "Krista Kiuru",
         "Finnish government response",
@@ -676,7 +676,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nextstrain phylogenetic visualization page for sars-like coronaviruses (Bedford/Hodcroft blab group), presenting evolutionary relationships among SARS-related CoV samples.",
-      "book_role": "Points readers to the genomic tree context for SARS-like viruses that Chapter 4 begins connecting to bats and Yunnan.",
+      "book_role": "Bedford’s early sarbecovirus tree visualization used to place the new virus among bat SARS-like viruses.",
       "topics": [
         "Nextstrain",
         "sarbecoviruses",

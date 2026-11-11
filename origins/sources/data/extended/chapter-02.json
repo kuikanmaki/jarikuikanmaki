@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Washington Times article quoting analyst Dany Shoham on a possible link between the Wuhan outbreak and Chinese biological-warfare–related laboratories. Notes record an earlier 24 January headline variant tying Wuhan labs to a bio-warfare program.",
-      "book_role": "Introduces the early bioweapons hypothesis and Shoham’s analysis that Chapter 2 interrogates.",
+      "book_role": "Opens the bioweapons chapter: Gertz/Shoham reporting linking Wuhan labs to China’s biowarfare program.",
       "topics": [
         "bioweapons",
         "Dany Shoham",
@@ -70,7 +70,7 @@
       "content_kind": "landing",
       "language": "en",
       "summary": "Amazon product page for David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy. Page is a retail landing page, not book text.",
-      "book_role": "Background reading on Cold War biological-weapons history informing Chapter 2’s bioweapons frame.",
+      "book_role": "Hoffman’s Dead Hand history discussed with Otto as Cold War bioweapons context.",
       "topics": [
         "Cold War",
         "biological weapons",
@@ -119,7 +119,7 @@
       "content_kind": "landing",
       "language": "en",
       "summary": "Amazon product page for Ken Alibek’s insider account of the Soviet biological weapons program. Retail landing page only.",
-      "book_role": "Key historical reference for covert state bioweapons programs discussed in Chapter 2.",
+      "book_role": "Alibek’s Biohazard account of a covert Soviet outbreak used as historical warning.",
       "topics": [
         "Soviet bioweapons",
         "Ken Alibek",
@@ -174,7 +174,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "STAT report that WHO confirmed Chinese authorities believed a new coronavirus may cause Wuhan’s mysterious pneumonia cases, before China had fully stated that publicly.",
-      "book_role": "Tracks the early scientific/WHO framing of the outbreak as a novel coronavirus alongside bioweapons speculation.",
+      "book_role": "First major Western article attributing the Wuhan outbreak to a new virus and linking it to the seafood market.",
       "topics": [
         "WHO",
         "SARS-CoV-2",
@@ -228,7 +228,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "mBio analysis linking the 1977 H1N1 reemergence (widely discussed as a possible lab-related event) to contemporary gain-of-function policy debates.",
-      "book_role": "Scientific precedent for lab-origin influenza used when Chapter 2 weighs accidental release vs bioweapon narratives.",
+      "book_role": "",
       "topics": [
         "1977 H1N1",
         "lab escape",

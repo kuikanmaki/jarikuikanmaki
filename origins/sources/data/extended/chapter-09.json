@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Guardian report that China had not yet approved visas for the WHO origins delegation due to visit Wuhan, effectively blocking the team’s entry after months of negotiation.",
-      "book_role": "Opens the chapter’s WHO-to-China arc with Beijing stalling the very investigation it had agreed to host.",
+      "book_role": "",
       "topics": [
         "WHO origins mission",
         "visa blockade",
@@ -73,7 +73,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "AP dispatch on the WHO origins team finally arriving in Wuhan on 14 January 2021 for a politically sensitive investigation amid uncertainty whether Beijing would allow embarrassing findings.",
-      "book_role": "Marks the team’s delayed arrival—the investigation Chapter 9 scrutinizes as compromised from the start.",
+      "book_role": "",
       "topics": [
         "WHO team arrival",
         "Wuhan investigation",
@@ -120,7 +120,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "BBC report on Peter Ben Embarek calling a Wuhan lab leak ‘extremely unlikely,’ favoring a natural bat reservoir (likely not in Wuhan), while Daszak floated shifting focus to Southeast Asia—effectively sidelining the lab hypothesis from future study.",
-      "book_role": "The mission’s headline verdict that Chapter 9 treats as premature closure of the lab-leak question.",
+      "book_role": "BBC/WHO coverage of the mission’s “extremely unlikely” lab-leak ranking.",
       "topics": [
         "extremely unlikely",
         "Peter Ben Embarek",
@@ -178,7 +178,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Birrell column arguing WHO let Beijing vet investigators and appointed Peter Daszak—whose EcoHealth bat-virus work at WIV had been cut—while FOIA emails showed early lab-release language deleted from a scientists’ White House letter.",
-      "book_role": "Pre-mission critique of WHO/China conflict-of-interest design that frames why the later ‘extremely unlikely’ finding rings hollow.",
+      "book_role": "Birrell’s pre-mission warning that Daszak’s role created a conflict of interest.",
       "topics": [
         "Peter Daszak",
         "WHO conflicts",
@@ -242,7 +242,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Politico report that NIH told EcoHealth Alliance future funding for its bat–human virus transmission work was cut amid Trump administration concern over China ties.",
-      "book_role": "Documents the EcoHealth grant cutoff that later shadowed Daszak’s role on the WHO team.",
+      "book_role": "",
       "topics": [
         "EcoHealth Alliance",
         "NIH grant cutoff",
@@ -296,7 +296,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Science News piece on 77 Nobel laureates and dozens of societies urging Francis Collins and HHS to reverse NIH’s cancellation of the EcoHealth coronavirus grant after Trump-era political pressure.",
-      "book_role": "Shows the scientific establishment rallying to defend EcoHealth funding—context for who later policed origins discourse.",
+      "book_role": "",
       "topics": [
         "Nobel laureates",
         "NIH grant",
@@ -352,7 +352,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Guardian report that Anthony Fauci accepted Joe Biden’s offer to serve as chief medical adviser, saying he agreed ‘right on the spot.’",
-      "book_role": "Marks the political transition around the WHO mission period—continuity of Fauci’s central role as origins politics intensify.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci",
         "Biden administration",
@@ -404,7 +404,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Daszak tweet framing trust as Fauci versus ‘politicized conspiracy theorists.’ No URL in source data; citation retained from bibliography.",
-      "book_role": "Voice of the WHO-team scientist policing origins doubt as conspiracy while conflicts of interest went undeclared.",
+      "book_role": "Daszak’s public comments as a WHO team member shifting focus away from the lab.",
       "topics": [
         "Peter Daszak",
         "Anthony Fauci",
@@ -458,7 +458,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Daszak tweet endorsing Biden and branding Trump an anti-science, conspiracy-based candidate. No URL in source data; citation retained.",
-      "book_role": "Shows Daszak’s explicit partisan stance before joining the WHO origins team China helped shape.",
+      "book_role": "",
       "topics": [
         "Peter Daszak",
         "Biden endorsement",
@@ -513,7 +513,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Mail on Sunday report that NSFC wiped online records of hundreds of WIV studies—including all of Shi Zhengli’s listed work and bat cross-species infection studies—as China blocked WHO investigators.",
-      "book_role": "Documents data deletion on the eve of the WHO visit—cover-up evidence the mission would not confront.",
+      "book_role": "",
       "topics": [
         "NSFC database deletion",
         "Shi Zhengli",
@@ -570,7 +570,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Facebook/Meta integrity update expanding removal of COVID false claims; the page also records the later policy shift that they would no longer remove ‘COVID-19 is man-made’ claims amid origins investigations.",
-      "book_role": "Platform enforcement backdrop: lab-origin talk treated as removable misinformation while WHO/China narratives dominated.",
+      "book_role": "",
       "topics": [
         "Facebook misinformation",
         "man-made claim removal",
@@ -613,7 +613,7 @@
       "content_kind": "html_article",
       "language": "fi",
       "summary": "Author’s Suomen Uutiset piece on Trump/Pompeo accusing China over outbreak cover-up and U.S. intelligence treating a Wuhan lab escape as possible—early Finnish-language coverage of the origins clash.",
-      "book_role": "Author’s own contemporaneous reporting on the U.S.–China origins dispute that foreshadows the WHO mission fight.",
+      "book_role": "",
       "topics": [
         "U.S.–China relations",
         "Pompeo",
@@ -665,7 +665,7 @@
       "content_kind": "html_article",
       "language": "fi",
       "summary": "Author’s report that China sanctioned outgoing Secretary Pompeo and other Trump officials after Pompeo’s Uyghur genocide determination—diplomatic freeze coinciding with the WHO Wuhan mission window.",
-      "book_role": "Side-channel of the same confrontation: Beijing punishing Pompeo as the origins investigation finally reaches Wuhan.",
+      "book_role": "",
       "topics": [
         "Pompeo sanctions",
         "Uyghur genocide",
@@ -720,7 +720,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nicholas Wade’s long Bulletin analysis weighing natural spillover versus lab escape, criticizing the Lancet and Proximal Origin statements, Daszak’s conflicts, and the scientific politics that closed ranks against the lab hypothesis.",
-      "book_role": "Landmark post-WHO essay that reopened serious public debate after the ‘extremely unlikely’ verdict.",
+      "book_role": "Named among early public intellectuals who challenged the dominant origin narrative.",
       "topics": [
         "lab vs natural origin",
         "Lancet letter (February 2020)",
@@ -782,7 +782,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ coverage of 18 scientists’ Science letter criticizing the WHO-led report and demanding balanced evaluation of lab accident and animal spillover. Opening paragraphs retrieved before the paywall.",
-      "book_role": "Mainstream reporting of the scientific revolt against the WHO mission’s dismissive lab ranking.",
+      "book_role": "",
       "topics": [
         "Science letter",
         "deeper investigation",
@@ -832,7 +832,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Science letter by Bloom et al. arguing lab release and zoonotic spillover both remain viable; criticizing the WHO–China joint study for ranking a lab incident ‘extremely unlikely’ without balanced consideration and calling for transparent, conflict-managed investigation.",
-      "book_role": "Primary scientific rebuttal to the WHO mission’s lab dismissal—turning point after Chapter 9’s Wuhan visit.",
+      "book_role": "",
       "topics": [
         "lab vs zoonosis",
         "WHO-China joint study",
@@ -880,7 +880,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ report that a U.S. intelligence assessment said three WIV researchers became sick enough in November 2019 to seek hospital care—going beyond the Trump State Department fact sheet and fueling lab-escape debate. Partial text before paywall.",
-      "book_role": "Intelligence reporting that undercuts the WHO team’s easy dismissal of lab-linked illness timelines.",
+      "book_role": "",
       "topics": [
         "sick WIV researchers",
         "November 2019",
@@ -935,7 +935,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Archived Trump State Department fact sheet: autumn 2019 WIV researcher illnesses, RaTG13/gain-of-function and Mojiang mine links, and classified military collaboration at WIV—while stating origin (animal vs lab accident) still undetermined.",
-      "book_role": "U.S. government charge sheet released as the WHO team reached Wuhan—the evidence Beijing’s managed visit would not pursue.",
+      "book_role": "",
       "topics": [
         "WIV illnesses",
         "RaTG13",
@@ -991,7 +991,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ feature on the Mojiang/Danaoshan mine where six miners fell ill in 2012 and WIV later sampled viruses closest to SARS-CoV-2—now central to mainstream lab-leak scrutiny. Substantial opening retrieved before paywall.",
-      "book_role": "Brings the Mojiang mine—and WIV’s unfinished answers about it—into the post-WHO origins mainstream.",
+      "book_role": "",
       "topics": [
         "Mojiang mine",
         "RaTG13",

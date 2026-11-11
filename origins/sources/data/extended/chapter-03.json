@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Lancet clinical report on the first hospitalized 2019-nCoV patients in Wuhan. Full text was not retrieved (paywall/chrome only). This is the case series later cited to show the earliest patient had no seafood-market link.",
-      "book_role": "Provides the early Wuhan clinical case series that challenges a simple Huanan-market origin just as Fauci’s circle begins reacting to the outbreak.",
+      "book_role": "",
       "topics": [
         "2019-nCoV clinical features",
         "early cases",
@@ -68,7 +68,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Science news piece on the Lancet first-41-patients paper, noting the earliest case became ill on 1 December 2019 with no reported market link and arguing the Huanan seafood market may not be where the outbreak began.",
-      "book_role": "Brings market-origin doubts into Western scientific coverage at the same moment U.S. officials are absorbing the new virus.",
+      "book_role": "Science interview in which Daniel Lucey argues the virus entered the market before spreading from it.",
       "topics": [
         "Huanan Seafood Market",
         "early cases",
@@ -124,7 +124,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA-released pages from Anthony Fauci’s official work calendar around the turn of 2019/2020, listing day-to-day NIAID meetings as the novel coronavirus emerges.",
-      "book_role": "Documentary schedule evidence for what Fauci was doing when emails and briefings about Wuhan-linked coronavirus work reach him.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci",
         "NIAID calendar",
@@ -177,7 +177,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Seattle Times report that a Snohomish County resident is the first confirmed U.S. case of the new coronavirus, with CDC and Washington state officials briefing the public.",
-      "book_role": "Marks the virus’s arrival in the United States—the domestic backdrop to the emails hitting Fauci’s inbox.",
+      "book_role": "",
       "topics": [
         "first U.S. case",
         "Snohomish County",
@@ -233,7 +233,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Critical Boston Herald opinion on Fauci’s later ‘Fauci Effect’ remarks at Fred Hutchinson, attacking his public self-mythology after the pandemic.",
-      "book_role": "Later commentary used to frame how Fauci’s early power and public image were remembered once the email trail became controversial.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci",
         "Fauci Effect",
@@ -285,7 +285,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA email on draft talking points noting that NIAID-funded coronavirus experts—including Peter Daszak’s EcoHealth group with Ralph Baric and others—had been funded for coronavirus work in China via R01AI110964.",
-      "book_role": "The chapter’s central document: the message that puts EcoHealth, Baric, and NIAID China coronavirus funding directly into Fauci’s early briefings.",
+      "book_role": "Folkers email alerting Fauci that NIAID funding involved WIV collaborators working on nCoV.",
       "topics": [
         "EcoHealth Alliance",
         "NIAID grant",
@@ -357,7 +357,7 @@
       "content_kind": "gov_doc",
       "language": "en",
       "summary": "HHS TAGGS award page for NIAID grant R01AI110964 (2014–2024) to study bat coronavirus emergence risk, summarizing SARSr-CoV surveillance work funded after SARS/MERS and into the COVID era.",
-      "book_role": "Official grant record for the NIAID–EcoHealth bat-coronavirus project named in the Fauci talking-points email.",
+      "book_role": "",
       "topics": [
         "R01AI110964",
         "bat coronaviruses",
@@ -412,7 +412,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "USRTK investigation that early emails/schedules show Fauci met Ralph Baric in February 2020 about chimeric/gain-of-function work while Baric’s WIV collaborations were under scrutiny.",
-      "book_role": "Ties the calendar evidence to Fauci’s early conversations with Baric about GoF and chimeras.",
+      "book_role": "",
       "topics": [
         "gain-of-function research",
         "Ralph Baric",
@@ -477,7 +477,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "OpenTheBooks release of Fauci’s Nov 2019–Mar 2020 calendar, including early NSC/White House coronavirus meetings and the February 2020 Baric meeting entry.",
-      "book_role": "Pins the Fauci–Baric meeting on the official calendar that structures Chapter 3’s chronology.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci calendar",
         "Ralph Baric meeting",
@@ -531,7 +531,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Video-recorded deposition of Anthony Fauci taken 23 November 2022 at NIH in Bethesda for Louisiana federal litigation; the scrape is a large DocumentCloud/OCR transcript dump including counsel captions and sworn Q&A.",
-      "book_role": "Later sworn testimony used to test Fauci’s early-knowledge claims against the 2020 email and calendar record.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci deposition",
         "court testimony",
@@ -580,7 +580,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA Slack notification in which Matt Frieman says Ralph Baric sat in Fauci’s office talking about the outbreak and chimeras, bristled at a WIV-link joke, and claimed Shi’s paper lacked Chinese government approval.",
-      "book_role": "Contemporaneous lab-world message corroborating a Fauci–Baric ‘outbreak and chimeras’ conversation in February 2020.",
+      "book_role": "Frieman’s account of Baric’s private reaction after meeting Fauci.",
       "topics": [
         "Ralph Baric",
         "chimeras",
@@ -642,7 +642,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Early January 2020 technical essay by Karl and Dan Sirotkin arguing logistical and genomic reasons to take a laboratory origin for the Wuhan coronavirus seriously.",
-      "book_role": "Example of very early independent technical skepticism about a natural-only origin while official narratives were still forming.",
+      "book_role": "Early public proposal that SARS-CoV-2 could have emerged via serial passage in humanized mice.",
       "topics": [
         "lab origin hypothesis",
         "Wuhan strain",
@@ -689,7 +689,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Long Medium essay reading SARS-CoV-2 against published gain-of-function and reverse-genetics work, arguing a lab-related genealogy cannot be dismissed and that modern engineering need leave no obvious genomic scars.",
-      "book_role": "Influential early GoF-genealogy argument that Chapter 3 pairs with the Fauci/Baric/WIV funding thread.",
+      "book_role": "Early public proposal, with the Sirotkins, of a laboratory serial-passage origin path.",
       "topics": [
         "gain-of-function research",
         "SARS-CoV-2 genealogy",

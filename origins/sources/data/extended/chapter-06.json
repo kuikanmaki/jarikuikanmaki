@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Bulletin essay warning that gain-of-function work on potential pandemic pathogens creates a self-fulfilling risk of laboratory escape, surveying historical lab-escape episodes and biosafety debates.",
-      "book_role": "Establishes that lab-escape pandemics were a serious, mainstream biosafety concern years before COVID—before such talk was branded conspiracy theory.",
+      "book_role": "",
       "topics": [
         "laboratory escapes",
         "gain-of-function research",
@@ -55,7 +55,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Washington Post investigation of early Chinese official secrecy and missteps that likely let the virus spread farther and faster. Only a short opening was retrieved before the paywall.",
-      "book_role": "Documents Beijing’s early information control—the backdrop against which Western ‘conspiracy’ branding of origin questions takes shape.",
+      "book_role": "",
       "topics": [
         "Chinese secrecy",
         "early outbreak response",
@@ -107,7 +107,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Guardian report on citizen journalist Chen Qiushi going missing in Wuhan amid anger after Li Wenliang’s death, with claims authorities were silencing another whistleblower.",
-      "book_role": "Shows continued suppression of independent reporting from Wuhan while origin questions were being policed abroad as ‘rumors.’",
+      "book_role": "",
       "topics": [
         "Chen Qiushi",
         "whistleblowers",
@@ -160,7 +160,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "U.S. Global Engagement Center report tracking Russia-linked personas amplifying coronavirus themes in multiple languages from late January 2020 as part of a broader disinformation apparatus.",
-      "book_role": "Primary U.S. government document used to frame early origin/lab talk as foreign disinformation rather than open scientific debate.",
+      "book_role": "",
       "topics": [
         "GEC",
         "Russian disinformation",
@@ -209,7 +209,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "France 24/AFP report summarizing U.S. claims that a Russia-linked campaign was fueling coronavirus alarm and related narratives online.",
-      "book_role": "Media amplification of the GEC disinformation frame that Chapter 6 argues helped stigmatize lab-origin hypotheses.",
+      "book_role": "",
       "topics": [
         "Russian disinformation",
         "U.S. government messaging",
@@ -252,7 +252,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA-released State Department analysis arguing there is no smoking-gun proof of a lab leak but substantial circumstantial evidence pointing to Wuhan CDC and WIV as the least probed, most plausible sources.",
-      "book_role": "Later declassified U.S. analysis that undercuts the early dismissal of Wuhan-lab hypotheses as mere conspiracy theory.",
+      "book_role": "",
       "topics": [
         "Wuhan labs",
         "circumstantial evidence",
@@ -308,7 +308,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Business Insider coverage of Sen. Tom Cotton suggesting at a Senate hearing that the coronavirus—‘worse than Chernobyl’—might have come from a Chinese ‘superlaboratory’ and that Beijing had misled about the outbreak.",
-      "book_role": "Early high-profile U.S. political airing of a Wuhan-lab hypothesis that media soon labeled fringe/conspiracy.",
+      "book_role": "",
       "topics": [
         "Tom Cotton",
         "superlaboratory",
@@ -365,7 +365,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "New York Times piece framing Cotton’s Wuhan-lab comments as a fringe origin theory. Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
-      "book_role": "Exhibit of prestige-media ‘fringe theory’ branding that Chapter 6 argues shut down legitimate origin questions.",
+      "book_role": "",
       "topics": [
         "Tom Cotton",
         "fringe theory framing",
@@ -415,7 +415,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Washington Post politics piece that originally called Cotton’s Wuhan-research comments a debunked conspiracy theory; a later correction removed ‘debunked’/‘conspiracy theory’ language. Only partial text retrieved.",
-      "book_role": "Key example of media ‘conspiracy theory’ labeling—and a later correction that Chapter 6 uses to show how overconfident that labeling was.",
+      "book_role": "",
       "topics": [
         "Tom Cotton",
         "conspiracy theory framing",
@@ -468,7 +468,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nature Medicine correspondence arguing SARS-CoV-2 is not a laboratory construct and that no laboratory-based scenario is plausible—the paper that became the scientific centerpiece of ‘natural origin’ certainty.",
-      "book_role": "The chapter’s central scientific document: ‘Proximal Origin,’ used to condemn lab-leak ideas as scientifically closed.",
+      "book_role": "The Nature Medicine “Proximal Origin” paper that declared a laboratory origin implausible.",
       "topics": [
         "The proximal origin of SARS-CoV-2",
         "SARS-CoV-2",
@@ -530,7 +530,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "USRTK FOIA-based report that EcoHealth’s Peter Daszak drafted The Lancet statement condemning lab-origin ‘conspiracy theories,’ intending it not to look like it came from any one organization.",
-      "book_role": "Exposes the behind-the-scenes EcoHealth orchestration of the Lancet scientists’ statement that policed origin debate.",
+      "book_role": "",
       "topics": [
         "Lancet letter (February 2020)",
         "Peter Daszak",
@@ -592,7 +592,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nicholas Wade analysis of newly released emails arguing Proximal Origin authors rushed a predetermined anti-lab-leak conclusion while sidelining features suggestive of manipulation.",
-      "book_role": "Critical reconstruction of how Proximal Origin was intellectually steered, reinforcing Chapter 6’s ‘orchestration’ theme.",
+      "book_role": "",
       "topics": [
         "Proximal Origin emails",
         "lab-leak hypothesis",
@@ -644,7 +644,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Detailed USRTK timeline of how five virologists moved from overnight alarm about the furin cleavage site to publishing Nature Medicine’s claim that no lab scenario was plausible.",
-      "book_role": "Chronological spine for how Proximal Origin was written and then used to close the lab-leak question in media and policy circles.",
+      "book_role": "",
       "topics": [
         "Proximal Origin timeline",
         "furin cleavage site",
@@ -699,7 +699,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Lancet multi-author statement supporting Chinese scientists and condemning conspiracy theories that COVID-19 lacked a natural origin. Full text not retrieved (paywall/chrome).",
-      "book_role": "The public letter—later shown to be Daszak-organized—that branded lab-origin talk as conspiracy while defending China’s scientists.",
+      "book_role": "",
       "topics": [
         "Lancet letter (February 2020)",
         "natural origin",
@@ -750,7 +750,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Science news coverage of the 27-scientist Lancet statement condemning rumors that COVID-19 came from a Wuhan lab and warning that such talk threatened open data sharing.",
-      "book_role": "Shows how quickly elite scientific media echoed and legitimized the Lancet condemnation of lab-origin hypotheses.",
+      "book_role": "",
       "topics": [
         "Lancet letter (February 2020)",
         "conspiracy theories",
@@ -803,7 +803,7 @@
       "content_kind": "landing",
       "language": "en",
       "summary": "Amazon product page for Jeremy Farrar’s memoir Spike, his insider account of early pandemic science and policy. Retail landing page only, not book text.",
-      "book_role": "Primary-source memoir from a central Proximal Origin–era scientific insider later elevated at WHO.",
+      "book_role": "",
       "topics": [
         "Jeremy Farrar",
         "early pandemic insider account",
@@ -855,7 +855,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters report that WHO appointed Jeremy Farrar as chief scientist in 2022, succeeding Soumya Swaminathan amid a broader agency shakeup.",
-      "book_role": "Tracks Farrar’s later elevation to WHO leadership after his early role in shaping origin narratives.",
+      "book_role": "",
       "topics": [
         "Jeremy Farrar",
         "WHO chief scientist",

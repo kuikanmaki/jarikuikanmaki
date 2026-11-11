@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WaPo report that WIV staff received state-secrets training in May 2019 and that classified military-linked research at the lab complicates origins inquiries. Opening retrieved behind subscription wall.",
-      "book_role": "Documents secret/military-linked WIV work—the shadowy ‘they’ Chapter 13 tries to identify.",
+      "book_role": "",
       "topics": [
         "WIV secrecy",
         "state secrets training",
@@ -70,7 +70,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Tweet highlighting a redacted Feb 1, 2020 teleconference email line about discussing the viral ‘backbone’ as well as the ‘insert.’ X/Twitter skipped under scrape policy.",
-      "book_role": "Points to FOIA language suggesting scientists privately worried about backbone engineering, not only the furin insert.",
+      "book_role": "",
       "topics": [
         "Feb 1 teleconference",
         "backbone",
@@ -109,7 +109,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Birrell Mail on Sunday column on secrecy-cloaked inquiries, WHO letting Beijing vet investigators, and Daszak’s Wuhan-linked appointment—reused artifact from chapter 9.",
-      "book_role": "Maps institutional ‘they’—WHO, EcoHealth, Beijing—who shaped what could be asked about origins.",
+      "book_role": "",
       "topics": [
         "WHO conflicts",
         "Peter Daszak",
@@ -169,7 +169,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Bloomberg feature on Danielle Anderson, the last foreign scientist at WIV before COVID, speaking on the origins debate and what she observed in the lab.",
-      "book_role": "Rare insider voice from inside WIV—complicating simple conspiracy frames while still leaving shadows.",
+      "book_role": "",
       "topics": [
         "Danielle Anderson",
         "WIV foreign scientist",
@@ -222,7 +222,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Wellcome Trust ‘Who we are’ institutional page—context for Jeremy Farrar’s foundation role in early origins teleconferences and scientific funding networks.",
-      "book_role": "Institutional identity page for one of the powerful Western funders in the Chapter 13 ‘who are they’ cast.",
+      "book_role": "",
       "topics": [
         "Wellcome Trust",
         "Jeremy Farrar",

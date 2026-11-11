@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters on the Taliban entering Kabul as U.S. diplomats evacuated by helicopter—collapse of the Afghanistan mission.",
-      "book_role": "Opens Chapter 18’s geopolitical fog: great-power chaos drowning origins focus.",
+      "book_role": "",
       "topics": [
         "Afghanistan",
         "Taliban",
@@ -64,7 +64,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Euronews on Poland–Belarus border migrant chaos framed as hybrid attack rather than ordinary migration crisis.",
-      "book_role": "European hybrid-warfare front in the same fog-of-war months.",
+      "book_role": "",
       "topics": [
         "Belarus border",
         "hybrid attack",
@@ -106,7 +106,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters: Ukraine reports nearly 100,000 Russian troops near its border—pre-invasion buildup.",
-      "book_role": "Marks the gathering Ukraine war that soon eclipses pandemic origins politics.",
+      "book_role": "",
       "topics": [
         "Russia troop buildup",
         "Ukraine border",
@@ -149,7 +149,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Al Jazeera on Omicron driving record daily COVID cases across Europe in late December 2021.",
-      "book_role": "Pandemic’s new wave still raging as geopolitical fog thickens.",
+      "book_role": "",
       "topics": [
         "Omicron",
         "Europe",
@@ -193,7 +193,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters: U.S. COVID hospitalizations exceed 132,000 under Omicron—new pandemic peak.",
-      "book_role": "U.S. domestic COVID crisis concurrent with war drums and protest politics.",
+      "book_role": "",
       "topics": [
         "Omicron",
         "U.S. hospitalizations",
@@ -234,7 +234,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "France 24 on clashes in Brussels as tens of thousands protest COVID rules.",
-      "book_role": "European civil unrest over pandemic controls—fog of domestic legitimacy crisis.",
+      "book_role": "",
       "topics": [
         "COVID protests",
         "Brussels",
@@ -276,7 +276,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "AP: Ottawa declares a state of emergency amid COVID trucker/convoy protests.",
-      "book_role": "North American protest emergency as the war fog arrives.",
+      "book_role": "",
       "topics": [
         "Ottawa",
         "state of emergency",
@@ -318,7 +318,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reuters day-of-invasion report: missiles across Ukraine as Russia launches full-scale war.",
-      "book_role": "The war that Chapter 18 says swallows remaining attention to pandemic origins.",
+      "book_role": "",
       "topics": [
         "Russia invasion",
         "Ukraine",
@@ -370,7 +370,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Companion Reuters piece confirming Kyiv’s assessment of a full-scale Russian invasion.",
-      "book_role": "Second confirmation of the war’s start—historical hinge of the fog-of-war chapter.",
+      "book_role": "",
       "topics": [
         "full-scale invasion",
         "Ukraine",
@@ -419,7 +419,7 @@
       "content_kind": "personal_note",
       "language": "fi",
       "summary": "Author’s personal journal entry dated 25 Jan 2022. No public URL; private contemporaneous note.",
-      "book_role": "Author’s private vantage as COVID politics and war fears converge.",
+      "book_role": "",
       "topics": [
         "personal journal",
         "author contemporaneous note"
@@ -458,7 +458,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "UNESCO Constitution (1945)—founding text on education, science, culture and peace after world war.",
-      "book_role": "Normative contrast: postwar institutions meant to prevent the fog of war Chapter 18 describes returning.",
+      "book_role": "",
       "topics": [
         "UNESCO Constitution",
         "peace",
@@ -496,7 +496,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "AP: China amplifies unsupported Russian claims about Ukraine biolabs—origins/bioweapons rhetoric weaponized in the new war.",
-      "book_role": "Shows how biolab narratives are recycled as wartime propaganda, muddying COVID-origins discourse.",
+      "book_role": "",
       "topics": [
         "Ukraine biolabs",
         "Russian claims",
@@ -543,7 +543,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Eisenhower’s farewell address warning of the military-industrial complex—canonical text on permanent war-and-science machinery.",
-      "book_role": "Historical lens Chapter 18 uses for the biodefense/military complex behind pandemic and war politics.",
+      "book_role": "Eisenhower’s farewell warning about the military–industrial–scientific elite, used as closing frame.",
       "topics": [
         "military-industrial complex",
         "Eisenhower",
@@ -584,7 +584,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NATO announcement that Finland and Sweden submitted applications to join the Alliance after Russia’s invasion.",
-      "book_role": "Finnish security realignment—author’s national context inside the fog of war.",
+      "book_role": "",
       "topics": [
         "NATO enlargement",
         "Finland",
@@ -630,7 +630,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Guardian on Ukraine’s surprise Kharkiv-region counteroffensive against Russian forces.",
-      "book_role": "War’s continuing churn as Chapter 18 closes—origins questions still unresolved amid battle.",
+      "book_role": "",
       "topics": [
         "Kharkiv counteroffensive",
         "Ukraine war",

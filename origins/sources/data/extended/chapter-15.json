@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Newsweek report that DARPA denied funding the EcoHealth DEFUSE proposal involving WIV after DRASTIC leaked the document—proposal rejected, not awarded.",
-      "book_role": "Clarifies DEFUSE was rejected by DARPA while situating it inside the U.S. biodefense funding machine Chapter 15 maps.",
+      "book_role": "",
       "topics": [
         "DARPA",
         "DEFUSE denial",
@@ -76,7 +76,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Current Affairs interview with Jeffrey Sachs arguing he is ‘pretty convinced’ COVID came from U.S. lab biotechnology and that Washington blocks a real origins investigation amid dangerous unregulated virus research.",
-      "book_role": "Prominent commission chair pointing the biodefense finger back at U.S. labs and secrecy.",
+      "book_role": "",
       "topics": [
         "Jeffrey Sachs",
         "Lancet COVID-19 Commission",
@@ -128,7 +128,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "UnHerd essay arguing post-9/11 Cheney-era biodefense strategy elevated Fauci’s role and built the risky pathogen-research complex that later backfired.",
-      "book_role": "Historical thesis for Chapter 15: U.S. biodefense politics created the institutional world of GoF and pandemic preparedness.",
+      "book_role": "",
       "topics": [
         "Dick Cheney",
         "Anthony Fauci",
@@ -182,7 +182,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2014 survey comparing BSL-3 practices at U.S. select-agent versus non–select-agent facilities—empirical look at biosafety variation inside the domestic biodefense lab network.",
-      "book_role": "Technical evidence that U.S. high-containment practice itself is uneven—context for exporting risky work abroad.",
+      "book_role": "",
       "topics": [
         "BSL-3",
         "select agents",
@@ -229,7 +229,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2007 Baric paper on risks and benefits of synthetic viral genomics—early articulation of dual-use coronavirus reverse-genetics capabilities from a central U.S. practitioner.",
-      "book_role": "Primary statement from Baric on synthetic virus tech’s dual-use stakes inside the biodefense complex.",
+      "book_role": "Baric’s 2006 synthetic-genomics essay warning of dual-use risks and false-origin signatures.",
       "topics": [
         "synthetic viral genomics",
         "dual use",
@@ -279,7 +279,7 @@
       "content_kind": "book",
       "language": "zh",
       "summary": "2015 Chinese Academy of Military Medical Sciences Press book on unnatural SARS origin and artificial humanized viruses as genetic weapons. No URL in source data.",
-      "book_role": "Chinese military-medical literature treating humanized viruses as genetic weapons—mirror image of U.S. biodefense dual-use discourse.",
+      "book_role": "",
       "topics": [
         "genetic weapons",
         "artificial humanized viruses",
@@ -320,7 +320,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "AP/CBC report on Bruce Ivins’s suicide as FBI prepared to indict him in the 2001 anthrax-letter attacks—foundational trauma of the U.S. biodefense era.",
-      "book_role": "Historical anchor: domestic bioweapons lab insider threat that turbocharged post-anthrax biodefense spending.",
+      "book_role": "",
       "topics": [
         "anthrax attacks",
         "Bruce Ivins",

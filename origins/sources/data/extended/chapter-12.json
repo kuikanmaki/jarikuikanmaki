@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform. PubMed scrape failed.",
-      "book_role": "Opens Baric’s trajectory: creating synthetic coronavirus clones in the lab (chapter notes).",
+      "book_role": "Early Baric reverse-genetics paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
         "infectious cDNA",
         "mouse hepatitis virus",
@@ -67,7 +67,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2007 PLOS Pathogens study creating a mouse-adapted SARS-CoV that causes disease and mortality in BALB/c mice via serial passage—lab evolution of pathogenicity.",
-      "book_role": "Baric-lineage work adapting SARS-CoV-1 in mice—step two of the research trajectory Chapter 12 traces.",
+      "book_role": "Baric mouse-adapted SARS paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
         "mouse-adapted SARS",
         "serial passage",
@@ -108,7 +108,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2008 PNAS paper on a synthetic recombinant bat SARS-like coronavirus infectious in cells and mice—spike/backbone chimera work in the Baric orbit.",
-      "book_role": "Shows insertion of SARS spike into a synthetic backbone—bridging bat CoV genetics and mammalian infection (chapter notes).",
+      "book_role": "Synthetic recombinant bat SARS-like coronavirus paper in the Baric research lineage.",
       "topics": [
         "synthetic bat SARS-like CoV",
         "recombinant virus",
@@ -149,7 +149,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2005 Science paper establishing horseshoe bats as natural reservoirs of SARS-like coronaviruses—foundational for Shi Zhengli’s subsequent WIV program.",
-      "book_role": "Starts Shi’s research trajectory Chapter 12 maps: bats as SARS-like CoV reservoirs.",
+      "book_role": "",
       "topics": [
         "bat reservoirs",
         "SARS-like coronaviruses",
@@ -196,7 +196,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "MIT Technology Review deep dive on gain-of-function bat-virus engineering linking U.S. labs (Baric/EcoHealth) to Wuhan, including WIV1 reverse genetics under lower biosafety.",
-      "book_role": "Narrative bridge explaining how American and Wuhan bat-virus engineering programs connected.",
+      "book_role": "Jacobsen’s account of U.S.–China bat-virus engineering links and WIV BSL-2 practice.",
       "topics": [
         "gain-of-function research",
         "WIV1",
@@ -260,7 +260,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2015 Nature news on the Menachery/Baric/Shi chimeric bat SARS-like virus paper that stirred gain-of-function debate over risky research.",
-      "book_role": "Contemporaneous alarm at engineered bat–SARS chimeras—the controversy Chapter 12 revisits.",
+      "book_role": "",
       "topics": [
         "engineered bat virus",
         "gain-of-function debate",
@@ -312,7 +312,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells. PubMed scrape failed.",
-      "book_role": "Documents WIV capability to retarget bat CoV spikes toward human cells.",
+      "book_role": "",
       "topics": [
         "receptor usage",
         "chimeric spike",
@@ -360,7 +360,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2010 Archives of Virology study testing ACE2 from different bat species for variable SARS-CoV entry susceptibility—mapping which bat receptors allow infection.",
-      "book_role": "Shows WIV systematically probing bat ACE2 compatibility with SARS entry.",
+      "book_role": "",
       "topics": [
         "bat ACE2",
         "SARS-CoV entry",
@@ -407,7 +407,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2016 JVI paper on WIV1 infectious clone and ORFX mutants—reverse-genetics platform later cited in DIA analysis; experiments under BSL-2 per chapter notes. PubMed scrape failed.",
-      "book_role": "Marks WIV’s live bat CoV infectious-clone capability—central to ‘what they studied in Wuhan.’",
+      "book_role": "WIV1 bat SARS-like coronavirus infection study in the Wuhan research record.",
       "topics": [
         "WIV1",
         "infectious clone",
@@ -460,7 +460,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2017 PLoS Pathogens Hu et al.: rich Yunnan-cave gene pool of bat SARS-related CoVs; native and chimeric viruses infect human cells—direct WIV lab characterization of spillover-capable viruses.",
-      "book_role": "Shows WIV isolating and chimera-testing human-cell-infecting bat SARSr-CoVs from Yunnan caves.",
+      "book_role": "",
       "topics": [
         "Yunnan cave",
         "SARSr-CoV gene pool",
@@ -513,7 +513,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2018 Nature Zhou et al. on SADS: fatal swine acute diarrhoea from an HKU2-related bat coronavirus—WIV work infecting piglets with a bat CoV (chapter notes).",
-      "book_role": "Documents WIV moving from cell work to infecting livestock with bat coronaviruses.",
+      "book_role": "Shi/WIV swine acute diarrhoea coronavirus paper in the chapter’s Wuhan research survey.",
       "topics": [
         "SADS",
         "HKU2-related CoV",
@@ -562,7 +562,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Asia Times piece on why U.S. entities outsourced bat-virus research to Wuhan. Only a browser-check interstitial was retrieved.",
-      "book_role": "Frames the U.S.–Wuhan outsourcing politics around the research Chapter 12 catalogs.",
+      "book_role": "",
       "topics": [
         "U.S. outsourcing",
         "bat virus research",
@@ -612,7 +612,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant—funding link reused from chapter 10 scrape cache.",
-      "book_role": "The NIAID grant tying U.S. money to the Wuhan bat-CoV agenda Chapter 12 inventories.",
+      "book_role": "",
       "topics": [
         "R01AI110964",
         "EcoHealth Alliance",
@@ -667,7 +667,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "DOI twin of Hu et al. 2017 PLoS Pathogens Yunnan SARSr-CoV gene-pool paper (same study as s10).",
-      "book_role": "Alternate citation path for the same rich gene-pool / chimera findings.",
+      "book_role": "",
       "topics": [
         "SARSr-CoV gene pool",
         "Yunnan",
@@ -720,7 +720,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Rev transcript of May 11, 2021 Senate testimony including Fauci’s exchange on NIH funding and gain-of-function research linked to Wuhan.",
-      "book_role": "Primary transcript of the Rand Paul–Fauci GoF confrontation Chapter 12’s notes discuss.",
+      "book_role": "",
       "topics": [
         "Senate testimony",
         "Rand Paul",
@@ -780,7 +780,7 @@
       "content_kind": "video",
       "language": "en",
       "summary": "C-SPAN/YouTube video of a heated Rand Paul–Fauci exchange on gain-of-function. Video skipped under scrape policy.",
-      "book_role": "Video record of the continuing GoF dispute after the May 2021 hearing.",
+      "book_role": "",
       "topics": [
         "Rand Paul",
         "Anthony Fauci",

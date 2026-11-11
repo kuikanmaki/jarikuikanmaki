@@ -19,7 +19,7 @@
       "content_kind": "database_record",
       "language": "en",
       "summary": "GenBank partial RdRp for RaTG13_Yunnan (bat SARS-like CoV). Scrape 404/blocked; citation retained.",
-      "book_role": "Sequence breadcrumb for RaTG13 lineage as Chapter 19’s revelations reopen genome/provenance fights.",
+      "book_role": "",
       "topics": [
         "RaTG13",
         "GenBank",
@@ -65,7 +65,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Washington Examiner: in early 2020 Fauci suggested FBI and MI5 might need warning that COVID could have emerged from a Wuhan lab—before he publicly argued the virus most likely arose naturally.",
-      "book_role": "Opens the revelations chapter with Fauci’s private-vs-public gap on lab leak.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci",
         "FBI",
@@ -119,7 +119,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "House Energy & Commerce release on investigation uncovering the earliest known SARS-CoV-2 sequence released/deleted dynamics.",
-      "book_role": "Congressional spotlight on early sequence concealment—core of Chapter 19’s evidence pile.",
+      "book_role": "",
       "topics": [
         "earliest sequence",
         "House E&C",
@@ -162,7 +162,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ reporting that a Chinese lab mapped the deadly coronavirus two weeks before Beijing told the world. Headline and paywall chrome retrieved.",
-      "book_role": "Documents pre-notification genome mapping that Chapter 19 treats as cover-up evidence.",
+      "book_role": "",
       "topics": [
         "genome mapping",
         "Beijing delay",
@@ -201,7 +201,7 @@
       "content_kind": "database_record",
       "language": "en",
       "summary": "GenBank submission record for BetaCoV/Wuhan/IPBCAMS-WH-01/2019—early Wuhan sequence entry.",
-      "book_role": "Primary early sequence artifact in the deleted/delayed GenBank story.",
+      "book_role": "",
       "topics": [
         "IPBCAMS-WH-01",
         "GenBank",
@@ -245,7 +245,7 @@
       "content_kind": "email",
       "language": "en",
       "summary": "Official/email record regarding deletion of GenBank submission BankIt2298002 Coronavirus/Wuhan—same early-sequence deletion thread.",
-      "book_role": "Paper trail of sequence deletion central to Chapter 19’s cover-up revelations.",
+      "book_role": "",
       "topics": [
         "GenBank deletion",
         "BankIt2298002",
@@ -286,7 +286,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Social post noting 163 sequences from a paper were sent to GenBank in July 2018—pre-pandemic sequence-deposit chronology.",
-      "book_role": "Crowd/open-source note tightening the timeline of what sequences existed when.",
+      "book_role": "",
       "topics": [
         "GenBank",
         "163 sequences",
@@ -326,7 +326,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Coverage of the Chinese researcher who mapped COVID weeks before official release—and the consequences that followed.",
-      "book_role": "Human face of early genome sharing and subsequent rectification/punishment.",
+      "book_role": "",
       "topics": [
         "genome mapper",
         "early sequence",
@@ -365,7 +365,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reporting that a top NIH official advised COVID scientists he uses personal email—records-avoidance allegation.",
-      "book_role": "Shows NIH figures steering communications off official channels.",
+      "book_role": "",
       "topics": [
         "NIH",
         "personal email",
@@ -409,7 +409,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Emails alleging a top NIH adviser deleted records and used a ‘secret’ backchannel during COVID origins discussions.",
-      "book_role": "Destruction/avoidance of records—Chapter 19’s accountability theme.",
+      "book_role": "",
       "topics": [
         "deleted records",
         "NIH adviser",
@@ -450,7 +450,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Congressional hearing with NIAID leadership on pandemic origins, funding, and oversight failures.",
-      "book_role": "On-the-record NIAID testimony under House scrutiny.",
+      "book_role": "",
       "topics": [
         "NIAID hearing",
         "U.S. Congress",
@@ -499,7 +499,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Deposition of Margaret Moore in the congressional origins/records investigation.",
-      "book_role": "Witness deposition on NIH/records practices feeding Chapter 19’s FOIA fights.",
+      "book_role": "",
       "topics": [
         "Margaret Moore",
         "deposition",
@@ -546,7 +546,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NYT-linked reporting that health officials tried to evade public-records laws. NYT blocked by Firecrawl.",
-      "book_role": "Public-records evasion as a pattern across health agencies.",
+      "book_role": "",
       "topics": [
         "public records",
         "evasion",
@@ -586,7 +586,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Report that scientists at the center of the lab-leak controversy met with NIH and Fauci around Proximal Origin timing.",
-      "book_role": "Meeting chronology tying Proximal Origin authors to NIH leadership.",
+      "book_role": "",
       "topics": [
         "The proximal origin of SARS-CoV-2",
         "NIH meeting",
@@ -636,7 +636,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Cell Symposium program on emerging and re-emerging viruses—context for scientist gatherings around outbreak science.",
-      "book_role": "Conference setting for networks Chapter 19 tracks.",
+      "book_role": "Cell Symposium program placing Fauci, Daszak, Shi and other key figures on the same stage.",
       "topics": [
         "Cell Symposium",
         "emerging viruses"
@@ -665,7 +665,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Sunday Times Insight: fresh evidence from confidential files that Chinese scientists spliced together deadly pathogens shortly before the pandemic—reconstruction of WIV’s pre-outbreak weeks.",
-      "book_role": "Narrative reconstruction of WIV’s critical pre-outbreak weeks.",
+      "book_role": "",
       "topics": [
         "Wuhan Institute of Virology",
         "pre-outbreak"
@@ -708,7 +708,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Congressional/GAO confirmation that U.S. taxpayer dollars flowed to WIV. Only a very thin page fragment was retrieved.",
-      "book_role": "Official confirmation of money trail to Wuhan.",
+      "book_role": "",
       "topics": [
         "GAO",
         "taxpayer dollars",
@@ -754,7 +754,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reporting on State Department cables that WIV conducted classified research with military links.",
-      "book_role": "Cables/military classification thread culminating Chapter 19’s intel revelations.",
+      "book_role": "",
       "topics": [
         "State Department cables",
         "classified research",
@@ -797,7 +797,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Long Daily Mail-style investigation of new clues: Wuhan scientists’ planned/related experiments and origin implications.",
-      "book_role": "Popular synthesis of worrying experimental clues as intel assessments shift.",
+      "book_role": "",
       "topics": [
         "Wuhan scientists",
         "origin clues",
@@ -838,7 +838,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA’d China National Virome Project (CNVP) initiative meeting agenda.",
-      "book_role": "Primary document on China’s national virome ambitions linked to WIV networks.",
+      "book_role": "China National Virome Project agenda showing Daszak, Carroll, and PLA-linked speakers together.",
       "topics": [
         "CNVP",
         "virome project",
@@ -879,7 +879,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA list of foreign collaborators on U.S. research grants FY2014–2017 including Cao/Wuhan names.",
-      "book_role": "Names the U.S.–China grant collaborator web Chapter 19 exposits.",
+      "book_role": "",
       "topics": [
         "foreign collaborators",
         "U.S. grants",
@@ -926,7 +926,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "Declassified SARS-CoV-2 genome analysis (DIA/intel). File exceeded Firecrawl size limit.",
-      "book_role": "Technical intel genome analysis—key primary assessment Chapter 19 highlights.",
+      "book_role": "Declassified DIA SARS-CoV-2 genome analysis treating lab-origin features as consistent with the data.",
       "topics": [
         "genome analysis",
         "declassified",
@@ -968,7 +968,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "News on a U.S. intelligence agency’s classified analysis offering detailed scientific assessment of origins.",
-      "book_role": "Public window into the classified scientific case for lab involvement.",
+      "book_role": "",
       "topics": [
         "classified analysis",
         "intelligence",
@@ -1010,7 +1010,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "DIA authoritative assessment document on SARS-CoV-2 origins.",
-      "book_role": "Primary DIA origins assessment text among Chapter 19’s declassifications.",
+      "book_role": "Later DIA authoritative assessment in the chapter’s intelligence-reversals sequence.",
       "topics": [
         "DIA assessment",
         "SARS-CoV-2 origins"
@@ -1049,7 +1049,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reporting that DIA considered a lab-leak scenario already in March 2020.",
-      "book_role": "Shows early intel openness to lab leak while public messaging denied it.",
+      "book_role": "",
       "topics": [
         "DIA",
         "March 2020",
@@ -1090,7 +1090,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ: U.S. Energy Department now assesses a lab leak in China as the most likely COVID origin. Headline retrieved before paywall.",
-      "book_role": "Cabinet-level scientific agency tipping to lab leak—major Chapter 19 beat.",
+      "book_role": "",
       "topics": [
         "Energy Department",
         "lab leak most likely"
@@ -1128,7 +1128,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ: FBI Director says COVID pandemic likely caused by a Chinese lab leak. Headline retrieved before paywall.",
-      "book_role": "FBI’s public low/moderate confidence lab-leak leaning.",
+      "book_role": "",
       "topics": [
         "FBI",
         "Christopher Wray",
@@ -1178,7 +1178,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NBC: CIA shifts prior assessments and concludes COVID likely leaked from a Chinese lab, while noting low confidence.",
-      "book_role": "Latest major IC flip Chapter 19 records.",
+      "book_role": "",
       "topics": [
         "CIA",
         "origins assessment",
@@ -1223,7 +1223,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Congressional release on CIA whistleblower testimony alleging new COVID-origins information and pressure.",
-      "book_role": "Whistleblower channel into CIA’s origins handling.",
+      "book_role": "",
       "topics": [
         "CIA whistleblower",
         "COVID origins",
@@ -1269,7 +1269,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Social post recounting Daszak in 2015 stopping conversation about lab risks—‘for the record’ anecdote.",
-      "book_role": "Anecdotal early Daszak posture on lab-risk talk.",
+      "book_role": "Huff’s claim that Daszak discussed CIA work with him beginning in 2015.",
       "topics": [
         "Peter Daszak",
         "2015",
@@ -1313,7 +1313,7 @@
       "content_kind": "book",
       "language": "en",
       "summary": "Andrew Huff book page/listing for The Truth about Wuhan—insider EcoHealth allegations.",
-      "book_role": "Book-length insider claim set against EcoHealth’s rebuttal (s33).",
+      "book_role": "",
       "topics": [
         "Andrew Huff",
         "EcoHealth Alliance",
@@ -1363,7 +1363,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "EcoHealth Alliance statement responding to Andrew Huff’s book. URL not found at scrape.",
-      "book_role": "Official EcoHealth rebuttal to the Huff allegations.",
+      "book_role": "",
       "topics": [
         "EcoHealth statement",
         "Andrew Huff"
@@ -1407,7 +1407,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Congressional hearing with EcoHealth president Peter Daszak. Page failed to load.",
-      "book_role": "Daszak under oath—capstone accountability moment.",
+      "book_role": "Daszak’s May 2024 congressional testimony on intelligence contacts.",
       "topics": [
         "Peter Daszak hearing",
         "EcoHealth Alliance",
@@ -1457,7 +1457,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Sen. Rand Paul seeks intelligence-community records related to COVID origins.",
-      "book_role": "Senate oversight demand for IC origins files.",
+      "book_role": "Senator Paul’s records request on Baric’s ODNI/CIA contacts and 2020 BSEG briefing.",
       "topics": [
         "Rand Paul",
         "intelligence records",
@@ -1504,7 +1504,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Government presentation deck titled 2019-nHCoV—early official technical briefing materials.",
-      "book_role": "Early-name-era government slides on the novel CoV.",
+      "book_role": "",
       "topics": [
         "2019-nHCoV",
         "government presentation"
@@ -1539,7 +1539,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Transcribed House Oversight interview in the coronavirus origins investigation.",
-      "book_role": "Primary transcribed testimony for Chapter 19’s congressional record.",
+      "book_role": "",
       "topics": [
         "House Oversight",
         "transcribed interview",
@@ -1577,7 +1577,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Report that a prominent virologist warned the intelligence community COVID could have a lab origin.",
-      "book_role": "Scientist-to-intel warning at odds with public dismissal narratives.",
+      "book_role": "",
       "topics": [
         "virologist warning",
         "intelligence community",
@@ -1617,7 +1617,7 @@
       "content_kind": "video",
       "language": "en",
       "summary": "Congressional Biomedical Research Caucus presentation video. YouTube skipped.",
-      "book_role": "Video testimony/presentation in the biomedical caucus series.",
+      "book_role": "",
       "topics": [
         "Congressional Biomedical Research Caucus",
         "presentation"
@@ -1654,7 +1654,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Rand Paul letters to fifteen federal agencies after discovering further origins-related issues.",
-      "book_role": "Broad multi-agency document demand wave.",
+      "book_role": "",
       "topics": [
         "Rand Paul",
         "fifteen agencies",
@@ -1701,7 +1701,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Research note on EcoHealth documents made public by Congress—including Daszak calendar findings.",
-      "book_role": "Document-driven analysis of Daszak’s meetings and conflicts.",
+      "book_role": "",
       "topics": [
         "EcoHealth documents",
         "Daszak calendar",
@@ -1745,7 +1745,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "German BND assessment reportedly concluded COVID likely leaked from a lab (papers/reporting).",
-      "book_role": "Allied intel convergence: German spy agency lab-leak lean.",
+      "book_role": "",
       "topics": [
         "BND",
         "Germany",
@@ -1793,7 +1793,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "Government memorandum analyzing circumstantial evidence for Wuhan labs as COVID source. Scrape error.",
-      "book_role": "Internal memo weighing Wuhan-lab circumstantial case.",
+      "book_role": "",
       "topics": [
         "Wuhan labs",
         "circumstantial evidence",
@@ -1829,7 +1829,7 @@
       "content_kind": "video",
       "language": "en",
       "summary": "Remarks related to Joe Rogan Experience episode #2255—public long-form origins discussion.",
-      "book_role": "Mass-audience podcast vector for Chapter 19’s revelations.",
+      "book_role": "Zuckerberg’s admission that the White House pressured Facebook to censor COVID content.",
       "topics": [
         "Joe Rogan",
         "podcast",
@@ -1868,7 +1868,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Report that USAID staff were told to shred and burn classified documents.",
-      "book_role": "Document destruction at USAID—another records-destruction revelation.",
+      "book_role": "",
       "topics": [
         "USAID",
         "shred documents",
@@ -1912,7 +1912,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Reporting EcoHealth sought to block disclosure of COVID-relevant virus sequences/data.",
-      "book_role": "Nonprofit resisting transparency on pandemic-relevant viruses.",
+      "book_role": "",
       "topics": [
         "EcoHealth Alliance",
         "sequence disclosure",
@@ -1956,7 +1956,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Report that a WHO top scientist was a collaborator of Peter Daszak—conflict on origins probe.",
-      "book_role": "WHO–EcoHealth personnel overlap undermining independent investigation claims.",
+      "book_role": "",
       "topics": [
         "WHO",
         "Peter Daszak",
@@ -2004,7 +2004,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Presentation on SARS, MERS and novel viral emergence from bats. Only a minimal fragment was retrieved.",
-      "book_role": "Pre-pandemic bat-emergence risk talk from the research network.",
+      "book_role": "",
       "topics": [
         "bat emergence",
         "SARS",
@@ -2036,7 +2036,7 @@
       "content_kind": "email",
       "language": "en",
       "summary": "Email to Peter Daszak—primary correspondence in the FOIA/oversight corpus.",
-      "book_role": "Direct Daszak email evidence cited among revelations.",
+      "book_role": "Morens emails to Daszak and Proximal Origin authors after FOIA releases.",
       "topics": [
         "Peter Daszak",
         "email",
@@ -2080,7 +2080,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Rand Paul issues subpoenas to fourteen agencies on COVID origins.",
-      "book_role": "Compulsory process escalating Senate origins investigation.",
+      "book_role": "",
       "topics": [
         "subpoenas",
         "Rand Paul",
@@ -2127,7 +2127,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "White Coat Waste investigation: EcoHealth received ~$46M in new taxpayer funds during scrutiny period.",
-      "book_role": "Post-scandal funding continuity Chapter 19 treats as institutional failure.",
+      "book_role": "",
       "topics": [
         "EcoHealth funding",
         "$46M",
@@ -2173,7 +2173,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "CRS/congressional research on termination of State Department’s Global Engagement Center.",
-      "book_role": "Side revelation on U.S. counter-disinfo apparatus shutdown amid origins politics.",
+      "book_role": "",
       "topics": [
         "Global Engagement Center",
         "U.S. Department of State",
@@ -2218,7 +2218,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "House Oversight release: after an eight-month investigation HHS cut off all funding and formally debarred EcoHealth Alliance and its former president Peter Daszak.",
-      "book_role": "Administrative sanction climax of the EcoHealth accountability arc.",
+      "book_role": "",
       "topics": [
         "HHS debarment",
         "EcoHealth Alliance",
@@ -2268,7 +2268,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Rand Paul uncovers new evidence of Fauci deleting official records.",
-      "book_role": "Latest records-deletion allegation against Fauci in the revelations cascade.",
+      "book_role": "",
       "topics": [
         "Anthony Fauci",
         "deleted records",
@@ -2320,7 +2320,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "ABC News: Biden issues preemptive pardons to potential Trump-admin targets including Anthony Fauci, Mark Milley, and Jan. 6 committee members hours before the transition.",
-      "book_role": "Political coda: preemptive pardon insulating Fauci as Chapter 19 closes.",
+      "book_role": "",
       "topics": [
         "preemptive pardon",
         "Anthony Fauci",

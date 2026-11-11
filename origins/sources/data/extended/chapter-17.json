@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "fi",
       "summary": "Author’s archived AlfaTV piece arguing accumulating evidence that WIV may have triggered the pandemic—Finnish-language lab-theory roundup.",
-      "book_role": "Author’s own contemporary synthesis as NIH admissions and new relatives emerge—Chapter 17’s enigma frame.",
+      "book_role": "",
       "topics": [
         "lab theory",
         "Wuhan Institute of Virology",
@@ -73,7 +73,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "NIH FOIA release of EcoHealth bat-coronavirus emergence materials including the late Year-5 interim RPPR describing WIV experiments.",
-      "book_role": "Document dump that forced NIH’s public reckoning with funded Wuhan virus work.",
+      "book_role": "",
       "topics": [
         "Year-5 RPPR",
         "EcoHealth Alliance",
@@ -127,7 +127,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "NIH Principal Deputy Director Lawrence Tabak’s letter to Rep. McMorris Rodgers transmitting EcoHealth grant materials and acknowledging limited experiments that should have triggered further review.",
-      "book_role": "Official NIH admission letter that shifted the ‘we never funded risky Wuhan research’ line.",
+      "book_role": "",
       "topics": [
         "Lawrence Tabak",
         "EcoHealth grant",
@@ -180,7 +180,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Vanity Fair on NIH’s major shift admitting it funded risky virus research in Wuhan via EcoHealth—coverage of the Tabak letter fallout.",
-      "book_role": "Mainstream framing of the NIH admission as a turning point in the enigma.",
+      "book_role": "",
       "topics": [
         "NIH admission",
         "risky virus research",
@@ -236,7 +236,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nature news on BANAL bat coronaviruses from Laos—closer relatives to SARS-CoV-2 than RaTG13 in key spike regions—complicating simple Wuhan-only stories.",
-      "book_role": "New natural-relative evidence that deepens rather than resolves the origin enigma.",
+      "book_role": "BANAL-52 discovery showing close sarbecovirus relatives in Laos, still not a direct progenitor.",
       "topics": [
         "BANAL viruses",
         "Laos",
@@ -285,7 +285,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Demaneuf overview mapping Wuhan’s biological laboratories and their coronavirus-research roles—beyond WIV alone.",
-      "book_role": "Widens the enigma: multiple Wuhan labs, not a single building.",
+      "book_role": "",
       "topics": [
         "Wuhan laboratories",
         "coronavirus research",
@@ -338,7 +338,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Science paper timing the SARS-CoV-2 index case in Hubei—molecular-clock estimates of when the outbreak began relative to reported December cases.",
-      "book_role": "Chronological constraint on the enigma: when did human transmission start?",
+      "book_role": "",
       "topics": [
         "index case",
         "Hubei",
@@ -389,7 +389,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Washburne Substack cataloging zoonotic-origin evidence that is still missing—intermediate hosts, early animal positives, market chain—versus what lab-leak critics demand.",
-      "book_role": "Negative-evidence checklist keeping the zoonosis claim incomplete.",
+      "book_role": "",
       "topics": [
         "missing zoonotic evidence",
         "intermediate host",
@@ -433,7 +433,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Early bioRxiv preprint arguing SARS-CoV-2 appears well adapted to humans from the outset—flagged later in classified analyses for FCS/adaptation implications (chapter notes).",
-      "book_role": "Adaptation puzzle that resists a simple fresh-spillover story.",
+      "book_role": "",
       "topics": [
         "human adaptation",
         "SARS-CoV-2",
@@ -469,7 +469,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Fauci’s 2012 mBio commentary defending a path forward for highly pathogenic H5N1 research amid gain-of-function controversy.",
-      "book_role": "Fauci’s own prior GoF philosophy—context for later Wuhan-funding denials.",
+      "book_role": "Fauci’s own earlier writing that a GoF experiment gone wrong could start a pandemic.",
       "topics": [
         "H5N1",
         "gain-of-function research",
@@ -519,7 +519,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Pre-COVID Bulletin warning that human error in high-biocontainment labs is a likely pandemic threat—lab-accident risk as mainstream biosafety concern.",
-      "book_role": "2019 baseline: lab accidents were predicted pandemic pathways before COVID.",
+      "book_role": "",
       "topics": [
         "lab accidents",
         "BSL labs",
@@ -552,7 +552,7 @@
       "content_kind": "html_article",
       "language": "zh",
       "summary": "Archived Sept 2019 procurement notice for WIV central air-conditioning renovation—cited in debates over pre-outbreak lab infrastructure problems. Thin archive capture.",
-      "book_role": "Biosafety-infrastructure clue timed just before the outbreak window.",
+      "book_role": "",
       "topics": [
         "WIV air conditioning",
         "procurement",
@@ -595,7 +595,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NBC/Yahoo report on a disputed claim that cellphone data showed an October 2019 Wuhan-lab shutdown—experts skeptical.",
-      "book_role": "Contested early-signal claim in the timeline enigma—possible precursor event vs noise.",
+      "book_role": "",
       "topics": [
         "cellphone data",
         "October 2019",
@@ -638,7 +638,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Archived Telegraph report that U.S. and UK intelligence were examining the mobile-phone data claims about the Wuhan laboratory.",
-      "book_role": "Shows intel interest in the same contested October-activity signal.",
+      "book_role": "",
       "topics": [
         "intelligence agencies",
         "mobile phone data",
@@ -685,7 +685,7 @@
       "content_kind": "html_article",
       "language": "zh",
       "summary": "Xinhua (archived) on opening a dedicated airport port-of-entry for the Wuhan Military World Games testing—pre-outbreak mass international military gathering in Wuhan.",
-      "book_role": "Timeline context: major military sports event in Wuhan weeks before recognized outbreak.",
+      "book_role": "",
       "topics": [
         "Military World Games",
         "Wuhan airport",
@@ -728,7 +728,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Quay Zenodo preprint arguing PLA hospital and Wuhan Metro Line 2 as compelling early-spread nodes—alternative geography of the outbreak’s start.",
-      "book_role": "Alternative spatial hypothesis inside the enigma: military hospital and metro, not only the market.",
+      "book_role": "",
       "topics": [
         "PLA hospital",
         "Wuhan Metro Line 2",

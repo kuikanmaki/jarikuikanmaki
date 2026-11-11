@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Biden White House statement ordering U.S. intelligence to redouble origins investigation and report in 90 days after agencies remained divided on lab versus natural origin. The live URL now returns Page Not Found.",
-      "book_role": "Presidential signal that opens Chapter 10’s floodgates—lab leak leaves the fringe and enters official U.S. process.",
+      "book_role": "",
       "topics": [
         "Biden origins investigation",
         "intelligence community",
@@ -65,7 +65,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Tedros remarks releasing the China-part origins report: team lacked raw-data access; lab-incident assessment ‘not extensive enough’; though ranked least likely, lab leak needs further study—‘all hypotheses remain on the table.’",
-      "book_role": "WHO DG publicly undercuts his own mission’s ‘extremely unlikely’ lab ranking—crack that helps open the floodgates.",
+      "book_role": "Tedros’s post-mission remark that all origin hypotheses remained open.",
       "topics": [
         "Tedros",
         "all hypotheses",
@@ -116,7 +116,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Joint statement by the U.S. and 13 partners expressing shared concern that the WHO-convened China study was significantly delayed and lacked access to complete original data and samples, demanding transparent phase-2 work.",
-      "book_role": "Allied diplomatic rejection of the managed WHO mission—international pressure behind the narrative shift.",
+      "book_role": "Joint statement of governments criticizing the WHO–China origins study.",
       "topics": [
         "joint statement",
         "data access",
@@ -166,7 +166,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Politico on Facebook ending removal of ‘man-made’ COVID claims as Washington surges toward a fuller origins investigation—policy flip matching the political floodgates.",
-      "book_role": "Platform censorship retreat as lab-origin talk becomes discussable again.",
+      "book_role": "",
       "topics": [
         "Facebook policy",
         "man-made COVID",
@@ -212,7 +212,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "The Hill reports WaPo correcting its Feb 2020 Cotton story—removing ‘debunked’ and ‘conspiracy theory’ because there was then, as now, no determination of the virus’s origins.",
-      "book_role": "Media self-correction emblem of the floodgates: yesterday’s ‘conspiracy’ becomes today’s open question.",
+      "book_role": "",
       "topics": [
         "Washington Post correction",
         "Tom Cotton",
@@ -266,7 +266,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Glenn Kessler Fact Checker timeline on how the Wuhan lab-leak idea moved from dismissed fringe to suddenly credible in spring 2021 as evidence and elite opinion shifted.",
-      "book_role": "WaPo’s own timeline of the credibility flip Chapter 10 narrates.",
+      "book_role": "",
       "topics": [
         "lab-leak credibility",
         "media timeline",
@@ -316,7 +316,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Vox piece that originally ‘debunked’ lab-origin claims, later carrying a May 2021 editor’s note as the hypothesis regained legitimacy. Skipped by scrape host policy; citation retained.",
-      "book_role": "Exhibit of early media ‘debunking’ that Chapter 10 contrasts with later editor’s-note walk-backs.",
+      "book_role": "",
       "topics": [
         "Vox",
         "debunking",
@@ -365,7 +365,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "DocumentCloud landing for the Leopold NIH FOIA dump of Anthony Fauci emails (3,234 pages), including the 1 Feb 2020 note to Hugh Auchincloss on the Baric–Shi Nature Medicine SARS gain-of-function paper. Viewer chrome retrieved; full email text not extracted.",
-      "book_role": "FOIA backbone for the Feb 1 conference-call / Proximal Origin inception story Chapter 10 revisits as floodgates open.",
+      "book_role": "Fauci’s early email forwarding the Baric–Shi Nature Medicine paper amid Proximal Origin’s inception.",
       "topics": [
         "Fauci emails",
         "Freedom of Information requests",
@@ -421,7 +421,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Archived April 17, 2020 task-force briefing transcript; includes press questions tying a Wuhan BSL-4 lab to NIH funding of Chinese research—early public collision of lab-origin and U.S. grant politics later reopened in 2021.",
-      "book_role": "Shows the lab/funding question was already live in 2020 briefings—before being shouted down, then revived when floodgates opened.",
+      "book_role": "",
       "topics": [
         "Trump briefing",
         "Wuhan lab funding",
@@ -478,7 +478,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Lancet addendum on competing interests tied to the February 2020 origins letter (Daszak/EcoHealth). Only a thin interstitial was retrieved.",
-      "book_role": "Forced disclosure after floodgates opened—belated conflict-of-interest reckoning for the letter that branded lab leak a conspiracy.",
+      "book_role": "Lancet letter authors’ later competing-interests addendum after floodgates opened.",
       "topics": [
         "Lancet letter (February 2020)",
         "competing interests",
@@ -526,7 +526,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Telegraph investigation of links between scientists who dismissed the Wuhan lab theory and Chinese research partners. Scrape hit an Akamai access-block page.",
-      "book_role": "Maps conflicts among lab-leak dismissers once the debate reopened.",
+      "book_role": "",
       "topics": [
         "conflicts of interest",
         "Chinese research links",
@@ -572,7 +572,7 @@
       "content_kind": "video",
       "language": "en",
       "summary": "TWiV episode featuring Peter Daszak of EcoHealth Alliance. YouTube skipped under scrape policy.",
-      "book_role": "Primary audio of Daszak’s mid-2020 public line as EcoHealth president—before later FOIA and conflict revelations.",
+      "book_role": "TWiV interview in which Daszak describes inserting spike proteins into bat coronaviruses.",
       "topics": [
         "Peter Daszak",
         "EcoHealth Alliance",
@@ -621,7 +621,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NIH RePORTER record for EcoHealth/Daszak project ‘Understanding the Risk of Bat Coronavirus Emergence’ (2R01AI110964)—the bat-CoV grant at the center of Wuhan collaboration funding fights.",
-      "book_role": "Primary grant record tying U.S. NIH money to the bat-coronavirus work floodgate debates reopen.",
+      "book_role": "",
       "topics": [
         "NIH grant",
         "bat coronavirus emergence",
@@ -674,7 +674,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Newsweek feature on DRASTIC amateur investigators whose open-source finds on WIV and lab-leak clues outpaced mainstream media that had branded the theory racist conspiracy.",
-      "book_role": "Credits the open-source sleuths who kept the lab story alive until institutions caught up.",
+      "book_role": "",
       "topics": [
         "DRASTIC",
         "open-source investigation",
@@ -730,7 +730,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "DRASTIC/ResearchGate report: WIV’s main virus/sample database went offline 12 Sep 2019 and eventually all 16 WIV virus databases; documents why batvirus.whiov.ac.cn matters for origins and the suspicious Dec 30, 2019 description changes.",
-      "book_role": "Technical dossier on the vanished WIV databases—key evidence pile as floodgates open.",
+      "book_role": "",
       "topics": [
         "WIV databases",
         "batvirus.whiov.ac.cn",
@@ -782,7 +782,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "NY Post column on open-source finds that WIV censored its virus database the evening of Dec 30, 2019—day before WHO was alerted—amid sample destruction and whistleblower punishment.",
-      "book_role": "Early mainstreaming of database-censorship evidence that later DRASTIC work expanded.",
+      "book_role": "Early Devine reporting that WIV databases were altered as Shi returned to Wuhan.",
       "topics": [
         "WIV database censorship",
         "China cover-up",
@@ -830,7 +830,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Bloom recovers SARS-CoV-2 deep-sequencing data deleted from NIH’s SRA; reconstructed early Wuhan sequences suggest market viruses are not fully representative and the progenitor was closer to bat relatives—undercutting WHO–China market focus.",
-      "book_role": "Scientific floodgate: deleted early sequences recovered, challenging the market-origin narrative.",
+      "book_role": "Bloom’s recovery of early Wuhan sequencing data deleted from public archives.",
       "topics": [
         "deleted SRA data",
         "early Wuhan sequences",
@@ -881,7 +881,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Birrell UnHerd investigation using Farrar’s Spike and FOIA emails: Feb 1 confidential call, early lab suspicions (Andersen/Holmes), Lancet letter orchestration by Daszak, and Farrar’s role convening Proximal Origin while stifling lab-leak talk.",
-      "book_role": "Narrative reconstruction of how elite scientists shut the lab hypothesis—then faced reckoning when floodgates opened.",
+      "book_role": "Birrell reporting on how scientists helped stifle the lab-leak theory.",
       "topics": [
         "Jeremy Farrar",
         "Feb 1 conference call",
@@ -948,7 +948,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Intercept report that Proximal Origin authors misled Congress about a pending multimillion-dollar NIH/NIAID grant around the time they shaped the natural-origin narrative—meta-debate over how that narrative was crafted.",
-      "book_role": "Later funding-conflict revelation that revisits Chapter 10’s Proximal Origin / Fauci desk thread (see chapter notes on WA-EIDRC grant).",
+      "book_role": "Reporting that a Proximal Origin author misled Congress about a pending NIAID grant.",
       "topics": [
         "NIH grant",
         "Kristian Andersen",
@@ -1011,7 +1011,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Mail on Sunday FOI obtained 32 emails about the early UK–US origins teleconference involving Patrick Vallance; nearly every word was redacted—prompting condemnation that government was hiding how scientists flipped from lab-leak suspicion.",
-      "book_role": "UK transparency failure around the same Feb 2020 call—showing floodgates still hit official blackouts.",
+      "book_role": "",
       "topics": [
         "FOI redactions",
         "Patrick Vallance",

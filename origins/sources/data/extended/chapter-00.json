@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Profile of Shi Zhengli’s bat-coronavirus fieldwork and Wuhan Institute of Virology role, including her recollection of learning about the Wuhan pneumonia outbreak while in Shanghai and rushing back by night train. Frames her as a leading SARS-like virus hunter and recounts WIV BSL-4 context.",
-      "book_role": "Primary source for Shi’s December 2019 night-train narrative and early WIV/BSL-4 background used to open the Prologue.",
+      "book_role": "Primary source for Shi Zhengli’s December 2019 night-train return to Wuhan that opens the Prologue.",
       "topics": [
         "Shi Zhengli",
         "Wuhan Institute of Virology",
@@ -85,7 +85,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Nature news piece on China’s then-new Wuhan BSL-4 laboratory and plans for a national high-containment lab network. Full text is paywalled; only preview/lede and related subject links were retrieved.",
-      "book_role": "Early independent reporting on the Wuhan BSL-4 facility that the Prologue uses when introducing the institute’s high-security lab.",
+      "book_role": "Early reporting on the Wuhan BSL-4 lab used when introducing the institute’s high-containment work.",
       "topics": [
         "BSL-4 laboratory",
         "Wuhan Institute of Virology",
@@ -137,7 +137,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Investigative article arguing Chinese authorities constrained public discussion of early genomic findings and origin questions around Shi Zhengli and related research. Used in the book’s notes as evidence of suppression during early reporting.",
-      "book_role": "Supports the Prologue notes’ claim that Shi’s early interviews occurred amid active suppression of origin discussion.",
+      "book_role": "Documents that Shi’s early interviews took place while authorities were already suppressing origin discussion.",
       "topics": [
         "information control",
         "Shi Zhengli",
@@ -194,7 +194,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Science interview/profile in which Shi Zhengli denies lab responsibility for the pandemic, describes WIV biosafety work, and demands an apology from then-President Trump for lab-origin allegations.",
-      "book_role": "Captures Shi’s public defense and denial narrative that the Prologue contrasts with later doubts about her account.",
+      "book_role": "",
       "topics": [
         "Shi Zhengli",
         "lab-leak debate",
@@ -256,7 +256,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Long MIT Technology Review feature (listed in the bibliography under Scientific American) revisiting Shi Zhengli amid the lab-leak controversy, WHO origins visit optics, and contested claims about WIV research and transparency.",
-      "book_role": "Later-depth profile used alongside the 2020 Qiu piece to frame Shi as the central scientific figure of the origin debate.",
+      "book_role": "",
       "topics": [
         "Shi Zhengli",
         "lab-leak controversy",
@@ -313,7 +313,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Washington Post investigation into the French-engineered Wuhan P4 lab, its leadership (including Yuan Zhiming), and unresolved questions around the facility’s role in the pandemic origin story. Only the opening section was retrieved before the paywall.",
-      "book_role": "Provides independent reporting on the Wuhan BSL-4/P4 lab’s Franco-Chinese construction history referenced in the Prologue.",
+      "book_role": "",
       "topics": [
         "BSL-4 laboratory",
         "Franco-Chinese collaboration",
@@ -371,7 +371,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "DRASTIC researcher overview of the Wuhan BSL-4 project’s timeline, partners, governance, and open questions compiled from public records and investigative synthesis.",
-      "book_role": "Technical/project history supplement for the Prologue’s BSL-4 background; also pointed to in Further Reading on China’s BSL-4 labs.",
+      "book_role": "",
       "topics": [
         "BSL-4 laboratory",
         "DRASTIC",
@@ -428,7 +428,7 @@
       "content_kind": "gov_doc",
       "language": "en",
       "summary": "WHO Disease Outbreak News item reporting 44 pneumonia-of-unknown-cause cases in Wuhan as of 3 January 2020, market closure, isolation of patients, and then-official statements of no clear significant human-to-human transmission or health-worker infections.",
-      "book_role": "Official international baseline notice of the Wuhan pneumonia cluster at the turn of 2019/2020.",
+      "book_role": "WHO Disease Outbreak News bulletin quoted for the early “pneumonia of unknown cause” announcement.",
       "topics": [
         "Disease Outbreak News",
         "Wuhan pneumonia",
@@ -481,7 +481,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "Archived ProMED request-for-information posting from 30 December 2019 alerting the infectious-disease community to undiagnosed pneumonia in Hubei. The hosted PDF could not be retrieved (CDN/edge block); citation metadata retained from the bibliography.",
-      "book_role": "Marks the first widely noticed international alert about the Wuhan pneumonia cluster, contemporaneous with Shi’s return to Wuhan.",
+      "book_role": "ProMED alert of 30 December 2019 quoted as an early circulating outbreak notice.",
       "topics": [
         "ProMED",
         "undiagnosed pneumonia",
@@ -524,7 +524,7 @@
       "content_kind": "html_article",
       "language": "zh",
       "summary": "Beijing News (Xin Jing Bao) archived interview with Li Wenliang discussing the police admonishment after he warned classmates about SARS-like cases linked to the Huanan market; includes his account of the WeChat messages and later public attention to the ‘rumor-mongers.’",
-      "book_role": "Documents the reprimand of Li Wenliang and early silencing of clinicians who raised alarms—key to the Prologue’s closing arc on suppressed warnings.",
+      "book_role": "Wuhan police admonishment of Li Wenliang quoted in the Prologue’s suppression arc.",
       "topics": [
         "Li Wenliang",
         "whistleblowers",
@@ -579,7 +579,7 @@
       "content_kind": "html_article",
       "language": "zh",
       "summary": "Caixin commentary/report (Wayback capture) on Li Wenliang as coronavirus whistleblower, arguing that establishing truth about early warnings matters more than symbolic rehabilitation.",
-      "book_role": "Contemporary Chinese investigative framing of Li Wenliang’s warning and the stakes of early information control.",
+      "book_role": "",
       "topics": [
         "Li Wenliang",
         "whistleblowers",
@@ -632,7 +632,7 @@
       "content_kind": "html_article",
       "language": "zh",
       "summary": "Archived 31 December 2019 Chinese news item circulating official messaging that Wuhan’s unexplained pneumonia cases had not been confirmed as SARS, while noting critically ill patients. Capture is thin (Wayback chrome + partial page).",
-      "book_role": "Shows the first official public line on the Wuhan cluster the same day international and local notices began circulating.",
+      "book_role": "",
       "topics": [
         "Wuhan pneumonia",
         "SARS comparison",
@@ -676,7 +676,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "BBC report on the death of Li Wenliang from COVID-19, recounting his early WeChat warning, police admonishment, infection while working at Wuhan Central Hospital, and the public anger that followed.",
-      "book_role": "Closes the Prologue’s whistleblower thread with the internationally reported death of Li Wenliang.",
+      "book_role": "",
       "topics": [
         "Li Wenliang",
         "whistleblowers",

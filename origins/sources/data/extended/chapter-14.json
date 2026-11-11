@@ -19,7 +19,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "DRASTIC tweet announcing the leaked 2018 EcoHealth DEFUSE proposal to DARPA. X skipped under scrape policy.",
-      "book_role": "Public release moment for the DEFUSE documents that Chapter 14 analyzes.",
+      "book_role": "",
       "topics": [
         "DEFUSE",
         "DRASTIC",
@@ -73,7 +73,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "2018 EcoHealth Alliance DEFUSE proposal to DARPA PREEMPT: engineer SARS-related bat CoVs with novel/human-specific cleavage sites (including furin-like), test chimeras in human airway cells and hACE2 mice at WIV, with Baric UNC work and Yunnan bat sampling.",
-      "book_role": "Central primary document—the rejected blueprint Chapter 14 argues foreshadows pandemic-relevant research.",
+      "book_role": "Primary DEFUSE proposal text naming Daszak and the Wuhan Institute of Virology.",
       "topics": [
         "DEFUSE",
         "furin cleavage sites",
@@ -139,7 +139,7 @@
       "content_kind": "video",
       "language": "en",
       "summary": "Sky News Australia video claiming footage shows bats kept in a Wuhan lab. YouTube skipped under scrape policy.",
-      "book_role": "Visual claim about live bats at WIV—contrasted with Daszak’s denials in s05–s06.",
+      "book_role": "",
       "topics": [
         "bats in Wuhan lab",
         "footage",
@@ -187,7 +187,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Mail on Sunday report on secret bat cages at a Wuhan lab where researchers planned to breed animals for virus experiments—live-animal infrastructure for bat CoV work.",
-      "book_role": "Reporting that live bats were part of Wuhan lab plans—context for DEFUSE’s wild-bat inoculation aims.",
+      "book_role": "",
       "topics": [
         "bat cages",
         "Wuhan Institute of Virology",
@@ -239,7 +239,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Daszak tweet denying live or dead bats in labs he collaborated with for 15 years, calling bat-in-lab claims a conspiracy theory. X skipped.",
-      "book_role": "Daszak’s public denial of bats in Wuhan labs—set against DEFUSE and later reporting.",
+      "book_role": "Daszak’s public denial that partner labs kept live bats—set against DEFUSE’s bat plans.",
       "topics": [
         "Peter Daszak",
         "bats in labs",
@@ -289,7 +289,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "Daszak tweet insisting only samples—not bats—went to Wuhan labs and that bats are released where caught. Twitter skipped.",
-      "book_role": "Second denial clarifying sample-vs-animal logistics—Chapter 14 tests against DEFUSE’s wild-bat plans.",
+      "book_role": "Daszak’s public denial that bats were sent to Wuhan—set against DEFUSE partner plans.",
       "topics": [
         "bat samples",
         "field collection",
@@ -340,7 +340,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Intercept reporting new details from FOIA’d EcoHealth/NIH documents on coronavirus research at the Chinese lab—progress reports and experimental descriptions.",
-      "book_role": "FOIA-based reporting that fleshes out what EcoHealth–WIV actually did alongside the DEFUSE blueprint.",
+      "book_role": "",
       "topics": [
         "EcoHealth FOIA",
         "WIV coronavirus research",
@@ -395,7 +395,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "Large FOIA dump of the EcoHealth/NIH bat-coronavirus emergence grant materials, including the Year-4 progress report (2017–2018) describing WIV collaborative experiments.",
-      "book_role": "Primary grant/progress-report evidence of ongoing EcoHealth–WIV work contemporaneous with DEFUSE.",
+      "book_role": "EcoHealth FOIA progress report on sample shipping and Baric’s letter of support.",
       "topics": [
         "NIH FOIA",
         "Year-4 progress report",
@@ -454,7 +454,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Thacker Substack piece arguing funding documents complicate Danielle Anderson’s role as a ‘conspiracy buster’ on Wuhan lab origins.",
-      "book_role": "Critical counterweight to Anderson’s insider testimony—funding ties in the DEFUSE-era network.",
+      "book_role": "",
       "topics": [
         "Danielle Anderson",
         "funding documents",

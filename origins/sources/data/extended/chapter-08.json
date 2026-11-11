@@ -19,7 +19,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "PubMed record for Kontis et al. in Nature Medicine estimating first-wave excess all-cause mortality across 21 industrialized countries by age and sex. The scrape returned 404/blocked; citation retained from bibliography.",
-      "book_role": "Quantifies the first-wave death toll that frames Chapter 8’s ‘aftermath’ reckoning after early containment failed.",
+      "book_role": "",
       "topics": [
         "excess mortality",
         "first wave",
@@ -60,7 +60,7 @@
       "content_kind": "pdf",
       "language": "fi",
       "summary": "Finnish Safety Investigation Authority report on the first phase of the 2020 coronavirus epidemic in Finland. The cited PDF URL now returns a site 404 page.",
-      "book_role": "Finnish official after-action review of the epidemic’s opening phase—local aftermath documentation.",
+      "book_role": "",
       "topics": [
         "Finland",
         "first phase",
@@ -103,7 +103,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "STAT report on University of Hong Kong researchers documenting the first confirmed COVID-19 reinfection—a 33-year-old man re-infected months later with a genetically distinct virus—raising questions about immunity durability.",
-      "book_role": "Marks the aftermath reality that recovery did not guarantee lasting protection as the pandemic wore on.",
+      "book_role": "",
       "topics": [
         "reinfection",
         "immunity",
@@ -157,7 +157,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WHO landing page for historical working definitions and primary actions on SARS-CoV-2 variants (TAG-VE), with a downloadable PDF annex of prior VOC definitions. Only the thin landing page was retrieved.",
-      "book_role": "Documents the later variants era that followed the first-wave aftermath—how nomenclature and response actions evolved.",
+      "book_role": "",
       "topics": [
         "variants",
         "VOC definitions",
@@ -198,7 +198,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Pfizer–BioNTech press release announcing BNT162b2 exceeded 90% efficacy in the first Phase 3 interim analysis (94 cases), with no serious safety concerns reported and EUA submission planned after the safety milestone.",
-      "book_role": "The vaccine breakthrough that reshapes the pandemic’s aftermath narrative after months of lockdown and excess deaths.",
+      "book_role": "",
       "topics": [
         "mRNA vaccine",
         "Phase 3",
@@ -244,7 +244,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "BBC coverage of the Pfizer–BioNTech interim result: more than 90% protection from two doses, trials across six countries, and plans to seek emergency approval by month’s end.",
-      "book_role": "Mainstream reporting of the same vaccine milestone—public-facing counterpart to the company press release.",
+      "book_role": "",
       "topics": [
         "vaccine efficacy",
         "Pfizer-BioNTech",
@@ -280,7 +280,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "EU Commission/UNESCO guide listing traits of conspiracy theories and, under COVID-19, explicitly treating claims that the virus was artificially created in a laboratory as dangerous conspiracy theories—guidance that remains online.",
-      "book_role": "Primary exhibit of official narrative control: lab-origin claims branded conspiracy even as later intelligence assessments (noted in chapter notes) pointed the other way.",
+      "book_role": "European Commission guide that branded lab-manipulation claims as dangerous conspiracy theories.",
       "topics": [
         "conspiracy theories",
         "disinformation",
@@ -323,7 +323,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Mail on Sunday investigation alleging the MoD’s 77th Brigade and related information-warfare units compiled dossiers on lockdown critics—including Peter Hitchens, Toby Young, and David Davis—and fed them to No 10.",
-      "book_role": "Shows domestic surveillance of pandemic dissent as part of the aftermath’s civil-liberties reckoning.",
+      "book_role": "",
       "topics": [
         "77th Brigade",
         "lockdown critics",
@@ -372,7 +372,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "PubMed abstract of Liu et al.: pangolin-CoV-2020 from sick Malayan pangolins is related to SARS-CoV-2 and bat CoVs but does not support SARS-CoV-2 emerging directly from that pangolin virus; pangolins are natural betacoronavirus hosts.",
-      "book_role": "Scientific pushback on the tidy pangolin-intermediate-host story still circulating in the aftermath debate.",
+      "book_role": "",
       "topics": [
         "pangolins",
         "intermediate host",
@@ -423,7 +423,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "New York Times investigation of how China’s post-SARS contagion-alert system failed in the early COVID outbreak. NYT is blocked by Firecrawl as an unsupported site.",
-      "book_role": "Documents the collapse of China’s supposed early-warning system—central to the outbreak’s preventable aftermath.",
+      "book_role": "",
       "topics": [
         "disease surveillance",
         "China early warning",
@@ -469,7 +469,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Asia Times piece on Beijing trying to reverse the COVID origins blame narrative. Only a browser-check interstitial was retrieved.",
-      "book_role": "Captures China’s late-2020 effort to redirect origins blame as Western scrutiny intensified.",
+      "book_role": "",
       "topics": [
         "origins narrative",
         "China propaganda",
@@ -509,7 +509,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "CNN report that Trump claimed high confidence the virus came from a Wuhan lab—contradicting the same-day ODNI statement that intel was still examining lab accident versus animal contact and had not made that assessment.",
-      "book_role": "Records the clash between White House lab-origin assertions and the intelligence community’s cautious public line in spring 2020.",
+      "book_role": "",
       "topics": [
         "Trump",
         "ODNI",
@@ -564,7 +564,7 @@
       "content_kind": "video",
       "language": "en",
       "summary": "ABC News YouTube clip of Pompeo calling China’s coronavirus response a classic communist disinformation effort. Video skipped under scrape policy.",
-      "book_role": "U.S. Secretary of State publicly framing Beijing’s outbreak handling as disinformation—escalation of the origins blame fight.",
+      "book_role": "",
       "topics": [
         "Pompeo",
         "disinformation",
@@ -612,7 +612,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Guardian piece citing Five Eyes sources saying there was then no evidence of a Wuhan lab leak, distancing allied intel from White House claims and from the Australian Daily Telegraph’s 15-page dossier.",
-      "book_role": "Allied-intel pushback against the early lab-leak narrative—showing how contested origins messaging was in May 2020.",
+      "book_role": "",
       "topics": [
         "Five Eyes",
         "lab-leak hypothesis",
@@ -674,7 +674,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Australian Daily Telegraph report on a 15-page Western-government research dossier alleging China suppressed outbreak evidence—silencing doctors, destroying lab evidence, and refusing live samples—costing many lives.",
-      "book_role": "The dossier that fueled allied debate over Chinese cover-up and bat-virus research—counterpart to the Guardian’s Five Eyes denial.",
+      "book_role": "Markson dossier reporting contrasted with anonymous Five Eyes pushback.",
       "topics": [
         "dossier",
         "China cover-up",
@@ -723,7 +723,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Archived ODNI press release page for the April 30, 2020 Intelligence Community statement on COVID-19 origins—publicly affirming the virus was ‘not manmade or genetically modified’ while saying agencies were examining natural contact versus lab accident. Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes.",
-      "book_role": "The official U.S. intel line Chapter 8 contrasts with later contradictory DIA genome analysis noted in the chapter notes.",
+      "book_role": "April 2020 ODNI statement aligning the IC with “not manmade or genetically modified.”",
       "topics": [
         "ODNI",
         "not manmade",
@@ -767,7 +767,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "WSJ report that ODNI publicly confirmed investigating a possible Wuhan lab escape while also stating Covid-19 was not manmade or genetically modified. Opening paragraphs retrieved before the subscriber wall.",
-      "book_role": "Contemporaneous reporting of the rare ODNI origins statement—key primary-day coverage for the intel aftermath.",
+      "book_role": "",
       "topics": [
         "lab accident investigation",
         "ODNI statement",
@@ -819,7 +819,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Archived Project Evidence open dossier arguing SARS-CoV-2 emerged from a Wuhan biological laboratory, structured around claims that the virus was present at a Wuhan lab and may have begun from an infected worker or animal, with references including pre-pandemic coronavirus experiments.",
-      "book_role": "Crowdsourced early lab-origin evidence compilation that circulated as official narratives still dismissed such claims.",
+      "book_role": "",
       "topics": [
         "Project Evidence",
         "lab-leak hypothesis",
@@ -868,7 +868,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2019 JBC paper using TGEV as an alphacoronavirus model: a conserved nsp1 motif inhibits host gene expression and is critical for virulence; recombinant virus work explores attenuation. Listed among Project Evidence references (chapter notes).",
-      "book_role": "Pre-pandemic coronavirus virulence/nsp1 experiment cited via Project Evidence—illustrating the lab research context the chapter invokes.",
+      "book_role": "Pre-pandemic chimeric/bat-coronavirus experiment cited via Project Evidence.",
       "topics": [
         "nsp1",
         "alphacoronavirus",
@@ -908,7 +908,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "SCMP report that the Shanghai lab which first released the SARS-CoV-2 genome was ordered closed for ‘rectification,’ hampering research. Headline and lead retrieved; body behind login.",
-      "book_role": "Shows early Chinese authorities punishing the lab that shared the genome—aftermath of information control, not openness.",
+      "book_role": "",
       "topics": [
         "genome sequence",
         "Shanghai laboratory",
@@ -952,7 +952,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Straits Times / Caixin investigation: Chinese labs sequenced a SARS-like virus by late December—days before WHO notification and weeks before public confirmation of human-to-human spread—while alerts failed to trigger a public response.",
-      "book_role": "Reconstructs how early genomic warnings were throttled inside China’s system—core to the aftermath blame and cover-up debate.",
+      "book_role": "",
       "topics": [
         "early sequencing",
         "Caixin investigation",
@@ -1002,7 +1002,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Josh Rogin opinion based on 2018 U.S. Embassy cables warning of safety and staffing weaknesses at WIV’s BSL-4 bat-coronavirus research—and the risk of a SARS-like pandemic—years before COVID.",
-      "book_role": "Brings pre-pandemic U.S. diplomatic warnings about WIV biosafety into the aftermath origins fight (cables later declassified per chapter notes).",
+      "book_role": "Rogin’s State Department cables warning about safety problems at the Wuhan lab.",
       "topics": [
         "State Department cables",
         "WIV biosafety",
@@ -1062,7 +1062,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Minerva article presenting the Sørensen–Dalgleish–Susrud paper arguing SARS-CoV-2’s spike inserts and stability make a laboratory origin the most logical explanation, with interview commentary from Birger Sørensen.",
-      "book_role": "Norwegian platform for the early scientific lab-origin argument that later fed Dearlove’s comments and broader aftermath debate.",
+      "book_role": "",
       "topics": [
         "spike protein inserts",
         "non-natural origin",
@@ -1109,7 +1109,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Telegraph exclusive: former MI6 chief Sir Richard Dearlove says COVID began as a Chinese lab accident, citing the Sørensen–Dalgleish report on inserted spike features, and raising the prospect of Chinese reparations.",
-      "book_role": "High-profile intelligence-world endorsement of the lab-accident thesis during the spring–summer 2020 aftermath scramble.",
+      "book_role": "",
       "topics": [
         "Richard Dearlove",
         "MI6",

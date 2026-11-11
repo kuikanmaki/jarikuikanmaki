@@ -19,7 +19,7 @@
       "content_kind": "unknown",
       "language": "en",
       "summary": "Author’s personal journal entry dated 26 January 2020; no public URL. Used as a first-person timestamp for when the author first registered the outbreak.",
-      "book_role": "Anchors Chapter 1 in the author’s own contemporaneous awareness of the emerging virus.",
+      "book_role": "",
       "topics": [
         "personal journal",
         "early outbreak awareness"
@@ -54,7 +54,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus. Firecrawl cannot scrape nytimes.com on this plan; citation retained from the bibliography.",
-      "book_role": "Early Western headline marking the outbreak’s first reported fatality.",
+      "book_role": "",
       "topics": [
         "first death",
         "Wuhan outbreak",
@@ -99,7 +99,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "BBC report on expanding Hubei lockdowns after the novel coronavirus emerged in Wuhan, including transport shutdowns in Wuhan and neighboring cities and rising case counts.",
-      "book_role": "Documents the sudden lockdown phase that framed how outsiders first grasped the outbreak’s seriousness.",
+      "book_role": "",
       "topics": [
         "Hubei lockdown",
         "Wuhan",
@@ -147,7 +147,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Virological.org thread posting the novel 2019 coronavirus genome outside China, a foundational public release for global virologists.",
-      "book_role": "Marks Edward Holmes’s role in first publishing the genome abroad—central to Chapter 1 and later origin debates.",
+      "book_role": "Edward Holmes’s early public release of the SARS-CoV-2 genome sequence.",
       "topics": [
         "SARS-CoV-2 genome",
         "Edward Holmes",
@@ -197,7 +197,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "China Daily piece reporting expert confirmation that the new pneumonia-linked virus can infect humans, reflecting shifting official messaging in mid-to-late January 2020.",
-      "book_role": "Shows the transition from uncertainty to acknowledged human infection risk in Chinese state media.",
+      "book_role": "",
       "topics": [
         "human-to-human transmission",
         "official messaging",
@@ -240,7 +240,7 @@
       "content_kind": "social_post",
       "language": "en",
       "summary": "WHO tweet stating there was then ‘no clear evidence’ of human-to-human transmission of 2019-nCoV in Wuhan. Social URL skipped under scrape policy; text preserved from the bibliography title.",
-      "book_role": "Captures WHO’s early public caution that later contrasted with rapid spread and lockdowns.",
+      "book_role": "",
       "topics": [
         "WHO",
         "human-to-human transmission",
@@ -286,7 +286,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research. Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
-      "book_role": "Historical context for GoF risk debates that Chapter 1 connects to the author’s early questions about the new virus.",
+      "book_role": "",
       "topics": [
         "gain-of-function research",
         "engineered pathogens",
@@ -329,7 +329,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Cambridge Working Group consensus statement opposing certain creation of potential pandemic pathogens, preserved as a historical biosafety advocacy document.",
-      "book_role": "Primary text of the mid-2010s scientific opposition to risky PPP/GoF experiments.",
+      "book_role": "",
       "topics": [
         "potential pandemic pathogens",
         "Cambridge Working Group",
@@ -375,7 +375,7 @@
       "content_kind": "pdf",
       "language": "en",
       "summary": "U.S. government document announcing the 2014 funding pause and deliberative process for selected gain-of-function research on influenza, MERS, and SARS viruses.",
-      "book_role": "Official U.S. policy backdrop for why controversial GoF work was constrained—and later relevant to research moved abroad.",
+      "book_role": "",
       "topics": [
         "gain-of-function pause",
         "OSTP",
@@ -423,7 +423,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Landmark Science paper demonstrating airborne transmission of H5N1 influenza between ferrets—central exhibit in gain-of-function controversy.",
-      "book_role": "Scientific exemplar of GoF research that informed the author’s early mental model of engineered-pandemic risk.",
+      "book_role": "",
       "topics": [
         "H5N1",
         "ferrets",
@@ -468,7 +468,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "STAT early report on experts parsing sparse Chinese statements about Wuhan’s unexplained pneumonia cluster, including rising case counts and coronavirus speculation.",
-      "book_role": "Shows how Western infectious-disease reporters first encountered the outbreak amid information scarcity.",
+      "book_role": "Early Western reporting that already noted Wuhan’s BSL-4 laboratory.",
       "topics": [
         "mystery pneumonia",
         "Wuhan",
@@ -523,7 +523,7 @@
       "content_kind": "html_article",
       "language": "en",
       "summary": "Wall Street Journal report that Chinese scientists had identified a new virus in the pneumonia outbreak. Retrieved page is mostly paywall/chrome; citation retained.",
-      "book_role": "Early mainstream confirmation that a novel virus—not ordinary pneumonia—had been identified in Wuhan.",
+      "book_role": "",
       "topics": [
         "novel virus discovery",
         "Wuhan pneumonia",
