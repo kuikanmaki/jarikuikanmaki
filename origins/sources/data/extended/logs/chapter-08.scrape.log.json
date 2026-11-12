@@ -106,7 +106,7 @@
       "id": 10,
       "source_key": "ch08-s10",
       "url": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -139,7 +139,7 @@
       "id": 13,
       "source_key": "ch08-s13",
       "url": "https://youtu.be/fRea4yIE7_8?t=468",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -183,7 +183,7 @@
       "source_key": "ch08-s17",
       "url": "https://www.wsj.com/articles/u-s-intelligence-agencies-say-coronavirus-originated-in-china-wasnt-man-madeor-genetically-modified-11588260228",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 26952,
       "error": null,
       "reused": false,
@@ -216,7 +216,7 @@
       "source_key": "ch08-s20",
       "url": "https://www.scmp.com/news/china/society/article/3052966/chinese-laboratory-first-shared-coronavirus-genome-world-ordered",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 1991,
       "error": null,
       "reused": false,
@@ -266,5 +266,7 @@
       "reused": false,
       "artifact": "artifacts/ch08-s24.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

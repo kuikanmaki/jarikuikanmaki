@@ -21,15 +21,15 @@
       "summary": "Washington Times article quoting analyst Dany Shoham on a possible link between the Wuhan outbreak and Chinese biological-warfare–related laboratories. Notes record an earlier 24 January headline variant tying Wuhan labs to a bio-warfare program.",
       "book_role": "Opens the bioweapons chapter: Gertz/Shoham reporting linking Wuhan labs to China’s biowarfare program.",
       "topics": [
-        "bioweapons",
         "Dany Shoham",
         "Wuhan Institute of Virology",
+        "bioweapons",
         "China BW program"
       ],
       "entities": {
         "people": [
-          "Bill Gertz",
-          "Dany Shoham"
+          "Dany Shoham",
+          "Bill Gertz"
         ],
         "orgs": [
           "The Washington Times"
@@ -73,13 +73,13 @@
       "url": "https://www.amazon.com/Dead-Hand-Untold-Dangerous-Legacy/dp/0385524374",
       "status": "ok",
       "artifact": "artifacts/ch02-s02.md",
-      "content_kind": "landing",
+      "content_kind": "book",
       "language": "en",
       "summary": "David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy.",
       "book_role": "Hoffman’s Dead Hand history discussed with Otto as Cold War bioweapons context.",
       "topics": [
-        "Cold War",
         "biological weapons",
+        "Cold War",
         "arms race"
       ],
       "entities": {
@@ -87,8 +87,8 @@
           "David Hoffman"
         ],
         "orgs": [
-          "Doubleday",
-          "Amazon"
+          "Amazon",
+          "Doubleday"
         ],
         "places": [
           "Soviet Union",
@@ -125,14 +125,14 @@
       "url": "https://www.amazon.com/Biohazard-Chilling-Largest-Biological-World-Told/dp/0385334966",
       "status": "ok",
       "artifact": "artifacts/ch02-s03.md",
-      "content_kind": "landing",
+      "content_kind": "book",
       "language": "en",
       "summary": "Ken Alibek’s insider account of the Soviet biological weapons program.",
       "book_role": "Alibek’s Biohazard account of a covert Soviet outbreak used as historical warning.",
       "topics": [
-        "Soviet bioweapons",
         "Ken Alibek",
-        "Biopreparat"
+        "Biopreparat",
+        "Soviet bioweapons"
       ],
       "entities": {
         "people": [
@@ -140,9 +140,9 @@
           "Stephen Handelman"
         ],
         "orgs": [
-          "Random House",
           "Biopreparat",
-          "Amazon"
+          "Amazon",
+          "Random House"
         ],
         "places": [
           "Soviet Union",
@@ -202,9 +202,9 @@
           "Helen Branswell"
         ],
         "orgs": [
-          "STAT News",
           "WHO",
-          "The Wall Street Journal"
+          "The Wall Street Journal",
+          "STAT News"
         ],
         "places": [
           "Wuhan",
@@ -255,9 +255,9 @@
       "summary": "mBio analysis linking the 1977 H1N1 reemergence (widely discussed as a possible lab-related event) to contemporary gain-of-function policy debates.",
       "book_role": "",
       "topics": [
-        "1977 H1N1",
         "lab-leak hypothesis",
-        "gain-of-function research"
+        "gain-of-function research",
+        "1977 H1N1"
       ],
       "entities": {
         "people": [

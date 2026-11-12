@@ -21,10 +21,10 @@
       "summary": "Lancet clinical report on the first hospitalized 2019-nCoV patients in Wuhan. This is the case series later cited to show the earliest patient had no seafood-market link.",
       "book_role": "",
       "topics": [
-        "2019-nCoV clinical features",
-        "early cases",
         "Huanan Seafood Market",
-        "Wuhan"
+        "Wuhan",
+        "2019-nCoV clinical features",
+        "early cases"
       ],
       "entities": {
         "people": [
@@ -76,9 +76,9 @@
       "book_role": "Science interview in which Daniel Lucey argues the virus entered the market before spreading from it.",
       "topics": [
         "Huanan Seafood Market",
+        "SARS-CoV-2",
         "early cases",
-        "outbreak origin",
-        "SARS-CoV-2"
+        "outbreak origin"
       ],
       "entities": {
         "people": [
@@ -139,8 +139,8 @@
       "book_role": "",
       "topics": [
         "Anthony Fauci",
-        "NIAID calendar",
         "Freedom of Information requests",
+        "NIAID calendar",
         "early pandemic response"
       ],
       "entities": {
@@ -153,8 +153,8 @@
           "OpenTheBooks"
         ],
         "places": [
-          "Bethesda",
-          "United States"
+          "United States",
+          "Bethesda"
         ]
       },
       "topic_ids": [
@@ -196,10 +196,10 @@
       "summary": "Seattle Times report that a Snohomish County resident is the first confirmed U.S. case of the new coronavirus, with CDC and Washington state officials briefing the public.",
       "book_role": "",
       "topics": [
-        "first U.S. case",
-        "Snohomish County",
         "SARS-CoV-2",
-        "CDC"
+        "CDC",
+        "first U.S. case",
+        "Snohomish County"
       ],
       "entities": {
         "people": [
@@ -208,15 +208,15 @@
           "Jay Inslee"
         ],
         "orgs": [
-          "The Seattle Times",
           "CDC",
+          "The Seattle Times",
           "Washington State Department of Health"
         ],
         "places": [
-          "Snohomish County",
-          "Washington",
           "United States",
-          "Wuhan"
+          "Wuhan",
+          "Snohomish County",
+          "Washington"
         ]
       },
       "topic_ids": [
@@ -261,17 +261,17 @@
       ],
       "entities": {
         "people": [
-          "Grace Curley",
-          "Anthony Fauci"
+          "Anthony Fauci",
+          "Grace Curley"
         ],
         "orgs": [
+          "NIAID",
           "Boston Herald",
-          "Fred Hutchinson Cancer Center",
-          "NIAID"
+          "Fred Hutchinson Cancer Center"
         ],
         "places": [
-          "Seattle",
-          "United States"
+          "United States",
+          "Seattle"
         ]
       },
       "topic_ids": [
@@ -311,10 +311,10 @@
       "book_role": "Folkers email alerting Fauci that NIAID funding involved WIV collaborators working on nCoV.",
       "topics": [
         "EcoHealth Alliance",
-        "NIAID grant",
         "Wuhan Institute of Virology",
         "Peter Daszak",
-        "Ralph Baric"
+        "Ralph Baric",
+        "NIAID grant"
       ],
       "entities": {
         "people": [
@@ -387,9 +387,9 @@
       "summary": "HHS TAGGS award page for NIAID grant R01AI110964 (2014–2024) to study bat coronavirus emergence risk, summarizing SARSr-CoV surveillance work funded after SARS/MERS and into the COVID era.",
       "book_role": "",
       "topics": [
-        "R01AI110964",
         "bat coronaviruses",
         "EcoHealth Alliance",
+        "R01AI110964",
         "NIAID funding"
       ],
       "entities": {
@@ -403,8 +403,8 @@
         ],
         "places": [
           "United States",
-          "Asia",
-          "China"
+          "China",
+          "Asia"
         ]
       },
       "topic_ids": [
@@ -453,10 +453,10 @@
       ],
       "entities": {
         "people": [
-          "Emily Kopp",
           "Anthony Fauci",
           "Ralph Baric",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Emily Kopp"
         ],
         "orgs": [
           "U.S. Right to Know",
@@ -465,8 +465,8 @@
         ],
         "places": [
           "Wuhan",
-          "Chapel Hill",
-          "United States"
+          "United States",
+          "Chapel Hill"
         ]
       },
       "topic_ids": [
@@ -518,10 +518,10 @@
       "summary": "OpenTheBooks release of Fauci’s Nov 2019–Mar 2020 calendar, including early NSC/White House coronavirus meetings and the February 2020 Baric meeting entry.",
       "book_role": "",
       "topics": [
+        "Freedom of Information requests",
         "Anthony Fauci calendar",
         "Ralph Baric meeting",
-        "NSC",
-        "Freedom of Information requests"
+        "NSC"
       ],
       "entities": {
         "people": [
@@ -534,8 +534,8 @@
           "OpenTheBooks"
         ],
         "places": [
-          "Washington",
-          "United States"
+          "United States",
+          "Washington"
         ]
       },
       "entity_ids": {
@@ -586,14 +586,14 @@
           "Anthony Fauci"
         ],
         "orgs": [
-          "United States District Court for the Western District of Louisiana",
           "NIH",
-          "DocumentCloud"
+          "DocumentCloud",
+          "United States District Court for the Western District of Louisiana"
         ],
         "places": [
+          "United States",
           "Bethesda",
-          "Louisiana",
-          "United States"
+          "Louisiana"
         ]
       },
       "entity_ids": {
@@ -630,18 +630,18 @@
       "book_role": "Frieman’s account of Baric’s private reaction after meeting Fauci.",
       "topics": [
         "Ralph Baric",
-        "chimeras",
         "Anthony Fauci",
         "Wuhan Institute of Virology",
+        "chimeras",
         "Slack FOIA"
       ],
       "entities": {
         "people": [
-          "Matt Frieman",
           "Vineet Menachery",
           "Ralph Baric",
           "Anthony Fauci",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Matt Frieman"
         ],
         "orgs": [
           "U.S. Right to Know",
@@ -751,9 +751,9 @@
       "book_role": "Early public proposal, with the Sirotkins, of a laboratory serial-passage origin path.",
       "topics": [
         "gain-of-function research",
-        "SARS-CoV-2 genealogy",
         "lab-leak hypothesis",
-        "reverse genetics"
+        "reverse genetics",
+        "SARS-CoV-2 genealogy"
       ],
       "entities": {
         "people": [

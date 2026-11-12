@@ -157,10 +157,10 @@
       "summary": "Investigative article arguing Chinese authorities constrained public discussion of early genomic findings and origin questions around Shi Zhengli and related research. Used in the book’s notes as evidence of suppression during early reporting.",
       "book_role": "Documents that Shi’s early interviews took place while authorities were already suppressing origin discussion.",
       "topics": [
-        "information control",
         "Shi Zhengli",
-        "genome sequencing",
-        "lab-leak hypothesis"
+        "lab-leak hypothesis",
+        "information control",
+        "genome sequencing"
       ],
       "entities": {
         "people": [
@@ -223,9 +223,9 @@
       "book_role": "",
       "topics": [
         "Shi Zhengli",
-        "lab-leak hypothesis",
         "Wuhan Institute of Virology",
-        "biosafety"
+        "biosafety",
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -293,9 +293,9 @@
       "book_role": "",
       "topics": [
         "Shi Zhengli",
+        "Wuhan Institute of Virology",
         "lab-leak hypothesis",
-        "WHO origins investigation",
-        "Wuhan Institute of Virology"
+        "WHO origins investigation"
       ],
       "entities": {
         "people": [
@@ -303,10 +303,10 @@
           "Jane Qiu"
         ],
         "orgs": [
-          "MIT Technology Review",
           "Wuhan Institute of Virology",
           "WHO",
-          "Scientific American"
+          "Scientific American",
+          "MIT Technology Review"
         ],
         "places": [
           "Wuhan",
@@ -360,14 +360,14 @@
       "book_role": "",
       "topics": [
         "BSL-4 laboratory",
-        "Franco-Chinese collaboration",
-        "Wuhan Institute of Virology"
+        "Wuhan Institute of Virology",
+        "Franco-Chinese collaboration"
       ],
       "entities": {
         "people": [
+          "Eva Dou",
           "Yuan Zhiming",
           "Bernard Cazeneuve",
-          "Eva Dou",
           "Pei Lin Wu",
           "Quentin Ariès",
           "Rebecca Tan"
@@ -490,10 +490,10 @@
       "summary": "WHO Disease Outbreak News item reporting 44 pneumonia-of-unknown-cause cases in Wuhan as of 3 January 2020, market closure, isolation of patients, and then-official statements of no clear significant human-to-human transmission or health-worker infections.",
       "book_role": "WHO Disease Outbreak News bulletin quoted for the early “pneumonia of unknown cause” announcement.",
       "topics": [
-        "Disease Outbreak News",
-        "Wuhan pneumonia",
         "Huanan Seafood Market",
-        "WHO"
+        "WHO",
+        "Disease Outbreak News",
+        "Wuhan pneumonia"
       ],
       "entities": {
         "people": [],
@@ -599,9 +599,9 @@
       "book_role": "Wuhan police admonishment of Li Wenliang quoted in the Prologue’s suppression arc.",
       "topics": [
         "Li Wenliang",
+        "Huanan Seafood Market",
         "whistleblowers",
-        "admonishment",
-        "Huanan Seafood Market"
+        "admonishment"
       ],
       "entities": {
         "people": [
@@ -667,8 +667,8 @@
           "Tan Jianxing"
         ],
         "orgs": [
-          "Caixin",
-          "Wuhan Central Hospital"
+          "Wuhan Central Hospital",
+          "Caixin"
         ],
         "places": [
           "Wuhan",
@@ -719,8 +719,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "People's Daily",
-          "Wuhan Municipal Health Commission"
+          "Wuhan Municipal Health Commission",
+          "People's Daily"
         ],
         "places": [
           "Wuhan",
@@ -760,8 +760,8 @@
       "book_role": "",
       "topics": [
         "Li Wenliang",
-        "whistleblowers",
         "Wuhan Central Hospital",
+        "whistleblowers",
         "public anger"
       ],
       "entities": {
@@ -769,8 +769,8 @@
           "Li Wenliang"
         ],
         "orgs": [
-          "BBC News",
-          "Wuhan Central Hospital"
+          "Wuhan Central Hospital",
+          "BBC News"
         ],
         "places": [
           "Wuhan",

@@ -111,8 +111,8 @@
       "summary": "BBC report on expanding Hubei lockdowns after the novel coronavirus emerged in Wuhan, including transport shutdowns in Wuhan and neighboring cities and rising case counts.",
       "book_role": "",
       "topics": [
-        "Hubei lockdown",
         "Wuhan",
+        "Hubei lockdown",
         "travel restrictions"
       ],
       "entities": {
@@ -166,10 +166,10 @@
       "summary": "Virological.org thread posting the novel 2019 coronavirus genome outside China, a foundational public release for global virologists.",
       "book_role": "Edward Holmes’s early public release of the SARS-CoV-2 genome sequence.",
       "topics": [
-        "SARS-CoV-2 genome",
         "Edward Holmes",
-        "Virological",
-        "SARS-CoV-2"
+        "SARS-CoV-2",
+        "SARS-CoV-2 genome",
+        "Virological"
       ],
       "entities": {
         "people": [
@@ -268,8 +268,8 @@
       "book_role": "",
       "topics": [
         "WHO",
-        "human-to-human transmission",
-        "SARS-CoV-2"
+        "SARS-CoV-2",
+        "human-to-human transmission"
       ],
       "entities": {
         "people": [],
@@ -366,9 +366,9 @@
       "summary": "Cambridge Working Group consensus statement opposing certain creation of potential pandemic pathogens, preserved as a historical biosafety advocacy document.",
       "book_role": "",
       "topics": [
-        "potential pandemic pathogens",
         "Cambridge Working Group",
-        "gain-of-function research"
+        "gain-of-function research",
+        "potential pandemic pathogens"
       ],
       "entities": {
         "people": [],
@@ -376,8 +376,8 @@
           "Cambridge Working Group"
         ],
         "places": [
-          "Cambridge",
-          "United States"
+          "United States",
+          "Cambridge"
         ]
       },
       "topic_ids": [
@@ -417,18 +417,18 @@
       "summary": "U.S. government document announcing the 2014 funding pause and deliberative process for selected gain-of-function research on influenza, MERS, and SARS viruses.",
       "book_role": "",
       "topics": [
+        "MERS",
+        "SARS",
         "gain-of-function pause",
         "OSTP",
-        "HHS",
-        "MERS",
-        "SARS"
+        "HHS"
       ],
       "entities": {
         "people": [],
         "orgs": [
+          "NIH",
           "Office of Science and Technology Policy",
-          "Department of Health and Human Services",
-          "NIH"
+          "Department of Health and Human Services"
         ],
         "places": [
           "United States"
@@ -468,10 +468,10 @@
       "summary": "Landmark Science paper demonstrating airborne transmission of H5N1 influenza between ferrets—central exhibit in gain-of-function controversy.",
       "book_role": "",
       "topics": [
+        "gain-of-function research",
         "H5N1 avian flu",
         "ferrets",
-        "airborne transmission",
-        "gain-of-function research"
+        "airborne transmission"
       ],
       "entities": {
         "people": [
@@ -519,8 +519,8 @@
       "summary": "STAT early report on experts parsing sparse Chinese statements about Wuhan’s unexplained pneumonia cluster, including rising case counts and coronavirus speculation.",
       "book_role": "Early Western reporting that already noted Wuhan’s BSL-4 laboratory.",
       "topics": [
-        "mystery pneumonia",
         "Wuhan",
+        "mystery pneumonia",
         "early reporting",
         "information scarcity"
       ],
@@ -530,8 +530,8 @@
           "Marion Koopmans"
         ],
         "orgs": [
-          "STAT News",
           "Wuhan Municipal Health Commission",
+          "STAT News",
           "Erasmus Medical Center"
         ],
         "places": [

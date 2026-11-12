@@ -21,10 +21,10 @@
       "summary": "The Week profile of Monali Rahalkar and Rahul Bahulikar’s independent work tracing COVID origins—especially reconnecting RaTG13 to the 2012 Mojiang mineshaft pneumonia cases.",
       "book_role": "Rahalkar & Bahulikar’s independent work that opened the Mojiang mine trail.",
       "topics": [
-        "Monali Rahalkar",
-        "Rahul Bahulikar",
         "Mojiang mine",
         "RaTG13",
+        "Monali Rahalkar",
+        "Rahul Bahulikar",
         "origins sleuthing"
       ],
       "entities": {
@@ -36,9 +36,9 @@
           "The Week"
         ],
         "places": [
-          "India",
           "Mojiang mine",
-          "Wuhan"
+          "Wuhan",
+          "India"
         ]
       },
       "topic_ids": [
@@ -137,19 +137,19 @@
       "summary": "2016 Virologica Sinica paper documenting multiple coronaviruses coexisting in bat colonies in an abandoned mineshaft—the Mojiang site later tied to RaTG13/BtCoV/4991.",
       "book_role": "",
       "topics": [
-        "Mojiang mine",
         "bat coronaviruses",
+        "Mojiang mine",
         "WIV sampling",
         "coinfection"
       ],
       "entities": {
         "people": [
-          "Xing-Yi Ge",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Xing-Yi Ge"
         ],
         "orgs": [
-          "Virologica Sinica",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Virologica Sinica"
         ],
         "places": [
           "Mojiang mine",
@@ -199,8 +199,8 @@
       "summary": "GenBank record KP876546 for partial RdRp of Rhinolophus bat coronavirus BtCoV/4991—later recognized as the same virus lineage renamed RaTG13.",
       "book_role": "2016 GenBank deposit of the partial Ra4991 sequence later known as RaTG13.",
       "topics": [
-        "BtCoV/4991",
         "GenBank",
+        "BtCoV/4991",
         "RaTG13 precursor",
         "RdRp"
       ],
@@ -253,9 +253,9 @@
       "summary": "Rahalkar & Bahulikar Frontiers paper arguing the 2012 Mojiang miners’ lethal pneumonia and the mineshaft where RaTG13 was sampled are critical, under-examined clues to SARS-CoV-2 origins.",
       "book_role": "Rahalkar & Bahulikar paper on the 2012 Mojiang miner pneumonia cases.",
       "topics": [
+        "RaTG13",
         "Mojiang miners",
         "lethal pneumonia 2012",
-        "RaTG13",
         "mineshaft"
       ],
       "entities": {
@@ -313,9 +313,9 @@
       "book_role": "Complete RaTG13 genome published by Shi’s team in 2020.",
       "topics": [
         "RaTG13",
-        "complete genome",
         "GenBank",
-        "Shi Zhengli"
+        "Shi Zhengli",
+        "complete genome"
       ],
       "entities": {
         "people": [
@@ -382,8 +382,8 @@
           "TheSeeker268"
         ],
         "orgs": [
-          "The Week",
-          "DRASTIC"
+          "DRASTIC",
+          "The Week"
         ],
         "places": [
           "Wuhan",
@@ -442,13 +442,13 @@
           "Li Xu"
         ],
         "orgs": [
-          "Kunming Medical University",
-          "DocumentCloud"
+          "DocumentCloud",
+          "Kunming Medical University"
         ],
         "places": [
           "Mojiang mine",
-          "Kunming",
-          "Yunnan"
+          "Yunnan",
+          "Kunming"
         ]
       },
       "entity_ids": {
@@ -486,10 +486,10 @@
       "summary": "Partial English translation of Canping Huang’s 2016 China CDC PhD thesis on bat virus discovery and HKU9 receptor work—later mined for Mojiang/RaTG13 and WIV research context.",
       "book_role": "",
       "topics": [
+        "Chinese Center for Disease Control and Prevention",
         "Canping Huang thesis",
         "bat virus discovery",
-        "HKU9",
-        "Chinese Center for Disease Control and Prevention"
+        "HKU9"
       ],
       "entities": {
         "people": [
@@ -543,8 +543,8 @@
       ],
       "entities": {
         "people": [
-          "Margaret Chan",
-          "Zhong Nanshan"
+          "Zhong Nanshan",
+          "Margaret Chan"
         ],
         "orgs": [
           "Time Magazine",
@@ -590,20 +590,20 @@
       "summary": "Latham & Wilson analysis of how a Chinese PhD thesis and related materials shed new light on RaTG13’s Mojiang provenance and gaps in Zhou et al. 2020’s brief account of the closest relative.",
       "book_role": "",
       "topics": [
+        "Mojiang mine",
         "RaTG13 provenance",
         "Chinese PhD thesis",
-        "Zhou et al. 2020",
-        "Mojiang mine"
+        "Zhou et al. 2020"
       ],
       "entities": {
         "people": [
+          "Shi Zhengli",
           "Jonathan Latham",
-          "Allison Wilson",
-          "Shi Zhengli"
+          "Allison Wilson"
         ],
         "orgs": [
-          "Independent Science News",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Independent Science News"
         ],
         "places": [
           "Mojiang mine",
@@ -647,10 +647,10 @@
       "summary": "Ridley & Chan Telegraph essay arguing the lab-escape case: wet-market/pangolin story weaknesses, WIV bat research, and Mojiang-linked closest relatives—foreshadowing their book Viral.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
         "Wuhan Institute of Virology",
         "pangolins",
-        "Mojiang mine"
+        "Mojiang mine",
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -713,8 +713,8 @@
       ],
       "entities": {
         "people": [
-          "Cate Cadell",
-          "Yawen Chen"
+          "Yawen Chen",
+          "Cate Cadell"
         ],
         "orgs": [
           "Reuters"
@@ -764,15 +764,15 @@
       "summary": "Landmark 2013 Nature paper isolating a bat SARS-like coronavirus that uses ACE2—foundational WIV work showing bat sarbecoviruses can bind the human receptor years before COVID.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
         "ACE2 receptors",
         "Wuhan Institute of Virology",
-        "Shi Zhengli"
+        "Shi Zhengli",
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
-          "Xing-Yi Ge",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Xing-Yi Ge"
         ],
         "orgs": [
           "Nature",
@@ -834,8 +834,8 @@
           "Kathryn Follis"
         ],
         "orgs": [
-          "Virology",
-          "PMC"
+          "PMC",
+          "Virology"
         ],
         "places": []
       },
@@ -957,9 +957,9 @@
       "summary": "USRTK FOIA reporting that Liu et al. authors privately discussed possible lab origin and furin-cleavage concerns even while publishing ‘no credible evidence’ of engineering.",
       "book_role": "Reporting on conflicts among authors of the February 2020 paper denying lab engineering.",
       "topics": [
-        "FOIA emails",
         "furin cleavage site",
         "lab-leak hypothesis",
+        "FOIA emails",
         "Liu et al."
       ],
       "entities": {
@@ -1015,8 +1015,8 @@
       ],
       "entities": {
         "people": [
-          "Dake Kang",
-          "Yawen Chen"
+          "Yawen Chen",
+          "Dake Kang"
         ],
         "orgs": [
           "Associated Press"
@@ -1061,8 +1061,8 @@
       "summary": "PMC full text of the 2016 Mojiang mineshaft coronavirus coexistence paper (same study as s03).",
       "book_role": "",
       "topics": [
-        "Mojiang mine",
         "bat coronaviruses",
+        "Mojiang mine",
         "PMC full text"
       ],
       "entities": {
@@ -1071,9 +1071,9 @@
           "Xing-Yi Ge"
         ],
         "orgs": [
-          "Virologica Sinica",
           "PMC",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Virologica Sinica"
         ],
         "places": [
           "Mojiang mine",

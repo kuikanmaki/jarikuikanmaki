@@ -1,0 +1,83 @@
+{
+  "chapter": 15,
+  "credits_before": 668,
+  "credits_after": 662,
+  "sources": [
+    {
+      "id": 1,
+      "source_key": "ch15-s01",
+      "url": "https://www.newsweek.com/darpa-denies-funding-defuse-wuhan-institute-virology-proposal-leak-drastic-1631512",
+      "ok": true,
+      "status": "ok",
+      "bytes": 21247,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch15-s01.md"
+    },
+    {
+      "id": 2,
+      "source_key": "ch15-s02",
+      "url": "https://www.currentaffairs.org/2022/08/why-the-chair-of-the-lancets-covid-19-commission-thinks-the-us-government-is-preventing-a-real-investigation-into-the-pandemic",
+      "ok": true,
+      "status": "ok",
+      "bytes": 31163,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch15-s02.md"
+    },
+    {
+      "id": 3,
+      "source_key": "ch15-s03",
+      "url": "https://unherd.com/2022/08/how-dick-cheney-created-anthony-fauci/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 42225,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch15-s03.md"
+    },
+    {
+      "id": 4,
+      "source_key": "ch15-s04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3934440",
+      "ok": true,
+      "status": "ok",
+      "bytes": 53440,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch15-s04.md"
+    },
+    {
+      "id": 5,
+      "source_key": "ch15-s05",
+      "url": "https://www.researchgate.net/publication/38000014_Synthetic_Viral_Genomics_Risks_and_Benefits_for_Science_and_Society",
+      "ok": true,
+      "status": "ok",
+      "bytes": 144385,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch15-s05.md"
+    },
+    {
+      "id": 6,
+      "source_key": "ch15-s06",
+      "url": "",
+      "ok": false,
+      "status": "empty_url",
+      "bytes": 0,
+      "error": null,
+      "reused": false
+    },
+    {
+      "id": 7,
+      "source_key": "ch15-s07",
+      "url": "https://www.cbc.ca/news/world/anthrax-scientist-commits-suicide-as-fbi-closes-in-1.761552",
+      "ok": true,
+      "status": "ok",
+      "bytes": 16645,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch15-s07.md"
+    }
+  ]
+}

@@ -1,104 +1,149 @@
 {
+  "_meta": {
+    "generated_from": "extended/chapter-*.json",
+    "generated_at": "2026-11-12T13:32:16.407080+00:00",
+    "note": "Chapter shelf metadata. Bibliographic source of truth is extended/chapter-*.json only."
+  },
   "chapters": [
     {
       "number": 0,
       "name": "Prologue",
-      "file": "chapter-00.json"
+      "title": "Prologue: Night Train to Wuhan",
+      "file": "extended/chapter-00.json",
+      "source_count": 13
     },
     {
       "number": 1,
       "name": "Chapter 1",
-      "file": "chapter-01.json"
+      "title": "The First Time I Heard of the Virus",
+      "file": "extended/chapter-01.json",
+      "source_count": 12
     },
     {
       "number": 2,
       "name": "Chapter 2",
-      "file": "chapter-02.json"
+      "title": "Bioweapons?",
+      "file": "extended/chapter-02.json",
+      "source_count": 5
     },
     {
       "number": 3,
       "name": "Chapter 3",
-      "file": "chapter-03.json"
+      "title": "Fauci Receives the Email",
+      "file": "extended/chapter-03.json",
+      "source_count": 13
     },
     {
       "number": 4,
       "name": "Chapter 4",
-      "file": "chapter-04.json"
+      "title": "Bats, Yunnan, 2013",
+      "file": "extended/chapter-04.json",
+      "source_count": 15
     },
     {
       "number": 5,
       "name": "Chapter 5",
-      "file": "chapter-05.json"
+      "title": "Pangolins",
+      "file": "extended/chapter-05.json",
+      "source_count": 6
     },
     {
       "number": 6,
       "name": "Chapter 6",
-      "file": "chapter-06.json"
+      "title": "Conspiracy Theories Condemned",
+      "file": "extended/chapter-06.json",
+      "source_count": 17
     },
     {
       "number": 7,
       "name": "Chapter 7",
-      "file": "chapter-07.json"
+      "title": "Everything Is Under Control",
+      "file": "extended/chapter-07.json",
+      "source_count": 6
     },
     {
       "number": 8,
       "name": "Chapter 8",
-      "file": "chapter-08.json"
+      "title": "Aftermath",
+      "file": "extended/chapter-08.json",
+      "source_count": 24
     },
     {
       "number": 9,
       "name": "Chapter 9",
-      "file": "chapter-09.json"
+      "title": "WHO Goes to China",
+      "file": "extended/chapter-09.json",
+      "source_count": 19
     },
     {
       "number": 10,
       "name": "Chapter 10",
-      "file": "chapter-10.json"
+      "title": "The Floodgates Open",
+      "file": "extended/chapter-10.json",
+      "source_count": 20
     },
     {
       "number": 11,
       "name": "Chapter 11",
-      "file": "chapter-11.json"
+      "title": "The Mojiang Connection",
+      "file": "extended/chapter-11.json",
+      "source_count": 20
     },
     {
       "number": 12,
       "name": "Chapter 12",
-      "file": "chapter-12.json"
+      "title": "What Did They Study in Wuhan?",
+      "file": "extended/chapter-12.json",
+      "source_count": 16
     },
     {
       "number": 13,
       "name": "Chapter 13",
-      "file": "chapter-13.json"
+      "title": "Chasing Shadows – Who Are “They”?",
+      "file": "extended/chapter-13.json",
+      "source_count": 5
     },
     {
       "number": 14,
       "name": "Chapter 14",
-      "file": "chapter-14.json"
+      "title": "Blueprint for a Pandemic? DARPA DEFUSE",
+      "file": "extended/chapter-14.json",
+      "source_count": 9
     },
     {
       "number": 15,
       "name": "Chapter 15",
-      "file": "chapter-15.json"
+      "title": "The US Biodefense Complex",
+      "file": "extended/chapter-15.json",
+      "source_count": 7
     },
     {
       "number": 16,
       "name": "Chapter 16",
-      "file": "chapter-16.json"
+      "title": "Covert Operations",
+      "file": "extended/chapter-16.json",
+      "source_count": 13
     },
     {
       "number": 17,
       "name": "Chapter 17",
-      "file": "chapter-17.json"
+      "title": "Enigma",
+      "file": "extended/chapter-17.json",
+      "source_count": 16
     },
     {
       "number": 18,
       "name": "Chapter 18",
-      "file": "chapter-18.json"
+      "title": "Fog of War",
+      "file": "extended/chapter-18.json",
+      "source_count": 15
     },
     {
       "number": 19,
       "name": "Chapter 19",
-      "file": "chapter-19.json"
+      "title": "Revelations",
+      "file": "extended/chapter-19.json",
+      "source_count": 54
     }
   ]
 }

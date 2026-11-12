@@ -33,9 +33,9 @@
           "Taliban"
         ],
         "places": [
+          "United States",
           "Kabul",
-          "Afghanistan",
-          "United States"
+          "Afghanistan"
         ]
       },
       "entity_ids": {
@@ -82,9 +82,9 @@
           "Euronews"
         ],
         "places": [
+          "Europe",
           "Belarus",
-          "Poland",
-          "Europe"
+          "Poland"
         ]
       },
       "entity_ids": {
@@ -164,8 +164,8 @@
       "summary": "Al Jazeera on Omicron driving record daily COVID cases across Europe in late December 2021.",
       "book_role": "",
       "topics": [
-        "Omicron variant",
         "Europe",
+        "Omicron variant",
         "record COVID cases"
       ],
       "entities": {
@@ -272,9 +272,9 @@
           "France 24"
         ],
         "places": [
+          "Europe",
           "Brussels",
-          "Belgium",
-          "Europe"
+          "Belgium"
         ]
       },
       "entity_ids": {
@@ -321,8 +321,8 @@
           "Associated Press"
         ],
         "places": [
-          "Ottawa",
-          "Canada"
+          "Canada",
+          "Ottawa"
         ]
       },
       "entity_ids": {
@@ -357,8 +357,8 @@
       "summary": "Reuters day-of-invasion report: missiles across Ukraine as Russia launches full-scale war.",
       "book_role": "",
       "topics": [
-        "Russia invasion",
         "Ukraine",
+        "Russia invasion",
         "missiles",
         "February 24 2022"
       ],
@@ -414,10 +414,10 @@
       "summary": "Companion Reuters piece confirming Kyiv’s assessment of a full-scale Russian invasion.",
       "book_role": "",
       "topics": [
-        "full-scale invasion",
         "Ukraine",
-        "Kyiv",
-        "Russia"
+        "Russia",
+        "full-scale invasion",
+        "Kyiv"
       ],
       "entities": {
         "people": [],
@@ -426,8 +426,8 @@
         ],
         "places": [
           "Ukraine",
-          "Kyiv",
-          "Russia"
+          "Russia",
+          "Kyiv"
         ]
       },
       "topic_ids": [
@@ -607,14 +607,14 @@
       "summary": "Eisenhower’s farewell address warning of the military-industrial complex—canonical text on permanent war-and-science machinery.",
       "book_role": "Eisenhower’s farewell warning about the military–industrial–scientific elite, used as closing frame.",
       "topics": [
-        "military-industrial complex",
         "Dwight D. Eisenhower",
+        "military-industrial complex",
         "farewell address"
       ],
       "entities": {
         "people": [
-          "Dwight Eisenhower",
-          "Dwight D. Eisenhower"
+          "Dwight D. Eisenhower",
+          "Dwight Eisenhower"
         ],
         "orgs": [
           "National Archives"
@@ -659,10 +659,10 @@
       "summary": "NATO announcement that Finland and Sweden submitted applications to join the Alliance after Russia’s invasion.",
       "book_role": "",
       "topics": [
-        "NATO enlargement",
         "Finland",
-        "Sweden",
-        "Russia–Ukraine war"
+        "Russia–Ukraine war",
+        "NATO enlargement",
+        "Sweden"
       ],
       "entities": {
         "people": [],
@@ -671,8 +671,8 @@
         ],
         "places": [
           "Finland",
-          "Sweden",
-          "Europe"
+          "Europe",
+          "Sweden"
         ]
       },
       "topic_ids": [
@@ -709,9 +709,9 @@
       "summary": "Guardian on Ukraine’s surprise Kharkiv-region counteroffensive against Russian forces.",
       "book_role": "",
       "topics": [
-        "Kharkiv counteroffensive",
+        "Russia",
         "Russia–Ukraine war",
-        "Russia"
+        "Kharkiv counteroffensive"
       ],
       "entities": {
         "people": [],
@@ -719,9 +719,9 @@
           "The Guardian"
         ],
         "places": [
-          "Kharkiv",
           "Ukraine",
-          "Russia"
+          "Russia",
+          "Kharkiv"
         ]
       },
       "topic_ids": [

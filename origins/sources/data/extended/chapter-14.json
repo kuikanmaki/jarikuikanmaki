@@ -28,8 +28,8 @@
       ],
       "entities": {
         "people": [
-          "TheSeeker268",
-          "Peter Daszak"
+          "Peter Daszak",
+          "TheSeeker268"
         ],
         "orgs": [
           "DRASTIC",
@@ -81,11 +81,11 @@
       "book_role": "Primary DEFUSE proposal text naming Daszak and the Wuhan Institute of Virology.",
       "topics": [
         "DEFUSE",
-        "furin cleavage site",
         "chimeric viruses",
-        "hACE2 mice",
         "Wuhan Institute of Virology",
-        "PREEMPT"
+        "PREEMPT",
+        "furin cleavage site",
+        "hACE2 mice"
       ],
       "entities": {
         "people": [
@@ -154,18 +154,18 @@
       "summary": "Sky News Australia video claiming footage shows bats kept in a Wuhan lab.",
       "book_role": "",
       "topics": [
+        "Wuhan Institute of Virology",
         "bats in Wuhan lab",
-        "footage",
-        "Wuhan Institute of Virology"
+        "footage"
       ],
       "entities": {
         "people": [
           "Sharri Markson"
         ],
         "orgs": [
-          "Sky News Australia",
           "YouTube",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Sky News Australia"
         ],
         "places": [
           "Wuhan"
@@ -209,8 +209,8 @@
       "summary": "Mail on Sunday report on secret bat cages at a Wuhan lab where researchers planned to breed animals for virus experiments—live-animal infrastructure for bat CoV work.",
       "book_role": "",
       "topics": [
-        "bat cages",
         "Wuhan Institute of Virology",
+        "bat cages",
         "animal breeding",
         "virus experiments"
       ],
@@ -327,10 +327,10 @@
       "summary": "Daszak tweet insisting only samples—not bats—went to Wuhan labs and that bats are released where caught.",
       "book_role": "Daszak’s public denial that bats were sent to Wuhan—set against DEFUSE partner plans.",
       "topics": [
-        "bat samples",
-        "field collection",
         "Wuhan Institute of Virology",
-        "Peter Daszak"
+        "Peter Daszak",
+        "bat samples",
+        "field collection"
       ],
       "entities": {
         "people": [
@@ -391,9 +391,9 @@
       ],
       "entities": {
         "people": [
+          "Peter Daszak",
           "Sharon Lerner",
-          "Mara Hvistendahl",
-          "Peter Daszak"
+          "Mara Hvistendahl"
         ],
         "orgs": [
           "The Intercept",
@@ -445,10 +445,10 @@
       "summary": "Large FOIA dump of the EcoHealth/NIH bat-coronavirus emergence grant materials, including the Year-4 progress report (2017–2018) describing WIV collaborative experiments.",
       "book_role": "EcoHealth FOIA progress report on sample shipping and Baric’s letter of support.",
       "topics": [
-        "NIH FOIA",
+        "EcoHealth Alliance",
         "Year-4 Progress Report (EcoHealth Alliance)",
-        "bat coronavirus emergence",
-        "EcoHealth Alliance"
+        "NIH FOIA",
+        "bat coronavirus emergence"
       ],
       "entities": {
         "people": [
@@ -511,19 +511,19 @@
       "book_role": "",
       "topics": [
         "Danielle Anderson",
-        "funding documents",
         "Wuhan Institute of Virology",
+        "funding documents",
         "origins debate"
       ],
       "entities": {
         "people": [
-          "Paul D. Thacker",
-          "Danielle Anderson"
+          "Danielle Anderson",
+          "Paul D. Thacker"
         ],
         "orgs": [
-          "DisInformation Chronicle",
           "Wuhan Institute of Virology",
-          "Substack"
+          "Substack",
+          "DisInformation Chronicle"
         ],
         "places": [
           "Wuhan"

@@ -19,7 +19,7 @@
       "source_key": "ch06-s02",
       "url": "https://www.washingtonpost.com/world/2020/02/01/early-missteps-state-secrecy-china-likely-allowed-coronavirus-spread-farther-faster/",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 4333,
       "error": null,
       "reused": false,
@@ -84,7 +84,7 @@
       "id": 8,
       "source_key": "ch06-s08",
       "url": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -96,7 +96,7 @@
       "source_key": "ch06-s09",
       "url": "https://www.washingtonpost.com/politics/2020/02/16/tom-cotton-coronavirus-conspiracy/",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 5249,
       "error": null,
       "reused": false,
@@ -151,7 +151,7 @@
       "source_key": "ch06-s14",
       "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 1126,
       "error": null,
       "reused": false,
@@ -190,5 +190,7 @@
       "reused": false,
       "artifact": "artifacts/ch06-s17.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

@@ -2,7 +2,14 @@
 
 Canonical names for people, organizations, places, topics, events, and works in the Origins extended corpus.
 
-## Source of truth
+## Bibliographic source of truth
+
+- **Catalog records:** `../extended/chapter-*.json` only (one file per chapter).
+- **Public browse/search views:** generated `../corpus-index.json` and `../authority-search-index.json` (do not hand-edit).
+- **Legacy** `../chapter-*.json` files were archived under `../_archive/` after merge; do not revive them as a second bib store.
+- **Chapter shelf meta:** `../sources-index.json` (generated from extended).
+
+## Authority source of truth
 
 1. **Book index (primary):** `book-index.bits.xml` — BITS export from Indexia (back-of-book index).
 2. **Corpus extensions:** high-frequency labels that appear in chapter JSON but not in the index (e.g. Wuhan, China, United States), marked `"source": "corpus-extension"`.
@@ -45,7 +52,9 @@ Each extended chapter source may include:
 - `publication_ids` — ordered org authority ids resolved from the bibliographic `publication` string
 - `entity_ids` — `{ people, orgs, places }` ids resolved from `entities` (authors/publications are merged in)
 
-Display strings in `topics` / `entities` are normalized to `prefLabel` when matched.
+**Controlled terms:** `topic_ids` / `entity_ids` (and author/publication ids) are authoritative.
+Display strings in `topics` / `entities` are derived from authority `prefLabel` via
+`_sync_labels_from_authorities.py` (orphan unmatched strings may remain until linked).
 The `author` / `publication` fields stay as printed citation text; identity lives in `*_ids` / authorities.
 
 Link or refresh bibliographic ids after bibliography edits:
@@ -53,6 +62,8 @@ Link or refresh bibliographic ids after bibliography edits:
 ```bash
 python3 origins/sources/data/_link_authors.py
 python3 origins/sources/data/_link_publications.py
+python3 origins/sources/data/_sync_labels_from_authorities.py
+python3 origins/sources/data/_verify_authority_links.py
 python3 origins/sources/data/_build_corpus_index.py
 python3 origins/sources/data/_build_authority_search_index.py
 ```
@@ -70,9 +81,14 @@ Rebuild after authority or extended-chapter changes:
 ```bash
 python3 origins/sources/data/_normalize_catalog.py
 python3 origins/sources/data/_enrich_image_urls.py
+python3 origins/sources/data/_sync_labels_from_authorities.py
+python3 origins/sources/data/_verify_authority_links.py
 python3 origins/sources/data/_build_corpus_index.py
+python3 origins/sources/data/_verify_corpus_index.py
 python3 origins/sources/data/_build_authority_search_index.py
 ```
+
+`corpus-index.json` is generated-only (`input_sha256` + `corpus-index.sha256`). Do not hand-edit it.
 
 Preview images are publisher hotlinks (`image_url` / `og:image`), shown only when available.
 

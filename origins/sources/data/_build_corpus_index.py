@@ -1,14 +1,23 @@
 #!/usr/bin/env python3
-"""Build a flat public corpus-index.json for visitor browse (no artifacts)."""
+"""Build a flat public corpus-index.json for visitor browse (no artifacts).
+
+Generated view only — do not hand-edit corpus-index.json. Rebuild from
+extended/chapter-*.json after bibliography or authority changes.
+"""
 
 from __future__ import annotations
 
+import hashlib
 import json
+from datetime import datetime, timezone
 from pathlib import Path
+
+from _authority_lib import labels_for_ids, load_authority_map
 
 ROOT = Path(__file__).resolve().parent
 EXT = ROOT / "extended"
 OUT = ROOT / "corpus-index.json"
+HASH_OUT = ROOT / "corpus-index.sha256"
 
 KIND_LABEL = {
     "html_article": "Article",
@@ -27,9 +36,38 @@ KIND_LABEL = {
 }
 
 
+def _merge_labels(resolved: list[str], existing: list[str]) -> list[str]:
+    have = {x.casefold() for x in resolved}
+    out = list(resolved)
+    for s in existing or []:
+        if s and s.casefold() not in have:
+            out.append(s)
+            have.add(s.casefold())
+    return out
+
+
+def _input_fingerprint() -> str:
+    h = hashlib.sha256()
+    for path in sorted(EXT.glob("chapter-*.json")):
+        h.update(path.name.encode())
+        h.update(b"\0")
+        h.update(path.read_bytes())
+        h.update(b"\0")
+    for path in sorted((ROOT / "authority").glob("*.json")):
+        if path.name.endswith("-report.json"):
+            continue
+        h.update(path.name.encode())
+        h.update(b"\0")
+        h.update(path.read_bytes())
+        h.update(b"\0")
+    return h.hexdigest()
+
+
 def main() -> None:
     chapters = []
     sources = []
+    auth_map = load_authority_map()
+    input_hash = _input_fingerprint()
 
     for path in sorted(EXT.glob("chapter-*.json")):
         data = json.loads(path.read_text())
@@ -50,7 +88,8 @@ def main() -> None:
             entity_ids = source.get("entity_ids") or {}
             author_ids = list(source.get("author_ids") or [])
             publication_ids = list(source.get("publication_ids") or [])
-            authority_ids = list(source.get("topic_ids") or [])
+            topic_ids = list(source.get("topic_ids") or [])
+            authority_ids = list(topic_ids)
             for aid in author_ids + publication_ids:
                 if aid not in authority_ids:
                     authority_ids.append(aid)
@@ -58,6 +97,15 @@ def main() -> None:
                 for aid in entity_ids.get(bucket) or []:
                     if aid not in authority_ids:
                         authority_ids.append(aid)
+
+            topic_labels, _ = labels_for_ids(auth_map, topic_ids)
+            topics = _merge_labels(topic_labels, list(source.get("topics") or []))
+
+            entities = {"people": [], "orgs": [], "places": []}
+            src_ents = source.get("entities") or {}
+            for bucket in ("people", "orgs", "places"):
+                resolved, _ = labels_for_ids(auth_map, list(entity_ids.get(bucket) or []))
+                entities[bucket] = _merge_labels(resolved, list(src_ents.get(bucket) or []))
 
             sources.append(
                 {
@@ -82,12 +130,8 @@ def main() -> None:
                     "status": source.get("status") or "",
                     "summary": source.get("summary") or "",
                     "book_role": source.get("book_role") or "",
-                    "topics": source.get("topics") or [],
-                    "entities": source.get("entities") or {
-                        "people": [],
-                        "orgs": [],
-                        "places": [],
-                    },
+                    "topics": topics,
+                    "entities": entities,
                     "authority_ids": authority_ids,
                 }
             )
@@ -103,13 +147,19 @@ def main() -> None:
     payload = {
         "version": 1,
         "generated_from": "extended/chapter-*.json",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "input_sha256": input_hash,
+        "note": "GENERATED FILE — rebuild with _build_corpus_index.py; do not hand-edit.",
         "chapterCount": len(chapters),
         "sourceCount": len(sources),
         "chapters": chapters,
         "sources": sources,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n")
+    body = json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n"
+    OUT.write_text(body)
+    HASH_OUT.write_text(input_hash + "\t" + OUT.name + "\n")
     print(f"Wrote {OUT} ({len(sources)} sources, {len(chapters)} chapters)")
+    print(f"Wrote {HASH_OUT} ({input_hash[:12]}…)")
 
 
 if __name__ == "__main__":

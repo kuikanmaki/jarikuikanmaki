@@ -21,15 +21,15 @@
       "summary": "Guardian report that China had not yet approved visas for the WHO origins delegation due to visit Wuhan, effectively blocking the team’s entry after months of negotiation.",
       "book_role": "",
       "topics": [
-        "WHO origins mission",
-        "visa blockade",
         "Wuhan",
-        "Tedros Adhanom Ghebreyesus"
+        "Tedros Adhanom Ghebreyesus",
+        "WHO origins mission",
+        "visa blockade"
       ],
       "entities": {
         "people": [
-          "Sarah Boseley",
-          "Tedros Adhanom Ghebreyesus"
+          "Tedros Adhanom Ghebreyesus",
+          "Sarah Boseley"
         ],
         "orgs": [
           "The Guardian",
@@ -133,23 +133,23 @@
       "summary": "BBC report on Peter Ben Embarek calling a Wuhan lab leak ‘extremely unlikely,’ favoring a natural bat reservoir (likely not in Wuhan), while Daszak floated shifting focus to Southeast Asia—effectively sidelining the lab hypothesis from future study.",
       "book_role": "BBC/WHO coverage of the mission’s “extremely unlikely” lab-leak ranking.",
       "topics": [
-        "extremely unlikely",
+        "Peter Daszak",
         "Peter Embarek",
-        "lab leak dismissal",
-        "Peter Daszak"
+        "extremely unlikely",
+        "lab leak dismissal"
       ],
       "entities": {
         "people": [
+          "Peter Daszak",
           "Michelle Roberts",
           "Peter Ben Embarek",
-          "Peter Daszak",
           "Liang Wannian"
         ],
         "orgs": [
-          "BBC",
           "WHO",
           "Wuhan Institute of Virology",
-          "BBC News"
+          "BBC News",
+          "BBC"
         ],
         "places": [
           "Wuhan",
@@ -208,9 +208,9 @@
         "people": [
           "Ian Birrell",
           "Peter Daszak",
-          "David Relman",
           "Ralph Baric",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "David Relman"
         ],
         "orgs": [
           "Daily Mail",
@@ -271,19 +271,19 @@
       "book_role": "",
       "topics": [
         "EcoHealth Alliance",
+        "Donald Trump",
         "NIH grant cutoff",
-        "bat-human transmission",
-        "Donald Trump"
+        "bat-human transmission"
       ],
       "entities": {
         "people": [
-          "Sarah Owermohle",
-          "Donald Trump"
+          "Donald Trump",
+          "Sarah Owermohle"
         ],
         "orgs": [
-          "Politico",
           "NIH",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "Politico"
         ],
         "places": [
           "China",
@@ -331,16 +331,16 @@
       "summary": "Science News piece on 77 Nobel laureates and dozens of societies urging Francis Collins and HHS to reverse NIH’s cancellation of the EcoHealth coronavirus grant after Trump-era political pressure.",
       "book_role": "",
       "topics": [
-        "Nobel laureates",
-        "NIH grant",
         "Francis Collins",
-        "EcoHealth Alliance"
+        "EcoHealth Alliance",
+        "Nobel laureates",
+        "NIH grant"
       ],
       "entities": {
         "people": [
           "Francis Collins",
-          "Alex Azar",
-          "Donald Trump"
+          "Donald Trump",
+          "Alex Azar"
         ],
         "orgs": [
           "Science",
@@ -398,9 +398,9 @@
       ],
       "entities": {
         "people": [
-          "Kenya Evelyn",
           "Anthony Fauci",
           "Joe Biden",
+          "Kenya Evelyn",
           "Ron Klain"
         ],
         "orgs": [
@@ -451,8 +451,8 @@
       "topics": [
         "Peter Daszak",
         "Anthony Fauci",
-        "conspiracy framing",
-        "Twitter"
+        "Twitter",
+        "conspiracy framing"
       ],
       "entities": {
         "people": [
@@ -572,15 +572,15 @@
       "summary": "Mail on Sunday report that NSFC wiped online records of hundreds of WIV studies—including all of Shi Zhengli’s listed work and bat cross-species infection studies—as China blocked WHO investigators.",
       "book_role": "",
       "topics": [
-        "NSFC database deletion",
         "Shi Zhengli",
+        "NSFC database deletion",
         "WIV studies",
         "cover-up"
       ],
       "entities": {
         "people": [
-          "Jonathan Bucks",
           "Shi Zhengli",
+          "Jonathan Bucks",
           "Iain Duncan Smith",
           "Xi Jinping"
         ],
@@ -645,8 +645,8 @@
         ],
         "orgs": [
           "Meta",
-          "Facebook",
-          "WHO"
+          "WHO",
+          "Facebook"
         ],
         "places": []
       },
@@ -682,9 +682,9 @@
       "summary": "Author’s Suomen Uutiset piece on Trump/Pompeo accusing China over outbreak cover-up and U.S. intelligence treating a Wuhan lab escape as possible—early Finnish-language coverage of the origins clash.",
       "book_role": "",
       "topics": [
-        "U.S.–China relations",
         "Mike Pompeo",
         "lab-leak hypothesis",
+        "U.S.–China relations",
         "Finland media"
       ],
       "entities": {
@@ -760,8 +760,8 @@
           "Steve Bannon"
         ],
         "orgs": [
-          "Suomen Uutiset",
-          "U.S. Department of State"
+          "U.S. Department of State",
+          "Suomen Uutiset"
         ],
         "places": [
           "China",
@@ -810,10 +810,10 @@
       "summary": "Nicholas Wade’s long Bulletin analysis weighing natural spillover versus lab escape, criticizing the Lancet and Proximal Origin statements, Daszak’s conflicts, and the scientific politics that closed ranks against the lab hypothesis.",
       "book_role": "Named among early public intellectuals who challenged the dominant origin narrative.",
       "topics": [
-        "lab vs natural origin",
         "Lancet letter (February 2020)",
         "The proximal origin of SARS-CoV-2",
-        "EcoHealth Alliance"
+        "EcoHealth Alliance",
+        "lab vs natural origin"
       ],
       "entities": {
         "people": [
@@ -823,9 +823,9 @@
           "Shi Zhengli"
         ],
         "orgs": [
-          "Bulletin of the Atomic Scientists",
           "EcoHealth Alliance",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Bulletin of the Atomic Scientists"
         ],
         "places": [
           "Wuhan",
@@ -988,10 +988,10 @@
       "summary": "WSJ report that a U.S. intelligence assessment said three WIV researchers became sick enough in November 2019 to seek hospital care—going beyond the Trump State Department fact sheet and fueling lab-escape debate.",
       "book_role": "",
       "topics": [
+        "lab-leak hypothesis",
         "sick WIV researchers",
         "November 2019",
-        "U.S. intelligence",
-        "lab-leak hypothesis"
+        "U.S. intelligence"
       ],
       "entities": {
         "people": [
@@ -1048,9 +1048,9 @@
       "summary": "Archived Trump State Department fact sheet: autumn 2019 WIV researcher illnesses, RaTG13/gain-of-function and Mojiang mine links, and classified military collaboration at WIV—while stating origin (animal vs lab accident) still undetermined.",
       "book_role": "",
       "topics": [
-        "WIV illnesses",
         "RaTG13",
         "gain-of-function research",
+        "WIV illnesses",
         "military activity"
       ],
       "entities": {
@@ -1121,10 +1121,10 @@
           "Wuhan Institute of Virology"
         ],
         "places": [
-          "Danaoshan",
           "Mojiang mine",
           "Wuhan",
-          "China"
+          "China",
+          "Danaoshan"
         ]
       },
       "topic_ids": [

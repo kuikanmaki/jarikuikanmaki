@@ -1,0 +1,743 @@
+{
+  "generated_at": "2026-11-12T13:32:58.755812+00:00",
+  "canonical": "extended/chapter-*.json",
+  "chapter_source_count": 305,
+  "status_counts": {
+    "ok": 280,
+    "paywall": 19,
+    "empty_url": 6
+  },
+  "old_cache_entries": 298,
+  "new_cache_entries": 295,
+  "status_mismatches_cache_vs_chapter": [
+    {
+      "source_key": "ch03-s01",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch04-s04",
+      "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch05-s03",
+      "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch06-s02",
+      "url": "https://www.washingtonpost.com/world/2020/02/01/early-missteps-state-secrecy-china-likely-allowed-coronavirus-spread-farther-faster/",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch06-s09",
+      "url": "https://www.washingtonpost.com/politics/2020/02/16/tom-cotton-coronavirus-conspiracy/",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch06-s14",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch08-s17",
+      "url": "https://www.wsj.com/articles/u-s-intelligence-agencies-say-coronavirus-originated-in-china-wasnt-man-madeor-genetically-modified-11588260228",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch08-s20",
+      "url": "https://www.scmp.com/news/china/society/article/3052966/chinese-laboratory-first-shared-coronavirus-genome-world-ordered",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch09-s15",
+      "url": "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch09-s17",
+      "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch09-s19",
+      "url": "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch10-s10",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01377-5/fulltext",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch13-s01",
+      "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch19-s04",
+      "url": "https://www.wsj.com/world/china/chinese-lab-mapped-deadly-coronavirus-two-weeks-before-beijing-told-the-world-documents-show-9bca8865",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch19-s27",
+      "url": "https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch19-s28",
+      "url": "https://www.wsj.com/politics/national-security/fbi-director-says-covid-pandemic-likely-caused-by-chinese-lab-leak-13a5e69b",
+      "cache_status": "ok",
+      "chapter_status": "paywall",
+      "action": "prefer_chapter"
+    },
+    {
+      "source_key": "ch19-s33",
+      "url": "https://www.ecohealthalliance.org/2022/12/ecohealth-alliance-statement-regarding-book-by-andrew-huff",
+      "cache_status": "not_found",
+      "chapter_status": "ok",
+      "action": "prefer_chapter"
+    }
+  ],
+  "cache_entries_without_chapter": [],
+  "cache_entries_without_chapter_count": 0,
+  "chapter_urls_missing_from_old_cache_count": 0,
+  "log_fixes_count": 48,
+  "log_fixes_sample": [
+    {
+      "source_key": "ch00-s01",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.scientificamerican.com/article/how-chinas-bat-woman-hunted-down-viruses-from-sars-to-the-new-coronavirus1/",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s01.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s02",
+      "before": {
+        "url": null,
+        "status": "paywall",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.nature.com/articles/nature.2017.21487",
+        "status": "paywall",
+        "artifact": "artifacts/ch00-s02.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s03",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.dailymail.co.uk/news/article-8210951/Beijing-authorities-hushed-findings-Chinese-scientist.html",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s03.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s04",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.science.org/content/article/trump-owes-us-apology-chinese-scientist-center-covid-19-origin-theories-speaks-out",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s04.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s05",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.technologyreview.com/2022/02/09/1044985/shi-zhengli-covid-lab-leak-wuhan",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s05.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s06",
+      "before": {
+        "url": null,
+        "status": "paywall",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-covid-china/2021/09/07/f293325c-fb11-11eb-911c-524bc8b68f17_story.html",
+        "status": "paywall",
+        "artifact": "artifacts/ch00-s06.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s07",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://gillesdemaneuf.medium.com/wuhan-bsl-4-project-overview-80376a165b00",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s07.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s08",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON229",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s08.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s09",
+      "before": {
+        "url": "https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s09.md",
+        "ok": null
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s09.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s10",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20200206144253/http://www.bjnews.com.cn/feature/2020/01/31/682076.html",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s10.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s11",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20200131074029/http://china.caixin.com/2020-01-31/101509761.html",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s11.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s12",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20200315052717/http://news.iqilu.com/china/gedi/2019/1231/4407838.shtml",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s12.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch00-s13",
+      "before": {
+        "url": null,
+        "status": "ok",
+        "artifact": null,
+        "ok": null
+      },
+      "after": {
+        "url": "https://www.bbc.com/news/world-asia-china-51403795",
+        "status": "ok",
+        "artifact": "artifacts/ch00-s13.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch01-s02",
+      "before": {
+        "url": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+        "status": "ok",
+        "artifact": "artifacts/ch01-s02.md",
+        "ok": false
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+        "status": "ok",
+        "artifact": "artifacts/ch01-s02.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch01-s06",
+      "before": {
+        "url": "https://twitter.com/WHO/status/1217043229427761152",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://twitter.com/WHO/status/1217043229427761152",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch01-s07",
+      "before": {
+        "url": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+        "status": "ok",
+        "artifact": "artifacts/ch01-s07.md",
+        "ok": false
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+        "status": "ok",
+        "artifact": "artifacts/ch01-s07.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch01-s12",
+      "before": {
+        "url": "https://www.wsj.com/articles/new-virus-discovered-by-chinese-scientists-investigating-pneumonia-outbreak-11578485668",
+        "status": "ok",
+        "artifact": "artifacts/ch01-s12.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.wsj.com/articles/new-virus-discovered-by-chinese-scientists-investigating-pneumonia-outbreak-11578485668",
+        "status": "paywall",
+        "artifact": "artifacts/ch01-s12.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch03-s01",
+      "before": {
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext",
+        "status": "ok",
+        "artifact": "artifacts/ch03-s01.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext",
+        "status": "paywall",
+        "artifact": "artifacts/ch03-s01.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch04-s01",
+      "before": {
+        "url": "https://www.youtube.com/watch?v=9T40bgtABno",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://www.youtube.com/watch?v=9T40bgtABno",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch04-s04",
+      "before": {
+        "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext",
+        "status": "ok",
+        "artifact": "artifacts/ch04-s04.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext",
+        "status": "paywall",
+        "artifact": "artifacts/ch04-s04.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch04-s05",
+      "before": {
+        "url": "https://twitter.com/neil_ferguson/status/1221048222820524032",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://twitter.com/neil_ferguson/status/1221048222820524032",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch05-s03",
+      "before": {
+        "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
+        "status": "ok",
+        "artifact": "artifacts/ch05-s03.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
+        "status": "paywall",
+        "artifact": "artifacts/ch05-s03.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch06-s02",
+      "before": {
+        "url": "https://www.washingtonpost.com/world/2020/02/01/early-missteps-state-secrecy-china-likely-allowed-coronavirus-spread-farther-faster/",
+        "status": "ok",
+        "artifact": "artifacts/ch06-s02.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.washingtonpost.com/world/2020/02/01/early-missteps-state-secrecy-china-likely-allowed-coronavirus-spread-farther-faster/",
+        "status": "paywall",
+        "artifact": "artifacts/ch06-s02.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch06-s08",
+      "before": {
+        "url": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+        "status": "ok",
+        "artifact": "artifacts/ch06-s08.md",
+        "ok": false
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+        "status": "ok",
+        "artifact": "artifacts/ch06-s08.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch06-s09",
+      "before": {
+        "url": "https://www.washingtonpost.com/politics/2020/02/16/tom-cotton-coronavirus-conspiracy/",
+        "status": "ok",
+        "artifact": "artifacts/ch06-s09.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.washingtonpost.com/politics/2020/02/16/tom-cotton-coronavirus-conspiracy/",
+        "status": "paywall",
+        "artifact": "artifacts/ch06-s09.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch06-s14",
+      "before": {
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext",
+        "status": "ok",
+        "artifact": "artifacts/ch06-s14.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext",
+        "status": "paywall",
+        "artifact": "artifacts/ch06-s14.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch07-s01",
+      "before": {
+        "url": "https://youtu.be/qvNITz_tzhg",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://youtu.be/qvNITz_tzhg",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch08-s10",
+      "before": {
+        "url": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+        "status": "ok",
+        "artifact": "artifacts/ch08-s10.md",
+        "ok": false
+      },
+      "after": {
+        "url": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+        "status": "ok",
+        "artifact": "artifacts/ch08-s10.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch08-s13",
+      "before": {
+        "url": "https://youtu.be/fRea4yIE7_8?t=468",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://youtu.be/fRea4yIE7_8?t=468",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch08-s17",
+      "before": {
+        "url": "https://www.wsj.com/articles/u-s-intelligence-agencies-say-coronavirus-originated-in-china-wasnt-man-madeor-genetically-modified-11588260228",
+        "status": "ok",
+        "artifact": "artifacts/ch08-s17.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.wsj.com/articles/u-s-intelligence-agencies-say-coronavirus-originated-in-china-wasnt-man-madeor-genetically-modified-11588260228",
+        "status": "paywall",
+        "artifact": "artifacts/ch08-s17.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch08-s20",
+      "before": {
+        "url": "https://www.scmp.com/news/china/society/article/3052966/chinese-laboratory-first-shared-coronavirus-genome-world-ordered",
+        "status": "ok",
+        "artifact": "artifacts/ch08-s20.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.scmp.com/news/china/society/article/3052966/chinese-laboratory-first-shared-coronavirus-genome-world-ordered",
+        "status": "paywall",
+        "artifact": "artifacts/ch08-s20.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch09-s15",
+      "before": {
+        "url": "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801",
+        "status": "ok",
+        "artifact": "artifacts/ch09-s15.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801",
+        "status": "paywall",
+        "artifact": "artifacts/ch09-s15.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch09-s17",
+      "before": {
+        "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+        "status": "ok",
+        "artifact": "artifacts/ch09-s17.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+        "status": "paywall",
+        "artifact": "artifacts/ch09-s17.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch09-s19",
+      "before": {
+        "url": "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125",
+        "status": "ok",
+        "artifact": "artifacts/ch09-s19.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125",
+        "status": "paywall",
+        "artifact": "artifacts/ch09-s19.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch10-s10",
+      "before": {
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01377-5/fulltext",
+        "status": "ok",
+        "artifact": "artifacts/ch10-s10.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01377-5/fulltext",
+        "status": "paywall",
+        "artifact": "artifacts/ch10-s10.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch10-s12",
+      "before": {
+        "url": "https://www.youtube.com/watch?v=IdYDL_RK--w",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://www.youtube.com/watch?v=IdYDL_RK--w",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch12-s16",
+      "before": {
+        "url": "https://www.youtube.com/watch?v=kz7OGxb9X6E",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://www.youtube.com/watch?v=kz7OGxb9X6E",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch13-s01",
+      "before": {
+        "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html",
+        "status": "ok",
+        "artifact": "artifacts/ch13-s01.md",
+        "ok": true
+      },
+      "after": {
+        "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html",
+        "status": "paywall",
+        "artifact": "artifacts/ch13-s01.md",
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch13-s02",
+      "before": {
+        "url": "https://x.com/humblesci/status/1416745810608353282",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://x.com/humblesci/status/1416745810608353282",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    },
+    {
+      "source_key": "ch14-s01",
+      "before": {
+        "url": "https://x.com/TheSeeker268/status/1439943910390845448",
+        "status": "ok",
+        "artifact": null,
+        "ok": false
+      },
+      "after": {
+        "url": "https://x.com/TheSeeker268/status/1439943910390845448",
+        "status": "ok",
+        "artifact": null,
+        "ok": true
+      }
+    }
+  ],
+  "archived": {
+    "url_cache": "origins/sources/data/_archive/2026-11-12/url-cache.json",
+    "logs": "origins/sources/data/_archive/2026-11-12/scrape-logs"
+  }
+}

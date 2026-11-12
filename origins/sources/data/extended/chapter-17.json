@@ -21,8 +21,8 @@
       "summary": "Author’s archived AlfaTV piece arguing accumulating evidence that WIV may have triggered the pandemic—Finnish-language lab-theory roundup.",
       "book_role": "",
       "topics": [
-        "lab theory",
         "Wuhan Institute of Virology",
+        "lab theory",
         "Finland media",
         "origins evidence"
       ],
@@ -32,8 +32,8 @@
           "Matti Virtanen"
         ],
         "orgs": [
-          "AlfaTV Uutiset",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "AlfaTV Uutiset"
         ],
         "places": [
           "Wuhan",
@@ -81,8 +81,8 @@
       "summary": "NIH FOIA release of EcoHealth bat-coronavirus emergence materials including the late Year-5 interim RPPR describing WIV experiments.",
       "book_role": "",
       "topics": [
-        "Year-5 RPPR",
         "EcoHealth Alliance",
+        "Year-5 RPPR",
         "NIH FOIA",
         "WIV experiments"
       ],
@@ -196,20 +196,20 @@
       "summary": "Vanity Fair on NIH’s major shift admitting it funded risky virus research in Wuhan via EcoHealth—coverage of the Tabak letter fallout.",
       "book_role": "",
       "topics": [
-        "NIH admission",
-        "risky virus research",
         "Wuhan",
-        "EcoHealth Alliance"
+        "EcoHealth Alliance",
+        "NIH admission",
+        "risky virus research"
       ],
       "entities": {
         "people": [
-          "Katherine Eban",
-          "Lawrence Tabak"
+          "Lawrence Tabak",
+          "Katherine Eban"
         ],
         "orgs": [
-          "Vanity Fair",
           "NIH",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "Vanity Fair"
         ],
         "places": [
           "Wuhan",
@@ -261,10 +261,10 @@
       "summary": "Nature news on BANAL bat coronaviruses from Laos—closer relatives to SARS-CoV-2 than RaTG13 in key spike regions—complicating simple Wuhan-only stories.",
       "book_role": "BANAL-52 discovery showing close sarbecovirus relatives in Laos, still not a direct progenitor.",
       "topics": [
-        "BANAL viruses",
         "Laos",
-        "closest relatives",
-        "RaTG13"
+        "RaTG13",
+        "BANAL viruses",
+        "closest relatives"
       ],
       "entities": {
         "people": [
@@ -315,10 +315,10 @@
       "summary": "Demaneuf overview mapping Wuhan’s biological laboratories and their coronavirus-research roles—beyond WIV alone.",
       "book_role": "",
       "topics": [
+        "DRASTIC",
         "Wuhan Institute of Virology",
         "coronavirus research",
-        "lab map",
-        "DRASTIC"
+        "lab map"
       ],
       "entities": {
         "people": [
@@ -376,8 +376,8 @@
       "summary": "Science paper timing the SARS-CoV-2 index case in Hubei—molecular-clock estimates of when the outbreak began relative to reported December cases.",
       "book_role": "",
       "topics": [
-        "index case",
         "Hubei",
+        "index case",
         "molecular clock",
         "outbreak timing"
       ],
@@ -432,8 +432,8 @@
       "summary": "Washburne Substack cataloging zoonotic-origin evidence that is still missing—intermediate hosts, early animal positives, market chain—versus what lab-leak critics demand.",
       "book_role": "",
       "topics": [
-        "missing zoonotic evidence",
         "intermediate host",
+        "missing zoonotic evidence",
         "lab vs natural"
       ],
       "entities": {
@@ -483,8 +483,8 @@
       "summary": "Early bioRxiv preprint arguing SARS-CoV-2 appears well adapted to humans from the outset—flagged later in classified analyses for FCS/adaptation implications (chapter notes).",
       "book_role": "",
       "topics": [
-        "human adaptation",
         "SARS-CoV-2",
+        "human adaptation",
         "re-emergence",
         "preprint"
       ],
@@ -527,9 +527,9 @@
       "summary": "Fauci’s 2012 mBio commentary defending a path forward for highly pathogenic H5N1 research amid gain-of-function controversy.",
       "book_role": "Fauci’s own earlier writing that a GoF experiment gone wrong could start a pandemic.",
       "topics": [
-        "H5N1 avian flu",
         "gain-of-function research",
         "Anthony Fauci",
+        "H5N1 avian flu",
         "biosafety policy"
       ],
       "entities": {
@@ -537,9 +537,9 @@
           "Anthony S. Fauci"
         ],
         "orgs": [
-          "mBio",
           "NIAID",
-          "PMC"
+          "PMC",
+          "mBio"
         ],
         "places": [
           "United States"
@@ -725,9 +725,9 @@
       "summary": "Archived Telegraph report that U.S. and UK intelligence were examining the mobile-phone data claims about the Wuhan laboratory.",
       "book_role": "",
       "topics": [
+        "Wuhan Institute of Virology",
         "intelligence agencies",
-        "mobile phone data",
-        "Wuhan Institute of Virology"
+        "mobile phone data"
       ],
       "entities": {
         "people": [
@@ -826,8 +826,8 @@
       "summary": "Quay Zenodo preprint arguing PLA hospital and Wuhan Metro Line 2 as compelling early-spread nodes—alternative geography of the outbreak’s start.",
       "book_role": "",
       "topics": [
-        "PLA hospital",
         "Wuhan Metro Line 2",
+        "PLA hospital",
         "early spread",
         "outbreak geography"
       ],
@@ -836,8 +836,8 @@
           "Steven Carl Quay"
         ],
         "orgs": [
-          "Zenodo",
-          "People’s Liberation Army"
+          "People’s Liberation Army",
+          "Zenodo"
         ],
         "places": [
           "Wuhan",

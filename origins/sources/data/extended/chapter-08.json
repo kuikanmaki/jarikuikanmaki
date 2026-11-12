@@ -113,21 +113,21 @@
       "summary": "STAT report on University of Hong Kong researchers documenting the first confirmed COVID-19 reinfection—a 33-year-old man re-infected months later with a genetically distinct virus—raising questions about immunity durability.",
       "book_role": "",
       "topics": [
+        "Hong Kong",
         "reinfection",
         "immunity",
-        "Hong Kong",
         "viral sequencing"
       ],
       "entities": {
         "people": [
-          "Andrew Joseph",
-          "Maria Van Kerkhove"
+          "Maria Van Kerkhove",
+          "Andrew Joseph"
         ],
         "orgs": [
-          "STAT",
-          "University of Hong Kong",
           "WHO",
-          "STAT News"
+          "STAT News",
+          "STAT",
+          "University of Hong Kong"
         ],
         "places": [
           "Hong Kong",
@@ -174,10 +174,10 @@
       "summary": "WHO landing page for historical working definitions and primary actions on SARS-CoV-2 variants (TAG-VE), with a downloadable PDF annex of prior VOC definitions. Only the thin landing page was retrieved.",
       "book_role": "",
       "topics": [
+        "WHO",
         "variants",
         "VOC definitions",
-        "TAG-VE",
-        "WHO"
+        "TAG-VE"
       ],
       "entities": {
         "people": [],
@@ -280,10 +280,10 @@
           "Ugur Sahin"
         ],
         "orgs": [
+          "BBC News",
           "BBC",
           "Pfizer",
-          "BioNTech",
-          "BBC News"
+          "BioNTech"
         ],
         "places": []
       },
@@ -318,16 +318,16 @@
       "summary": "EU Commission/UNESCO guide listing traits of conspiracy theories and, under COVID-19, explicitly treating claims that the virus was artificially created in a laboratory as dangerous conspiracy theories—guidance that remains online.",
       "book_role": "European Commission guide that branded lab-manipulation claims as dangerous conspiracy theories.",
       "topics": [
+        "lab-leak hypothesis",
         "conspiracy theories",
         "disinformation",
-        "lab-leak hypothesis",
         "European Commission"
       ],
       "entities": {
         "people": [],
         "orgs": [
-          "European Commission",
-          "UNESCO"
+          "UNESCO",
+          "European Commission"
         ],
         "places": [
           "Europe"
@@ -427,16 +427,16 @@
       "topics": [
         "pangolins",
         "intermediate host",
-        "pangolin-CoV-2020",
-        "zoonosis"
+        "zoonosis",
+        "pangolin-CoV-2020"
       ],
       "entities": {
         "people": [
           "Ping Liu"
         ],
         "orgs": [
-          "PLOS Pathogens",
-          "PubMed"
+          "PubMed",
+          "PLOS Pathogens"
         ],
         "places": [
           "Wuhan",
@@ -581,16 +581,16 @@
       "summary": "CNN report that Trump claimed high confidence the virus came from a Wuhan lab—contradicting the same-day ODNI statement that intel was still examining lab accident versus animal contact and had not made that assessment.",
       "book_role": "",
       "topics": [
+        "Wuhan Institute of Virology",
         "Donald Trump",
         "ODNI",
-        "Wuhan Institute of Virology",
         "intelligence assessment"
       ],
       "entities": {
         "people": [
           "Donald Trump",
-          "Zachary Cohen",
-          "Mike Pompeo"
+          "Mike Pompeo",
+          "Zachary Cohen"
         ],
         "orgs": [
           "CNN",
@@ -646,12 +646,12 @@
       ],
       "entities": {
         "people": [
-          "Martha Raddatz",
-          "Mike Pompeo"
+          "Mike Pompeo",
+          "Martha Raddatz"
         ],
         "orgs": [
-          "ABC News",
-          "U.S. Department of State"
+          "U.S. Department of State",
+          "ABC News"
         ],
         "places": [
           "China",
@@ -704,8 +704,8 @@
       ],
       "entities": {
         "people": [
-          "Dan Sabbagh",
-          "Mike Pompeo"
+          "Mike Pompeo",
+          "Dan Sabbagh"
         ],
         "orgs": [
           "The Guardian",
@@ -774,8 +774,8 @@
           "Sharri Markson"
         ],
         "orgs": [
-          "Daily Telegraph",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Daily Telegraph"
         ],
         "places": [
           "China",
@@ -867,9 +867,9 @@
       "summary": "WSJ report that ODNI publicly confirmed investigating a possible Wuhan lab escape while also stating Covid-19 was not manmade or genetically modified.",
       "book_role": "",
       "topics": [
+        "Wuhan",
         "lab accident investigation",
-        "ODNI statement",
-        "Wuhan"
+        "ODNI statement"
       ],
       "entities": {
         "people": [
@@ -987,8 +987,8 @@
           "Shen Zhou"
         ],
         "orgs": [
-          "Journal of Biological Chemistry",
-          "PMC"
+          "PMC",
+          "Journal of Biological Chemistry"
         ],
         "places": []
       },
@@ -1081,15 +1081,15 @@
           "Gao Yu"
         ],
         "orgs": [
+          "WHO",
           "The Straits Times",
           "Caixin",
-          "BGI",
-          "WHO"
+          "BGI"
         ],
         "places": [
           "Wuhan",
-          "Guangzhou",
-          "China"
+          "China",
+          "Guangzhou"
         ]
       },
       "entity_ids": {
@@ -1124,15 +1124,15 @@
       "summary": "Josh Rogin opinion based on 2018 U.S. Embassy cables warning of safety and staffing weaknesses at WIV’s BSL-4 bat-coronavirus research—and the risk of a SARS-like pandemic—years before COVID.",
       "book_role": "Rogin’s State Department cables warning about safety problems at the Wuhan lab.",
       "topics": [
-        "State Department cables",
-        "WIV biosafety",
         "bat coronaviruses",
-        "Shi Zhengli"
+        "Shi Zhengli",
+        "State Department cables",
+        "WIV biosafety"
       ],
       "entities": {
         "people": [
-          "Josh Rogin",
           "Shi Zhengli",
+          "Josh Rogin",
           "Jamison Fouss",
           "Rick Switzer"
         ],
@@ -1189,15 +1189,15 @@
       "summary": "Minerva article presenting the Sørensen–Dalgleish–Susrud paper arguing SARS-CoV-2’s spike inserts and stability make a laboratory origin the most logical explanation, with interview commentary from Birger Sørensen.",
       "book_role": "",
       "topics": [
+        "Birger Sørensen",
         "spike protein inserts",
         "non-natural origin",
-        "Birger Sørensen",
         "Angus Dalgleish"
       ],
       "entities": {
         "people": [
-          "Aksel Fridstrøm",
           "Birger Sørensen",
+          "Aksel Fridstrøm",
           "Angus Dalgleish"
         ],
         "orgs": [
@@ -1240,16 +1240,16 @@
       "book_role": "",
       "topics": [
         "Richard Dearlove",
-        "MI6",
         "lab-leak hypothesis",
+        "MI6",
         "reparations"
       ],
       "entities": {
         "people": [
-          "Bill Gardner",
           "Richard Dearlove",
-          "Angus Dalgleish",
-          "Birger Sørensen"
+          "Birger Sørensen",
+          "Bill Gardner",
+          "Angus Dalgleish"
         ],
         "orgs": [
           "The Telegraph",

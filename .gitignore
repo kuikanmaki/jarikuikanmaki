@@ -1,6 +1,12 @@
 .firecrawl/
 .venv-pdf/
 .DS_Store
+__pycache__/
+*.pyc
 
 # Scraped source copies — kept locally for corpus work; not published
 origins/sources/data/extended/artifacts/
+
+# One-off linker reports
+origins/sources/data/author-link-report.json
+origins/sources/data/publication-link-report.json

@@ -22,8 +22,8 @@
       "book_role": "",
       "topics": [
         "DARPA",
-        "DEFUSE",
         "Wuhan Institute of Virology",
+        "DEFUSE",
         "DRASTIC"
       ],
       "entities": {
@@ -31,11 +31,11 @@
           "Ed Browne"
         ],
         "orgs": [
-          "Newsweek",
           "DARPA",
           "EcoHealth Alliance",
           "Wuhan Institute of Virology",
-          "DRASTIC"
+          "DRASTIC",
+          "Newsweek"
         ],
         "places": [
           "Wuhan",
@@ -93,12 +93,12 @@
       ],
       "entities": {
         "people": [
-          "Nathan Robinson",
-          "Jeffrey Sachs"
+          "Jeffrey Sachs",
+          "Nathan Robinson"
         ],
         "orgs": [
-          "Current Affairs",
-          "The Lancet"
+          "The Lancet",
+          "Current Affairs"
         ],
         "places": [
           "United States"
@@ -148,13 +148,13 @@
       ],
       "entities": {
         "people": [
-          "Ashley Rindsberg",
           "Dick Cheney",
-          "Anthony Fauci"
+          "Anthony Fauci",
+          "Ashley Rindsberg"
         ],
         "orgs": [
-          "UnHerd",
-          "NIAID"
+          "NIAID",
+          "UnHerd"
         ],
         "places": [
           "United States"
@@ -202,18 +202,18 @@
       "summary": "2014 survey comparing BSL-3 practices at U.S. select-agent versus non–select-agent facilities—empirical look at biosafety variation inside the domestic biodefense lab network.",
       "book_role": "",
       "topics": [
+        "United States",
         "BSL-3",
         "select agents",
-        "biosafety practices",
-        "United States"
+        "biosafety practices"
       ],
       "entities": {
         "people": [
           "Stephanie Richards"
         ],
         "orgs": [
-          "Biosecurity and Bioterrorism",
-          "PMC"
+          "PMC",
+          "Biosecurity and Bioterrorism"
         ],
         "places": [
           "United States"
@@ -252,10 +252,10 @@
       "summary": "2007 Baric paper on risks and benefits of synthetic viral genomics—early articulation of dual-use coronavirus reverse-genetics capabilities from a central U.S. practitioner.",
       "book_role": "Baric’s 2006 synthetic-genomics essay warning of dual-use risks and false-origin signatures.",
       "topics": [
+        "Ralph Baric",
         "synthetic viral genomics",
         "dual use",
-        "risks and benefits",
-        "Ralph Baric"
+        "risks and benefits"
       ],
       "entities": {
         "people": [
@@ -354,9 +354,9 @@
       "summary": "AP/CBC report on Bruce Ivins’s suicide as FBI prepared to indict him in the 2001 anthrax-letter attacks—foundational trauma of the U.S. biodefense era.",
       "book_role": "",
       "topics": [
-        "anthrax attacks",
-        "Bruce E. Ivins",
         "FBI",
+        "Bruce E. Ivins",
+        "anthrax attacks",
         "biodefense origins"
       ],
       "entities": {
@@ -365,8 +365,8 @@
         ],
         "orgs": [
           "Associated Press",
-          "CBC",
           "FBI",
+          "CBC",
           "U.S. Army"
         ],
         "places": [

@@ -21,19 +21,19 @@
       "summary": "NY Post report that the Pentagon/DTRA gave millions to EcoHealth Alliance under a combating-WMD research program tied to the broader Wuhan-lab funding controversy.",
       "book_role": "",
       "topics": [
-        "Pentagon",
         "EcoHealth Alliance",
         "DTRA",
+        "Pentagon",
         "WMD research"
       ],
       "entities": {
         "people": [
-          "Samuel Chamberlain",
-          "Peter Daszak"
+          "Peter Daszak",
+          "Samuel Chamberlain"
         ],
         "orgs": [
-          "New York Post",
           "EcoHealth Alliance",
+          "New York Post",
           "U.S. Department of Defense"
         ],
         "places": [
@@ -82,16 +82,16 @@
       "summary": "Intercept report that EcoHealth’s NIH bat-coronavirus progress report was filed more than two years late—oversight failure in the WIV collaboration grant.",
       "book_role": "",
       "topics": [
+        "EcoHealth Alliance",
         "late progress report",
         "NIH grant",
-        "EcoHealth Alliance",
         "oversight"
       ],
       "entities": {
         "people": [
+          "Peter Daszak",
           "Mara Hvistendahl",
-          "Sharon Lerner",
-          "Peter Daszak"
+          "Sharon Lerner"
         ],
         "orgs": [
           "The Intercept",
@@ -145,19 +145,19 @@
       "book_role": "",
       "topics": [
         "EcoHealth Alliance",
-        "virus hunting",
         "lab-leak hypothesis",
-        "Peter Daszak"
+        "Peter Daszak",
+        "virus hunting"
       ],
       "entities": {
         "people": [
-          "Katherine Eban",
-          "Peter Daszak"
+          "Peter Daszak",
+          "Katherine Eban"
         ],
         "orgs": [
-          "Vanity Fair",
           "EcoHealth Alliance",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Vanity Fair"
         ],
         "places": [
           "Wuhan",
@@ -295,8 +295,8 @@
       "summary": "USAspending.gov award record for EcoHealth HDTRA11910033 combating-WMD scientific research.",
       "book_role": "",
       "topics": [
-        "HDTRA11910033",
         "EcoHealth Alliance",
+        "HDTRA11910033",
         "combating WMD",
         "USAspending"
       ],
@@ -343,8 +343,8 @@
       "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
         "U.S. Department of State",
+        "lab-leak hypothesis",
         "intelligence",
         "origins investigation"
       ],
@@ -353,8 +353,8 @@
           "Katherine Eban"
         ],
         "orgs": [
-          "Vanity Fair",
-          "U.S. Department of State"
+          "U.S. Department of State",
+          "Vanity Fair"
         ],
         "places": [
           "Wuhan",
@@ -413,8 +413,8 @@
           "Jinlong Cheng"
         ],
         "orgs": [
-          "Viruses",
-          "PMC"
+          "PMC",
+          "Viruses"
         ],
         "places": [
           "China"
@@ -460,8 +460,8 @@
           "Fernando Almazán"
         ],
         "orgs": [
-          "Virus Research",
-          "PMC"
+          "PMC",
+          "Virus Research"
         ],
         "places": []
       },
@@ -507,8 +507,8 @@
           "Shi Zhengli"
         ],
         "orgs": [
-          "French National Academy of Medicine",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "French National Academy of Medicine"
         ],
         "places": [
           "France",
@@ -557,10 +557,10 @@
       "summary": "Times reporting that WIV used Chinese military as key advisers—and related coverage of China nominating WIV for a top science award amid lab-leak debate.",
       "book_role": "",
       "topics": [
+        "lab-leak hypothesis",
         "Chinese military",
         "WIV advisers",
-        "science award",
-        "lab-leak hypothesis"
+        "science award"
       ],
       "entities": {
         "people": [
@@ -616,10 +616,10 @@
       "summary": "FOIA’d 2016 Daszak email celebrating lifting of the gain-of-function funding pause.",
       "book_role": "",
       "topics": [
-        "gain-of-function pause",
         "NIAID",
         "EcoHealth Alliance",
-        "Freedom of Information requests"
+        "Freedom of Information requests",
+        "gain-of-function pause"
       ],
       "entities": {
         "people": [
@@ -678,8 +678,8 @@
       "summary": "WIV newsletter of the Oct 2018 international emerging-viral-diseases symposium—programmatic window into Wuhan’s pre-pandemic virus-research network.",
       "book_role": "",
       "topics": [
-        "emerging viral diseases symposium",
         "Wuhan Institute of Virology",
+        "emerging viral diseases symposium",
         "2018",
         "international collaboration"
       ],

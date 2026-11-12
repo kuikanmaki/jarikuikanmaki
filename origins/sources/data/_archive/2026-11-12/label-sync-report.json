@@ -1,0 +1,1534 @@
+{
+  "generated_at": "2026-11-12T13:34:57.077516+00:00",
+  "sources_changed": 220,
+  "missing_authority_ids": [],
+  "changes_sample": [
+    {
+      "source_key": "ch00-s03",
+      "before": {
+        "topics": [
+          "information control",
+          "Shi Zhengli",
+          "genome sequencing",
+          "lab-leak hypothesis"
+        ],
+        "entities": {
+          "people": [
+            "Shi Zhengli",
+            "Ian Birrell"
+          ],
+          "orgs": [
+            "Daily Mail",
+            "Wuhan Institute of Virology"
+          ],
+          "places": [
+            "Beijing",
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Shi Zhengli",
+          "lab-leak hypothesis",
+          "information control",
+          "genome sequencing"
+        ],
+        "entities": {
+          "people": [
+            "Shi Zhengli",
+            "Ian Birrell"
+          ],
+          "orgs": [
+            "Daily Mail",
+            "Wuhan Institute of Virology"
+          ],
+          "places": [
+            "Beijing",
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "information control",
+        "genome sequencing"
+      ]
+    },
+    {
+      "source_key": "ch00-s04",
+      "before": {
+        "topics": [
+          "Shi Zhengli",
+          "lab-leak hypothesis",
+          "Wuhan Institute of Virology",
+          "biosafety"
+        ],
+        "entities": {
+          "people": [
+            "Shi Zhengli",
+            "Jon Cohen",
+            "Donald Trump"
+          ],
+          "orgs": [
+            "Science",
+            "Wuhan Institute of Virology",
+            "AAAS"
+          ],
+          "places": [
+            "Wuhan",
+            "China",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Shi Zhengli",
+          "Wuhan Institute of Virology",
+          "biosafety",
+          "lab-leak hypothesis"
+        ],
+        "entities": {
+          "people": [
+            "Shi Zhengli",
+            "Jon Cohen",
+            "Donald Trump"
+          ],
+          "orgs": [
+            "Science",
+            "Wuhan Institute of Virology",
+            "AAAS"
+          ],
+          "places": [
+            "Wuhan",
+            "China",
+            "United States"
+          ]
+        }
+      },
+      "orphan_topics": []
+    },
+    {
+      "source_key": "ch00-s05",
+      "before": {
+        "topics": [
+          "Shi Zhengli",
+          "lab-leak hypothesis",
+          "WHO origins investigation",
+          "Wuhan Institute of Virology"
+        ],
+        "entities": {
+          "people": [
+            "Shi Zhengli",
+            "Jane Qiu"
+          ],
+          "orgs": [
+            "MIT Technology Review",
+            "Wuhan Institute of Virology",
+            "WHO",
+            "Scientific American"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Shi Zhengli",
+          "Wuhan Institute of Virology",
+          "lab-leak hypothesis",
+          "WHO origins investigation"
+        ],
+        "entities": {
+          "people": [
+            "Shi Zhengli",
+            "Jane Qiu"
+          ],
+          "orgs": [
+            "Wuhan Institute of Virology",
+            "WHO",
+            "Scientific American",
+            "MIT Technology Review"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "WHO origins investigation"
+      ]
+    },
+    {
+      "source_key": "ch00-s06",
+      "before": {
+        "topics": [
+          "BSL-4 laboratory",
+          "Franco-Chinese collaboration",
+          "Wuhan Institute of Virology"
+        ],
+        "entities": {
+          "people": [
+            "Yuan Zhiming",
+            "Bernard Cazeneuve",
+            "Eva Dou",
+            "Pei Lin Wu",
+            "Quentin Ariès",
+            "Rebecca Tan"
+          ],
+          "orgs": [
+            "The Washington Post",
+            "Wuhan Institute of Virology"
+          ],
+          "places": [
+            "Wuhan",
+            "France",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "BSL-4 laboratory",
+          "Wuhan Institute of Virology",
+          "Franco-Chinese collaboration"
+        ],
+        "entities": {
+          "people": [
+            "Eva Dou",
+            "Yuan Zhiming",
+            "Bernard Cazeneuve",
+            "Pei Lin Wu",
+            "Quentin Ariès",
+            "Rebecca Tan"
+          ],
+          "orgs": [
+            "The Washington Post",
+            "Wuhan Institute of Virology"
+          ],
+          "places": [
+            "Wuhan",
+            "France",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Franco-Chinese collaboration"
+      ]
+    },
+    {
+      "source_key": "ch00-s08",
+      "before": {
+        "topics": [
+          "Disease Outbreak News",
+          "Wuhan pneumonia",
+          "Huanan Seafood Market",
+          "WHO"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "WHO",
+            "Wuhan Municipal Health Commission"
+          ],
+          "places": [
+            "Wuhan",
+            "Hubei",
+            "China",
+            "Huanan Seafood Market"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Huanan Seafood Market",
+          "WHO",
+          "Disease Outbreak News",
+          "Wuhan pneumonia"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "WHO",
+            "Wuhan Municipal Health Commission"
+          ],
+          "places": [
+            "Wuhan",
+            "Hubei",
+            "China",
+            "Huanan Seafood Market"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Disease Outbreak News",
+        "Wuhan pneumonia"
+      ]
+    },
+    {
+      "source_key": "ch00-s10",
+      "before": {
+        "topics": [
+          "Li Wenliang",
+          "whistleblowers",
+          "admonishment",
+          "Huanan Seafood Market"
+        ],
+        "entities": {
+          "people": [
+            "Li Wenliang",
+            "Zeng Guang"
+          ],
+          "orgs": [
+            "Wuhan Central Hospital",
+            "Wuhan Police Bureau",
+            "Beijing News"
+          ],
+          "places": [
+            "Wuhan",
+            "Huanan Seafood Market"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Li Wenliang",
+          "Huanan Seafood Market",
+          "whistleblowers",
+          "admonishment"
+        ],
+        "entities": {
+          "people": [
+            "Li Wenliang",
+            "Zeng Guang"
+          ],
+          "orgs": [
+            "Wuhan Central Hospital",
+            "Wuhan Police Bureau",
+            "Beijing News"
+          ],
+          "places": [
+            "Wuhan",
+            "Huanan Seafood Market"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "whistleblowers",
+        "admonishment"
+      ]
+    },
+    {
+      "source_key": "ch00-s11",
+      "before": {
+        "topics": [
+          "Li Wenliang",
+          "whistleblowers",
+          "early warnings",
+          "press coverage in China"
+        ],
+        "entities": {
+          "people": [
+            "Li Wenliang",
+            "Tan Jianxing"
+          ],
+          "orgs": [
+            "Caixin",
+            "Wuhan Central Hospital"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Li Wenliang",
+          "whistleblowers",
+          "early warnings",
+          "press coverage in China"
+        ],
+        "entities": {
+          "people": [
+            "Li Wenliang",
+            "Tan Jianxing"
+          ],
+          "orgs": [
+            "Wuhan Central Hospital",
+            "Caixin"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "whistleblowers",
+        "early warnings",
+        "press coverage in China"
+      ]
+    },
+    {
+      "source_key": "ch00-s12",
+      "before": {
+        "topics": [
+          "Wuhan pneumonia",
+          "SARS comparison",
+          "official statements"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "People's Daily",
+            "Wuhan Municipal Health Commission"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Wuhan pneumonia",
+          "SARS comparison",
+          "official statements"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "Wuhan Municipal Health Commission",
+            "People's Daily"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Wuhan pneumonia",
+        "SARS comparison",
+        "official statements"
+      ]
+    },
+    {
+      "source_key": "ch00-s13",
+      "before": {
+        "topics": [
+          "Li Wenliang",
+          "whistleblowers",
+          "Wuhan Central Hospital",
+          "public anger"
+        ],
+        "entities": {
+          "people": [
+            "Li Wenliang"
+          ],
+          "orgs": [
+            "BBC News",
+            "Wuhan Central Hospital"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Li Wenliang",
+          "Wuhan Central Hospital",
+          "whistleblowers",
+          "public anger"
+        ],
+        "entities": {
+          "people": [
+            "Li Wenliang"
+          ],
+          "orgs": [
+            "Wuhan Central Hospital",
+            "BBC News"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "whistleblowers",
+        "public anger"
+      ]
+    },
+    {
+      "source_key": "ch01-s03",
+      "before": {
+        "topics": [
+          "Hubei lockdown",
+          "Wuhan",
+          "travel restrictions"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "BBC News"
+          ],
+          "places": [
+            "Wuhan",
+            "Hubei",
+            "China",
+            "Singapore",
+            "Vietnam"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Wuhan",
+          "Hubei lockdown",
+          "travel restrictions"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "BBC News"
+          ],
+          "places": [
+            "Wuhan",
+            "Hubei",
+            "China",
+            "Singapore",
+            "Vietnam"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Hubei lockdown",
+        "travel restrictions"
+      ]
+    },
+    {
+      "source_key": "ch01-s04",
+      "before": {
+        "topics": [
+          "SARS-CoV-2 genome",
+          "Edward Holmes",
+          "Virological",
+          "SARS-CoV-2"
+        ],
+        "entities": {
+          "people": [
+            "Edward Holmes"
+          ],
+          "orgs": [
+            "Virological.org"
+          ],
+          "places": [
+            "China",
+            "Australia"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Edward Holmes",
+          "SARS-CoV-2",
+          "SARS-CoV-2 genome",
+          "Virological"
+        ],
+        "entities": {
+          "people": [
+            "Edward Holmes"
+          ],
+          "orgs": [
+            "Virological.org"
+          ],
+          "places": [
+            "China",
+            "Australia"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "SARS-CoV-2 genome",
+        "Virological"
+      ]
+    },
+    {
+      "source_key": "ch01-s06",
+      "before": {
+        "topics": [
+          "WHO",
+          "human-to-human transmission",
+          "SARS-CoV-2"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "WHO"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "WHO",
+          "SARS-CoV-2",
+          "human-to-human transmission"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "WHO"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "human-to-human transmission"
+      ]
+    },
+    {
+      "source_key": "ch01-s08",
+      "before": {
+        "topics": [
+          "potential pandemic pathogens",
+          "Cambridge Working Group",
+          "gain-of-function research"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "Cambridge Working Group"
+          ],
+          "places": [
+            "Cambridge",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Cambridge Working Group",
+          "gain-of-function research",
+          "potential pandemic pathogens"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "Cambridge Working Group"
+          ],
+          "places": [
+            "United States",
+            "Cambridge"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "potential pandemic pathogens"
+      ]
+    },
+    {
+      "source_key": "ch01-s09",
+      "before": {
+        "topics": [
+          "gain-of-function pause",
+          "OSTP",
+          "HHS",
+          "MERS",
+          "SARS"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "Office of Science and Technology Policy",
+            "Department of Health and Human Services",
+            "NIH"
+          ],
+          "places": [
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "MERS",
+          "SARS",
+          "gain-of-function pause",
+          "OSTP",
+          "HHS"
+        ],
+        "entities": {
+          "people": [],
+          "orgs": [
+            "NIH",
+            "Office of Science and Technology Policy",
+            "Department of Health and Human Services"
+          ],
+          "places": [
+            "United States"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "gain-of-function pause",
+        "OSTP",
+        "HHS"
+      ]
+    },
+    {
+      "source_key": "ch01-s10",
+      "before": {
+        "topics": [
+          "H5N1 avian flu",
+          "ferrets",
+          "airborne transmission",
+          "gain-of-function research"
+        ],
+        "entities": {
+          "people": [
+            "Sander Herfst"
+          ],
+          "orgs": [
+            "Science",
+            "Erasmus Medical Center"
+          ],
+          "places": [
+            "Netherlands"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "gain-of-function research",
+          "H5N1 avian flu",
+          "ferrets",
+          "airborne transmission"
+        ],
+        "entities": {
+          "people": [
+            "Sander Herfst"
+          ],
+          "orgs": [
+            "Science",
+            "Erasmus Medical Center"
+          ],
+          "places": [
+            "Netherlands"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "ferrets",
+        "airborne transmission"
+      ]
+    },
+    {
+      "source_key": "ch01-s11",
+      "before": {
+        "topics": [
+          "mystery pneumonia",
+          "Wuhan",
+          "early reporting",
+          "information scarcity"
+        ],
+        "entities": {
+          "people": [
+            "Helen Branswell",
+            "Marion Koopmans"
+          ],
+          "orgs": [
+            "STAT News",
+            "Wuhan Municipal Health Commission",
+            "Erasmus Medical Center"
+          ],
+          "places": [
+            "Wuhan",
+            "China",
+            "Rotterdam"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Wuhan",
+          "mystery pneumonia",
+          "early reporting",
+          "information scarcity"
+        ],
+        "entities": {
+          "people": [
+            "Helen Branswell",
+            "Marion Koopmans"
+          ],
+          "orgs": [
+            "Wuhan Municipal Health Commission",
+            "STAT News",
+            "Erasmus Medical Center"
+          ],
+          "places": [
+            "Wuhan",
+            "China",
+            "Rotterdam"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "mystery pneumonia",
+        "early reporting",
+        "information scarcity"
+      ]
+    },
+    {
+      "source_key": "ch02-s01",
+      "before": {
+        "topics": [
+          "bioweapons",
+          "Dany Shoham",
+          "Wuhan Institute of Virology",
+          "China BW program"
+        ],
+        "entities": {
+          "people": [
+            "Bill Gertz",
+            "Dany Shoham"
+          ],
+          "orgs": [
+            "The Washington Times"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Dany Shoham",
+          "Wuhan Institute of Virology",
+          "bioweapons",
+          "China BW program"
+        ],
+        "entities": {
+          "people": [
+            "Dany Shoham",
+            "Bill Gertz"
+          ],
+          "orgs": [
+            "The Washington Times"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "bioweapons",
+        "China BW program"
+      ]
+    },
+    {
+      "source_key": "ch02-s02",
+      "before": {
+        "topics": [
+          "Cold War",
+          "biological weapons",
+          "arms race"
+        ],
+        "entities": {
+          "people": [
+            "David Hoffman"
+          ],
+          "orgs": [
+            "Doubleday",
+            "Amazon"
+          ],
+          "places": [
+            "Soviet Union",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "biological weapons",
+          "Cold War",
+          "arms race"
+        ],
+        "entities": {
+          "people": [
+            "David Hoffman"
+          ],
+          "orgs": [
+            "Amazon",
+            "Doubleday"
+          ],
+          "places": [
+            "Soviet Union",
+            "United States"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Cold War",
+        "arms race"
+      ]
+    },
+    {
+      "source_key": "ch02-s03",
+      "before": {
+        "topics": [
+          "Soviet bioweapons",
+          "Ken Alibek",
+          "Biopreparat"
+        ],
+        "entities": {
+          "people": [
+            "Ken Alibek",
+            "Stephen Handelman"
+          ],
+          "orgs": [
+            "Random House",
+            "Biopreparat",
+            "Amazon"
+          ],
+          "places": [
+            "Soviet Union",
+            "Russia"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Ken Alibek",
+          "Biopreparat",
+          "Soviet bioweapons"
+        ],
+        "entities": {
+          "people": [
+            "Ken Alibek",
+            "Stephen Handelman"
+          ],
+          "orgs": [
+            "Biopreparat",
+            "Amazon",
+            "Random House"
+          ],
+          "places": [
+            "Soviet Union",
+            "Russia"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Soviet bioweapons"
+      ]
+    },
+    {
+      "source_key": "ch02-s04",
+      "before": {
+        "topics": [
+          "WHO",
+          "SARS-CoV-2",
+          "Wuhan pneumonia"
+        ],
+        "entities": {
+          "people": [
+            "Helen Branswell"
+          ],
+          "orgs": [
+            "STAT News",
+            "WHO",
+            "The Wall Street Journal"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "WHO",
+          "SARS-CoV-2",
+          "Wuhan pneumonia"
+        ],
+        "entities": {
+          "people": [
+            "Helen Branswell"
+          ],
+          "orgs": [
+            "WHO",
+            "The Wall Street Journal",
+            "STAT News"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Wuhan pneumonia"
+      ]
+    },
+    {
+      "source_key": "ch02-s05",
+      "before": {
+        "topics": [
+          "1977 H1N1",
+          "lab-leak hypothesis",
+          "gain-of-function research"
+        ],
+        "entities": {
+          "people": [
+            "Michelle Rozo",
+            "Gigi Kwik Gronvall"
+          ],
+          "orgs": [
+            "mBio",
+            "American Society for Microbiology"
+          ],
+          "places": [
+            "China",
+            "Soviet Union"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "lab-leak hypothesis",
+          "gain-of-function research",
+          "1977 H1N1"
+        ],
+        "entities": {
+          "people": [
+            "Michelle Rozo",
+            "Gigi Kwik Gronvall"
+          ],
+          "orgs": [
+            "mBio",
+            "American Society for Microbiology"
+          ],
+          "places": [
+            "China",
+            "Soviet Union"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "1977 H1N1"
+      ]
+    },
+    {
+      "source_key": "ch03-s01",
+      "before": {
+        "topics": [
+          "2019-nCoV clinical features",
+          "early cases",
+          "Huanan Seafood Market",
+          "Wuhan"
+        ],
+        "entities": {
+          "people": [
+            "Chaolin Huang"
+          ],
+          "orgs": [
+            "The Lancet"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Huanan Seafood Market",
+          "Wuhan",
+          "2019-nCoV clinical features",
+          "early cases"
+        ],
+        "entities": {
+          "people": [
+            "Chaolin Huang"
+          ],
+          "orgs": [
+            "The Lancet"
+          ],
+          "places": [
+            "Wuhan",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "2019-nCoV clinical features",
+        "early cases"
+      ]
+    },
+    {
+      "source_key": "ch03-s02",
+      "before": {
+        "topics": [
+          "Huanan Seafood Market",
+          "early cases",
+          "outbreak origin",
+          "SARS-CoV-2"
+        ],
+        "entities": {
+          "people": [
+            "Jon Cohen"
+          ],
+          "orgs": [
+            "Science",
+            "The Lancet"
+          ],
+          "places": [
+            "Wuhan",
+            "Huanan Seafood Market",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Huanan Seafood Market",
+          "SARS-CoV-2",
+          "early cases",
+          "outbreak origin"
+        ],
+        "entities": {
+          "people": [
+            "Jon Cohen"
+          ],
+          "orgs": [
+            "Science",
+            "The Lancet"
+          ],
+          "places": [
+            "Wuhan",
+            "Huanan Seafood Market",
+            "China"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "early cases",
+        "outbreak origin"
+      ]
+    },
+    {
+      "source_key": "ch03-s03",
+      "before": {
+        "topics": [
+          "Anthony Fauci",
+          "NIAID calendar",
+          "Freedom of Information requests",
+          "early pandemic response"
+        ],
+        "entities": {
+          "people": [
+            "Anthony Fauci"
+          ],
+          "orgs": [
+            "NIAID",
+            "NIH",
+            "OpenTheBooks"
+          ],
+          "places": [
+            "Bethesda",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Anthony Fauci",
+          "Freedom of Information requests",
+          "NIAID calendar",
+          "early pandemic response"
+        ],
+        "entities": {
+          "people": [
+            "Anthony Fauci"
+          ],
+          "orgs": [
+            "NIAID",
+            "NIH",
+            "OpenTheBooks"
+          ],
+          "places": [
+            "United States",
+            "Bethesda"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "NIAID calendar",
+        "early pandemic response"
+      ]
+    },
+    {
+      "source_key": "ch03-s04",
+      "before": {
+        "topics": [
+          "first U.S. case",
+          "Snohomish County",
+          "SARS-CoV-2",
+          "CDC"
+        ],
+        "entities": {
+          "people": [
+            "Satish Pillai",
+            "John Wiesman",
+            "Jay Inslee"
+          ],
+          "orgs": [
+            "The Seattle Times",
+            "CDC",
+            "Washington State Department of Health"
+          ],
+          "places": [
+            "Snohomish County",
+            "Washington",
+            "United States",
+            "Wuhan"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "SARS-CoV-2",
+          "CDC",
+          "first U.S. case",
+          "Snohomish County"
+        ],
+        "entities": {
+          "people": [
+            "Satish Pillai",
+            "John Wiesman",
+            "Jay Inslee"
+          ],
+          "orgs": [
+            "CDC",
+            "The Seattle Times",
+            "Washington State Department of Health"
+          ],
+          "places": [
+            "United States",
+            "Wuhan",
+            "Snohomish County",
+            "Washington"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "first U.S. case",
+        "Snohomish County"
+      ]
+    },
+    {
+      "source_key": "ch03-s05",
+      "before": {
+        "topics": [
+          "Anthony Fauci",
+          "Fauci Effect",
+          "pandemic politics"
+        ],
+        "entities": {
+          "people": [
+            "Grace Curley",
+            "Anthony Fauci"
+          ],
+          "orgs": [
+            "Boston Herald",
+            "Fred Hutchinson Cancer Center",
+            "NIAID"
+          ],
+          "places": [
+            "Seattle",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Anthony Fauci",
+          "Fauci Effect",
+          "pandemic politics"
+        ],
+        "entities": {
+          "people": [
+            "Anthony Fauci",
+            "Grace Curley"
+          ],
+          "orgs": [
+            "NIAID",
+            "Boston Herald",
+            "Fred Hutchinson Cancer Center"
+          ],
+          "places": [
+            "United States",
+            "Seattle"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Fauci Effect",
+        "pandemic politics"
+      ]
+    },
+    {
+      "source_key": "ch03-s06",
+      "before": {
+        "topics": [
+          "EcoHealth Alliance",
+          "NIAID grant",
+          "Wuhan Institute of Virology",
+          "Peter Daszak",
+          "Ralph Baric"
+        ],
+        "entities": {
+          "people": [
+            "Greg Folkers",
+            "Anthony Fauci",
+            "Peter Daszak",
+            "Ralph Baric",
+            "Ian Lipkin",
+            "Jennifer Routh",
+            "Hilary Marston"
+          ],
+          "orgs": [
+            "NIAID",
+            "NIH",
+            "EcoHealth Alliance",
+            "U.S. Right to Know"
+          ],
+          "places": [
+            "China",
+            "United States",
+            "Wuhan"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "Peter Daszak",
+          "Ralph Baric",
+          "NIAID grant"
+        ],
+        "entities": {
+          "people": [
+            "Greg Folkers",
+            "Anthony Fauci",
+            "Peter Daszak",
+            "Ralph Baric",
+            "Ian Lipkin",
+            "Jennifer Routh",
+            "Hilary Marston"
+          ],
+          "orgs": [
+            "NIAID",
+            "NIH",
+            "EcoHealth Alliance",
+            "U.S. Right to Know"
+          ],
+          "places": [
+            "China",
+            "United States",
+            "Wuhan"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "NIAID grant"
+      ]
+    },
+    {
+      "source_key": "ch03-s07",
+      "before": {
+        "topics": [
+          "R01AI110964",
+          "bat coronaviruses",
+          "EcoHealth Alliance",
+          "NIAID funding"
+        ],
+        "entities": {
+          "people": [
+            "Peter Daszak"
+          ],
+          "orgs": [
+            "EcoHealth Alliance",
+            "NIAID",
+            "HHS TAGGS"
+          ],
+          "places": [
+            "United States",
+            "Asia",
+            "China"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "bat coronaviruses",
+          "EcoHealth Alliance",
+          "R01AI110964",
+          "NIAID funding"
+        ],
+        "entities": {
+          "people": [
+            "Peter Daszak"
+          ],
+          "orgs": [
+            "EcoHealth Alliance",
+            "NIAID",
+            "HHS TAGGS"
+          ],
+          "places": [
+            "United States",
+            "China",
+            "Asia"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "R01AI110964",
+        "NIAID funding"
+      ]
+    },
+    {
+      "source_key": "ch03-s08",
+      "before": {
+        "topics": [
+          "gain-of-function research",
+          "Ralph Baric",
+          "Anthony Fauci",
+          "chimeric viruses",
+          "WIV collaboration"
+        ],
+        "entities": {
+          "people": [
+            "Emily Kopp",
+            "Anthony Fauci",
+            "Ralph Baric",
+            "Shi Zhengli"
+          ],
+          "orgs": [
+            "U.S. Right to Know",
+            "Wuhan Institute of Virology",
+            "University of North Carolina"
+          ],
+          "places": [
+            "Wuhan",
+            "Chapel Hill",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "gain-of-function research",
+          "Ralph Baric",
+          "Anthony Fauci",
+          "chimeric viruses",
+          "WIV collaboration"
+        ],
+        "entities": {
+          "people": [
+            "Anthony Fauci",
+            "Ralph Baric",
+            "Shi Zhengli",
+            "Emily Kopp"
+          ],
+          "orgs": [
+            "U.S. Right to Know",
+            "Wuhan Institute of Virology",
+            "University of North Carolina"
+          ],
+          "places": [
+            "Wuhan",
+            "United States",
+            "Chapel Hill"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "WIV collaboration"
+      ]
+    },
+    {
+      "source_key": "ch03-s09",
+      "before": {
+        "topics": [
+          "Anthony Fauci calendar",
+          "Ralph Baric meeting",
+          "NSC",
+          "Freedom of Information requests"
+        ],
+        "entities": {
+          "people": [
+            "Anthony Fauci",
+            "Ralph Baric"
+          ],
+          "orgs": [
+            "NIAID",
+            "National Security Council",
+            "OpenTheBooks"
+          ],
+          "places": [
+            "Washington",
+            "United States"
+          ]
+        }
+      },
+      "after": {
+        "topics": [
+          "Freedom of Information requests",
+          "Anthony Fauci calendar",
+          "Ralph Baric meeting",
+          "NSC"
+        ],
+        "entities": {
+          "people": [
+            "Anthony Fauci",
+            "Ralph Baric"
+          ],
+          "orgs": [
+            "NIAID",
+            "National Security Council",
+            "OpenTheBooks"
+          ],
+          "places": [
+            "United States",
+            "Washington"
+          ]
+        }
+      },
+      "orphan_topics": [
+        "Anthony Fauci calendar",
+        "Ralph Baric meeting",
+        "NSC"
+      ]
+    }
+  ]
+}

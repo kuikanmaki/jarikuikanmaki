@@ -160,7 +160,7 @@
       "source_key": "ch09-s15",
       "url": "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 28813,
       "error": null,
       "reused": false,
@@ -182,7 +182,7 @@
       "source_key": "ch09-s17",
       "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 29426,
       "error": null,
       "reused": false,
@@ -204,11 +204,13 @@
       "source_key": "ch09-s19",
       "url": "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 19389,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch09-s19.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

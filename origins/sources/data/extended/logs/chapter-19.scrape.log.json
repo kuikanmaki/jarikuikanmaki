@@ -41,7 +41,7 @@
       "source_key": "ch19-s04",
       "url": "https://www.wsj.com/world/china/chinese-lab-mapped-deadly-coronavirus-two-weeks-before-beijing-told-the-world-documents-show-9bca8865",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 24754,
       "error": null,
       "reused": false,
@@ -139,7 +139,7 @@
       "id": 13,
       "source_key": "ch19-s13",
       "url": "https://web.archive.org/web/20240528232631/https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -283,7 +283,7 @@
       "source_key": "ch19-s27",
       "url": "https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 25861,
       "error": null,
       "reused": false,
@@ -294,7 +294,7 @@
       "source_key": "ch19-s28",
       "url": "https://www.wsj.com/politics/national-security/fbi-director-says-covid-pandemic-likely-caused-by-chinese-lab-leak-13a5e69b",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 27786,
       "error": null,
       "reused": false,
@@ -414,7 +414,7 @@
       "id": 39,
       "source_key": "ch19-s39",
       "url": "https://www.youtube.com/watch?v=BE_H7dTqJXU",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -596,5 +596,7 @@
       "reused": false,
       "artifact": "artifacts/ch19-s55.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

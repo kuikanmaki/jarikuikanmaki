@@ -22,15 +22,15 @@
       "book_role": "WIV Nature paper framing a probable bat origin as the official scientific storyline.",
       "topics": [
         "SARS-CoV-2",
-        "bat origin",
         "RaTG13",
         "Wuhan Institute of Virology",
-        "Shi Zhengli"
+        "Shi Zhengli",
+        "bat origin"
       ],
       "entities": {
         "people": [
-          "Peng Zhou",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Peng Zhou"
         ],
         "orgs": [
           "Nature",
@@ -100,9 +100,9 @@
           "Nature"
         ],
         "places": [
-          "Guangzhou",
           "China",
-          "Wuhan"
+          "Wuhan",
+          "Guangzhou"
         ]
       },
       "topic_ids": [
@@ -193,17 +193,17 @@
       "summary": "Early February 2020 preprint discussing possible origins of 2019-nCoV, noting genomic similarity to bat CoV ZC45 and questioning whether the Huanan market alone explains the epidemic’s start.",
       "book_role": "Xiao & Xiao preprint that instead pointed toward lab-linked origin possibilities around Wuhan.",
       "topics": [
+        "Huanan Seafood Market",
         "2019-nCoV origins",
         "bat CoV ZC45",
-        "Huanan Seafood Market",
         "preprint"
       ],
       "entities": {
         "people": [
-          "Botao Xiao",
-          "Lei Xiao",
           "Xiao Botao",
-          "Xiao Lei"
+          "Xiao Lei",
+          "Botao Xiao",
+          "Lei Xiao"
         ],
         "orgs": [
           "ResearchGate"
@@ -257,10 +257,10 @@
       "book_role": "",
       "topics": [
         "lab-leak hypothesis",
-        "Wuhan CDC",
         "Wuhan Institute of Virology",
-        "bats",
-        "Huanan Seafood Market"
+        "Huanan Seafood Market",
+        "Wuhan CDC",
+        "bats"
       ],
       "entities": {
         "people": [
@@ -270,9 +270,9 @@
         ],
         "orgs": [
           "Daily Mail",
+          "Wuhan Institute of Virology",
           "South China University of Technology",
-          "Wuhan CDC",
-          "Wuhan Institute of Virology"
+          "Wuhan CDC"
         ],
         "places": [
           "Wuhan",
@@ -324,9 +324,9 @@
       "book_role": "",
       "topics": [
         "bat coronaviruses",
-        "human emergence",
         "chimeric viruses",
-        "Ralph Baric"
+        "Ralph Baric",
+        "human emergence"
       ],
       "entities": {
         "people": [

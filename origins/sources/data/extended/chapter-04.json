@@ -21,9 +21,9 @@
       "summary": "YouTube episode of the Jari & Otto Show titled ‘Loppu on lähellä’ (28 Jan 2020).",
       "book_role": "",
       "topics": [
+        "Finland",
         "podcast",
-        "early outbreak",
-        "Finland"
+        "early outbreak"
       ],
       "entities": {
         "people": [
@@ -31,8 +31,8 @@
           "Otto Juote"
         ],
         "orgs": [
-          "Jari & Otto Show",
-          "YouTube"
+          "YouTube",
+          "Jari & Otto Show"
         ],
         "places": [
           "Finland"
@@ -80,9 +80,9 @@
       "summary": "Reuters report that France confirmed Europe’s first three Wuhan coronavirus cases—two hospitalized in Paris and one in Bordeaux—with Health Minister Agnès Buzyn warning more were likely.",
       "book_role": "",
       "topics": [
-        "first European cases",
         "France",
         "SARS-CoV-2",
+        "first European cases",
         "exportations"
       ],
       "entities": {
@@ -94,11 +94,11 @@
           "French Health Ministry"
         ],
         "places": [
-          "Paris",
-          "Bordeaux",
           "France",
           "Wuhan",
-          "Europe"
+          "Europe",
+          "Paris",
+          "Bordeaux"
         ]
       },
       "topic_ids": [
@@ -149,16 +149,16 @@
         "people": [],
         "orgs": [
           "Yle",
+          "Yle News",
           "THL",
-          "Lapland Central Hospital",
-          "Yle News"
+          "Lapland Central Hospital"
         ],
         "places": [
+          "Finland",
+          "Wuhan",
           "Rovaniemi",
           "Saariselkä",
-          "Lapland",
-          "Finland",
-          "Wuhan"
+          "Lapland"
         ]
       },
       "entity_ids": {
@@ -244,18 +244,18 @@
       "summary": "Neil Ferguson tweet warning that despite containment efforts, planning must assume the 2019-nCoV epidemic might not be containable, citing new human-to-human transmissibility estimates.",
       "book_role": "Ferguson’s early warning that Wuhan containment might already be impossible.",
       "topics": [
+        "SARS-CoV-2",
         "transmissibility",
         "containment",
-        "Neil Ferguson",
-        "SARS-CoV-2"
+        "Neil Ferguson"
       ],
       "entities": {
         "people": [
           "Neil Ferguson"
         ],
         "orgs": [
-          "Imperial College London",
-          "Twitter"
+          "Twitter",
+          "Imperial College London"
         ],
         "places": [
           "China",
@@ -406,9 +406,9 @@
       ],
       "entities": {
         "people": [
+          "Nassim Nicholas Taleb",
           "Joseph Norman",
-          "Yaneer Bar-Yam",
-          "Nassim Nicholas Taleb"
+          "Yaneer Bar-Yam"
         ],
         "orgs": [
           "New England Complex Systems Institute",
@@ -443,12 +443,12 @@
       "title": "The Black Swan: The Impact of the Highly Improbable",
       "publication": "Random House",
       "date": "May 11, 2010",
-      "url": "",
-      "status": "empty_url",
-      "artifact": null,
-      "content_kind": "unknown",
+      "url": "https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X",
+      "status": "ok",
+      "artifact": "artifacts/ch04-s09.md",
+      "content_kind": "book",
       "language": "en",
-      "summary": "Nassim Taleb’s book on highly improbable, high-impact events. No URL in the bibliography; cited as conceptual background for pandemic fat-tail risk.",
+      "summary": "Nassim Taleb’s book on highly improbable, high-impact events; cited as conceptual background for pandemic fat-tail risk.",
       "book_role": "Taleb’s early criticism of WHO risk assessment during Chinese New Year travel.",
       "topics": [
         "Black Swan",
@@ -457,8 +457,8 @@
       ],
       "entities": {
         "people": [
-          "Nassim Taleb",
-          "Nassim Nicholas Taleb"
+          "Nassim Nicholas Taleb",
+          "Nassim Taleb"
         ],
         "orgs": [
           "Random House"
@@ -467,7 +467,7 @@
       },
       "source_key": "ch04-s09",
       "date_iso": "2010-05-11",
-      "acquisition_note": "",
+      "acquisition_note": "Amazon product page; retail landing page, not book text.",
       "author_ids": [
         "person:nassim-nicholas-taleb"
       ],
@@ -556,10 +556,10 @@
       "summary": "WHO Situation Report 7 noting the Director-General’s Beijing mission, incubation-period estimates of about 2–10 days, and the need for better data on the infectious period including possible asymptomatic transmission.",
       "book_role": "",
       "topics": [
+        "SARS-CoV-2",
         "WHO situation report",
         "incubation period",
-        "Beijing mission",
-        "SARS-CoV-2"
+        "Beijing mission"
       ],
       "entities": {
         "people": [
@@ -611,10 +611,10 @@
       "summary": "WHO statement from the second IHR Emergency Committee meeting on 2019-nCoV, the meeting that led to declaring a Public Health Emergency of International Concern.",
       "book_role": "",
       "topics": [
-        "PHEIC",
-        "IHR Emergency Committee",
         "WHO",
-        "SARS-CoV-2"
+        "SARS-CoV-2",
+        "PHEIC",
+        "IHR Emergency Committee"
       ],
       "entities": {
         "people": [],
@@ -674,10 +674,10 @@
           "Italian government"
         ],
         "places": [
-          "Rome",
           "Italy",
           "Wuhan",
-          "China"
+          "China",
+          "Rome"
         ]
       },
       "entity_ids": {
@@ -726,13 +726,13 @@
           "Krista Kiuru"
         ],
         "orgs": [
+          "WHO",
           "Iltasanomat",
-          "THL",
-          "WHO"
+          "THL"
         ],
         "places": [
-          "Oulu",
-          "Finland"
+          "Finland",
+          "Oulu"
         ]
       },
       "entity_ids": {
@@ -766,8 +766,8 @@
       "summary": "Nextstrain phylogenetic visualization page for sars-like coronaviruses (Bedford/Hodcroft blab group), presenting evolutionary relationships among SARS-related CoV samples.",
       "book_role": "Bedford’s early sarbecovirus tree visualization used to place the new virus among bat SARS-like viruses.",
       "topics": [
-        "Nextstrain",
         "sarbecoviruses",
+        "Nextstrain",
         "phylogenetics",
         "RaTG13 context"
       ],

@@ -21,9 +21,9 @@
       "summary": "Bulletin essay warning that gain-of-function work on potential pandemic pathogens creates a self-fulfilling risk of laboratory escape, surveying historical lab-escape episodes and biosafety debates.",
       "book_role": "",
       "topics": [
-        "laboratory escapes",
         "gain-of-function research",
         "biosafety",
+        "laboratory escapes",
         "potential pandemic pathogens"
       ],
       "entities": {
@@ -69,9 +69,9 @@
       "summary": "Washington Post investigation of early Chinese official secrecy and missteps that likely let the virus spread farther and faster.",
       "book_role": "",
       "topics": [
+        "Wuhan",
         "Chinese secrecy",
         "early outbreak response",
-        "Wuhan",
         "information control"
       ],
       "entities": {
@@ -126,16 +126,16 @@
       "summary": "Guardian report on citizen journalist Chen Qiushi going missing in Wuhan amid anger after Li Wenliang’s death, with claims authorities were silencing another whistleblower.",
       "book_role": "",
       "topics": [
+        "Li Wenliang",
         "Chen Qiushi",
         "whistleblowers",
-        "Li Wenliang",
         "media suppression"
       ],
       "entities": {
         "people": [
+          "Li Wenliang",
           "Lily Kuo",
-          "Chen Qiushi",
-          "Li Wenliang"
+          "Chen Qiushi"
         ],
         "orgs": [
           "The Guardian"
@@ -243,8 +243,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "AFP",
           "France 24",
+          "AFP",
           "U.S. government"
         ],
         "places": [
@@ -287,23 +287,23 @@
       "book_role": "",
       "topics": [
         "Wuhan Institute of Virology",
+        "lab-leak hypothesis",
         "circumstantial evidence",
-        "Wuhan CDC",
-        "lab-leak hypothesis"
+        "Wuhan CDC"
       ],
       "entities": {
         "people": [],
         "orgs": [
           "U.S. Department of State",
           "Wuhan Institute of Virology",
-          "Wuhan CDC",
-          "U.S. Right to Know"
+          "U.S. Right to Know",
+          "Wuhan CDC"
         ],
         "places": [
           "Wuhan",
-          "Guangdong",
           "Italy",
-          "United States"
+          "United States",
+          "Guangdong"
         ]
       },
       "topic_ids": [
@@ -347,19 +347,19 @@
       "book_role": "",
       "topics": [
         "Tom Cotton",
+        "lab-leak hypothesis",
         "superlaboratory",
-        "China transparency",
-        "lab-leak hypothesis"
+        "China transparency"
       ],
       "entities": {
         "people": [
-          "David Choi",
           "Tom Cotton",
-          "Mike Pompeo"
+          "Mike Pompeo",
+          "David Choi"
         ],
         "orgs": [
-          "Business Insider",
-          "U.S. Senate"
+          "U.S. Senate",
+          "Business Insider"
         ],
         "places": [
           "China",
@@ -412,8 +412,8 @@
       ],
       "entities": {
         "people": [
-          "Alexandra Stevenson",
-          "Tom Cotton"
+          "Tom Cotton",
+          "Alexandra Stevenson"
         ],
         "orgs": [
           "The New York Times"
@@ -467,8 +467,8 @@
       ],
       "entities": {
         "people": [
-          "Paulina Firozi",
-          "Tom Cotton"
+          "Tom Cotton",
+          "Paulina Firozi"
         ],
         "orgs": [
           "The Washington Post"
@@ -521,8 +521,8 @@
       "topics": [
         "The proximal origin of SARS-CoV-2",
         "SARS-CoV-2",
-        "natural origin",
         "furin cleavage site",
+        "natural origin",
         "lab leak dismissal"
       ],
       "entities": {
@@ -595,9 +595,9 @@
       ],
       "entities": {
         "people": [
-          "Sainath Suryanarayanan",
           "Peter Daszak",
-          "Ralph Baric"
+          "Ralph Baric",
+          "Sainath Suryanarayanan"
         ],
         "orgs": [
           "U.S. Right to Know",
@@ -658,10 +658,10 @@
       "summary": "Nicholas Wade analysis of newly released emails arguing Proximal Origin authors rushed a predetermined anti-lab-leak conclusion while sidelining features suggestive of manipulation.",
       "book_role": "",
       "topics": [
-        "The proximal origin of SARS-CoV-2",
         "lab-leak hypothesis",
-        "NIH FOIA",
-        "furin cleavage site"
+        "furin cleavage site",
+        "The proximal origin of SARS-CoV-2",
+        "NIH FOIA"
       ],
       "entities": {
         "people": [
@@ -669,8 +669,8 @@
           "Jimmy Tobias"
         ],
         "orgs": [
-          "City Journal",
-          "NIH"
+          "NIH",
+          "City Journal"
         ],
         "places": [
           "United States"
@@ -716,15 +716,15 @@
       "summary": "Detailed USRTK timeline of how five virologists moved from overnight alarm about the furin cleavage site to publishing Nature Medicine’s claim that no lab scenario was plausible.",
       "book_role": "",
       "topics": [
-        "The proximal origin of SARS-CoV-2",
         "furin cleavage site",
         "Nature Medicine",
+        "The proximal origin of SARS-CoV-2",
         "Wuhan Institute of Virology"
       ],
       "entities": {
         "people": [
-          "Emily Kopp",
-          "Kristian Andersen"
+          "Kristian Andersen",
+          "Emily Kopp"
         ],
         "orgs": [
           "U.S. Right to Know",
@@ -788,8 +788,8 @@
       ],
       "entities": {
         "people": [
-          "Charles Calisher",
-          "Peter Daszak"
+          "Peter Daszak",
+          "Charles Calisher"
         ],
         "orgs": [
           "The Lancet"
@@ -892,14 +892,14 @@
       "url": "https://www.amazon.com/Spike-Virus-People-Inside-Story-ebook/dp/B08X671H6M",
       "status": "ok",
       "artifact": "artifacts/ch06-s16.md",
-      "content_kind": "landing",
+      "content_kind": "book",
       "language": "en",
       "summary": "Jeremy Farrar’s memoir Spike, his insider account of early pandemic science and policy.",
       "book_role": "",
       "topics": [
         "Jeremy Farrar",
-        "early pandemic insider account",
-        "Wellcome Trust"
+        "Wellcome Trust",
+        "early pandemic insider account"
       ],
       "entities": {
         "people": [
@@ -907,9 +907,9 @@
           "Anjana Ahuja"
         ],
         "orgs": [
-          "Profile Books",
           "Amazon",
-          "Wellcome Trust"
+          "Wellcome Trust",
+          "Profile Books"
         ],
         "places": [
           "United Kingdom"
@@ -956,16 +956,16 @@
       "book_role": "",
       "topics": [
         "Jeremy Farrar",
-        "WHO chief scientist",
-        "Tedros Adhanom Ghebreyesus"
+        "Tedros Adhanom Ghebreyesus",
+        "WHO chief scientist"
       ],
       "entities": {
         "people": [
+          "Jeremy Farrar",
+          "Tedros Adhanom Ghebreyesus",
           "Manas Mishra",
           "Mrinmay Dey",
-          "Jeremy Farrar",
-          "Soumya Swaminathan",
-          "Tedros Adhanom Ghebreyesus"
+          "Soumya Swaminathan"
         ],
         "orgs": [
           "Reuters",

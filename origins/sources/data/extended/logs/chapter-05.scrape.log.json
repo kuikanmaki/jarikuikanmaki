@@ -30,7 +30,7 @@
       "source_key": "ch05-s03",
       "url": "https://www.barrons.com/articles/chinas-economic-data-have-always-raised-questions-its-coronavirus-numbers-do-too-51581622840",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 11880,
       "error": null,
       "reused": false,
@@ -69,5 +69,7 @@
       "reused": false,
       "artifact": "artifacts/ch05-s06.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

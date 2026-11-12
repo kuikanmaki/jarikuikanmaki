@@ -7,7 +7,7 @@
       "id": 1,
       "source_key": "ch07-s01",
       "url": "https://youtu.be/qvNITz_tzhg",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -68,5 +68,7 @@
       "reused": false,
       "artifact": "artifacts/ch07-s06.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

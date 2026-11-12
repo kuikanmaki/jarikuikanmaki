@@ -1,0 +1,72 @@
+{
+  "chapter": 7,
+  "credits_before": 774,
+  "credits_after": 763,
+  "sources": [
+    {
+      "id": 1,
+      "source_key": "ch07-s01",
+      "url": "https://youtu.be/qvNITz_tzhg",
+      "ok": false,
+      "status": "ok",
+      "bytes": 0,
+      "reused": false,
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy."
+    },
+    {
+      "id": 2,
+      "source_key": "ch07-s02",
+      "url": "https://www.reuters.com/article/world/concern-over-coronavirus-spread-as-cases-jump-in-south-korea-italy-and-iran-idUSKCN20H03N/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 18944,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch07-s02.md"
+    },
+    {
+      "id": 3,
+      "source_key": "ch07-s03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32057769/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 18963,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch07-s03.md"
+    },
+    {
+      "id": 4,
+      "source_key": "ch07-s04",
+      "url": "https://www.bbc.com/news/world-europe-51810673",
+      "ok": true,
+      "status": "ok",
+      "bytes": 9846,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch07-s04.md"
+    },
+    {
+      "id": 5,
+      "source_key": "ch07-s05",
+      "url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200228-sitrep-39-covid-19.pdf",
+      "ok": true,
+      "status": "ok",
+      "bytes": 20370,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch07-s05.md"
+    },
+    {
+      "id": 6,
+      "source_key": "ch07-s06",
+      "url": "https://yle.fi/a/3-11225142",
+      "ok": true,
+      "status": "ok",
+      "bytes": 7111,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch07-s06.md"
+    }
+  ]
+}

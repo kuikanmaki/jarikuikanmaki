@@ -1,0 +1,227 @@
+{
+  "chapter": 11,
+  "credits_before": 707,
+  "credits_after": 687,
+  "sources": [
+    {
+      "id": 1,
+      "source_key": "ch11-s01",
+      "url": "https://www.theweek.in/theweek/cover/2021/06/03/how-an-indian-scientist-couple-worked-to-trace-origin-course-of-covid-19.html",
+      "ok": true,
+      "status": "ok",
+      "bytes": 42504,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s01.md"
+    },
+    {
+      "id": 2,
+      "source_key": "ch11-s02",
+      "url": "https://virology.ws/2020/02/20/pangolins-and-the-origin-of-sars-cov-2-coronavirus/#comment-55702",
+      "ok": true,
+      "status": "ok",
+      "bytes": 26043,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s02.md"
+    },
+    {
+      "id": 3,
+      "source_key": "ch11-s03",
+      "url": "https://link.springer.com/article/10.1007/s12250-016-3713-9",
+      "ok": true,
+      "status": "ok",
+      "bytes": 61651,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s03.md"
+    },
+    {
+      "id": 4,
+      "source_key": "ch11-s04",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/KP876546",
+      "ok": true,
+      "status": "ok",
+      "bytes": 3066,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s04.md"
+    },
+    {
+      "id": 5,
+      "source_key": "ch11-s05",
+      "url": "https://www.frontiersin.org/articles/10.3389/fpubh.2020.581569/full",
+      "ok": true,
+      "status": "ok",
+      "bytes": 39056,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s05.md"
+    },
+    {
+      "id": 6,
+      "source_key": "ch11-s06",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1",
+      "ok": true,
+      "status": "ok",
+      "bytes": 56670,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s06.md"
+    },
+    {
+      "id": 7,
+      "source_key": "ch11-s07",
+      "url": "https://www.theweek.in/theweek/cover/2021/07/01/what-exactly-happened-in-wuhan.html",
+      "ok": true,
+      "status": "ok",
+      "bytes": 53707,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s07.md"
+    },
+    {
+      "id": 8,
+      "source_key": "ch11-s08",
+      "url": "https://www.documentcloud.org/documents/6981198-Analysis-of-Six-Patients-With-Unknown-Viruses.html",
+      "ok": true,
+      "status": "ok",
+      "bytes": 73424,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s08.md"
+    },
+    {
+      "id": 9,
+      "source_key": "ch11-s09",
+      "url": "https://www.documentcloud.org/documents/20694207-canping-huang-phd-novel-virus-discovery-in-bat-isn-translation",
+      "ok": true,
+      "status": "ok",
+      "bytes": 82601,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s09.md"
+    },
+    {
+      "id": 10,
+      "source_key": "ch11-s10",
+      "url": "https://time.com/collection/100-most-influential-people-2020/5888415/zhong-nanshan/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 39507,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s10.md"
+    },
+    {
+      "id": 11,
+      "source_key": "ch11-s11",
+      "url": "https://www.independentsciencenews.org/commentaries/a-chinese-phd-thesis-sheds-important-new-light-on-the-origin-of-the-covid-19-coronavirus/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 74009,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s11.md"
+    },
+    {
+      "id": 12,
+      "source_key": "ch11-s12",
+      "url": "https://www.telegraph.co.uk/news/2021/02/06/did-covid-19-virus-really-escape-wuhan-lab/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 20855,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s12.md"
+    },
+    {
+      "id": 13,
+      "source_key": "ch11-s13",
+      "url": "https://www.reuters.com/article/us-health-coronavirus-wuhan-scientists-i/painful-lesson-how-a-military-style-lockdown-unfolded-in-wuhan-idUSKBN21Q0KD",
+      "ok": true,
+      "status": "ok",
+      "bytes": 17159,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s13.md"
+    },
+    {
+      "id": 14,
+      "source_key": "ch11-s14",
+      "url": "https://www.nature.com/articles/nature12711",
+      "ok": true,
+      "status": "ok",
+      "bytes": 89227,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s14.md"
+    },
+    {
+      "id": 15,
+      "source_key": "ch11-s15",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7111780/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 126566,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s15.md"
+    },
+    {
+      "id": 16,
+      "source_key": "ch11-s16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10627550/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 1988,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s16.md"
+    },
+    {
+      "id": 17,
+      "source_key": "ch11-s17",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/22221751.2020.1733440",
+      "ok": true,
+      "status": "ok",
+      "bytes": 12898,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s17.md"
+    },
+    {
+      "id": 18,
+      "source_key": "ch11-s18",
+      "url": "https://usrtk.org/covid-19-origins/scientists-who-authored-article-denying-lab-engineering-of-sars-cov-2-privately-acknowledged-possible-lab-origin-emails-show/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 22866,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s18.md"
+    },
+    {
+      "id": 19,
+      "source_key": "ch11-s19",
+      "url": "https://apnews.com/article/united-nations-coronavirus-pandemic-china-only-on-ap-bats-24fbadc58cee3a40bca2ddf7a14d2955",
+      "ok": true,
+      "status": "ok",
+      "bytes": 151905,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s19.md"
+    },
+    {
+      "id": 20,
+      "source_key": "ch11-s20",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7090819/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 53949,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch11-s20.md"
+    }
+  ]
+}

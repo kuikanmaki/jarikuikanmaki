@@ -1,0 +1,462 @@
+{
+  "generated_at": "2026-11-12T13:32:01.912923+00:00",
+  "policy": {
+    "url": "prefer_extended",
+    "type": "prefer_extended_if_nonempty_else_legacy",
+    "other_bib": "prefer_extended_if_nonempty_else_legacy; if both nonempty and differ, keep_extended_and_flag"
+  },
+  "chapters": [
+    {
+      "file": "chapter-00.json",
+      "diffs": [
+        {
+          "file": "chapter-00.json",
+          "id": 1,
+          "source_key": "ch00-s01",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 2,
+          "source_key": "ch00-s02",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 3,
+          "source_key": "ch00-s03",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 4,
+          "source_key": "ch00-s04",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 5,
+          "source_key": "ch00-s05",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 6,
+          "source_key": "ch00-s06",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 9,
+          "source_key": "ch00-s09",
+          "field": "url",
+          "legacy": "https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+          "extended": "https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 11,
+          "source_key": "ch00-s11",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 12,
+          "source_key": "ch00-s12",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-00.json",
+          "id": 13,
+          "source_key": "ch00-s13",
+          "field": "type",
+          "legacy": "",
+          "extended": "Article",
+          "action": "keep_extended"
+        }
+      ]
+    },
+    {
+      "file": "chapter-01.json",
+      "diffs": [
+        {
+          "file": "chapter-01.json",
+          "id": 2,
+          "source_key": "ch01-s02",
+          "field": "url",
+          "legacy": "https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+          "extended": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-01.json",
+          "id": 7,
+          "source_key": "ch01-s07",
+          "field": "url",
+          "legacy": "https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+          "extended": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+          "action": "keep_extended"
+        }
+      ]
+    },
+    {
+      "file": "chapter-02.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-03.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-04.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-05.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-06.json",
+      "diffs": [
+        {
+          "file": "chapter-06.json",
+          "id": 8,
+          "source_key": "ch06-s08",
+          "field": "url",
+          "legacy": "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+          "extended": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+          "action": "keep_extended"
+        }
+      ]
+    },
+    {
+      "file": "chapter-07.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-08.json",
+      "diffs": [
+        {
+          "file": "chapter-08.json",
+          "id": 10,
+          "source_key": "ch08-s10",
+          "field": "url",
+          "legacy": "https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+          "extended": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+          "action": "keep_extended"
+        }
+      ]
+    },
+    {
+      "file": "chapter-09.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-10.json",
+      "diffs": [
+        {
+          "file": "chapter-10.json",
+          "id": 11,
+          "source_key": "ch10-s11",
+          "field": "url",
+          "legacy": "https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
+          "extended": "https://web.archive.org/web/20210910200318/https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
+          "action": "keep_extended"
+        }
+      ]
+    },
+    {
+      "file": "chapter-11.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-12.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-13.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-14.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-15.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-16.json",
+      "diffs": [
+        {
+          "file": "chapter-16.json",
+          "id": 4,
+          "source_key": "ch16-s04",
+          "field": "url",
+          "legacy": "https://www.globalviromeproject.org/our-history",
+          "extended": "https://web.archive.org/web/20181118113334/http://www.globalviromeproject.org/our-history",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-16.json",
+          "id": 12,
+          "source_key": "ch16-s12",
+          "field": "url",
+          "legacy": "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
+          "extended": "https://web.archive.org/web/20211105213249/https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
+          "action": "keep_extended"
+        }
+      ]
+    },
+    {
+      "file": "chapter-17.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-18.json",
+      "diffs": []
+    },
+    {
+      "file": "chapter-19.json",
+      "diffs": [
+        {
+          "file": "chapter-19.json",
+          "id": 13,
+          "source_key": "ch19-s13",
+          "field": "url",
+          "legacy": "https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
+          "extended": "https://web.archive.org/web/20240528232631/https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-19.json",
+          "id": 34,
+          "source_key": "ch19-s34",
+          "field": "url",
+          "legacy": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/",
+          "extended": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/CHRG-118hhrg55548.pdf",
+          "action": "keep_extended"
+        },
+        {
+          "file": "chapter-19.json",
+          "id": 43,
+          "source_key": "ch19-s43",
+          "field": "url",
+          "legacy": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-tantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf",
+          "extended": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-Circumstantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf",
+          "action": "keep_extended"
+        }
+      ]
+    }
+  ],
+  "absorbed_into_extended": [],
+  "kept_extended_despite_legacy_diff": [
+    {
+      "file": "chapter-00.json",
+      "id": 1,
+      "source_key": "ch00-s01",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 2,
+      "source_key": "ch00-s02",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 3,
+      "source_key": "ch00-s03",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 4,
+      "source_key": "ch00-s04",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 5,
+      "source_key": "ch00-s05",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 6,
+      "source_key": "ch00-s06",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 9,
+      "source_key": "ch00-s09",
+      "field": "url",
+      "legacy": "https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+      "extended": "https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 11,
+      "source_key": "ch00-s11",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 12,
+      "source_key": "ch00-s12",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-00.json",
+      "id": 13,
+      "source_key": "ch00-s13",
+      "field": "type",
+      "legacy": "",
+      "extended": "Article",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-01.json",
+      "id": 2,
+      "source_key": "ch01-s02",
+      "field": "url",
+      "legacy": "https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+      "extended": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-01.json",
+      "id": 7,
+      "source_key": "ch01-s07",
+      "field": "url",
+      "legacy": "https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+      "extended": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-06.json",
+      "id": 8,
+      "source_key": "ch06-s08",
+      "field": "url",
+      "legacy": "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+      "extended": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-08.json",
+      "id": 10,
+      "source_key": "ch08-s10",
+      "field": "url",
+      "legacy": "https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+      "extended": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-10.json",
+      "id": 11,
+      "source_key": "ch10-s11",
+      "field": "url",
+      "legacy": "https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
+      "extended": "https://web.archive.org/web/20210910200318/https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-16.json",
+      "id": 4,
+      "source_key": "ch16-s04",
+      "field": "url",
+      "legacy": "https://www.globalviromeproject.org/our-history",
+      "extended": "https://web.archive.org/web/20181118113334/http://www.globalviromeproject.org/our-history",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-16.json",
+      "id": 12,
+      "source_key": "ch16-s12",
+      "field": "url",
+      "legacy": "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
+      "extended": "https://web.archive.org/web/20211105213249/https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-19.json",
+      "id": 13,
+      "source_key": "ch19-s13",
+      "field": "url",
+      "legacy": "https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
+      "extended": "https://web.archive.org/web/20240528232631/https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-19.json",
+      "id": 34,
+      "source_key": "ch19-s34",
+      "field": "url",
+      "legacy": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/",
+      "extended": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/CHRG-118hhrg55548.pdf",
+      "action": "keep_extended"
+    },
+    {
+      "file": "chapter-19.json",
+      "id": 43,
+      "source_key": "ch19-s43",
+      "field": "url",
+      "legacy": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-tantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf",
+      "extended": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-Circumstantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf",
+      "action": "keep_extended"
+    }
+  ],
+  "missing_in_legacy": [],
+  "missing_in_extended": []
+}

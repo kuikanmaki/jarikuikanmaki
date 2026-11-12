@@ -21,15 +21,15 @@
       "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform.",
       "book_role": "Early Baric reverse-genetics paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
-        "infectious cDNA",
-        "mouse hepatitis virus",
         "reverse genetics",
-        "Ralph Baric"
+        "Ralph Baric",
+        "infectious cDNA",
+        "mouse hepatitis virus"
       ],
       "entities": {
         "people": [
-          "Boyd Yount",
-          "Ralph Baric"
+          "Ralph Baric",
+          "Boyd Yount"
         ],
         "orgs": [
           "Journal of Virology",
@@ -74,15 +74,15 @@
       "summary": "2007 PLOS Pathogens study creating a mouse-adapted SARS-CoV that causes disease and mortality in BALB/c mice via serial passage—lab evolution of pathogenicity.",
       "book_role": "Baric mouse-adapted SARS paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
-        "mouse-adapted SARS",
         "serial passaging",
+        "mouse-adapted SARS",
         "BALB/c",
         "pathogenicity"
       ],
       "entities": {
         "people": [
-          "Anjeanette Roberts",
-          "Ralph Baric"
+          "Ralph Baric",
+          "Anjeanette Roberts"
         ],
         "orgs": [
           "PLOS Pathogens"
@@ -132,8 +132,8 @@
       ],
       "entities": {
         "people": [
-          "Michelle Becker",
-          "Ralph Baric"
+          "Ralph Baric",
+          "Michelle Becker"
         ],
         "orgs": [
           "PNAS"
@@ -169,14 +169,14 @@
       "summary": "2005 Science paper establishing horseshoe bats as natural reservoirs of SARS-like coronaviruses—foundational for Shi Zhengli’s subsequent WIV program.",
       "book_role": "",
       "topics": [
-        "bat reservoirs",
         "bat coronaviruses",
+        "bat reservoirs",
         "horseshoe bats"
       ],
       "entities": {
         "people": [
-          "Wendong Li",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Wendong Li"
         ],
         "orgs": [
           "Science",
@@ -232,15 +232,15 @@
       ],
       "entities": {
         "people": [
-          "Rowan Jacobsen",
           "Ralph Baric",
           "Shi Zhengli",
-          "Peter Daszak"
+          "Peter Daszak",
+          "Rowan Jacobsen"
         ],
         "orgs": [
-          "MIT Technology Review",
           "Wuhan Institute of Virology",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "MIT Technology Review"
         ],
         "places": [
           "Wuhan",
@@ -291,16 +291,16 @@
       "summary": "2015 Nature news on the Menachery/Baric/Shi chimeric bat SARS-like virus paper that stirred gain-of-function debate over risky research.",
       "book_role": "",
       "topics": [
-        "engineered bat virus",
         "gain-of-function research",
+        "engineered bat virus",
         "Menachery 2015"
       ],
       "entities": {
         "people": [
-          "Declan Butler",
           "Ralph Baric",
           "Shi Zhengli",
-          "Vineet Menachery"
+          "Vineet Menachery",
+          "Declan Butler"
         ],
         "orgs": [
           "Nature"
@@ -351,15 +351,15 @@
       "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells.",
       "book_role": "",
       "topics": [
+        "bat coronaviruses",
         "receptor usage",
         "chimeric spike",
-        "bat coronaviruses",
         "human cells"
       ],
       "entities": {
         "people": [
-          "Wuze Ren",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Wuze Ren"
         ],
         "orgs": [
           "Journal of Virology",
@@ -413,12 +413,12 @@
       ],
       "entities": {
         "people": [
-          "Yuxuan Hou",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Yuxuan Hou"
         ],
         "orgs": [
-          "Archives of Virology",
-          "PubMed"
+          "PubMed",
+          "Archives of Virology"
         ],
         "places": [
           "China"
@@ -458,15 +458,15 @@
       "book_role": "WIV1 bat SARS-like coronavirus infection study in the Wuhan research record.",
       "topics": [
         "WIV1",
+        "reverse genetics",
         "infectious clone",
         "ORFX",
-        "BSL-2",
-        "reverse genetics"
+        "BSL-2"
       ],
       "entities": {
         "people": [
-          "Lei-Ping Zeng",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Lei-Ping Zeng"
         ],
         "orgs": [
           "Journal of Virology",
@@ -515,18 +515,17 @@
       "summary": "2017 PLoS Pathogens Hu et al.: rich Yunnan-cave gene pool of bat SARS-related CoVs; native and chimeric viruses infect human cells—direct WIV lab characterization of spillover-capable viruses.",
       "book_role": "",
       "topics": [
+        "chimeric viruses",
         "Yunnan cave",
         "SARSr-CoV gene pool",
-        "chimeric viruses",
         "human cells"
       ],
       "entities": {
         "people": [
-          "Ben Hu",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Ben Hu"
         ],
         "orgs": [
-          "PLoS Pathogens",
           "Wuhan Institute of Virology",
           "PLOS Pathogens"
         ],
@@ -585,8 +584,8 @@
       ],
       "entities": {
         "people": [
-          "Peng Zhou",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Peng Zhou"
         ],
         "orgs": [
           "Nature",
@@ -635,9 +634,9 @@
       "summary": "Asia Times piece on why U.S. entities outsourced bat-virus research to Wuhan. Only a browser-check interstitial was retrieved.",
       "book_role": "",
       "topics": [
+        "Wuhan",
         "U.S. outsourcing",
         "bat virus research",
-        "Wuhan",
         "funding"
       ],
       "entities": {
@@ -645,8 +644,8 @@
           "Christina Lin"
         ],
         "orgs": [
-          "Asia Times",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Asia Times"
         ],
         "places": [
           "Wuhan",
@@ -691,10 +690,10 @@
       "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant.",
       "book_role": "",
       "topics": [
-        "R01AI110964",
         "EcoHealth Alliance",
         "NIAID",
-        "bat coronaviruses"
+        "bat coronaviruses",
+        "R01AI110964"
       ],
       "entities": {
         "people": [
@@ -750,17 +749,16 @@
       "summary": "DOI twin of Hu et al. 2017 PLoS Pathogens Yunnan SARSr-CoV gene-pool paper (same study as s10).",
       "book_role": "",
       "topics": [
-        "SARSr-CoV gene pool",
         "Yunnan",
-        "chimeric viruses"
+        "chimeric viruses",
+        "SARSr-CoV gene pool"
       ],
       "entities": {
         "people": [
-          "Ben Hu",
-          "Shi Zhengli"
+          "Shi Zhengli",
+          "Ben Hu"
         ],
         "orgs": [
-          "PLoS Pathogens",
           "Wuhan Institute of Virology",
           "PLOS Pathogens"
         ],
@@ -813,10 +811,10 @@
       "summary": "Rev transcript of May 11, 2021 Senate testimony including Fauci’s exchange on NIH funding and gain-of-function research linked to Wuhan.",
       "book_role": "",
       "topics": [
-        "Senate testimony",
         "Rand Paul",
         "Anthony Fauci",
-        "gain-of-function research"
+        "gain-of-function research",
+        "Senate testimony"
       ],
       "entities": {
         "people": [
@@ -887,9 +885,9 @@
           "Anthony Fauci"
         ],
         "orgs": [
-          "C-SPAN",
           "YouTube",
-          "U.S. Senate"
+          "U.S. Senate",
+          "C-SPAN"
         ],
         "places": [
           "United States"

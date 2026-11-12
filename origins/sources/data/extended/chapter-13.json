@@ -21,10 +21,10 @@
       "summary": "WaPo report that WIV staff received state-secrets training in May 2019 and that classified military-linked research at the lab complicates origins inquiries. Opening retrieved behind subscription wall.",
       "book_role": "",
       "topics": [
+        "lab-leak hypothesis",
         "WIV secrecy",
         "state secrets training",
-        "military research",
-        "lab-leak hypothesis"
+        "military research"
       ],
       "entities": {
         "people": [
@@ -125,10 +125,10 @@
       "summary": "Birrell Mail on Sunday column on secrecy-cloaked inquiries, WHO letting Beijing vet investigators, and Daszak’s Wuhan-linked appointment—reused artifact from chapter 9.",
       "book_role": "",
       "topics": [
-        "WHO conflicts",
         "Peter Daszak",
-        "secrecy",
-        "China"
+        "China",
+        "WHO conflicts",
+        "secrecy"
       ],
       "entities": {
         "people": [
@@ -196,12 +196,12 @@
       ],
       "entities": {
         "people": [
-          "Michelle Fay Cortez",
-          "Danielle Anderson"
+          "Danielle Anderson",
+          "Michelle Fay Cortez"
         ],
         "orgs": [
-          "Bloomberg",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Bloomberg"
         ],
         "places": [
           "Wuhan",

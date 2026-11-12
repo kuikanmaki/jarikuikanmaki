@@ -107,7 +107,7 @@
       "source_key": "ch10-s10",
       "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01377-5/fulltext",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 984,
       "error": null,
       "reused": false,
@@ -128,7 +128,7 @@
       "id": 12,
       "source_key": "ch10-s12",
       "url": "https://www.youtube.com/watch?v=IdYDL_RK--w",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -222,5 +222,7 @@
       "reused": false,
       "artifact": "artifacts/ch10-s20.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

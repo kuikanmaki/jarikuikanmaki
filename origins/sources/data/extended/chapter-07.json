@@ -21,9 +21,9 @@
       "summary": "YouTube episode of the Jari & Otto Show titled ‘Everything is Under Control’ (17 Feb 2020).",
       "book_role": "",
       "topics": [
+        "Finland",
         "podcast",
-        "early pandemic",
-        "Finland"
+        "early pandemic"
       ],
       "entities": {
         "people": [
@@ -31,8 +31,8 @@
           "Otto Juote"
         ],
         "orgs": [
-          "Jari & Otto Show",
-          "YouTube"
+          "YouTube",
+          "Jari & Otto Show"
         ],
         "places": [
           "Finland"
@@ -80,8 +80,8 @@
       "summary": "Reuters report on surging cases outside China—South Korea past 600 with a Daegu church cluster, Italy above 150 with town lockdowns, and rising concern in Iran—showing the epidemic escaping containment.",
       "book_role": "",
       "topics": [
-        "South Korea",
         "Italy",
+        "South Korea",
         "Iran",
         "community spread",
         "Daegu"
@@ -95,11 +95,11 @@
           "Reuters"
         ],
         "places": [
+          "Italy",
+          "China",
           "South Korea",
           "Daegu",
-          "Italy",
-          "Iran",
-          "China"
+          "Iran"
         ]
       },
       "topic_ids": [
@@ -140,17 +140,17 @@
       "book_role": "",
       "topics": [
         "furin cleavage site",
-        "spike glycoprotein",
         "SARS-CoV-2",
-        "sarbecoviruses"
+        "sarbecoviruses",
+        "spike glycoprotein"
       ],
       "entities": {
         "people": [
           "B. Coutard"
         ],
         "orgs": [
-          "Antiviral Research",
-          "PubMed"
+          "PubMed",
+          "Antiviral Research"
         ],
         "places": []
       },
@@ -197,8 +197,8 @@
           "Giuseppe Conte"
         ],
         "orgs": [
-          "BBC",
-          "BBC News"
+          "BBC News",
+          "BBC"
         ],
         "places": [
           "Italy",
@@ -303,8 +303,8 @@
         ],
         "orgs": [
           "Yle",
-          "THL",
-          "Yle News"
+          "Yle News",
+          "THL"
         ],
         "places": [
           "Italy",

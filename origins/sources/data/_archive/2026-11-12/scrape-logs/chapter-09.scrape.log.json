@@ -1,0 +1,214 @@
+{
+  "chapter": 9,
+  "credits_before": 742,
+  "credits_after": 725,
+  "sources": [
+    {
+      "id": 1,
+      "source_key": "ch09-s01",
+      "url": "https://www.theguardian.com/world/2021/jan/05/china-blocks-entry-to-who-team-studying-covids-origins",
+      "ok": true,
+      "status": "ok",
+      "bytes": 26123,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s01.md"
+    },
+    {
+      "id": 2,
+      "source_key": "ch09-s02",
+      "url": "https://apnews.com/article/who-team-arrives-wuhan-virus-origins-db3e9adcbfa801d3e8274c1976ea5fcd",
+      "ok": true,
+      "status": "ok",
+      "bytes": 121150,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s02.md"
+    },
+    {
+      "id": 3,
+      "source_key": "ch09-s03",
+      "url": "https://www.bbc.com/news/world-asia-china-55996728",
+      "ok": true,
+      "status": "ok",
+      "bytes": 6923,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s03.md"
+    },
+    {
+      "id": 4,
+      "source_key": "ch09-s04",
+      "url": "https://www.dailymail.co.uk/news/article-9071191/Will-learn-truth-China-pandemic-writes-IAN-BIRRELL.html",
+      "ok": true,
+      "status": "ok",
+      "bytes": 136842,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s04.md"
+    },
+    {
+      "id": 5,
+      "source_key": "ch09-s05",
+      "url": "https://www.politico.com/news/2020/04/27/trump-cuts-research-bat-human-virus-china-213076",
+      "ok": true,
+      "status": "ok",
+      "bytes": 10097,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s05.md"
+    },
+    {
+      "id": 6,
+      "source_key": "ch09-s06",
+      "url": "https://www.science.org/content/article/preposterous-77-nobel-laureates-blast-nih-decision-cancel-coronavirus-grant-demand",
+      "ok": true,
+      "status": "ok",
+      "bytes": 6155,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s06.md"
+    },
+    {
+      "id": 7,
+      "source_key": "ch09-s07",
+      "url": "https://www.theguardian.com/us-news/2020/dec/04/fauci-accepts-biden-offer-chief-medical-adviser",
+      "ok": true,
+      "status": "ok",
+      "bytes": 28835,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s07.md"
+    },
+    {
+      "id": 8,
+      "source_key": "ch09-s08",
+      "url": "",
+      "ok": false,
+      "status": "empty_url",
+      "bytes": 0,
+      "error": null,
+      "reused": false
+    },
+    {
+      "id": 9,
+      "source_key": "ch09-s09",
+      "url": "",
+      "ok": false,
+      "status": "empty_url",
+      "bytes": 0,
+      "error": null,
+      "reused": false
+    },
+    {
+      "id": 10,
+      "source_key": "ch09-s10",
+      "url": "https://www.dailymail.co.uk/news/article-9129681/New-cover-fears-Chinese-officials-delete-critical-data-Wuhan-lab.html",
+      "ok": true,
+      "status": "ok",
+      "bytes": 127360,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s10.md"
+    },
+    {
+      "id": 11,
+      "source_key": "ch09-s11",
+      "url": "https://about.fb.com/news/2020/04/covid-19-misinfo-update/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 11645,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s11.md"
+    },
+    {
+      "id": 12,
+      "source_key": "ch09-s12",
+      "url": "https://www.suomenuutiset.fi/kiista-koronaviruksen-alkuperasta-kiristaa-yhdysvaltain-ja-kiinan-suhteita/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 27160,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s12.md"
+    },
+    {
+      "id": 13,
+      "source_key": "ch09-s13",
+      "url": "https://www.suomenuutiset.fi/yhdysvaltain-vaistyva-ulkoministeri-kritisoi-uiguurien-kansanmurhaa-kiina-asetti-maahantulokiellon/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 25880,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s13.md"
+    },
+    {
+      "id": 14,
+      "source_key": "ch09-s14",
+      "url": "https://thebulletin.org/2021/05/the-origin-of-covid-did-people-or-nature-open-pandoras-box-at-wuhan/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 87612,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s14.md"
+    },
+    {
+      "id": 15,
+      "source_key": "ch09-s15",
+      "url": "https://www.wsj.com/articles/scientists-call-for-deeper-investigation-into-covid-19-origin-11620928801",
+      "ok": true,
+      "status": "ok",
+      "bytes": 28813,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s15.md"
+    },
+    {
+      "id": 16,
+      "source_key": "ch09-s16",
+      "url": "https://www.science.org/doi/10.1126/science.abj0016",
+      "ok": true,
+      "status": "ok",
+      "bytes": 26640,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s16.md"
+    },
+    {
+      "id": 17,
+      "source_key": "ch09-s17",
+      "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228",
+      "ok": true,
+      "status": "ok",
+      "bytes": 29426,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s17.md"
+    },
+    {
+      "id": 18,
+      "source_key": "ch09-s18",
+      "url": "https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/",
+      "ok": true,
+      "status": "ok",
+      "bytes": 8679,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s18.md"
+    },
+    {
+      "id": 19,
+      "source_key": "ch09-s19",
+      "url": "https://www.wsj.com/articles/wuhan-lab-leak-question-chinese-mine-covid-pandemic-11621871125",
+      "ok": true,
+      "status": "ok",
+      "bytes": 19389,
+      "error": null,
+      "reused": false,
+      "artifact": "artifacts/ch09-s19.md"
+    }
+  ]
+}

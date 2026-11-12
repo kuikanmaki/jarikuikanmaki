@@ -200,9 +200,9 @@
           "Cristiano Lima"
         ],
         "orgs": [
+          "Meta",
           "Politico",
-          "Facebook",
-          "Meta"
+          "Facebook"
         ],
         "places": [
           "United States"
@@ -242,19 +242,19 @@
       "summary": "The Hill reports WaPo correcting its Feb 2020 Cotton story—removing ‘debunked’ and ‘conspiracy theory’ because there was then, as now, no determination of the virus’s origins.",
       "book_role": "",
       "topics": [
-        "Washington Post correction",
         "Tom Cotton",
-        "conspiracy theory framing",
-        "lab-leak hypothesis"
+        "lab-leak hypothesis",
+        "Washington Post correction",
+        "conspiracy theory framing"
       ],
       "entities": {
         "people": [
-          "Olafimihan Oshin",
-          "Tom Cotton"
+          "Tom Cotton",
+          "Olafimihan Oshin"
         ],
         "orgs": [
-          "The Hill",
-          "The Washington Post"
+          "The Washington Post",
+          "The Hill"
         ],
         "places": [
           "Wuhan",
@@ -299,9 +299,9 @@
       "summary": "Glenn Kessler Fact Checker timeline on how the Wuhan lab-leak idea moved from dismissed fringe to suddenly credible in spring 2021 as evidence and elite opinion shifted.",
       "book_role": "",
       "topics": [
+        "Wuhan Institute of Virology",
         "lab-leak credibility",
-        "media timeline",
-        "Wuhan Institute of Virology"
+        "media timeline"
       ],
       "entities": {
         "people": [
@@ -355,9 +355,9 @@
       "book_role": "",
       "topics": [
         "Vox",
+        "lab-leak hypothesis",
         "debunking",
-        "editor’s note",
-        "lab-leak hypothesis"
+        "editor’s note"
       ],
       "entities": {
         "people": [
@@ -408,11 +408,11 @@
       "summary": "DocumentCloud landing for the Leopold NIH FOIA dump of Anthony Fauci emails (3,234 pages), including the 1 Feb 2020 note to Hugh Auchincloss on the Baric–Shi Nature Medicine SARS gain-of-function paper.",
       "book_role": "Fauci’s early email forwarding the Baric–Shi Nature Medicine paper amid Proximal Origin’s inception.",
       "topics": [
-        "Fauci emails",
         "Freedom of Information requests",
         "gain-of-function research",
-        "Baric-Shi",
-        "Hugh Auchincloss"
+        "Hugh Auchincloss",
+        "Fauci emails",
+        "Baric-Shi"
       ],
       "entities": {
         "people": [
@@ -470,22 +470,22 @@
       "summary": "Archived April 17, 2020 task-force briefing transcript; includes press questions tying a Wuhan BSL-4 lab to NIH funding of Chinese research—early public collision of lab-origin and U.S. grant politics later reopened in 2021.",
       "book_role": "",
       "topics": [
+        "Anthony Fauci",
         "Trump briefing",
         "Wuhan lab funding",
-        "NIH grant",
-        "Anthony Fauci"
+        "NIH grant"
       ],
       "entities": {
         "people": [
           "Donald Trump",
-          "Mike Pence",
           "Anthony Fauci",
+          "Mike Pence",
           "Deborah Birx"
         ],
         "orgs": [
-          "White House",
           "NIH",
-          "CDC"
+          "CDC",
+          "White House"
         ],
         "places": [
           "Wuhan",
@@ -534,9 +534,9 @@
       "book_role": "Lancet letter authors’ later competing-interests addendum after floodgates opened.",
       "topics": [
         "Lancet letter (February 2020)",
-        "competing interests",
         "Peter Daszak",
-        "EcoHealth Alliance"
+        "EcoHealth Alliance",
+        "competing interests"
       ],
       "entities": {
         "people": [
@@ -643,8 +643,8 @@
       ],
       "entities": {
         "people": [
-          "Vincent Racaniello",
-          "Peter Daszak"
+          "Peter Daszak",
+          "Vincent Racaniello"
         ],
         "orgs": [
           "This Week in Virology",
@@ -694,10 +694,10 @@
       "summary": "NIH RePORTER record for EcoHealth/Daszak project ‘Understanding the Risk of Bat Coronavirus Emergence’ (2R01AI110964)—the bat-CoV grant at the center of Wuhan collaboration funding fights.",
       "book_role": "",
       "topics": [
-        "NIH grant",
-        "bat coronavirus emergence",
         "Peter Daszak",
-        "EcoHealth Alliance"
+        "EcoHealth Alliance",
+        "NIH grant",
+        "bat coronavirus emergence"
       ],
       "entities": {
         "people": [
@@ -751,19 +751,19 @@
       "book_role": "",
       "topics": [
         "DRASTIC",
+        "lab-leak hypothesis",
         "open-source investigation",
-        "media failure",
-        "lab-leak hypothesis"
+        "media failure"
       ],
       "entities": {
         "people": [
-          "Fred Guterl",
-          "Tom Cotton"
+          "Tom Cotton",
+          "Fred Guterl"
         ],
         "orgs": [
-          "Newsweek",
           "DRASTIC",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Newsweek"
         ],
         "places": [
           "Wuhan",
@@ -819,13 +819,13 @@
       ],
       "entities": {
         "people": [
-          "Charles Small",
-          "Gilles Demaneuf"
+          "Gilles Demaneuf",
+          "Charles Small"
         ],
         "orgs": [
           "Wuhan Institute of Virology",
-          "ResearchGate",
-          "DRASTIC"
+          "DRASTIC",
+          "ResearchGate"
         ],
         "places": [
           "Wuhan",
@@ -879,9 +879,9 @@
           "Miranda Devine"
         ],
         "orgs": [
-          "New York Post",
           "Wuhan Institute of Virology",
-          "WHO"
+          "WHO",
+          "New York Post"
         ],
         "places": [
           "Wuhan",
@@ -924,9 +924,9 @@
       "summary": "Bloom recovers SARS-CoV-2 deep-sequencing data deleted from NIH’s SRA; reconstructed early Wuhan sequences suggest market viruses are not fully representative and the progenitor was closer to bat relatives—undercutting WHO–China market focus.",
       "book_role": "Bloom’s recovery of early Wuhan sequencing data deleted from public archives.",
       "topics": [
+        "Huanan Seafood Market",
         "deleted SRA data",
         "early Wuhan sequences",
-        "Huanan Seafood Market",
         "phylogenetics"
       ],
       "entities": {
@@ -981,9 +981,9 @@
       "book_role": "Birrell reporting on how scientists helped stifle the lab-leak theory.",
       "topics": [
         "Jeremy Farrar",
-        "Feb 1 conference call",
         "Lancet letter (February 2020)",
-        "The proximal origin of SARS-CoV-2"
+        "The proximal origin of SARS-CoV-2",
+        "Feb 1 conference call"
       ],
       "entities": {
         "people": [
@@ -995,9 +995,9 @@
           "Eddie Holmes"
         ],
         "orgs": [
-          "UnHerd",
           "Wellcome Trust",
-          "The Lancet"
+          "The Lancet",
+          "UnHerd"
         ],
         "places": [
           "United Kingdom",
@@ -1055,18 +1055,18 @@
       "summary": "Intercept report that Proximal Origin authors misled Congress about a pending multimillion-dollar NIH/NIAID grant around the time they shaped the natural-origin narrative—meta-debate over how that narrative was crafted.",
       "book_role": "Reporting that a Proximal Origin author misled Congress about a pending NIAID grant.",
       "topics": [
-        "NIH grant",
         "Kristian Andersen",
         "Robert Garry",
         "U.S. Congress",
-        "The proximal origin of SARS-CoV-2"
+        "The proximal origin of SARS-CoV-2",
+        "NIH grant"
       ],
       "entities": {
         "people": [
-          "Ryan Grim",
           "Kristian Andersen",
           "Robert Garry",
-          "Anthony Fauci"
+          "Anthony Fauci",
+          "Ryan Grim"
         ],
         "orgs": [
           "The Intercept",
@@ -1123,8 +1123,8 @@
       "summary": "Mail on Sunday FOI obtained 32 emails about the early UK–US origins teleconference involving Patrick Vallance; nearly every word was redacted—prompting condemnation that government was hiding how scientists flipped from lab-leak suspicion.",
       "book_role": "",
       "topics": [
-        "FOI redactions",
         "Patrick Vallance",
+        "FOI redactions",
         "conference call",
         "Covid origins emails"
       ],

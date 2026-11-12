@@ -7,7 +7,7 @@
       "id": 1,
       "source_key": "ch14-s01",
       "url": "https://x.com/TheSeeker268/status/1439943910390845448",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -28,7 +28,7 @@
       "id": 3,
       "source_key": "ch14-s03",
       "url": "https://www.youtube.com/watch?v=ANRs4DojOek",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -49,7 +49,7 @@
       "id": 5,
       "source_key": "ch14-s05",
       "url": "https://x.com/peterdaszak/status/1337047733253836803",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -59,7 +59,7 @@
       "id": 6,
       "source_key": "ch14-s06",
       "url": "https://twitter.com/PeterDaszak/status/1336998740981403649",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -98,5 +98,7 @@
       "reused": false,
       "artifact": "artifacts/ch14-s09.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

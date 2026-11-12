@@ -17,7 +17,7 @@
       "id": 2,
       "source_key": "ch01-s02",
       "url": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -61,7 +61,7 @@
       "id": 6,
       "source_key": "ch01-s06",
       "url": "https://twitter.com/WHO/status/1217043229427761152",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -71,7 +71,7 @@
       "id": 7,
       "source_key": "ch01-s07",
       "url": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -127,11 +127,13 @@
       "source_key": "ch01-s12",
       "url": "https://www.wsj.com/articles/new-virus-discovered-by-chinese-scientists-investigating-pneumonia-outbreak-11578485668",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 27025,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch01-s12.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

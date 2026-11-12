@@ -8,7 +8,7 @@
       "source_key": "ch13-s01",
       "url": "https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html",
       "ok": true,
-      "status": "ok",
+      "status": "paywall",
       "bytes": 5317,
       "error": null,
       "reused": false,
@@ -18,7 +18,7 @@
       "id": 2,
       "source_key": "ch13-s02",
       "url": "https://x.com/humblesci/status/1416745810608353282",
-      "ok": false,
+      "ok": true,
       "status": "ok",
       "bytes": 0,
       "reused": false,
@@ -57,5 +57,7 @@
       "reused": false,
       "artifact": "artifacts/ch13-s05.md"
     }
-  ]
+  ],
+  "reconciled_at": "2026-11-12T13:32:58.755812+00:00",
+  "reconciled_from": "extended/chapter-*.json"
 }

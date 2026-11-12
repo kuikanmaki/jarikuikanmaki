@@ -140,15 +140,15 @@
       "summary": "House Energy & Commerce release on investigation uncovering the earliest known SARS-CoV-2 sequence released/deleted dynamics.",
       "book_role": "",
       "topics": [
+        "SARS-CoV-2",
         "earliest sequence",
-        "House E&C",
-        "SARS-CoV-2"
+        "House E&C"
       ],
       "entities": {
         "people": [],
         "orgs": [
-          "U.S. House Energy and Commerce Committee",
-          "U.S. House of Representatives"
+          "U.S. House of Representatives",
+          "U.S. House Energy and Commerce Committee"
         ],
         "places": [
           "Wuhan",
@@ -245,8 +245,8 @@
       "summary": "GenBank submission record for BetaCoV/Wuhan/IPBCAMS-WH-01/2019—early Wuhan sequence entry.",
       "book_role": "",
       "topics": [
-        "IPBCAMS-WH-01",
         "GenBank",
+        "IPBCAMS-WH-01",
         "early Wuhan sequence"
       ],
       "entities": {
@@ -255,8 +255,8 @@
         ],
         "orgs": [
           "GenBank",
-          "IPBCAMS",
-          "GenBank (NCBI)"
+          "GenBank (NCBI)",
+          "IPBCAMS"
         ],
         "places": [
           "Wuhan"
@@ -310,8 +310,8 @@
         "people": [],
         "orgs": [
           "GenBank",
-          "NCBI",
-          "GenBank (NCBI)"
+          "GenBank (NCBI)",
+          "NCBI"
         ],
         "places": [
           "Wuhan"
@@ -544,8 +544,8 @@
       "summary": "Congressional hearing with NIAID leadership on pandemic origins, funding, and oversight failures.",
       "book_role": "",
       "topics": [
-        "NIAID hearing",
         "U.S. Congress",
+        "NIAID hearing",
         "oversight"
       ],
       "entities": {
@@ -843,16 +843,16 @@
       "summary": "Congressional/GAO confirmation that U.S. taxpayer dollars flowed to WIV. Only a very thin page fragment was retrieved.",
       "book_role": "",
       "topics": [
+        "Wuhan Institute of Virology",
         "GAO",
-        "taxpayer dollars",
-        "Wuhan Institute of Virology"
+        "taxpayer dollars"
       ],
       "entities": {
         "people": [],
         "orgs": [
-          "GAO",
           "Wuhan Institute of Virology",
-          "U.S. House of Representatives"
+          "U.S. House of Representatives",
+          "GAO"
         ],
         "places": [
           "Wuhan",
@@ -1006,15 +1006,15 @@
       "summary": "FOIA’d China National Virome Project (CNVP) initiative meeting agenda.",
       "book_role": "China National Virome Project agenda showing Daszak, Carroll, and PLA-linked speakers together.",
       "topics": [
+        "Freedom of Information requests",
         "CNVP",
-        "virome project",
-        "Freedom of Information requests"
+        "virome project"
       ],
       "entities": {
         "people": [],
         "orgs": [
-          "China National Virome Project",
-          "U.S. Right to Know"
+          "U.S. Right to Know",
+          "China National Virome Project"
         ],
         "places": [
           "China"
@@ -1055,9 +1055,9 @@
       "summary": "FOIA list of foreign collaborators on U.S. research grants FY2014–2017 including Cao/Wuhan names.",
       "book_role": "",
       "topics": [
+        "Wuhan",
         "foreign collaborators",
-        "U.S. grants",
-        "Wuhan"
+        "U.S. grants"
       ],
       "entities": {
         "people": [
@@ -1160,9 +1160,9 @@
       "summary": "News on a U.S. intelligence agency’s classified analysis offering detailed scientific assessment of origins.",
       "book_role": "",
       "topics": [
+        "lab-leak hypothesis",
         "classified analysis",
-        "intelligence",
-        "lab-leak hypothesis"
+        "intelligence"
       ],
       "entities": {
         "people": [
@@ -1327,8 +1327,8 @@
           "Warren Strobel"
         ],
         "orgs": [
-          "U.S. Department of Energy",
-          "The Wall Street Journal"
+          "The Wall Street Journal",
+          "U.S. Department of Energy"
         ],
         "places": [
           "China"
@@ -1438,8 +1438,8 @@
       "book_role": "",
       "topics": [
         "CIA",
-        "origins assessment",
-        "lab-leak hypothesis"
+        "lab-leak hypothesis",
+        "origins assessment"
       ],
       "entities": {
         "people": [],
@@ -1489,9 +1489,9 @@
       "summary": "Congressional release on CIA whistleblower testimony alleging new COVID-origins information and pressure.",
       "book_role": "",
       "topics": [
+        "U.S. Congress",
         "CIA whistleblower",
-        "COVID origins",
-        "U.S. Congress"
+        "COVID origins"
       ],
       "entities": {
         "people": [],
@@ -1650,8 +1650,8 @@
       "summary": "EcoHealth Alliance statement responding to Andrew Huff’s book.",
       "book_role": "",
       "topics": [
-        "EcoHealth statement",
-        "Andrew Huff"
+        "Andrew Huff",
+        "EcoHealth statement"
       ],
       "entities": {
         "people": [
@@ -1699,9 +1699,9 @@
       "summary": "Congressional hearing with EcoHealth president Peter Daszak. Page failed to load.",
       "book_role": "Daszak’s May 2024 congressional testimony on intelligence contacts.",
       "topics": [
-        "Peter Daszak hearing",
         "EcoHealth Alliance",
-        "U.S. Congress"
+        "U.S. Congress",
+        "Peter Daszak hearing"
       ],
       "entities": {
         "people": [
@@ -1861,8 +1861,8 @@
           "Ralph Baric"
         ],
         "orgs": [
-          "U.S. House Oversight Committee",
-          "U.S. Congress"
+          "U.S. Congress",
+          "U.S. House Oversight Committee"
         ],
         "places": [
           "United States"
@@ -1904,9 +1904,9 @@
       "summary": "Report that a prominent virologist warned the intelligence community COVID could have a lab origin.",
       "book_role": "",
       "topics": [
+        "lab-leak hypothesis",
         "virologist warning",
-        "intelligence community",
-        "lab-leak hypothesis"
+        "intelligence community"
       ],
       "entities": {
         "people": [],
@@ -2051,9 +2051,9 @@
       "summary": "Research note on EcoHealth documents made public by Congress—including Daszak calendar findings.",
       "book_role": "",
       "topics": [
+        "U.S. Congress",
         "EcoHealth documents",
-        "Daszak calendar",
-        "U.S. Congress"
+        "Daszak calendar"
       ],
       "entities": {
         "people": [
@@ -2218,8 +2218,8 @@
       ],
       "entities": {
         "people": [
-          "Joe Rogan",
-          "Mark Zuckerberg"
+          "Mark Zuckerberg",
+          "Joe Rogan"
         ],
         "orgs": [],
         "places": [
@@ -2424,9 +2424,9 @@
       "summary": "Presentation on SARS, MERS and novel viral emergence from bats. Only a minimal fragment was retrieved.",
       "book_role": "",
       "topics": [
-        "bat emergence",
         "SARS",
-        "MERS"
+        "MERS",
+        "bat emergence"
       ],
       "entities": {
         "people": [
@@ -2480,8 +2480,8 @@
       "book_role": "Morens emails to Daszak and Proximal Origin authors after FOIA releases.",
       "topics": [
         "Peter Daszak",
-        "email",
-        "Freedom of Information requests"
+        "Freedom of Information requests",
+        "email"
       ],
       "entities": {
         "people": [
@@ -2530,8 +2530,8 @@
       "summary": "Rand Paul issues subpoenas to fourteen agencies on COVID origins.",
       "book_role": "",
       "topics": [
-        "subpoenas",
         "Rand Paul",
+        "subpoenas",
         "fourteen agencies"
       ],
       "entities": {
@@ -2684,18 +2684,18 @@
       "summary": "House Oversight release: after an eight-month investigation HHS cut off all funding and formally debarred EcoHealth Alliance and its former president Peter Daszak.",
       "book_role": "",
       "topics": [
-        "HHS debarment",
         "EcoHealth Alliance",
-        "Peter Daszak"
+        "Peter Daszak",
+        "HHS debarment"
       ],
       "entities": {
         "people": [
           "Peter Daszak"
         ],
         "orgs": [
-          "HHS",
           "EcoHealth Alliance",
-          "U.S. House of Representatives"
+          "U.S. House of Representatives",
+          "HHS"
         ],
         "places": [
           "United States"
@@ -2742,8 +2742,8 @@
       "book_role": "",
       "topics": [
         "Anthony Fauci",
-        "deleted records",
-        "Rand Paul"
+        "Rand Paul",
+        "deleted records"
       ],
       "entities": {
         "people": [
@@ -2800,9 +2800,9 @@
       "summary": "ABC News: Biden issues preemptive pardons to potential Trump-admin targets including Anthony Fauci, Mark Milley, and Jan. 6 committee members hours before the transition.",
       "book_role": "",
       "topics": [
-        "preemptive pardon",
         "Anthony Fauci",
-        "Joe Biden"
+        "Joe Biden",
+        "preemptive pardon"
       ],
       "entities": {
         "people": [
@@ -2811,8 +2811,8 @@
           "Mark Milley"
         ],
         "orgs": [
-          "White House",
-          "ABC News"
+          "ABC News",
+          "White House"
         ],
         "places": [
           "United States"
