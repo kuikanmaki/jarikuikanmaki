@@ -8,8 +8,8 @@ For the full data dictionary, workflows, and integrity checklist, see **[../READ
 |---|---|
 | `chapter-*.json` | Canonical bibliographic + acquisition fields (`status`, `url`, `artifact`, `acquisition_note`, authority ids) |
 | `artifacts/` | Captured text/PDF extracts (gitignored); paths referenced from chapter records |
-| `url-cache.json` | **Pipeline cache only** — rebuilt from chapter records; not a second catalog |
-| `logs/` | Scrape run journals; reconciled to chapter status but not visitor-facing |
-| `image-url-cache.json` | Enrichment cache for `image_url` |
+| `url-cache.json` | **Pipeline cache only** (gitignored) — rebuilt from chapter records |
+| `logs/` | Scrape run journals (gitignored); not visitor-facing |
+| `image-url-cache.json` | Enrichment cache for `image_url` (gitignored) |
 
 Visitor-facing data is generated into `../corpus-index.json` and `../authority-search-index.json`.

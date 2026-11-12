@@ -40,8 +40,8 @@ The corpus follows a common digital-library split:
 | Public browse cards | `corpus-index.json` | **No** — regenerate |
 | Keyword search index | `authority-search-index.json` | **No** — regenerate |
 | Chapter shelf list | `sources-index.json` | Prefer regenerate from extended |
-| Scrape cache / logs | `extended/url-cache.json`, `extended/logs/` | Pipeline only; not the catalog |
-| Pre-cleanup legacy copies | `_archive/YYYY-MM-DD/` | Read-only safety copies |
+| Scrape cache / logs | `extended/url-cache.json`, `extended/logs/` | Local only (gitignored); pipeline, not the catalog |
+| Pre-cleanup legacy copies | `_archive/YYYY-MM-DD/` | Local only (gitignored); read-only safety copies |
 
 Legacy top-level `data/chapter-*.json` files were removed from the live tree (archived 2026-11-12). Do not recreate them as a parallel bib store.
 
