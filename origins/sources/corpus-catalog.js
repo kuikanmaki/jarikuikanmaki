@@ -225,7 +225,13 @@
 
     var chName = chapterLabel(view.chapter);
     var meta = (corpus.chapters || []).find(function (c) { return c.number === view.chapter; });
-    headingEl.textContent = meta ? meta.name + " — " + meta.title : chName;
+    // Prologue title already includes "Prologue:"; avoid "Prologue — Prologue: …"
+    if (meta && meta.title) {
+      var titleStartsWithName = meta.name && meta.title.indexOf(meta.name) === 0;
+      headingEl.textContent = titleStartsWithName ? meta.title : (meta.name + " — " + meta.title);
+    } else {
+      headingEl.textContent = chName;
+    }
     statusEl.hidden = true;
     statusEl.textContent = "";
     pagerEl.hidden = true;
