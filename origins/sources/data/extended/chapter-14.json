@@ -14,7 +14,7 @@
       "publication": "X (Twitter)",
       "date": "September 20, 2021",
       "url": "https://x.com/TheSeeker268/status/1439943910390845448",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
@@ -59,7 +59,7 @@
       },
       "source_key": "ch14-s01",
       "date_iso": "2021-09-20",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": [
         "org:twitter"
@@ -147,7 +147,7 @@
       "publication": "Sky News Australia",
       "date": "June 13, 2021",
       "url": "https://www.youtube.com/watch?v=ANRs4DojOek",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "video",
       "language": "en",
@@ -188,7 +188,7 @@
       },
       "source_key": "ch14-s03",
       "date_iso": "2021-06-13",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "author_ids": [
         "person:sharri-markson"
       ],
@@ -263,7 +263,7 @@
       "publication": "Twitter",
       "date": "December 10, 2020",
       "url": "https://x.com/peterdaszak/status/1337047733253836803",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
@@ -304,7 +304,7 @@
       },
       "source_key": "ch14-s05",
       "date_iso": "2020-12-10",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [
         "person:peter-daszak"
       ],
@@ -320,7 +320,7 @@
       "publication": "Twitter",
       "date": "December 10, 2020",
       "url": "https://twitter.com/PeterDaszak/status/1336998740981403649",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
@@ -362,7 +362,7 @@
       },
       "source_key": "ch14-s06",
       "date_iso": "2020-12-10",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [
         "person:peter-daszak"
       ],

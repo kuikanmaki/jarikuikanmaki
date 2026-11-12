@@ -8,10 +8,10 @@
       "source_key": "ch04-s01",
       "url": "https://www.youtube.com/watch?v=9T40bgtABno",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy."
     },
     {
       "id": 2,
@@ -51,10 +51,10 @@
       "source_key": "ch04-s05",
       "url": "https://twitter.com/neil_ferguson/status/1221048222820524032",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy."
     },
     {
       "id": 6,

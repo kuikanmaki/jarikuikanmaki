@@ -633,7 +633,7 @@
       "publication": "ABC News",
       "date": "May 3, 2020",
       "url": "https://youtu.be/fRea4yIE7_8?t=468",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "video",
       "language": "en",
@@ -673,7 +673,7 @@
       },
       "source_key": "ch08-s13",
       "date_iso": "2020-05-03",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "topic_ids": [
         "person:mike-pompeo"
       ],

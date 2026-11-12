@@ -14,7 +14,7 @@
       "publication": "Jari & Otto Show",
       "date": "January 28, 2020",
       "url": "https://www.youtube.com/watch?v=9T40bgtABno",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "video",
       "language": "fi",
@@ -56,7 +56,7 @@
       },
       "source_key": "ch04-s01",
       "date_iso": "2020-01-28",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:otto-juote"
@@ -237,7 +237,7 @@
       "publication": "Twitter",
       "date": "January 25, 2020",
       "url": "https://twitter.com/neil_ferguson/status/1221048222820524032",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
@@ -279,7 +279,7 @@
       ],
       "source_key": "ch04-s05",
       "date_iso": "2020-01-25",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [
         "person:neil-ferguson"
       ],

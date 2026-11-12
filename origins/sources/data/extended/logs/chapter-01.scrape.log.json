@@ -62,10 +62,10 @@
       "source_key": "ch01-s06",
       "url": "https://twitter.com/WHO/status/1217043229427761152",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy."
     },
     {
       "id": 7,

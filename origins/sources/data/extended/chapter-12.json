@@ -869,7 +869,7 @@
       "publication": "C-SPAN",
       "date": "January 11, 2022",
       "url": "https://www.youtube.com/watch?v=kz7OGxb9X6E",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "video",
       "language": "en",
@@ -915,7 +915,7 @@
       },
       "source_key": "ch12-s16",
       "date_iso": "2022-01-11",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": []
     }

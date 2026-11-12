@@ -140,10 +140,10 @@
       "source_key": "ch08-s13",
       "url": "https://youtu.be/fRea4yIE7_8?t=468",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy."
     },
     {
       "id": 14,

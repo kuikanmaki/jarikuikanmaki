@@ -8,10 +8,10 @@
       "source_key": "ch07-s01",
       "url": "https://youtu.be/qvNITz_tzhg",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy."
     },
     {
       "id": 2,

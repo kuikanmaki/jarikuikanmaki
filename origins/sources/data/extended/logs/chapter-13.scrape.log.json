@@ -19,10 +19,10 @@
       "source_key": "ch13-s02",
       "url": "https://x.com/humblesci/status/1416745810608353282",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy."
     },
     {
       "id": 3,

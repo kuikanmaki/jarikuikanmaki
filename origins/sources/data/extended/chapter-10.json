@@ -630,7 +630,7 @@
       "publication": "This Week in Virology",
       "date": "May 19, 2020",
       "url": "https://www.youtube.com/watch?v=IdYDL_RK--w",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "video",
       "language": "en",
@@ -671,7 +671,7 @@
       },
       "source_key": "ch10-s12",
       "date_iso": "2020-05-19",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "author_ids": [
         "person:vincent-racaniello"
       ],

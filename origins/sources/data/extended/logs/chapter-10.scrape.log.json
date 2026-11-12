@@ -129,10 +129,10 @@
       "source_key": "ch10-s12",
       "url": "https://www.youtube.com/watch?v=IdYDL_RK--w",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy."
     },
     {
       "id": 13,

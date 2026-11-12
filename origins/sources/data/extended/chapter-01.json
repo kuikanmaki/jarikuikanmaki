@@ -260,7 +260,7 @@
       "publication": "WHO",
       "date": "January 14, 2020",
       "url": "https://twitter.com/WHO/status/1217043229427761152",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
@@ -297,7 +297,7 @@
       },
       "source_key": "ch01-s06",
       "date_iso": "2020-01-14",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": [
         "org:who"

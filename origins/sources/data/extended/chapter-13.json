@@ -74,7 +74,7 @@
       "publication": "X (Twitter)",
       "date": "July 18, 2021",
       "url": "https://x.com/humblesci/status/1416745810608353282",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
@@ -104,7 +104,7 @@
       },
       "source_key": "ch13-s02",
       "date_iso": "2021-07-18",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": [
         "org:twitter"

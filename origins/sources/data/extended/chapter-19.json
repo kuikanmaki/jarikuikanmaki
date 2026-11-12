@@ -1940,7 +1940,7 @@
       "publication": "U.S. House of Representatives",
       "date": "February 26, 2020",
       "url": "https://www.youtube.com/watch?v=BE_H7dTqJXU",
-      "status": "skipped",
+      "status": "ok",
       "artifact": null,
       "content_kind": "video",
       "language": "en",
@@ -1974,7 +1974,7 @@
       },
       "source_key": "ch19-s39",
       "date_iso": "2020-02-26",
-      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "author_ids": [
         "person:ralph-baric"
       ],

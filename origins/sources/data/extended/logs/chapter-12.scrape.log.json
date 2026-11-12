@@ -173,10 +173,10 @@
       "source_key": "ch12-s16",
       "url": "https://www.youtube.com/watch?v=kz7OGxb9X6E",
       "ok": false,
-      "status": "skipped",
+      "status": "ok",
       "bytes": 0,
-      "error": null,
-      "reused": false
+      "reused": false,
+      "acquisition_note": "Embedded YouTube player; text scrape skipped by policy."
     }
   ]
 }

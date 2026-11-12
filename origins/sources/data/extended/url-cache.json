@@ -77,7 +77,7 @@
   "https://twitter.com/WHO/status/1217043229427761152": {
     "source_key": "ch01-s06",
     "artifact": null,
-    "status": "skipped"
+    "status": "ok"
   },
   "https://www.cambridgeworkinggroup.org/": {
     "source_key": "ch01-s08",
@@ -1427,6 +1427,66 @@
   "https://web.archive.org/web/20240528232631/https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html": {
     "source_key": "ch19-s13",
     "artifact": "artifacts/ch19-s13.md",
+    "status": "ok"
+  },
+  "https://www.youtube.com/watch?v=9T40bgtABno": {
+    "source_key": "ch04-s01",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://twitter.com/neil_ferguson/status/1221048222820524032": {
+    "source_key": "ch04-s05",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://youtu.be/qvNITz_tzhg": {
+    "source_key": "ch07-s01",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://youtu.be/fRea4yIE7_8?t=468": {
+    "source_key": "ch08-s13",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://www.youtube.com/watch?v=IdYDL_RK--w": {
+    "source_key": "ch10-s12",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://www.youtube.com/watch?v=kz7OGxb9X6E": {
+    "source_key": "ch12-s16",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://x.com/humblesci/status/1416745810608353282": {
+    "source_key": "ch13-s02",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://x.com/TheSeeker268/status/1439943910390845448": {
+    "source_key": "ch14-s01",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://www.youtube.com/watch?v=ANRs4DojOek": {
+    "source_key": "ch14-s03",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://x.com/peterdaszak/status/1337047733253836803": {
+    "source_key": "ch14-s05",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://twitter.com/PeterDaszak/status/1336998740981403649": {
+    "source_key": "ch14-s06",
+    "artifact": null,
+    "status": "ok"
+  },
+  "https://www.youtube.com/watch?v=BE_H7dTqJXU": {
+    "source_key": "ch19-s39",
+    "artifact": null,
     "status": "ok"
   }
 }
