@@ -49,8 +49,9 @@ def main() -> None:
             kind = source.get("content_kind") or "unknown"
             entity_ids = source.get("entity_ids") or {}
             author_ids = list(source.get("author_ids") or [])
+            publication_ids = list(source.get("publication_ids") or [])
             authority_ids = list(source.get("topic_ids") or [])
-            for aid in author_ids:
+            for aid in author_ids + publication_ids:
                 if aid not in authority_ids:
                     authority_ids.append(aid)
             for bucket in ("people", "orgs", "places"):
@@ -69,6 +70,7 @@ def main() -> None:
                     "author_ids": author_ids,
                     "title": source.get("title") or "",
                     "publication": source.get("publication") or "",
+                    "publication_ids": publication_ids,
                     "date": source.get("date") or "",
                     "date_iso": source.get("date_iso") or "",
                     "url": source.get("url") or "",

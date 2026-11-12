@@ -67,6 +67,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:peng-zhou"
+      ],
+      "publication_ids": [
+        "org:nature"
       ]
     },
     {
@@ -125,6 +128,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:david-cyranoski"
+      ],
+      "publication_ids": [
+        "org:nature"
       ]
     },
     {
@@ -169,7 +175,8 @@
       "date_iso": "2020-02-13",
       "image_url": "https://images.barrons.com/im-154315/?width=639&height=426",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 4,
@@ -214,7 +221,9 @@
           "person:xiao-botao",
           "person:xiao-lei"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:researchgate"
+        ],
         "places": [
           "place:wuhan",
           "place:china"
@@ -227,6 +236,9 @@
       "author_ids": [
         "person:xiao-botao",
         "person:xiao-lei"
+      ],
+      "publication_ids": [
+        "org:researchgate"
       ]
     },
     {
@@ -291,7 +303,10 @@
       "date_iso": "2020-02-16",
       "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:daily-mail"
+      ]
     },
     {
       "id": 6,
@@ -352,6 +367,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:vineet-menachery"
+      ],
+      "publication_ids": [
+        "org:nature-medicine"
       ]
     }
   ]

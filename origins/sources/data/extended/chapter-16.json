@@ -50,7 +50,8 @@
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:new-york-post"
         ],
         "places": [
           "place:wuhan",
@@ -61,7 +62,10 @@
       "date_iso": "2021-07-01",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2021/07/pentagon-ecohealth-alliance-696.jpg?quality=75&#038;strip=all&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:new-york-post"
+      ]
     },
     {
       "id": 2,
@@ -120,7 +124,10 @@
       "date_iso": "2021-10-01",
       "image_url": "https://theintercept.com/wp-content/uploads/2021/10/2CTT5TC-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-intercept"
+      ]
     },
     {
       "id": 3,
@@ -169,7 +176,8 @@
         ],
         "orgs": [
           "org:ecohealth-alliance",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:vanity-fair"
         ],
         "places": [
           "place:wuhan",
@@ -182,6 +190,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:katherine-eban"
+      ],
+      "publication_ids": [
+        "org:vanity-fair"
       ]
     },
     {
@@ -222,7 +233,10 @@
       },
       "source_key": "ch16-s04",
       "acquisition_note": "DNS resolution failed at scrape time.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:global-virome-project"
+      ]
     },
     {
       "id": 5,
@@ -263,7 +277,8 @@
       "source_key": "ch16-s05",
       "image_url": "https://d34w7g4gy10iej.cloudfront.net/graphics/2510/38614.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 6,
@@ -310,7 +325,8 @@
       "source_key": "ch16-s06",
       "date_iso": "2019-08-19",
       "acquisition_note": "Scrape failed.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 7,
@@ -354,7 +370,8 @@
           "person:katherine-eban"
         ],
         "orgs": [
-          "org:u-s-department-of-state"
+          "org:u-s-department-of-state",
+          "org:vanity-fair"
         ],
         "places": [
           "place:wuhan",
@@ -367,6 +384,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:katherine-eban"
+      ],
+      "publication_ids": [
+        "org:vanity-fair"
       ]
     },
     {
@@ -412,7 +432,8 @@
       "source_key": "ch16-s08",
       "date_iso": "2019-10-22",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 9,
@@ -457,7 +478,8 @@
       "source_key": "ch16-s09",
       "date_iso": "2014-06-12",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 10,
@@ -517,7 +539,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:shi-zhengli"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 11,
@@ -573,7 +596,10 @@
       "date_iso": "2021-06-21",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/a1c7dba2-d262-11eb-b50d-ece47261907f.jpg?amp;sourceHeight=3093&#038;strip=all&#038;format=webp&#038;crop=0px%2C242px%2C4639px%2C2610px&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-times"
+      ]
     },
     {
       "id": 12,
@@ -620,7 +646,8 @@
         ],
         "orgs": [
           "org:ecohealth-alliance",
-          "org:niaid"
+          "org:niaid",
+          "org:white-coat-waste-project"
         ],
         "places": [
           "place:united-states"
@@ -631,6 +658,9 @@
       "acquisition_note": "Scrape failed; citation retained from bibliography.",
       "author_ids": [
         "person:peter-daszak"
+      ],
+      "publication_ids": [
+        "org:white-coat-waste-project"
       ]
     },
     {
@@ -679,7 +709,10 @@
       "source_key": "ch16-s13",
       "date_iso": "2018-11-30",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:wuhan-institute-of-virology"
+      ]
     }
   ]
 }

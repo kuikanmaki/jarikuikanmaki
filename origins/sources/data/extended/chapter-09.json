@@ -61,7 +61,10 @@
       "date_iso": "2021-01-05",
       "image_url": "https://i.guim.co.uk/img/media/1cbf118f5bcae0749bf1670e24ba6fd99f28439f/210_31_1505_903/master/1505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=45f17cd2647be2c8a7b5d64656aee188",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-guardian"
+      ]
     },
     {
       "id": 2,
@@ -110,7 +113,10 @@
       "source_key": "ch09-s02",
       "date_iso": "2021-01-14",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:associated-press"
+      ]
     },
     {
       "id": 3,
@@ -142,7 +148,8 @@
         "orgs": [
           "BBC",
           "WHO",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "BBC News"
         ],
         "places": [
           "Wuhan",
@@ -160,7 +167,8 @@
         ],
         "orgs": [
           "org:who",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:bbc-news"
         ],
         "places": [
           "place:wuhan",
@@ -171,7 +179,10 @@
       "date_iso": "2021-02-09",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/171C2/production/_116885649_mediaitem116885648.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:bbc-news"
+      ]
     },
     {
       "id": 4,
@@ -239,6 +250,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
       ]
     },
     {
@@ -286,7 +300,8 @@
         ],
         "orgs": [
           "org:nih",
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:politico"
         ],
         "places": [
           "place:china",
@@ -296,7 +311,10 @@
       "source_key": "ch09-s05",
       "date_iso": "2020-04-27",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:politico"
+      ]
     },
     {
       "id": 6,
@@ -354,7 +372,10 @@
       "source_key": "ch09-s06",
       "date_iso": "2020-05-21",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:science"
+      ]
     },
     {
       "id": 7,
@@ -408,7 +429,10 @@
       "date_iso": "2020-12-04",
       "image_url": "https://i.guim.co.uk/img/media/936eb15416a692d2f2f32c7ac6692c706bd5c070/0_120_3600_2161/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c47e1df9362b0549859622cee80a96e4",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-guardian"
+      ]
     },
     {
       "id": 8,
@@ -466,6 +490,9 @@
       "acquisition_note": "No URL in source data; citation retained from bibliography.",
       "author_ids": [
         "person:peter-daszak"
+      ],
+      "publication_ids": [
+        "org:twitter"
       ]
     },
     {
@@ -525,6 +552,9 @@
       "acquisition_note": "No URL in source data; citation retained.",
       "author_ids": [
         "person:peter-daszak"
+      ],
+      "publication_ids": [
+        "org:twitter"
       ]
     },
     {
@@ -584,7 +614,10 @@
       "date_iso": "2021-01-09",
       "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:daily-mail"
+      ]
     },
     {
       "id": 11,
@@ -629,7 +662,10 @@
       "date_iso": "2020-04-16",
       "image_url": "https://about.fb.com/wp-content/uploads/2020/04/NRP-COVID_Misinfo_Update_inline-1.jpg?resize=960%2C640",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:meta"
+      ]
     },
     {
       "id": 12,
@@ -672,7 +708,9 @@
           "person:donald-trump",
           "person:mike-pompeo"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:suomen-uutiset"
+        ],
         "places": [
           "place:united-states",
           "place:china",
@@ -689,6 +727,9 @@
       ],
       "author_ids": [
         "person:jari-kuikanmaki"
+      ],
+      "publication_ids": [
+        "org:suomen-uutiset"
       ]
     },
     {
@@ -735,7 +776,8 @@
           "person:donald-trump"
         ],
         "orgs": [
-          "org:u-s-department-of-state"
+          "org:u-s-department-of-state",
+          "org:suomen-uutiset"
         ],
         "places": [
           "place:china",
@@ -748,6 +790,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jari-kuikanmaki"
+      ],
+      "publication_ids": [
+        "org:suomen-uutiset"
       ]
     },
     {
@@ -801,7 +846,8 @@
         ],
         "orgs": [
           "org:ecohealth-alliance",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:bulletin-of-the-atomic-scientists"
         ],
         "places": [
           "place:wuhan",
@@ -814,6 +860,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:nicholas-wade"
+      ],
+      "publication_ids": [
+        "org:bulletin-of-the-atomic-scientists"
       ]
     },
     {
@@ -866,7 +915,10 @@
       "date_iso": "2021-05-13",
       "image_url": "https://images.wsj.net/im-86307786?width=330&height=185",
       "acquisition_note": "Opening paragraphs retrieved before the paywall.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ]
     },
     {
       "id": 16,
@@ -916,7 +968,10 @@
       "date_iso": "2021-05-14",
       "image_url": "https://www.science.org/cms/asset/2b03471c-1d31-4cfd-9cda-a9eb9a0c4f00/science.2021.372.issue-6543.cover.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:science"
+      ]
     },
     {
       "id": 17,
@@ -973,7 +1028,10 @@
       "date_iso": "2021-05-23",
       "image_url": "https://images.wsj.net/im-86307786?width=330&height=185",
       "acquisition_note": "Partial text before paywall.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ]
     },
     {
       "id": 18,
@@ -1031,7 +1089,8 @@
       "date_iso": "2021-01-15",
       "image_url": "https://2017-2021.state.gov/wp-content/uploads/2019/12/dos_seal.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 19,
@@ -1089,7 +1148,10 @@
       "date_iso": "2021-05-24",
       "image_url": "https://images.wsj.net/im-342289/square?width=1280&height=1280",
       "acquisition_note": "Substantial opening retrieved before paywall.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ]
     }
   ]
 }

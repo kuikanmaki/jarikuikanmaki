@@ -32,7 +32,8 @@
         ],
         "orgs": [
           "GenBank",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "GenBank (NCBI)"
         ],
         "places": [
           "Yunnan"
@@ -49,7 +50,8 @@
         ],
         "orgs": [
           "org:genbank",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:genbank-ncbi"
         ],
         "places": [
           "place:yunnan"
@@ -61,6 +63,9 @@
       "author_ids": [
         "person:shi-zhengli",
         "person:edward-holmes"
+      ],
+      "publication_ids": [
+        "org:genbank-ncbi"
       ]
     },
     {
@@ -117,7 +122,8 @@
       "date_iso": "2022-12-04",
       "image_url": "https://www.washingtonexaminer.com/wp-content/uploads/2025/09/wex_yoast_1200_v4.png?resize=1200,683",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 3,
@@ -141,7 +147,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "U.S. House Energy and Commerce Committee"
+          "U.S. House Energy and Commerce Committee",
+          "U.S. House of Representatives"
         ],
         "places": [
           "Wuhan",
@@ -153,7 +160,9 @@
       ],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:u-s-house-of-representatives"
+        ],
         "places": [
           "place:wuhan",
           "place:china"
@@ -162,7 +171,10 @@
       "source_key": "ch19-s03",
       "date_iso": "2024-01-17",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-house-of-representatives"
+      ]
     },
     {
       "id": 4,
@@ -187,7 +199,9 @@
         "people": [
           "Warren Strobel"
         ],
-        "orgs": [],
+        "orgs": [
+          "The Wall Street Journal"
+        ],
         "places": [
           "China",
           "Wuhan"
@@ -197,7 +211,9 @@
         "people": [
           "person:warren-strobel"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:the-wall-street-journal"
+        ],
         "places": [
           "place:china",
           "place:wuhan"
@@ -209,6 +225,9 @@
       "acquisition_note": "Headline and paywall chrome retrieved.",
       "author_ids": [
         "person:warren-strobel"
+      ],
+      "publication_ids": [
+        "org:the-wall-street-journal"
       ]
     },
     {
@@ -236,7 +255,8 @@
         ],
         "orgs": [
           "GenBank",
-          "IPBCAMS"
+          "IPBCAMS",
+          "GenBank (NCBI)"
         ],
         "places": [
           "Wuhan"
@@ -250,7 +270,8 @@
           "person:lili-ren"
         ],
         "orgs": [
-          "org:genbank"
+          "org:genbank",
+          "org:genbank-ncbi"
         ],
         "places": [
           "place:wuhan"
@@ -261,6 +282,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:lili-ren"
+      ],
+      "publication_ids": [
+        "org:genbank-ncbi"
       ]
     },
     {
@@ -286,7 +310,8 @@
         "people": [],
         "orgs": [
           "GenBank",
-          "NCBI"
+          "NCBI",
+          "GenBank (NCBI)"
         ],
         "places": [
           "Wuhan"
@@ -295,7 +320,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:genbank"
+          "org:genbank",
+          "org:genbank-ncbi"
         ],
         "places": [
           "place:wuhan"
@@ -304,7 +330,10 @@
       "source_key": "ch19-s06",
       "date_iso": "2020-01-16",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:genbank-ncbi"
+      ]
     },
     {
       "id": 7,
@@ -330,7 +359,8 @@
           "Edward Holmes"
         ],
         "orgs": [
-          "GenBank"
+          "GenBank",
+          "Twitter (X)"
         ],
         "places": []
       },
@@ -342,7 +372,8 @@
           "person:edward-holmes"
         ],
         "orgs": [
-          "org:genbank"
+          "org:genbank",
+          "org:twitter-x"
         ],
         "places": []
       },
@@ -352,6 +383,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:edward-holmes"
+      ],
+      "publication_ids": [
+        "org:twitter-x"
       ]
     },
     {
@@ -393,7 +427,8 @@
       "date_iso": "2024-01-19",
       "image_url": "https://substackcdn.com/image/fetch/$s_!6nh-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b6f7c19-c791-455e-99c1-b6ad105a8f39_1736x1050.jpeg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 9,
@@ -417,7 +452,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "NIH"
+          "NIH",
+          "The Intercept"
         ],
         "places": [
           "United States"
@@ -429,7 +465,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:nih"
+          "org:nih",
+          "org:the-intercept"
         ],
         "places": [
           "place:united-states"
@@ -439,7 +476,10 @@
       "date_iso": "2023-06-29",
       "image_url": "https://theintercept.com/wp-content/uploads/2023/06/AP090817020267-NIH-hero.jpg?fit=2016%2C1008&#038;w=1200&#038;h=800",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-intercept"
+      ]
     },
     {
       "id": 10,
@@ -463,7 +503,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "NIH"
+          "NIH",
+          "New York Post"
         ],
         "places": [
           "United States"
@@ -472,7 +513,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:nih"
+          "org:nih",
+          "org:new-york-post"
         ],
         "places": [
           "place:united-states"
@@ -482,7 +524,10 @@
       "date_iso": "2024-05-22",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/06/NYPICHPDPICT000013390615.jpg?quality=75&#038;strip=all&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:new-york-post"
+      ]
     },
     {
       "id": 11,
@@ -533,7 +578,10 @@
       "source_key": "ch19-s11",
       "date_iso": "2024-05-22",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 12,
@@ -582,7 +630,10 @@
       "source_key": "ch19-s12",
       "date_iso": "2024-10-04",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 13,
@@ -624,7 +675,10 @@
       "source_key": "ch19-s13",
       "date_iso": "2024-05-28",
       "acquisition_note": "NYT blocked by Firecrawl.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ]
     },
     {
       "id": 14,
@@ -652,7 +706,8 @@
           "Emily Kopp"
         ],
         "orgs": [
-          "NIH"
+          "NIH",
+          "U.S. Right to Know"
         ],
         "places": [
           "United States"
@@ -668,7 +723,8 @@
           "person:emily-kopp"
         ],
         "orgs": [
-          "org:nih"
+          "org:nih",
+          "org:u-s-right-to-know"
         ],
         "places": [
           "place:united-states"
@@ -680,6 +736,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -716,7 +775,8 @@
         "people": [],
         "orgs": [],
         "places": []
-      }
+      },
+      "publication_ids": []
     },
     {
       "id": 16,
@@ -739,7 +799,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "The Sunday Times"
         ],
         "places": [
           "Wuhan"
@@ -751,7 +812,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:the-sunday-times"
         ],
         "places": [
           "place:wuhan"
@@ -761,7 +823,10 @@
       "date_iso": "2023-06-10",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/5aedcbf4-06ec-11ee-a1e5-6222cf71d60e.jpg?amp;sourceHeight=886&#038;strip=all&#038;format=webp&#038;crop=0px%2C0px%2C1575px%2C886px&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-sunday-times"
+      ]
     },
     {
       "id": 17,
@@ -786,7 +851,8 @@
         "people": [],
         "orgs": [
           "GAO",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "U.S. House of Representatives"
         ],
         "places": [
           "Wuhan",
@@ -799,7 +865,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:u-s-house-of-representatives"
         ],
         "places": [
           "place:wuhan",
@@ -809,7 +876,10 @@
       "source_key": "ch19-s17",
       "date_iso": "2023-06-14",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-house-of-representatives"
+      ]
     },
     {
       "id": 18,
@@ -836,7 +906,8 @@
         ],
         "orgs": [
           "U.S. Department of State",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "U.S. Right to Know"
         ],
         "places": [
           "Wuhan"
@@ -848,7 +919,8 @@
         ],
         "orgs": [
           "org:u-s-department-of-state",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:u-s-right-to-know"
         ],
         "places": [
           "place:wuhan"
@@ -860,6 +932,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -886,7 +961,8 @@
           "Ian Birrell"
         ],
         "orgs": [
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Daily Mail"
         ],
         "places": [
           "Wuhan"
@@ -897,7 +973,8 @@
           "person:ian-birrell"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:daily-mail"
         ],
         "places": [
           "place:wuhan"
@@ -909,6 +986,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
       ]
     },
     {
@@ -933,7 +1013,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "China National Virome Project"
+          "China National Virome Project",
+          "U.S. Right to Know"
         ],
         "places": [
           "China"
@@ -944,7 +1025,9 @@
       ],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:u-s-right-to-know"
+        ],
         "places": [
           "place:china"
         ]
@@ -952,7 +1035,10 @@
       "source_key": "ch19-s20",
       "date_iso": "2017-02-07",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ]
     },
     {
       "id": 21,
@@ -978,7 +1064,8 @@
           "Cao Wu"
         ],
         "orgs": [
-          "NIH"
+          "NIH",
+          "U.S. Right to Know"
         ],
         "places": [
           "China",
@@ -988,7 +1075,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:nih"
+          "org:nih",
+          "org:u-s-right-to-know"
         ],
         "places": [
           "place:china",
@@ -1001,7 +1089,11 @@
       "source_key": "ch19-s21",
       "date_iso": "2022-06-17",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:nih",
+        "org:u-s-right-to-know"
+      ]
     },
     {
       "id": 23,
@@ -1025,7 +1117,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Defense Intelligence Agency"
+          "Defense Intelligence Agency",
+          "U.S. Right to Know"
         ],
         "places": [
           "Wuhan",
@@ -1035,7 +1128,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:defense-intelligence-agency"
+          "org:defense-intelligence-agency",
+          "org:u-s-right-to-know"
         ],
         "places": [
           "place:wuhan",
@@ -1045,7 +1139,11 @@
       "source_key": "ch19-s23",
       "date_iso": "2020-06-25",
       "acquisition_note": "File exceeded Firecrawl size limit.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:defense-intelligence-agency",
+        "org:u-s-right-to-know"
+      ]
     },
     {
       "id": 24,
@@ -1070,7 +1168,9 @@
         "people": [
           "Lewis Kamb"
         ],
-        "orgs": [],
+        "orgs": [
+          "U.S. Right to Know"
+        ],
         "places": [
           "United States",
           "China"
@@ -1083,7 +1183,9 @@
         "people": [
           "person:lewis-kamb"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:u-s-right-to-know"
+        ],
         "places": [
           "place:united-states",
           "place:china"
@@ -1095,6 +1197,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:lewis-kamb"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -1118,7 +1223,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Defense Intelligence Agency"
+          "Defense Intelligence Agency",
+          "U.S. Right to Know"
         ],
         "places": [
           "China"
@@ -1127,7 +1233,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:defense-intelligence-agency"
+          "org:defense-intelligence-agency",
+          "org:u-s-right-to-know"
         ],
         "places": [
           "place:china"
@@ -1136,7 +1243,11 @@
       "source_key": "ch19-s25",
       "date_iso": "2020-03-27",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:defense-intelligence-agency",
+        "org:u-s-right-to-know"
+      ]
     },
     {
       "id": 26,
@@ -1162,7 +1273,8 @@
           "Lewis Kamb"
         ],
         "orgs": [
-          "Defense Intelligence Agency"
+          "Defense Intelligence Agency",
+          "U.S. Right to Know"
         ],
         "places": [
           "Wuhan"
@@ -1173,7 +1285,8 @@
           "person:lewis-kamb"
         ],
         "orgs": [
-          "org:defense-intelligence-agency"
+          "org:defense-intelligence-agency",
+          "org:u-s-right-to-know"
         ],
         "places": [
           "place:wuhan"
@@ -1185,6 +1298,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:lewis-kamb"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -1211,7 +1327,8 @@
           "Warren Strobel"
         ],
         "orgs": [
-          "U.S. Department of Energy"
+          "U.S. Department of Energy",
+          "The Wall Street Journal"
         ],
         "places": [
           "China"
@@ -1222,7 +1339,9 @@
           "person:michael-gordon",
           "person:warren-strobel"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:the-wall-street-journal"
+        ],
         "places": [
           "place:china"
         ]
@@ -1234,6 +1353,9 @@
       "author_ids": [
         "person:michael-gordon",
         "person:warren-strobel"
+      ],
+      "publication_ids": [
+        "org:the-wall-street-journal"
       ]
     },
     {
@@ -1262,7 +1384,8 @@
           "Warren Strobel"
         ],
         "orgs": [
-          "FBI"
+          "FBI",
+          "The Wall Street Journal"
         ],
         "places": [
           "China"
@@ -1280,7 +1403,8 @@
           "person:warren-strobel"
         ],
         "orgs": [
-          "org:fbi"
+          "org:fbi",
+          "org:the-wall-street-journal"
         ],
         "places": [
           "place:china"
@@ -1293,6 +1417,9 @@
       "author_ids": [
         "person:michael-gordon",
         "person:warren-strobel"
+      ],
+      "publication_ids": [
+        "org:the-wall-street-journal"
       ]
     },
     {
@@ -1317,7 +1444,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "CIA"
+          "CIA",
+          "NBC News"
         ],
         "places": [
           "China"
@@ -1330,7 +1458,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:cia"
+          "org:cia",
+          "org:nbc-news"
         ],
         "places": [
           "place:china"
@@ -1340,7 +1469,10 @@
       "date_iso": "2025-01-25",
       "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-01/250125-covid-19-vaccine-wm-1129a-ec66ff.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:nbc-news"
+      ]
     },
     {
       "id": 30,
@@ -1388,7 +1520,10 @@
       "date_iso": "2023-09-12",
       "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 31,
@@ -1415,7 +1550,8 @@
           "Andrew Huff"
         ],
         "orgs": [
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "Twitter (X)"
         ],
         "places": []
       },
@@ -1428,7 +1564,8 @@
           "person:andrew-huff"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:twitter-x"
         ],
         "places": []
       },
@@ -1438,6 +1575,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:andrew-huff"
+      ],
+      "publication_ids": [
+        "org:twitter-x"
       ]
     },
     {
@@ -1492,7 +1632,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:andrew-huff"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 33,
@@ -1538,7 +1679,10 @@
       "source_key": "ch19-s33",
       "date_iso": "2022-12-05",
       "acquisition_note": "URL not found at scrape.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:ecohealth-alliance"
+      ]
     },
     {
       "id": 34,
@@ -1590,7 +1734,10 @@
       "source_key": "ch19-s34",
       "date_iso": "2024-05-01",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-congress"
+      ]
     },
     {
       "id": 35,
@@ -1641,7 +1788,10 @@
       "source_key": "ch19-s35",
       "date_iso": "2025-10-30",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-senate"
+      ]
     },
     {
       "id": 36,
@@ -1684,7 +1834,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ralph-baric"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 37,
@@ -1710,7 +1861,8 @@
           "Ralph Baric"
         ],
         "orgs": [
-          "U.S. House Oversight Committee"
+          "U.S. House Oversight Committee",
+          "U.S. Congress"
         ],
         "places": [
           "United States"
@@ -1720,7 +1872,9 @@
         "people": [
           "person:ralph-baric"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:u-s-congress"
+        ],
         "places": [
           "place:united-states"
         ]
@@ -1730,6 +1884,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ralph-baric"
+      ],
+      "publication_ids": [
+        "org:u-s-congress"
       ]
     },
     {
@@ -1772,7 +1929,8 @@
       "date_iso": "2025-11-04",
       "image_url": "https://freebeacon.com/wp-content/uploads/2023/06/house-hearing-examines-nih-2023-budget-request-e1685985239973.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 39,
@@ -1798,7 +1956,8 @@
         ],
         "orgs": [
           "U.S. Congress",
-          "YouTube"
+          "YouTube",
+          "U.S. House of Representatives"
         ],
         "places": []
       },
@@ -1808,7 +1967,8 @@
         ],
         "orgs": [
           "org:u-s-congress",
-          "org:youtube"
+          "org:youtube",
+          "org:u-s-house-of-representatives"
         ],
         "places": []
       },
@@ -1817,6 +1977,9 @@
       "acquisition_note": "YouTube skipped.",
       "author_ids": [
         "person:ralph-baric"
+      ],
+      "publication_ids": [
+        "org:u-s-house-of-representatives"
       ]
     },
     {
@@ -1868,7 +2031,10 @@
       "source_key": "ch19-s40",
       "date_iso": "2024-04-09",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-senate"
+      ]
     },
     {
       "id": 41,
@@ -1895,7 +2061,9 @@
           "Gilles Demaneuf"
         ],
         "orgs": [
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "DRASTIC",
+          "ResearchGate"
         ],
         "places": []
       },
@@ -1905,7 +2073,9 @@
           "person:gilles-demaneuf"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:drastic",
+          "org:researchgate"
         ],
         "places": []
       },
@@ -1918,6 +2088,10 @@
       "acquisition_note": "",
       "author_ids": [
         "person:gilles-demaneuf"
+      ],
+      "publication_ids": [
+        "org:drastic",
+        "org:researchgate"
       ]
     },
     {
@@ -1942,7 +2116,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "BND"
+          "BND",
+          "Reuters"
         ],
         "places": [
           "Germany",
@@ -1957,7 +2132,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:bnd"
+          "org:bnd",
+          "org:reuters"
         ],
         "places": [
           "place:germany",
@@ -1968,7 +2144,10 @@
       "date_iso": "2025-03-12",
       "image_url": "https://www.reuters.com/resizer/v2/TOF4BP7WLZLZNLAAYD2KTEBDYU.jpg?auth=460d2c39b88dffc859c097448997c1ee607143963ab64bacefd6b2817565fe18&width=1080&quality=80",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:reuters"
+      ]
     },
     {
       "id": 43,
@@ -2013,7 +2192,10 @@
       "topic_ids": [
         "org:wuhan-institute-of-virology"
       ],
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-department-of-state"
+      ]
     },
     {
       "id": 44,
@@ -2059,7 +2241,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:mark-zuckerberg"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 45,
@@ -2107,7 +2290,10 @@
       "date_iso": "2025-03-12",
       "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f512/live/4be07c70-feba-11ef-ad0f-372b7fe3c45e.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:bbc-news"
+      ]
     },
     {
       "id": 46,
@@ -2134,7 +2320,8 @@
           "Sainath Suryanarayanan"
         ],
         "orgs": [
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "U.S. Right to Know"
         ],
         "places": []
       },
@@ -2147,7 +2334,8 @@
           "person:sainath-suryanarayanan"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:u-s-right-to-know"
         ],
         "places": []
       },
@@ -2157,6 +2345,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:sainath-suryanarayanan"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -2186,7 +2377,8 @@
         ],
         "orgs": [
           "WHO",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "U.S. Right to Know"
         ],
         "places": []
       },
@@ -2201,7 +2393,8 @@
         ],
         "orgs": [
           "org:who",
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:u-s-right-to-know"
         ],
         "places": []
       },
@@ -2211,6 +2404,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -2237,7 +2433,9 @@
           "Peter Daszak",
           "Shi Zhengli"
         ],
-        "orgs": [],
+        "orgs": [
+          "NIAID"
+        ],
         "places": []
       },
       "topic_ids": [
@@ -2257,9 +2455,14 @@
           "person:peter-daszak",
           "person:shi-zhengli"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:niaid"
+        ],
         "places": []
-      }
+      },
+      "publication_ids": [
+        "org:niaid"
+      ]
     },
     {
       "id": 49,
@@ -2309,7 +2512,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:david-morens"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 50,
@@ -2360,7 +2564,10 @@
       "source_key": "ch19-s50",
       "date_iso": "2025-01-27",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-senate"
+      ]
     },
     {
       "id": 51,
@@ -2398,7 +2605,8 @@
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:white-coat-waste-project"
         ],
         "places": [
           "place:united-states"
@@ -2408,7 +2616,10 @@
       "date_iso": "2023-02-11",
       "image_url": "https://www.whitecoatwaste.org/wp-content/uploads/2023/02/ecohealth_funding-feature-WP-1.webp",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:white-coat-waste-project"
+      ]
     },
     {
       "id": 52,
@@ -2455,7 +2666,8 @@
       "source_key": "ch19-s52",
       "date_iso": "2024-12-26",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 53,
@@ -2482,7 +2694,8 @@
         ],
         "orgs": [
           "HHS",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "U.S. House of Representatives"
         ],
         "places": [
           "United States"
@@ -2497,7 +2710,8 @@
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:u-s-house-of-representatives"
         ],
         "places": [
           "place:united-states"
@@ -2507,7 +2721,10 @@
       "date_iso": "2025-01-17",
       "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-house-of-representatives"
+      ]
     },
     {
       "id": 54,
@@ -2563,7 +2780,10 @@
       "source_key": "ch19-s54",
       "date_iso": "2025-09-12",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-senate"
+      ]
     },
     {
       "id": 55,
@@ -2591,7 +2811,8 @@
           "Mark Milley"
         ],
         "orgs": [
-          "White House"
+          "White House",
+          "ABC News"
         ],
         "places": [
           "United States"
@@ -2606,7 +2827,9 @@
           "person:joe-biden",
           "person:anthony-fauci"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:abc-news"
+        ],
         "places": [
           "place:united-states"
         ]
@@ -2615,7 +2838,10 @@
       "date_iso": "2025-01-20",
       "image_url": "https://i.abcnewsfe.com/a/06cd7f4c-e4b4-4d34-b7cb-84f0dde0eb38/biden-fauci-file-gty-ml-250120_1737375325545_hpMain_16x9.jpg?w=1600",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:abc-news"
+      ]
     }
   ]
 }

@@ -45,9 +45,14 @@
       "author_ids": [],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:bulletin-of-the-atomic-scientists"
+        ],
         "places": []
-      }
+      },
+      "publication_ids": [
+        "org:bulletin-of-the-atomic-scientists"
+      ]
     },
     {
       "id": 2,
@@ -101,7 +106,10 @@
       "date_iso": "2020-02-01",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
       "acquisition_note": "Only a short opening was retrieved before the paywall.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-washington-post"
+      ]
     },
     {
       "id": 3,
@@ -156,7 +164,10 @@
       "date_iso": "2020-02-10",
       "image_url": "https://i.guim.co.uk/img/media/45295519498603abb65a8f75ccdf8a4df09aeef4/58_0_2084_1251/master/2084.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c8190c40e00e76ba3985f9a0254e8806",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-guardian"
+      ]
     },
     {
       "id": 4,
@@ -207,7 +218,8 @@
       "source_key": "ch06-s04",
       "date_iso": "2020-02-14",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 5,
@@ -242,7 +254,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:france-24"
+        ],
         "places": [
           "place:russia",
           "place:united-states"
@@ -252,7 +266,10 @@
       "date_iso": "2020-02-22",
       "image_url": "https://s.france24.com/media/display/99f8a93a-e6c1-11ee-9116-005056bf30b7/w:1280/p:16x9/img-default-F24.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:france-24"
+      ]
     },
     {
       "id": 6,
@@ -309,7 +326,10 @@
       "source_key": "ch06-s06",
       "date_iso": "2022-03-24",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-department-of-state"
+      ]
     },
     {
       "id": 7,
@@ -368,7 +388,8 @@
       "source_key": "ch06-s07",
       "date_iso": "2020-02-04",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 8,
@@ -420,7 +441,10 @@
       "source_key": "ch06-s08",
       "date_iso": "2020-02-17",
       "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ]
     },
     {
       "id": 9,
@@ -475,7 +499,10 @@
       "date_iso": "2020-02-17",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-washington-post"
+      ]
     },
     {
       "id": 10,
@@ -541,6 +568,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:kristian-andersen"
+      ],
+      "publication_ids": [
+        "org:nature-medicine"
       ]
     },
     {
@@ -608,6 +638,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:sainath-suryanarayanan"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -665,7 +698,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:nicholas-wade"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 13,
@@ -727,6 +761,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
       ]
     },
     {
@@ -780,7 +817,10 @@
       "source_key": "ch06-s14",
       "date_iso": "2020-02-19",
       "acquisition_note": "Full text not retrieved (paywall/chrome).",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-lancet"
+      ]
     },
     {
       "id": 15,
@@ -837,6 +877,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jon-cohen"
+      ],
+      "publication_ids": [
+        "org:science"
       ]
     },
     {
@@ -894,7 +937,8 @@
       "acquisition_note": "Amazon product page; retail landing page only, not book text.",
       "author_ids": [
         "person:jeremy-farrar"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 17,
@@ -951,7 +995,10 @@
       "date_iso": "2022-12-13",
       "image_url": "https://www.reuters.com/resizer/v2/VQ5YY73HNVPXJOAXWT3Y3XTYWQ.jpg?auth=b5c4b8ad6ad58ae5962fb5d7cc16ebb01a53ce1be70277371cb88afc60cbca43&width=1920&quality=80",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:reuters"
+      ]
     }
   ]
 }

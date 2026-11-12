@@ -47,7 +47,10 @@
       "source_key": "ch08-s01",
       "date_iso": "2020-10-14",
       "acquisition_note": "The scrape returned 404/blocked; citation retained from bibliography.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:nature-medicine"
+      ]
     },
     {
       "id": 2,
@@ -92,7 +95,8 @@
       "source_key": "ch08-s02",
       "date_iso": "2021-06-30",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 3,
@@ -122,7 +126,8 @@
         "orgs": [
           "STAT",
           "University of Hong Kong",
-          "WHO"
+          "WHO",
+          "STAT News"
         ],
         "places": [
           "Hong Kong",
@@ -134,7 +139,8 @@
           "person:maria-van-kerkhove"
         ],
         "orgs": [
-          "org:who"
+          "org:who",
+          "org:stat-news"
         ],
         "places": [
           "place:hong-kong",
@@ -148,7 +154,10 @@
       "date_iso": "2020-08-24",
       "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/GettyImages-1225250385-1024x576.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:stat-news"
+      ]
     },
     {
       "id": 4,
@@ -191,7 +200,10 @@
       "source_key": "ch08-s04",
       "date_iso": "2023-03-15",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ]
     },
     {
       "id": 5,
@@ -239,7 +251,8 @@
       "source_key": "ch08-s05",
       "date_iso": "2020-11-09",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 6,
@@ -269,7 +282,8 @@
         "orgs": [
           "BBC",
           "Pfizer",
-          "BioNTech"
+          "BioNTech",
+          "BBC News"
         ],
         "places": []
       },
@@ -280,9 +294,14 @@
       "author_ids": [],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:bbc-news"
+        ],
         "places": []
-      }
+      },
+      "publication_ids": [
+        "org:bbc-news"
+      ]
     },
     {
       "id": 7,
@@ -330,7 +349,8 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis"
       ],
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 8,
@@ -385,6 +405,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:glen-owen"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
       ]
     },
     {
@@ -428,7 +451,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:pubmed"
+          "org:pubmed",
+          "org:plos-pathogens"
         ],
         "places": [
           "place:wuhan",
@@ -439,7 +463,10 @@
       "date_iso": "2020-05-14",
       "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a2dc/7224457/ea7900f60d83/ppat.1008421.g001.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:plos-pathogens"
+      ]
     },
     {
       "id": 10,
@@ -487,7 +514,10 @@
       "source_key": "ch08-s10",
       "date_iso": "2020-03-29",
       "acquisition_note": "NYT is blocked by Firecrawl as an unsupported site.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ]
     },
     {
       "id": 11,
@@ -521,7 +551,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:asia-times"
+        ],
         "places": [
           "place:china"
         ]
@@ -529,7 +561,10 @@
       "source_key": "ch08-s11",
       "date_iso": "2020-11-04",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:asia-times"
+      ]
     },
     {
       "id": 12,
@@ -587,7 +622,8 @@
       "date_iso": "2020-05-01",
       "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/170706100527-zachary-cohen.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 13,
@@ -627,7 +663,8 @@
           "person:mike-pompeo"
         ],
         "orgs": [
-          "org:u-s-department-of-state"
+          "org:u-s-department-of-state",
+          "org:abc-news"
         ],
         "places": [
           "place:china",
@@ -640,7 +677,10 @@
       "topic_ids": [
         "person:mike-pompeo"
       ],
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:abc-news"
+      ]
     },
     {
       "id": 14,
@@ -704,7 +744,10 @@
       "date_iso": "2020-05-04",
       "image_url": "https://i.guim.co.uk/img/media/c36e0d494293f8ba64d8dfc89f99ec95688b4969/0_189_3048_1829/master/3048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=66b74a2bdb71a64328ab97efb990ca83",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-guardian"
+      ]
     },
     {
       "id": 15,
@@ -759,7 +802,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:sharri-markson"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 16,
@@ -805,7 +849,8 @@
       "date_iso": "2020-04-30",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 17,
@@ -859,7 +904,10 @@
       "date_iso": "2020-04-30",
       "image_url": "https://images.wsj.net/im-11136007?width=330&height=185",
       "acquisition_note": "Opening paragraphs retrieved before the subscriber wall.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ]
     },
     {
       "id": 18,
@@ -911,7 +959,8 @@
       "source_key": "ch08-s18",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 19,
@@ -953,7 +1002,8 @@
       "source_key": "ch08-s19",
       "date_iso": "2019-07-26",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 20,
@@ -989,7 +1039,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:south-china-morning-post"
+        ],
         "places": [
           "place:shanghai",
           "place:china"
@@ -999,7 +1051,10 @@
       "date_iso": "2020-02-28",
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/02/29/70ad35f6-5a29-11ea-b438-8452af50d521_image_hires_024800.JPG?itok=YOu6YWJ2&amp;v=1582915687",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:south-china-morning-post"
+      ]
     },
     {
       "id": 21,
@@ -1051,7 +1106,8 @@
       "date_iso": "2020-02-28",
       "image_url": "https://www.straitstimes.com/og/st-bg-1200x630.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 22,
@@ -1113,7 +1169,10 @@
       "source_key": "ch08-s22",
       "date_iso": "2020-04-14",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-washington-post"
+      ]
     },
     {
       "id": 23,
@@ -1162,7 +1221,8 @@
       "date_iso": "2020-07-13",
       "image_url": "https://image.minerva.no/362540.webp?imageId=362540&width=960&height=548&format=jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 24,
@@ -1221,7 +1281,10 @@
       "date_iso": "2020-06-03",
       "image_url": "https://www.telegraph.co.uk/content/dam/news/2020/06/03/PLANET_NORMAL_SLATE_RICHARDDEARLOVE-01_1_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=640",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-telegraph"
+      ]
     }
   ]
 }

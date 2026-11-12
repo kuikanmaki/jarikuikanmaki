@@ -43,7 +43,9 @@
         "people": [
           "person:joe-biden"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:white-house"
+        ],
         "places": [
           "place:united-states",
           "place:china"
@@ -52,7 +54,10 @@
       "source_key": "ch10-s01",
       "date_iso": "2021-05-26",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:white-house"
+      ]
     },
     {
       "id": 2,
@@ -110,6 +115,9 @@
       ],
       "author_ids": [
         "person:tedros-adhanom-ghebreyesus"
+      ],
+      "publication_ids": [
+        "org:who"
       ]
     },
     {
@@ -162,7 +170,10 @@
       "date_iso": "2021-03-30",
       "image_url": "https://2021-2025.state.gov/wp-content/uploads/2021/02/Press_release_gold_edited.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-department-of-state"
+      ]
     },
     {
       "id": 4,
@@ -200,7 +211,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:meta"
+          "org:meta",
+          "org:politico"
         ],
         "places": [
           "place:united-states"
@@ -210,7 +222,10 @@
       "date_iso": "2021-05-26",
       "image_url": "https://static.politico.com/34/89/1f62aabb49b8abc45f32fff85523/ap21076642655125.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:politico"
+      ]
     },
     {
       "id": 5,
@@ -266,7 +281,8 @@
       "date_iso": "2021-06-01",
       "image_url": "https://i0.wp.com/thehill.com/wp-content/uploads/sites/2/2021/05/cottontom_051821gn_lead.jpg?w=2000&ssl=1",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 6,
@@ -318,7 +334,10 @@
       "date_iso": "2021-05-25",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-washington-post"
+      ]
     },
     {
       "id": 7,
@@ -369,7 +388,10 @@
       "source_key": "ch10-s07",
       "date_iso": "2021-05-25",
       "acquisition_note": "Skipped by scrape host policy; citation retained.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:vox"
+      ]
     },
     {
       "id": 8,
@@ -430,7 +452,8 @@
       "acquisition_note": "Viewer chrome retrieved; full email text not extracted.",
       "author_ids": [
         "person:anthony-fauci"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 9,
@@ -479,7 +502,8 @@
         ],
         "orgs": [
           "org:nih",
-          "org:cdc"
+          "org:cdc",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan",
@@ -489,7 +513,10 @@
       "source_key": "ch10-s09",
       "date_iso": "2020-04-17",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:white-house"
+      ]
     },
     {
       "id": 10,
@@ -539,7 +566,10 @@
       "source_key": "ch10-s10",
       "date_iso": "2021-06-21",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-lancet"
+      ]
     },
     {
       "id": 11,
@@ -587,7 +617,10 @@
       "source_key": "ch10-s11",
       "date_iso": "2021-09-10",
       "acquisition_note": "Scrape hit an Akamai access-block page.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-telegraph"
+      ]
     },
     {
       "id": 12,
@@ -641,6 +674,9 @@
       "acquisition_note": "YouTube skipped under scrape policy.",
       "author_ids": [
         "person:vincent-racaniello"
+      ],
+      "publication_ids": [
+        "org:this-week-in-virology"
       ]
     },
     {
@@ -696,7 +732,8 @@
       "source_key": "ch10-s13",
       "date_iso": "2014-06-01",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 14,
@@ -743,7 +780,8 @@
         ],
         "orgs": [
           "org:drastic",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:newsweek"
         ],
         "places": [
           "place:wuhan",
@@ -754,7 +792,10 @@
       "date_iso": "2021-06-02",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1808203-wuhan-lab-theory-gains-traction.jpg?w=1200&amp;crop=1",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:newsweek"
+      ]
     },
     {
       "id": 15,
@@ -797,7 +838,8 @@
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
-          "org:drastic"
+          "org:drastic",
+          "org:researchgate"
         ],
         "places": [
           "place:wuhan",
@@ -808,7 +850,10 @@
       "date_iso": "2021-02",
       "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:researchgate"
+      ]
     },
     {
       "id": 16,
@@ -847,7 +892,8 @@
         "people": [],
         "orgs": [
           "org:wuhan-institute-of-virology",
-          "org:who"
+          "org:who",
+          "org:new-york-post"
         ],
         "places": [
           "place:wuhan",
@@ -858,7 +904,10 @@
       "date_iso": "2020-05-06",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2020/05/china-coronavirus.jpg?quality=75&#038;strip=all&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:new-york-post"
+      ]
     },
     {
       "id": 17,
@@ -913,7 +962,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jesse-bloom"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 18,
@@ -970,7 +1020,8 @@
         ],
         "orgs": [
           "org:wellcome-trust",
-          "org:the-lancet"
+          "org:the-lancet",
+          "org:unherd"
         ],
         "places": [
           "place:united-kingdom",
@@ -984,6 +1035,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
+      ],
+      "publication_ids": [
+        "org:unherd"
       ]
     },
     {
@@ -1049,7 +1103,10 @@
       "date_iso": "2023-07-21",
       "image_url": "https://theintercept.com/wp-content/uploads/2023/07/GettyImages-1534048302gary-anderson-origin-covid.jpg?fit=4696%2C2348&#038;w=1200&#038;h=800",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-intercept"
+      ]
     },
     {
       "id": 20,
@@ -1107,6 +1164,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
       ]
     }
   ]

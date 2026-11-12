@@ -52,7 +52,9 @@
           "person:monali-rahalkar",
           "person:rahul-bahulikar"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:the-week"
+        ],
         "places": [
           "place:mojiang-mine",
           "place:wuhan"
@@ -65,6 +67,9 @@
       "author_ids": [
         "person:monali-rahalkar",
         "person:rahul-bahulikar"
+      ],
+      "publication_ids": [
+        "org:the-week"
       ]
     },
     {
@@ -114,7 +119,8 @@
         ],
         "orgs": [],
         "places": []
-      }
+      },
+      "publication_ids": []
     },
     {
       "id": 3,
@@ -160,7 +166,8 @@
           "person:shi-zhengli"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:virologica-sinica"
         ],
         "places": [
           "place:mojiang-mine",
@@ -172,7 +179,10 @@
       "date_iso": "2016",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12250-016-3713-9/MediaObjects/12250_2016_3713_Figa_HTML.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:virologica-sinica"
+      ]
     },
     {
       "id": 4,
@@ -223,7 +233,10 @@
       "source_key": "ch11-s04",
       "date_iso": "2016-03-04",
       "acquisition_note": "Scrape returned 404/blocked.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:genbank"
+      ]
     },
     {
       "id": 5,
@@ -281,7 +294,8 @@
       "author_ids": [
         "person:monali-rahalkar",
         "person:rahul-bahulikar"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 6,
@@ -338,7 +352,10 @@
       "source_key": "ch11-s06",
       "date_iso": "2020-01-27",
       "acquisition_note": "Scrape returned 404/blocked; citation retained (chapter notes).",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:genbank"
+      ]
     },
     {
       "id": 7,
@@ -382,7 +399,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:drastic"
+          "org:drastic",
+          "org:the-week"
         ],
         "places": [
           "place:wuhan",
@@ -394,7 +412,10 @@
       "date_iso": "2021-07-11",
       "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/7/1/shutterstock_1811050684.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-week"
+      ]
     },
     {
       "id": 8,
@@ -447,7 +468,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:li-xu"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 9,
@@ -497,7 +519,8 @@
       "source_key": "ch11-s09",
       "date_iso": "2016-06",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 10,
@@ -549,7 +572,8 @@
       "date_iso": "2020-09-22",
       "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltdfd478ef99673df1/698a124d457a526b50d646a9/time-100-Zhong-Nanshan.jpg?branch=production&amp;width=2400&amp;quality=75&amp;auto=webp&amp;crop=16:9",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 11,
@@ -605,7 +629,8 @@
       "date_iso": "2021-05-11",
       "image_url": "https://www.independentsciencenews.org/wp-content/uploads/2021/04/Canping-Huang-PhD-Front-Page.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 12,
@@ -662,7 +687,10 @@
       "date_iso": "2021-02-06",
       "image_url": "https://www.telegraph.co.uk/content/dam/news/2021/02/03/covid-lab-lead_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfp-Lnwb_Dq3Fonfr3-DT2I.jpg?imwidth=640",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-telegraph"
+      ]
     },
     {
       "id": 13,
@@ -716,6 +744,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:yawen-chen"
+      ],
+      "publication_ids": [
+        "org:reuters"
       ]
     },
     {
@@ -773,7 +804,10 @@
       "date_iso": "2013-10-30",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature12711/MediaObjects/41586_2013_Article_BFnature12711_Fig1_HTML.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:nature"
+      ]
     },
     {
       "id": 15,
@@ -818,7 +852,8 @@
       "source_key": "ch11-s15",
       "date_iso": "2006-07-05",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 16,
@@ -860,7 +895,10 @@
       "source_key": "ch11-s16",
       "date_iso": "2000-02-01",
       "acquisition_note": "PubMed scrape failed; citation retained (chapter notes).",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:journal-of-virology"
+      ]
     },
     {
       "id": 17,
@@ -901,7 +939,8 @@
         "people": [],
         "orgs": [],
         "places": []
-      }
+      },
+      "publication_ids": []
     },
     {
       "id": 18,
@@ -949,7 +988,10 @@
       "date_iso": "2021-08-11",
       "image_url": "https://usrtk.org/wp-content/uploads/2021/04/EMI-cover-e1628731989446.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ]
     },
     {
       "id": 19,
@@ -1001,7 +1043,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:yawen-chen"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 20,
@@ -1047,7 +1090,8 @@
         ],
         "orgs": [
           "org:pmc",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:virologica-sinica"
         ],
         "places": [
           "place:mojiang-mine",
@@ -1058,7 +1102,10 @@
       "date_iso": "2016-02-18",
       "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5578/8193380/46b11ee206d4/12250_2016_3713_Figa_HTML.jpg",
       "acquisition_note": "Open-access copy of the WIV bat-colony survey.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:virologica-sinica"
+      ]
     }
   ]
 }

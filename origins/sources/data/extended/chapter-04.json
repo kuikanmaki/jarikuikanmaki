@@ -47,7 +47,8 @@
           "person:otto-juote"
         ],
         "orgs": [
-          "org:youtube"
+          "org:youtube",
+          "org:jari-otto-show"
         ],
         "places": [
           "place:finland"
@@ -59,6 +60,9 @@
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:otto-juote"
+      ],
+      "publication_ids": [
+        "org:jari-otto-show"
       ]
     },
     {
@@ -116,7 +120,10 @@
       "date_iso": "2020-01-24",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F24%2FLYNXMPEG0N22L.JPG?auth=494d53414de2576c9245b5b5bcd33999af3f743a206328cef33b7c34be9aa80b&width=1920&quality=80",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:reuters"
+      ]
     },
     {
       "id": 3,
@@ -143,7 +150,8 @@
         "orgs": [
           "Yle",
           "THL",
-          "Lapland Central Hospital"
+          "Lapland Central Hospital",
+          "Yle News"
         ],
         "places": [
           "Rovaniemi",
@@ -156,7 +164,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:yle"
+          "org:yle",
+          "org:yle-news"
         ],
         "places": [
           "place:finland",
@@ -167,7 +176,10 @@
       "date_iso": "2020-01-29",
       "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11183219",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:yle-news"
+      ]
     },
     {
       "id": 4,
@@ -214,7 +226,8 @@
       "source_key": "ch04-s04",
       "date_iso": "2020-02-19",
       "acquisition_note": "Full text was not retrieved (paywall/chrome only).",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 5,
@@ -269,6 +282,9 @@
       "acquisition_note": "Social URL skipped; text kept from the bibliography title.",
       "author_ids": [
         "person:neil-ferguson"
+      ],
+      "publication_ids": [
+        "org:twitter"
       ]
     },
     {
@@ -308,7 +324,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:south-china-morning-post"
+        ],
         "places": [
           "place:hong-kong",
           "place:wuhan",
@@ -319,7 +337,10 @@
       "date_iso": "2020-01-27",
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&amp;v=1580140381",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:south-china-morning-post"
+      ]
     },
     {
       "id": 7,
@@ -360,7 +381,8 @@
       "source_key": "ch04-s07",
       "date_iso": "2020",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 8,
@@ -411,7 +433,8 @@
       "source_key": "ch04-s08",
       "date_iso": "2020-01-26",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 9,
@@ -452,9 +475,14 @@
         "people": [
           "person:nassim-nicholas-taleb"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:random-house"
+        ],
         "places": []
-      }
+      },
+      "publication_ids": [
+        "org:random-house"
+      ]
     },
     {
       "id": 10,
@@ -510,7 +538,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:neil-ferguson"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 11,
@@ -562,7 +591,10 @@
       "source_key": "ch04-s11",
       "date_iso": "2020-01-27",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ]
     },
     {
       "id": 12,
@@ -611,7 +643,10 @@
       "date_iso": "2020-01-30",
       "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/gettyimages-943428252.tmb-1200v.jpg?sfvrsn=9bea021c_42",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ]
     },
     {
       "id": 13,
@@ -660,7 +695,10 @@
       "date_iso": "2020-01-31",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F31%2FLYNXMPEG0U16F.JPG?auth=da131b5e2523e3d0b6779cf73b5293133b5d00886454904a5a83caff35d126ae&width=1920&quality=80",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:reuters"
+      ]
     },
     {
       "id": 14,
@@ -710,7 +748,8 @@
       "date_iso": "2020-01-31",
       "image_url": "https://images.sanoma-sndp.fi/485bc57b785e4d1cb1c0025ca0a8acba.jpg/some/is-default.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 15,
@@ -758,7 +797,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:trevor-bedford"
-      ]
+      ],
+      "publication_ids": []
     }
   ]
 }

@@ -61,6 +61,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:eva-dou"
+      ],
+      "publication_ids": [
+        "org:the-washington-post"
       ]
     },
     {
@@ -102,7 +105,10 @@
       "source_key": "ch13-s02",
       "date_iso": "2021-07-18",
       "acquisition_note": "X/Twitter skipped under scrape policy.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:twitter"
+      ]
     },
     {
       "id": 3,
@@ -166,7 +172,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 4,
@@ -221,7 +228,8 @@
       "date_iso": "2021-06-28",
       "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8J6oFkzuFyg/v0/-1x-1.webp",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 5,
@@ -271,7 +279,10 @@
       "source_key": "ch13-s05",
       "image_url": "https://cms.wellcome.org/sites/default/files/styles/image_full/public/2022-07/C0105191_Medium.jpg?itok=h-C3Csvf",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:wellcome-trust"
+      ]
     }
   ]
 }

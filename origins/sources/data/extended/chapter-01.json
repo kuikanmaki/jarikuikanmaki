@@ -43,7 +43,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jari-kuikanmaki"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 2,
@@ -90,7 +91,10 @@
       "source_key": "ch01-s02",
       "date_iso": "2020-01-10",
       "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained from the bibliography.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ]
     },
     {
       "id": 3,
@@ -129,7 +133,9 @@
       ],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:bbc-news"
+        ],
         "places": [
           "place:wuhan",
           "place:hubei",
@@ -140,7 +146,10 @@
       "date_iso": "2020-01-23",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/ECFF/production/_110617606_059331569.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:bbc-news"
+      ]
     },
     {
       "id": 4,
@@ -194,7 +203,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:edward-holmes"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 5,
@@ -239,7 +249,8 @@
       "date_iso": "2020-01-20",
       "image_url": "http://img2.chinadaily.com.cn/images/202001/21/5e262f65a3101282064d1e74.jpeg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 6,
@@ -287,7 +298,10 @@
       "source_key": "ch01-s06",
       "date_iso": "2020-01-14",
       "acquisition_note": "Social URL skipped under scrape policy; text preserved from the bibliography title.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ]
     },
     {
       "id": 7,
@@ -332,7 +346,10 @@
       "source_key": "ch01-s07",
       "date_iso": "2012-01-07",
       "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ]
     },
     {
       "id": 8,
@@ -380,7 +397,10 @@
       "date_iso": "2014-07-14",
       "image_url": "https://www.cambridgeworkinggroup.org/images/pdf.png",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:cambridge-working-group"
+      ]
     },
     {
       "id": 9,
@@ -430,7 +450,8 @@
       "source_key": "ch01-s09",
       "date_iso": "2014-10-17",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 10,
@@ -478,7 +499,10 @@
       "source_key": "ch01-s10",
       "date_iso": "2012-06-22",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:science"
+      ]
     },
     {
       "id": 11,
@@ -521,7 +545,8 @@
           "person:helen-branswell"
         ],
         "orgs": [
-          "org:wuhan-municipal-health-commission"
+          "org:wuhan-municipal-health-commission",
+          "org:stat-news"
         ],
         "places": [
           "place:wuhan",
@@ -537,6 +562,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:helen-branswell"
+      ],
+      "publication_ids": [
+        "org:stat-news"
       ]
     },
     {
@@ -584,7 +612,10 @@
       "date_iso": "2020-01-08",
       "image_url": "https://images.wsj.net/im-142407/?width=700&height=467",
       "acquisition_note": "Retrieved page is mostly paywall/chrome; citation retained.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ]
     }
   ]
 }

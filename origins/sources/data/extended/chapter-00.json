@@ -76,6 +76,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jane-qiu"
+      ],
+      "publication_ids": [
+        "org:scientific-american"
       ]
     },
     {
@@ -134,6 +137,9 @@
       "acquisition_note": "Full text is paywalled; only preview/lede and related subject links were retrieved.",
       "author_ids": [
         "person:david-cyranoski"
+      ],
+      "publication_ids": [
+        "org:nature"
       ]
     },
     {
@@ -196,6 +202,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
       ]
     },
     {
@@ -263,6 +272,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jon-cohen"
+      ],
+      "publication_ids": [
+        "org:science"
       ]
     },
     {
@@ -293,7 +305,8 @@
         "orgs": [
           "MIT Technology Review",
           "Wuhan Institute of Virology",
-          "WHO"
+          "WHO",
+          "Scientific American"
         ],
         "places": [
           "Wuhan",
@@ -312,7 +325,8 @@
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
-          "org:who"
+          "org:who",
+          "org:scientific-american"
         ],
         "places": [
           "place:wuhan",
@@ -325,6 +339,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:jane-qiu"
+      ],
+      "publication_ids": [
+        "org:scientific-american"
       ]
     },
     {
@@ -389,6 +406,9 @@
       "acquisition_note": "Only the opening section was retrieved before the paywall.",
       "author_ids": [
         "person:eva-dou"
+      ],
+      "publication_ids": [
+        "org:the-washington-post"
       ]
     },
     {
@@ -450,6 +470,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:gilles-demaneuf"
+      ],
+      "publication_ids": [
+        "org:medium"
       ]
     },
     {
@@ -505,7 +528,10 @@
       "source_key": "ch00-s08",
       "date_iso": "2020-01-05",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ]
     },
     {
       "id": 9,
@@ -552,7 +578,10 @@
       "source_key": "ch00-s09",
       "date_iso": "2019-12-30",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:promed"
+      ]
     },
     {
       "id": 10,
@@ -609,7 +638,8 @@
       "date_iso": "2020-01-03",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 11,
@@ -664,7 +694,8 @@
       "date_iso": "2020-01-31",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 12,
@@ -710,7 +741,8 @@
       "date_iso": "2019-12-31",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 13,
@@ -766,7 +798,10 @@
       "date_iso": "2020-02-07",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/11C1A/production/_110803727_mediaitem110803726.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:bbc-news"
+      ]
     }
   ]
 }

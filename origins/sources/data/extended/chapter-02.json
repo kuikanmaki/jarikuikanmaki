@@ -58,7 +58,10 @@
       "source_key": "ch02-s01",
       "date_iso": "2020-01-26",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-washington-times"
+      ]
     },
     {
       "id": 2,
@@ -109,7 +112,8 @@
       "date_iso": "2009-09-22",
       "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
       "acquisition_note": "Amazon product page; retail landing page, not book text.",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 3,
@@ -155,7 +159,8 @@
         ],
         "orgs": [
           "org:biopreparat",
-          "org:amazon"
+          "org:amazon",
+          "org:random-house"
         ],
         "places": [
           "place:soviet-union",
@@ -168,6 +173,9 @@
       "acquisition_note": "Amazon product page; retail landing page only.",
       "author_ids": [
         "person:ken-alibek"
+      ],
+      "publication_ids": [
+        "org:random-house"
       ]
     },
     {
@@ -213,7 +221,8 @@
         ],
         "orgs": [
           "org:who",
-          "org:the-wall-street-journal"
+          "org:the-wall-street-journal",
+          "org:stat-news"
         ],
         "places": [
           "place:wuhan",
@@ -226,6 +235,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:helen-branswell"
+      ],
+      "publication_ids": [
+        "org:stat-news"
       ]
     },
     {
@@ -263,7 +275,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:mbio"
+        ],
         "places": [
           "place:china",
           "place:soviet-union"
@@ -277,7 +291,10 @@
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research"
       ],
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:mbio"
+      ]
     }
   ]
 }

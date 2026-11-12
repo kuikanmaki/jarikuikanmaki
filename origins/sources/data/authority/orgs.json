@@ -1261,6 +1261,276 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "org:researchgate",
+      "prefLabel": "ResearchGate",
+      "indexTerm": "ResearchGate",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-house-of-representatives",
+      "prefLabel": "U.S. House of Representatives",
+      "indexTerm": "U.S. House of Representatives",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:bulletin-of-the-atomic-scientists",
+      "prefLabel": "Bulletin of the Atomic Scientists",
+      "indexTerm": "Bulletin of the Atomic Scientists",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:new-york-post",
+      "prefLabel": "New York Post",
+      "indexTerm": "New York Post",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:vanity-fair",
+      "prefLabel": "Vanity Fair",
+      "indexTerm": "Vanity Fair",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:genbank-ncbi",
+      "prefLabel": "GenBank (NCBI)",
+      "indexTerm": "GenBank (NCBI)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:stat-news",
+      "prefLabel": "STAT News",
+      "indexTerm": "STAT News",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:random-house",
+      "prefLabel": "Random House",
+      "indexTerm": "Random House",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:mbio",
+      "prefLabel": "mBio",
+      "indexTerm": "mBio",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:jari-otto-show",
+      "prefLabel": "Jari & Otto Show",
+      "indexTerm": "Jari & Otto Show",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:yle-news",
+      "prefLabel": "Yle News",
+      "indexTerm": "Yle News",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:south-china-morning-post",
+      "prefLabel": "South China Morning Post",
+      "indexTerm": "South China Morning Post",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:france-24",
+      "prefLabel": "France 24",
+      "indexTerm": "France 24",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:plos-pathogens",
+      "prefLabel": "PLOS Pathogens",
+      "indexTerm": "PLOS Pathogens",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:asia-times",
+      "prefLabel": "Asia Times",
+      "indexTerm": "Asia Times",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:abc-news",
+      "prefLabel": "ABC News",
+      "indexTerm": "ABC News",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:politico",
+      "prefLabel": "Politico",
+      "indexTerm": "Politico",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:suomen-uutiset",
+      "prefLabel": "Suomen Uutiset",
+      "indexTerm": "Suomen Uutiset",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:white-house",
+      "prefLabel": "White House",
+      "indexTerm": "White House",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:newsweek",
+      "prefLabel": "Newsweek",
+      "indexTerm": "Newsweek",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:unherd",
+      "prefLabel": "UnHerd",
+      "indexTerm": "UnHerd",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:the-week",
+      "prefLabel": "The Week",
+      "indexTerm": "The Week",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:virologica-sinica",
+      "prefLabel": "Virologica Sinica",
+      "indexTerm": "Virologica Sinica",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:substack",
+      "prefLabel": "Substack",
+      "indexTerm": "Substack",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:white-coat-waste-project",
+      "prefLabel": "White Coat Waste Project",
+      "indexTerm": "White Coat Waste Project",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:nbc-news",
+      "prefLabel": "NBC News",
+      "indexTerm": "NBC News",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:twitter-x",
+      "prefLabel": "Twitter (X)",
+      "indexTerm": "Twitter (X)",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

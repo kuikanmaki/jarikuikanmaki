@@ -63,7 +63,8 @@
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:matti-virtanen"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 2,
@@ -119,7 +120,8 @@
       "source_key": "ch17-s02",
       "date_iso": "2021-10-20",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 3,
@@ -176,7 +178,8 @@
       "acquisition_note": "",
       "author_ids": [
         "person:lawrence-tabak"
-      ]
+      ],
+      "publication_ids": []
     },
     {
       "id": 4,
@@ -224,7 +227,8 @@
         ],
         "orgs": [
           "org:nih",
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:vanity-fair"
         ],
         "places": [
           "place:wuhan",
@@ -237,6 +241,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:katherine-eban"
+      ],
+      "publication_ids": [
+        "org:vanity-fair"
       ]
     },
     {
@@ -288,7 +295,10 @@
       "date_iso": "2021-09-24",
       "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-021-02596-2/d41586-021-02596-2_19689458.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:nature"
+      ]
     },
     {
       "id": 6,
@@ -346,6 +356,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:gilles-demaneuf"
+      ],
+      "publication_ids": [
+        "org:medium"
       ]
     },
     {
@@ -399,7 +412,10 @@
       "date_iso": "2021-03-18",
       "image_url": "https://www.science.org/cms/10.1126/science.abf8003/asset/1067b866-1f9c-433e-b334-fd44348654f9/assets/graphic/372_412_f1.jpeg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:science"
+      ]
     },
     {
       "id": 8,
@@ -436,7 +452,9 @@
       ],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:substack"
+        ],
         "places": [
           "place:wuhan"
         ]
@@ -445,7 +463,10 @@
       "date_iso": "2022-11-21",
       "image_url": "https://substackcdn.com/image/fetch/$s_!9VB-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6e0edc22-aeaf-4ea4-b33e-a69d55f737bd_1024x961.jpeg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:substack"
+      ]
     },
     {
       "id": 9,
@@ -488,7 +509,8 @@
         "people": [],
         "orgs": [],
         "places": []
-      }
+      },
+      "publication_ids": []
     },
     {
       "id": 10,
@@ -532,7 +554,8 @@
         "people": [],
         "orgs": [
           "org:niaid",
-          "org:pmc"
+          "org:pmc",
+          "org:mbio"
         ],
         "places": [
           "place:united-states"
@@ -541,7 +564,10 @@
       "source_key": "ch17-s10",
       "date_iso": "2012-10-09",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:mbio"
+      ]
     },
     {
       "id": 11,
@@ -579,9 +605,14 @@
       "author_ids": [],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:bulletin-of-the-atomic-scientists"
+        ],
         "places": []
-      }
+      },
+      "publication_ids": [
+        "org:bulletin-of-the-atomic-scientists"
+      ]
     },
     {
       "id": 12,
@@ -626,7 +657,8 @@
       "source_key": "ch17-s12",
       "date_iso": "2019-09-16",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 13,
@@ -662,7 +694,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:nbc-news"
+        ],
         "places": [
           "place:wuhan"
         ]
@@ -671,7 +705,10 @@
       "date_iso": "2020-05-08",
       "image_url": "https://s.yimg.com/lo/mysterio/api/242978d593d7eddbfaf06f984f581ebc15e977cf2936efe865fb3450bafca95a/lightyear_networkapi/resizefill_w640%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fhd%2Fcp-video-transcode%2Fprod%2F2020-05%2F05%2F5eb1558084a08c74cced0910%2F5eb1558084a08c74cced0911_o_U_v2.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:nbc-news"
+      ]
     },
     {
       "id": 14,
@@ -723,7 +760,10 @@
       "topic_ids": [
         "org:wuhan-institute-of-virology"
       ],
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-telegraph"
+      ]
     },
     {
       "id": 15,
@@ -768,7 +808,8 @@
       "date_iso": "2019-09-26",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 16,
@@ -819,7 +860,8 @@
       "source_key": "ch17-s16",
       "date_iso": "2020-10-28",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     }
   ]
 }

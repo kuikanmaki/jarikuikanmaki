@@ -47,7 +47,8 @@
           "person:otto-juote"
         ],
         "orgs": [
-          "org:youtube"
+          "org:youtube",
+          "org:jari-otto-show"
         ],
         "places": [
           "place:finland"
@@ -59,6 +60,9 @@
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:otto-juote"
+      ],
+      "publication_ids": [
+        "org:jari-otto-show"
       ]
     },
     {
@@ -115,7 +119,10 @@
       "date_iso": "2020-02-23",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F02%2F23%2FLYNXNPEG1M040.JPG?auth=49b18298f5af325ef079933b8d06aa148d995c7944783d1299272145c2011951&width=1080&quality=80",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:reuters"
+      ]
     },
     {
       "id": 3,
@@ -163,7 +170,8 @@
       "date_iso": "2020-04-01",
       "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/640b/7114094/e056f631d356/gr1_lrg.gif",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 4,
@@ -189,7 +197,8 @@
           "Giuseppe Conte"
         ],
         "orgs": [
-          "BBC"
+          "BBC",
+          "BBC News"
         ],
         "places": [
           "Italy",
@@ -199,7 +208,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:bbc-news"
+        ],
         "places": [
           "place:italy",
           "place:china",
@@ -210,7 +221,10 @@
       "date_iso": "2020-03-10",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/DACA/production/_111201065_vesuvius.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:bbc-news"
+      ]
     },
     {
       "id": 5,
@@ -258,7 +272,10 @@
       "source_key": "ch07-s05",
       "date_iso": "2020-02-28",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ]
     },
     {
       "id": 6,
@@ -286,7 +303,8 @@
         ],
         "orgs": [
           "Yle",
-          "THL"
+          "THL",
+          "Yle News"
         ],
         "places": [
           "Italy",
@@ -297,7 +315,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:yle"
+          "org:yle",
+          "org:yle-news"
         ],
         "places": [
           "place:italy",
@@ -309,7 +328,10 @@
       "date_iso": "2020-02-24",
       "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11225321",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:yle-news"
+      ]
     }
   ]
 }

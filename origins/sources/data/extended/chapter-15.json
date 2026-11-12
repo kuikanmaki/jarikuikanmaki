@@ -54,7 +54,8 @@
           "org:darpa",
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
-          "org:drastic"
+          "org:drastic",
+          "org:newsweek"
         ],
         "places": [
           "place:wuhan",
@@ -65,7 +66,10 @@
       "date_iso": "2021-09-22",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1899730-wuhan-institute-virology.jpg?w=1200&amp;crop=1",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:newsweek"
+      ]
     },
     {
       "id": 2,
@@ -119,7 +123,8 @@
       "date_iso": "2022-08-02",
       "image_url": "https://www.currentaffairs.org/hubfs/Imported_Blog_Media/jeffsachs-1024x646.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 3,
@@ -166,7 +171,8 @@
           "person:anthony-fauci"
         ],
         "orgs": [
-          "org:niaid"
+          "org:niaid",
+          "org:unherd"
         ],
         "places": [
           "place:united-states"
@@ -176,7 +182,10 @@
       "date_iso": "2022-08-29",
       "image_url": "https://unherd.com/wp-content/uploads/2022/08/GettyImages-1234075892-scaled.jpg",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:unherd"
+      ]
     },
     {
       "id": 4,
@@ -225,7 +234,8 @@
       "source_key": "ch15-s04",
       "date_iso": "2014-03-06",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 5,
@@ -267,7 +277,8 @@
           "person:ralph-baric"
         ],
         "orgs": [
-          "org:university-of-north-carolina"
+          "org:university-of-north-carolina",
+          "org:researchgate"
         ],
         "places": [
           "place:united-states"
@@ -279,6 +290,9 @@
       "acquisition_note": "",
       "author_ids": [
         "person:ralph-baric"
+      ],
+      "publication_ids": [
+        "org:researchgate"
       ]
     },
     {
@@ -322,7 +336,8 @@
       "source_key": "ch15-s06",
       "date_iso": "2015",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": []
     },
     {
       "id": 7,
@@ -376,7 +391,10 @@
       "date_iso": "2008-08-01",
       "image_url": "https://i.cbc.ca/ais/e775da89-3f25-461c-8160-278ddac2d18d,1794011848736/full/max/0/default.jpg?im=Crop%2Crect%3D%28127%2C0%2C1559%2C876%29%3B",
       "acquisition_note": "",
-      "author_ids": []
+      "author_ids": [],
+      "publication_ids": [
+        "org:associated-press"
+      ]
     }
   ]
 }
