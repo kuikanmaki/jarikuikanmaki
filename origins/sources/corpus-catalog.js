@@ -26,7 +26,7 @@
   var activeSuggestion = -1;
   var currentSuggestions = [];
   var view = {
-    mode: "chapter", // chapter | keyword | explore
+    mode: "idle", // idle | chapter | keyword | explore
     chapter: null,
     keyword: null,
     page: 1,
@@ -384,6 +384,27 @@
     });
   }
 
+  function showIdle() {
+    view.mode = "idle";
+    view.chapter = null;
+    view.keyword = null;
+    view.page = 1;
+    inputEl.value = "";
+    hideSuggestions();
+    clearChapterActive();
+    clearExploreActive();
+    if (shelvesEl) shelvesEl.classList.remove("is-filtered");
+    headingEl.hidden = true;
+    headingEl.textContent = "";
+    outEl.innerHTML = "";
+    pagerEl.hidden = true;
+    pagerEl.innerHTML = "";
+    notesEl.hidden = true;
+    notesEl.innerHTML = "";
+    backEl.hidden = true;
+    syncClearButton();
+  }
+
   function openChapter(number) {
     view.mode = "chapter";
     view.chapter = number;
@@ -420,7 +441,11 @@
     view.keyword = null;
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     clearExploreActive();
-    openChapter(view.chapter != null ? view.chapter : 0);
+    if (view.chapter != null) {
+      openChapter(view.chapter);
+    } else {
+      showIdle();
+    }
     inputEl.focus();
   }
 
@@ -666,7 +691,7 @@
       inputEl.placeholder = "Search people, organizations, topics…";
       renderChapterList(chapterMeta);
       renderExploreShelf();
-      openChapter(0);
+      showIdle();
     })
     .catch(function (err) {
       console.error(err);

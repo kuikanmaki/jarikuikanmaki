@@ -44,26 +44,23 @@
          ============================================================ -->
     <aside class="sources-book-banner" aria-label="Buy the book">
       <div class="container-narrow">
-        <div class="flex flex-col gap-5 py-8 sm:flex-row sm:items-center sm:gap-8">
-          <div class="min-w-0 flex-1">
-            <h2 class="font-display text-lg font-bold uppercase leading-tight text-white sm:text-xl">
-              <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
-            </h2>
-            <p class="mt-1 text-sm italic text-white/80 sm:text-base">
-              Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
-            </p>
-            <div class="sources-banner-cta mt-4 flex flex-wrap gap-2.5"
-                 data-editions data-sort="retailer"></div>
-          </div>
-
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="order-first shrink-0 self-start sm:order-last sm:self-center">
+        <div class="sources-book-banner-inner">
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="sources-book-banner-cover">
             <img
               src="/assets/img/book-cover-thumb.webp"
               alt="Cover of Origins of Coronavirus"
-              width="120" height="180" loading="lazy"
-              class="w-24 rounded-sm ring-1 ring-white/20"
+              width="40" height="60" loading="lazy"
             />
           </a>
+          <div class="sources-book-banner-copy">
+            <h2 class="font-display">
+              <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
+            </h2>
+            <p class="sources-book-banner-tagline">
+              Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
+            </p>
+            <div class="sources-banner-cta" data-editions data-sort="retailer"></div>
+          </div>
         </div>
       </div>
     </aside>
@@ -77,12 +74,11 @@
         <div class="mx-auto max-w-3xl">
           <h1 id="sources-top" class="font-display font-bold">Sources and Notes</h1>
           <p class="sources-intro">
-            A research catalog for <em class="not-italic text-foreground">Origins of Coronavirus</em>:
-            search the evidence by name or topic, or browse by chapter.
+            Search the evidence behind <em class="not-italic text-foreground">Origins of Coronavirus</em>
+            by name or topic, or browse by chapter.
           </p>
 
           <div class="sources-search" id="sources-search">
-            <label class="sources-search-label" for="authority-search-input">Search the catalog</label>
             <div class="sources-search-controls">
               <div class="sources-search-field">
                 <input
@@ -92,6 +88,7 @@
                   spellcheck="false"
                   disabled
                   placeholder="Loading catalog…"
+                  aria-label="Search the catalog"
                   aria-autocomplete="list"
                   aria-controls="authority-search-suggestions"
                   aria-expanded="false"
@@ -118,7 +115,7 @@
 
           <div id="catalog-shelves" class="catalog-shelves">
             <div class="catalog-shelf catalog-shelf-examples">
-              <p class="catalog-examples-label" id="explore-keywords-label">Try searching</p>
+              <p class="catalog-examples-label" id="explore-keywords-label">Popular topics</p>
               <div id="explore-keywords" class="catalog-explore" aria-labelledby="explore-keywords-label">
                 <span class="status">Loading…</span>
               </div>
