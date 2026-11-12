@@ -326,3 +326,181 @@ Before publishing a data change:
 ## 14. Counts (order of magnitude)
 
 The live corpus is on the order of **~300 sources** across **20 chapter files** (prologue + 19). Rebuild scripts print exact `sourceCount` / status tallies when run.
+
+---
+
+## 15. Optional future migration: static JSON → database
+
+The live site does **not** use a SQL (or other) database. Storage is flat JSON; discovery is client-side over generated indexes. That is intentional for current scope (§1–2).
+
+This section is a **migration runbook** for a future implementer (human or coding agent) if relational querying, multi-writer editing, or server-side search becomes a product requirement. Do not migrate “just in case.”
+
+### 15.1 Migration triggers (when it becomes rational)
+
+Migrate only if one or more hold:
+
+- Interactive multi-hop queries (source ↔ authority ↔ chapter networks) are used routinely, not as one-off scripts.
+- Multiple editors need concurrent writes with constraints (no dangling authority ids).
+- Full-text over artifacts must join back to catalog facets at query time.
+- A server API must replace static `corpus-index.json` / MiniSearch downloads.
+
+Until then, prefer: keep git + extended JSON as system of record; optionally load a **read-only SQLite replica** for ad-hoc SQL without changing the public site.
+
+### 15.2 Design goals for any migration
+
+1. **Preserve identifiers:** `source_key` and authority `id` (`person:…`, `org:…`, …) remain primary keys / natural keys.
+2. **Single write path during cutover:** either JSON remains authoritative until flip, or DB becomes authoritative—never both writable.
+3. **Generated views stay derived:** public browse/search payloads remain projections (SQL views, API serializers, or still-built JSON).
+4. **Idempotent ETL:** re-running import from `extended/` + `authority/` must upsert cleanly.
+5. **Parity checks:** row counts and spot checksums must match JSON before switching the UI.
+
+### 15.3 Recommended target schema (logical)
+
+Engine-agnostic. SQLite is enough for a first backend; Postgres if you need concurrent writers or hosted API.
+
+| Table | PK / keys | Source |
+|---|---|---|
+| `chapters` | `number` (int) | `extended/chapter-*.json` header (`chapter`, `chapter_title`, `printed_pages`) |
+| `sources` | `source_key` (text); unique `(chapter_number, id)` | each object in `sources[]` |
+| `authorities` | `id` (text) | `authority/persons.json` etc. (`prefLabel`, `indexTerm`, `altLabels`, `source`, …) |
+| `source_authors` | `(source_key, position)` → `authority_id` | `author_ids[]` (preserve order) |
+| `source_publications` | `(source_key, position)` → `authority_id` | `publication_ids[]` |
+| `source_topics` | `(source_key, position)` → `authority_id` | `topic_ids[]` |
+| `source_entities` | `(source_key, role, position)` → `authority_id` | `entity_ids.{people,orgs,places}` with `role ∈ {people,orgs,places}` |
+
+**`sources` columns (map 1:1 from JSON):**  
+`chapter_number`, `id`, `type`, `author`, `title`, `publication`, `date`, `date_iso`, `url`, `status`, `content_kind`, `language`, `summary`, `book_role`, `artifact`, `acquisition_note`, `image_url`.
+
+**Do not normalize away** transcribed `author` / `publication` strings—they are citation text, not authority labels (§5.1).
+
+**Optional later tables (only if needed):**
+
+- `artifacts` — filesystem path or object-store URI + checksum; bodies stay off-git as today  
+- `source_relations` — cites / replies / same-work manifestations (not modeled in JSON yet)  
+- `alias` — from `authority/alias-map.json`
+
+**Enums:** constrain `status` and `content_kind` to the vocabularies in §6–7 (DB check constraints or lookup tables).
+
+### 15.4 What stays out of the DB (or stays non-authoritative)
+
+| Asset | Guidance |
+|---|---|
+| `corpus-index.json` / `authority-search-index.json` | Replace with API/views **or** keep generating from DB for static hosting |
+| `url-cache.json`, `extended/logs/`, `_archive/` | Operational; do not treat as catalog tables |
+| Artifact file bytes | Object storage or local disk; store pointers in DB only |
+| MiniSearch index | Regenerate from DB or switch to server search (Postgres FTS, Meilisearch, etc.) |
+
+### 15.5 ETL phases (implement in order)
+
+**Phase 0 — Freeze & snapshot**
+
+1. Tag git commit of the corpus to migrate.  
+2. Run `_verify_authority_links.py` and `_verify_corpus_index.py`; fix errors first.  
+3. Record counts: chapters, sources, authorities, link-array lengths.
+
+**Phase 1 — Schema + empty DB**
+
+1. Create tables/constraints from §15.3.  
+2. Add migration version table (`schema_migrations`).
+
+**Phase 2 — Load authorities**
+
+1. Upsert all records from `authority/{persons,orgs,places,topics,events,works}.json`.  
+2. Load `alias-map.json` if using an `alias` table.  
+3. Verify: `COUNT(*)` per type matches JSON `items` length.
+
+**Phase 3 — Load chapters & sources**
+
+1. For each `extended/chapter-NN.json`, upsert `chapters`, then each source into `sources`.  
+2. Prefer `source_key` as upsert key.  
+3. Verify: source count = sum of `sources` arrays; every `source_key` unique.
+
+**Phase 4 — Load link tables**
+
+1. Expand `author_ids`, `publication_ids`, `topic_ids`, `entity_ids` into junction rows (preserve array order via `position`).  
+2. Fail (or quarantine) rows whose `authority_id` is missing—do not silently drop without a report.  
+3. Verify: for each source, junction counts equal JSON array lengths (orphans only if JSON had unknown ids).
+
+**Phase 5 — Dual-run parity**
+
+1. Rebuild a catalog projection from SQL equivalent to today’s `corpus-index` public fields.  
+2. Diff against current `corpus-index.json` (ignore `generated_at` / hashes).  
+3. Spot-check: one source per `status`, one Amazon `book`, one embed (`video`/`social_post`), one `empty_url`.
+
+**Phase 6 — Cutover (choose one)**
+
+| Strategy | Write path | Public read path |
+|---|---|---|
+| **A. DB behind API** | Editors/API → DB | Site fetches API instead of static JSON |
+| **B. DB → still static** | Editors → DB; CI exports `extended/` or only indexes | Unchanged static hosting |
+| **C. SQLite sidecar** | JSON remains write path | Optional local SQL for research tools only |
+
+Recommended first cutover: **C** or **B**. Flip the browser to **A** only after parity is proven.
+
+**Phase 7 — Decommission**
+
+1. Stop hand-editing `extended/` if DB is authoritative (or stop writing DB if JSON remains authoritative).  
+2. Document the new source of truth in §2 of this README.  
+3. Keep a dated JSON export under `_archive/` (local) for rollback.
+
+### 15.6 Reference SQL sketch (illustrative)
+
+```sql
+-- sources (subset)
+CREATE TABLE sources (
+  source_key     TEXT PRIMARY KEY,
+  chapter_number INTEGER NOT NULL REFERENCES chapters(number),
+  id             INTEGER NOT NULL,
+  type           TEXT,
+  author         TEXT,
+  title          TEXT NOT NULL,
+  publication    TEXT,
+  date           TEXT,
+  date_iso       TEXT,
+  url            TEXT,
+  status         TEXT NOT NULL CHECK (status IN ('ok','paywall','empty_url')),
+  content_kind   TEXT NOT NULL,
+  language       TEXT,
+  summary        TEXT,
+  book_role      TEXT,
+  artifact       TEXT,
+  acquisition_note TEXT,
+  image_url      TEXT,
+  UNIQUE (chapter_number, id)
+);
+
+CREATE TABLE source_topics (
+  source_key   TEXT NOT NULL REFERENCES sources(source_key),
+  position     INTEGER NOT NULL,
+  authority_id TEXT NOT NULL REFERENCES authorities(id),
+  PRIMARY KEY (source_key, position)
+);
+```
+
+Implementers should expand remaining junction tables the same way.
+
+### 15.7 Example queries the DB should unlock
+
+These are the relational workloads that justify the move (implement as views or saved queries):
+
+- Sources linked to authority X **and** Y.  
+- Authorities co-occurring in the same source, ranked by frequency.  
+- Orphan authorities (no junction rows).  
+- Sources with `status = 'paywall'` in a chapter range, grouped by `content_kind`.  
+- People in `entity_ids.people` who never appear in `author_ids`.
+
+### 15.8 Acceptance criteria
+
+Migration is done when:
+
+- [ ] All §15.3 core tables load from current JSON without manual row edits  
+- [ ] Parity diff vs `corpus-index.json` public fields is empty (timestamps aside)  
+- [ ] FK constraints reject dangling authority ids  
+- [ ] One documented write path; README §2 updated  
+- [ ] Rollback export exists; site can revert to static JSON within one deploy  
+
+### 15.9 Non-goals
+
+- Rewriting citation strings into authority prefLabels  
+- Publishing artifact full text into a public DB by default  
+- Replacing git history as the audit log for editorial changes (keep commits or DB audit tables explicitly)
