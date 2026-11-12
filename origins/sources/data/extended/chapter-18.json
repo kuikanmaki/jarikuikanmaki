@@ -49,7 +49,8 @@
       },
       "source_key": "ch18-s01",
       "date_iso": "2021-08-15",
-      "image_url": "https://www.reuters.com/resizer/v2/6YXB65AWPBKRJJ6E5I2Y7PWWMA.jpg?auth=cf7a3a78397c30c74a95b18abadfe226c4d9fe68088b7dae0dca4b48564908c1&width=1080&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/6YXB65AWPBKRJJ6E5I2Y7PWWMA.jpg?auth=cf7a3a78397c30c74a95b18abadfe226c4d9fe68088b7dae0dca4b48564908c1&width=1080&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -91,7 +92,8 @@
       },
       "source_key": "ch18-s02",
       "date_iso": "2021-11-10",
-      "image_url": "https://static.euronews.com/articles/stories/06/21/66/48/1200x675_cmsv2_868000d6-b38c-56e1-a8a2-8f8bc88a29b5-6216648.jpg"
+      "image_url": "https://static.euronews.com/articles/stories/06/21/66/48/1200x675_cmsv2_868000d6-b38c-56e1-a8a2-8f8bc88a29b5-6216648.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -134,7 +136,8 @@
       },
       "source_key": "ch18-s03",
       "date_iso": "2021-11-13",
-      "image_url": "https://www.reuters.com/resizer/v2/V6XITVQRWVOLVEQLLZT42NND4Q.jpg?auth=4663df438520b4bc70d7a7df8eca5d5dc1c04ae5e7213d6163fc5e80094517dc&width=1920&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/V6XITVQRWVOLVEQLLZT42NND4Q.jpg?auth=4663df438520b4bc70d7a7df8eca5d5dc1c04ae5e7213d6163fc5e80094517dc&width=1920&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -178,7 +181,8 @@
       ],
       "source_key": "ch18-s04",
       "date_iso": "2021-12-28",
-      "image_url": "https://www.aljazeera.com/wp-content/uploads/2021/12/AP21362595458007.jpg?resize=1920%2C1440"
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2021/12/AP21362595458007.jpg?resize=1920%2C1440",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -219,7 +223,8 @@
       },
       "source_key": "ch18-s05",
       "date_iso": "2022-01-10",
-      "image_url": "https://www.reuters.com/resizer/v2/2FUGM77F25MRXFYYJ2YCOF6SUY.jpg?auth=72dc8c9fee59e3ca879b032b8ed594ba70533e5015afe145bc3b2b019270ac44&width=1080&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/2FUGM77F25MRXFYYJ2YCOF6SUY.jpg?auth=72dc8c9fee59e3ca879b032b8ed594ba70533e5015afe145bc3b2b019270ac44&width=1080&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -261,7 +266,8 @@
       },
       "source_key": "ch18-s06",
       "date_iso": "2022-01-23",
-      "image_url": "https://s.france24.com/media/display/a572f9f0-7c7e-11ec-95af-005056bfb2b6/w:1280/p:16x9/brussels-clashes.jpg"
+      "image_url": "https://s.france24.com/media/display/a572f9f0-7c7e-11ec-95af-005056bfb2b6/w:1280/p:16x9/brussels-clashes.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -303,7 +309,8 @@
         ]
       },
       "source_key": "ch18-s07",
-      "date_iso": "2022-02-07"
+      "date_iso": "2022-02-07",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -355,7 +362,8 @@
       ],
       "source_key": "ch18-s08",
       "date_iso": "2022-02-24",
-      "image_url": "https://www.reuters.com/resizer/v2/CLXJM5TRQRD4DJWCBW7NNL7II4.JPG?auth=d735251de7390802345a32be8c085ab45b980b02593da8aaff3f6f24c0f786c3&width=1080&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/CLXJM5TRQRD4DJWCBW7NNL7II4.JPG?auth=d735251de7390802345a32be8c085ab45b980b02593da8aaff3f6f24c0f786c3&width=1080&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -404,7 +412,8 @@
       },
       "source_key": "ch18-s09",
       "date_iso": "2022-02-24",
-      "image_url": "https://www.reuters.com/resizer/v2/MIT77UA5YBIXBAETU7DD5AMRS4.jpg?auth=f7f394d26b500fabf77929e73f494bb8d9731504f9ad6ad4ec5285ad95b4c500&width=1920&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/MIT77UA5YBIXBAETU7DD5AMRS4.jpg?auth=f7f394d26b500fabf77929e73f494bb8d9731504f9ad6ad4ec5285ad95b4c500&width=1920&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -443,7 +452,8 @@
         ]
       },
       "source_key": "ch18-s10",
-      "date_iso": "2022-01-25"
+      "date_iso": "2022-01-25",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -481,7 +491,8 @@
       },
       "source_key": "ch18-s11",
       "date_iso": "1945-11-16",
-      "image_url": "https://www.unesco.org/sites/default/files/styles/best_image/public/2022-02/Screenshot%20%28134%29.png.webp?itok=UKnjP90M"
+      "image_url": "https://www.unesco.org/sites/default/files/styles/best_image/public/2022-02/Screenshot%20%28134%29.png.webp?itok=UKnjP90M",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -528,7 +539,8 @@
         ]
       },
       "source_key": "ch18-s12",
-      "date_iso": "2022-03-11"
+      "date_iso": "2022-03-11",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -569,7 +581,8 @@
       },
       "source_key": "ch18-s13",
       "date_iso": "1961-01-17",
-      "image_url": "https://www.archives.gov/files/milestone-documents/images/doc-090-big.jpg"
+      "image_url": "https://www.archives.gov/files/milestone-documents/images/doc-090-big.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 14,
@@ -615,7 +628,8 @@
       },
       "source_key": "ch18-s14",
       "date_iso": "2022-05-18",
-      "image_url": "https://s7g10.scene7.com/is/image/ncia/220518-sg"
+      "image_url": "https://s7g10.scene7.com/is/image/ncia/220518-sg",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -662,7 +676,8 @@
       },
       "source_key": "ch18-s15",
       "date_iso": "2022-09-08",
-      "image_url": "https://i.guim.co.uk/img/media/f5118f7336fad42e7022602a6ceddca7f426d2a0/0_0_5472_3283/master/5472.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjIucG5n&enable=upscale&s=fdcefaa4d0a57a2951d281f4da8ff5f9"
+      "image_url": "https://i.guim.co.uk/img/media/f5118f7336fad42e7022602a6ceddca7f426d2a0/0_0_5472_3283/master/5472.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjIucG5n&enable=upscale&s=fdcefaa4d0a57a2951d281f4da8ff5f9",
+      "acquisition_note": ""
     }
   ]
 }

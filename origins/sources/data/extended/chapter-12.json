@@ -18,7 +18,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform. PubMed scrape failed.",
+      "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform.",
       "book_role": "Early Baric reverse-genetics paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
         "infectious cDNA",
@@ -52,7 +52,8 @@
         "places": []
       },
       "source_key": "ch12-s01",
-      "date_iso": "2002-11"
+      "date_iso": "2002-11",
+      "acquisition_note": "PubMed scrape failed."
     },
     {
       "id": 2,
@@ -93,7 +94,8 @@
       },
       "source_key": "ch12-s02",
       "date_iso": "2007",
-      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.0030005.g007&size=inline"
+      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.0030005.g007&size=inline",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -134,7 +136,8 @@
       },
       "source_key": "ch12-s03",
       "date_iso": "2008-12-16",
-      "image_url": "https://www.pnas.org/cms/10.1073/pnas.0808116105/asset/a876f9e6-3613-4196-8b08-f35013154517/assets/graphic/zpq9990857570001.jpeg"
+      "image_url": "https://www.pnas.org/cms/10.1073/pnas.0808116105/asset/a876f9e6-3613-4196-8b08-f35013154517/assets/graphic/zpq9990857570001.jpeg",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -181,7 +184,8 @@
         ]
       },
       "source_key": "ch12-s04",
-      "date_iso": "2005-10-28"
+      "date_iso": "2005-10-28",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -245,7 +249,8 @@
       },
       "source_key": "ch12-s05",
       "date_iso": "2021-06-29",
-      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2021/06/Effect.jpg?resize=1200,600"
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2021/06/Effect.jpg?resize=1200,600",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -297,7 +302,8 @@
       },
       "source_key": "ch12-s06",
       "date_iso": "2015-11-12",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature.2015.18787/MediaObjects/41586_2015_Article_BFnature201518787_Figa_HTML.jpg"
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature.2015.18787/MediaObjects/41586_2015_Article_BFnature201518787_Figa_HTML.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -311,7 +317,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells. PubMed scrape failed.",
+      "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells.",
       "book_role": "",
       "topics": [
         "receptor usage",
@@ -345,7 +351,8 @@
         ]
       },
       "source_key": "ch12-s07",
-      "date_iso": "2008-02"
+      "date_iso": "2008-02",
+      "acquisition_note": "PubMed scrape failed."
     },
     {
       "id": 8,
@@ -392,7 +399,8 @@
       },
       "source_key": "ch12-s08",
       "date_iso": "2010-10",
-      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/16d7/7086629/cccc66b860d1/705_2010_729_Fig1_HTML.gif"
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/16d7/7086629/cccc66b860d1/705_2010_729_Fig1_HTML.gif",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -406,7 +414,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "2016 JVI paper on WIV1 infectious clone and ORFX mutants—reverse-genetics platform later cited in DIA analysis; experiments under BSL-2 per chapter notes. PubMed scrape failed.",
+      "summary": "2016 JVI paper on WIV1 infectious clone and ORFX mutants—reverse-genetics platform later cited in DIA analysis; experiments under BSL-2 per chapter notes.",
       "book_role": "WIV1 bat SARS-like coronavirus infection study in the Wuhan research record.",
       "topics": [
         "WIV1",
@@ -445,7 +453,8 @@
         ]
       },
       "source_key": "ch12-s09",
-      "date_iso": "2016-06-24"
+      "date_iso": "2016-06-24",
+      "acquisition_note": "PubMed scrape failed."
     },
     {
       "id": 10,
@@ -498,7 +507,8 @@
       },
       "source_key": "ch12-s10",
       "date_iso": "2017-11-30",
-      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1006698.g009&size=inline"
+      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1006698.g009&size=inline",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -547,7 +557,8 @@
       },
       "source_key": "ch12-s11",
       "date_iso": "2018-04-04",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-018-0010-9/MediaObjects/41586_2018_10_Fig1_HTML.jpg"
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-018-0010-9/MediaObjects/41586_2018_10_Fig1_HTML.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -597,7 +608,8 @@
       ],
       "source_key": "ch12-s12",
       "date_iso": "2020-04-22",
-      "image_url": "https://i2.wp.com/asiatimes.com/wp-content/uploads/2020/04/Bats-Covid-19-Coronavirus-1.jpg?fit=1600%2C1001"
+      "image_url": "https://i2.wp.com/asiatimes.com/wp-content/uploads/2020/04/Bats-Covid-19-Coronavirus-1.jpg?fit=1600%2C1001",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -611,7 +623,7 @@
       "artifact": "artifacts/ch12-s13.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant—funding link reused from chapter 10 scrape cache.",
+      "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant.",
       "book_role": "",
       "topics": [
         "R01AI110964",
@@ -652,7 +664,8 @@
         ]
       },
       "source_key": "ch12-s13",
-      "date_iso": "2014-06-01"
+      "date_iso": "2014-06-01",
+      "acquisition_note": "Funding link reused from chapter 10 scrape cache."
     },
     {
       "id": 14,
@@ -705,7 +718,8 @@
       },
       "source_key": "ch12-s14",
       "date_iso": "2017-07",
-      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1006698.g009&size=inline"
+      "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.1006698.g009&size=inline",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -765,7 +779,8 @@
       },
       "source_key": "ch12-s15",
       "date_iso": "2021-05-11",
-      "image_url": "https://cdn.prod.website-files.com/65e5ae1fb7482afd48d22155/673f1dee8456ca4a2fa2d451_Untitled-design-7-scaled.jpeg"
+      "image_url": "https://cdn.prod.website-files.com/65e5ae1fb7482afd48d22155/673f1dee8456ca4a2fa2d451_Untitled-design-7-scaled.jpeg",
+      "acquisition_note": ""
     },
     {
       "id": 16,
@@ -779,7 +794,7 @@
       "artifact": null,
       "content_kind": "video",
       "language": "en",
-      "summary": "C-SPAN/YouTube video of a heated Rand Paul–Fauci exchange on gain-of-function. Video skipped under scrape policy.",
+      "summary": "C-SPAN/YouTube video of a heated Rand Paul–Fauci exchange on gain-of-function.",
       "book_role": "",
       "topics": [
         "Rand Paul",
@@ -820,7 +835,8 @@
         ]
       },
       "source_key": "ch12-s16",
-      "date_iso": "2022-01-11"
+      "date_iso": "2022-01-11",
+      "acquisition_note": "Video skipped under scrape policy."
     }
   ]
 }

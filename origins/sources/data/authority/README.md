@@ -64,6 +64,8 @@ python3 origins/sources/data/_build_authority_search_index.py
 
 Preview images are publisher hotlinks (`image_url` / `og:image`), shown only when available.
 
+Extended chapter records may also include `acquisition_note` (scrape/paywall/retail metadata). That field stays local to extended JSON and is not published in `corpus-index.json`; visitor-facing `summary` should remain clean.
+
 ## Site search
 
 The Sources page uses MiniSearch over `../authority-search-index.json` (keyword → tagged sources).

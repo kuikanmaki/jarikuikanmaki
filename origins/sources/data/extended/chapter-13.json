@@ -55,7 +55,8 @@
       },
       "source_key": "ch13-s01",
       "date_iso": "2021-06-22",
-      "image_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PGUBVUJQIRFYLF6QQYYJ6OXJAA.png"
+      "image_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PGUBVUJQIRFYLF6QQYYJ6OXJAA.png",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -69,7 +70,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "Tweet highlighting a redacted Feb 1, 2020 teleconference email line about discussing the viral ‘backbone’ as well as the ‘insert.’ X/Twitter skipped under scrape policy.",
+      "summary": "Tweet highlighting a redacted Feb 1, 2020 teleconference email line about discussing the viral ‘backbone’ as well as the ‘insert.’",
       "book_role": "",
       "topics": [
         "Feb 1 teleconference",
@@ -94,7 +95,8 @@
         "places": []
       },
       "source_key": "ch13-s02",
-      "date_iso": "2021-07-18"
+      "date_iso": "2021-07-18",
+      "acquisition_note": "X/Twitter skipped under scrape policy."
     },
     {
       "id": 3,
@@ -154,7 +156,8 @@
       },
       "source_key": "ch13-s03",
       "date_iso": "2020-12-19",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -207,7 +210,8 @@
       },
       "source_key": "ch13-s04",
       "date_iso": "2021-06-28",
-      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8J6oFkzuFyg/v0/-1x-1.webp"
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8J6oFkzuFyg/v0/-1x-1.webp",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -255,7 +259,8 @@
         ]
       },
       "source_key": "ch13-s05",
-      "image_url": "https://cms.wellcome.org/sites/default/files/styles/image_full/public/2022-07/C0105191_Medium.jpg?itok=h-C3Csvf"
+      "image_url": "https://cms.wellcome.org/sites/default/files/styles/image_full/public/2022-07/C0105191_Medium.jpg?itok=h-C3Csvf",
+      "acquisition_note": ""
     }
   ]
 }

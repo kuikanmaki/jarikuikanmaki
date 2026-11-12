@@ -18,7 +18,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "PubMed record for Kontis et al. in Nature Medicine estimating first-wave excess all-cause mortality across 21 industrialized countries by age and sex. The scrape returned 404/blocked; citation retained from bibliography.",
+      "summary": "PubMed record for Kontis et al. in Nature Medicine estimating first-wave excess all-cause mortality across 21 industrialized countries by age and sex.",
       "book_role": "",
       "topics": [
         "excess mortality",
@@ -45,7 +45,8 @@
         "places": []
       },
       "source_key": "ch08-s01",
-      "date_iso": "2020-10-14"
+      "date_iso": "2020-10-14",
+      "acquisition_note": "The scrape returned 404/blocked; citation retained from bibliography."
     },
     {
       "id": 2,
@@ -88,7 +89,8 @@
         ]
       },
       "source_key": "ch08-s02",
-      "date_iso": "2021-06-30"
+      "date_iso": "2021-06-30",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -142,7 +144,8 @@
       ],
       "source_key": "ch08-s03",
       "date_iso": "2020-08-24",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/GettyImages-1225250385-1024x576.jpg"
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/GettyImages-1225250385-1024x576.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -183,7 +186,8 @@
         "places": []
       },
       "source_key": "ch08-s04",
-      "date_iso": "2023-03-15"
+      "date_iso": "2023-03-15",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -229,7 +233,8 @@
         ]
       },
       "source_key": "ch08-s05",
-      "date_iso": "2020-11-09"
+      "date_iso": "2020-11-09",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -265,7 +270,8 @@
       },
       "source_key": "ch08-s06",
       "date_iso": "2020-11-09",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/B2AE/production/_115324754_gettyimages-1283824133.jpg"
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/B2AE/production/_115324754_gettyimages-1283824133.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -308,7 +314,8 @@
       },
       "source_key": "ch08-s07",
       "date_iso": "2020",
-      "image_url": "https://commission.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png"
+      "image_url": "https://commission.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -357,7 +364,8 @@
       },
       "source_key": "ch08-s08",
       "date_iso": "2023-01-28",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -408,7 +416,8 @@
       },
       "source_key": "ch08-s09",
       "date_iso": "2020-05-14",
-      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a2dc/7224457/ea7900f60d83/ppat.1008421.g001.gif"
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a2dc/7224457/ea7900f60d83/ppat.1008421.g001.gif",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -422,7 +431,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "New York Times investigation of how China’s post-SARS contagion-alert system failed in the early COVID outbreak. NYT is blocked by Firecrawl as an unsupported site.",
+      "summary": "New York Times investigation of how China’s post-SARS contagion-alert system failed in the early COVID outbreak.",
       "book_role": "",
       "topics": [
         "disease surveillance",
@@ -454,7 +463,8 @@
         ]
       },
       "source_key": "ch08-s10",
-      "date_iso": "2020-03-29"
+      "date_iso": "2020-03-29",
+      "acquisition_note": "NYT is blocked by Firecrawl as an unsupported site."
     },
     {
       "id": 11,
@@ -494,7 +504,8 @@
         ]
       },
       "source_key": "ch08-s11",
-      "date_iso": "2020-11-04"
+      "date_iso": "2020-11-04",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -549,7 +560,8 @@
       },
       "source_key": "ch08-s12",
       "date_iso": "2020-05-01",
-      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/170706100527-zachary-cohen.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50"
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/170706100527-zachary-cohen.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -563,7 +575,7 @@
       "artifact": null,
       "content_kind": "video",
       "language": "en",
-      "summary": "ABC News YouTube clip of Pompeo calling China’s coronavirus response a classic communist disinformation effort. Video skipped under scrape policy.",
+      "summary": "ABC News YouTube clip of Pompeo calling China’s coronavirus response a classic communist disinformation effort.",
       "book_role": "",
       "topics": [
         "Pompeo",
@@ -597,7 +609,8 @@
         ]
       },
       "source_key": "ch08-s13",
-      "date_iso": "2020-05-03"
+      "date_iso": "2020-05-03",
+      "acquisition_note": "Video skipped under scrape policy."
     },
     {
       "id": 14,
@@ -659,7 +672,8 @@
       },
       "source_key": "ch08-s14",
       "date_iso": "2020-05-04",
-      "image_url": "https://i.guim.co.uk/img/media/c36e0d494293f8ba64d8dfc89f99ec95688b4969/0_189_3048_1829/master/3048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=66b74a2bdb71a64328ab97efb990ca83"
+      "image_url": "https://i.guim.co.uk/img/media/c36e0d494293f8ba64d8dfc89f99ec95688b4969/0_189_3048_1829/master/3048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=66b74a2bdb71a64328ab97efb990ca83",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -708,7 +722,8 @@
       },
       "source_key": "ch08-s15",
       "date_iso": "2020-05-04",
-      "image_url": "https://content.api.news/v3/images/bin/f507ede3c072a8a7486986e6ffbf7e41?width=150"
+      "image_url": "https://content.api.news/v3/images/bin/f507ede3c072a8a7486986e6ffbf7e41?width=150",
+      "acquisition_note": ""
     },
     {
       "id": 16,
@@ -722,7 +737,7 @@
       "artifact": "artifacts/ch08-s16.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Archived ODNI press release page for the April 30, 2020 Intelligence Community statement on COVID-19 origins—publicly affirming the virus was ‘not manmade or genetically modified’ while saying agencies were examining natural contact versus lab accident. Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes.",
+      "summary": "Archived ODNI press release page for the April 30, 2020 Intelligence Community statement on COVID-19 origins—publicly affirming the virus was ‘not manmade or genetically modified’ while saying agencies were examining natural contact versus lab accident.",
       "book_role": "April 2020 ODNI statement aligning the IC with “not manmade or genetically modified.”",
       "topics": [
         "ODNI",
@@ -752,7 +767,8 @@
       },
       "source_key": "ch08-s16",
       "date_iso": "2020-04-30",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
+      "acquisition_note": "Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes."
     },
     {
       "id": 17,
@@ -766,7 +782,7 @@
       "artifact": "artifacts/ch08-s17.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "WSJ report that ODNI publicly confirmed investigating a possible Wuhan lab escape while also stating Covid-19 was not manmade or genetically modified. Opening paragraphs retrieved before the subscriber wall.",
+      "summary": "WSJ report that ODNI publicly confirmed investigating a possible Wuhan lab escape while also stating Covid-19 was not manmade or genetically modified.",
       "book_role": "",
       "topics": [
         "lab accident investigation",
@@ -804,7 +820,8 @@
       ],
       "source_key": "ch08-s17",
       "date_iso": "2020-04-30",
-      "image_url": "https://images.wsj.net/im-11136007?width=330&height=185"
+      "image_url": "https://images.wsj.net/im-11136007?width=330&height=185",
+      "acquisition_note": "Opening paragraphs retrieved before the subscriber wall."
     },
     {
       "id": 18,
@@ -853,7 +870,8 @@
         ]
       },
       "source_key": "ch08-s18",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
+      "acquisition_note": ""
     },
     {
       "id": 19,
@@ -893,7 +911,8 @@
         "places": []
       },
       "source_key": "ch08-s19",
-      "date_iso": "2019-07-26"
+      "date_iso": "2019-07-26",
+      "acquisition_note": ""
     },
     {
       "id": 20,
@@ -937,7 +956,8 @@
       },
       "source_key": "ch08-s20",
       "date_iso": "2020-02-28",
-      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/02/29/70ad35f6-5a29-11ea-b438-8452af50d521_image_hires_024800.JPG?itok=YOu6YWJ2&amp;v=1582915687"
+      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/02/29/70ad35f6-5a29-11ea-b438-8452af50d521_image_hires_024800.JPG?itok=YOu6YWJ2&amp;v=1582915687",
+      "acquisition_note": ""
     },
     {
       "id": 21,
@@ -987,7 +1007,8 @@
       },
       "source_key": "ch08-s21",
       "date_iso": "2020-02-28",
-      "image_url": "https://www.straitstimes.com/og/st-bg-1200x630.jpg"
+      "image_url": "https://www.straitstimes.com/og/st-bg-1200x630.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 22,
@@ -1047,7 +1068,8 @@
         ]
       },
       "source_key": "ch08-s22",
-      "date_iso": "2020-04-14"
+      "date_iso": "2020-04-14",
+      "acquisition_note": ""
     },
     {
       "id": 23,
@@ -1094,7 +1116,8 @@
       },
       "source_key": "ch08-s23",
       "date_iso": "2020-07-13",
-      "image_url": "https://image.minerva.no/362540.webp?imageId=362540&width=960&height=548&format=jpg"
+      "image_url": "https://image.minerva.no/362540.webp?imageId=362540&width=960&height=548&format=jpg",
+      "acquisition_note": ""
     },
     {
       "id": 24,
@@ -1150,7 +1173,8 @@
       },
       "source_key": "ch08-s24",
       "date_iso": "2020-06-03",
-      "image_url": "https://www.telegraph.co.uk/content/dam/news/2020/06/03/PLANET_NORMAL_SLATE_RICHARDDEARLOVE-01_1_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=640"
+      "image_url": "https://www.telegraph.co.uk/content/dam/news/2020/06/03/PLANET_NORMAL_SLATE_RICHARDDEARLOVE-01_1_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=640",
+      "acquisition_note": ""
     }
   ]
 }

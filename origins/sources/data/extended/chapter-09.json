@@ -58,7 +58,8 @@
       ],
       "source_key": "ch09-s01",
       "date_iso": "2021-01-05",
-      "image_url": "https://i.guim.co.uk/img/media/1cbf118f5bcae0749bf1670e24ba6fd99f28439f/210_31_1505_903/master/1505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=45f17cd2647be2c8a7b5d64656aee188"
+      "image_url": "https://i.guim.co.uk/img/media/1cbf118f5bcae0749bf1670e24ba6fd99f28439f/210_31_1505_903/master/1505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=45f17cd2647be2c8a7b5d64656aee188",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -105,7 +106,8 @@
         ]
       },
       "source_key": "ch09-s02",
-      "date_iso": "2021-01-14"
+      "date_iso": "2021-01-14",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -163,7 +165,8 @@
       },
       "source_key": "ch09-s03",
       "date_iso": "2021-02-09",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/171C2/production/_116885649_mediaitem116885648.jpg"
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/171C2/production/_116885649_mediaitem116885648.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -227,7 +230,8 @@
       },
       "source_key": "ch09-s04",
       "date_iso": "2020-12-19",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -281,7 +285,8 @@
         ]
       },
       "source_key": "ch09-s05",
-      "date_iso": "2020-04-27"
+      "date_iso": "2020-04-27",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -337,7 +342,8 @@
         ]
       },
       "source_key": "ch09-s06",
-      "date_iso": "2020-05-21"
+      "date_iso": "2020-05-21",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -389,7 +395,8 @@
       },
       "source_key": "ch09-s07",
       "date_iso": "2020-12-04",
-      "image_url": "https://i.guim.co.uk/img/media/936eb15416a692d2f2f32c7ac6692c706bd5c070/0_120_3600_2161/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c47e1df9362b0549859622cee80a96e4"
+      "image_url": "https://i.guim.co.uk/img/media/936eb15416a692d2f2f32c7ac6692c706bd5c070/0_120_3600_2161/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c47e1df9362b0549859622cee80a96e4",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -403,7 +410,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "Daszak tweet framing trust as Fauci versus ‘politicized conspiracy theorists.’ No URL in source data; citation retained from bibliography.",
+      "summary": "Daszak tweet framing trust as Fauci versus ‘politicized conspiracy theorists.’",
       "book_role": "Daszak’s public comments as a WHO team member shifting focus away from the lab.",
       "topics": [
         "Peter Daszak",
@@ -443,7 +450,8 @@
         ]
       },
       "source_key": "ch09-s08",
-      "date_iso": "2020-04-19"
+      "date_iso": "2020-04-19",
+      "acquisition_note": "No URL in source data; citation retained from bibliography."
     },
     {
       "id": 9,
@@ -457,7 +465,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "Daszak tweet endorsing Biden and branding Trump an anti-science, conspiracy-based candidate. No URL in source data; citation retained.",
+      "summary": "Daszak tweet endorsing Biden and branding Trump an anti-science, conspiracy-based candidate.",
       "book_role": "",
       "topics": [
         "Peter Daszak",
@@ -498,7 +506,8 @@
         ]
       },
       "source_key": "ch09-s09",
-      "date_iso": "2020-10-14"
+      "date_iso": "2020-10-14",
+      "acquisition_note": "No URL in source data; citation retained."
     },
     {
       "id": 10,
@@ -555,7 +564,8 @@
       },
       "source_key": "ch09-s10",
       "date_iso": "2021-01-09",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -598,7 +608,8 @@
       },
       "source_key": "ch09-s11",
       "date_iso": "2020-04-16",
-      "image_url": "https://about.fb.com/wp-content/uploads/2020/04/NRP-COVID_Misinfo_Update_inline-1.jpg?resize=960%2C640"
+      "image_url": "https://about.fb.com/wp-content/uploads/2020/04/NRP-COVID_Misinfo_Update_inline-1.jpg?resize=960%2C640",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -650,7 +661,8 @@
       },
       "source_key": "ch09-s12",
       "date_iso": "2020-05-06",
-      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2020/05/kiina_korona_yhdysvallast.png"
+      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2020/05/kiina_korona_yhdysvallast.png",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -705,7 +717,8 @@
       },
       "source_key": "ch09-s13",
       "date_iso": "2021-01-27",
-      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2016/10/suomen-uutiset-default.png"
+      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2016/10/suomen-uutiset-default.png",
+      "acquisition_note": ""
     },
     {
       "id": 14,
@@ -767,7 +780,8 @@
       },
       "source_key": "ch09-s14",
       "date_iso": "2021-05-05",
-      "image_url": "https://thebulletin.org/wp-content/uploads/2021/05/WIV.jpg.optimal.jpg"
+      "image_url": "https://thebulletin.org/wp-content/uploads/2021/05/WIV.jpg.optimal.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -781,7 +795,7 @@
       "artifact": "artifacts/ch09-s15.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "WSJ coverage of 18 scientists’ Science letter criticizing the WHO-led report and demanding balanced evaluation of lab accident and animal spillover. Opening paragraphs retrieved before the paywall.",
+      "summary": "WSJ coverage of 18 scientists’ Science letter criticizing the WHO-led report and demanding balanced evaluation of lab accident and animal spillover.",
       "book_role": "",
       "topics": [
         "Science letter",
@@ -817,7 +831,8 @@
       },
       "source_key": "ch09-s15",
       "date_iso": "2021-05-13",
-      "image_url": "https://images.wsj.net/im-86307786?width=330&height=185"
+      "image_url": "https://images.wsj.net/im-86307786?width=330&height=185",
+      "acquisition_note": "Opening paragraphs retrieved before the paywall."
     },
     {
       "id": 16,
@@ -865,7 +880,8 @@
       },
       "source_key": "ch09-s16",
       "date_iso": "2021-05-14",
-      "image_url": "https://www.science.org/cms/asset/2b03471c-1d31-4cfd-9cda-a9eb9a0c4f00/science.2021.372.issue-6543.cover.gif"
+      "image_url": "https://www.science.org/cms/asset/2b03471c-1d31-4cfd-9cda-a9eb9a0c4f00/science.2021.372.issue-6543.cover.gif",
+      "acquisition_note": ""
     },
     {
       "id": 17,
@@ -879,7 +895,7 @@
       "artifact": "artifacts/ch09-s17.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "WSJ report that a U.S. intelligence assessment said three WIV researchers became sick enough in November 2019 to seek hospital care—going beyond the Trump State Department fact sheet and fueling lab-escape debate. Partial text before paywall.",
+      "summary": "WSJ report that a U.S. intelligence assessment said three WIV researchers became sick enough in November 2019 to seek hospital care—going beyond the Trump State Department fact sheet and fueling lab-escape debate.",
       "book_role": "",
       "topics": [
         "sick WIV researchers",
@@ -920,7 +936,8 @@
       },
       "source_key": "ch09-s17",
       "date_iso": "2021-05-23",
-      "image_url": "https://images.wsj.net/im-86307786?width=330&height=185"
+      "image_url": "https://images.wsj.net/im-86307786?width=330&height=185",
+      "acquisition_note": "Partial text before paywall."
     },
     {
       "id": 18,
@@ -976,7 +993,8 @@
       ],
       "source_key": "ch09-s18",
       "date_iso": "2021-01-15",
-      "image_url": "https://2017-2021.state.gov/wp-content/uploads/2019/12/dos_seal.png"
+      "image_url": "https://2017-2021.state.gov/wp-content/uploads/2019/12/dos_seal.png",
+      "acquisition_note": ""
     },
     {
       "id": 19,
@@ -990,7 +1008,7 @@
       "artifact": "artifacts/ch09-s19.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "WSJ feature on the Mojiang/Danaoshan mine where six miners fell ill in 2012 and WIV later sampled viruses closest to SARS-CoV-2—now central to mainstream lab-leak scrutiny. Substantial opening retrieved before paywall.",
+      "summary": "WSJ feature on the Mojiang/Danaoshan mine where six miners fell ill in 2012 and WIV later sampled viruses closest to SARS-CoV-2—now central to mainstream lab-leak scrutiny.",
       "book_role": "",
       "topics": [
         "Mojiang mine",
@@ -1032,7 +1050,8 @@
       },
       "source_key": "ch09-s19",
       "date_iso": "2021-05-24",
-      "image_url": "https://images.wsj.net/im-342289/square?width=1280&height=1280"
+      "image_url": "https://images.wsj.net/im-342289/square?width=1280&height=1280",
+      "acquisition_note": "Substantial opening retrieved before paywall."
     }
   ]
 }

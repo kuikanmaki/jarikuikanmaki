@@ -58,7 +58,8 @@
       },
       "source_key": "ch17-s01",
       "date_iso": "2021-10-25",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -112,7 +113,8 @@
         ]
       },
       "source_key": "ch17-s02",
-      "date_iso": "2021-10-20"
+      "date_iso": "2021-10-20",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -165,7 +167,8 @@
         ]
       },
       "source_key": "ch17-s03",
-      "date_iso": "2021-10-20"
+      "date_iso": "2021-10-20",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -221,7 +224,8 @@
       },
       "source_key": "ch17-s04",
       "date_iso": "2021-10-22",
-      "image_url": "https://media.vanityfair.com/photos/6171e1289c6a5fce5a1be1f0/16:9/w_1280,c_limit/vf-lab-leab-site-story.jpg"
+      "image_url": "https://media.vanityfair.com/photos/6171e1289c6a5fce5a1be1f0/16:9/w_1280,c_limit/vf-lab-leab-site-story.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -270,7 +274,8 @@
       },
       "source_key": "ch17-s05",
       "date_iso": "2021-09-24",
-      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-021-02596-2/d41586-021-02596-2_19689458.jpg"
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-021-02596-2/d41586-021-02596-2_19689458.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -323,7 +328,8 @@
       },
       "source_key": "ch17-s06",
       "date_iso": "2022-04-27",
-      "image_url": "https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png"
+      "image_url": "https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -374,7 +380,8 @@
       ],
       "source_key": "ch17-s07",
       "date_iso": "2021-03-18",
-      "image_url": "https://www.science.org/cms/10.1126/science.abf8003/asset/1067b866-1f9c-433e-b334-fd44348654f9/assets/graphic/372_412_f1.jpeg"
+      "image_url": "https://www.science.org/cms/10.1126/science.abf8003/asset/1067b866-1f9c-433e-b334-fd44348654f9/assets/graphic/372_412_f1.jpeg",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -418,7 +425,8 @@
       },
       "source_key": "ch17-s08",
       "date_iso": "2022-11-21",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!9VB-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6e0edc22-aeaf-4ea4-b33e-a69d55f737bd_1024x961.jpeg"
+      "image_url": "https://substackcdn.com/image/fetch/$s_!9VB-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6e0edc22-aeaf-4ea4-b33e-a69d55f737bd_1024x961.jpeg",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -454,7 +462,8 @@
       ],
       "source_key": "ch17-s09",
       "date_iso": "2020-05-02",
-      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif"
+      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -504,7 +513,8 @@
         ]
       },
       "source_key": "ch17-s10",
-      "date_iso": "2012-10-09"
+      "date_iso": "2012-10-09",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -537,7 +547,8 @@
       },
       "source_key": "ch17-s11",
       "date_iso": "2019-02-25",
-      "image_url": "https://thebulletin.org/wp-content/uploads/2019/02/722px-Influenza_virus_research-bsl3.jpg.optimal.jpg"
+      "image_url": "https://thebulletin.org/wp-content/uploads/2019/02/722px-Influenza_virus_research-bsl3.jpg.optimal.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -580,7 +591,8 @@
         ]
       },
       "source_key": "ch17-s12",
-      "date_iso": "2019-09-16"
+      "date_iso": "2019-09-16",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -623,7 +635,8 @@
       },
       "source_key": "ch17-s13",
       "date_iso": "2020-05-08",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/242978d593d7eddbfaf06f984f581ebc15e977cf2936efe865fb3450bafca95a/lightyear_networkapi/resizefill_w640%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fhd%2Fcp-video-transcode%2Fprod%2F2020-05%2F05%2F5eb1558084a08c74cced0910%2F5eb1558084a08c74cced0911_o_U_v2.jpg"
+      "image_url": "https://s.yimg.com/lo/mysterio/api/242978d593d7eddbfaf06f984f581ebc15e977cf2936efe865fb3450bafca95a/lightyear_networkapi/resizefill_w640%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fhd%2Fcp-video-transcode%2Fprod%2F2020-05%2F05%2F5eb1558084a08c74cced0910%2F5eb1558084a08c74cced0911_o_U_v2.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 14,
@@ -670,7 +683,8 @@
       },
       "source_key": "ch17-s14",
       "date_iso": "2020-05-09",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -713,7 +727,8 @@
       },
       "source_key": "ch17-s15",
       "date_iso": "2019-09-26",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif"
+      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
+      "acquisition_note": ""
     },
     {
       "id": 16,
@@ -762,7 +777,8 @@
         ]
       },
       "source_key": "ch17-s16",
-      "date_iso": "2020-10-28"
+      "date_iso": "2020-10-28",
+      "acquisition_note": ""
     }
   ]
 }

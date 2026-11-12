@@ -50,7 +50,8 @@
         ]
       },
       "source_key": "ch10-s01",
-      "date_iso": "2021-05-26"
+      "date_iso": "2021-05-26",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -101,7 +102,8 @@
       },
       "source_key": "ch10-s02",
       "date_iso": "2021-03-30",
-      "image_url": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30"
+      "image_url": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -151,7 +153,8 @@
       },
       "source_key": "ch10-s03",
       "date_iso": "2021-03-30",
-      "image_url": "https://2021-2025.state.gov/wp-content/uploads/2021/02/Press_release_gold_edited.png"
+      "image_url": "https://2021-2025.state.gov/wp-content/uploads/2021/02/Press_release_gold_edited.png",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -197,7 +200,8 @@
       },
       "source_key": "ch10-s04",
       "date_iso": "2021-05-26",
-      "image_url": "https://static.politico.com/34/89/1f62aabb49b8abc45f32fff85523/ap21076642655125.jpg"
+      "image_url": "https://static.politico.com/34/89/1f62aabb49b8abc45f32fff85523/ap21076642655125.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -251,7 +255,8 @@
       },
       "source_key": "ch10-s05",
       "date_iso": "2021-06-01",
-      "image_url": "https://i0.wp.com/thehill.com/wp-content/uploads/sites/2/2021/05/cottontom_051821gn_lead.jpg?w=2000&ssl=1"
+      "image_url": "https://i0.wp.com/thehill.com/wp-content/uploads/sites/2/2021/05/cottontom_051821gn_lead.jpg?w=2000&ssl=1",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -301,7 +306,8 @@
       },
       "source_key": "ch10-s06",
       "date_iso": "2021-05-25",
-      "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg"
+      "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -315,7 +321,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Vox piece that originally ‘debunked’ lab-origin claims, later carrying a May 2021 editor’s note as the hypothesis regained legitimacy. Skipped by scrape host policy; citation retained.",
+      "summary": "Vox piece that originally ‘debunked’ lab-origin claims, later carrying a May 2021 editor’s note as the hypothesis regained legitimacy.",
       "book_role": "",
       "topics": [
         "Vox",
@@ -350,7 +356,8 @@
         ]
       },
       "source_key": "ch10-s07",
-      "date_iso": "2021-05-25"
+      "date_iso": "2021-05-25",
+      "acquisition_note": "Skipped by scrape host policy; citation retained."
     },
     {
       "id": 8,
@@ -364,7 +371,7 @@
       "artifact": "artifacts/ch10-s08.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "DocumentCloud landing for the Leopold NIH FOIA dump of Anthony Fauci emails (3,234 pages), including the 1 Feb 2020 note to Hugh Auchincloss on the Baric–Shi Nature Medicine SARS gain-of-function paper. Viewer chrome retrieved; full email text not extracted.",
+      "summary": "DocumentCloud landing for the Leopold NIH FOIA dump of Anthony Fauci emails (3,234 pages), including the 1 Feb 2020 note to Hugh Auchincloss on the Baric–Shi Nature Medicine SARS gain-of-function paper.",
       "book_role": "Fauci’s early email forwarding the Baric–Shi Nature Medicine paper amid Proximal Origin’s inception.",
       "topics": [
         "Fauci emails",
@@ -406,7 +413,8 @@
         "topic:gain-of-function-research"
       ],
       "source_key": "ch10-s08",
-      "date_iso": "2020-02-01"
+      "date_iso": "2020-02-01",
+      "acquisition_note": "Viewer chrome retrieved; full email text not extracted."
     },
     {
       "id": 9,
@@ -463,7 +471,8 @@
         ]
       },
       "source_key": "ch10-s09",
-      "date_iso": "2020-04-17"
+      "date_iso": "2020-04-17",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -511,7 +520,8 @@
         "places": []
       },
       "source_key": "ch10-s10",
-      "date_iso": "2021-06-21"
+      "date_iso": "2021-06-21",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -525,7 +535,7 @@
       "artifact": "artifacts/ch10-s11.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Telegraph investigation of links between scientists who dismissed the Wuhan lab theory and Chinese research partners. Scrape hit an Akamai access-block page.",
+      "summary": "Telegraph investigation of links between scientists who dismissed the Wuhan lab theory and Chinese research partners.",
       "book_role": "",
       "topics": [
         "conflicts of interest",
@@ -557,7 +567,8 @@
         ]
       },
       "source_key": "ch10-s11",
-      "date_iso": "2021-09-10"
+      "date_iso": "2021-09-10",
+      "acquisition_note": "Scrape hit an Akamai access-block page."
     },
     {
       "id": 12,
@@ -571,7 +582,7 @@
       "artifact": null,
       "content_kind": "video",
       "language": "en",
-      "summary": "TWiV episode featuring Peter Daszak of EcoHealth Alliance. YouTube skipped under scrape policy.",
+      "summary": "TWiV episode featuring Peter Daszak of EcoHealth Alliance.",
       "book_role": "TWiV interview in which Daszak describes inserting spike proteins into bat coronaviruses.",
       "topics": [
         "Peter Daszak",
@@ -606,7 +617,8 @@
         "places": []
       },
       "source_key": "ch10-s12",
-      "date_iso": "2020-05-19"
+      "date_iso": "2020-05-19",
+      "acquisition_note": "YouTube skipped under scrape policy."
     },
     {
       "id": 13,
@@ -659,7 +671,8 @@
         ]
       },
       "source_key": "ch10-s13",
-      "date_iso": "2014-06-01"
+      "date_iso": "2014-06-01",
+      "acquisition_note": ""
     },
     {
       "id": 14,
@@ -715,7 +728,8 @@
       },
       "source_key": "ch10-s14",
       "date_iso": "2021-06-02",
-      "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1808203-wuhan-lab-theory-gains-traction.jpg?w=1200&amp;crop=1"
+      "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1808203-wuhan-lab-theory-gains-traction.jpg?w=1200&amp;crop=1",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -767,7 +781,8 @@
       },
       "source_key": "ch10-s15",
       "date_iso": "2021-02",
-      "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg"
+      "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 16,
@@ -815,7 +830,8 @@
       },
       "source_key": "ch10-s16",
       "date_iso": "2020-05-06",
-      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2020/05/china-coronavirus.jpg?quality=75&#038;strip=all&#038;w=1200"
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2020/05/china-coronavirus.jpg?quality=75&#038;strip=all&#038;w=1200",
+      "acquisition_note": ""
     },
     {
       "id": 17,
@@ -866,7 +882,8 @@
       },
       "source_key": "ch10-s17",
       "date_iso": "2021-06-22",
-      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif"
+      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif",
+      "acquisition_note": ""
     },
     {
       "id": 18,
@@ -933,7 +950,8 @@
       },
       "source_key": "ch10-s18",
       "date_iso": "2021-07-22",
-      "image_url": "https://unherd.com/wp-content/uploads/2021/07/2GettyImages-1210084746.jpg"
+      "image_url": "https://unherd.com/wp-content/uploads/2021/07/2GettyImages-1210084746.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 19,
@@ -996,7 +1014,8 @@
       },
       "source_key": "ch10-s19",
       "date_iso": "2023-07-21",
-      "image_url": "https://theintercept.com/wp-content/uploads/2023/07/GettyImages-1534048302gary-anderson-origin-covid.jpg?fit=4696%2C2348&#038;w=1200&#038;h=800"
+      "image_url": "https://theintercept.com/wp-content/uploads/2023/07/GettyImages-1534048302gary-anderson-origin-covid.jpg?fit=4696%2C2348&#038;w=1200&#038;h=800",
+      "acquisition_note": ""
     },
     {
       "id": 20,
@@ -1050,7 +1069,8 @@
       },
       "source_key": "ch10-s20",
       "date_iso": "2021-10-02",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     }
   ]
 }

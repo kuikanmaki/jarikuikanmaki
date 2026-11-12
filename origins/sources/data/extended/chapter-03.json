@@ -18,7 +18,7 @@
       "artifact": "artifacts/ch03-s01.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Lancet clinical report on the first hospitalized 2019-nCoV patients in Wuhan. Full text was not retrieved (paywall/chrome only). This is the case series later cited to show the earliest patient had no seafood-market link.",
+      "summary": "Lancet clinical report on the first hospitalized 2019-nCoV patients in Wuhan. This is the case series later cited to show the earliest patient had no seafood-market link.",
       "book_role": "",
       "topics": [
         "2019-nCoV clinical features",
@@ -53,7 +53,8 @@
         ]
       },
       "source_key": "ch03-s01",
-      "date_iso": "2020-01-24"
+      "date_iso": "2020-01-24",
+      "acquisition_note": "Full text was not retrieved (paywall/chrome only)."
     },
     {
       "id": 2,
@@ -109,7 +110,8 @@
       },
       "source_key": "ch03-s02",
       "date_iso": "2020-01-26",
-      "image_url": "https://www.science.org/cms/asset/eff30036-95c6-4ac1-8945-999dec2012f6/Wuhan_Coronavirus_market_hazmat_1280x720_1.jpg"
+      "image_url": "https://www.science.org/cms/asset/eff30036-95c6-4ac1-8945-999dec2012f6/Wuhan_Coronavirus_market_hazmat_1280x720_1.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -162,7 +164,8 @@
         ]
       },
       "source_key": "ch03-s03",
-      "date_iso": "2020-01-27"
+      "date_iso": "2020-01-27",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -218,7 +221,8 @@
       },
       "source_key": "ch03-s04",
       "date_iso": "2020-01-21",
-      "image_url": "https://images.seattletimes.com/wp-content/uploads/2020/01/153738.jpg?d=780x574"
+      "image_url": "https://images.seattletimes.com/wp-content/uploads/2020/01/153738.jpg?d=780x574",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -270,7 +274,8 @@
       },
       "source_key": "ch03-s05",
       "date_iso": "2022-10-03",
-      "image_url": "https://www.bostonherald.com/wp-content/uploads/2022/09/fauci-first-pitch-mariners.jpg?w=4472&#038;h=2981"
+      "image_url": "https://www.bostonherald.com/wp-content/uploads/2022/09/fauci-first-pitch-mariners.jpg?w=4472&#038;h=2981",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -342,7 +347,8 @@
         ]
       },
       "source_key": "ch03-s06",
-      "date_iso": "2020-01-27"
+      "date_iso": "2020-01-27",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -397,7 +403,8 @@
         ]
       },
       "source_key": "ch03-s07",
-      "image_url": "https://taggs.hhs.gov/Content/images/flag.jpg"
+      "image_url": "https://taggs.hhs.gov/Content/images/flag.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -462,7 +469,8 @@
       },
       "source_key": "ch03-s08",
       "date_iso": "2023-02-21",
-      "image_url": "https://usrtk.org/wp-content/uploads/2023/02/closed_door_meeting_2013.jpg"
+      "image_url": "https://usrtk.org/wp-content/uploads/2023/02/closed_door_meeting_2013.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -516,7 +524,8 @@
       ],
       "source_key": "ch03-s09",
       "date_iso": "2020-02-11",
-      "image_url": "https://www.openthebooks.com/assets/1/6/MainFCKEditorDimension/Substack.png"
+      "image_url": "https://www.openthebooks.com/assets/1/6/MainFCKEditorDimension/Substack.png",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -530,7 +539,7 @@
       "artifact": "artifacts/ch03-s10.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Video-recorded deposition of Anthony Fauci taken 23 November 2022 at NIH in Bethesda for Louisiana federal litigation; the scrape is a large DocumentCloud/OCR transcript dump including counsel captions and sworn Q&A.",
+      "summary": "Video-recorded deposition of Anthony Fauci taken 23 November 2022 at NIH in Bethesda for Louisiana federal litigation, including counsel captions and sworn Q&A.",
       "book_role": "",
       "topics": [
         "Anthony Fauci deposition",
@@ -565,7 +574,8 @@
         ]
       },
       "source_key": "ch03-s10",
-      "date_iso": "2022-11-23"
+      "date_iso": "2022-11-23",
+      "acquisition_note": "Scrape is a large DocumentCloud/OCR transcript dump."
     },
     {
       "id": 11,
@@ -627,7 +637,8 @@
         ]
       },
       "source_key": "ch03-s11",
-      "date_iso": "2020-02-18"
+      "date_iso": "2020-02-18",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -674,7 +685,8 @@
         ]
       },
       "source_key": "ch03-s12",
-      "date_iso": "2020-01-31"
+      "date_iso": "2020-01-31",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -729,7 +741,8 @@
       },
       "source_key": "ch03-s13",
       "date_iso": "2020-04-22",
-      "image_url": "https://miro.medium.com/v2/resize:fit:1102/1*_avmtKnw_ZE-HjyhUyIDpQ.png"
+      "image_url": "https://miro.medium.com/v2/resize:fit:1102/1*_avmtKnw_ZE-HjyhUyIDpQ.png",
+      "acquisition_note": ""
     }
   ]
 }

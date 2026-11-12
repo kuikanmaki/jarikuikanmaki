@@ -58,7 +58,8 @@
       },
       "source_key": "ch11-s01",
       "date_iso": "2021-06-13",
-      "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/6/3/28-wiv.jpg"
+      "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/6/3/28-wiv.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -96,7 +97,8 @@
       ],
       "source_key": "ch11-s02",
       "date_iso": "2020-02-20",
-      "image_url": "https://www.virology.ws/wp-content/uploads/2020/02/coronavirus_S-300x261.jpg"
+      "image_url": "https://www.virology.ws/wp-content/uploads/2020/02/coronavirus_S-300x261.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -151,7 +153,8 @@
       },
       "source_key": "ch11-s03",
       "date_iso": "2016",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12250-016-3713-9/MediaObjects/12250_2016_3713_Figa_HTML.gif"
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12250-016-3713-9/MediaObjects/12250_2016_3713_Figa_HTML.gif",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -165,7 +168,7 @@
       "artifact": null,
       "content_kind": "database_record",
       "language": "en",
-      "summary": "GenBank record KP876546 for partial RdRp of Rhinolophus bat coronavirus BtCoV/4991—later recognized as the same virus lineage renamed RaTG13. Scrape returned 404/blocked.",
+      "summary": "GenBank record KP876546 for partial RdRp of Rhinolophus bat coronavirus BtCoV/4991—later recognized as the same virus lineage renamed RaTG13.",
       "book_role": "2016 GenBank deposit of the partial Ra4991 sequence later known as RaTG13.",
       "topics": [
         "BtCoV/4991",
@@ -200,7 +203,8 @@
         ]
       },
       "source_key": "ch11-s04",
-      "date_iso": "2016-03-04"
+      "date_iso": "2016-03-04",
+      "acquisition_note": "Scrape returned 404/blocked."
     },
     {
       "id": 5,
@@ -253,7 +257,8 @@
       ],
       "source_key": "ch11-s05",
       "date_iso": "2020-10-20",
-      "image_url": "https://loop.frontiersin.org/images/profile/339663/74"
+      "image_url": "https://loop.frontiersin.org/images/profile/339663/74",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -267,7 +272,7 @@
       "artifact": null,
       "content_kind": "database_record",
       "language": "en",
-      "summary": "GenBank MN996532.1 complete RaTG13 genome published by Shi’s team in 2020. Scrape returned 404/blocked; citation retained (chapter notes).",
+      "summary": "GenBank MN996532.1 complete RaTG13 genome published by Shi’s team in 2020.",
       "book_role": "Complete RaTG13 genome published by Shi’s team in 2020.",
       "topics": [
         "RaTG13",
@@ -308,7 +313,8 @@
         ]
       },
       "source_key": "ch11-s06",
-      "date_iso": "2020-01-27"
+      "date_iso": "2020-01-27",
+      "acquisition_note": "Scrape returned 404/blocked; citation retained (chapter notes)."
     },
     {
       "id": 7,
@@ -362,7 +368,8 @@
       },
       "source_key": "ch11-s07",
       "date_iso": "2021-07-11",
-      "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/7/1/shutterstock_1811050684.jpg"
+      "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/7/1/shutterstock_1811050684.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -411,7 +418,8 @@
         ]
       },
       "source_key": "ch11-s08",
-      "date_iso": "2013-05"
+      "date_iso": "2013-05",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -459,7 +467,8 @@
         ]
       },
       "source_key": "ch11-s09",
-      "date_iso": "2016-06"
+      "date_iso": "2016-06",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -509,7 +518,8 @@
       },
       "source_key": "ch11-s10",
       "date_iso": "2020-09-22",
-      "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltdfd478ef99673df1/698a124d457a526b50d646a9/time-100-Zhong-Nanshan.jpg?branch=production&amp;width=2400&amp;quality=75&amp;auto=webp&amp;crop=16:9"
+      "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltdfd478ef99673df1/698a124d457a526b50d646a9/time-100-Zhong-Nanshan.jpg?branch=production&amp;width=2400&amp;quality=75&amp;auto=webp&amp;crop=16:9",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -563,7 +573,8 @@
       },
       "source_key": "ch11-s11",
       "date_iso": "2021-05-11",
-      "image_url": "https://www.independentsciencenews.org/wp-content/uploads/2021/04/Canping-Huang-PhD-Front-Page.png"
+      "image_url": "https://www.independentsciencenews.org/wp-content/uploads/2021/04/Canping-Huang-PhD-Front-Page.png",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -617,7 +628,8 @@
       },
       "source_key": "ch11-s12",
       "date_iso": "2021-02-06",
-      "image_url": "https://www.telegraph.co.uk/content/dam/news/2021/02/03/covid-lab-lead_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfp-Lnwb_Dq3Fonfr3-DT2I.jpg?imwidth=640"
+      "image_url": "https://www.telegraph.co.uk/content/dam/news/2021/02/03/covid-lab-lead_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfp-Lnwb_Dq3Fonfr3-DT2I.jpg?imwidth=640",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -665,7 +677,8 @@
       },
       "source_key": "ch11-s13",
       "date_iso": "2020-04-08",
-      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F04%2F08%2FLYNXMPEG370GA.JPG?auth=dbfb0fe44bd5097ea5e92894d6d57c5bc1a3518d93326820fa9f84b58e50559e&width=1080&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F04%2F08%2FLYNXMPEG370GA.JPG?auth=dbfb0fe44bd5097ea5e92894d6d57c5bc1a3518d93326820fa9f84b58e50559e&width=1080&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 14,
@@ -719,7 +732,8 @@
       },
       "source_key": "ch11-s14",
       "date_iso": "2013-10-30",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature12711/MediaObjects/41586_2013_Article_BFnature12711_Fig1_HTML.jpg"
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature12711/MediaObjects/41586_2013_Article_BFnature12711_Fig1_HTML.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -762,7 +776,8 @@
         "places": []
       },
       "source_key": "ch11-s15",
-      "date_iso": "2006-07-05"
+      "date_iso": "2006-07-05",
+      "acquisition_note": ""
     },
     {
       "id": 16,
@@ -776,7 +791,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "2000 JVI paper showing coronavirus host-range can be changed by swapping spike ectodomains. PubMed scrape failed; citation retained (chapter notes).",
+      "summary": "2000 JVI paper showing coronavirus host-range can be changed by swapping spike ectodomains.",
       "book_role": "2006 study showing furin-site insertion at the SARS-CoV-1 S1–S2 junction was already known technique.",
       "topics": [
         "spike ectodomain",
@@ -802,7 +817,8 @@
         "places": []
       },
       "source_key": "ch11-s16",
-      "date_iso": "2000-02-01"
+      "date_iso": "2000-02-01",
+      "acquisition_note": "PubMed scrape failed; citation retained (chapter notes)."
     },
     {
       "id": 17,
@@ -836,7 +852,8 @@
         "places": []
       },
       "source_key": "ch11-s17",
-      "date_iso": "2020-02-26"
+      "date_iso": "2020-02-26",
+      "acquisition_note": ""
     },
     {
       "id": 18,
@@ -882,7 +899,8 @@
       },
       "source_key": "ch11-s18",
       "date_iso": "2021-08-11",
-      "image_url": "https://usrtk.org/wp-content/uploads/2021/04/EMI-cover-e1628731989446.jpg"
+      "image_url": "https://usrtk.org/wp-content/uploads/2021/04/EMI-cover-e1628731989446.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 19,
@@ -928,7 +946,8 @@
         ]
       },
       "source_key": "ch11-s19",
-      "date_iso": "2020-12-30"
+      "date_iso": "2020-12-30",
+      "acquisition_note": ""
     },
     {
       "id": 20,
@@ -942,7 +961,7 @@
       "artifact": "artifacts/ch11-s20.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "PMC full text of the 2016 Mojiang mineshaft coronavirus coexistence paper (same study as s03)—open-access copy of the WIV bat-colony survey.",
+      "summary": "PMC full text of the 2016 Mojiang mineshaft coronavirus coexistence paper (same study as s03).",
       "book_role": "",
       "topics": [
         "Mojiang mineshaft",
@@ -982,7 +1001,8 @@
       },
       "source_key": "ch11-s20",
       "date_iso": "2016-02-18",
-      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5578/8193380/46b11ee206d4/12250_2016_3713_Figa_HTML.jpg"
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5578/8193380/46b11ee206d4/12250_2016_3713_Figa_HTML.jpg",
+      "acquisition_note": "Open-access copy of the WIV bat-colony survey."
     }
   ]
 }

@@ -39,7 +39,8 @@
         "places": []
       },
       "source_key": "ch01-s01",
-      "date_iso": "2020-01-26"
+      "date_iso": "2020-01-26",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -53,7 +54,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus. Firecrawl cannot scrape nytimes.com on this plan; citation retained from the bibliography.",
+      "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus.",
       "book_role": "",
       "topics": [
         "first death",
@@ -84,7 +85,8 @@
         ]
       },
       "source_key": "ch01-s02",
-      "date_iso": "2020-01-10"
+      "date_iso": "2020-01-10",
+      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained from the bibliography."
     },
     {
       "id": 3,
@@ -132,7 +134,8 @@
       },
       "source_key": "ch01-s03",
       "date_iso": "2020-01-23",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/ECFF/production/_110617606_059331569.jpg"
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/ECFF/production/_110617606_059331569.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -182,7 +185,8 @@
       },
       "source_key": "ch01-s04",
       "date_iso": "2020-01-11",
-      "image_url": "https://virological.org/uploads/default/original/1X/7897c4e655617c4b6fe71a98eaa97a38778f0623.png"
+      "image_url": "https://virological.org/uploads/default/original/1X/7897c4e655617c4b6fe71a98eaa97a38778f0623.png",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -225,7 +229,8 @@
       },
       "source_key": "ch01-s05",
       "date_iso": "2020-01-20",
-      "image_url": "http://img2.chinadaily.com.cn/images/202001/21/5e262f65a3101282064d1e74.jpeg"
+      "image_url": "http://img2.chinadaily.com.cn/images/202001/21/5e262f65a3101282064d1e74.jpeg",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -239,7 +244,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "WHO tweet stating there was then ‘no clear evidence’ of human-to-human transmission of 2019-nCoV in Wuhan. Social URL skipped under scrape policy; text preserved from the bibliography title.",
+      "summary": "WHO tweet stating there was then ‘no clear evidence’ of human-to-human transmission of 2019-nCoV in Wuhan.",
       "book_role": "",
       "topics": [
         "WHO",
@@ -271,7 +276,8 @@
         ]
       },
       "source_key": "ch01-s06",
-      "date_iso": "2020-01-14"
+      "date_iso": "2020-01-14",
+      "acquisition_note": "Social URL skipped under scrape policy; text preserved from the bibliography title."
     },
     {
       "id": 7,
@@ -285,7 +291,7 @@
       "artifact": null,
       "content_kind": "html_article",
       "language": "en",
-      "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research. Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
+      "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research.",
       "book_role": "",
       "topics": [
         "gain-of-function research",
@@ -314,7 +320,8 @@
         "topic:gain-of-function-research"
       ],
       "source_key": "ch01-s07",
-      "date_iso": "2012-01-07"
+      "date_iso": "2012-01-07",
+      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained."
     },
     {
       "id": 8,
@@ -360,7 +367,8 @@
       },
       "source_key": "ch01-s08",
       "date_iso": "2014-07-14",
-      "image_url": "https://www.cambridgeworkinggroup.org/images/pdf.png"
+      "image_url": "https://www.cambridgeworkinggroup.org/images/pdf.png",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -408,7 +416,8 @@
         "topic:sars"
       ],
       "source_key": "ch01-s09",
-      "date_iso": "2014-10-17"
+      "date_iso": "2014-10-17",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -453,7 +462,8 @@
         "topic:gain-of-function-research"
       ],
       "source_key": "ch01-s10",
-      "date_iso": "2012-06-22"
+      "date_iso": "2012-06-22",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -508,7 +518,8 @@
       ],
       "source_key": "ch01-s11",
       "date_iso": "2020-01-04",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/Wuhan-GettyImages-946736186-1024x576.jpg"
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/Wuhan-GettyImages-946736186-1024x576.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -522,7 +533,7 @@
       "artifact": "artifacts/ch01-s12.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Wall Street Journal report that Chinese scientists had identified a new virus in the pneumonia outbreak. Retrieved page is mostly paywall/chrome; citation retained.",
+      "summary": "Wall Street Journal report that Chinese scientists had identified a new virus in the pneumonia outbreak.",
       "book_role": "",
       "topics": [
         "novel virus discovery",
@@ -553,7 +564,8 @@
       },
       "source_key": "ch01-s12",
       "date_iso": "2020-01-08",
-      "image_url": "https://images.wsj.net/im-142407/?width=700&height=467"
+      "image_url": "https://images.wsj.net/im-142407/?width=700&height=467",
+      "acquisition_note": "Retrieved page is mostly paywall/chrome; citation retained."
     }
   ]
 }

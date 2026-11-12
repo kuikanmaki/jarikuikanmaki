@@ -159,7 +159,9 @@ def clean_text(md: str) -> str:
     return " ".join(lines)
 
 
-def summarize(title: str, typ: str, publication: str, text: str, status: str) -> str:
+def summarize(title: str, typ: str, publication: str, text: str, status: str) -> tuple[str, str]:
+    """Return (visitor-facing summary, internal acquisition_note)."""
+    label = title or publication or typ or "source"
     if status in ("empty_url", "skipped", "blocked", "not_found", "error"):
         why = {
             "empty_url": "No public URL in the bibliography.",
@@ -168,17 +170,23 @@ def summarize(title: str, typ: str, publication: str, text: str, status: str) ->
             "not_found": "URL returned not found.",
             "error": "Scrape failed.",
         }[status]
-        return f"{title} ({publication or typ or 'source'}). {why} Citation retained from the chapter bibliography."
+        return (
+            f"{label} ({publication or typ or 'source'}).",
+            f"{why} Citation retained from the chapter bibliography.",
+        )
     if status == "paywall":
-        return f"{title}. Partial or paywalled retrieval from {publication or 'the publisher'}; full text not available in the corpus artifact."
+        return (
+            f"{label}.",
+            f"Partial or paywalled retrieval from {publication or 'the publisher'}; full text not available in the corpus artifact.",
+        )
     body = clean_text(text)[:600]
     if len(body) > 120:
         # take first 2 sentences-ish
         parts = re.split(r"(?<=[.!?])\s+", body)
         snip = " ".join(parts[:2]).strip()
         if len(snip) > 80:
-            return snip[:450] + ("…" if len(snip) > 450 else "")
-    return f"{title}. Source from {publication or typ}, captured for the chapter research corpus."
+            return snip[:450] + ("…" if len(snip) > 450 else ""), ""
+    return f"{label}. Source from {publication or typ}, captured for the chapter research corpus.", ""
 
 
 def detect_status(base_status: str, text: str, url: str) -> str:
@@ -245,13 +253,17 @@ def build(ch: int) -> dict:
             if place.lower() in blob.lower() and place not in places:
                 places.append(place)
 
+        summary, acquisition_note = summarize(
+            s.get("title") or "", s.get("type") or "", s.get("publication") or "", text, status
+        )
         rec = {
             **{k: s.get(k, "") for k in ("id", "type", "author", "title", "publication", "date", "url")},
             "status": status,
             "artifact": art_rel,
             "content_kind": content_kind(url, s.get("type") or ""),
             "language": language_of(text, url),
-            "summary": summarize(s.get("title") or "", s.get("type") or "", s.get("publication") or "", text, status),
+            "summary": summary,
+            "acquisition_note": acquisition_note,
             "book_role": book_role(ch, s.get("title") or "", notes),
             "topics": topics_from(s.get("title") or "", s.get("type") or ""),
             "entities": {"people": people, "orgs": orgs[:6], "places": places[:6]},

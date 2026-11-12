@@ -18,7 +18,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "DRASTIC tweet announcing the leaked 2018 EcoHealth DEFUSE proposal to DARPA. X skipped under scrape policy.",
+      "summary": "DRASTIC tweet announcing the leaked 2018 EcoHealth DEFUSE proposal to DARPA.",
       "book_role": "",
       "topics": [
         "DEFUSE",
@@ -58,7 +58,8 @@
         "places": []
       },
       "source_key": "ch14-s01",
-      "date_iso": "2021-09-20"
+      "date_iso": "2021-09-20",
+      "acquisition_note": "X skipped under scrape policy."
     },
     {
       "id": 2,
@@ -124,7 +125,8 @@
         ]
       },
       "source_key": "ch14-s02",
-      "date_iso": "2018-03-27"
+      "date_iso": "2018-03-27",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -138,7 +140,7 @@
       "artifact": null,
       "content_kind": "video",
       "language": "en",
-      "summary": "Sky News Australia video claiming footage shows bats kept in a Wuhan lab. YouTube skipped under scrape policy.",
+      "summary": "Sky News Australia video claiming footage shows bats kept in a Wuhan lab.",
       "book_role": "",
       "topics": [
         "bats in Wuhan lab",
@@ -172,7 +174,8 @@
         ]
       },
       "source_key": "ch14-s03",
-      "date_iso": "2021-06-13"
+      "date_iso": "2021-06-13",
+      "acquisition_note": "YouTube skipped under scrape policy."
     },
     {
       "id": 4,
@@ -224,7 +227,8 @@
       },
       "source_key": "ch14-s04",
       "date_iso": "2021-02-13",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -238,7 +242,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "Daszak tweet denying live or dead bats in labs he collaborated with for 15 years, calling bat-in-lab claims a conspiracy theory. X skipped.",
+      "summary": "Daszak tweet denying live or dead bats in labs he collaborated with for 15 years, calling bat-in-lab claims a conspiracy theory.",
       "book_role": "Daszak’s public denial that partner labs kept live bats—set against DEFUSE’s bat plans.",
       "topics": [
         "Peter Daszak",
@@ -274,7 +278,8 @@
         ]
       },
       "source_key": "ch14-s05",
-      "date_iso": "2020-12-10"
+      "date_iso": "2020-12-10",
+      "acquisition_note": "X skipped."
     },
     {
       "id": 6,
@@ -288,7 +293,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "Daszak tweet insisting only samples—not bats—went to Wuhan labs and that bats are released where caught. Twitter skipped.",
+      "summary": "Daszak tweet insisting only samples—not bats—went to Wuhan labs and that bats are released where caught.",
       "book_role": "Daszak’s public denial that bats were sent to Wuhan—set against DEFUSE partner plans.",
       "topics": [
         "bat samples",
@@ -325,7 +330,8 @@
         ]
       },
       "source_key": "ch14-s06",
-      "date_iso": "2020-12-10"
+      "date_iso": "2020-12-10",
+      "acquisition_note": "Twitter skipped."
     },
     {
       "id": 7,
@@ -380,7 +386,8 @@
       },
       "source_key": "ch14-s07",
       "date_iso": "2021-09-06",
-      "image_url": "https://theintercept.com/wp-content/uploads/2021/09/GettyImages-1230940643-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800"
+      "image_url": "https://theintercept.com/wp-content/uploads/2021/09/GettyImages-1230940643-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -439,7 +446,8 @@
       },
       "source_key": "ch14-s08",
       "date_iso": "2021-09-08",
-      "image_url": "https://s3.documentcloud.org/documents/21055989/pages/understanding-risk-bat-coronavirus-emergence-grant-notice-p1-large.gif"
+      "image_url": "https://s3.documentcloud.org/documents/21055989/pages/understanding-risk-bat-coronavirus-emergence-grant-notice-p1-large.gif",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -491,7 +499,8 @@
       },
       "source_key": "ch14-s09",
       "date_iso": "2022-09-20",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!fqa5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F91060aa8-e7e7-4a09-ae77-0bb6da044daa_852x806.jpeg"
+      "image_url": "https://substackcdn.com/image/fetch/$s_!fqa5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F91060aa8-e7e7-4a09-ae77-0bb6da044daa_852x806.jpeg",
+      "acquisition_note": ""
     }
   ]
 }

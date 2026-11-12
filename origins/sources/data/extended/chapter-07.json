@@ -18,7 +18,7 @@
       "artifact": null,
       "content_kind": "video",
       "language": "fi",
-      "summary": "YouTube episode of the Jari & Otto Show titled ‘Everything is Under Control’ (17 Feb 2020). Video skipped under scrape policy; citation retained.",
+      "summary": "YouTube episode of the Jari & Otto Show titled ‘Everything is Under Control’ (17 Feb 2020).",
       "book_role": "",
       "topics": [
         "podcast",
@@ -54,7 +54,8 @@
         ]
       },
       "source_key": "ch07-s01",
-      "date_iso": "2020-02-17"
+      "date_iso": "2020-02-17",
+      "acquisition_note": "Video skipped under scrape policy; citation retained."
     },
     {
       "id": 2,
@@ -108,7 +109,8 @@
       },
       "source_key": "ch07-s02",
       "date_iso": "2020-02-23",
-      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F02%2F23%2FLYNXNPEG1M040.JPG?auth=49b18298f5af325ef079933b8d06aa148d995c7944783d1299272145c2011951&width=1080&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F02%2F23%2FLYNXNPEG1M040.JPG?auth=49b18298f5af325ef079933b8d06aa148d995c7944783d1299272145c2011951&width=1080&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -154,7 +156,8 @@
       },
       "source_key": "ch07-s03",
       "date_iso": "2020-04-01",
-      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/640b/7114094/e056f631d356/gr1_lrg.gif"
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/640b/7114094/e056f631d356/gr1_lrg.gif",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -199,7 +202,8 @@
       },
       "source_key": "ch07-s04",
       "date_iso": "2020-03-10",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/DACA/production/_111201065_vesuvius.jpg"
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/DACA/production/_111201065_vesuvius.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -245,7 +249,8 @@
         ]
       },
       "source_key": "ch07-s05",
-      "date_iso": "2020-02-28"
+      "date_iso": "2020-02-28",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -294,7 +299,8 @@
       },
       "source_key": "ch07-s06",
       "date_iso": "2020-02-24",
-      "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11225321"
+      "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11225321",
+      "acquisition_note": ""
     }
   ]
 }

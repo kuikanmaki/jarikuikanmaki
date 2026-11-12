@@ -62,7 +62,8 @@
       },
       "source_key": "ch05-s01",
       "date_iso": "2020-02-03",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-020-2012-7/MediaObjects/41586_2020_2012_Fig1_HTML.png"
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-020-2012-7/MediaObjects/41586_2020_2012_Fig1_HTML.png",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -114,7 +115,8 @@
       },
       "source_key": "ch05-s02",
       "date_iso": "2020-02-07",
-      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-020-00364-2/d41586-020-00364-2_17650006.jpg"
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-020-00364-2/d41586-020-00364-2_17650006.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -156,7 +158,8 @@
       },
       "source_key": "ch05-s03",
       "date_iso": "2020-02-13",
-      "image_url": "https://images.barrons.com/im-154315/?width=639&height=426"
+      "image_url": "https://images.barrons.com/im-154315/?width=639&height=426",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -204,7 +207,8 @@
       },
       "source_key": "ch05-s04",
       "date_iso": "2020-02-01",
-      "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg"
+      "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -266,7 +270,8 @@
       },
       "source_key": "ch05-s05",
       "date_iso": "2020-02-16",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png"
+      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
+      "acquisition_note": ""
     },
     {
       "id": 6,
@@ -323,7 +328,8 @@
       },
       "source_key": "ch05-s06",
       "date_iso": "2015-11-09",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnm.3985/MediaObjects/41591_2015_BFnm3985_Fig1_HTML.jpg"
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnm.3985/MediaObjects/41591_2015_BFnm3985_Fig1_HTML.jpg",
+      "acquisition_note": ""
     }
   ]
 }

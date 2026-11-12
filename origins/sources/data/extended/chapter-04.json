@@ -18,7 +18,7 @@
       "artifact": null,
       "content_kind": "video",
       "language": "fi",
-      "summary": "YouTube episode of the Jari & Otto Show titled ‘Loppu on lähellä’ (28 Jan 2020). Video URLs are skipped under scrape policy; citation retained from the bibliography.",
+      "summary": "YouTube episode of the Jari & Otto Show titled ‘Loppu on lähellä’ (28 Jan 2020).",
       "book_role": "",
       "topics": [
         "podcast",
@@ -54,7 +54,8 @@
         ]
       },
       "source_key": "ch04-s01",
-      "date_iso": "2020-01-28"
+      "date_iso": "2020-01-28",
+      "acquisition_note": "Video URLs are skipped under scrape policy; citation retained from the bibliography."
     },
     {
       "id": 2,
@@ -109,7 +110,8 @@
       },
       "source_key": "ch04-s02",
       "date_iso": "2020-01-24",
-      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F24%2FLYNXMPEG0N22L.JPG?auth=494d53414de2576c9245b5b5bcd33999af3f743a206328cef33b7c34be9aa80b&width=1920&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F24%2FLYNXMPEG0N22L.JPG?auth=494d53414de2576c9245b5b5bcd33999af3f743a206328cef33b7c34be9aa80b&width=1920&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 3,
@@ -158,7 +160,8 @@
       },
       "source_key": "ch04-s03",
       "date_iso": "2020-01-29",
-      "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11183219"
+      "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11183219",
+      "acquisition_note": ""
     },
     {
       "id": 4,
@@ -172,7 +175,7 @@
       "artifact": "artifacts/ch04-s04.md",
       "content_kind": "html_article",
       "language": "en",
-      "summary": "Lancet Infectious Diseases note introducing the Johns Hopkins interactive COVID-19 dashboard. Full text was not retrieved (paywall/chrome only).",
+      "summary": "Lancet Infectious Diseases note introducing the Johns Hopkins interactive COVID-19 dashboard.",
       "book_role": "",
       "topics": [
         "COVID-19 dashboard",
@@ -203,7 +206,8 @@
         ]
       },
       "source_key": "ch04-s04",
-      "date_iso": "2020-02-19"
+      "date_iso": "2020-02-19",
+      "acquisition_note": "Full text was not retrieved (paywall/chrome only)."
     },
     {
       "id": 5,
@@ -217,7 +221,7 @@
       "artifact": null,
       "content_kind": "social_post",
       "language": "en",
-      "summary": "Neil Ferguson tweet warning that despite containment efforts, planning must assume the 2019-nCoV epidemic might not be containable, citing new human-to-human transmissibility estimates. Social URL skipped; text kept from the bibliography title.",
+      "summary": "Neil Ferguson tweet warning that despite containment efforts, planning must assume the 2019-nCoV epidemic might not be containable, citing new human-to-human transmissibility estimates.",
       "book_role": "Ferguson’s early warning that Wuhan containment might already be impossible.",
       "topics": [
         "transmissibility",
@@ -252,7 +256,8 @@
         "topic:sars-cov-2"
       ],
       "source_key": "ch04-s05",
-      "date_iso": "2020-01-25"
+      "date_iso": "2020-01-25",
+      "acquisition_note": "Social URL skipped; text kept from the bibliography title."
     },
     {
       "id": 6,
@@ -300,7 +305,8 @@
       },
       "source_key": "ch04-s06",
       "date_iso": "2020-01-27",
-      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&amp;v=1580140381"
+      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&amp;v=1580140381",
+      "acquisition_note": ""
     },
     {
       "id": 7,
@@ -339,7 +345,8 @@
         ]
       },
       "source_key": "ch04-s07",
-      "date_iso": "2020"
+      "date_iso": "2020",
+      "acquisition_note": ""
     },
     {
       "id": 8,
@@ -388,7 +395,8 @@
         ]
       },
       "source_key": "ch04-s08",
-      "date_iso": "2020-01-26"
+      "date_iso": "2020-01-26",
+      "acquisition_note": ""
     },
     {
       "id": 9,
@@ -419,7 +427,8 @@
         "places": []
       },
       "source_key": "ch04-s09",
-      "date_iso": "2010-05-11"
+      "date_iso": "2010-05-11",
+      "acquisition_note": ""
     },
     {
       "id": 10,
@@ -469,7 +478,8 @@
         ]
       },
       "source_key": "ch04-s10",
-      "date_iso": "2020-01-25"
+      "date_iso": "2020-01-25",
+      "acquisition_note": ""
     },
     {
       "id": 11,
@@ -519,7 +529,8 @@
         "topic:sars-cov-2"
       ],
       "source_key": "ch04-s11",
-      "date_iso": "2020-01-27"
+      "date_iso": "2020-01-27",
+      "acquisition_note": ""
     },
     {
       "id": 12,
@@ -566,7 +577,8 @@
       },
       "source_key": "ch04-s12",
       "date_iso": "2020-01-30",
-      "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/gettyimages-943428252.tmb-1200v.jpg?sfvrsn=9bea021c_42"
+      "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/gettyimages-943428252.tmb-1200v.jpg?sfvrsn=9bea021c_42",
+      "acquisition_note": ""
     },
     {
       "id": 13,
@@ -613,7 +625,8 @@
       },
       "source_key": "ch04-s13",
       "date_iso": "2020-01-31",
-      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F31%2FLYNXMPEG0U16F.JPG?auth=da131b5e2523e3d0b6779cf73b5293133b5d00886454904a5a83caff35d126ae&width=1920&quality=80"
+      "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F31%2FLYNXMPEG0U16F.JPG?auth=da131b5e2523e3d0b6779cf73b5293133b5d00886454904a5a83caff35d126ae&width=1920&quality=80",
+      "acquisition_note": ""
     },
     {
       "id": 14,
@@ -661,7 +674,8 @@
       },
       "source_key": "ch04-s14",
       "date_iso": "2020-01-31",
-      "image_url": "https://images.sanoma-sndp.fi/485bc57b785e4d1cb1c0025ca0a8acba.jpg/some/is-default.jpg"
+      "image_url": "https://images.sanoma-sndp.fi/485bc57b785e4d1cb1c0025ca0a8acba.jpg/some/is-default.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 15,
@@ -705,7 +719,8 @@
       },
       "source_key": "ch04-s15",
       "date_iso": "2020-06-04",
-      "image_url": "https://nextstrain.org/dist/13fec0d41212fe68ae22.png"
+      "image_url": "https://nextstrain.org/dist/13fec0d41212fe68ae22.png",
+      "acquisition_note": ""
     }
   ]
 }

@@ -55,7 +55,8 @@
         ]
       },
       "source_key": "ch02-s01",
-      "date_iso": "2020-01-26"
+      "date_iso": "2020-01-26",
+      "acquisition_note": ""
     },
     {
       "id": 2,
@@ -69,7 +70,7 @@
       "artifact": "artifacts/ch02-s02.md",
       "content_kind": "landing",
       "language": "en",
-      "summary": "Amazon product page for David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy. Page is a retail landing page, not book text.",
+      "summary": "David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy.",
       "book_role": "Hoffman’s Dead Hand history discussed with Otto as Cold War bioweapons context.",
       "topics": [
         "Cold War",
@@ -104,7 +105,8 @@
       },
       "source_key": "ch02-s02",
       "date_iso": "2009-09-22",
-      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
+      "acquisition_note": "Amazon product page; retail landing page, not book text."
     },
     {
       "id": 3,
@@ -118,7 +120,7 @@
       "artifact": "artifacts/ch02-s03.md",
       "content_kind": "landing",
       "language": "en",
-      "summary": "Amazon product page for Ken Alibek’s insider account of the Soviet biological weapons program. Retail landing page only.",
+      "summary": "Ken Alibek’s insider account of the Soviet biological weapons program.",
       "book_role": "Alibek’s Biohazard account of a covert Soviet outbreak used as historical warning.",
       "topics": [
         "Soviet bioweapons",
@@ -159,7 +161,8 @@
       },
       "source_key": "ch02-s03",
       "date_iso": "1999",
-      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
+      "acquisition_note": "Amazon product page; retail landing page only."
     },
     {
       "id": 4,
@@ -213,7 +216,8 @@
       },
       "source_key": "ch02-s04",
       "date_iso": "2020-01-08",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/GettyImages-1192512277-1024x576.jpg"
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/GettyImages-1192512277-1024x576.jpg",
+      "acquisition_note": ""
     },
     {
       "id": 5,
@@ -258,7 +262,8 @@
       },
       "source_key": "ch02-s05",
       "date_iso": "2015-08-18",
-      "image_url": "https://journals.asm.org/cms/10.1128/mbio.01013-15/asset/aeae5b73-69e1-43c8-b8d7-07ce985cf93d/assets/graphic/mbo0041524260001.jpeg"
+      "image_url": "https://journals.asm.org/cms/10.1128/mbio.01013-15/asset/aeae5b73-69e1-43c8-b8d7-07ce985cf93d/assets/graphic/mbo0041524260001.jpeg",
+      "acquisition_note": ""
     }
   ]
 }
