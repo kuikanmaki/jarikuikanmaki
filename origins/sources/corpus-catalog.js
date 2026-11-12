@@ -88,9 +88,15 @@
     var role = s.book_role
       ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
       : "";
-    var status = s.status && s.status !== "ok"
-      ? '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>"
-      : "";
+    var statusNote = "";
+    if (s.status === "paywall") {
+      statusNote =
+        '<p class="catalog-card-status">Source access note: Full text may be paywalled.</p>';
+    } else if (s.status && s.status !== "ok") {
+      // Other non-ok statuses kept for now; rewrite category-by-category.
+      statusNote =
+        '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>";
+    }
     // Default kind is html_article ("Article"); only note non-default formats after the summary.
     var kindNote =
       s.content_kind && s.content_kind !== "html_article" && s.content_kind_label
@@ -107,7 +113,7 @@
         role +
         kindNote +
         topicLine +
-        status +
+        statusNote +
       "</div>";
     return (
       '<div class="catalog-card-enrichment">' +
