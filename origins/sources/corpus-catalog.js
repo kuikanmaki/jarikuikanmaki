@@ -416,6 +416,7 @@
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     renderResults();
+    headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function openKeyword(hit, mode) {
