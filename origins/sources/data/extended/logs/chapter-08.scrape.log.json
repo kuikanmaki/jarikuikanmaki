@@ -17,10 +17,10 @@
     {
       "id": 2,
       "source_key": "ch08-s02",
-      "url": "https://www.turvallisuustutkinta.fi/material/collections/20210630071110/7RRUvNDBZ/P2020-01_Korona.pdf",
+      "url": "https://web.archive.org/web/20210630111723/https://www.turvallisuustutkinta.fi/material/collections/20210630071110/7RRUvNDBZ/P2020-01_Korona.pdf",
       "ok": true,
       "status": "ok",
-      "bytes": 777,
+      "bytes": 206936,
       "error": null,
       "reused": false,
       "artifact": "artifacts/ch08-s02.md"

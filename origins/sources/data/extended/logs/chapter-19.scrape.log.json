@@ -347,13 +347,13 @@
     {
       "id": 33,
       "source_key": "ch19-s33",
-      "url": "https://www.ecohealthalliance.org/2022/12/ecohealth-alliance-statement-regarding-book-by-andrew-huff",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "url": "https://web.archive.org/web/20221206000326/https://www.ecohealthalliance.org/2022/12/ecohealth-alliance-statement-regarding-book-by-andrew-huff",
+      "ok": true,
+      "status": "ok",
+      "bytes": 4836,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch19-s33.md"
     },
     {
       "id": 34,

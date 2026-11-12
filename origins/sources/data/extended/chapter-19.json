@@ -1642,9 +1642,9 @@
       "title": "EcoHealth Alliance Statement Regarding Book by Andrew Huff",
       "publication": "EcoHealth Alliance",
       "date": "December 5, 2022",
-      "url": "https://www.ecohealthalliance.org/2022/12/ecohealth-alliance-statement-regarding-book-by-andrew-huff",
-      "status": "not_found",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20221206000326/https://www.ecohealthalliance.org/2022/12/ecohealth-alliance-statement-regarding-book-by-andrew-huff",
+      "status": "ok",
+      "artifact": "artifacts/ch19-s33.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "EcoHealth Alliance statement responding to Andrew Huff’s book.",
@@ -1678,7 +1678,7 @@
       },
       "source_key": "ch19-s33",
       "date_iso": "2022-12-05",
-      "acquisition_note": "URL not found at scrape.",
+      "acquisition_note": "Live URL gone; replaced with earliest Internet Archive capture.",
       "author_ids": [],
       "publication_ids": [
         "org:ecohealth-alliance"
