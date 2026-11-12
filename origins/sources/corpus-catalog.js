@@ -104,8 +104,8 @@
     var text =
       '<div class="catalog-card-copy">' +
         (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
-        kindNote +
         role +
+        kindNote +
         topicLine +
         status +
       "</div>";
