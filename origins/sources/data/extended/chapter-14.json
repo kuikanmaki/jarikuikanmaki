@@ -59,7 +59,7 @@
       },
       "source_key": "ch14-s01",
       "date_iso": "2021-09-20",
-      "acquisition_note": "X skipped under scrape policy.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [],
       "publication_ids": [
         "org:twitter"
@@ -188,7 +188,7 @@
       },
       "source_key": "ch14-s03",
       "date_iso": "2021-06-13",
-      "acquisition_note": "YouTube skipped under scrape policy.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:sharri-markson"
       ],
@@ -304,7 +304,7 @@
       },
       "source_key": "ch14-s05",
       "date_iso": "2020-12-10",
-      "acquisition_note": "X skipped.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:peter-daszak"
       ],
@@ -362,7 +362,7 @@
       },
       "source_key": "ch14-s06",
       "date_iso": "2020-12-10",
-      "acquisition_note": "Twitter skipped.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:peter-daszak"
       ],

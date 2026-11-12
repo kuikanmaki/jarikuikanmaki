@@ -14,8 +14,8 @@
       "publication": "GenBank (NCBI)",
       "date": "August 10, 2022 (originally submitted July 12, 2018)",
       "url": "https://www.ncbi.nlm.nih.gov/nuccore/MH615898.1",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch19-s01.md",
       "content_kind": "database_record",
       "language": "en",
       "summary": "GenBank partial RdRp for RaTG13_Yunnan (bat SARS-like CoV).",
@@ -59,7 +59,7 @@
       },
       "source_key": "ch19-s01",
       "date_iso": "2022-08-10",
-      "acquisition_note": "Scrape 404/blocked; citation retained.",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "author_ids": [
         "person:shi-zhengli",
         "person:edward-holmes"
@@ -1974,7 +1974,7 @@
       },
       "source_key": "ch19-s39",
       "date_iso": "2020-02-26",
-      "acquisition_note": "YouTube skipped.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:ralph-baric"
       ],

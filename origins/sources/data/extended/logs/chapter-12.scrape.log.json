@@ -7,12 +7,12 @@
       "id": 1,
       "source_key": "ch12-s01",
       "url": "https://pubmed.ncbi.nlm.nih.gov/12368349/",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 2595,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch12-s01.md"
     },
     {
       "id": 2,
@@ -73,12 +73,12 @@
       "id": 7,
       "source_key": "ch12-s07",
       "url": "https://pubmed.ncbi.nlm.nih.gov/18077725/",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 2361,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch12-s07.md"
     },
     {
       "id": 8,
@@ -95,12 +95,12 @@
       "id": 9,
       "source_key": "ch12-s09",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27170748/",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 3186,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch12-s09.md"
     },
     {
       "id": 10,

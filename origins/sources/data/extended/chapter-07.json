@@ -56,7 +56,7 @@
       },
       "source_key": "ch07-s01",
       "date_iso": "2020-02-17",
-      "acquisition_note": "Video skipped under scrape policy; citation retained.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:otto-juote"

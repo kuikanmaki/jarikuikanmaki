@@ -297,7 +297,7 @@
       },
       "source_key": "ch01-s06",
       "date_iso": "2020-01-14",
-      "acquisition_note": "Social URL skipped under scrape policy; text preserved from the bibliography title.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [],
       "publication_ids": [
         "org:who"

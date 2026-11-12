@@ -192,8 +192,8 @@
       "publication": "GenBank",
       "date": "March 4, 2016",
       "url": "https://www.ncbi.nlm.nih.gov/nuccore/KP876546",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch11-s04.md",
       "content_kind": "database_record",
       "language": "en",
       "summary": "GenBank record KP876546 for partial RdRp of Rhinolophus bat coronavirus BtCoV/4991—later recognized as the same virus lineage renamed RaTG13.",
@@ -232,7 +232,7 @@
       },
       "source_key": "ch11-s04",
       "date_iso": "2016-03-04",
-      "acquisition_note": "Scrape returned 404/blocked.",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "author_ids": [],
       "publication_ids": [
         "org:genbank"
@@ -305,8 +305,8 @@
       "publication": "GenBank",
       "date": "January 27, 2020",
       "url": "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch11-s06.md",
       "content_kind": "database_record",
       "language": "en",
       "summary": "GenBank MN996532.1 complete RaTG13 genome published by Shi’s team in 2020.",
@@ -351,7 +351,7 @@
       },
       "source_key": "ch11-s06",
       "date_iso": "2020-01-27",
-      "acquisition_note": "Scrape returned 404/blocked; citation retained (chapter notes).",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "author_ids": [],
       "publication_ids": [
         "org:genbank"
@@ -863,8 +863,8 @@
       "publication": "Journal of Virology",
       "date": "February 1, 2000",
       "url": "https://pubmed.ncbi.nlm.nih.gov/10627550/",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch11-s16.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "2000 JVI paper showing coronavirus host-range can be changed by swapping spike ectodomains.",
@@ -894,7 +894,7 @@
       },
       "source_key": "ch11-s16",
       "date_iso": "2000-02-01",
-      "acquisition_note": "PubMed scrape failed; citation retained (chapter notes).",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "author_ids": [],
       "publication_ids": [
         "org:journal-of-virology"

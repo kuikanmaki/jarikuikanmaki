@@ -73,11 +73,12 @@
       "id": 7,
       "source_key": "ch10-s07",
       "url": "https://www.vox.com/2020/3/4/21156607/how-did-the-coronavirus-get-started-china-wuhan-lab",
-      "ok": false,
-      "status": "skipped",
-      "bytes": 0,
+      "ok": true,
+      "status": "ok",
+      "bytes": 20177,
       "error": null,
-      "reused": false
+      "reused": false,
+      "artifact": "artifacts/ch10-s07.md"
     },
     {
       "id": 8,

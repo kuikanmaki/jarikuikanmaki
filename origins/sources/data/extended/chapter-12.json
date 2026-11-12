@@ -14,8 +14,8 @@
       "publication": "Journal of Virology",
       "date": "November 2002",
       "url": "https://pubmed.ncbi.nlm.nih.gov/12368349/",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch12-s01.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform.",
@@ -53,7 +53,7 @@
       },
       "source_key": "ch12-s01",
       "date_iso": "2002-11",
-      "acquisition_note": "PubMed scrape failed.",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "author_ids": [],
       "publication_ids": [
         "org:journal-of-virology"
@@ -344,8 +344,8 @@
       "publication": "Journal of Virology",
       "date": "February 2008",
       "url": "https://pubmed.ncbi.nlm.nih.gov/18077725/",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch12-s07.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells.",
@@ -383,7 +383,7 @@
       },
       "source_key": "ch12-s07",
       "date_iso": "2008-02",
-      "acquisition_note": "PubMed scrape failed.",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "topic_ids": [
         "topic:bat-coronaviruses"
       ],
@@ -450,8 +450,8 @@
       "publication": "Journal of Virology",
       "date": "June 24, 2016",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27170748/",
-      "status": "not_found",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch12-s09.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "2016 JVI paper on WIV1 infectious clone and ORFX mutants—reverse-genetics platform later cited in DIA analysis; experiments under BSL-2 per chapter notes.",
@@ -494,7 +494,7 @@
       },
       "source_key": "ch12-s09",
       "date_iso": "2016-06-24",
-      "acquisition_note": "PubMed scrape failed.",
+      "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
       "author_ids": [],
       "publication_ids": [
         "org:journal-of-virology"
@@ -915,7 +915,7 @@
       },
       "source_key": "ch12-s16",
       "date_iso": "2022-01-11",
-      "acquisition_note": "Video skipped under scrape policy.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [],
       "publication_ids": []
     }

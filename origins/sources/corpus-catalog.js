@@ -80,6 +80,81 @@
     return [];
   }
 
+  function youtubeStartSeconds(url) {
+    var raw = (url.match(/[?&#](?:t|start)=([^&#]+)/) || [])[1];
+    if (!raw) return 0;
+    if (/^\d+$/.test(raw)) return parseInt(raw, 10) || 0;
+    var hours = parseInt((raw.match(/(\d+)h/) || [])[1] || "0", 10);
+    var mins = parseInt((raw.match(/(\d+)m/) || [])[1] || "0", 10);
+    var secs = parseInt((raw.match(/(\d+)s/) || [])[1] || "0", 10);
+    return hours * 3600 + mins * 60 + secs;
+  }
+
+  function youtubeEmbedFromUrl(url) {
+    if (!url) return null;
+    var m =
+      url.match(/[?&]v=([A-Za-z0-9_-]{6,})/) ||
+      url.match(/youtu\.be\/([A-Za-z0-9_-]{6,})/) ||
+      url.match(/youtube\.com\/(?:embed|shorts|live)\/([A-Za-z0-9_-]{6,})/);
+    if (!m) return null;
+    var src = "https://www.youtube.com/embed/" + encodeURIComponent(m[1]);
+    var start = youtubeStartSeconds(url);
+    if (start > 0) src += "?start=" + start;
+    return src;
+  }
+
+  function tweetStatusUrl(url) {
+    if (!url) return null;
+    var m = url.match(
+      /^https?:\/\/(?:www\.|mobile\.)?(?:twitter\.com|x\.com)\/[^/]+\/status\/(\d+)/i
+    );
+    if (!m) return null;
+    return "https://twitter.com/i/status/" + m[1];
+  }
+
+  function hostEmbed(s) {
+    var url = (s && s.url) || "";
+    var yt = youtubeEmbedFromUrl(url);
+    if (yt) {
+      return (
+        '<div class="catalog-card-embed catalog-card-embed--youtube">' +
+          '<iframe src="' + escapeHtml(yt) + '" title="' + escapeHtml(s.title || "YouTube video") + '" ' +
+            'loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+            "allowfullscreen referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>" +
+        "</div>"
+      );
+    }
+    var tweet = tweetStatusUrl(url);
+    if (tweet) {
+      return (
+        '<div class="catalog-card-embed catalog-card-embed--tweet">' +
+          '<blockquote class="twitter-tweet" data-dnt="true" data-conversation="none">' +
+            '<a href="' + escapeHtml(tweet) + '">View post on X</a>' +
+          "</blockquote>" +
+        "</div>"
+      );
+    }
+    return "";
+  }
+
+  function ensureTwitterWidgets(root) {
+    if (!root || !root.querySelector || !root.querySelector(".twitter-tweet")) return;
+    function load() {
+      if (window.twttr && window.twttr.widgets && typeof window.twttr.widgets.load === "function") {
+        window.twttr.widgets.load(root);
+        return;
+      }
+      if (document.getElementById("twitter-wjs")) return;
+      var s = document.createElement("script");
+      s.id = "twitter-wjs";
+      s.async = true;
+      s.src = "https://platform.twitter.com/widgets.js";
+      s.charset = "utf-8";
+      document.head.appendChild(s);
+    }
+    load();
+  }
+
   function enrichmentBlock(s) {
     var topics = (s.topics || []).slice(0, 4);
     var topicLine = topics.length
@@ -88,10 +163,14 @@
     var role = s.book_role
       ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
       : "";
+    var embed = hostEmbed(s);
     var statusNote = "";
     if (s.status === "paywall") {
       statusNote =
         '<p class="catalog-card-status">Source access note: Full text may be paywalled.</p>';
+    } else if (s.status === "skipped" && embed) {
+      // Intentionally not scraped; card embeds the live URL instead.
+      statusNote = "";
     } else if (s.status && s.status !== "ok") {
       // Other non-ok statuses kept for now; rewrite category-by-category.
       statusNote =
@@ -102,11 +181,13 @@
       s.content_kind && s.content_kind !== "html_article" && s.content_kind_label
         ? '<p class="catalog-card-kind">Source type: ' + escapeHtml(s.content_kind_label) + "</p>"
         : "";
-    var media = s.image_url
-      ? '<div class="catalog-card-media">' +
-          '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
-        "</div>"
-      : "";
+    // Prefer live embed over a static thumbnail when the host is YouTube/X.
+    var media =
+      !embed && s.image_url
+        ? '<div class="catalog-card-media">' +
+            '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
+          "</div>"
+        : "";
     var text =
       '<div class="catalog-card-copy">' +
         (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
@@ -118,7 +199,19 @@
     return (
       '<div class="catalog-card-enrichment">' +
         '<div class="catalog-card-body">' + text + media + "</div>" +
+        embed +
       "</div>"
+    );
+  }
+
+  function sourceHasDetail(s) {
+    return !!(
+      s.image_url ||
+      s.summary ||
+      s.book_role ||
+      (s.topics && s.topics.length) ||
+      (s.status && s.status !== "ok") ||
+      hostEmbed(s)
     );
   }
 
@@ -155,7 +248,7 @@
       var date = escapeHtml(s.date || "");
       var key = escapeHtml(s.source_key || ("ch" + s.chapter + "-s" + s.id));
       var detail = enrichmentBlock(s);
-      var hasDetail = !!(s.image_url || s.summary || s.book_role || (s.topics && s.topics.length) || (s.status && s.status !== "ok"));
+      var hasDetail = sourceHasDetail(s);
       return (
         '<li class="source-item source-item-expandable" data-source-key="' + key + '">' +
           '<div class="source-item-main">' +
@@ -227,6 +320,7 @@
         '<div class="catalog-card-list">' +
         pageRows.map(renderCard).join("") +
         "</div>";
+      ensureTwitterWidgets(outEl);
       renderPager(total);
       return;
     }
@@ -506,6 +600,7 @@
     detail.hidden = open;
     item.classList.toggle("is-expanded", !open);
     btn.title = open ? "Show source details" : "Hide source details";
+    if (!open) ensureTwitterWidgets(detail);
   });
 
   outEl.addEventListener("error", function (e) {

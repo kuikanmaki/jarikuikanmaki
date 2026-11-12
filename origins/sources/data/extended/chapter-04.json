@@ -56,7 +56,7 @@
       },
       "source_key": "ch04-s01",
       "date_iso": "2020-01-28",
-      "acquisition_note": "Video URLs are skipped under scrape policy; citation retained from the bibliography.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:otto-juote"
@@ -279,7 +279,7 @@
       ],
       "source_key": "ch04-s05",
       "date_iso": "2020-01-25",
-      "acquisition_note": "Social URL skipped; text kept from the bibliography title.",
+      "acquisition_note": "Not scraped; catalog embeds this source from its URL.",
       "author_ids": [
         "person:neil-ferguson"
       ],

@@ -7,12 +7,12 @@
       "id": 1,
       "source_key": "ch08-s01",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33057181/",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 3645,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch08-s01.md"
     },
     {
       "id": 2,

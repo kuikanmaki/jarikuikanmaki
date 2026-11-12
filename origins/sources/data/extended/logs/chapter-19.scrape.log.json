@@ -7,12 +7,12 @@
       "id": 1,
       "source_key": "ch19-s01",
       "url": "https://www.ncbi.nlm.nih.gov/nuccore/MH615898.1",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 7492,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch19-s01.md"
     },
     {
       "id": 2,

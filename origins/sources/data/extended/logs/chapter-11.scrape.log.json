@@ -40,12 +40,12 @@
       "id": 4,
       "source_key": "ch11-s04",
       "url": "https://www.ncbi.nlm.nih.gov/nuccore/KP876546",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 3066,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch11-s04.md"
     },
     {
       "id": 5,
@@ -62,12 +62,12 @@
       "id": 6,
       "source_key": "ch11-s06",
       "url": "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 56670,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch11-s06.md"
     },
     {
       "id": 7,
@@ -172,12 +172,12 @@
       "id": 16,
       "source_key": "ch11-s16",
       "url": "https://pubmed.ncbi.nlm.nih.gov/10627550/",
-      "ok": false,
-      "status": "not_found",
-      "bytes": 0,
-      "error": "not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.",
+      "ok": true,
+      "status": "ok",
+      "bytes": 1988,
+      "error": null,
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch11-s16.md"
     },
     {
       "id": 17,

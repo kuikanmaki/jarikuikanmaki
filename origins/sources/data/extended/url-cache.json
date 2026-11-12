@@ -411,8 +411,8 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/33057181/": {
     "source_key": "ch08-s01",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch08-s01.md",
+    "status": "ok"
   },
   "https://www.turvallisuustutkinta.fi/material/collections/20210630071110/7RRUvNDBZ/P2020-01_Korona.pdf": {
     "source_key": "ch08-s02",
@@ -716,8 +716,8 @@
   },
   "https://www.ncbi.nlm.nih.gov/nuccore/KP876546": {
     "source_key": "ch11-s04",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch11-s04.md",
+    "status": "ok"
   },
   "https://www.frontiersin.org/articles/10.3389/fpubh.2020.581569/full": {
     "source_key": "ch11-s05",
@@ -726,8 +726,8 @@
   },
   "https://www.ncbi.nlm.nih.gov/nuccore/MN996532.1": {
     "source_key": "ch11-s06",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch11-s06.md",
+    "status": "ok"
   },
   "https://www.theweek.in/theweek/cover/2021/07/01/what-exactly-happened-in-wuhan.html": {
     "source_key": "ch11-s07",
@@ -776,8 +776,8 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/10627550/": {
     "source_key": "ch11-s16",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch11-s16.md",
+    "status": "ok"
   },
   "https://www.tandfonline.com/doi/pdf/10.1080/22221751.2020.1733440": {
     "source_key": "ch11-s17",
@@ -801,8 +801,8 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/12368349/": {
     "source_key": "ch12-s01",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch12-s01.md",
+    "status": "ok"
   },
   "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0030005": {
     "source_key": "ch12-s02",
@@ -831,8 +831,8 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/18077725/": {
     "source_key": "ch12-s07",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch12-s07.md",
+    "status": "ok"
   },
   "https://pubmed.ncbi.nlm.nih.gov/20567988/": {
     "source_key": "ch12-s08",
@@ -841,8 +841,8 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/27170748/": {
     "source_key": "ch12-s09",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch12-s09.md",
+    "status": "ok"
   },
   "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698": {
     "source_key": "ch12-s10",
@@ -1151,8 +1151,8 @@
   },
   "https://www.ncbi.nlm.nih.gov/nuccore/MH615898.1": {
     "source_key": "ch19-s01",
-    "artifact": null,
-    "status": "not_found"
+    "artifact": "artifacts/ch19-s01.md",
+    "status": "ok"
   },
   "https://www.washingtonexaminer.com/news/1027800/fauci-suggested-fbi-be-warned-about-possible-lab-leak-before-he-dismissed-hypothesis/": {
     "source_key": "ch19-s02",
@@ -1407,6 +1407,11 @@
   "https://abcnews.go.com/Politics/biden-preemptively-pardons-anthony-fauci-mark-milley-jan/story?id=117878813": {
     "source_key": "ch19-s55",
     "artifact": "artifacts/ch19-s55.md",
+    "status": "ok"
+  },
+  "https://www.vox.com/2020/3/4/21156607/how-did-the-coronavirus-get-started-china-wuhan-lab": {
+    "source_key": "ch10-s07",
+    "artifact": "artifacts/ch10-s07.md",
     "status": "ok"
   }
 }
