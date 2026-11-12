@@ -310,8 +310,8 @@
     "status": "ok"
   },
   "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-Circumstantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf": {
-    "source_key": "ch06-s06",
-    "artifact": "artifacts/ch06-s06.md",
+    "source_key": "ch19-s43",
+    "artifact": "artifacts/ch19-s43.md",
     "status": "ok"
   },
   "https://www.businessinsider.com/tom-cotton-coronavirus-come-from-chinese-super-laboratory-2020-2": {
@@ -924,20 +924,10 @@
     "artifact": "artifacts/ch16-s03.md",
     "status": "ok"
   },
-  "https://www.globalviromeproject.org/our-history": {
-    "source_key": "ch16-s04",
-    "artifact": null,
-    "status": "error"
-  },
   "https://www.dtra.mil/About/Mission/": {
     "source_key": "ch16-s05",
     "artifact": "artifacts/ch16-s05.md",
     "status": "ok"
-  },
-  "https://www.usaspending.gov/award/ASST_NON_HDTRA11910033_9761": {
-    "source_key": "ch16-s06",
-    "artifact": null,
-    "status": "error"
   },
   "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins": {
     "source_key": "ch16-s07",
@@ -958,11 +948,6 @@
     "source_key": "ch16-s11",
     "artifact": "artifacts/ch16-s11.md",
     "status": "ok"
-  },
-  "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf": {
-    "source_key": "ch16-s12",
-    "artifact": null,
-    "status": "error"
   },
   "http://institute.wuhanvirology.org/Newsletter2016/201811/P020181130367907308937.pdf": {
     "source_key": "ch16-s13",
@@ -1214,11 +1199,6 @@
     "artifact": "artifacts/ch19-s21.md",
     "status": "ok"
   },
-  "https://usrtk.org/wp-content/uploads/2025/03/6-20200625-SARS-CoV-2-Genome-Analysis.pdf": {
-    "source_key": "ch19-s23",
-    "artifact": null,
-    "status": "error"
-  },
   "https://usrtk.org/covid-19-origins/dia-analysis-covid-may-have-come-from-wuhan-lab/": {
     "source_key": "ch19-s24",
     "artifact": "artifacts/ch19-s24.md",
@@ -1269,11 +1249,6 @@
     "artifact": null,
     "status": "not_found"
   },
-  "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/": {
-    "source_key": "ch19-s34",
-    "artifact": null,
-    "status": "error"
-  },
   "https://www.hsgac.senate.gov/media/reps/chairman-rand-paul-seeks-intelligence-community-records-related-to-covid-origins/": {
     "source_key": "ch19-s35",
     "artifact": "artifacts/ch19-s35.md",
@@ -1308,11 +1283,6 @@
     "source_key": "ch19-s42",
     "artifact": "artifacts/ch19-s42.md",
     "status": "ok"
-  },
-  "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-tantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf": {
-    "source_key": "ch19-s43",
-    "artifact": null,
-    "status": "error"
   },
   "https://open.spotify.com/episode/3kDr0LcmqOHOz3mBHMdDuV": {
     "source_key": "ch19-s44",
@@ -1487,6 +1457,31 @@
   "https://www.youtube.com/watch?v=BE_H7dTqJXU": {
     "source_key": "ch19-s39",
     "artifact": null,
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20181118113334/http://www.globalviromeproject.org/our-history": {
+    "source_key": "ch16-s04",
+    "artifact": "artifacts/ch16-s04.md",
+    "status": "ok"
+  },
+  "https://www.usaspending.gov/award/ASST_NON_HDTRA11910033_9761": {
+    "source_key": "ch16-s06",
+    "artifact": "artifacts/ch16-s06.md",
+    "status": "ok"
+  },
+  "https://web.archive.org/web/20211105213249/https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf": {
+    "source_key": "ch16-s12",
+    "artifact": "artifacts/ch16-s12.md",
+    "status": "ok"
+  },
+  "https://usrtk.org/wp-content/uploads/2025/03/6-20200625-SARS-CoV-2-Genome-Analysis.pdf": {
+    "source_key": "ch19-s23",
+    "artifact": "artifacts/ch19-s23.md",
+    "status": "ok"
+  },
+  "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/CHRG-118hhrg55548.pdf": {
+    "source_key": "ch19-s34",
+    "artifact": "artifacts/ch19-s34.md",
     "status": "ok"
   }
 }

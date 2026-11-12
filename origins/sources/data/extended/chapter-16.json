@@ -202,9 +202,9 @@
       "title": "Our History, Leadership Team",
       "publication": "Global Virome Project",
       "date": "",
-      "url": "https://www.globalviromeproject.org/our-history",
-      "status": "error",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20181118113334/http://www.globalviromeproject.org/our-history",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s04.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "Global Virome Project history/leadership page.",
@@ -232,7 +232,7 @@
         "places": []
       },
       "source_key": "ch16-s04",
-      "acquisition_note": "DNS resolution failed at scrape time.",
+      "acquisition_note": "Live DNS failed; replaced with earliest Internet Archive capture. Scraped via browser/archive.",
       "author_ids": [],
       "publication_ids": [
         "org:global-virome-project"
@@ -288,8 +288,8 @@
       "publication": "U.S. Department of Defense, Defense Threat Reduction Agency",
       "date": "August 19, 2019 – June 20, 2024",
       "url": "https://www.usaspending.gov/award/ASST_NON_HDTRA11910033_9761",
-      "status": "error",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch16-s06.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "USAspending.gov award record for EcoHealth HDTRA11910033 combating-WMD scientific research.",
@@ -324,7 +324,7 @@
       },
       "source_key": "ch16-s06",
       "date_iso": "2019-08-19",
-      "acquisition_note": "Scrape failed.",
+      "acquisition_note": "Live browser scrape after Firecrawl failed on JS-heavy SPA.",
       "author_ids": [],
       "publication_ids": []
     },
@@ -608,9 +608,9 @@
       "title": "Email to NIAID’s Jenny Greer: “Dear Jenny, This is terrific! We are very happy to hear that our Gain of Function research funding pause has been lifted. Cheers, Peter”",
       "publication": "White Coat Waste Project",
       "date": "July 11, 2016",
-      "url": "https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
-      "status": "error",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20211105213249/https://blog.whitecoatwaste.org/wp-content/uploads/2021/11/536974886-Gain-Of-Function-Communications-Between-EcoHealth-Alliance-And-NIAID.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch16-s12.md",
       "content_kind": "pdf",
       "language": "en",
       "summary": "FOIA’d 2016 Daszak email celebrating lifting of the gain-of-function funding pause.",
@@ -655,7 +655,7 @@
       },
       "source_key": "ch16-s12",
       "date_iso": "2016-07-11",
-      "acquisition_note": "Scrape failed; citation retained from bibliography.",
+      "acquisition_note": "Live URL 404; replaced with earliest Internet Archive PDF capture. Scraped via browser.",
       "author_ids": [
         "person:peter-daszak"
       ],

@@ -238,12 +238,12 @@
       "id": 23,
       "source_key": "ch19-s23",
       "url": "https://usrtk.org/wp-content/uploads/2025/03/6-20200625-SARS-CoV-2-Genome-Analysis.pdf",
-      "ok": false,
-      "status": "error",
+      "ok": true,
+      "status": "ok",
       "bytes": 0,
-      "error": " cannot process: File exceeds size limit of 50 MiB. Firecrawl supports HTML web pages, PDFs, and common document formats. Raster images (PNG, JPEG, JPEG 2000, TIFF, GIF, BMP, WebP, AVIF) are OCR'd when the parsers option includes \"image\" (the default), where image parsing is available. Other binary files like videos, executables, archives, and other image formats are not supported. If you expected this URL to return a web page, the server may be misconfigured or returning the wrong content type.",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch19-s23.md",
+      "acquisition_note": "Live PDF retrieved via curl/browser (66MiB; exceeds Firecrawl 50MiB). Scanned pages; little extractable text, full PDF saved."
     },
     {
       "id": 24,
@@ -358,13 +358,13 @@
     {
       "id": 34,
       "source_key": "ch19-s34",
-      "url": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/",
-      "ok": false,
-      "status": "error",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg55548/pdf/CHRG-118hhrg55548.pdf",
+      "ok": true,
+      "status": "ok",
       "bytes": 0,
-      "error": "Error: The URL failed to load in the browser with error code \"ERR_INVALID_RESPONSE\". The website returned an error or could not be loaded properly. Please verify the URL is correct and the website is accessible.",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch19-s34.md",
+      "acquisition_note": "Corrected govinfo PDF URL (was directory /pdf/); scraped via browser/curl."
     },
     {
       "id": 35,
@@ -456,13 +456,13 @@
     {
       "id": 43,
       "source_key": "ch19-s43",
-      "url": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-tantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf",
-      "ok": false,
-      "status": "error",
+      "url": "https://usrtk.org/wp-content/uploads/2022/03/State-Department-FOIA-An-Analysis-of-Circumstantial-Evidence-for-Wuhan-Labs-as-the-Source-of-the-Coronavirus.pdf",
+      "ok": true,
+      "status": "ok",
       "bytes": 0,
-      "error": "Scrape ID: 01a1c940-37c8-74cb-8ae2-530d0c508b4c",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch19-s43.md",
+      "acquisition_note": "Fixed truncated filename (Circumstantial); live PDF retrieved. Scanned pages; little extractable text, full PDF saved."
     },
     {
       "id": 44,
