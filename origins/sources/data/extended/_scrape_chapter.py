@@ -33,6 +33,18 @@ def host(url: str) -> str:
     return urlparse(url).netloc.lower().removeprefix("www.")
 
 
+def is_skip_host(h: str) -> bool:
+    """Exact host match only — never use endswith('x.com') (that false-skips vox.com)."""
+    if h in SKIP_HOSTS:
+        return True
+    # Allow m.youtube.com / mobile.twitter.com style prefixes without suffix traps.
+    if h.endswith(".twitter.com") or h.endswith(".x.com"):
+        return True
+    if h.endswith(".youtube.com"):
+        return True
+    return False
+
+
 def is_pdf(url: str) -> bool:
     u = url.lower()
     return u.endswith(".pdf") or "/pdf" in u or "/pdf/" in u
@@ -103,7 +115,7 @@ def classify_status(url: str, ok: bool, err: str, size: int) -> str:
     if not url:
         return "empty_url"
     h = host(url)
-    if h in SKIP_HOSTS or any(h.endswith(x) for x in ("twitter.com", "x.com", "youtube.com", "youtu.be")):
+    if is_skip_host(h):
         return "skipped"
     if not ok:
         if err.startswith("rate_limit"):
@@ -154,7 +166,7 @@ def main() -> int:
             continue
 
         h = host(url)
-        if h in SKIP_HOSTS or h.endswith("twitter.com") or h.endswith("x.com") or "youtube.com" in h or h.endswith("youtu.be"):
+        if is_skip_host(h):
             entry["status"] = "skipped"
             results.append(entry)
             print(f"{sid}: skipped ({h})")
