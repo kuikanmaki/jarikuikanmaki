@@ -24,7 +24,7 @@
         "WHO origins mission",
         "visa blockade",
         "Wuhan",
-        "Tedros"
+        "Tedros Adhanom Ghebreyesus"
       ],
       "entities": {
         "people": [
@@ -54,7 +54,8 @@
         ]
       },
       "topic_ids": [
-        "place:wuhan"
+        "place:wuhan",
+        "person:tedros-adhanom-ghebreyesus"
       ],
       "source_key": "ch09-s01",
       "date_iso": "2021-01-05",
@@ -125,7 +126,7 @@
       "book_role": "BBC/WHO coverage of the mission’s “extremely unlikely” lab-leak ranking.",
       "topics": [
         "extremely unlikely",
-        "Peter Ben Embarek",
+        "Peter Embarek",
         "lab leak dismissal",
         "Peter Daszak"
       ],
@@ -148,7 +149,8 @@
         ]
       },
       "topic_ids": [
-        "person:peter-daszak"
+        "person:peter-daszak",
+        "person:peter-embarek"
       ],
       "entity_ids": {
         "people": [
@@ -251,7 +253,7 @@
         "EcoHealth Alliance",
         "NIH grant cutoff",
         "bat-human transmission",
-        "Trump"
+        "Donald Trump"
       ],
       "entities": {
         "people": [
@@ -269,7 +271,8 @@
         ]
       },
       "topic_ids": [
-        "org:ecohealth-alliance"
+        "org:ecohealth-alliance",
+        "person:donald-trump"
       ],
       "entity_ids": {
         "people": [
@@ -627,8 +630,8 @@
       "book_role": "",
       "topics": [
         "U.S.–China relations",
-        "Pompeo",
-        "lab origin debate",
+        "Mike Pompeo",
+        "lab-leak hypothesis",
         "Finland media"
       ],
       "entities": {
@@ -662,7 +665,11 @@
       "source_key": "ch09-s12",
       "date_iso": "2020-05-06",
       "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2020/05/kiina_korona_yhdysvallast.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "person:mike-pompeo",
+        "topic:lab-leak-hypothesis"
+      ]
     },
     {
       "id": 13,

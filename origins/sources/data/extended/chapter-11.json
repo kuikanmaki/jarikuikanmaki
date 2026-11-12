@@ -21,8 +21,8 @@
       "summary": "The Week profile of Monali Rahalkar and Rahul Bahulikar’s independent work tracing COVID origins—especially reconnecting RaTG13 to the 2012 Mojiang mineshaft pneumonia cases.",
       "book_role": "Rahalkar & Bahulikar’s independent work that opened the Mojiang mine trail.",
       "topics": [
-        "Rahalkar",
-        "Bahulikar",
+        "Monali Rahalkar",
+        "Rahul Bahulikar",
         "Mojiang mine",
         "RaTG13",
         "origins sleuthing"
@@ -43,7 +43,9 @@
       },
       "topic_ids": [
         "place:mojiang-mine",
-        "topic:ratg13"
+        "topic:ratg13",
+        "person:monali-rahalkar",
+        "person:rahul-bahulikar"
       ],
       "entity_ids": {
         "people": [
@@ -115,7 +117,7 @@
       "summary": "2016 Virologica Sinica paper documenting multiple coronaviruses coexisting in bat colonies in an abandoned mineshaft—the Mojiang site later tied to RaTG13/BtCoV/4991.",
       "book_role": "",
       "topics": [
-        "Mojiang mineshaft",
+        "Mojiang mine",
         "bat coronaviruses",
         "WIV sampling",
         "coinfection"
@@ -136,7 +138,8 @@
         ]
       },
       "topic_ids": [
-        "topic:bat-coronaviruses"
+        "topic:bat-coronaviruses",
+        "place:mojiang-mine"
       ],
       "entity_ids": {
         "people": [
@@ -591,7 +594,7 @@
       "summary": "Ridley & Chan Telegraph essay arguing the lab-escape case: wet-market/pangolin story weaknesses, WIV bat research, and Mojiang-linked closest relatives—foreshadowing their book Viral.",
       "book_role": "",
       "topics": [
-        "lab escape",
+        "lab-leak hypothesis",
         "Wuhan Institute of Virology",
         "pangolins",
         "Mojiang mine"
@@ -613,7 +616,8 @@
       "topic_ids": [
         "org:wuhan-institute-of-virology",
         "topic:pangolins",
-        "place:mojiang-mine"
+        "place:mojiang-mine",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [],
@@ -695,7 +699,7 @@
       "summary": "Landmark 2013 Nature paper isolating a bat SARS-like coronavirus that uses ACE2—foundational WIV work showing bat sarbecoviruses can bind the human receptor years before COVID.",
       "book_role": "",
       "topics": [
-        "bat SARS-like coronavirus",
+        "bat coronaviruses",
         "ACE2 receptors",
         "Wuhan Institute of Virology",
         "Shi Zhengli"
@@ -716,7 +720,8 @@
       "topic_ids": [
         "topic:ace2-receptors",
         "org:wuhan-institute-of-virology",
-        "person:shi-zhengli"
+        "person:shi-zhengli",
+        "topic:bat-coronaviruses"
       ],
       "entity_ids": {
         "people": [
@@ -964,7 +969,7 @@
       "summary": "PMC full text of the 2016 Mojiang mineshaft coronavirus coexistence paper (same study as s03).",
       "book_role": "",
       "topics": [
-        "Mojiang mineshaft",
+        "Mojiang mine",
         "bat coronaviruses",
         "PMC full text"
       ],
@@ -984,7 +989,8 @@
         ]
       },
       "topic_ids": [
-        "topic:bat-coronaviruses"
+        "topic:bat-coronaviruses",
+        "place:mojiang-mine"
       ],
       "entity_ids": {
         "people": [

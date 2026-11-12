@@ -290,7 +290,7 @@
       "topics": [
         "conspiracy theories",
         "disinformation",
-        "lab origin labeling",
+        "lab-leak hypothesis",
         "European Commission"
       ],
       "entities": {
@@ -315,7 +315,10 @@
       "source_key": "ch08-s07",
       "date_iso": "2020",
       "image_url": "https://commission.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ]
     },
     {
       "id": 8,
@@ -385,7 +388,7 @@
         "pangolins",
         "intermediate host",
         "pangolin-CoV-2020",
-        "spillover"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -402,7 +405,8 @@
       },
       "topic_ids": [
         "topic:pangolins",
-        "topic:intermediate-host"
+        "topic:intermediate-host",
+        "topic:zoonosis"
       ],
       "entity_ids": {
         "people": [],
@@ -522,7 +526,7 @@
       "summary": "CNN report that Trump claimed high confidence the virus came from a Wuhan lab—contradicting the same-day ODNI statement that intel was still examining lab accident versus animal contact and had not made that assessment.",
       "book_role": "",
       "topics": [
-        "Trump",
+        "Donald Trump",
         "ODNI",
         "Wuhan Institute of Virology",
         "intelligence assessment"
@@ -544,7 +548,8 @@
         ]
       },
       "topic_ids": [
-        "org:wuhan-institute-of-virology"
+        "org:wuhan-institute-of-virology",
+        "person:donald-trump"
       ],
       "entity_ids": {
         "people": [
@@ -578,7 +583,7 @@
       "summary": "ABC News YouTube clip of Pompeo calling China’s coronavirus response a classic communist disinformation effort.",
       "book_role": "",
       "topics": [
-        "Pompeo",
+        "Mike Pompeo",
         "disinformation",
         "China response"
       ],
@@ -610,7 +615,10 @@
       },
       "source_key": "ch08-s13",
       "date_iso": "2020-05-03",
-      "acquisition_note": "Video skipped under scrape policy."
+      "acquisition_note": "Video skipped under scrape policy.",
+      "topic_ids": [
+        "person:mike-pompeo"
+      ]
     },
     {
       "id": 14,
@@ -840,7 +848,7 @@
       "topics": [
         "Project Evidence",
         "lab-leak hypothesis",
-        "Wuhan laboratories",
+        "Wuhan Institute of Virology",
         "open-source investigation"
       ],
       "entities": {
@@ -856,7 +864,8 @@
       },
       "topic_ids": [
         "org:project-evidence",
-        "topic:lab-leak-hypothesis"
+        "topic:lab-leak-hypothesis",
+        "org:wuhan-institute-of-virology"
       ],
       "entity_ids": {
         "people": [],
@@ -1136,7 +1145,7 @@
       "topics": [
         "Richard Dearlove",
         "MI6",
-        "lab accident",
+        "lab-leak hypothesis",
         "reparations"
       ],
       "entities": {
@@ -1156,7 +1165,8 @@
         ]
       },
       "topic_ids": [
-        "person:richard-dearlove"
+        "person:richard-dearlove",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [

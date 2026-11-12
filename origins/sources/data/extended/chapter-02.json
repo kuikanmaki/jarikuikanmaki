@@ -23,7 +23,7 @@
       "topics": [
         "bioweapons",
         "Dany Shoham",
-        "Wuhan labs",
+        "Wuhan Institute of Virology",
         "China BW program"
       ],
       "entities": {
@@ -40,7 +40,8 @@
         ]
       },
       "topic_ids": [
-        "person:dany-shoham"
+        "person:dany-shoham",
+        "org:wuhan-institute-of-virology"
       ],
       "entity_ids": {
         "people": [
@@ -235,8 +236,8 @@
       "book_role": "",
       "topics": [
         "1977 H1N1",
-        "lab escape",
-        "gain-of-function debate"
+        "lab-leak hypothesis",
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -263,7 +264,11 @@
       "source_key": "ch02-s05",
       "date_iso": "2015-08-18",
       "image_url": "https://journals.asm.org/cms/10.1128/mbio.01013-15/asset/aeae5b73-69e1-43c8-b8d7-07ce985cf93d/assets/graphic/mbo0041524260001.jpeg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:gain-of-function-research"
+      ]
     }
   ]
 }

@@ -71,7 +71,7 @@
       "book_role": "Baric mouse-adapted SARS paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
         "mouse-adapted SARS",
-        "serial passage",
+        "serial passaging",
         "BALB/c",
         "pathogenicity"
       ],
@@ -95,7 +95,10 @@
       "source_key": "ch12-s02",
       "date_iso": "2007",
       "image_url": "https://journals.plos.org/plospathogens/article/figure/image?id=10.1371/journal.ppat.0030005.g007&size=inline",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:serial-passaging"
+      ]
     },
     {
       "id": 3,
@@ -155,7 +158,7 @@
       "book_role": "",
       "topics": [
         "bat reservoirs",
-        "SARS-like coronaviruses",
+        "bat coronaviruses",
         "horseshoe bats"
       ],
       "entities": {
@@ -185,7 +188,10 @@
       },
       "source_key": "ch12-s04",
       "date_iso": "2005-10-28",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:bat-coronaviruses"
+      ]
     },
     {
       "id": 5,
@@ -268,7 +274,7 @@
       "book_role": "",
       "topics": [
         "engineered bat virus",
-        "gain-of-function debate",
+        "gain-of-function research",
         "Menachery 2015"
       ],
       "entities": {
@@ -303,7 +309,10 @@
       "source_key": "ch12-s06",
       "date_iso": "2015-11-12",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature.2015.18787/MediaObjects/41586_2015_Article_BFnature201518787_Figa_HTML.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:gain-of-function-research"
+      ]
     },
     {
       "id": 7,
@@ -322,7 +331,7 @@
       "topics": [
         "receptor usage",
         "chimeric spike",
-        "bat SARS-like CoV",
+        "bat coronaviruses",
         "human cells"
       ],
       "entities": {
@@ -352,7 +361,10 @@
       },
       "source_key": "ch12-s07",
       "date_iso": "2008-02",
-      "acquisition_note": "PubMed scrape failed."
+      "acquisition_note": "PubMed scrape failed.",
+      "topic_ids": [
+        "topic:bat-coronaviruses"
+      ]
     },
     {
       "id": 8,
@@ -629,7 +641,7 @@
         "R01AI110964",
         "EcoHealth Alliance",
         "NIAID",
-        "bat coronavirus"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -647,7 +659,8 @@
       },
       "topic_ids": [
         "org:ecohealth-alliance",
-        "org:niaid"
+        "org:niaid",
+        "topic:bat-coronaviruses"
       ],
       "entity_ids": {
         "people": [

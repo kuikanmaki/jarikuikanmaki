@@ -22,9 +22,9 @@
       "book_role": "",
       "topics": [
         "DARPA",
-        "DEFUSE denial",
+        "DEFUSE",
         "Wuhan Institute of Virology",
-        "DRASTIC leak"
+        "DRASTIC"
       ],
       "entities": {
         "people": [
@@ -44,7 +44,9 @@
       },
       "topic_ids": [
         "org:darpa",
-        "org:wuhan-institute-of-virology"
+        "org:wuhan-institute-of-virology",
+        "work:defuse",
+        "org:drastic"
       ],
       "entity_ids": {
         "people": [],
@@ -134,7 +136,7 @@
       "topics": [
         "Dick Cheney",
         "Anthony Fauci",
-        "biodefense",
+        "biodefense complex",
         "post-9/11"
       ],
       "entities": {
@@ -153,7 +155,8 @@
       },
       "topic_ids": [
         "person:dick-cheney",
-        "person:anthony-fauci"
+        "person:anthony-fauci",
+        "topic:biodefense-complex"
       ],
       "entity_ids": {
         "people": [
@@ -329,7 +332,7 @@
       "book_role": "",
       "topics": [
         "anthrax attacks",
-        "Bruce Ivins",
+        "Bruce E. Ivins",
         "FBI",
         "biodefense origins"
       ],
@@ -348,7 +351,8 @@
         ]
       },
       "topic_ids": [
-        "org:fbi"
+        "org:fbi",
+        "person:bruce-e-ivins"
       ],
       "entity_ids": {
         "people": [],

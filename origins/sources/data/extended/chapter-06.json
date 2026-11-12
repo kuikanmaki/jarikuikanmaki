@@ -259,9 +259,8 @@
       "summary": "FOIA-released State Department analysis arguing there is no smoking-gun proof of a lab leak but substantial circumstantial evidence pointing to Wuhan CDC and WIV as the least probed, most plausible sources.",
       "book_role": "",
       "topics": [
-        "Wuhan labs",
-        "circumstantial evidence",
         "Wuhan Institute of Virology",
+        "circumstantial evidence",
         "Wuhan CDC",
         "lab-leak hypothesis"
       ],
@@ -605,7 +604,7 @@
       "summary": "Nicholas Wade analysis of newly released emails arguing Proximal Origin authors rushed a predetermined anti-lab-leak conclusion while sidelining features suggestive of manipulation.",
       "book_role": "",
       "topics": [
-        "Proximal Origin emails",
+        "The proximal origin of SARS-CoV-2",
         "lab-leak hypothesis",
         "NIH FOIA",
         "furin cleavage site"
@@ -625,7 +624,8 @@
       },
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:furin-cleavage-site"
+        "topic:furin-cleavage-site",
+        "work:the-proximal-origin-of-sars-cov-2"
       ],
       "entity_ids": {
         "people": [
@@ -658,10 +658,10 @@
       "summary": "Detailed USRTK timeline of how five virologists moved from overnight alarm about the furin cleavage site to publishing Nature Medicine’s claim that no lab scenario was plausible.",
       "book_role": "",
       "topics": [
-        "Proximal Origin timeline",
+        "The proximal origin of SARS-CoV-2",
         "furin cleavage site",
         "Nature Medicine",
-        "Wuhan labs"
+        "Wuhan Institute of Virology"
       ],
       "entities": {
         "people": [
@@ -692,7 +692,9 @@
       },
       "topic_ids": [
         "topic:furin-cleavage-site",
-        "org:nature-medicine"
+        "org:nature-medicine",
+        "work:the-proximal-origin-of-sars-cov-2",
+        "org:wuhan-institute-of-virology"
       ],
       "source_key": "ch06-s13",
       "date_iso": "2023-04-11",
@@ -822,7 +824,7 @@
       "topics": [
         "Jeremy Farrar",
         "early pandemic insider account",
-        "Wellcome"
+        "Wellcome Trust"
       ],
       "entities": {
         "people": [
@@ -839,7 +841,8 @@
         ]
       },
       "topic_ids": [
-        "person:jeremy-farrar"
+        "person:jeremy-farrar",
+        "org:wellcome-trust"
       ],
       "entity_ids": {
         "people": [
@@ -875,7 +878,7 @@
       "topics": [
         "Jeremy Farrar",
         "WHO chief scientist",
-        "Tedros"
+        "Tedros Adhanom Ghebreyesus"
       ],
       "entities": {
         "people": [
@@ -895,7 +898,8 @@
         ]
       },
       "topic_ids": [
-        "person:jeremy-farrar"
+        "person:jeremy-farrar",
+        "person:tedros-adhanom-ghebreyesus"
       ],
       "entity_ids": {
         "people": [

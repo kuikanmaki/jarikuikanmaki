@@ -1836,7 +1836,7 @@
       "summary": "Government memorandum analyzing circumstantial evidence for Wuhan labs as COVID source.",
       "book_role": "",
       "topics": [
-        "Wuhan labs",
+        "Wuhan Institute of Virology",
         "circumstantial evidence",
         "memorandum"
       ],
@@ -1856,7 +1856,10 @@
       },
       "source_key": "ch19-s43",
       "date_iso": "2020",
-      "acquisition_note": "Scrape error."
+      "acquisition_note": "Scrape error.",
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ]
     },
     {
       "id": 44,

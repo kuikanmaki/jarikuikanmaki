@@ -144,7 +144,7 @@
         "information control",
         "Shi Zhengli",
         "genome sequencing",
-        "lab-leak debate"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -162,7 +162,8 @@
         ]
       },
       "topic_ids": [
-        "person:shi-zhengli"
+        "person:shi-zhengli",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
@@ -200,7 +201,7 @@
       "book_role": "",
       "topics": [
         "Shi Zhengli",
-        "lab-leak debate",
+        "lab-leak hypothesis",
         "Wuhan Institute of Virology",
         "biosafety"
       ],
@@ -224,7 +225,8 @@
       "topic_ids": [
         "person:shi-zhengli",
         "org:wuhan-institute-of-virology",
-        "topic:biosafety"
+        "topic:biosafety",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
@@ -263,7 +265,7 @@
       "book_role": "",
       "topics": [
         "Shi Zhengli",
-        "lab-leak controversy",
+        "lab-leak hypothesis",
         "WHO origins investigation",
         "Wuhan Institute of Virology"
       ],
@@ -284,7 +286,8 @@
       },
       "topic_ids": [
         "person:shi-zhengli",
-        "org:wuhan-institute-of-virology"
+        "org:wuhan-institute-of-virology",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [

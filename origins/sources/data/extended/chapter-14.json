@@ -77,7 +77,7 @@
       "book_role": "Primary DEFUSE proposal text naming Daszak and the Wuhan Institute of Virology.",
       "topics": [
         "DEFUSE",
-        "furin cleavage sites",
+        "furin cleavage site",
         "chimeric viruses",
         "hACE2 mice",
         "Wuhan Institute of Virology",
@@ -105,7 +105,8 @@
         "work:defuse",
         "topic:chimeric-viruses",
         "org:wuhan-institute-of-virology",
-        "work:preempt"
+        "work:preempt",
+        "topic:furin-cleavage-site"
       ],
       "entity_ids": {
         "people": [
@@ -405,7 +406,7 @@
       "book_role": "EcoHealth FOIA progress report on sample shipping and Baric’s letter of support.",
       "topics": [
         "NIH FOIA",
-        "Year-4 progress report",
+        "Year-4 Progress Report (EcoHealth Alliance)",
         "bat coronavirus emergence",
         "EcoHealth Alliance"
       ],
@@ -426,7 +427,8 @@
         ]
       },
       "topic_ids": [
-        "org:ecohealth-alliance"
+        "org:ecohealth-alliance",
+        "work:year-4-progress-report-ecohealth-alliance"
       ],
       "entity_ids": {
         "people": [

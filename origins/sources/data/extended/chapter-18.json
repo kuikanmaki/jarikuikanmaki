@@ -154,7 +154,7 @@
       "summary": "Al Jazeera on Omicron driving record daily COVID cases across Europe in late December 2021.",
       "book_role": "",
       "topics": [
-        "Omicron",
+        "Omicron variant",
         "Europe",
         "record COVID cases"
       ],
@@ -177,7 +177,8 @@
         ]
       },
       "topic_ids": [
-        "place:europe"
+        "place:europe",
+        "topic:omicron-variant"
       ],
       "source_key": "ch18-s04",
       "date_iso": "2021-12-28",
@@ -199,7 +200,7 @@
       "summary": "Reuters: U.S. COVID hospitalizations exceed 132,000 under Omicron—new pandemic peak.",
       "book_role": "",
       "topics": [
-        "Omicron",
+        "Omicron variant",
         "U.S. hospitalizations",
         "COVID surge"
       ],
@@ -224,7 +225,10 @@
       "source_key": "ch18-s05",
       "date_iso": "2022-01-10",
       "image_url": "https://www.reuters.com/resizer/v2/2FUGM77F25MRXFYYJ2YCOF6SUY.jpg?auth=72dc8c9fee59e3ca879b032b8ed594ba70533e5015afe145bc3b2b019270ac44&width=1080&quality=80",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:omicron-variant"
+      ]
     },
     {
       "id": 6,
@@ -558,7 +562,7 @@
       "book_role": "Eisenhower’s farewell warning about the military–industrial–scientific elite, used as closing frame.",
       "topics": [
         "military-industrial complex",
-        "Eisenhower",
+        "Dwight D. Eisenhower",
         "farewell address"
       ],
       "entities": {
@@ -582,7 +586,10 @@
       "source_key": "ch18-s13",
       "date_iso": "1961-01-17",
       "image_url": "https://www.archives.gov/files/milestone-documents/images/doc-090-big.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "person:dwight-d-eisenhower"
+      ]
     },
     {
       "id": 14,
@@ -602,7 +609,7 @@
         "NATO enlargement",
         "Finland",
         "Sweden",
-        "Ukraine war"
+        "Russia–Ukraine war"
       ],
       "entities": {
         "people": [],
@@ -616,7 +623,8 @@
         ]
       },
       "topic_ids": [
-        "place:finland"
+        "place:finland",
+        "event:russia-ukraine-war"
       ],
       "entity_ids": {
         "people": [],
@@ -647,7 +655,7 @@
       "book_role": "",
       "topics": [
         "Kharkiv counteroffensive",
-        "Ukraine war",
+        "Russia–Ukraine war",
         "Russia"
       ],
       "entities": {
@@ -662,7 +670,8 @@
         ]
       },
       "topic_ids": [
-        "place:russia"
+        "place:russia",
+        "event:russia-ukraine-war"
       ],
       "entity_ids": {
         "people": [],

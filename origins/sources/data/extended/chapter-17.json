@@ -292,7 +292,7 @@
       "summary": "Demaneuf overview mapping Wuhan’s biological laboratories and their coronavirus-research roles—beyond WIV alone.",
       "book_role": "",
       "topics": [
-        "Wuhan laboratories",
+        "Wuhan Institute of Virology",
         "coronavirus research",
         "lab map",
         "DRASTIC"
@@ -311,7 +311,8 @@
         ]
       },
       "topic_ids": [
-        "org:drastic"
+        "org:drastic",
+        "org:wuhan-institute-of-virology"
       ],
       "entity_ids": {
         "people": [
@@ -480,7 +481,7 @@
       "summary": "Fauci’s 2012 mBio commentary defending a path forward for highly pathogenic H5N1 research amid gain-of-function controversy.",
       "book_role": "Fauci’s own earlier writing that a GoF experiment gone wrong could start a pandemic.",
       "topics": [
-        "H5N1",
+        "H5N1 avian flu",
         "gain-of-function research",
         "Anthony Fauci",
         "biosafety policy"
@@ -500,7 +501,8 @@
       },
       "topic_ids": [
         "topic:gain-of-function-research",
-        "person:anthony-fauci"
+        "person:anthony-fauci",
+        "topic:h5n1-avian-flu"
       ],
       "entity_ids": {
         "people": [],
@@ -655,7 +657,7 @@
       "topics": [
         "intelligence agencies",
         "mobile phone data",
-        "Wuhan laboratory"
+        "Wuhan Institute of Virology"
       ],
       "entities": {
         "people": [
@@ -684,7 +686,10 @@
       "source_key": "ch17-s14",
       "date_iso": "2020-05-09",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "org:wuhan-institute-of-virology"
+      ]
     },
     {
       "id": 15,

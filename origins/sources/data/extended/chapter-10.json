@@ -68,7 +68,7 @@
       "summary": "Tedros remarks releasing the China-part origins report: team lacked raw-data access; lab-incident assessment ‘not extensive enough’; though ranked least likely, lab leak needs further study—‘all hypotheses remain on the table.’",
       "book_role": "Tedros’s post-mission remark that all origin hypotheses remained open.",
       "topics": [
-        "Tedros",
+        "Tedros Adhanom Ghebreyesus",
         "all hypotheses",
         "lab investigation",
         "data access"
@@ -103,7 +103,10 @@
       "source_key": "ch10-s02",
       "date_iso": "2021-03-30",
       "image_url": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "person:tedros-adhanom-ghebreyesus"
+      ]
     },
     {
       "id": 3,
@@ -378,7 +381,7 @@
         "Freedom of Information requests",
         "gain-of-function research",
         "Baric-Shi",
-        "Auchincloss"
+        "Hugh Auchincloss"
       ],
       "entities": {
         "people": [
@@ -410,7 +413,8 @@
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
-        "topic:gain-of-function-research"
+        "topic:gain-of-function-research",
+        "person:hugh-auchincloss"
       ],
       "source_key": "ch10-s08",
       "date_iso": "2020-02-01",

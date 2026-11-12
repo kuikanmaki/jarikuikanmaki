@@ -655,7 +655,7 @@
       "summary": "Early January 2020 technical essay by Karl and Dan Sirotkin arguing logistical and genomic reasons to take a laboratory origin for the Wuhan coronavirus seriously.",
       "book_role": "Early public proposal that SARS-CoV-2 could have emerged via serial passage in humanized mice.",
       "topics": [
-        "lab origin hypothesis",
+        "lab-leak hypothesis",
         "Wuhan strain",
         "genome analysis",
         "early skepticism"
@@ -686,7 +686,10 @@
       },
       "source_key": "ch03-s12",
       "date_iso": "2020-01-31",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ]
     },
     {
       "id": 13,

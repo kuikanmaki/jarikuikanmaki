@@ -318,7 +318,7 @@
       "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
       "book_role": "",
       "topics": [
-        "lab-leak theory",
+        "lab-leak hypothesis",
         "U.S. Department of State",
         "intelligence",
         "origins investigation"
@@ -337,7 +337,8 @@
         ]
       },
       "topic_ids": [
-        "org:u-s-department-of-state"
+        "org:u-s-department-of-state",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [],

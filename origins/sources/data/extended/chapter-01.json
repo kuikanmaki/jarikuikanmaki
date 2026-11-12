@@ -434,7 +434,7 @@
       "summary": "Landmark Science paper demonstrating airborne transmission of H5N1 influenza between ferrets—central exhibit in gain-of-function controversy.",
       "book_role": "",
       "topics": [
-        "H5N1",
+        "H5N1 avian flu",
         "ferrets",
         "airborne transmission",
         "gain-of-function research"
@@ -459,7 +459,8 @@
         "places": []
       },
       "topic_ids": [
-        "topic:gain-of-function-research"
+        "topic:gain-of-function-research",
+        "topic:h5n1-avian-flu"
       ],
       "source_key": "ch01-s10",
       "date_iso": "2012-06-22",
