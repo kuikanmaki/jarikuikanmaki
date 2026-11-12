@@ -177,7 +177,7 @@
     {
       "id": 4,
       "type": "GenBank entry",
-      "author": "Wuhan Institute of Virology",
+      "author": "",
       "title": "Rhinolophus bat coronavirus BtCoV/4991 RNA-dependent RNA polymerase (RdRp) gene, partial cds",
       "publication": "GenBank",
       "date": "March 4, 2016",
@@ -223,9 +223,7 @@
       "source_key": "ch11-s04",
       "date_iso": "2016-03-04",
       "acquisition_note": "Scrape returned 404/blocked.",
-      "author_ids": [
-        "org:wuhan-institute-of-virology"
-      ]
+      "author_ids": []
     },
     {
       "id": 5,
@@ -288,7 +286,7 @@
     {
       "id": 6,
       "type": "GenBank entry",
-      "author": "Wuhan Institute of Virology",
+      "author": "",
       "title": "Bat coronavirus RaTG13, complete genome",
       "publication": "GenBank",
       "date": "January 27, 2020",
@@ -340,9 +338,7 @@
       "source_key": "ch11-s06",
       "date_iso": "2020-01-27",
       "acquisition_note": "Scrape returned 404/blocked; citation retained (chapter notes).",
-      "author_ids": [
-        "org:wuhan-institute-of-virology"
-      ]
+      "author_ids": []
     },
     {
       "id": 7,

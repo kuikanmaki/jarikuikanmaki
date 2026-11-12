@@ -22,7 +22,7 @@
     {
       "id": 3,
       "type": "Congressional press release",
-      "author": "House Committee on Energy and Commerce",
+      "author": "",
       "title": "E&C Investigation Uncovers Earliest Known SARS-CoV-2 Sequence Released Outside of China",
       "publication": "U.S. House of Representatives",
       "date": "January 17, 2024",
@@ -49,7 +49,7 @@
     {
       "id": 6,
       "type": "Email / Official correspondence",
-      "author": "NCBI GenBank Submissions Staff",
+      "author": "",
       "title": "Email regarding deletion of submission “BankIt2298002 Coronavirus/Wuhan/2019/WH01”",
       "publication": "GenBank (NCBI)",
       "date": "January 16, 2020",
@@ -94,7 +94,7 @@
     {
       "id": 11,
       "type": "Congressional hearing",
-      "author": "U.S. House of Representatives Select Subcommittee on the Coronavirus Pandemic",
+      "author": "",
       "title": "A Hearing with the National Institute of Allergy and Infectious Diseases Senior Scientific Advisor, Dr. David Morens",
       "publication": "U.S. Congress",
       "date": "May 22, 2024",
@@ -103,7 +103,7 @@
     {
       "id": 12,
       "type": "Congressional deposition",
-      "author": "U.S. House of Representatives Committee on Oversight and Accountability",
+      "author": "",
       "title": "Deposition of Margaret Moore",
       "publication": "U.S. Congress",
       "date": "October 4, 2024",
@@ -148,7 +148,7 @@
     {
       "id": 17,
       "type": "Congressional press release",
-      "author": "Turner and Wenstrup, U.S. House Permanent Select Committee on Intelligence",
+      "author": "",
       "title": "GAO Report Confirms U.S. Taxpayer Dollars Flowed to Wuhan Institute of Virology",
       "publication": "U.S. House of Representatives",
       "date": "June 14, 2023",
@@ -175,7 +175,7 @@
     {
       "id": 20,
       "type": "FOIA document",
-      "author": "China National Virome Project",
+      "author": "",
       "title": "China National Virome Project (CNVP) Initiative Meeting Agenda",
       "publication": "Beijing Institute of Microbiology, CAS / U.S. Right to Know",
       "date": "February 7, 2017",
@@ -184,7 +184,7 @@
     {
       "id": 21,
       "type": "FOIA document",
-      "author": "National Institutes of Health",
+      "author": "",
       "title": "Foreign Collaborators for U.S. Research Grants (FY 2014–2017) - Cao Wuchun",
       "publication": "NIH / U.S. Right to Know",
       "date": "June 17, 2022",
@@ -193,7 +193,7 @@
     {
       "id": 23,
       "type": "Government report",
-      "author": "Defense Intelligence Agency",
+      "author": "",
       "title": "SARS-CoV-2 Genome Analysis (Declassified)",
       "publication": "Defense Intelligence Agency / U.S. Right to Know",
       "date": "June 25, 2020 (released March 2025)",
@@ -211,7 +211,7 @@
     {
       "id": 25,
       "type": "Government report",
-      "author": "Defense Intelligence Agency",
+      "author": "",
       "title": "DIA Authoritative Assessment on SARS-CoV-2 Origins",
       "publication": "Defense Intelligence Agency / U.S. Right to Know",
       "date": "March 27, 2020 (released February 2026)",
@@ -256,7 +256,7 @@
     {
       "id": 30,
       "type": "Congressional press release",
-      "author": "U.S. House Committee on Oversight and Government Reform",
+      "author": "",
       "title": "Testimony From CIA Whistleblower Alleges New Information on COVID-19 Origins",
       "publication": "U.S. Congress",
       "date": "September 12, 2023",
@@ -283,7 +283,7 @@
     {
       "id": 33,
       "type": "Press release",
-      "author": "EcoHealth Alliance",
+      "author": "",
       "title": "EcoHealth Alliance Statement Regarding Book by Andrew Huff",
       "publication": "EcoHealth Alliance",
       "date": "December 5, 2022",
@@ -292,7 +292,7 @@
     {
       "id": 34,
       "type": "Congressional hearing",
-      "author": "U.S. House Committee on Oversight and Accountability",
+      "author": "",
       "title": "A Hearing with the President of EcoHealth Alliance, Dr. Peter Daszak",
       "publication": "U.S. Congress",
       "date": "May 1, 2024",
@@ -301,7 +301,7 @@
     {
       "id": 35,
       "type": "Congressional press release",
-      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "author": "",
       "title": "Chairman Rand Paul Seeks Intelligence Community Records Related to COVID Origins",
       "publication": "U.S. Senate",
       "date": "October 30, 2025",
@@ -346,7 +346,7 @@
     {
       "id": 40,
       "type": "Congressional press release",
-      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "author": "",
       "title": "Dr. Paul Sends Letters to Fifteen Federal Agencies After Discovering Their Knowledge of Risky DEFUSE Project",
       "publication": "U.S. Senate",
       "date": "April 9, 2024",
@@ -373,7 +373,7 @@
     {
       "id": 43,
       "type": "Government memorandum",
-      "author": "U.S. Department of State",
+      "author": "",
       "title": "An Analysis of Circumstantial Evidence for Wuhan Labs as the Source of the Coronavirus",
       "publication": "U.S. Department of State",
       "date": "Spring 2020 (declassified March 2022)",
@@ -391,7 +391,7 @@
     {
       "id": 45,
       "type": "News article",
-      "author": "BBC News",
+      "author": "",
       "title": "USAID staff told to shred and burn classified documents",
       "publication": "BBC News",
       "date": "March 12, 2025",
@@ -436,7 +436,7 @@
     {
       "id": 50,
       "type": "Congressional press release",
-      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "author": "",
       "title": "Dr. Paul Issues Subpoenas to Fourteen Agencies Regarding COVID-19 Origins and Risky Gain-of-Function Research",
       "publication": "U.S. Senate",
       "date": "January 27, 2025",
@@ -445,7 +445,7 @@
     {
       "id": 51,
       "type": "News article",
-      "author": "White Coat Waste Project",
+      "author": "",
       "title": "WCW Investigation: EcoHealth raked in $46M in new taxpayer funds during pandemic it probably caused",
       "publication": "White Coat Waste Project",
       "date": "February 11, 2023",
@@ -463,7 +463,7 @@
     {
       "id": 53,
       "type": "Congressional press release",
-      "author": "Select Subcommittee on the Coronavirus Pandemic",
+      "author": "",
       "title": "HHS Formally Debars EcoHealth Alliance, Dr. Peter Daszak After COVID Select Reveals Pandemic-Era Wrongdoing",
       "publication": "U.S. House of Representatives",
       "date": "January 17, 2025",
@@ -472,7 +472,7 @@
     {
       "id": 54,
       "type": "Congressional press release",
-      "author": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "author": "",
       "title": "Chairman Rand Paul Uncovers New Evidence of Fauci Deleting Official Records, Calls Him to Testify Before HSGAC",
       "publication": "U.S. Senate",
       "date": "September 12, 2025",

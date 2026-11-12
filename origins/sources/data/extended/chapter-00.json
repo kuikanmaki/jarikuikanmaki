@@ -454,7 +454,7 @@
     },
     {
       "id": 8,
-      "author": "World Health Organization",
+      "author": "",
       "title": "Disease Outbreak News: Pneumonia of unknown cause – China",
       "publication": "WHO",
       "date": "January 5, 2020",
@@ -505,13 +505,11 @@
       "source_key": "ch00-s08",
       "date_iso": "2020-01-05",
       "acquisition_note": "",
-      "author_ids": [
-        "org:who"
-      ]
+      "author_ids": []
     },
     {
       "id": 9,
-      "author": "ProMED",
+      "author": "",
       "title": "UNDIAGNOSED PNEUMONIA - CHINA (HUBEI): REQUEST FOR INFORMATION",
       "publication": "ProMED",
       "date": "December 30, 2019",
@@ -554,13 +552,11 @@
       "source_key": "ch00-s09",
       "date_iso": "2019-12-30",
       "acquisition_note": "",
-      "author_ids": [
-        "org:promed"
-      ]
+      "author_ids": []
     },
     {
       "id": 10,
-      "author": "Wuhan Police Bureau",
+      "author": "",
       "title": "Li Wenliang Admonishment letter",
       "publication": "Weibo",
       "date": "January 3, 2020",
@@ -672,7 +668,7 @@
     },
     {
       "id": 12,
-      "author": "People's Daily Client",
+      "author": "",
       "title": "Wuhan’s unexplained pneumonia cases cannot be confirmed as SARS; 7 patients in critical condition",
       "publication": "People's Daily",
       "date": "December 31, 2019",
@@ -718,7 +714,7 @@
     },
     {
       "id": 13,
-      "author": "BBC News",
+      "author": "",
       "title": "Li Wenliang: Coronavirus kills Chinese whistleblower doctor",
       "publication": "BBC News",
       "date": "February 7, 2020",
@@ -770,9 +766,7 @@
       "date_iso": "2020-02-07",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/11C1A/production/_110803727_mediaitem110803726.jpg",
       "acquisition_note": "",
-      "author_ids": [
-        "org:bbc-news"
-      ]
+      "author_ids": []
     }
   ]
 }

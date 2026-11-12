@@ -244,7 +244,7 @@
     {
       "id": 6,
       "type": "Twitter post",
-      "author": "WHO",
+      "author": "",
       "title": "No clear evidence of human-to-human transmission of the novel #coronavirus (2019-nCoV) identified in #Wuhan, #China.",
       "publication": "WHO",
       "date": "January 14, 2020",
@@ -287,9 +287,7 @@
       "source_key": "ch01-s06",
       "date_iso": "2020-01-14",
       "acquisition_note": "Social URL skipped under scrape policy; text preserved from the bibliography title.",
-      "author_ids": [
-        "org:who"
-      ]
+      "author_ids": []
     },
     {
       "id": 7,
