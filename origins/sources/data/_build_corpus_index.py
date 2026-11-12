@@ -48,7 +48,11 @@ def main() -> None:
         for source in data.get("sources") or []:
             kind = source.get("content_kind") or "unknown"
             entity_ids = source.get("entity_ids") or {}
+            author_ids = list(source.get("author_ids") or [])
             authority_ids = list(source.get("topic_ids") or [])
+            for aid in author_ids:
+                if aid not in authority_ids:
+                    authority_ids.append(aid)
             for bucket in ("people", "orgs", "places"):
                 for aid in entity_ids.get(bucket) or []:
                     if aid not in authority_ids:
@@ -62,6 +66,7 @@ def main() -> None:
                     "chapter_title": chapter_title,
                     "id": source.get("id"),
                     "author": source.get("author") or "",
+                    "author_ids": author_ids,
                     "title": source.get("title") or "",
                     "publication": source.get("publication") or "",
                     "date": source.get("date") or "",

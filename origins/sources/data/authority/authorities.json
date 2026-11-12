@@ -25,7 +25,8 @@
       "altLabels include see-references and curated corpus aliases.",
       "related comes from index see-also links.",
       "Subentries are facet notes under the heading, not separate authorities (yet).",
-      "corpus-extension entries cover high-frequency entities absent from the back-of-book index."
+      "corpus-extension entries cover high-frequency entities absent from the back-of-book index.",
+      "Authors linked via _link_authors.py; corpus-extension persons/orgs minted for frequent bylines."
     ]
   },
   "authorities": {
@@ -1440,6 +1441,45 @@
         "subentries": [],
         "pages": [],
         "source": "corpus-extension"
+      },
+      {
+        "id": "org:bbc-news",
+        "prefLabel": "BBC News",
+        "indexTerm": "BBC News",
+        "altLabels": [
+          "BBC"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "org:promed",
+        "prefLabel": "ProMED",
+        "indexTerm": "ProMED",
+        "altLabels": [
+          "ProMED-mail",
+          "Program for Monitoring Emerging Diseases"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac",
+        "prefLabel": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+        "indexTerm": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+        "altLabels": [
+          "HSGAC",
+          "U.S. Senate Homeland Security and Governmental Affairs Committee",
+          "Senate Homeland Security and Governmental Affairs Committee"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       }
     ],
     "person": [
@@ -2600,6 +2640,156 @@
           "135"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "person:emily-kopp",
+        "prefLabel": "Emily Kopp",
+        "indexTerm": "Kopp, Emily",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:katherine-eban",
+        "prefLabel": "Katherine Eban",
+        "indexTerm": "Eban, Katherine",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:warren-strobel",
+        "prefLabel": "Warren Strobel",
+        "indexTerm": "Strobel, Warren",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:david-cyranoski",
+        "prefLabel": "David Cyranoski",
+        "indexTerm": "Cyranoski, David",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:eva-dou",
+        "prefLabel": "Eva Dou",
+        "indexTerm": "Dou, Eva",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:neil-ferguson",
+        "prefLabel": "Neil Ferguson",
+        "indexTerm": "Ferguson, Neil",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:peng-zhou",
+        "prefLabel": "Peng Zhou",
+        "indexTerm": "Zhou, Peng",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:sainath-suryanarayanan",
+        "prefLabel": "Sainath Suryanarayanan",
+        "indexTerm": "Suryanarayanan, Sainath",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:glen-owen",
+        "prefLabel": "Glen Owen",
+        "indexTerm": "Owen, Glen",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:sharri-markson",
+        "prefLabel": "Sharri Markson",
+        "indexTerm": "Markson, Sharri",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:vincent-racaniello",
+        "prefLabel": "Vincent Racaniello",
+        "indexTerm": "Racaniello, Vincent",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:yawen-chen",
+        "prefLabel": "Yawen Chen",
+        "indexTerm": "Chen, Yawen",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:ben-hu",
+        "prefLabel": "Ben Hu",
+        "indexTerm": "Hu, Ben",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:lewis-kamb",
+        "prefLabel": "Lewis Kamb",
+        "indexTerm": "Kamb, Lewis",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:michael-gordon",
+        "prefLabel": "Michael Gordon",
+        "indexTerm": "Gordon, Michael",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       }
     ],
     "place": [

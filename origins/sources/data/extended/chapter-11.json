@@ -61,7 +61,11 @@
       "source_key": "ch11-s01",
       "date_iso": "2021-06-13",
       "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/6/3/28-wiv.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:monali-rahalkar",
+        "person:rahul-bahulikar"
+      ]
     },
     {
       "id": 2,
@@ -100,7 +104,17 @@
       "source_key": "ch11-s02",
       "date_iso": "2020-02-20",
       "image_url": "https://www.virology.ws/wp-content/uploads/2020/02/coronavirus_S-300x261.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:vincent-racaniello"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:vincent-racaniello"
+        ],
+        "orgs": [],
+        "places": []
+      }
     },
     {
       "id": 3,
@@ -157,7 +171,8 @@
       "source_key": "ch11-s03",
       "date_iso": "2016",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12250-016-3713-9/MediaObjects/12250_2016_3713_Figa_HTML.gif",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 4,
@@ -207,7 +222,10 @@
       },
       "source_key": "ch11-s04",
       "date_iso": "2016-03-04",
-      "acquisition_note": "Scrape returned 404/blocked."
+      "acquisition_note": "Scrape returned 404/blocked.",
+      "author_ids": [
+        "org:wuhan-institute-of-virology"
+      ]
     },
     {
       "id": 5,
@@ -261,7 +279,11 @@
       "source_key": "ch11-s05",
       "date_iso": "2020-10-20",
       "image_url": "https://loop.frontiersin.org/images/profile/339663/74",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:monali-rahalkar",
+        "person:rahul-bahulikar"
+      ]
     },
     {
       "id": 6,
@@ -317,7 +339,10 @@
       },
       "source_key": "ch11-s06",
       "date_iso": "2020-01-27",
-      "acquisition_note": "Scrape returned 404/blocked; citation retained (chapter notes)."
+      "acquisition_note": "Scrape returned 404/blocked; citation retained (chapter notes).",
+      "author_ids": [
+        "org:wuhan-institute-of-virology"
+      ]
     },
     {
       "id": 7,
@@ -372,7 +397,8 @@
       "source_key": "ch11-s07",
       "date_iso": "2021-07-11",
       "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/7/1/shutterstock_1811050684.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 8,
@@ -422,7 +448,10 @@
       },
       "source_key": "ch11-s08",
       "date_iso": "2013-05",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:li-xu"
+      ]
     },
     {
       "id": 9,
@@ -471,7 +500,8 @@
       },
       "source_key": "ch11-s09",
       "date_iso": "2016-06",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 10,
@@ -522,7 +552,8 @@
       "source_key": "ch11-s10",
       "date_iso": "2020-09-22",
       "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltdfd478ef99673df1/698a124d457a526b50d646a9/time-100-Zhong-Nanshan.jpg?branch=production&amp;width=2400&amp;quality=75&amp;auto=webp&amp;crop=16:9",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 11,
@@ -577,7 +608,8 @@
       "source_key": "ch11-s11",
       "date_iso": "2021-05-11",
       "image_url": "https://www.independentsciencenews.org/wp-content/uploads/2021/04/Canping-Huang-PhD-Front-Page.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 12,
@@ -633,7 +665,8 @@
       "source_key": "ch11-s12",
       "date_iso": "2021-02-06",
       "image_url": "https://www.telegraph.co.uk/content/dam/news/2021/02/03/covid-lab-lead_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfp-Lnwb_Dq3Fonfr3-DT2I.jpg?imwidth=640",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 13,
@@ -669,7 +702,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:yawen-chen"
+        ],
         "orgs": [
           "org:reuters"
         ],
@@ -682,7 +717,10 @@
       "source_key": "ch11-s13",
       "date_iso": "2020-04-08",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F04%2F08%2FLYNXMPEG370GA.JPG?auth=dbfb0fe44bd5097ea5e92894d6d57c5bc1a3518d93326820fa9f84b58e50559e&width=1080&quality=80",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:yawen-chen"
+      ]
     },
     {
       "id": 14,
@@ -738,7 +776,8 @@
       "source_key": "ch11-s14",
       "date_iso": "2013-10-30",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature12711/MediaObjects/41586_2013_Article_BFnature12711_Fig1_HTML.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 15,
@@ -782,7 +821,8 @@
       },
       "source_key": "ch11-s15",
       "date_iso": "2006-07-05",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 16,
@@ -823,7 +863,8 @@
       },
       "source_key": "ch11-s16",
       "date_iso": "2000-02-01",
-      "acquisition_note": "PubMed scrape failed; citation retained (chapter notes)."
+      "acquisition_note": "PubMed scrape failed; citation retained (chapter notes).",
+      "author_ids": []
     },
     {
       "id": 17,
@@ -858,7 +899,13 @@
       },
       "source_key": "ch11-s17",
       "date_iso": "2020-02-26",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      }
     },
     {
       "id": 18,
@@ -905,7 +952,8 @@
       "source_key": "ch11-s18",
       "date_iso": "2021-08-11",
       "image_url": "https://usrtk.org/wp-content/uploads/2021/04/EMI-cover-e1628731989446.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 19,
@@ -941,7 +989,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:yawen-chen"
+        ],
         "orgs": [
           "org:associated-press"
         ],
@@ -952,7 +1002,10 @@
       },
       "source_key": "ch11-s19",
       "date_iso": "2020-12-30",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:yawen-chen"
+      ]
     },
     {
       "id": 20,
@@ -1008,7 +1061,8 @@
       "source_key": "ch11-s20",
       "date_iso": "2016-02-18",
       "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5578/8193380/46b11ee206d4/12250_2016_3713_Figa_HTML.jpg",
-      "acquisition_note": "Open-access copy of the WIV bat-colony survey."
+      "acquisition_note": "Open-access copy of the WIV bat-colony survey.",
+      "author_ids": []
     }
   ]
 }

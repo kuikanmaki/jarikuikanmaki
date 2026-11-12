@@ -26,7 +26,10 @@
         "RdRp"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Shi Zhengli",
+          "Edward Holmes"
+        ],
         "orgs": [
           "GenBank",
           "Wuhan Institute of Virology"
@@ -40,7 +43,10 @@
         "org:genbank"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:shi-zhengli",
+          "person:edward-holmes"
+        ],
         "orgs": [
           "org:genbank",
           "org:wuhan-institute-of-virology"
@@ -51,7 +57,11 @@
       },
       "source_key": "ch19-s01",
       "date_iso": "2022-08-10",
-      "acquisition_note": "Scrape 404/blocked; citation retained."
+      "acquisition_note": "Scrape 404/blocked; citation retained.",
+      "author_ids": [
+        "person:shi-zhengli",
+        "person:edward-holmes"
+      ]
     },
     {
       "id": 2,
@@ -106,7 +116,8 @@
       "source_key": "ch19-s02",
       "date_iso": "2022-12-04",
       "image_url": "https://www.washingtonexaminer.com/wp-content/uploads/2025/09/wex_yoast_1200_v4.png?resize=1200,683",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 3,
@@ -150,7 +161,8 @@
       },
       "source_key": "ch19-s03",
       "date_iso": "2024-01-17",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 4,
@@ -172,7 +184,9 @@
         "Chinese lab"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Warren Strobel"
+        ],
         "orgs": [],
         "places": [
           "China",
@@ -180,7 +194,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:warren-strobel"
+        ],
         "orgs": [],
         "places": [
           "place:china",
@@ -190,7 +206,10 @@
       "source_key": "ch19-s04",
       "date_iso": "2024-01-17",
       "image_url": "https://images.wsj.net/im-913114?width=700&height=493",
-      "acquisition_note": "Headline and paywall chrome retrieved."
+      "acquisition_note": "Headline and paywall chrome retrieved.",
+      "author_ids": [
+        "person:warren-strobel"
+      ]
     },
     {
       "id": 5,
@@ -212,7 +231,9 @@
         "early Wuhan sequence"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Lili Ren"
+        ],
         "orgs": [
           "GenBank",
           "IPBCAMS"
@@ -225,7 +246,9 @@
         "org:genbank"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:lili-ren"
+        ],
         "orgs": [
           "org:genbank"
         ],
@@ -235,7 +258,10 @@
       },
       "source_key": "ch19-s05",
       "date_iso": "2019-12-28",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:lili-ren"
+      ]
     },
     {
       "id": 6,
@@ -277,7 +303,8 @@
       },
       "source_key": "ch19-s06",
       "date_iso": "2020-01-16",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 7,
@@ -299,7 +326,9 @@
         "July 2018"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Edward Holmes"
+        ],
         "orgs": [
           "GenBank"
         ],
@@ -309,7 +338,9 @@
         "org:genbank"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:edward-holmes"
+        ],
         "orgs": [
           "org:genbank"
         ],
@@ -318,7 +349,10 @@
       "source_key": "ch19-s07",
       "date_iso": "2023-03-06",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:edward-holmes"
+      ]
     },
     {
       "id": 8,
@@ -358,7 +392,8 @@
       "source_key": "ch19-s08",
       "date_iso": "2024-01-19",
       "image_url": "https://substackcdn.com/image/fetch/$s_!6nh-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b6f7c19-c791-455e-99c1-b6ad105a8f39_1736x1050.jpeg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 9,
@@ -403,7 +438,8 @@
       "source_key": "ch19-s09",
       "date_iso": "2023-06-29",
       "image_url": "https://theintercept.com/wp-content/uploads/2023/06/AP090817020267-NIH-hero.jpg?fit=2016%2C1008&#038;w=1200&#038;h=800",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 10,
@@ -445,7 +481,8 @@
       "source_key": "ch19-s10",
       "date_iso": "2024-05-22",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/06/NYPICHPDPICT000013390615.jpg?quality=75&#038;strip=all&#038;w=1200",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 11,
@@ -495,7 +532,8 @@
       ],
       "source_key": "ch19-s11",
       "date_iso": "2024-05-22",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 12,
@@ -543,7 +581,8 @@
       },
       "source_key": "ch19-s12",
       "date_iso": "2024-10-04",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 13,
@@ -584,7 +623,8 @@
       },
       "source_key": "ch19-s13",
       "date_iso": "2024-05-28",
-      "acquisition_note": "NYT blocked by Firecrawl."
+      "acquisition_note": "NYT blocked by Firecrawl.",
+      "author_ids": []
     },
     {
       "id": 14,
@@ -608,7 +648,8 @@
       "entities": {
         "people": [
           "Anthony Fauci",
-          "Kristian Andersen"
+          "Kristian Andersen",
+          "Emily Kopp"
         ],
         "orgs": [
           "NIH"
@@ -623,7 +664,8 @@
       "entity_ids": {
         "people": [
           "person:anthony-fauci",
-          "person:kristian-andersen"
+          "person:kristian-andersen",
+          "person:emily-kopp"
         ],
         "orgs": [
           "org:nih"
@@ -635,7 +677,10 @@
       "source_key": "ch19-s14",
       "date_iso": "2024-01-06",
       "image_url": "https://usrtk.org/wp-content/uploads/2024/01/fauci-white-house.jpeg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:emily-kopp"
+      ]
     },
     {
       "id": 15,
@@ -665,7 +710,13 @@
       "source_key": "ch19-s15",
       "date_iso": "2017",
       "image_url": "https://web-static.archive.org/_static/images/loading.gif",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      }
     },
     {
       "id": 16,
@@ -709,7 +760,8 @@
       "source_key": "ch19-s16",
       "date_iso": "2023-06-10",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/5aedcbf4-06ec-11ee-a1e5-6222cf71d60e.jpg?amp;sourceHeight=886&#038;strip=all&#038;format=webp&#038;crop=0px%2C0px%2C1575px%2C886px&#038;w=1200",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 17,
@@ -756,7 +808,8 @@
       },
       "source_key": "ch19-s17",
       "date_iso": "2023-06-14",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 18,
@@ -778,7 +831,9 @@
         "WIV military"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Emily Kopp"
+        ],
         "orgs": [
           "U.S. Department of State",
           "Wuhan Institute of Virology"
@@ -788,7 +843,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:emily-kopp"
+        ],
         "orgs": [
           "org:u-s-department-of-state",
           "org:wuhan-institute-of-virology"
@@ -800,7 +857,10 @@
       "source_key": "ch19-s18",
       "date_iso": "2023-06-14",
       "image_url": "https://usrtk.org/wp-content/uploads/2023/06/covid-scaled.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:emily-kopp"
+      ]
     },
     {
       "id": 19,
@@ -822,7 +882,9 @@
         "experiments"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Ian Birrell"
+        ],
         "orgs": [
           "Wuhan Institute of Virology"
         ],
@@ -831,7 +893,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ian-birrell"
+        ],
         "orgs": [
           "org:wuhan-institute-of-virology"
         ],
@@ -842,7 +906,10 @@
       "source_key": "ch19-s19",
       "date_iso": "2021-04-24",
       "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:ian-birrell"
+      ]
     },
     {
       "id": 20,
@@ -884,7 +951,8 @@
       },
       "source_key": "ch19-s20",
       "date_iso": "2017-02-07",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 21,
@@ -932,7 +1000,10 @@
       ],
       "source_key": "ch19-s21",
       "date_iso": "2022-06-17",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:nih"
+      ]
     },
     {
       "id": 23,
@@ -975,7 +1046,10 @@
       },
       "source_key": "ch19-s23",
       "date_iso": "2020-06-25",
-      "acquisition_note": "File exceeded Firecrawl size limit."
+      "acquisition_note": "File exceeded Firecrawl size limit.",
+      "author_ids": [
+        "org:defense-intelligence-agency"
+      ]
     },
     {
       "id": 24,
@@ -997,7 +1071,9 @@
         "lab-leak hypothesis"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Lewis Kamb"
+        ],
         "orgs": [],
         "places": [
           "United States",
@@ -1008,7 +1084,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:lewis-kamb"
+        ],
         "orgs": [],
         "places": [
           "place:united-states",
@@ -1018,7 +1096,10 @@
       "source_key": "ch19-s24",
       "date_iso": "2025-04-07",
       "image_url": "https://usrtk.org/wp-content/uploads/2025/04/Wuhan-Institute-of-Virology-front-view.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:lewis-kamb"
+      ]
     },
     {
       "id": 25,
@@ -1058,7 +1139,10 @@
       },
       "source_key": "ch19-s25",
       "date_iso": "2020-03-27",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:defense-intelligence-agency"
+      ]
     },
     {
       "id": 26,
@@ -1080,7 +1164,9 @@
         "lab leak scenario"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Lewis Kamb"
+        ],
         "orgs": [
           "Defense Intelligence Agency"
         ],
@@ -1089,7 +1175,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:lewis-kamb"
+        ],
         "orgs": [
           "org:defense-intelligence-agency"
         ],
@@ -1100,7 +1188,10 @@
       "source_key": "ch19-s26",
       "date_iso": "2026-02-05",
       "image_url": "https://usrtk.org/wp-content/uploads/2021/08/WIV-e1770302708388.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:lewis-kamb"
+      ]
     },
     {
       "id": 27,
@@ -1121,7 +1212,10 @@
         "lab leak most likely"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Michael Gordon",
+          "Warren Strobel"
+        ],
         "orgs": [
           "U.S. Department of Energy"
         ],
@@ -1130,7 +1224,10 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:michael-gordon",
+          "person:warren-strobel"
+        ],
         "orgs": [],
         "places": [
           "place:china"
@@ -1139,7 +1236,11 @@
       "source_key": "ch19-s27",
       "date_iso": "2023-02-26",
       "image_url": "https://images.wsj.net/im-34888661?width=330&height=185",
-      "acquisition_note": "Headline retrieved before paywall."
+      "acquisition_note": "Headline retrieved before paywall.",
+      "author_ids": [
+        "person:michael-gordon",
+        "person:warren-strobel"
+      ]
     },
     {
       "id": 28,
@@ -1162,7 +1263,9 @@
       ],
       "entities": {
         "people": [
-          "Christopher Wray"
+          "Christopher Wray",
+          "Michael Gordon",
+          "Warren Strobel"
         ],
         "orgs": [
           "FBI"
@@ -1178,7 +1281,9 @@
       ],
       "entity_ids": {
         "people": [
-          "person:christopher-wray"
+          "person:christopher-wray",
+          "person:michael-gordon",
+          "person:warren-strobel"
         ],
         "orgs": [
           "org:fbi"
@@ -1190,7 +1295,11 @@
       "source_key": "ch19-s28",
       "date_iso": "2023-02-28",
       "image_url": "https://images.wsj.net/im-34888661?width=330&height=185",
-      "acquisition_note": "Headline retrieved before paywall."
+      "acquisition_note": "Headline retrieved before paywall.",
+      "author_ids": [
+        "person:michael-gordon",
+        "person:warren-strobel"
+      ]
     },
     {
       "id": 29,
@@ -1236,7 +1345,8 @@
       "source_key": "ch19-s29",
       "date_iso": "2025-01-25",
       "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-01/250125-covid-19-vaccine-wm-1129a-ec66ff.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 30,
@@ -1283,7 +1393,8 @@
       "source_key": "ch19-s30",
       "date_iso": "2023-09-12",
       "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 31,
@@ -1306,7 +1417,8 @@
       ],
       "entities": {
         "people": [
-          "Peter Daszak"
+          "Peter Daszak",
+          "Andrew Huff"
         ],
         "orgs": [
           "EcoHealth Alliance"
@@ -1318,7 +1430,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:andrew-huff"
         ],
         "orgs": [
           "org:ecohealth-alliance"
@@ -1328,7 +1441,10 @@
       "source_key": "ch19-s31",
       "date_iso": "2022-01-13",
       "image_url": "https://nationalfile.com/media/fbd2cdedd5e9f3aba566b396bd83220106cbfc5c5f667ac42b022c8b63ba2fed.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:andrew-huff"
+      ]
     },
     {
       "id": 32,
@@ -1379,7 +1495,10 @@
       "source_key": "ch19-s32",
       "date_iso": "2022",
       "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:andrew-huff"
+      ]
     },
     {
       "id": 33,
@@ -1424,7 +1543,10 @@
       },
       "source_key": "ch19-s33",
       "date_iso": "2022-12-05",
-      "acquisition_note": "URL not found at scrape."
+      "acquisition_note": "URL not found at scrape.",
+      "author_ids": [
+        "org:ecohealth-alliance"
+      ]
     },
     {
       "id": 34,
@@ -1475,7 +1597,8 @@
       },
       "source_key": "ch19-s34",
       "date_iso": "2024-05-01",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 35,
@@ -1501,7 +1624,8 @@
           "Rand Paul"
         ],
         "orgs": [
-          "U.S. Senate"
+          "U.S. Senate",
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
         ],
         "places": [
           "United States"
@@ -1515,7 +1639,8 @@
           "person:rand-paul"
         ],
         "orgs": [
-          "org:u-s-senate"
+          "org:u-s-senate",
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
         ],
         "places": [
           "place:united-states"
@@ -1523,7 +1648,10 @@
       },
       "source_key": "ch19-s35",
       "date_iso": "2025-10-30",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+      ]
     },
     {
       "id": 36,
@@ -1544,14 +1672,18 @@
         "government presentation"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Ralph Baric"
+        ],
         "orgs": [],
         "places": [
           "China"
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ralph-baric"
+        ],
         "orgs": [],
         "places": [
           "place:china"
@@ -1559,7 +1691,10 @@
       },
       "source_key": "ch19-s36",
       "date_iso": "2020-01-29",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:ralph-baric"
+      ]
     },
     {
       "id": 37,
@@ -1581,7 +1716,9 @@
         "origins"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Ralph Baric"
+        ],
         "orgs": [
           "U.S. House Oversight Committee"
         ],
@@ -1590,7 +1727,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ralph-baric"
+        ],
         "orgs": [],
         "places": [
           "place:united-states"
@@ -1598,7 +1737,10 @@
       },
       "source_key": "ch19-s37",
       "date_iso": "2024-01-22",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:ralph-baric"
+      ]
     },
     {
       "id": 38,
@@ -1639,7 +1781,8 @@
       "source_key": "ch19-s38",
       "date_iso": "2025-11-04",
       "image_url": "https://freebeacon.com/wp-content/uploads/2023/06/house-hearing-examines-nih-2023-budget-request-e1685985239973.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 39,
@@ -1660,7 +1803,9 @@
         "presentation"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Ralph Baric"
+        ],
         "orgs": [
           "U.S. Congress",
           "YouTube"
@@ -1668,7 +1813,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ralph-baric"
+        ],
         "orgs": [
           "org:u-s-congress",
           "org:youtube"
@@ -1677,7 +1824,10 @@
       },
       "source_key": "ch19-s39",
       "date_iso": "2020-02-26",
-      "acquisition_note": "YouTube skipped."
+      "acquisition_note": "YouTube skipped.",
+      "author_ids": [
+        "person:ralph-baric"
+      ]
     },
     {
       "id": 40,
@@ -1703,7 +1853,8 @@
           "Rand Paul"
         ],
         "orgs": [
-          "U.S. Senate"
+          "U.S. Senate",
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
         ],
         "places": [
           "United States"
@@ -1717,7 +1868,8 @@
           "person:rand-paul"
         ],
         "orgs": [
-          "org:u-s-senate"
+          "org:u-s-senate",
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
         ],
         "places": [
           "place:united-states"
@@ -1725,7 +1877,10 @@
       },
       "source_key": "ch19-s40",
       "date_iso": "2024-04-09",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+      ]
     },
     {
       "id": 41,
@@ -1748,7 +1903,8 @@
       ],
       "entities": {
         "people": [
-          "Peter Daszak"
+          "Peter Daszak",
+          "Gilles Demaneuf"
         ],
         "orgs": [
           "EcoHealth Alliance"
@@ -1757,7 +1913,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:gilles-demaneuf"
         ],
         "orgs": [
           "org:ecohealth-alliance"
@@ -1770,7 +1927,10 @@
       "source_key": "ch19-s41",
       "date_iso": "2025-09",
       "image_url": "https://i1.rgstatic.net/ii/profile.image/11431281422588023-1746448964636_Q128/Billy-Bostickson.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:gilles-demaneuf"
+      ]
     },
     {
       "id": 42,
@@ -1819,7 +1979,8 @@
       "source_key": "ch19-s42",
       "date_iso": "2025-03-12",
       "image_url": "https://www.reuters.com/resizer/v2/TOF4BP7WLZLZNLAAYD2KTEBDYU.jpg?auth=460d2c39b88dffc859c097448997c1ee607143963ab64bacefd6b2817565fe18&width=1080&quality=80",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 43,
@@ -1842,14 +2003,18 @@
       ],
       "entities": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "U.S. Department of State"
+        ],
         "places": [
           "Wuhan"
         ]
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:u-s-department-of-state"
+        ],
         "places": [
           "place:wuhan"
         ]
@@ -1859,6 +2024,9 @@
       "acquisition_note": "Scrape error.",
       "topic_ids": [
         "org:wuhan-institute-of-virology"
+      ],
+      "author_ids": [
+        "org:u-s-department-of-state"
       ]
     },
     {
@@ -1882,7 +2050,8 @@
       ],
       "entities": {
         "people": [
-          "Joe Rogan"
+          "Joe Rogan",
+          "Mark Zuckerberg"
         ],
         "orgs": [],
         "places": [
@@ -1890,7 +2059,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:mark-zuckerberg"
+        ],
         "orgs": [],
         "places": [
           "place:united-states"
@@ -1899,7 +2070,10 @@
       "source_key": "ch19-s44",
       "date_iso": "2025-01-10",
       "image_url": "https://image-cdn-ak.spotifycdn.com/image/ab6772ab000016920dbcd3e556e3c6d45fd8ba6d",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:mark-zuckerberg"
+      ]
     },
     {
       "id": 45,
@@ -1923,7 +2097,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "USAID"
+          "USAID",
+          "BBC News"
         ],
         "places": [
           "United States"
@@ -1935,7 +2110,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:usaid"
+          "org:usaid",
+          "org:bbc-news"
         ],
         "places": [
           "place:united-states"
@@ -1944,7 +2120,10 @@
       "source_key": "ch19-s45",
       "date_iso": "2025-03-12",
       "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f512/live/4be07c70-feba-11ef-ad0f-372b7fe3c45e.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:bbc-news"
+      ]
     },
     {
       "id": 46,
@@ -1967,7 +2146,8 @@
       ],
       "entities": {
         "people": [
-          "Peter Daszak"
+          "Peter Daszak",
+          "Sainath Suryanarayanan"
         ],
         "orgs": [
           "EcoHealth Alliance"
@@ -1979,7 +2159,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:sainath-suryanarayanan"
         ],
         "orgs": [
           "org:ecohealth-alliance"
@@ -1989,7 +2170,10 @@
       "source_key": "ch19-s46",
       "date_iso": "2022-01-10",
       "image_url": "https://usrtk.org/wp-content/uploads/2022/01/genbank_1.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:sainath-suryanarayanan"
+      ]
     },
     {
       "id": 47,
@@ -2013,7 +2197,8 @@
       ],
       "entities": {
         "people": [
-          "Peter Daszak"
+          "Peter Daszak",
+          "Emily Kopp"
         ],
         "orgs": [
           "WHO",
@@ -2027,7 +2212,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:emily-kopp"
         ],
         "orgs": [
           "org:who",
@@ -2038,7 +2224,10 @@
       "source_key": "ch19-s47",
       "date_iso": "2025-01-16",
       "image_url": "https://usrtk.org/wp-content/uploads/2025/01/39148640504_a6df781e92_k.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:emily-kopp"
+      ]
     },
     {
       "id": 48,
@@ -2060,7 +2249,10 @@
         "MERS"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Peter Daszak",
+          "Shi Zhengli"
+        ],
         "orgs": [],
         "places": []
       },
@@ -2071,7 +2263,19 @@
       "source_key": "ch19-s48",
       "date_iso": "2017-06-29",
       "image_url": "https://drive.proton.me/assets/proton-og-image.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:peter-daszak",
+        "person:shi-zhengli"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak",
+          "person:shi-zhengli"
+        ],
+        "orgs": [],
+        "places": []
+      }
     },
     {
       "id": 49,
@@ -2094,7 +2298,8 @@
       ],
       "entities": {
         "people": [
-          "Peter Daszak"
+          "Peter Daszak",
+          "David Morens"
         ],
         "orgs": [
           "EcoHealth Alliance"
@@ -2107,7 +2312,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:david-morens"
         ],
         "orgs": [
           "org:ecohealth-alliance"
@@ -2116,7 +2322,10 @@
       },
       "source_key": "ch19-s49",
       "date_iso": "2020-04-26",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:david-morens"
+      ]
     },
     {
       "id": 50,
@@ -2142,7 +2351,8 @@
           "Rand Paul"
         ],
         "orgs": [
-          "U.S. Senate"
+          "U.S. Senate",
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
         ],
         "places": [
           "United States"
@@ -2156,7 +2366,8 @@
           "person:rand-paul"
         ],
         "orgs": [
-          "org:u-s-senate"
+          "org:u-s-senate",
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
         ],
         "places": [
           "place:united-states"
@@ -2164,7 +2375,10 @@
       },
       "source_key": "ch19-s50",
       "date_iso": "2025-01-27",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+      ]
     },
     {
       "id": 51,
@@ -2211,7 +2425,8 @@
       "source_key": "ch19-s51",
       "date_iso": "2023-02-11",
       "image_url": "https://www.whitecoatwaste.org/wp-content/uploads/2023/02/ecohealth_funding-feature-WP-1.webp",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 52,
@@ -2257,7 +2472,8 @@
       },
       "source_key": "ch19-s52",
       "date_iso": "2024-12-26",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 53,
@@ -2308,7 +2524,8 @@
       "source_key": "ch19-s53",
       "date_iso": "2025-01-17",
       "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 54,
@@ -2336,7 +2553,8 @@
         ],
         "orgs": [
           "U.S. Senate",
-          "NIAID"
+          "NIAID",
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
         ],
         "places": [
           "United States"
@@ -2353,7 +2571,8 @@
         ],
         "orgs": [
           "org:u-s-senate",
-          "org:niaid"
+          "org:niaid",
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
         ],
         "places": [
           "place:united-states"
@@ -2361,7 +2580,10 @@
       },
       "source_key": "ch19-s54",
       "date_iso": "2025-09-12",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+      ]
     },
     {
       "id": 55,
@@ -2412,7 +2634,8 @@
       "source_key": "ch19-s55",
       "date_iso": "2025-01-20",
       "image_url": "https://i.abcnewsfe.com/a/06cd7f4c-e4b4-4d34-b7cb-84f0dde0eb38/biden-fauci-file-gty-ml-250120_1737375325545_hpMain_16x9.jpg?w=1600",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     }
   ]
 }

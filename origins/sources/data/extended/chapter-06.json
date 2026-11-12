@@ -41,7 +41,13 @@
       ],
       "source_key": "ch06-s01",
       "date_iso": "2014-03-31",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [],
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      }
     },
     {
       "id": 2,
@@ -94,7 +100,8 @@
       "source_key": "ch06-s02",
       "date_iso": "2020-02-01",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
-      "acquisition_note": "Only a short opening was retrieved before the paywall."
+      "acquisition_note": "Only a short opening was retrieved before the paywall.",
+      "author_ids": []
     },
     {
       "id": 3,
@@ -148,7 +155,8 @@
       "source_key": "ch06-s03",
       "date_iso": "2020-02-10",
       "image_url": "https://i.guim.co.uk/img/media/45295519498603abb65a8f75ccdf8a4df09aeef4/58_0_2084_1251/master/2084.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c8190c40e00e76ba3985f9a0254e8806",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 4,
@@ -198,7 +206,8 @@
       },
       "source_key": "ch06-s04",
       "date_iso": "2020-02-14",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 5,
@@ -242,7 +251,8 @@
       "source_key": "ch06-s05",
       "date_iso": "2020-02-22",
       "image_url": "https://s.france24.com/media/display/99f8a93a-e6c1-11ee-9116-005056bf30b7/w:1280/p:16x9/img-default-F24.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 6,
@@ -298,7 +308,8 @@
       },
       "source_key": "ch06-s06",
       "date_iso": "2022-03-24",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 7,
@@ -356,7 +367,8 @@
       },
       "source_key": "ch06-s07",
       "date_iso": "2020-02-04",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 8,
@@ -407,7 +419,8 @@
       ],
       "source_key": "ch06-s08",
       "date_iso": "2020-02-17",
-      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained."
+      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
+      "author_ids": []
     },
     {
       "id": 9,
@@ -461,7 +474,8 @@
       "source_key": "ch06-s09",
       "date_iso": "2020-02-17",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 10,
@@ -524,7 +538,10 @@
       "source_key": "ch06-s10",
       "date_iso": "2020-03-17",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41591-020-0820-9/MediaObjects/41591_2020_820_Fig1_HTML.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:kristian-andersen"
+      ]
     },
     {
       "id": 11,
@@ -571,7 +588,8 @@
       "entity_ids": {
         "people": [
           "person:peter-daszak",
-          "person:ralph-baric"
+          "person:ralph-baric",
+          "person:sainath-suryanarayanan"
         ],
         "orgs": [
           "org:u-s-right-to-know",
@@ -587,7 +605,10 @@
       "source_key": "ch06-s11",
       "date_iso": "2020-11-18",
       "image_url": "https://usrtk.org/wp-content/uploads/2020/12/lancet-pic.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:sainath-suryanarayanan"
+      ]
     },
     {
       "id": 12,
@@ -641,7 +662,10 @@
       "source_key": "ch06-s12",
       "date_iso": "2022-12-04",
       "image_url": "https://media4.manhattan-institute.org/sites/cj/files/emails-cast-more-doubt-on-the-official-covid-story.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:nicholas-wade"
+      ]
     },
     {
       "id": 13,
@@ -679,7 +703,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:kristian-andersen"
+          "person:kristian-andersen",
+          "person:emily-kopp"
         ],
         "orgs": [
           "org:u-s-right-to-know",
@@ -699,7 +724,10 @@
       "source_key": "ch06-s13",
       "date_iso": "2023-04-11",
       "image_url": "https://usrtk.org/wp-content/uploads/2022/08/fauci-photo.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:emily-kopp"
+      ]
     },
     {
       "id": 14,
@@ -751,7 +779,8 @@
       },
       "source_key": "ch06-s14",
       "date_iso": "2020-02-19",
-      "acquisition_note": "Full text not retrieved (paywall/chrome)."
+      "acquisition_note": "Full text not retrieved (paywall/chrome).",
+      "author_ids": []
     },
     {
       "id": 15,
@@ -805,7 +834,10 @@
       "source_key": "ch06-s15",
       "date_iso": "2020-02-19",
       "image_url": "https://www.science.org/cms/asset/d86b9434-b275-4fba-8db9-3ed7a89f2741/Coronavirus_NIAID_micrograph_1280x720.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:jon-cohen"
+      ]
     },
     {
       "id": 16,
@@ -859,7 +891,10 @@
       "source_key": "ch06-s16",
       "date_iso": "2021-07-22",
       "image_url": "https://m.media-amazon.com/images/I/41l8oQnQgZL.jpg",
-      "acquisition_note": "Amazon product page; retail landing page only, not book text."
+      "acquisition_note": "Amazon product page; retail landing page only, not book text.",
+      "author_ids": [
+        "person:jeremy-farrar"
+      ]
     },
     {
       "id": 17,
@@ -915,7 +950,8 @@
       "source_key": "ch06-s17",
       "date_iso": "2022-12-13",
       "image_url": "https://www.reuters.com/resizer/v2/VQ5YY73HNVPXJOAXWT3Y3XTYWQ.jpg?auth=b5c4b8ad6ad58ae5962fb5d7cc16ebb01a53ce1be70277371cb88afc60cbca43&width=1920&quality=80",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     }
   ]
 }

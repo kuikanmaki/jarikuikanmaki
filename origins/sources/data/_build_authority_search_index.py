@@ -33,6 +33,7 @@ def main() -> None:
         chapter_title = data.get("chapter_title") or f"Chapter {chapter}"
         for source in data.get("sources") or []:
             ids = set(source.get("topic_ids") or [])
+            ids.update(source.get("author_ids") or [])
             entities = source.get("entity_ids") or {}
             for bucket in ("people", "orgs", "places"):
                 ids.update(entities.get(bucket) or [])

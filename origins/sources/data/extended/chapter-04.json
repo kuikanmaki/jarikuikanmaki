@@ -55,7 +55,11 @@
       },
       "source_key": "ch04-s01",
       "date_iso": "2020-01-28",
-      "acquisition_note": "Video URLs are skipped under scrape policy; citation retained from the bibliography."
+      "acquisition_note": "Video URLs are skipped under scrape policy; citation retained from the bibliography.",
+      "author_ids": [
+        "person:jari-kuikanmaki",
+        "person:otto-juote"
+      ]
     },
     {
       "id": 2,
@@ -111,7 +115,8 @@
       "source_key": "ch04-s02",
       "date_iso": "2020-01-24",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F24%2FLYNXMPEG0N22L.JPG?auth=494d53414de2576c9245b5b5bcd33999af3f743a206328cef33b7c34be9aa80b&width=1920&quality=80",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 3,
@@ -161,7 +166,8 @@
       "source_key": "ch04-s03",
       "date_iso": "2020-01-29",
       "image_url": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11183219",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 4,
@@ -207,7 +213,8 @@
       },
       "source_key": "ch04-s04",
       "date_iso": "2020-02-19",
-      "acquisition_note": "Full text was not retrieved (paywall/chrome only)."
+      "acquisition_note": "Full text was not retrieved (paywall/chrome only).",
+      "author_ids": []
     },
     {
       "id": 5,
@@ -243,7 +250,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:neil-ferguson"
+        ],
         "orgs": [
           "org:twitter"
         ],
@@ -257,7 +266,10 @@
       ],
       "source_key": "ch04-s05",
       "date_iso": "2020-01-25",
-      "acquisition_note": "Social URL skipped; text kept from the bibliography title."
+      "acquisition_note": "Social URL skipped; text kept from the bibliography title.",
+      "author_ids": [
+        "person:neil-ferguson"
+      ]
     },
     {
       "id": 6,
@@ -306,7 +318,8 @@
       "source_key": "ch04-s06",
       "date_iso": "2020-01-27",
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&amp;v=1580140381",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 7,
@@ -346,7 +359,8 @@
       },
       "source_key": "ch04-s07",
       "date_iso": "2020",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 8,
@@ -396,7 +410,8 @@
       },
       "source_key": "ch04-s08",
       "date_iso": "2020-01-26",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 9,
@@ -419,7 +434,8 @@
       ],
       "entities": {
         "people": [
-          "Nassim Taleb"
+          "Nassim Taleb",
+          "Nassim Nicholas Taleb"
         ],
         "orgs": [
           "Random House"
@@ -428,7 +444,17 @@
       },
       "source_key": "ch04-s09",
       "date_iso": "2010-05-11",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:nassim-nicholas-taleb"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:nassim-nicholas-taleb"
+        ],
+        "orgs": [],
+        "places": []
+      }
     },
     {
       "id": 10,
@@ -469,7 +495,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:neil-ferguson"
+        ],
         "orgs": [],
         "places": [
           "place:wuhan",
@@ -479,7 +507,10 @@
       },
       "source_key": "ch04-s10",
       "date_iso": "2020-01-25",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:neil-ferguson"
+      ]
     },
     {
       "id": 11,
@@ -530,7 +561,8 @@
       ],
       "source_key": "ch04-s11",
       "date_iso": "2020-01-27",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 12,
@@ -578,7 +610,8 @@
       "source_key": "ch04-s12",
       "date_iso": "2020-01-30",
       "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/gettyimages-943428252.tmb-1200v.jpg?sfvrsn=9bea021c_42",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 13,
@@ -626,7 +659,8 @@
       "source_key": "ch04-s13",
       "date_iso": "2020-01-31",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F31%2FLYNXMPEG0U16F.JPG?auth=da131b5e2523e3d0b6779cf73b5293133b5d00886454904a5a83caff35d126ae&width=1920&quality=80",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 14,
@@ -675,7 +709,8 @@
       "source_key": "ch04-s14",
       "date_iso": "2020-01-31",
       "image_url": "https://images.sanoma-sndp.fi/485bc57b785e4d1cb1c0025ca0a8acba.jpg/some/is-default.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 15,
@@ -720,7 +755,10 @@
       "source_key": "ch04-s15",
       "date_iso": "2020-06-04",
       "image_url": "https://nextstrain.org/dist/13fec0d41212fe68ae22.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:trevor-bedford"
+      ]
     }
   ]
 }

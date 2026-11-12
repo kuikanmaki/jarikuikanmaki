@@ -60,7 +60,8 @@
       "source_key": "ch16-s01",
       "date_iso": "2021-07-01",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2021/07/pentagon-ecohealth-alliance-696.jpg?quality=75&#038;strip=all&#038;w=1200",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 2,
@@ -118,7 +119,8 @@
       "source_key": "ch16-s02",
       "date_iso": "2021-10-01",
       "image_url": "https://theintercept.com/wp-content/uploads/2021/10/2CTT5TC-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 3,
@@ -162,7 +164,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:katherine-eban"
         ],
         "orgs": [
           "org:ecohealth-alliance",
@@ -176,7 +179,10 @@
       "source_key": "ch16-s03",
       "date_iso": "2022-03-31",
       "image_url": "https://media.vanityfair.com/photos/6245d578c472fde226115ca2/16:9/w_1280,c_limit/VF-EcoHealth-Alliance-Illo-2022.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:katherine-eban"
+      ]
     },
     {
       "id": 4,
@@ -215,7 +221,8 @@
         "places": []
       },
       "source_key": "ch16-s04",
-      "acquisition_note": "DNS resolution failed at scrape time."
+      "acquisition_note": "DNS resolution failed at scrape time.",
+      "author_ids": []
     },
     {
       "id": 5,
@@ -255,7 +262,8 @@
       },
       "source_key": "ch16-s05",
       "image_url": "https://d34w7g4gy10iej.cloudfront.net/graphics/2510/38614.png",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 6,
@@ -301,7 +309,8 @@
       },
       "source_key": "ch16-s06",
       "date_iso": "2019-08-19",
-      "acquisition_note": "Scrape failed."
+      "acquisition_note": "Scrape failed.",
+      "author_ids": []
     },
     {
       "id": 7,
@@ -341,7 +350,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:katherine-eban"
+        ],
         "orgs": [
           "org:u-s-department-of-state"
         ],
@@ -353,7 +364,10 @@
       "source_key": "ch16-s07",
       "date_iso": "2021-06-03",
       "image_url": "https://media.vanityfair.com/photos/60b8022ebe6052a955e5528c/16:9/w_1280,c_limit/VF0721_Covid_Origins_1.jpg",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:katherine-eban"
+      ]
     },
     {
       "id": 8,
@@ -397,7 +411,8 @@
       },
       "source_key": "ch16-s08",
       "date_iso": "2019-10-22",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 9,
@@ -441,7 +456,8 @@
       ],
       "source_key": "ch16-s09",
       "date_iso": "2014-06-12",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 10,
@@ -498,7 +514,10 @@
       },
       "source_key": "ch16-s10",
       "date_iso": "2020-12-03",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": [
+        "person:shi-zhengli"
+      ]
     },
     {
       "id": 11,
@@ -553,7 +572,8 @@
       "source_key": "ch16-s11",
       "date_iso": "2021-06-21",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/a1c7dba2-d262-11eb-b50d-ece47261907f.jpg?amp;sourceHeight=3093&#038;strip=all&#038;format=webp&#038;crop=0px%2C242px%2C4639px%2C2610px&#038;w=1200",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     },
     {
       "id": 12,
@@ -608,7 +628,10 @@
       },
       "source_key": "ch16-s12",
       "date_iso": "2016-07-11",
-      "acquisition_note": "Scrape failed; citation retained from bibliography."
+      "acquisition_note": "Scrape failed; citation retained from bibliography.",
+      "author_ids": [
+        "person:peter-daszak"
+      ]
     },
     {
       "id": 13,
@@ -655,7 +678,8 @@
       },
       "source_key": "ch16-s13",
       "date_iso": "2018-11-30",
-      "acquisition_note": ""
+      "acquisition_note": "",
+      "author_ids": []
     }
   ]
 }

@@ -1222,6 +1222,45 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "org:bbc-news",
+      "prefLabel": "BBC News",
+      "indexTerm": "BBC News",
+      "altLabels": [
+        "BBC"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:promed",
+      "prefLabel": "ProMED",
+      "indexTerm": "ProMED",
+      "altLabels": [
+        "ProMED-mail",
+        "Program for Monitoring Emerging Diseases"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac",
+      "prefLabel": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "indexTerm": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "altLabels": [
+        "HSGAC",
+        "U.S. Senate Homeland Security and Governmental Affairs Committee",
+        "Senate Homeland Security and Governmental Affairs Committee"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

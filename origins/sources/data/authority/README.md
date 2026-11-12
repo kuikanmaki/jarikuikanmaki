@@ -41,9 +41,19 @@ Canonical names for people, organizations, places, topics, events, and works in 
 Each extended chapter source may include:
 
 - `topic_ids` — authority ids resolved from `topics`
-- `entity_ids` — `{ people, orgs, places }` ids resolved from `entities`
+- `author_ids` — ordered person/org authority ids resolved from the bibliographic `author` string
+- `entity_ids` — `{ people, orgs, places }` ids resolved from `entities` (authors are merged in)
 
 Display strings in `topics` / `entities` are normalized to `prefLabel` when matched.
+The `author` field stays as printed citation text; identity lives in `author_ids` / person-org authorities.
+
+Link or refresh author ids after bibliography edits:
+
+```bash
+python3 origins/sources/data/_link_authors.py
+python3 origins/sources/data/_build_corpus_index.py
+python3 origins/sources/data/_build_authority_search_index.py
+```
 
 ## Site catalog
 
