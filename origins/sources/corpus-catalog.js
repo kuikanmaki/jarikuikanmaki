@@ -11,7 +11,6 @@
   var exploreEl = document.getElementById("explore-keywords");
   var outEl = document.getElementById("sources-output");
   var headingEl = document.getElementById("sources-heading");
-  var statusEl = document.getElementById("authority-search-status");
   var pagerEl = document.getElementById("catalog-pager");
   var notesEl = document.getElementById("catalog-notes");
   var backEl = document.getElementById("back-to-top");
@@ -293,26 +292,42 @@
       '<button type="button" class="catalog-page-btn" data-page="next"' + nextDisabled + ">Next</button>";
   }
 
+  function syncClearButton() {
+    var show =
+      inputEl.value.trim().length > 0 ||
+      view.mode === "keyword" ||
+      view.mode === "explore";
+    clearEl.hidden = !show;
+  }
+
+  function sourceCountLabel(n) {
+    return n + (n === 1 ? " source" : " sources");
+  }
+
   function renderResults() {
     var rows = sourcesForView();
     var total = rows.length;
 
     backEl.hidden = false;
     headingEl.hidden = false;
+    syncClearButton();
 
     if (view.mode === "keyword" || view.mode === "explore") {
-      headingEl.textContent = view.keyword ? view.keyword.label : "Sources";
-      statusEl.hidden = false;
-      statusEl.textContent =
-        total + (total === 1 ? " source" : " sources") +
-        (view.keyword ? " tagged with “" + view.keyword.label + "”" : "");
+      var label = (view.keyword && view.keyword.label) || "Sources";
+      headingEl.innerHTML =
+        '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
+        '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>";
       notesEl.hidden = true;
       notesEl.innerHTML = "";
 
       var start = (view.page - 1) * PAGE_SIZE;
       var pageRows = rows.slice(start, start + PAGE_SIZE);
       if (!pageRows.length) {
-        outEl.innerHTML = '<p class="status">No sources match this view.</p>';
+        outEl.innerHTML =
+          '<div class="catalog-empty" role="status">' +
+            "<p>No sources tagged with “" + escapeHtml(label) + "”.</p>" +
+            '<button type="button" class="catalog-empty-clear">Clear search</button>' +
+          "</div>";
         renderPager(0);
         return;
       }
@@ -334,8 +349,6 @@
     } else {
       headingEl.textContent = chName;
     }
-    statusEl.hidden = true;
-    statusEl.textContent = "";
     pagerEl.hidden = true;
     pagerEl.innerHTML = "";
     outEl.innerHTML = renderChapterSourceList(rows);
@@ -377,7 +390,6 @@
     view.keyword = null;
     view.page = 1;
     inputEl.value = "";
-    clearEl.hidden = true;
     hideSuggestions();
     setChapterActive(number);
     clearExploreActive();
@@ -390,7 +402,6 @@
     view.keyword = hit;
     view.page = 1;
     inputEl.value = hit.label;
-    clearEl.hidden = false;
     hideSuggestions();
     clearChapterActive();
     clearExploreActive();
@@ -405,13 +416,12 @@
 
   function clearKeywordFilter() {
     hideSuggestions();
-    clearEl.hidden = true;
-    statusEl.hidden = true;
     inputEl.value = "";
     view.keyword = null;
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     clearExploreActive();
     openChapter(view.chapter != null ? view.chapter : 0);
+    inputEl.focus();
   }
 
   function hideSuggestions() {
@@ -435,8 +445,10 @@
           '<button type="button" class="sources-search-suggestion' + (idx === 0 ? " is-active" : "") + '" data-index="' + idx + '" aria-selected="' + (idx === 0 ? "true" : "false") + '">' +
             '<span class="sources-search-suggestion-label">' + escapeHtml(hit.label) + "</span>" +
             '<span class="sources-search-suggestion-meta">' +
-              escapeHtml(hit.typeLabel) + " · " + hit.sourceCount +
-              (hit.sourceCount === 1 ? " source" : " sources") +
+              '<span class="sources-search-suggestion-type">' + escapeHtml(hit.typeLabel || "") + "</span>" +
+              '<span class="sources-search-suggestion-count">' +
+                hit.sourceCount + (hit.sourceCount === 1 ? " source" : " sources") +
+              "</span>" +
             "</span>" +
           "</button>" +
         "</li>"
@@ -510,25 +522,22 @@
       .slice(0, 8);
 
     exploreEl.innerHTML = "";
-    var label = document.createElement("span");
-    label.className = "catalog-examples-label";
-    label.textContent = "For example:";
-    exploreEl.appendChild(label);
-    exploreEl.appendChild(document.createTextNode(" "));
-    picks.forEach(function (k, idx) {
+    picks.forEach(function (k) {
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "catalog-explore-link";
+      btn.className = "catalog-explore-chip";
       btn.setAttribute("data-id", k.id);
-      btn.textContent = k.label;
-      btn.title = k.typeLabel + " · " + k.sourceCount + " sources";
+      btn.setAttribute(
+        "aria-label",
+        k.label + ", " + k.typeLabel + ", " + sourceCountLabel(k.sourceCount)
+      );
+      btn.innerHTML =
+        '<span class="catalog-explore-chip-label">' + escapeHtml(k.label) + "</span>" +
+        '<span class="catalog-explore-chip-meta">' + escapeHtml(String(k.sourceCount)) + "</span>";
       btn.addEventListener("click", function () {
         openKeyword(k, "explore");
       });
       exploreEl.appendChild(btn);
-      if (idx < picks.length - 1) {
-        exploreEl.appendChild(document.createTextNode(" · "));
-      }
     });
   }
 
@@ -540,7 +549,7 @@
 
   // Events
   inputEl.addEventListener("input", function () {
-    clearEl.hidden = inputEl.value.trim().length === 0 && !(view.mode === "keyword" || view.mode === "explore");
+    syncClearButton();
     runPredictiveSearch();
   });
 
@@ -574,7 +583,9 @@
     }
   });
 
-  clearEl.addEventListener("click", clearKeywordFilter);
+  clearEl.addEventListener("click", function () {
+    clearKeywordFilter();
+  });
 
   pagerEl.addEventListener("click", function (e) {
     var btn = e.target.closest("[data-page]");
@@ -588,6 +599,11 @@
   });
 
   outEl.addEventListener("click", function (e) {
+    if (e.target.closest(".catalog-empty-clear")) {
+      e.preventDefault();
+      clearKeywordFilter();
+      return;
+    }
     var btn = e.target.closest(".source-expand-btn");
     if (!btn) return;
     e.preventDefault();

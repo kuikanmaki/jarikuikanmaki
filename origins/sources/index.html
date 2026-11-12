@@ -82,22 +82,31 @@
           </p>
 
           <div class="sources-search" id="sources-search">
-            <label class="sources-search-label sources-search-label-sr" for="authority-search-input">Search the catalog</label>
+            <label class="sources-search-label" for="authority-search-input">Search the catalog</label>
             <div class="sources-search-controls">
-              <input
-                id="authority-search-input"
-                type="search"
-                autocomplete="off"
-                spellcheck="false"
-                disabled
-                placeholder="Loading catalog…"
-                aria-autocomplete="list"
-                aria-controls="authority-search-suggestions"
-                aria-expanded="false"
-              />
-              <button type="button" id="authority-search-clear" class="sources-search-clear" hidden>
-                Clear
-              </button>
+              <div class="sources-search-field">
+                <input
+                  id="authority-search-input"
+                  type="text"
+                  autocomplete="off"
+                  spellcheck="false"
+                  disabled
+                  placeholder="Loading catalog…"
+                  aria-autocomplete="list"
+                  aria-controls="authority-search-suggestions"
+                  aria-expanded="false"
+                />
+                <button
+                  type="button"
+                  id="authority-search-clear"
+                  class="sources-search-clear"
+                  hidden
+                  aria-label="Clear search"
+                  title="Clear search"
+                >
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
             </div>
             <ul
               id="authority-search-suggestions"
@@ -105,13 +114,12 @@
               role="listbox"
               hidden
             ></ul>
-            <p id="authority-search-status" class="sources-search-status status" hidden></p>
           </div>
 
           <div id="catalog-shelves" class="catalog-shelves">
             <div class="catalog-shelf catalog-shelf-examples">
-              <div id="explore-keywords" class="catalog-explore" aria-label="Example search terms">
-                <span class="catalog-examples-label">For example:</span>
+              <p class="catalog-examples-label" id="explore-keywords-label">Try searching</p>
+              <div id="explore-keywords" class="catalog-explore" aria-labelledby="explore-keywords-label">
                 <span class="status">Loading…</span>
               </div>
             </div>

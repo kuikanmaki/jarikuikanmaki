@@ -601,27 +601,19 @@ img {
   color: hsl(var(--muted-foreground));
   margin-bottom: 0.5rem;
 }
-.sources-page .sources-search-label-sr {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
 .sources-page .sources-search-controls {
-  display: flex;
-  gap: 0.5rem;
-  align-items: stretch;
+  display: block;
+}
+.sources-page .sources-search-field {
+  position: relative;
+  display: block;
 }
 .sources-page #authority-search-input {
-  flex: 1 1 auto;
+  display: block;
+  width: 100%;
   min-width: 0;
-  height: 2.75rem;
-  padding: 0 0.875rem;
+  height: 2.875rem;
+  padding: 0 2.75rem 0 0.875rem;
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius);
   background: hsl(var(--card));
@@ -635,31 +627,40 @@ img {
   border-color: hsl(var(--accent));
 }
 .sources-page .sources-search-clear {
-  flex: 0 0 auto;
-  padding: 0 0.875rem;
-  border: 1px solid hsl(var(--border));
-  border-radius: var(--radius);
+  position: absolute;
+  top: 50%;
+  right: 0.35rem;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
   background: transparent;
-  color: hsl(var(--foreground));
-  font-size: 0.875rem;
-  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+  font-size: 1.35rem;
+  line-height: 1;
   cursor: pointer;
 }
-.sources-page .sources-search-clear:hover {
-  border-color: hsl(var(--accent));
-  color: hsl(var(--accent));
+.sources-page .sources-search-clear:hover,
+.sources-page .sources-search-clear:focus-visible {
+  color: hsl(var(--foreground));
+  background: hsl(var(--accent) / 0.1);
+  outline: none;
 }
 .sources-page .sources-search-suggestions {
   position: absolute;
   z-index: 30;
   left: 0;
   right: 0;
-  top: calc(100% - 0.15rem);
+  top: calc(100% + 0.25rem);
   margin: 0;
   padding: 0.35rem 0;
   list-style: none;
-  max-height: 18rem;
+  max-height: min(18rem, 45dvh);
   overflow: auto;
+  overscroll-behavior: contain;
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius);
   background: hsl(var(--card));
@@ -667,11 +668,11 @@ img {
 }
 .sources-page .sources-search-suggestion {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
   width: 100%;
-  padding: 0.55rem 0.875rem;
+  padding: 0.7rem 0.875rem;
   border: 0;
   background: transparent;
   color: inherit;
@@ -686,15 +687,25 @@ img {
 }
 .sources-page .sources-search-suggestion-label {
   font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.35;
   color: hsl(var(--foreground));
+  word-break: break-word;
 }
 .sources-page .sources-search-suggestion-meta {
-  flex: 0 0 auto;
-  font-size: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.65rem;
+  font-size: 0.8125rem;
+  line-height: 1.35;
   color: hsl(var(--muted-foreground));
-  white-space: nowrap;
 }
-.sources-page .sources-search-status { margin-top: 0.625rem; margin-bottom: 0; }
+.sources-page .sources-search-suggestion-type::after {
+  content: " · ";
+}
+.sources-page .sources-search-suggestion-count {
+  font-variant-numeric: tabular-nums;
+}
 
 /* Catalog shelves + cards */
 .sources-page .catalog-shelves {
@@ -725,35 +736,101 @@ img {
   line-height: 1.9;
 }
 .sources-page .catalog-shelf-examples {
-  margin-top: -0.35rem;
-}
-.sources-page .catalog-explore {
   margin-top: 0;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: hsl(var(--muted-foreground));
-  font-size: 0.8125rem;
-  line-height: 1.55;
 }
 .sources-page .catalog-examples-label {
+  margin: 0 0 0.55rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: hsl(var(--muted-foreground));
-  font-weight: 500;
 }
-.sources-page .catalog-explore-link {
+.sources-page .catalog-explore {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
   border: 0;
   background: transparent;
-  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-explore-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 999px;
+  background: hsl(var(--card));
+  color: hsl(var(--foreground));
   font: inherit;
-  font-size: inherit;
-  padding: 0;
+  font-size: 0.875rem;
+  line-height: 1.3;
   cursor: pointer;
 }
-.sources-page .catalog-explore-link:hover,
-.sources-page .catalog-explore-link.active {
+.sources-page .catalog-explore-chip:hover,
+.sources-page .catalog-explore-chip:focus-visible {
+  border-color: hsl(var(--accent));
   color: hsl(var(--accent));
-  text-decoration: underline;
-  text-underline-offset: 0.15rem;
+  outline: none;
+}
+.sources-page .catalog-explore-chip.active {
+  border-color: hsl(var(--accent));
+  background: hsl(var(--accent) / 0.08);
+  color: hsl(var(--accent));
+}
+.sources-page .catalog-explore-chip-label {
+  font-weight: 600;
+}
+.sources-page .catalog-explore-chip-meta {
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-explore-chip.active .catalog-explore-chip-meta,
+.sources-page .catalog-explore-chip:hover .catalog-explore-chip-meta {
+  color: inherit;
+  opacity: 0.85;
+}
+.sources-page #sources-heading {
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+}
+.sources-page .sources-heading-count {
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-empty {
+  margin-top: 0.5rem;
+  padding: 1.25rem 0;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-empty p {
+  margin: 0 0 0.85rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.sources-page .catalog-empty-clear {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: transparent;
+  color: hsl(var(--foreground));
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sources-page .catalog-empty-clear:hover,
+.sources-page .catalog-empty-clear:focus-visible {
+  border-color: hsl(var(--accent));
+  color: hsl(var(--accent));
+  outline: none;
 }
 .sources-page .catalog-shelf #chapter-list a.active {
   color: hsl(var(--accent));
@@ -1041,6 +1118,31 @@ img {
 .sources-page .back-to-top { margin-top: 2rem; text-align: center; }
 .sources-page .status { color: hsl(var(--muted-foreground)); }
 @media (max-width: 639px) {
+  .sources-page .sources-book-banner .flex.flex-col {
+    gap: 0.75rem;
+    padding-block: 1rem;
+  }
+  .sources-page .sources-book-banner h2 {
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  .sources-page .sources-book-banner p.mt-1 {
+    font-size: 0.8125rem;
+    line-height: 1.4;
+  }
+  .sources-page .sources-book-banner img {
+    width: 3.75rem;
+  }
+  .sources-page .sources-banner-cta {
+    margin-top: 0.65rem;
+  }
+  .sources-page .sources-book-banner .btn {
+    margin-top: 0;
+  }
+  .sources-page .sources-search-suggestions {
+    max-height: min(16rem, 42dvh);
+  }
   .sources-page .source-item:not(.source-item-expandable) { flex-direction: column; gap: 0.125rem; }
   .sources-page .source-item-main { gap: 0.4rem; }
   .sources-page .source-id { flex: none; text-align: left; padding-top: 0; }
@@ -1049,6 +1151,17 @@ img {
 @media (min-width: 640px) {
   :is(.origins-page, .sources-page) main h1 { font-size: 2.5rem; }
   :is(.origins-page, .sources-page) main h2 { font-size: 2rem; }
+  .sources-page .sources-search-suggestion {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+  .sources-page .sources-search-suggestion-meta {
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
 }
 @media (min-width: 768px) {
   .origins-page #book > .container-narrow { grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 3rem; align-items: start; }
