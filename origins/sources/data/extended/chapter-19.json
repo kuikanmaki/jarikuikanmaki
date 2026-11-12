@@ -642,9 +642,9 @@
       "title": "Health Officials Tried to Evade Public Records Laws, Lawmakers Say",
       "publication": "The New York Times",
       "date": "May 28, 2024",
-      "url": "https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
-      "status": "blocked",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20240528232631/https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
+      "status": "ok",
+      "artifact": "artifacts/ch19-s13.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "NYT-linked reporting that health officials tried to evade public-records laws.",
@@ -674,7 +674,7 @@
       },
       "source_key": "ch19-s13",
       "date_iso": "2024-05-28",
-      "acquisition_note": "NYT blocked by Firecrawl.",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:the-new-york-times"

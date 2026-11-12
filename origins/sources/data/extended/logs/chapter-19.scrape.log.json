@@ -138,13 +138,13 @@
     {
       "id": 13,
       "source_key": "ch19-s13",
-      "url": "https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
+      "url": "https://web.archive.org/web/20240528232631/https://www.nytimes.com/2024/05/28/health/nih-officials-foia-hidden-emails-covid.html",
       "ok": false,
-      "status": "blocked",
+      "status": "ok",
       "bytes": 0,
-      "error": "blocked_unsupported_site",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch19-s13.md",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser."
     },
     {
       "id": 14,

@@ -539,10 +539,10 @@
       "title": "UNDIAGNOSED PNEUMONIA - CHINA (HUBEI): REQUEST FOR INFORMATION",
       "publication": "ProMED",
       "date": "December 30, 2019",
-      "url": "https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
+      "url": "https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
       "type": "Bulletin",
-      "status": "blocked",
-      "artifact": null,
+      "status": "ok",
+      "artifact": "artifacts/ch00-s09.md",
       "content_kind": "pdf",
       "language": "en",
       "summary": "Archived ProMED request-for-information posting from 30 December 2019 alerting the infectious-disease community to undiagnosed pneumonia in Hubei. The hosted PDF could not be retrieved (CDN/edge block); citation metadata retained from the bibliography.",
@@ -577,7 +577,7 @@
       },
       "source_key": "ch00-s09",
       "date_iso": "2019-12-30",
-      "acquisition_note": "",
+      "acquisition_note": "Live URL blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:promed"

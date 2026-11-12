@@ -53,9 +53,9 @@
       "title": "China Reports First Death From New Virus",
       "publication": "New York Times",
       "date": "January 10, 2020",
-      "url": "https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
-      "status": "blocked",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s02.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus.",
@@ -90,7 +90,7 @@
       },
       "source_key": "ch01-s02",
       "date_iso": "2020-01-10",
-      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained from the bibliography.",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:the-new-york-times"
@@ -310,9 +310,9 @@
       "title": "An Engineered Doomsday",
       "publication": "New York Times",
       "date": "January 7, 2012",
-      "url": "https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
-      "status": "blocked",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+      "status": "ok",
+      "artifact": "artifacts/ch01-s07.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research.",
@@ -345,7 +345,7 @@
       ],
       "source_key": "ch01-s07",
       "date_iso": "2012-01-07",
-      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:the-new-york-times"

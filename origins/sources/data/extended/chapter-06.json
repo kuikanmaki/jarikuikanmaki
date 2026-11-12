@@ -398,9 +398,9 @@
       "title": "Senator Tom Cotton Repeats Fringe Theory of Coronavirus Origins",
       "publication": "New York Times",
       "date": "February 17, 2020",
-      "url": "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
-      "status": "blocked",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+      "status": "ok",
+      "artifact": "artifacts/ch06-s08.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "New York Times piece framing Cotton’s Wuhan-lab comments as a fringe origin theory.",
@@ -440,7 +440,7 @@
       ],
       "source_key": "ch06-s08",
       "date_iso": "2020-02-17",
-      "acquisition_note": "Firecrawl cannot scrape nytimes.com on this plan; citation retained.",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:the-new-york-times"

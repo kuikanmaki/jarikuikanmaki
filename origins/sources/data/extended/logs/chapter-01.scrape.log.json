@@ -16,13 +16,13 @@
     {
       "id": 2,
       "source_key": "ch01-s02",
-      "url": "https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
+      "url": "https://web.archive.org/web/20200111020017/https://www.nytimes.com/2020/01/10/world/asia/china-virus-wuhan-death.html",
       "ok": false,
-      "status": "error",
+      "status": "ok",
       "bytes": 0,
-      "error": "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\nnpm warn exec The following package was not found and will be installed: firecrawl-cli@1.29.0\nError: We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please contact our sales team here: https://www.firecrawl.dev/contact-sales",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch01-s02.md",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser."
     },
     {
       "id": 3,
@@ -70,13 +70,13 @@
     {
       "id": 7,
       "source_key": "ch01-s07",
-      "url": "https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
+      "url": "https://web.archive.org/web/20120108213337/https://www.nytimes.com/2012/01/08/opinion/sunday/an-engineered-doomsday.html",
       "ok": false,
-      "status": "error",
+      "status": "ok",
       "bytes": 0,
-      "error": "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\nnpm warn exec The following package was not found and will be installed: firecrawl-cli@1.29.0\nError: We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please contact our sales team here: https://www.firecrawl.dev/contact-sales",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch01-s07.md",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser."
     },
     {
       "id": 8,

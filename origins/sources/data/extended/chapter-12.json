@@ -628,7 +628,7 @@
       "publication": "Asia Times",
       "date": "April 22, 2020",
       "url": "https://asiatimes.com/2020/04/why-us-outsourced-bat-virus-research-to-wuhan/",
-      "status": "blocked",
+      "status": "ok",
       "artifact": "artifacts/ch12-s12.md",
       "content_kind": "html_article",
       "language": "en",
@@ -670,7 +670,7 @@
       "source_key": "ch12-s12",
       "date_iso": "2020-04-22",
       "image_url": "https://i2.wp.com/asiatimes.com/wp-content/uploads/2020/04/Bats-Covid-19-Coronavirus-1.jpg?fit=1600%2C1001",
-      "acquisition_note": "",
+      "acquisition_note": "Scraped via browser after Firecrawl blocked.",
       "author_ids": [],
       "publication_ids": [
         "org:asia-times"

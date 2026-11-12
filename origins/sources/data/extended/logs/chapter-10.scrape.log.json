@@ -116,13 +116,13 @@
     {
       "id": 11,
       "source_key": "ch10-s11",
-      "url": "https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
+      "url": "https://web.archive.org/web/20210910200318/https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
       "ok": true,
       "status": "ok",
       "bytes": 960,
-      "error": null,
       "reused": false,
-      "artifact": "artifacts/ch10-s11.md"
+      "artifact": "artifacts/ch10-s11.md",
+      "acquisition_note": "Live URL blocked (Akamai); replaced with earliest Internet Archive capture. Scraped via browser."
     },
     {
       "id": 12,

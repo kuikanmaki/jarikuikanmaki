@@ -83,13 +83,13 @@
     {
       "id": 8,
       "source_key": "ch06-s08",
-      "url": "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
+      "url": "https://web.archive.org/web/20200217083402/https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html",
       "ok": false,
-      "status": "blocked",
+      "status": "ok",
       "bytes": 0,
-      "error": "blocked_unsupported_site",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch06-s08.md",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser."
     },
     {
       "id": 9,

@@ -578,8 +578,8 @@
       "title": "Revealed: How scientists who dismissed Wuhan lab theory are linked to Chinese researchers",
       "publication": "Telegraph",
       "date": "September 10, 2021",
-      "url": "https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
-      "status": "blocked",
+      "url": "https://web.archive.org/web/20210910200318/https://www.telegraph.co.uk/news/2021/09/10/revealed-scientists-dismissed-wuhan-lab-theory-linked-chinese/",
+      "status": "ok",
       "artifact": "artifacts/ch10-s11.md",
       "content_kind": "html_article",
       "language": "en",
@@ -616,7 +616,7 @@
       },
       "source_key": "ch10-s11",
       "date_iso": "2021-09-10",
-      "acquisition_note": "Scrape hit an Akamai access-block page.",
+      "acquisition_note": "Live URL blocked (Akamai); replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:the-telegraph"

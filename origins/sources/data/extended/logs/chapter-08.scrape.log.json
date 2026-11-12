@@ -105,13 +105,13 @@
     {
       "id": 10,
       "source_key": "ch08-s10",
-      "url": "https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+      "url": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
       "ok": false,
-      "status": "blocked",
+      "status": "ok",
       "bytes": 0,
-      "error": "blocked_unsupported_site",
       "reused": false,
-      "artifact": null
+      "artifact": "artifacts/ch08-s10.md",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser."
     },
     {
       "id": 11,
@@ -120,9 +120,9 @@
       "ok": true,
       "status": "ok",
       "bytes": 61,
-      "error": null,
       "reused": false,
-      "artifact": "artifacts/ch08-s11.md"
+      "artifact": "artifacts/ch08-s11.md",
+      "acquisition_note": "Scraped via browser after Firecrawl blocked."
     },
     {
       "id": 12,

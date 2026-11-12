@@ -475,9 +475,9 @@
       "title": "China Created a Fail-Safe System to Track Contagions. It Failed.",
       "publication": "New York Times",
       "date": "March 29, 2020",
-      "url": "https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
-      "status": "blocked",
-      "artifact": null,
+      "url": "https://web.archive.org/web/20200329192033/https://www.nytimes.com/2020/03/29/world/asia/coronavirus-china.html",
+      "status": "ok",
+      "artifact": "artifacts/ch08-s10.md",
       "content_kind": "html_article",
       "language": "en",
       "summary": "New York Times investigation of how China’s post-SARS contagion-alert system failed in the early COVID outbreak.",
@@ -513,7 +513,7 @@
       },
       "source_key": "ch08-s10",
       "date_iso": "2020-03-29",
-      "acquisition_note": "NYT is blocked by Firecrawl as an unsupported site.",
+      "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
       "author_ids": [],
       "publication_ids": [
         "org:the-new-york-times"
@@ -527,7 +527,7 @@
       "publication": "Asia Times",
       "date": "November 4, 2020",
       "url": "https://asiatimes.com/2020/11/china-seeks-to-flip-the-script-on-covid-blame-game/",
-      "status": "blocked",
+      "status": "ok",
       "artifact": "artifacts/ch08-s11.md",
       "content_kind": "html_article",
       "language": "en",
@@ -560,7 +560,7 @@
       },
       "source_key": "ch08-s11",
       "date_iso": "2020-11-04",
-      "acquisition_note": "",
+      "acquisition_note": "Scraped via browser after Firecrawl blocked.",
       "author_ids": [],
       "publication_ids": [
         "org:asia-times"
