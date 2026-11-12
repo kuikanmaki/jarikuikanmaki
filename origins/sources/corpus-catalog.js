@@ -91,9 +91,11 @@
     var status = s.status && s.status !== "ok"
       ? '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>"
       : "";
-    var kind = s.content_kind_label
-      ? '<p class="catalog-card-meta">' + escapeHtml(s.content_kind_label) + "</p>"
-      : "";
+    // Default kind is html_article ("Article"); only note non-default formats after the summary.
+    var kindNote =
+      s.content_kind && s.content_kind !== "html_article" && s.content_kind_label
+        ? '<p class="catalog-card-kind">Source type: ' + escapeHtml(s.content_kind_label) + "</p>"
+        : "";
     var media = s.image_url
       ? '<div class="catalog-card-media">' +
           '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
@@ -102,13 +104,13 @@
     var text =
       '<div class="catalog-card-copy">' +
         (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
+        kindNote +
         role +
         topicLine +
         status +
       "</div>";
     return (
       '<div class="catalog-card-enrichment">' +
-        kind +
         '<div class="catalog-card-body">' + text + media + "</div>" +
       "</div>"
     );

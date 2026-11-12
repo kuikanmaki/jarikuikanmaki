@@ -946,12 +946,10 @@ img {
   padding: 0.15rem 0 0.75rem;
   border-bottom: 1px solid hsl(var(--border));
 }
-.sources-page .source-item-detail .catalog-card-meta {
-  margin-bottom: 0.45rem;
-}
 .sources-page #sources-output .catalog-card-copy p {
   margin-block: 0;
 }
+.sources-page #sources-output .catalog-card-copy .catalog-card-kind,
 .sources-page #sources-output .catalog-card-copy .catalog-card-role,
 .sources-page #sources-output .catalog-card-copy .catalog-card-topics,
 .sources-page #sources-output .catalog-card-copy .catalog-card-status {
@@ -962,8 +960,12 @@ img {
   flex-direction: column;
   gap: 0.55rem;
 }
-.sources-page .catalog-card-enrichment > .catalog-card-meta {
-  margin: 0;
+.sources-page .catalog-card-kind {
+  margin: 0.55rem 0 0;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: hsl(var(--muted-foreground));
 }
 .sources-page .catalog-card-body {
   display: flex;
