@@ -2,12 +2,13 @@
 
 Canonical names for people, organizations, places, topics, events, and works in the Origins extended corpus.
 
-## Bibliographic source of truth
+Corpus-wide schema, source-of-truth rules, and editor/developer workflows: **[../README.md](../README.md)**.
 
-- **Catalog records:** `../extended/chapter-*.json` only (one file per chapter).
-- **Public browse/search views:** generated `../corpus-index.json` and `../authority-search-index.json` (do not hand-edit).
-- **Legacy** `../chapter-*.json` files were archived under `../_archive/` after merge; do not revive them as a second bib store.
-- **Chapter shelf meta:** `../sources-index.json` (generated from extended).
+## Bibliographic source of truth (summary)
+
+- **Catalog records:** `../extended/chapter-*.json` only.
+- **Public views:** generated `../corpus-index.json` and `../authority-search-index.json` (do not hand-edit).
+- **Legacy** chapter JSON lives under `../_archive/` only.
 
 ## Authority source of truth
 
