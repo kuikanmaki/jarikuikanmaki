@@ -233,7 +233,10 @@
       "id": "org:daily-mail",
       "prefLabel": "Daily Mail",
       "indexTerm": "Daily Mail",
-      "altLabels": [],
+      "altLabels": [
+        "Mail on Sunday",
+        "The Mail on Sunday"
+      ],
       "related": [],
       "subentries": [],
       "pages": [],
@@ -1606,6 +1609,338 @@
       "id": "org:zenodo",
       "prefLabel": "Zenodo",
       "indexTerm": "Zenodo",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:besa-center",
+      "prefLabel": "BESA Center",
+      "indexTerm": "BESA Center",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:bantam",
+      "prefLabel": "Bantam",
+      "indexTerm": "Bantam",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:bioessays",
+      "prefLabel": "BioEssays",
+      "indexTerm": "BioEssays",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:cell",
+      "prefLabel": "Cell",
+      "indexTerm": "Cell",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:center-street",
+      "prefLabel": "Center Street",
+      "indexTerm": "Center Street",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:center-for-security-policy",
+      "prefLabel": "Center for Security Policy",
+      "indexTerm": "Center for Security Policy",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:environmental-chemistry-letters",
+      "prefLabel": "Environmental Chemistry Letters",
+      "indexTerm": "Environmental Chemistry Letters",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:factcheck-org",
+      "prefLabel": "FactCheck.org",
+      "indexTerm": "FactCheck.org",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:financial-times",
+      "prefLabel": "Financial Times",
+      "indexTerm": "Financial Times",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:freedom-house",
+      "prefLabel": "Freedom House",
+      "indexTerm": "Freedom House",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:hhs",
+      "prefLabel": "HHS",
+      "indexTerm": "HHS",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:harper",
+      "prefLabel": "Harper",
+      "indexTerm": "Harper",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:harpercollins",
+      "prefLabel": "HarperCollins",
+      "indexTerm": "HarperCollins",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:henry-holt-and-co",
+      "prefLabel": "Henry Holt and Co.",
+      "indexTerm": "Henry Holt and Co.",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:international-journal-of-antimicrobial-agents",
+      "prefLabel": "International Journal of Antimicrobial Agents",
+      "indexTerm": "International Journal of Antimicrobial Agents",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:journal-of-defence-studies",
+      "prefLabel": "Journal of Defence Studies",
+      "indexTerm": "Journal of Defence Studies",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:national-post",
+      "prefLabel": "National Post",
+      "indexTerm": "National Post",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:nerd-has-power",
+      "prefLabel": "Nerd Has Power",
+      "indexTerm": "Nerd Has Power",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:oxford-covid-19-government-response-tracker",
+      "prefLabel": "Oxford COVID-19 Government Response Tracker",
+      "indexTerm": "Oxford COVID-19 Government Response Tracker",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:potomac-institute",
+      "prefLabel": "Potomac Institute",
+      "indexTerm": "Potomac Institute",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:public-choice",
+      "prefLabel": "Public Choice",
+      "indexTerm": "Public Choice",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:regnery",
+      "prefLabel": "Regnery",
+      "indexTerm": "Regnery",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:sciencenet-news",
+      "prefLabel": "Sciencenet News",
+      "indexTerm": "Sciencenet News",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:scientific-reports",
+      "prefLabel": "Scientific Reports",
+      "indexTerm": "Scientific Reports",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:social-sciences",
+      "prefLabel": "Social Sciences",
+      "indexTerm": "Social Sciences",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:tablet-magazine",
+      "prefLabel": "Tablet Magazine",
+      "indexTerm": "Tablet Magazine",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:the-free-press",
+      "prefLabel": "The Free Press",
+      "indexTerm": "The Free Press",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:the-new-england-journal-of-medicine",
+      "prefLabel": "The New England Journal of Medicine",
+      "indexTerm": "The New England Journal of Medicine",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:the-state-council-novel-coronavirus-pneumonia-epidemic-joint-prevention-and-control-mechanism-scientific-research-task-force",
+      "prefLabel": "The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force",
+      "indexTerm": "The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:tumori-journal",
+      "prefLabel": "Tumori Journal",
+      "indexTerm": "Tumori Journal",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:usa-today",
+      "prefLabel": "USA Today",
+      "indexTerm": "USA Today",
+      "altLabels": [
+        "USA Today Opinion"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:vintage",
+      "prefLabel": "Vintage",
+      "indexTerm": "Vintage",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:politifact",
+      "prefLabel": "PolitiFact",
+      "indexTerm": "PolitiFact",
       "altLabels": [],
       "related": [],
       "subentries": [],

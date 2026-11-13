@@ -56,6 +56,26 @@ MANUAL_ALIASES = {
     "us senate": "U.S. Senate",
     "u.s. congress": "U.S. Congress",
     "us congress": "U.S. Congress",
+    # Notes catalog venue normalizations
+    "published by u.s. right to know": "U.S. Right to Know",
+    "published by drastic": "DRASTIC",
+    "who news": "WHO",
+    "ccdc": "Chinese Center for Disease Control and Prevention",
+    "usa today opinion": "USA Today",
+    "mail on sunday": "Daily Mail",
+    "the mail on sunday": "Daily Mail",
+    "scientific reports": "Scientific Reports",
+    "sci rep": "Scientific Reports",
+    "the new england journal of medicine": "The New England Journal of Medicine",
+    "nejm": "The New England Journal of Medicine",
+    "us house of representatives select subcommittee on the coronavirus pandemic": "U.S. House of Representatives",
+    "us house select coronavirus subcommittee": "U.S. House of Representatives",
+    "u.s. house select subcommittee on the coronavirus pandemic": "U.S. House of Representatives",
+    "subcommittee on emerging threats and spending oversight": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+    "testimony to the house select committee on the weaponization of the federal government": "U.S. House of Representatives",
+    "national institutes of health": "NIH",
+    "hhs": "HHS",
+    "cell": "Cell",
 }
 
 

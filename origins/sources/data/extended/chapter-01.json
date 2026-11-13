@@ -655,7 +655,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:natalie-rahhal"
+        ],
         "orgs": [
           "org:daily-mail",
           "org:wuhan-institute-of-virology"
@@ -666,7 +668,9 @@
       },
       "source_key": "ch01-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:natalie-rahhal"
+      ],
       "publication_ids": [
         "org:daily-mail"
       ],

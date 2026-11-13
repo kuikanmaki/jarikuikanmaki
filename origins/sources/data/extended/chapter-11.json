@@ -1156,7 +1156,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:hua-guo"
+        ],
         "orgs": [
           "org:journal-of-virology"
         ],
@@ -1164,7 +1166,9 @@
       },
       "source_key": "ch11-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:hua-guo"
+      ],
       "publication_ids": [
         "org:journal-of-virology"
       ],
@@ -1213,7 +1217,9 @@
         "people": [
           "person:rossana-segreto"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:environmental-chemistry-letters"
+        ],
         "places": [
           "place:wuhan"
         ]
@@ -1223,7 +1229,9 @@
       "author_ids": [
         "person:rossana-segreto"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:environmental-chemistry-letters"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:furin-cleavage-site",
@@ -1341,7 +1349,9 @@
           "person:rossana-segreto",
           "person:yuri-deigin"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:bioessays"
+        ],
         "places": []
       },
       "source_key": "ch11-n04",
@@ -1350,7 +1360,9 @@
         "person:rossana-segreto",
         "person:yuri-deigin"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:bioessays"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:furin-cleavage-site",
@@ -1403,7 +1415,8 @@
           "person:alina-chan"
         ],
         "orgs": [
-          "org:amazon"
+          "org:amazon",
+          "org:harper"
         ],
         "places": [
           "place:wuhan"
@@ -1415,7 +1428,9 @@
         "person:matt-ridley",
         "person:alina-chan"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:harper"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",

@@ -1448,6 +1448,476 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "person:james-alwine",
+      "prefLabel": "James Alwine",
+      "indexTerm": "Alwine, James",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:giovanni-apolone",
+      "prefLabel": "Giovanni Apolone",
+      "indexTerm": "Apolone, Giovanni",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:matt-apuzzo",
+      "prefLabel": "Matt Apuzzo",
+      "indexTerm": "Apuzzo, Matt",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:josh-boswell",
+      "prefLabel": "Josh Boswell",
+      "indexTerm": "Boswell, Josh",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:charles-bremner",
+      "prefLabel": "Charles Bremner",
+      "indexTerm": "Bremner, Charles",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:valentin-bruttel",
+      "prefLabel": "Valentin Bruttel",
+      "indexTerm": "Bruttel, Valentin",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jing-chen",
+      "prefLabel": "Jing Chen",
+      "indexTerm": "Chen, Jing",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:nanshan-chen",
+      "prefLabel": "Nanshan Chen",
+      "indexTerm": "Chen, Nanshan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:doina-chiacu",
+      "prefLabel": "Doina Chiacu",
+      "indexTerm": "Chiacu, Doina",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:alexandre-deslandes",
+      "prefLabel": "Alexandre Deslandes",
+      "indexTerm": "Deslandes, Alexandre",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jacques-ellul",
+      "prefLabel": "Jacques Ellul",
+      "indexTerm": "Ellul, Jacques",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:gislaine-fongaro",
+      "prefLabel": "Gislaine Fongaro",
+      "indexTerm": "Fongaro, Gislaine",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:nectar-gan",
+      "prefLabel": "Nectar Gan",
+      "indexTerm": "Gan, Nectar",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:selam-gebrekidan",
+      "prefLabel": "Selam Gebrekidan",
+      "indexTerm": "Gebrekidan, Selam",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:george-arbuthnott",
+      "prefLabel": "George Arbuthnott",
+      "indexTerm": "Arbuthnott, George",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:hua-guo",
+      "prefLabel": "Hua Guo",
+      "indexTerm": "Guo, Hua",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:thomas-hale",
+      "prefLabel": "Thomas Hale",
+      "indexTerm": "Hale, Thomas",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jacques-van-helden",
+      "prefLabel": "Jacques van Helden",
+      "indexTerm": "Helden, Jacques van",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jonas-herby",
+      "prefLabel": "Jonas Herby",
+      "indexTerm": "Herby, Jonas",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:frank-hoffman",
+      "prefLabel": "Frank Hoffman",
+      "indexTerm": "Hoffman, Frank",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:caitlin-hu",
+      "prefLabel": "Caitlin Hu",
+      "indexTerm": "Hu, Caitlin",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jeff-kao",
+      "prefLabel": "Jeff Kao",
+      "indexTerm": "Kao, Jeff",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:holman-w-jenkins-jr",
+      "prefLabel": "Holman W. Jenkins Jr.",
+      "indexTerm": "Jr., Holman W. Jenkins",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jocelyn-kaiser",
+      "prefLabel": "Jocelyn Kaiser",
+      "indexTerm": "Kaiser, Jocelyn",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:shu-kang",
+      "prefLabel": "Shu Kang",
+      "indexTerm": "Kang, Shu",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:stephen-kinzer",
+      "prefLabel": "Stephen Kinzer",
+      "indexTerm": "Kinzer, Stephen",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:sudhir-kumar",
+      "prefLabel": "Sudhir Kumar",
+      "indexTerm": "Kumar, Sudhir",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:giuseppina-la-rosa",
+      "prefLabel": "Giuseppina La Rosa",
+      "indexTerm": "Rosa, Giuseppina La",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:milton-leitenberg",
+      "prefLabel": "Milton Leitenberg",
+      "indexTerm": "Leitenberg, Milton",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:filippa-lentzos",
+      "prefLabel": "Filippa Lentzos",
+      "indexTerm": "Lentzos, Filippa",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:qun-li",
+      "prefLabel": "Qun Li",
+      "indexTerm": "Li, Qun",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:wei-lu",
+      "prefLabel": "Wei Lu",
+      "indexTerm": "Lu, Wei",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:donald-g-mcneil-jr",
+      "prefLabel": "Donald G. McNeil Jr.",
+      "indexTerm": "Jr., Donald G. McNeil",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:s-piplani",
+      "prefLabel": "S. Piplani",
+      "indexTerm": "Piplani, S.",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:prashant-pradhan",
+      "prefLabel": "Prashant Pradhan",
+      "indexTerm": "Pradhan, Prashant",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:steven-quay",
+      "prefLabel": "Steven Quay",
+      "indexTerm": "Quay, Steven",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:natalie-rahhal",
+      "prefLabel": "Natalie Rahhal",
+      "indexTerm": "Rahhal, Natalie",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:david-relman",
+      "prefLabel": "David Relman",
+      "indexTerm": "Relman, David",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:charles-rixey",
+      "prefLabel": "Charles Rixey",
+      "indexTerm": "Rixey, Charles",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:lori-robertson",
+      "prefLabel": "Lori Robertson",
+      "indexTerm": "Robertson, Lori",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:david-rozado",
+      "prefLabel": "David Rozado",
+      "indexTerm": "Rozado, David",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:michael-shellenberger",
+      "prefLabel": "Michael Shellenberger",
+      "indexTerm": "Shellenberger, Michael",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:ivan-watson",
+      "prefLabel": "Ivan Watson",
+      "indexTerm": "Watson, Ivan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:david-willman",
+      "prefLabel": "David Willman",
+      "indexTerm": "Willman, David",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:zheng-liu",
+      "prefLabel": "Zheng Liu",
+      "indexTerm": "Liu, Zheng",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:raymond-zhong",
+      "prefLabel": "Raymond Zhong",
+      "indexTerm": "Zhong, Raymond",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:david-zweig",
+      "prefLabel": "David Zweig",
+      "indexTerm": "Zweig, David",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

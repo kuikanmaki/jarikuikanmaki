@@ -822,23 +822,33 @@
         "people": [
           "Shu Kang"
         ],
-        "orgs": [],
+        "orgs": [
+          "Nerd Has Power"
+        ],
         "places": [
           "Wuhan",
           "China"
         ]
       },
       "entity_ids": {
-        "people": [],
-        "orgs": [],
+        "people": [
+          "person:shu-kang"
+        ],
+        "orgs": [
+          "org:nerd-has-power"
+        ],
         "places": [
           "place:wuhan"
         ]
       },
       "source_key": "ch03-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:shu-kang"
+      ],
+      "publication_ids": [
+        "org:nerd-has-power"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
@@ -850,7 +860,7 @@
     {
       "id": 2,
       "type": "Preprint",
-      "author": "Pradhan et al.",
+      "author": "Pradhan, Prashant, et al.",
       "title": "Uncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 GP120 and Gag",
       "publication": "bioRxiv",
       "date": "February 2, 2020",
@@ -876,7 +886,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:prashant-pradhan"
+        ],
         "orgs": [
           "org:biorxiv"
         ],
@@ -884,7 +896,9 @@
       },
       "source_key": "ch03-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:prashant-pradhan"
+      ],
       "publication_ids": [
         "org:biorxiv"
       ],

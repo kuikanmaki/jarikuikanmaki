@@ -946,7 +946,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:donald-g-mcneil-jr"
+        ],
         "orgs": [
           "org:usaid",
           "org:the-new-york-times",
@@ -956,7 +958,9 @@
       },
       "source_key": "ch16-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Live NYT blocked by Firecrawl; replaced with Internet Archive capture and scraped via Firecrawl/Wayback.",
-      "author_ids": [],
+      "author_ids": [
+        "person:donald-g-mcneil-jr"
+      ],
       "publication_ids": [
         "org:the-new-york-times"
       ],

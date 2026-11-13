@@ -580,8 +580,9 @@
       "entities": {
         "people": [
           "Shi Zhengli",
-          "Lu Wei",
-          "Zheng Liu"
+          "Wei Lu",
+          "Zheng Liu",
+          "Lu Wei"
         ],
         "orgs": [
           "Wuhan Institute of Virology",
@@ -596,11 +597,14 @@
       },
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:wei-lu",
+          "person:zheng-liu"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
-          "org:chinese-academy-of-sciences"
+          "org:chinese-academy-of-sciences",
+          "org:sciencenet-news"
         ],
         "places": [
           "place:wuhan"
@@ -608,8 +612,13 @@
       },
       "source_key": "ch14-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:wei-lu",
+        "person:zheng-liu"
+      ],
+      "publication_ids": [
+        "org:sciencenet-news"
+      ],
       "topic_ids": [
         "topic:bat-coronaviruses",
         "topic:sars",

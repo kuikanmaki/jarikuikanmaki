@@ -788,7 +788,9 @@
       "source_key": "ch18-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:who"
+      ],
       "topic_ids": [
         "topic:omicron-variant",
         "topic:sars-cov-2",
@@ -831,7 +833,9 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:center-for-security-policy"
+        ],
         "places": [
           "place:wuhan"
         ]
@@ -839,7 +843,9 @@
       "source_key": "ch18-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:center-for-security-policy"
+      ],
       "topic_ids": [
         "topic:censorship",
         "topic:covid-19",
@@ -877,16 +883,23 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jacques-ellul"
+        ],
         "orgs": [
-          "org:amazon"
+          "org:amazon",
+          "org:vintage"
         ],
         "places": []
       },
       "source_key": "ch18-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:jacques-ellul"
+      ],
+      "publication_ids": [
+        "org:vintage"
+      ],
       "topic_ids": [
         "topic:censorship",
         "org:amazon"
@@ -913,22 +926,32 @@
       ],
       "entities": {
         "people": [
+          "Frank Hoffman",
           "Frank G. Hoffman"
         ],
         "orgs": [
+          "Potomac Institute",
           "Potomac Institute for Policy Studies"
         ],
         "places": []
       },
       "entity_ids": {
-        "people": [],
-        "orgs": [],
+        "people": [
+          "person:frank-hoffman"
+        ],
+        "orgs": [
+          "org:potomac-institute"
+        ],
         "places": []
       },
       "source_key": "ch18-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:frank-hoffman"
+      ],
+      "publication_ids": [
+        "org:potomac-institute"
+      ],
       "topic_ids": [
         "topic:censorship",
         "topic:biosecurity"

@@ -1324,7 +1324,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:matt-apuzzo"
+        ],
         "orgs": [
           "org:the-new-york-times"
         ],
@@ -1334,7 +1336,9 @@
       },
       "source_key": "ch08-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:matt-apuzzo"
+      ],
       "publication_ids": [
         "org:the-new-york-times"
       ],
@@ -1457,7 +1461,9 @@
       "source_key": "ch08-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ],
       "topic_ids": [
         "topic:bsl-4-laboratory",
         "topic:biosafety",
@@ -1503,7 +1509,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:josh-boswell"
+        ],
         "orgs": [
           "org:daily-mail"
         ],
@@ -1513,7 +1521,9 @@
       },
       "source_key": "ch08-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:josh-boswell"
+      ],
       "publication_ids": [
         "org:daily-mail"
       ],
@@ -1556,14 +1566,22 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
-        "orgs": [],
+        "people": [
+          "person:thomas-hale"
+        ],
+        "orgs": [
+          "org:oxford-covid-19-government-response-tracker"
+        ],
         "places": []
       },
       "source_key": "ch08-n05",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:thomas-hale"
+      ],
+      "publication_ids": [
+        "org:oxford-covid-19-government-response-tracker"
+      ],
       "topic_ids": [
         "topic:covid-19",
         "topic:zero-covid"
@@ -1645,13 +1663,17 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:freedom-house"
+        ],
         "places": []
       },
       "source_key": "ch08-n07",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:freedom-house"
+      ],
       "topic_ids": [
         "topic:covid-19",
         "topic:censorship",
@@ -1690,14 +1712,22 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
-        "orgs": [],
+        "people": [
+          "person:jonas-herby"
+        ],
+        "orgs": [
+          "org:public-choice"
+        ],
         "places": []
       },
       "source_key": "ch08-n08",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:jonas-herby"
+      ],
+      "publication_ids": [
+        "org:public-choice"
+      ],
       "topic_ids": [
         "topic:covid-19",
         "topic:zero-covid"

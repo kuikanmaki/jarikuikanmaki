@@ -437,17 +437,23 @@
       },
       "entity_ids": {
         "people": [
-          "person:bruce-e-ivins"
+          "person:bruce-e-ivins",
+          "person:david-willman"
         ],
         "orgs": [
-          "org:amazon"
+          "org:amazon",
+          "org:bantam"
         ],
         "places": []
       },
       "source_key": "ch15-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:david-willman"
+      ],
+      "publication_ids": [
+        "org:bantam"
+      ],
       "topic_ids": [
         "topic:anthrax",
         "topic:biodefense-complex",

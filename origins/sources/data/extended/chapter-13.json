@@ -172,7 +172,9 @@
       "author_ids": [
         "person:ian-birrell"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:daily-mail"
+      ],
       "image_url": "https://i.dailymail.com/1s/2026/10/30/15/112174879-0-image-m-30_1793375655129.jpg"
     },
     {
@@ -319,16 +321,23 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:s-piplani"
+        ],
         "orgs": [
-          "org:nature"
+          "org:nature",
+          "org:scientific-reports"
         ],
         "places": []
       },
       "source_key": "ch13-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:s-piplani"
+      ],
+      "publication_ids": [
+        "org:scientific-reports"
+      ],
       "topic_ids": [
         "topic:ace2-receptors",
         "topic:sars-cov-2",
@@ -433,7 +442,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:charles-rixey"
+        ],
         "orgs": [
           "org:researchgate",
           "org:u-s-right-to-know"
@@ -442,7 +453,9 @@
       },
       "source_key": "ch13-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:charles-rixey"
+      ],
       "publication_ids": [
         "org:researchgate"
       ],

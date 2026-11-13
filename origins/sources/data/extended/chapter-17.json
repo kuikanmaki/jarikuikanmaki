@@ -905,7 +905,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:nanshan-chen"
+        ],
         "orgs": [
           "org:the-lancet"
         ],
@@ -915,7 +917,9 @@
       },
       "source_key": "ch17-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:nanshan-chen"
+      ],
       "publication_ids": [
         "org:the-lancet"
       ],
@@ -964,9 +968,12 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:qun-li"
+        ],
         "orgs": [
-          "org:pubmed"
+          "org:pubmed",
+          "org:the-new-england-journal-of-medicine"
         ],
         "places": [
           "place:wuhan",
@@ -975,8 +982,12 @@
       },
       "source_key": "ch17-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:qun-li"
+      ],
+      "publication_ids": [
+        "org:the-new-england-journal-of-medicine"
+      ],
       "topic_ids": [
         "topic:covid-19",
         "topic:sars-cov-2",
@@ -1018,7 +1029,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:sudhir-kumar"
+        ],
         "orgs": [
           "org:molecular-biology-and-evolution",
           "org:pubmed"
@@ -1027,7 +1040,9 @@
       },
       "source_key": "ch17-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
-      "author_ids": [],
+      "author_ids": [
+        "person:sudhir-kumar"
+      ],
       "publication_ids": [
         "org:molecular-biology-and-evolution"
       ],
@@ -1070,7 +1085,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jacques-van-helden"
+        ],
         "orgs": [
           "org:the-lancet"
         ],
@@ -1078,7 +1095,9 @@
       },
       "source_key": "ch17-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:jacques-van-helden"
+      ],
       "publication_ids": [
         "org:the-lancet"
       ],
@@ -1128,7 +1147,8 @@
           "person:sharri-markson"
         ],
         "orgs": [
-          "org:amazon"
+          "org:amazon",
+          "org:harpercollins"
         ],
         "places": [
           "place:wuhan"
@@ -1139,7 +1159,9 @@
       "author_ids": [
         "person:sharri-markson"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:harpercollins"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:covid-19",
@@ -1188,7 +1210,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:katherine-eban"
+          "person:katherine-eban",
+          "person:jeff-kao"
         ],
         "orgs": [
           "org:vanity-fair",
@@ -1201,7 +1224,8 @@
       "source_key": "ch17-n06",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [
-        "person:katherine-eban"
+        "person:katherine-eban",
+        "person:jeff-kao"
       ],
       "publication_ids": [
         "org:vanity-fair"
@@ -1373,7 +1397,8 @@
           "Alexandre Deslandes"
         ],
         "orgs": [
-          "PubMed"
+          "PubMed",
+          "International Journal of Antimicrobial Agents"
         ],
         "places": [
           "Europe",
@@ -1382,9 +1407,12 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:alexandre-deslandes"
+        ],
         "orgs": [
-          "org:pubmed"
+          "org:pubmed",
+          "org:international-journal-of-antimicrobial-agents"
         ],
         "places": [
           "place:europe"
@@ -1392,8 +1420,12 @@
       },
       "source_key": "ch17-n09",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:alexandre-deslandes"
+      ],
+      "publication_ids": [
+        "org:international-journal-of-antimicrobial-agents"
+      ],
       "topic_ids": [
         "topic:sars-cov-2",
         "topic:covid-19",
@@ -1436,7 +1468,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:giuseppina-la-rosa"
+        ],
         "orgs": [
           "org:science-of-the-total-environment",
           "org:pubmed"
@@ -1447,7 +1481,9 @@
       },
       "source_key": "ch17-n10",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
-      "author_ids": [],
+      "author_ids": [
+        "person:giuseppina-la-rosa"
+      ],
       "publication_ids": [
         "org:science-of-the-total-environment"
       ],
@@ -1485,6 +1521,7 @@
         ],
         "orgs": [
           "PubMed",
+          "Tumori Journal",
           "Tumori"
         ],
         "places": [
@@ -1493,9 +1530,12 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:giovanni-apolone"
+        ],
         "orgs": [
-          "org:pubmed"
+          "org:pubmed",
+          "org:tumori-journal"
         ],
         "places": [
           "place:europe"
@@ -1503,8 +1543,12 @@
       },
       "source_key": "ch17-n11",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found. Notes HTML also records Epub: November 11, 2020.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:giovanni-apolone"
+      ],
+      "publication_ids": [
+        "org:tumori-journal"
+      ],
       "topic_ids": [
         "topic:sars-cov-2",
         "topic:covid-19",
@@ -1546,7 +1590,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:gislaine-fongaro"
+        ],
         "orgs": [
           "org:science-of-the-total-environment"
         ],
@@ -1554,7 +1600,9 @@
       },
       "source_key": "ch17-n12",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:gislaine-fongaro"
+      ],
       "publication_ids": [
         "org:science-of-the-total-environment"
       ],
@@ -1605,7 +1653,8 @@
           "person:alison-young"
         ],
         "orgs": [
-          "org:nih"
+          "org:nih",
+          "org:usa-today"
         ],
         "places": [
           "place:wuhan"
@@ -1616,7 +1665,9 @@
       "author_ids": [
         "person:alison-young"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:usa-today"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:biosafety",
@@ -1663,7 +1714,8 @@
           "person:alison-young"
         ],
         "orgs": [
-          "org:amazon"
+          "org:amazon",
+          "org:center-street"
         ],
         "places": []
       },
@@ -1672,7 +1724,9 @@
       "author_ids": [
         "person:alison-young"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:center-street"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:biosafety",

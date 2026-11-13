@@ -803,7 +803,8 @@
       ],
       "entities": {
         "people": [
-          "Jonathan Calvert"
+          "Jonathan Calvert",
+          "George Arbuthnott"
         ],
         "orgs": [
           "Wuhan Institute of Virology",
@@ -818,7 +819,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:jonathan-calvert"
+          "person:jonathan-calvert",
+          "person:george-arbuthnott"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
@@ -833,7 +835,8 @@
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/5aedcbf4-06ec-11ee-a1e5-6222cf71d60e.jpg?amp;sourceHeight=886&#038;strip=all&#038;format=webp&#038;crop=0px%2C0px%2C1575px%2C886px&#038;w=1200",
       "acquisition_note": "",
       "author_ids": [
-        "person:jonathan-calvert"
+        "person:jonathan-calvert",
+        "person:george-arbuthnott"
       ],
       "publication_ids": [
         "org:the-sunday-times"
@@ -2958,6 +2961,7 @@
         ],
         "orgs": [
           "WHO",
+          "Daily Mail",
           "Mail on Sunday"
         ],
         "places": [
@@ -2971,7 +2975,8 @@
           "person:ian-lipkin"
         ],
         "orgs": [
-          "org:who"
+          "org:who",
+          "org:daily-mail"
         ],
         "places": [
           "place:wuhan"
@@ -2982,7 +2987,9 @@
       "author_ids": [
         "person:ian-birrell"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:daily-mail"
+      ],
       "topic_ids": [
         "topic:covid-19",
         "topic:censorship",
@@ -3036,7 +3043,9 @@
       "source_key": "ch19-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:u-s-house-of-representatives"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
@@ -3077,6 +3086,7 @@
           "EcoHealth Alliance",
           "Wuhan Institute of Virology",
           "DARPA",
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
           "U.S. Senate Committee on Homeland Security"
         ],
         "places": [
@@ -3090,7 +3100,8 @@
         "orgs": [
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
-          "org:darpa"
+          "org:darpa",
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
         ],
         "places": [
           "place:wuhan"
@@ -3101,7 +3112,9 @@
       "author_ids": [
         "person:richard-ebright"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+      ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research",
@@ -3172,7 +3185,9 @@
       "source_key": "ch19-n05",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:drastic"
+      ],
       "topic_ids": [
         "topic:gain-of-function-research",
         "topic:furin-cleavage-site",
@@ -3229,7 +3244,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:jocelyn-kaiser"
         ],
         "orgs": [
           "org:science",
@@ -3241,7 +3257,9 @@
       },
       "source_key": "ch19-n06",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:jocelyn-kaiser"
+      ],
       "publication_ids": [
         "org:science"
       ],
@@ -3363,7 +3381,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:michael-shellenberger"
+        ],
         "orgs": [
           "org:u-s-house-of-representatives"
         ],
@@ -3371,8 +3391,12 @@
       },
       "source_key": "ch19-n08",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:michael-shellenberger"
+      ],
+      "publication_ids": [
+        "org:u-s-house-of-representatives"
+      ],
       "topic_ids": [
         "topic:censorship",
         "topic:lab-leak-hypothesis",
@@ -3412,14 +3436,22 @@
         ]
       },
       "entity_ids": {
-        "people": [],
-        "orgs": [],
+        "people": [
+          "person:david-zweig"
+        ],
+        "orgs": [
+          "org:the-free-press"
+        ],
         "places": []
       },
       "source_key": "ch19-n09",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:david-zweig"
+      ],
+      "publication_ids": [
+        "org:the-free-press"
+      ],
       "topic_ids": [
         "topic:censorship",
         "topic:covid-19",
@@ -3460,7 +3492,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:valentin-bruttel"
+        ],
         "orgs": [
           "org:biorxiv"
         ],
@@ -3468,7 +3502,9 @@
       },
       "source_key": "ch19-n10",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:valentin-bruttel"
+      ],
       "publication_ids": [
         "org:biorxiv"
       ],
@@ -3512,7 +3548,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:steven-quay"
+        ],
         "orgs": [
           "org:skyhorse-publishing",
           "org:amazon"
@@ -3521,7 +3559,9 @@
       },
       "source_key": "ch19-n11",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:steven-quay"
+      ],
       "publication_ids": [
         "org:skyhorse-publishing"
       ],
@@ -3577,7 +3617,8 @@
         "orgs": [
           "org:ecohealth-alliance",
           "org:nih",
-          "org:niaid"
+          "org:niaid",
+          "org:hhs"
         ],
         "places": []
       },
@@ -3585,6 +3626,7 @@
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
       "publication_ids": [
+        "org:hhs",
         "org:nih"
       ],
       "topic_ids": [
@@ -3629,16 +3671,23 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jing-chen"
+        ],
         "orgs": [
-          "org:pubmed"
+          "org:pubmed",
+          "org:cell"
         ],
         "places": []
       },
       "source_key": "ch19-n13",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
-      "publication_ids": [],
+      "author_ids": [
+        "person:jing-chen"
+      ],
+      "publication_ids": [
+        "org:cell"
+      ],
       "topic_ids": [
         "topic:ace2-receptors",
         "topic:bat-coronaviruses",
@@ -3671,6 +3720,7 @@
       ],
       "entities": {
         "people": [
+          "James Alwine",
           "James C. Alwine",
           "Arturo Casadevall"
         ],
@@ -3680,7 +3730,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:james-alwine"
+        ],
         "orgs": [
           "org:journal-of-virology"
         ],
@@ -3688,7 +3740,9 @@
       },
       "source_key": "ch19-n14",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
-      "author_ids": [],
+      "author_ids": [
+        "person:james-alwine"
+      ],
       "publication_ids": [
         "org:journal-of-virology"
       ],
