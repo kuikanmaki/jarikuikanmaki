@@ -1013,6 +1013,14 @@ img {
   color: hsl(var(--muted-foreground));
 }
 .sources-page .catalog-notes { margin-top: 0.5rem; }
+.sources-page .catalog-notes a {
+  color: hsl(var(--reference-link));
+  text-decoration: underline;
+  text-underline-offset: 0.15rem;
+}
+.sources-page .catalog-notes a:hover {
+  color: hsl(213 70% 28%);
+}
 .sources-page #sources-heading { scroll-margin-top: 1.25rem; }
 /* Hide the shared audiobook strip on the Sources page only. */
 .sources-page .audiobook-announcement { display: none; }
@@ -1065,7 +1073,7 @@ img {
   padding-top: 0.35rem;
 }
 .sources-page .source-ref { min-width: 0; flex: 1 1 auto; }
-.sources-page .source-ref em { font-style: italic; }
+.sources-page .source-ref em { font-style: normal; }
 .sources-page .source-expand-btn {
   flex: 0 0 auto;
   width: 1.75rem;
