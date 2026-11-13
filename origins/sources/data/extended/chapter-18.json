@@ -747,5 +747,194 @@
         "org:the-guardian"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Article",
+      "author": "",
+      "title": "Classification of Omicron (B.1.1.529): SARS-CoV-2 Variant of Concern",
+      "publication": "WHO News",
+      "date": "November 26, 2021",
+      "url": "https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern",
+      "status": "ok",
+      "artifact": "artifacts/ch18-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "WHO news notice that TAG-VE classified B.1.1.529 (Omicron) as a SARS-CoV-2 Variant of Concern on 26 November 2021, after South Africa reported the lineage amid a sharp rise in infections following Delta waves.",
+      "book_role": "Notes citation for WHO’s official Omicron VOC designation.",
+      "topics": [
+        "Omicron variant",
+        "SARS-CoV-2",
+        "COVID-19",
+        "WHO"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "WHO"
+        ],
+        "places": [
+          "South Africa"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:who"
+        ],
+        "places": []
+      },
+      "source_key": "ch18-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ],
+      "topic_ids": [
+        "topic:omicron-variant",
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "org:who"
+      ],
+      "date_iso": "2021-11-26"
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "author": "",
+      "title": "Wuhan Virus – China’s Propaganda Pandemic in an Expanding Timeline",
+      "publication": "Center for Security Policy",
+      "date": "July 7, 2020",
+      "url": "https://centerforsecuritypolicy.org/wuhan-virus/",
+      "status": "ok",
+      "artifact": "artifacts/ch18-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Center for Security Policy expanding timeline by J. Michael Waller tracking Chinese Communist Party propaganda and regime actions from late 2019 through spring 2020—arguing Beijing weaponized narrative control around the Wuhan outbreak.",
+      "book_role": "Notes citation chronicling CCP propaganda lines during the outbreak’s first months.",
+      "topics": [
+        "censorship",
+        "COVID-19",
+        "Wuhan"
+      ],
+      "entities": {
+        "people": [
+          "J. Michael Waller"
+        ],
+        "orgs": [
+          "Center for Security Policy"
+        ],
+        "places": [
+          "Wuhan",
+          "China",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch18-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:covid-19",
+        "place:wuhan"
+      ],
+      "date_iso": "2020-07-07"
+    },
+    {
+      "id": 3,
+      "type": "Book",
+      "author": "Ellul, Jacques",
+      "title": "Propaganda: The Formation of Men's Attitudes",
+      "publication": "Vintage",
+      "date": "1973",
+      "url": "https://www.amazon.com/Propaganda-Formation-Attitudes-Jacques-Ellul/dp/0394718747",
+      "status": "ok",
+      "artifact": "artifacts/ch18-n03.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Jacques Ellul’s classic Propaganda: The Formation of Men’s Attitudes (Vintage edition)—a theoretical framework for modern propaganda’s sociological effects. Amazon page only; no book text captured.",
+      "book_role": "Notes citation for Ellul’s foundational propaganda analysis applied to pandemic messaging.",
+      "topics": [
+        "censorship",
+        "Amazon"
+      ],
+      "entities": {
+        "people": [
+          "Jacques Ellul"
+        ],
+        "orgs": [
+          "Amazon",
+          "Vintage"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": []
+      },
+      "source_key": "ch18-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:censorship",
+        "org:amazon"
+      ],
+      "date_iso": "1973"
+    },
+    {
+      "id": 4,
+      "type": "PDF document",
+      "author": "Hoffman, Frank",
+      "title": "Conflict in the 21st Century: The Rise of Hybrid Wars",
+      "publication": "Potomac Institute",
+      "date": "2007",
+      "url": "https://www.potomacinstitute.org/images/stories/publications/potomac_hybridwar_0108.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch18-n04.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Frank Hoffman’s 2007 Potomac Institute monograph Conflict in the 21st Century: The Rise of Hybrid Wars—defining hybrid warfare blending conventional, irregular, terrorist, and criminal modes, including information/propaganda dimensions.",
+      "book_role": "Notes citation for the hybrid-war concept applied to information conflict.",
+      "topics": [
+        "censorship",
+        "biosecurity"
+      ],
+      "entities": {
+        "people": [
+          "Frank G. Hoffman"
+        ],
+        "orgs": [
+          "Potomac Institute for Policy Studies"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch18-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:biosecurity"
+      ],
+      "date_iso": "2007"
+    }
   ]
 }

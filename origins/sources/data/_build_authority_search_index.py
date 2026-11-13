@@ -31,33 +31,42 @@ def main() -> None:
         data = json.loads(path.read_text())
         chapter = data.get("chapter")
         chapter_title = data.get("chapter_title") or f"Chapter {chapter}"
-        for source in data.get("sources") or []:
-            ids = set(source.get("topic_ids") or [])
-            ids.update(source.get("author_ids") or [])
-            ids.update(source.get("publication_ids") or [])
-            entities = source.get("entity_ids") or {}
-            for bucket in ("people", "orgs", "places"):
-                ids.update(entities.get(bucket) or [])
-            if not ids:
-                continue
-            key = source.get("source_key") or f"ch{int(chapter):02d}-s{int(source.get('id')):02d}"
-            if key not in sources:
-                sources[key] = {
-                    "key": key,
-                    "chapter": chapter,
-                    "chapter_title": chapter_title,
-                    "source_id": source.get("id"),
-                    "author": source.get("author") or "",
-                    "title": source.get("title") or "",
-                    "publication": source.get("publication") or "",
-                    "date": source.get("date") or "",
-                    "date_iso": source.get("date_iso") or "",
-                    "url": source.get("url") or "",
-                    "summary": (source.get("summary") or "")[:220],
-                }
-            for authority_id in ids:
-                if key not in by_id[authority_id]:
-                    by_id[authority_id].append(key)
+        section_lists = (
+            ("main", data.get("sources") or [], "s"),
+            ("notes", data.get("notes_sources") or [], "n"),
+        )
+        for section, rows, key_prefix in section_lists:
+            for source in rows:
+                ids = set(source.get("topic_ids") or [])
+                ids.update(source.get("author_ids") or [])
+                ids.update(source.get("publication_ids") or [])
+                entities = source.get("entity_ids") or {}
+                for bucket in ("people", "orgs", "places"):
+                    ids.update(entities.get(bucket) or [])
+                if not ids:
+                    continue
+                key = (
+                    source.get("source_key")
+                    or f"ch{int(chapter):02d}-{key_prefix}{int(source.get('id')):02d}"
+                )
+                if key not in sources:
+                    sources[key] = {
+                        "key": key,
+                        "section": section,
+                        "chapter": chapter,
+                        "chapter_title": chapter_title,
+                        "source_id": source.get("id"),
+                        "author": source.get("author") or "",
+                        "title": source.get("title") or "",
+                        "publication": source.get("publication") or "",
+                        "date": source.get("date") or "",
+                        "date_iso": source.get("date_iso") or "",
+                        "url": source.get("url") or "",
+                        "summary": (source.get("summary") or "")[:220],
+                    }
+                for authority_id in ids:
+                    if key not in by_id[authority_id]:
+                        by_id[authority_id].append(key)
 
     keywords = []
     keyword_sources = {}

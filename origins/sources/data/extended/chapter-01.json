@@ -617,5 +617,67 @@
         "org:the-wall-street-journal"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Newspaper article",
+      "author": "Rahhal, Natalie",
+      "title": "Wuhan, China's coronavirus epicentre, has SARS and Ebola lab",
+      "publication": "Daily Mail",
+      "date": "January 23, 2020",
+      "url": "https://www.dailymail.co.uk/health/article-7922379/Chinas-lab-studying-SARS-Ebola-Wuhan-outbreaks-center.html",
+      "status": "ok",
+      "artifact": "artifacts/ch01-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Early Daily Mail report that Wuhan’s National Biosafety Laboratory—China’s only designated site for pathogens such as SARS and Ebola—sat at the outbreak’s epicenter, noting prior U.S. biosafety warnings and the 2004 Beijing SARS lab leak.",
+      "book_role": "Notes citation placing a SARS/Ebola-capable lab in Wuhan at the start of the outbreak narrative.",
+      "topics": [
+        "BSL-4 laboratory",
+        "biosafety",
+        "SARS",
+        "lab-leak hypothesis",
+        "Wuhan Institute of Virology"
+      ],
+      "entities": {
+        "people": [
+          "Natalie Rahhal"
+        ],
+        "orgs": [
+          "Daily Mail",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "China",
+          "Beijing"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:daily-mail",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch01-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:daily-mail"
+      ],
+      "topic_ids": [
+        "topic:bsl-4-laboratory",
+        "topic:biosafety",
+        "topic:sars",
+        "topic:lab-leak-hypothesis",
+        "org:wuhan-institute-of-virology"
+      ],
+      "date_iso": "2020-01-23"
+    }
   ]
 }

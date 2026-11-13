@@ -714,5 +714,329 @@
         "org:wuhan-institute-of-virology"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Report",
+      "author": "",
+      "title": "Independent assessment of the origins of SARS-CoV-2",
+      "publication": "WHO SAGO",
+      "date": "June 27, 2025",
+      "url": "https://www.who.int/publications/m/item/independent-assessment-of-the-origins-of-sars-cov-2-from-the-scientific-advisory-group-for-the-origins-of-novel-pathogens",
+      "status": "ok",
+      "artifact": "artifacts/ch16-n01.md",
+      "content_kind": "gov_doc",
+      "language": "en",
+      "summary": "WHO SAGO independent assessment (updated June 2025) reviewing published science, intelligence reports, and expert input on SARS-CoV-2 origins—restating the need for fuller data sharing and further studies after SAGO’s earlier 2022 findings.",
+      "book_role": "Notes citation for SAGO’s formal independent origins assessment to WHO.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "SARS-CoV-2",
+        "WHO SAGO",
+        "WHO"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "WHO SAGO",
+          "WHO"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:who-sago",
+          "org:who"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch16-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:who-sago"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:sars-cov-2",
+        "org:who-sago",
+        "org:who"
+      ],
+      "date_iso": "2025-06-27"
+    },
+    {
+      "id": 2,
+      "type": "Journal article",
+      "author": "",
+      "title": "SAGO members (23 of 27), COVID’s origins: what we do and don’t know",
+      "publication": "Nature",
+      "date": "February 24, 2026",
+      "url": "https://www.nature.com/articles/d41586-026-00530-y",
+      "status": "ok",
+      "artifact": "artifacts/ch16-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Nature commentary by 23 of 27 original WHO SAGO members summarizing their June 2025 origins assessment—weighing zoonosis, market amplification at Huanan, and lab-incident hypotheses while noting unresolved evidence and conflicting intelligence confidence levels.",
+      "book_role": "Notes citation for SAGO members’ public digest of what is and isn’t known about COVID’s origins.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "SARS-CoV-2",
+        "Huanan Seafood Market",
+        "WHO SAGO",
+        "Nature"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "WHO SAGO",
+          "Nature",
+          "WHO"
+        ],
+        "places": [
+          "Wuhan",
+          "Huanan Seafood Market"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:who-sago",
+          "org:nature",
+          "org:who"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:huanan-seafood-market"
+        ]
+      },
+      "source_key": "ch16-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:nature"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:sars-cov-2",
+        "place:huanan-seafood-market",
+        "org:who-sago",
+        "org:nature"
+      ],
+      "date_iso": "2026-02-24"
+    },
+    {
+      "id": 3,
+      "type": "Newspaper article",
+      "author": "Guterl, Fred",
+      "title": "et al., The Controversial Experiments and Wuhan Lab Suspected of Starting the Coronavirus Pandemic",
+      "publication": "Newsweek",
+      "date": "April 27, 2020",
+      "url": "https://www.newsweek.com/controversial-wuhan-lab-experiments-that-may-have-started-coronavirus-pandemic-1500503",
+      "status": "ok",
+      "artifact": "artifacts/ch16-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "April 2020 Newsweek investigation reporting the Defense Intelligence Agency revised its assessment to include possible accidental lab release, and examining controversial bat-coronavirus/gain-of-function work linked to the Wuhan lab and Baric–Shi collaboration.",
+      "book_role": "Early Notes citation connecting DIA lab-accident openness to Wuhan experiment scrutiny.",
+      "topics": [
+        "lab-leak hypothesis",
+        "gain-of-function research",
+        "chimeric viruses",
+        "Wuhan Institute of Virology",
+        "Ralph Baric",
+        "Shi Zhengli",
+        "Fred Guterl",
+        "Newsweek"
+      ],
+      "entities": {
+        "people": [
+          "Fred Guterl",
+          "Ralph Baric",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Newsweek",
+          "Wuhan Institute of Virology",
+          "Defense Intelligence Agency"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:fred-guterl",
+          "person:ralph-baric",
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:newsweek",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch16-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:fred-guterl"
+      ],
+      "publication_ids": [
+        "org:newsweek"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:gain-of-function-research",
+        "topic:chimeric-viruses",
+        "org:wuhan-institute-of-virology",
+        "person:ralph-baric",
+        "person:shi-zhengli",
+        "person:fred-guterl",
+        "org:newsweek"
+      ],
+      "date_iso": "2020-04-27"
+    },
+    {
+      "id": 4,
+      "type": "Newspaper article",
+      "author": "McNeil Jr.",
+      "title": "Donald G., Scientists Were Hunting for the Next Ebola. Now the U.S. Has Cut Off Their Funding",
+      "publication": "The New York Times",
+      "date": "October 25, 2019",
+      "url": "https://web.archive.org/web/20191025180000/https://www.nytimes.com/2019/10/25/health/predict-usaid-viruses.html",
+      "status": "ok",
+      "artifact": "artifacts/ch16-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "October 2019 New York Times report that the U.S. was shutting down USAID’s PREDICT program for hunting animal viruses with pandemic potential—cutting funding just before COVID emerged. Archived capture.",
+      "book_role": "Notes citation on the eve-of-pandemic cutoff of U.S. viral discovery surveillance.",
+      "topics": [
+        "zoonosis",
+        "biosecurity",
+        "USAID",
+        "The New York Times",
+        "EcoHealth Alliance"
+      ],
+      "entities": {
+        "people": [
+          "Donald G. McNeil Jr."
+        ],
+        "orgs": [
+          "USAID",
+          "The New York Times",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:usaid",
+          "org:the-new-york-times",
+          "org:ecohealth-alliance"
+        ],
+        "places": []
+      },
+      "source_key": "ch16-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Live NYT blocked by Firecrawl; replaced with Internet Archive capture and scraped via Firecrawl/Wayback.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ],
+      "topic_ids": [
+        "topic:zoonosis",
+        "topic:biosecurity",
+        "org:usaid",
+        "org:the-new-york-times",
+        "org:ecohealth-alliance"
+      ],
+      "date_iso": "2019-10-25"
+    },
+    {
+      "id": 5,
+      "type": "Newspaper article",
+      "author": "Eban, Katherine",
+      "title": "Ralph Baric, Whose Virology Techniques Were Used in Wuhan, Testified That Lab Leak Was Possible",
+      "publication": "Vanity Fair",
+      "date": "May 1, 2024",
+      "url": "https://www.vanityfair.com/news/story/ralph-baric-wuhan-lab-leak",
+      "status": "ok",
+      "artifact": "artifacts/ch16-n05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Katherine Eban’s Vanity Fair report on Ralph Baric’s testimony that a Wuhan lab leak remains plausible—recalling his 2015 chimeric coronavirus work with Shi Zhengli and arguing genomic timing undercuts a simple Huanan-market-first story.",
+      "book_role": "Notes citation for Baric’s later acknowledgment that lab leak is plausible.",
+      "topics": [
+        "lab-leak hypothesis",
+        "chimeric viruses",
+        "gain-of-function research",
+        "Ralph Baric",
+        "Shi Zhengli",
+        "Katherine Eban",
+        "Wuhan Institute of Virology",
+        "Vanity Fair"
+      ],
+      "entities": {
+        "people": [
+          "Katherine Eban",
+          "Ralph Baric",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Vanity Fair",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:katherine-eban",
+          "person:ralph-baric",
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:vanity-fair",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch16-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:katherine-eban"
+      ],
+      "publication_ids": [
+        "org:vanity-fair"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:chimeric-viruses",
+        "topic:gain-of-function-research",
+        "person:ralph-baric",
+        "person:shi-zhengli",
+        "person:katherine-eban",
+        "org:wuhan-institute-of-virology",
+        "org:vanity-fair"
+      ],
+      "date_iso": "2024-05-01"
+    }
   ]
 }

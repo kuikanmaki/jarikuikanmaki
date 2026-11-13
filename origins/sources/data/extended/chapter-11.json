@@ -615,10 +615,12 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:jonathan-latham"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:independent-science-news"
         ],
         "places": [
           "place:mojiang-mine",
@@ -629,8 +631,12 @@
       "date_iso": "2021-05-11",
       "image_url": "https://www.independentsciencenews.org/wp-content/uploads/2021/04/Canping-Huang-PhD-Front-Page.png",
       "acquisition_note": "",
-      "author_ids": [],
-      "publication_ids": []
+      "author_ids": [
+        "person:jonathan-latham"
+      ],
+      "publication_ids": [
+        "org:independent-science-news"
+      ]
     },
     {
       "id": 12,
@@ -673,7 +679,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:matt-ridley"
+        ],
         "orgs": [
           "org:the-telegraph",
           "org:wuhan-institute-of-virology"
@@ -687,7 +695,9 @@
       "date_iso": "2021-02-06",
       "image_url": "https://www.telegraph.co.uk/content/dam/news/2021/02/03/covid-lab-lead_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfp-Lnwb_Dq3Fonfr3-DT2I.jpg?imwidth=640",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:matt-ridley"
+      ],
       "publication_ids": [
         "org:the-telegraph"
       ]
@@ -1106,6 +1116,300 @@
       "publication_ids": [
         "org:virologica-sinica"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Guo, Hua et al.",
+      "title": "Evolutionary Arms Race between Virus and Host Drives Genetic Diversity in Bat SARS-Related Coronavirus Spike Genes",
+      "publication": "Journal of Virology",
+      "date": "September 29, 2020",
+      "url": "https://journals.asm.org/doi/10.1128/jvi.00902-20",
+      "status": "ok",
+      "artifact": "artifacts/ch11-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Journal of Virology study on Chinese horseshoe bats showing evolutionary arms-race diversity in bat SARSr-CoV spike genes and polymorphic ACE2 receptors—identifying residues relevant to interspecies transmission and spillover risk.",
+      "book_role": "Notes citation on bat SARSr-CoV spike/ACE2 diversity underlying spillover debates.",
+      "topics": [
+        "bat coronaviruses",
+        "ACE2 receptors",
+        "sarbecoviruses",
+        "SARS",
+        "Journal of Virology"
+      ],
+      "entities": {
+        "people": [
+          "Hua Guo"
+        ],
+        "orgs": [
+          "Journal of Virology"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:journal-of-virology"
+        ],
+        "places": []
+      },
+      "source_key": "ch11-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:journal-of-virology"
+      ],
+      "topic_ids": [
+        "topic:bat-coronaviruses",
+        "topic:ace2-receptors",
+        "topic:sarbecoviruses",
+        "topic:sars",
+        "org:journal-of-virology"
+      ],
+      "date_iso": "2020-09-29"
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "author": "Segreto, Rossana et al.",
+      "title": "Should we discount the laboratory origin of COVID-19?, Environmental Chemistry Letters",
+      "publication": "25 March",
+      "date": "2021",
+      "url": "https://link.springer.com/article/10.1007/s10311-021-01211-0",
+      "status": "ok",
+      "artifact": "artifacts/ch11-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Environmental Chemistry Letters editorial by Segreto and colleagues arguing that features such as human-optimized RBD binding and the unique sarbecovirus furin cleavage site mean a laboratory origin of COVID-19 should not be discounted versus natural zoonosis.",
+      "book_role": "Notes citation pushing back against near-consensus dismissal of lab origin.",
+      "topics": [
+        "lab-leak hypothesis",
+        "furin cleavage site",
+        "ACE2 receptors",
+        "zoonosis",
+        "Rossana Segreto"
+      ],
+      "entities": {
+        "people": [
+          "Rossana Segreto"
+        ],
+        "orgs": [
+          "Environmental Chemistry Letters"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:rossana-segreto"
+        ],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch11-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:rossana-segreto"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:furin-cleavage-site",
+        "topic:ace2-receptors",
+        "topic:zoonosis",
+        "person:rossana-segreto"
+      ],
+      "date_iso": "2021"
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Latham, Jonathan",
+      "title": "and Allison Wilson, A Proposed Origin for SARS-CoV-2 and the COVID-19 Pandemic",
+      "publication": "Independent Science News",
+      "date": "July 15, 2020",
+      "url": "https://www.researchgate.net/publication/343107535_A_Proposed_Origin_for_SARS-CoV-2_and_the_COVID-19_Pandemic_httpswwwindependentsciencenewsorgcommentariesa-proposed-origin-for-sars-cov-_2-and-the-covid-19-pandemic",
+      "status": "ok",
+      "artifact": "artifacts/ch11-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Independent Science News commentary by Jonathan Latham and Allison Wilson proposing a laboratory-linked pathway for SARS-CoV-2, including discussion of serial passaging and why RaTG13 alone is an imperfect natural progenitor explanation.",
+      "book_role": "Notes citation for a detailed proposed lab-origin pathway for SARS-CoV-2.",
+      "topics": [
+        "lab-leak hypothesis",
+        "serial passaging",
+        "RaTG13",
+        "SARS-CoV-2",
+        "Jonathan Latham",
+        "Independent Science News"
+      ],
+      "entities": {
+        "people": [
+          "Jonathan Latham",
+          "Allison Wilson"
+        ],
+        "orgs": [
+          "Independent Science News"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jonathan-latham"
+        ],
+        "orgs": [
+          "org:independent-science-news"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch11-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:jonathan-latham"
+      ],
+      "publication_ids": [
+        "org:independent-science-news"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:serial-passaging",
+        "topic:ratg13",
+        "topic:sars-cov-2",
+        "person:jonathan-latham",
+        "org:independent-science-news"
+      ],
+      "date_iso": "2020-07-15"
+    },
+    {
+      "id": 4,
+      "type": "Journal article",
+      "author": "Segreto, Rossana",
+      "title": "and Yuri Deigin, The genetic structure of SARS-CoV-2 does not rule out a laboratory origin",
+      "publication": "BioEssays",
+      "date": "November 29, 2020",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/bies.202000240",
+      "status": "ok",
+      "artifact": "artifacts/ch11-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "BioEssays paper by Segreto and Deigin arguing SARS-CoV-2’s chimeric genome (RaTG13-like backbone with pangolin-like RBD) and furin cleavage site are compatible with genetic manipulation or other laboratory intervention, not only natural recombination.",
+      "book_role": "Notes citation that genetic structure does not rule out a laboratory origin.",
+      "topics": [
+        "lab-leak hypothesis",
+        "furin cleavage site",
+        "chimeric viruses",
+        "RaTG13",
+        "pangolins",
+        "Rossana Segreto",
+        "Yuri Deigin"
+      ],
+      "entities": {
+        "people": [
+          "Rossana Segreto",
+          "Yuri Deigin"
+        ],
+        "orgs": [
+          "BioEssays"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:rossana-segreto",
+          "person:yuri-deigin"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch11-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:rossana-segreto"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:furin-cleavage-site",
+        "topic:chimeric-viruses",
+        "topic:ratg13",
+        "topic:pangolins",
+        "person:rossana-segreto",
+        "person:yuri-deigin"
+      ],
+      "date_iso": "2020-11-29"
+    },
+    {
+      "id": 5,
+      "type": "Book",
+      "author": "Ridley, Matt",
+      "title": "and Alina Chan, Viral: The Search for the Origin of COVID-19",
+      "publication": "Harper",
+      "date": "November 16, 2021",
+      "url": "https://www.amazon.com/Viral-Search-Covid-19-Alina-Chan/dp/0008487499",
+      "status": "ok",
+      "artifact": "artifacts/ch11-n05.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Matt Ridley and Alina Chan’s 2021 book Viral: The Search for the Origin of COVID-19, investigating market spillover versus Wuhan laboratory hypotheses. Amazon product page only; no book text captured.",
+      "book_role": "Notes citation for the Ridley–Chan book-length origins investigation.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "SARS-CoV-2",
+        "Matt Ridley",
+        "Amazon"
+      ],
+      "entities": {
+        "people": [
+          "Matt Ridley",
+          "Alina Chan"
+        ],
+        "orgs": [
+          "Amazon",
+          "Harper"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:matt-ridley"
+        ],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch11-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:matt-ridley"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:sars-cov-2",
+        "person:matt-ridley",
+        "org:amazon"
+      ],
+      "date_iso": "2021-11-16"
     }
   ]
 }

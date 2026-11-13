@@ -26,7 +26,7 @@ The corpus follows a common digital-library split:
 | **Acquisition metadata** | `status`, `artifact`, `acquisition_note` | Access / copy status |
 | **Derived public views** | `corpus-index.json`, `authority-search-index.json` | OPAC / discovery layer |
 
-**Stable identifier:** `source_key` (e.g. `ch00-s01`) — chapter number + source id within that chapter. Use this in scripts, reports, and discussions.
+**Stable identifier:** `source_key` — global id for a work. Main bibliography keys use `ch{NN}-s{id:02d}` (e.g. `ch00-s01`); Notes-only keys use `ch{NN}-n{id:02d}` (e.g. `ch12-n01`). Each work appears **once** in the corpus (main *or* notes).
 
 ---
 
@@ -89,7 +89,8 @@ Each `extended/chapter-NN.json`:
   "chapter": 0,
   "chapter_title": "Prologue: Night Train to Wuhan",
   "printed_pages": { "start": 1, "end": 13 },
-  "sources": [ /* source records */ ]
+  "sources": [ /* main bibliography records */ ],
+  "notes_sources": [ /* Notes-only records; omit or [] if none */ ]
 }
 ```
 
@@ -98,13 +99,16 @@ Each `extended/chapter-NN.json`:
 | `chapter` | integer | `0` = Prologue; `1`–`19` = chapters |
 | `chapter_title` | string | Full chapter title as in the book |
 | `printed_pages` | object | Print-edition page span for the chapter |
-| `sources` | array | Ordered bibliographic records for that chapter |
+| `sources` | array | Ordered **main** bibliographic records (printed Sources list) |
+| `notes_sources` | array | Optional. Same record shape as `sources`, for citations that appear only in Notes. Independent `id` sequence starting at `1`. |
+
+**Identity rule:** one work, one record anywhere in the corpus. Do not add a Notes record that duplicates an existing main (or notes) work. Cross-references between chapters stay as narrative pointers in Notes HTML (and may gain richer xref features later).
 
 ---
 
 ## 5. Source record data dictionary
 
-Fields fall into four groups.
+Fields fall into four groups. Records in `sources` and `notes_sources` share this shape.
 
 ### 5.1 Citation (transcribed bibliography)
 
@@ -112,8 +116,8 @@ Keep these as **printed/cited** text. Do not replace `author` with an authority 
 
 | Field | Required | Description |
 |---|---|---|
-| `id` | yes | Integer id **within the chapter** (not globally unique alone) |
-| `source_key` | yes | Global id: `ch{chapter:02d}-s{id:02d}` |
+| `id` | yes | Integer id **within that array** (main and notes sequences are independent) |
+| `source_key` | yes | Global id: main `ch{chapter:02d}-s{id:02d}`; notes `ch{chapter:02d}-n{id:02d}` |
 | `type` | yes | Human citation genre (e.g. Article, Book, Twitter post, Report) |
 | `author` | yes* | Citation author string (*empty allowed when truly unknown) |
 | `title` | yes | Title or quoted snippet for social posts |
@@ -208,14 +212,15 @@ Used for filtering/labels in the public catalog (`content_kind_label` is added a
 
 ### 8.2 Add a new source to a chapter
 
-1. Append a new object to that chapter’s `sources` array.
-2. Set `id` to the next unused integer **in that chapter**.
-3. Set `source_key` to `ch{NN}-s{id:02d}` (zero-padded id).
+1. Append a new object to that chapter’s `sources` array (main bibliography) **or** `notes_sources` (Notes-only).
+2. Set `id` to the next unused integer **in that array**.
+3. Set `source_key` to `ch{NN}-s{id:02d}` (main) or `ch{NN}-n{id:02d}` (notes).
 4. Fill citation fields, `type`, `content_kind`, `language`, `summary`.
 5. Set `url` if public; else `status: "empty_url"` and `url: ""`.
-6. If the page can be captured, add/scrape `artifacts/…` and set `artifact` + `status` (`ok` or `paywall`).
+6. If the page can be captured, scrape with `extended/_scrape_chapter.py` (see §9.4). URL/paywall cleanup is a **post-crawl** review, same as the main bibliography.
 7. Add `topics` / `entities` as working strings; run linkers + label sync so `*_ids` populate.
-8. Rebuild indexes (§10).
+8. Confirm the work is not already in the corpus (any chapter, main or notes).
+9. Rebuild indexes (§10).
 
 ### 8.3 Change a URL (e.g. to Wayback)
 
@@ -266,16 +271,38 @@ From repo root, prefix with `origins/sources/data/`.
 | `_enrich_image_urls.py` | Fill `image_url` from og/Twitter cards |
 | `_normalize_catalog.py` | Catalog normalization helpers |
 | `_authority_lib.py` | Shared authority loaders |
-| `extended/_scrape_chapter.py` | Firecrawl scrape into artifacts |
-| `extended/_build_extended.py` | Older extended-build helper |
+| `extended/_scrape_chapter.py` | Firecrawl scrape into artifacts; patches `extended/chapter-NN.json` in place (`--section main\|notes\|all`, `--only-missing`) |
+| `extended/_build_extended.py` | **Legacy only** — refuses to overwrite live chapters (would drop `notes_sources` / authority fields) |
 
-### 9.3 Generated index contract
+### 9.3 Scrape artifacts (main or Notes)
+
+Catalog of record is `extended/chapter-NN.json`. The scraper reads that file and patches `artifact` / safe `status` updates onto the same records (it does **not** regenerate the chapter).
+
+```bash
+cd origins/sources/data
+
+# Notes-only (typical for the new notes_sources batch)
+python3 extended/_scrape_chapter.py 8 --section notes
+
+# Skip records that already have a local artifact
+python3 extended/_scrape_chapter.py 8 --section notes --only-missing
+
+# Main bibliography only (default --section)
+python3 extended/_scrape_chapter.py 8
+```
+
+Artifact paths: main `artifacts/chNN-sMM.md`, Notes `artifacts/chNN-nMM.md`. Scrape-only outcomes (`skipped`, `not_found`, …) stay in the scrape log / `acquisition_note`; catalog `status` remains `ok` / `paywall` / `empty_url` until post-crawl review. Do **not** run `_build_extended.py` on live chapters.
+
+### 9.4 Generated index contract
 
 `corpus-index.json` includes a subset of each source for the browser (no `acquisition_note`, no artifact bodies). It also adds:
 
 - `chapter`, `chapter_title`
 - `content_kind_label`
 - `authority_ids` (flattened ids for search/filter)
+- `section`: `"main"` or `"notes"` (from `sources` vs `notes_sources`)
+
+Chapter `source_count` in the generated chapter list remains **main-only**. The chapter Sources UI filters to `section === "main"`; search/explore may include both sections.
 
 Header fields `generated_at`, `input_sha256`, and `note` mark the file as generated. `corpus-index.sha256` stores the input fingerprint from the last successful build.
 
@@ -315,17 +342,18 @@ Use them for audit and rollback research; they are not loaded by the site.
 Before publishing a data change:
 
 - [ ] Only extended chapters (and authorities) were hand-edited for bib truth  
-- [ ] New sources have unique `source_key` / chapter `id`  
+- [ ] New sources have unique `source_key` / chapter-array `id` (`s` vs `n` keys as appropriate)  
+- [ ] Notes-only works live in `notes_sources` and do not duplicate an existing corpus work  
 - [ ] `status` and `url` agree (`empty_url` ⇒ empty url)  
 - [ ] Linkers + label sync + verify ran clean (or warnings understood)  
 - [ ] `_build_corpus_index.py` + `_verify_corpus_index.py` + search index rebuild succeeded  
-- [ ] Sources page: chapter shelf, search, and one expanded card look correct  
+- [ ] Sources page: chapter shelf shows main only; search can include notes; one expanded card looks correct  
 
 ---
 
 ## 14. Counts (order of magnitude)
 
-The live corpus is on the order of **~300 sources** across **20 chapter files** (prologue + 19). Rebuild scripts print exact `sourceCount` / status tallies when run.
+The live corpus is on the order of **~300+ sources** across **20 chapter files** (prologue + 19), including Notes-only records. Rebuild scripts print exact `sourceCount` / status tallies when run.
 
 ---
 
@@ -361,7 +389,7 @@ Engine-agnostic. SQLite is enough for a first backend; Postgres if you need conc
 | Table | PK / keys | Source |
 |---|---|---|
 | `chapters` | `number` (int) | `extended/chapter-*.json` header (`chapter`, `chapter_title`, `printed_pages`) |
-| `sources` | `source_key` (text); unique `(chapter_number, id)` | each object in `sources[]` |
+| `sources` | `source_key` (text); unique `(chapter_number, section, id)` | each object in `sources[]` and `notes_sources[]` (`section` ∈ `{main,notes}`) |
 | `authorities` | `id` (text) | `authority/persons.json` etc. (`prefLabel`, `indexTerm`, `altLabels`, `source`, …) |
 | `source_authors` | `(source_key, position)` → `authority_id` | `author_ids[]` (preserve order) |
 | `source_publications` | `(source_key, position)` → `authority_id` | `publication_ids[]` |
@@ -369,7 +397,7 @@ Engine-agnostic. SQLite is enough for a first backend; Postgres if you need conc
 | `source_entities` | `(source_key, role, position)` → `authority_id` | `entity_ids.{people,orgs,places}` with `role ∈ {people,orgs,places}` |
 
 **`sources` columns (map 1:1 from JSON):**  
-`chapter_number`, `id`, `type`, `author`, `title`, `publication`, `date`, `date_iso`, `url`, `status`, `content_kind`, `language`, `summary`, `book_role`, `artifact`, `acquisition_note`, `image_url`.
+`chapter_number`, `section` (`main`|`notes`), `id`, `type`, `author`, `title`, `publication`, `date`, `date_iso`, `url`, `status`, `content_kind`, `language`, `summary`, `book_role`, `artifact`, `acquisition_note`, `image_url`.
 
 **Do not normalize away** transcribed `author` / `publication` strings—they are citation text, not authority labels (§5.1).
 
@@ -411,9 +439,9 @@ Engine-agnostic. SQLite is enough for a first backend; Postgres if you need conc
 
 **Phase 3 — Load chapters & sources**
 
-1. For each `extended/chapter-NN.json`, upsert `chapters`, then each source into `sources`.  
+1. For each `extended/chapter-NN.json`, upsert `chapters`, then each record in `sources` and `notes_sources` into `sources` (with `section`).  
 2. Prefer `source_key` as upsert key.  
-3. Verify: source count = sum of `sources` arrays; every `source_key` unique.
+3. Verify: source count = sum of `sources` + `notes_sources` arrays; every `source_key` unique.
 
 **Phase 4 — Load link tables**
 

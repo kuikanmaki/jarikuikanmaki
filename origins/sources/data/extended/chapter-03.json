@@ -797,5 +797,237 @@
         "org:medium"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Article",
+      "author": "Kang, Shu",
+      "title": "Scientific Evidence and Logic Behind the Claim That the Wuhan Coronavirus Is Man-Made",
+      "publication": "Nerd Has Power",
+      "date": "March 15, 2020",
+      "url": "https://nerdhaspower.weebly.com/blog/scientific-evidence-and-logic-behind-the-claim-that-the-wuhan-coronavirus-is-man-made",
+      "status": "ok",
+      "artifact": "artifacts/ch03-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "March 2020 blog essay by Shu Kang arguing, from published sequence and research evidence, that a non-natural (laboratory) origin of the Wuhan coronavirus is scientifically legitimate and under-discussed relative to zoonosis claims.",
+      "book_role": "Early Notes citation assembling a public case for a man-made origin hypothesis.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "gain-of-function research"
+      ],
+      "entities": {
+        "people": [
+          "Shu Kang"
+        ],
+        "orgs": [],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch03-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:gain-of-function-research"
+      ],
+      "date_iso": "2020-03-15"
+    },
+    {
+      "id": 2,
+      "type": "Preprint",
+      "author": "Pradhan et al.",
+      "title": "Uncanny similarity of unique inserts in the 2019-nCoV spike protein to HIV-1 GP120 and Gag",
+      "publication": "bioRxiv",
+      "date": "February 2, 2020",
+      "url": "https://www.biorxiv.org/content/10.1101/2020.01.30.927871v2",
+      "status": "ok",
+      "artifact": "artifacts/ch03-n02.md",
+      "content_kind": "preprint",
+      "language": "en",
+      "summary": "Withdrawn bioRxiv preprint by Pradhan et al. claiming four short inserts in the 2019-nCoV spike protein were uncannily similar to HIV-1 gp120/Gag motifs—an early, heavily contested lab-origin argument later retracted from the preprint server.",
+      "book_role": "Notes citation for the early HIV-insert spike claim that circulated in origin debates.",
+      "topics": [
+        "SARS-CoV-2",
+        "lab-leak hypothesis",
+        "bioRxiv"
+      ],
+      "entities": {
+        "people": [
+          "Prashant Pradhan"
+        ],
+        "orgs": [
+          "bioRxiv"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:biorxiv"
+        ],
+        "places": []
+      },
+      "source_key": "ch03-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:biorxiv"
+      ],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:lab-leak-hypothesis",
+        "org:biorxiv"
+      ],
+      "date_iso": "2020-02-02"
+    },
+    {
+      "id": 3,
+      "type": "Newspaper article",
+      "author": "Owen, Glenn",
+      "title": "Wuhan lab was performing experiments on bats from coronavirus caves",
+      "publication": "Daily Mail",
+      "date": "April 11, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-8211257/Wuhan-lab-performing-experiments-bats-coronavirus-caves.html",
+      "status": "ok",
+      "artifact": "artifacts/ch03-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Mail on Sunday report that WIV researchers sampled bats more than 1,000 miles away in Yunnan caves linked to SARS-like coronaviruses, and that a lab accident in Wuhan was ‘no longer being discounted.’",
+      "book_role": "Notes citation tying WIV bat fieldwork in Yunnan to early lab-accident scrutiny.",
+      "topics": [
+        "bat coronaviruses",
+        "lab-leak hypothesis",
+        "Wuhan Institute of Virology",
+        "Shi Zhengli"
+      ],
+      "entities": {
+        "people": [
+          "Glenn Owen",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "Daily Mail",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "Yunnan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:glenn-owen",
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:daily-mail",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch03-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:glenn-owen"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
+      ],
+      "topic_ids": [
+        "topic:bat-coronaviruses",
+        "topic:lab-leak-hypothesis",
+        "org:wuhan-institute-of-virology",
+        "person:shi-zhengli"
+      ],
+      "date_iso": "2020-04-11"
+    },
+    {
+      "id": 4,
+      "type": "Newspaper article",
+      "author": "Owen, Glenn",
+      "title": "Revealed: U.S. Government Gave $3.7 Million Grant to Wuhan Lab at Center of Coronavirus Leak Scrutiny That Was Performing Experiments on Bats from the Caves Where the Disease Is Believed to Have Originated",
+      "publication": "Daily Mail",
+      "date": "April 12, 2020",
+      "url": "https://www.dailymail.co.uk/news/article-8211291/U-S-government-gave-3-7million-grant-Wuhan-lab-experimented-coronavirus-source-bats.html",
+      "status": "ok",
+      "artifact": "artifacts/ch03-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Mail on Sunday follow-up that NIH awarded about $3.7 million supporting coronavirus work connected to the Wuhan Institute of Virology, including bat coronavirus research tied to Yunnan cave samples.",
+      "book_role": "Notes citation on U.S. funding links to WIV bat-coronavirus research.",
+      "topics": [
+        "bat coronaviruses",
+        "gain-of-function research",
+        "lab-leak hypothesis",
+        "Wuhan Institute of Virology",
+        "NIH",
+        "EcoHealth Alliance"
+      ],
+      "entities": {
+        "people": [
+          "Glenn Owen"
+        ],
+        "orgs": [
+          "Daily Mail",
+          "NIH",
+          "Wuhan Institute of Virology",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "Wuhan",
+          "Yunnan",
+          "United States",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:glenn-owen"
+        ],
+        "orgs": [
+          "org:daily-mail",
+          "org:nih",
+          "org:wuhan-institute-of-virology",
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch03-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:glenn-owen"
+      ],
+      "publication_ids": [
+        "org:daily-mail"
+      ],
+      "topic_ids": [
+        "topic:bat-coronaviruses",
+        "topic:gain-of-function-research",
+        "topic:lab-leak-hypothesis",
+        "org:wuhan-institute-of-virology",
+        "org:nih",
+        "org:ecohealth-alliance"
+      ],
+      "date_iso": "2020-04-12"
+    }
   ]
 }

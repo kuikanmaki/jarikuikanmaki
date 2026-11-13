@@ -339,7 +339,7 @@ def main() -> None:
 
     for path in chapter_files:
         data = json.loads(path.read_text(encoding="utf-8"))
-        for source in data.get("sources") or []:
+        for source in (data.get("sources") or []) + (data.get("notes_sources") or []):
             key = source.get("source_key") or f"ch{data['chapter']:02d}-s{source['id']:02d}"
             names = parse_author_string(source.get("author") or "")
             # If full author string resolves as one org/person, prefer that over aggressive splits
@@ -376,7 +376,7 @@ def main() -> None:
     for path in chapter_files:
         data = json.loads(path.read_text(encoding="utf-8"))
         changed = False
-        for source in data.get("sources") or []:
+        for source in (data.get("sources") or []) + (data.get("notes_sources") or []):
             key = source.get("source_key") or f"ch{data['chapter']:02d}-s{source['id']:02d}"
             names = parsed_by_source.get(key) or parse_author_string(source.get("author") or "")
             author_ids: list[str] = []

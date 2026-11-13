@@ -554,5 +554,69 @@
         "org:substack"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Lu, Wei",
+      "title": "and Zheng Liu, Shi Zhengli: The Female Scientist with viruses",
+      "publication": "Sciencenet News",
+      "date": "March 10, 2009",
+      "url": "https://web.archive.org/web/20190207020202/http://news.sciencenet.cn/sbhtmlnews/2009/3/216816.html",
+      "status": "ok",
+      "artifact": "artifacts/ch14-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "2009 Sciencenet profile of Shi Zhengli as a Wuhan Institute of Virology bat-virus researcher—covering her post-SARS field sampling in Chinese bats, discovery of SARS-like CoVs in horseshoe bats, and Science/JGV publications that made her a leading bat-coronavirus figure.",
+      "book_role": "Notes citation establishing Shi’s pre-pandemic bat SARS-like coronavirus research record.",
+      "topics": [
+        "bat coronaviruses",
+        "SARS",
+        "Shi Zhengli",
+        "Wuhan Institute of Virology",
+        "Chinese Academy of Sciences"
+      ],
+      "entities": {
+        "people": [
+          "Shi Zhengli",
+          "Lu Wei"
+        ],
+        "orgs": [
+          "Wuhan Institute of Virology",
+          "Chinese Academy of Sciences",
+          "Sciencenet News"
+        ],
+        "places": [
+          "Wuhan",
+          "Henan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology",
+          "org:chinese-academy-of-sciences"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch14-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:bat-coronaviruses",
+        "topic:sars",
+        "person:shi-zhengli",
+        "org:wuhan-institute-of-virology",
+        "org:chinese-academy-of-sciences"
+      ],
+      "date_iso": "2009-03-10"
+    }
   ]
 }

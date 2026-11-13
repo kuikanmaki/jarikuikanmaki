@@ -611,7 +611,9 @@
           "person:donald-trump",
           "person:mike-pompeo"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:cnn"
+        ],
         "places": [
           "place:wuhan",
           "place:china",
@@ -623,7 +625,9 @@
       "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/170706100527-zachary-cohen.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [
+        "org:cnn"
+      ]
     },
     {
       "id": 13,
@@ -1285,6 +1289,416 @@
       "publication_ids": [
         "org:the-telegraph"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Newspaper article",
+      "author": "Apuzzo, Matt",
+      "title": "Pressured by China, E.U. Softens Report on Covid-19 Disinformation",
+      "publication": "New York Times",
+      "date": "April 24, 2020",
+      "url": "https://web.archive.org/web/20200426000915/https://www.nytimes.com/2020/04/24/world/europe/disinformation-china-eu-coronavirus.html",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "New York Times report that EU officials softened language criticizing China in a COVID-19 disinformation assessment after heavy pressure from Beijing, based on documents, emails, and interviews.",
+      "book_role": "Notes citation on early political pressure shaping official COVID disinformation narratives.",
+      "topics": [
+        "censorship",
+        "COVID-19",
+        "The New York Times"
+      ],
+      "entities": {
+        "people": [
+          "Matt Apuzzo"
+        ],
+        "orgs": [
+          "The New York Times",
+          "European Union"
+        ],
+        "places": [
+          "Europe",
+          "Brussels",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-new-york-times"
+        ],
+        "places": [
+          "place:europe"
+        ]
+      },
+      "source_key": "ch08-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:covid-19",
+        "org:the-new-york-times"
+      ],
+      "date_iso": "2020-04-24"
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "author": "",
+      "title": "Wuhan Institute of Virology, Partnerships",
+      "publication": "Official English Website",
+      "date": "May 29, 2019",
+      "url": "https://web.archive.org/web/20190529171301/https://english.whiov.cas.cn/International_Cooperation2016/Partnerships/",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Archived May 2019 English WIV ‘Partnerships’ page listing international collaborators before the pandemic, including EcoHealth Alliance, NIH, Institut Pasteur, Lyon P4, and multiple U.S. and European universities.",
+      "book_role": "Notes citation preserving WIV’s pre-pandemic international partnership roster.",
+      "topics": [
+        "Wuhan Institute of Virology",
+        "EcoHealth Alliance",
+        "NIH",
+        "BSL-4 laboratory"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "Wuhan Institute of Virology",
+          "EcoHealth Alliance",
+          "NIH",
+          "Chinese Academy of Sciences",
+          "Institut Pasteur"
+        ],
+        "places": [
+          "Wuhan",
+          "France",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology",
+          "org:ecohealth-alliance",
+          "org:nih",
+          "org:chinese-academy-of-sciences"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch08-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "org:wuhan-institute-of-virology",
+        "org:ecohealth-alliance",
+        "org:nih",
+        "topic:bsl-4-laboratory"
+      ],
+      "date_iso": "2019-05-29"
+    },
+    {
+      "id": 3,
+      "type": "PDF document",
+      "author": "",
+      "title": "China Opens First Bio Safety Level 4 Laboratory (Cable 18 BEIJING 138), January 19, 2018. Declassified July 25, 2022",
+      "publication": "published by U.S. Right to Know",
+      "date": "",
+      "url": "https://usrtk.org/wp-content/uploads/2023/02/Unredacted-Cable.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n03.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Unredacted January 2018 U.S. Embassy Beijing cable (18 BEIJING 138) on China’s first CAS/WIV BSL-4 lab: shortage of trained staff, unclear national guidelines, and the need for more transparent oversight and international technical help.",
+      "book_role": "Notes citation for the State Department cable on WIV BSL-4 staffing and safety gaps.",
+      "topics": [
+        "BSL-4 laboratory",
+        "biosafety",
+        "biosecurity",
+        "Wuhan Institute of Virology",
+        "Chinese Academy of Sciences",
+        "U.S. Right to Know"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "Wuhan Institute of Virology",
+          "Chinese Academy of Sciences",
+          "U.S. Right to Know"
+        ],
+        "places": [
+          "Wuhan",
+          "Beijing",
+          "China",
+          "France"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:wuhan-institute-of-virology",
+          "org:chinese-academy-of-sciences",
+          "org:u-s-right-to-know"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch08-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:bsl-4-laboratory",
+        "topic:biosafety",
+        "topic:biosecurity",
+        "org:wuhan-institute-of-virology",
+        "org:chinese-academy-of-sciences",
+        "org:u-s-right-to-know"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Newspaper article",
+      "author": "Boswell, Josh",
+      "title": "Chinese scientists created COVID-19 in a lab and then tried to cover their tracks, new study claims",
+      "publication": "Daily Mail",
+      "date": "May 28, 2021",
+      "url": "https://www.dailymail.co.uk/news/article-9629563/Chinese-scientists-created-COVID-19-lab-tried-cover-tracks-new-study-claims.html",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Daily Mail coverage of a Dalgleish–Sørensen study claiming Chinese scientists engineered SARS-CoV-2 then reverse-engineered related sequences to mimic natural bat evolution—reporting that journals had long ignored their evidence.",
+      "book_role": "Notes citation for press amplification of the Dalgleish–Sørensen lab-engineering claim.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "bat coronaviruses",
+        "reverse genetics",
+        "Daily Mail"
+      ],
+      "entities": {
+        "people": [
+          "Josh Boswell",
+          "Angus Dalgleish",
+          "Birger Sørensen"
+        ],
+        "orgs": [
+          "Daily Mail"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:daily-mail"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch08-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:daily-mail"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:bat-coronaviruses",
+        "topic:reverse-genetics",
+        "org:daily-mail"
+      ],
+      "date_iso": "2021-05-28"
+    },
+    {
+      "id": 5,
+      "type": "Article",
+      "author": "Hale, Thomas",
+      "title": "et al., Variation in Government Responses to COVID-19",
+      "publication": "Oxford COVID-19 Government Response Tracker",
+      "date": "2020",
+      "url": "https://www.bsg.ox.ac.uk/research/publications/variation-government-responses-covid-19",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Oxford Blavatnik School working paper introducing the OxCGRT dataset—systematic, comparable indices of government COVID-19 policy responses across countries and subnational jurisdictions over time.",
+      "book_role": "Notes citation for cross-country tracking of lockdown and related COVID policy stringency.",
+      "topics": [
+        "COVID-19",
+        "Zero Covid"
+      ],
+      "entities": {
+        "people": [
+          "Thomas Hale"
+        ],
+        "orgs": [
+          "Oxford COVID-19 Government Response Tracker",
+          "Blavatnik School of Government"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch08-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:zero-covid"
+      ],
+      "date_iso": "2020"
+    },
+    {
+      "id": 6,
+      "type": "Article",
+      "author": "",
+      "title": "Transmission of SARS-CoV-2: Implications for Infection Prevention Precautions",
+      "publication": "WHO",
+      "date": "July 9, 2020",
+      "url": "https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "WHO July 2020 scientific brief on SARS-CoV-2 transmission modes—contact, droplet, airborne (especially aerosol-generating procedures), fomite, and other pathways—and implications for infection-prevention precautions. Later marked outdated on the WHO site.",
+      "book_role": "Notes citation for WHO’s mid-2020 framing of how COVID spreads and what precautions follow.",
+      "topics": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "WHO"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "WHO"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:who"
+        ],
+        "places": []
+      },
+      "source_key": "ch08-n06",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "org:who"
+      ],
+      "date_iso": "2020-07-09"
+    },
+    {
+      "id": 7,
+      "type": "Article",
+      "author": "",
+      "title": "Democracy under Lockdown: The Impact of COVID-19 on Global Freedom",
+      "publication": "Freedom House",
+      "date": "October 2020",
+      "url": "https://freedomhouse.org/article/new-report-democracy-under-lockdown-impact-covid-19-global-freedom",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Freedom House special report arguing COVID emergency measures deepened a global democracy crisis—worsening rights in 80 countries via disrupted elections, press curbs, ‘fake news’ laws, and emergency powers beyond public-health need.",
+      "book_role": "Notes citation on lockdown-era democratic backsliding and information controls.",
+      "topics": [
+        "COVID-19",
+        "censorship",
+        "Zero Covid"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "Freedom House"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch08-n07",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:censorship",
+        "topic:zero-covid"
+      ],
+      "date_iso": "2020-10"
+    },
+    {
+      "id": 8,
+      "type": "Journal article",
+      "author": "Herby, Jonas",
+      "title": "et al., Were COVID-19 lockdowns worth it? A meta-analysis",
+      "publication": "Public Choice",
+      "date": "November 28, 2024",
+      "url": "https://link.springer.com/article/10.1007/s11127-024-01216-7",
+      "status": "ok",
+      "artifact": "artifacts/ch08-n08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Public Choice meta-analysis by Herby, Jonung, and Hanke finding spring-2020 mandatory lockdowns had a relatively small effect on COVID-19 mortality, while voluntary behavior change played a large mitigating role amid high economic costs.",
+      "book_role": "Notes citation questioning the mortality payoff of early mandatory lockdowns.",
+      "topics": [
+        "COVID-19",
+        "Zero Covid"
+      ],
+      "entities": {
+        "people": [
+          "Jonas Herby",
+          "Lars Jonung",
+          "Steve Hanke"
+        ],
+        "orgs": [
+          "Public Choice"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch08-n08",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:zero-covid"
+      ],
+      "date_iso": "2024-11-28"
     }
   ]
 }

@@ -217,7 +217,7 @@ def main() -> None:
 
     for path in chapter_files:
         data = json.loads(path.read_text(encoding="utf-8"))
-        for source in data.get("sources") or []:
+        for source in (data.get("sources") or []) + (data.get("notes_sources") or []):
             key = source.get("source_key") or f"ch{data['chapter']:02d}-s{source['id']:02d}"
             tokens = parse_publication_string(source.get("publication") or "")
             parsed_by_source[key] = tokens
@@ -240,7 +240,7 @@ def main() -> None:
     for path in chapter_files:
         data = json.loads(path.read_text(encoding="utf-8"))
         changed = False
-        for source in data.get("sources") or []:
+        for source in (data.get("sources") or []) + (data.get("notes_sources") or []):
             key = source.get("source_key") or f"ch{data['chapter']:02d}-s{source['id']:02d}"
             tokens = parsed_by_source.get(key) or parse_publication_string(source.get("publication") or "")
             publication_ids: list[str] = []

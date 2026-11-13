@@ -144,7 +144,9 @@
         "people": [
           "person:ralph-baric"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:pnas"
+        ],
         "places": []
       },
       "source_key": "ch12-s03",
@@ -152,7 +154,9 @@
       "image_url": "https://www.pnas.org/cms/10.1073/pnas.0808116105/asset/a876f9e6-3613-4196-8b08-f35013154517/assets/graphic/zpq9990857570001.jpeg",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [
+        "org:pnas"
+      ]
     },
     {
       "id": 4,
@@ -258,7 +262,8 @@
         "people": [
           "person:ralph-baric",
           "person:shi-zhengli",
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:rowan-jacobsen"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
@@ -273,7 +278,9 @@
       "date_iso": "2021-06-29",
       "image_url": "https://wp.technologyreview.com/wp-content/uploads/2021/06/Effect.jpg?resize=1200,600",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:rowan-jacobsen"
+      ],
       "publication_ids": []
     },
     {
@@ -916,6 +923,495 @@
       "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": []
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Article",
+      "author": "",
+      "title": "Memorandum on the Supplementary Regulations on Strengthening the Management of Science and Technology During the Emergency Response to the Novel Coronavirus Pneumonia",
+      "publication": "CCDC",
+      "date": "February 25, 2020",
+      "url": "https://embed.documentcloud.org/documents/7340336-China-CDC-Sup-Regs/",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "China CDC February 2020 supplementary regulations tightening science-and-technology management during the novel-coronavirus emergency—reinforcing controls on research projects, biological samples, and related scientific activities.",
+      "book_role": "Notes citation for early China CDC emergency research-management rules.",
+      "topics": [
+        "censorship",
+        "COVID-19",
+        "biosecurity",
+        "Chinese Center for Disease Control and Prevention"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "Chinese Center for Disease Control and Prevention"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:chinese-center-for-disease-control-and-prevention"
+        ],
+        "places": []
+      },
+      "source_key": "ch12-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:chinese-center-for-disease-control-and-prevention"
+      ],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:covid-19",
+        "topic:biosecurity",
+        "org:chinese-center-for-disease-control-and-prevention"
+      ],
+      "date_iso": "2020-02-25"
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "author": "",
+      "title": "Notice on the Standardization of the Management of Publication of Novel Coronavirus Pneumonia Scientific Research, The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force",
+      "publication": "March 3rd",
+      "date": "2020",
+      "url": "https://embed.documentcloud.org/documents/7340337-State-Research-regulations/",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "State Council joint prevention-and-control mechanism notice standardizing publication of novel-coronavirus scientific research—requiring centralized review and coordinated deployment before epidemic-related findings are released.",
+      "book_role": "Notes citation for China’s centralized pre-publication control of COVID research.",
+      "topics": [
+        "censorship",
+        "COVID-19",
+        "Freedom of Information requests"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch12-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:covid-19",
+        "topic:freedom-of-information-requests"
+      ],
+      "date_iso": "2020"
+    },
+    {
+      "id": 3,
+      "type": "Newspaper article",
+      "author": "Gan, Nectar; Hu, Caitlin; Watson, Ivan",
+      "title": "Beijing tightens grip over coronavirus research amid US-China row on virus origin",
+      "publication": "CNN",
+      "date": "April 16, 2020",
+      "url": "https://edition.cnn.com/2020/04/12/asia/china-coronavirus-research-restrictions-intl-hnk/index.html",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "CNN report that Beijing imposed extra vetting on COVID academic papers—especially origins studies needing State Council–level approval—amid the U.S.–China origins dispute, described by researchers as narrative control.",
+      "book_role": "Notes citation on China’s publication chokehold over origins research.",
+      "topics": [
+        "censorship",
+        "lab-leak hypothesis",
+        "zoonosis",
+        "CNN",
+        "Huanan Seafood Market"
+      ],
+      "entities": {
+        "people": [
+          "Nectar Gan",
+          "Caitlin Hu",
+          "Ivan Watson"
+        ],
+        "orgs": [
+          "CNN"
+        ],
+        "places": [
+          "Wuhan",
+          "Huanan Seafood Market",
+          "Beijing",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:cnn"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:huanan-seafood-market"
+        ]
+      },
+      "source_key": "ch12-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:cnn"
+      ],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "org:cnn",
+        "place:huanan-seafood-market"
+      ],
+      "date_iso": "2020-04-16"
+    },
+    {
+      "id": 4,
+      "type": "Newspaper article",
+      "author": "Zhong, Raymond",
+      "title": "et al., No 'Negative' News: How China Censored the Coronavirus",
+      "publication": "New York Times",
+      "date": "December 19, 2020",
+      "url": "https://web.archive.org/web/20201219120000/https://www.nytimes.com/2020/12/19/technology/china-coronavirus-censorship.html",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "New York Times investigation of how Chinese censors scrubbed ‘negative’ coronavirus news—mapping propaganda directives and platform deletions that shaped what the public could see as the outbreak spread.",
+      "book_role": "Notes citation documenting China’s early COVID information censorship machine.",
+      "topics": [
+        "censorship",
+        "COVID-19",
+        "The New York Times"
+      ],
+      "entities": {
+        "people": [
+          "Raymond Zhong"
+        ],
+        "orgs": [
+          "The New York Times"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-new-york-times"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch12-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Live NYT blocked by Firecrawl; replaced with Internet Archive capture and scraped via Firecrawl/Wayback.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:covid-19",
+        "org:the-new-york-times"
+      ],
+      "date_iso": "2020-12-19"
+    },
+    {
+      "id": 5,
+      "type": "Article",
+      "author": "Robertson, Lori",
+      "title": "The Wuhan Lab and the Gain-of-Function Disagreement",
+      "publication": "FactCheck.org",
+      "date": "May 21, 2021",
+      "url": "https://www.factcheck.org/2021/05/the-wuhan-lab-and-the-gain-of-function-disagreement/",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "FactCheck.org explainer on the Rand Paul–Anthony Fauci clash over whether NIH/EcoHealth funding of WIV amounted to gain-of-function research, clarifying the ~$600,000 WIV subaward while noting unresolved zoonosis and lab-accident questions.",
+      "book_role": "Notes citation framing the public GoF funding dispute around WIV.",
+      "topics": [
+        "gain-of-function research",
+        "lab-leak hypothesis",
+        "Wuhan Institute of Virology",
+        "EcoHealth Alliance",
+        "NIH",
+        "Anthony Fauci",
+        "Rand Paul"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci",
+          "Rand Paul",
+          "Lori Robertson"
+        ],
+        "orgs": [
+          "NIH",
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "FactCheck.org"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci",
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:nih",
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch12-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:lab-leak-hypothesis",
+        "org:wuhan-institute-of-virology",
+        "org:ecohealth-alliance",
+        "org:nih",
+        "person:anthony-fauci",
+        "person:rand-paul"
+      ],
+      "date_iso": "2021-05-21"
+    },
+    {
+      "id": 6,
+      "type": "Newspaper article",
+      "author": "Kessler, Glenn",
+      "title": "Fact-checking Senator Paul and Dr. Fauci flap over Wuhan lab funding",
+      "publication": "The Washington Post",
+      "date": "May 18, 2021",
+      "url": "https://www.washingtonpost.com/politics/2021/05/18/fact-checking-senator-paul-dr-fauci-flap-over-wuhan-lab-funding/",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Washington Post Fact Checker piece by Glenn Kessler assessing Senator Paul’s claim that Fauci supported NIH funding of Wuhan lab gain-of-function work—parsing EcoHealth/WIV grants, Baric–Shi collaboration context, and disputed GoF definitions.",
+      "book_role": "Notes citation for mainstream fact-checking of the Paul–Fauci GoF exchange.",
+      "topics": [
+        "gain-of-function research",
+        "lab-leak hypothesis",
+        "Anthony Fauci",
+        "Rand Paul",
+        "Ralph Baric",
+        "Shi Zhengli",
+        "The Washington Post",
+        "NIH"
+      ],
+      "entities": {
+        "people": [
+          "Glenn Kessler",
+          "Anthony Fauci",
+          "Rand Paul",
+          "Ralph Baric",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "The Washington Post",
+          "NIH",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:glenn-kessler",
+          "person:anthony-fauci",
+          "person:rand-paul",
+          "person:ralph-baric",
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:the-washington-post",
+          "org:nih",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch12-n06",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:glenn-kessler"
+      ],
+      "publication_ids": [
+        "org:the-washington-post"
+      ],
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:lab-leak-hypothesis",
+        "person:anthony-fauci",
+        "person:rand-paul",
+        "person:ralph-baric",
+        "person:shi-zhengli",
+        "org:the-washington-post",
+        "org:nih"
+      ],
+      "date_iso": "2021-05-18"
+    },
+    {
+      "id": 7,
+      "type": "Newspaper article",
+      "author": "Jacobsen, Rowan",
+      "title": "How Dr. Fauci and Other Officials Withheld Information on China's Coronavirus Experiments",
+      "publication": "Newsweek",
+      "date": "November 22, 2021",
+      "url": "https://www.newsweek.com/how-dr-fauci-other-officials-withheld-information-chinas-coronavirus-experiments-1652002",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Newsweek investigation by Rowan Jacobsen arguing Fauci and other officials withheld information about China’s coronavirus experiments amid the Senate GoF fight—examining whether NIH-linked WIV research could bear on pandemic origins.",
+      "book_role": "Notes citation alleging official opacity around China coronavirus experiments.",
+      "topics": [
+        "gain-of-function research",
+        "lab-leak hypothesis",
+        "censorship",
+        "Anthony Fauci",
+        "Rand Paul",
+        "Rowan Jacobsen",
+        "Newsweek",
+        "Wuhan Institute of Virology",
+        "NIH"
+      ],
+      "entities": {
+        "people": [
+          "Rowan Jacobsen",
+          "Anthony Fauci",
+          "Rand Paul"
+        ],
+        "orgs": [
+          "Newsweek",
+          "NIH",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:rowan-jacobsen",
+          "person:anthony-fauci",
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:newsweek",
+          "org:nih",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch12-n07",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:rowan-jacobsen"
+      ],
+      "publication_ids": [
+        "org:newsweek"
+      ],
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:lab-leak-hypothesis",
+        "topic:censorship",
+        "person:anthony-fauci",
+        "person:rand-paul",
+        "person:rowan-jacobsen",
+        "org:newsweek",
+        "org:wuhan-institute-of-virology",
+        "org:nih"
+      ],
+      "date_iso": "2021-11-22"
+    },
+    {
+      "id": 8,
+      "type": "Book",
+      "author": "Paul, Rand",
+      "title": "Deception: The Great Covid Cover-Up",
+      "publication": "Regnery",
+      "date": "October 10, 2023",
+      "url": "https://www.amazon.com/Deception-Great-Cover-Up-Rand-Paul-ebook/dp/B0C3N95LW4",
+      "status": "ok",
+      "artifact": "artifacts/ch12-n08.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Rand Paul’s 2023 book Deception: The Great Covid Cover-Up, arguing officials and scientists obscured COVID origins and related gain-of-function controversies. Amazon product page only; no book text captured.",
+      "book_role": "Notes citation for Paul’s book-length cover-up argument.",
+      "topics": [
+        "lab-leak hypothesis",
+        "gain-of-function research",
+        "censorship",
+        "Rand Paul",
+        "Amazon"
+      ],
+      "entities": {
+        "people": [
+          "Rand Paul"
+        ],
+        "orgs": [
+          "Amazon",
+          "Regnery"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": []
+      },
+      "source_key": "ch12-n08",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:rand-paul"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:gain-of-function-research",
+        "topic:censorship",
+        "person:rand-paul",
+        "org:amazon"
+      ],
+      "date_iso": "2023-10-10"
     }
   ]
 }

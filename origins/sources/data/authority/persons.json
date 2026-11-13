@@ -1308,6 +1308,126 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "person:matt-ridley",
+      "prefLabel": "Matt Ridley",
+      "indexTerm": "Ridley, Matt",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jonathan-latham",
+      "prefLabel": "Jonathan Latham",
+      "indexTerm": "Latham, Jonathan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:martin-furmanski",
+      "prefLabel": "Martin Furmanski",
+      "indexTerm": "Furmanski, Martin",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:glenn-owen",
+      "prefLabel": "Glenn Owen",
+      "indexTerm": "Owen, Glenn",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jeremy-page",
+      "prefLabel": "Jeremy Page",
+      "indexTerm": "Page, Jeremy",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:glenn-kessler",
+      "prefLabel": "Glenn Kessler",
+      "indexTerm": "Kessler, Glenn",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:fred-guterl",
+      "prefLabel": "Fred Guterl",
+      "indexTerm": "Guterl, Fred",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:jonathan-calvert",
+      "prefLabel": "Jonathan Calvert",
+      "indexTerm": "Calvert, Jonathan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:ashley-rindsberg",
+      "prefLabel": "Ashley Rindsberg",
+      "indexTerm": "Rindsberg, Ashley",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:rowan-jacobsen",
+      "prefLabel": "Rowan Jacobsen",
+      "indexTerm": "Jacobsen, Rowan",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:alison-young",
+      "prefLabel": "Alison Young",
+      "indexTerm": "Young, Alison",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:josh-christenson",
+      "prefLabel": "Josh Christenson",
+      "indexTerm": "Christenson, Josh",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

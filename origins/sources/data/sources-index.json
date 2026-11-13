@@ -1,8 +1,8 @@
 {
   "_meta": {
     "generated_from": "extended/chapter-*.json",
-    "generated_at": "2026-11-12T13:32:16.407080+00:00",
-    "note": "Chapter shelf metadata. Bibliographic source of truth is extended/chapter-*.json only."
+    "generated_at": "2026-11-13T14:15:53.144887+00:00",
+    "note": "Chapter shelf metadata. Bibliographic source of truth is extended/chapter-*.json only. source_count is main bibliography only."
   },
   "chapters": [
     {

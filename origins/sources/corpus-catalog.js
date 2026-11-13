@@ -73,7 +73,7 @@
     }
     if (view.chapter != null) {
       return sortByChapterThenId(corpus.sources.filter(function (s) {
-        return s.chapter === view.chapter;
+        return s.chapter === view.chapter && (s.section || "main") === "main";
       }));
     }
     return [];

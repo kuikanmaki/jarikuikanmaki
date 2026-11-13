@@ -320,7 +320,9 @@
         "org:wuhan-institute-of-virology"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:glenn-kessler"
+        ],
         "orgs": [
           "org:the-washington-post",
           "org:wuhan-institute-of-virology"
@@ -334,7 +336,9 @@
       "date_iso": "2021-05-25",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:glenn-kessler"
+      ],
       "publication_ids": [
         "org:the-washington-post"
       ]
@@ -776,7 +780,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:tom-cotton"
+          "person:tom-cotton",
+          "person:fred-guterl"
         ],
         "orgs": [
           "org:drastic",
@@ -792,7 +797,9 @@
       "date_iso": "2021-06-02",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1808203-wuhan-lab-theory-gains-traction.jpg?w=1200&amp;crop=1",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:fred-guterl"
+      ],
       "publication_ids": [
         "org:newsweek"
       ]
@@ -950,7 +957,9 @@
         "people": [
           "person:jesse-bloom"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:molecular-biology-and-evolution"
+        ],
         "places": [
           "place:wuhan",
           "place:china"
@@ -963,7 +972,9 @@
       "author_ids": [
         "person:jesse-bloom"
       ],
-      "publication_ids": []
+      "publication_ids": [
+        "org:molecular-biology-and-evolution"
+      ]
     },
     {
       "id": 18,
@@ -1168,6 +1179,858 @@
       "publication_ids": [
         "org:daily-mail"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Newspaper article",
+      "author": "Gebrekidan, Selam",
+      "title": "et al., In Hunt for Coronavirus Source, W.H.O. Let China Take Charge",
+      "publication": "New York Times",
+      "date": "November 2, 2020",
+      "url": "https://web.archive.org/web/20201102180000/https://www.nytimes.com/2020/11/02/world/who-china-coronavirus.html",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "New York Times investigation that WHO leadership, while publicly praising Beijing, quietly negotiated terms that blocked its own experts from probing China’s early response or visiting the live-animal market—undercutting the best early chance to trace origins.",
+      "book_role": "Notes citation on WHO concessions that sidelined an early origins investigation.",
+      "topics": [
+        "zoonosis",
+        "lab-leak hypothesis",
+        "WHO",
+        "The New York Times",
+        "Huanan Seafood Market"
+      ],
+      "entities": {
+        "people": [
+          "Selam Gebrekidan"
+        ],
+        "orgs": [
+          "WHO",
+          "The New York Times"
+        ],
+        "places": [
+          "Wuhan",
+          "Huanan Seafood Market",
+          "Beijing",
+          "China",
+          "Geneva"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:who",
+          "org:the-new-york-times"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:huanan-seafood-market"
+        ]
+      },
+      "source_key": "ch10-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Live NYT blocked by Firecrawl; replaced with Internet Archive capture and scraped via Firecrawl/Wayback.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-new-york-times"
+      ],
+      "topic_ids": [
+        "topic:zoonosis",
+        "topic:lab-leak-hypothesis",
+        "org:who",
+        "org:the-new-york-times",
+        "place:huanan-seafood-market"
+      ],
+      "date_iso": "2020-11-02"
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "author": "Page, Jeremy",
+      "title": "et al., How the WHO’s Hunt for Covid’s Origins Stumbled in China",
+      "publication": "Wall Street Journal",
+      "date": "March 17, 2021",
+      "url": "https://www.wsj.com/world/china/who-china-hunt-covid-origins-11616004512",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "WSJ investigation of the WHO-led Wuhan origins mission: China delayed the probe, vetted participants, and constrained the team—leaving little power for an impartial exam even as the joint vote spotlighted animal spillover.",
+      "book_role": "Notes citation detailing how WHO’s Wuhan mission was structurally constrained.",
+      "topics": [
+        "zoonosis",
+        "lab-leak hypothesis",
+        "WHO",
+        "The Wall Street Journal",
+        "Jeremy Page",
+        "Huanan Seafood Market"
+      ],
+      "entities": {
+        "people": [
+          "Jeremy Page"
+        ],
+        "orgs": [
+          "WHO",
+          "The Wall Street Journal"
+        ],
+        "places": [
+          "Wuhan",
+          "Huanan Seafood Market",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jeremy-page"
+        ],
+        "orgs": [
+          "org:who",
+          "org:the-wall-street-journal"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:huanan-seafood-market"
+        ]
+      },
+      "source_key": "ch10-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:jeremy-page"
+      ],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ],
+      "topic_ids": [
+        "topic:zoonosis",
+        "topic:lab-leak-hypothesis",
+        "org:who",
+        "org:the-wall-street-journal",
+        "person:jeremy-page",
+        "place:huanan-seafood-market"
+      ],
+      "date_iso": "2021-03-17"
+    },
+    {
+      "id": 3,
+      "type": "Newspaper article",
+      "author": "Calvert, Jonathan",
+      "title": "and George Arbuthnott, China, the WHO and the power grab that fuelled a pandemic",
+      "publication": "The Times",
+      "date": "August 14, 2021",
+      "url": "https://www.thetimes.com/world/asia/article/china-the-who-and-the-power-grab-that-fuelled-a-pandemic-3mt05m06n",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Sunday Times Insight investigation arguing that after SARS humiliation in 2003, China spent a decade consolidating influence inside WHO—compromising the agency’s independence by the time COVID emerged in Wuhan.",
+      "book_role": "Notes citation on China’s long-term WHO influence and pandemic consequences.",
+      "topics": [
+        "COVID-19",
+        "SARS",
+        "WHO",
+        "The Times",
+        "Jonathan Calvert"
+      ],
+      "entities": {
+        "people": [
+          "Jonathan Calvert",
+          "George Arbuthnott"
+        ],
+        "orgs": [
+          "WHO",
+          "The Times",
+          "The Sunday Times"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jonathan-calvert"
+        ],
+        "orgs": [
+          "org:who",
+          "org:the-times",
+          "org:the-sunday-times"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:jonathan-calvert"
+      ],
+      "publication_ids": [
+        "org:the-times"
+      ],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:sars",
+        "org:who",
+        "org:the-times",
+        "person:jonathan-calvert"
+      ],
+      "date_iso": "2021-08-14"
+    },
+    {
+      "id": 4,
+      "type": "Newspaper article",
+      "author": "Chiacu, Doina",
+      "title": "U.S., 13 other nations raise concerns over WHO COVID-19 origin study as delayed, lacked access – statement",
+      "publication": "Reuters",
+      "date": "March 30, 2021",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-13-countries-concerned-that-who-study-was-delayed-lacked-access-statement-2021-03-30",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Reuters report on a U.S.-led joint statement by 14 countries criticizing the WHO origins study as delayed and denied complete original data and samples, and calling for transparent follow-up access.",
+      "book_role": "Notes citation for allied governments’ formal critique of the WHO–China origins study.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "WHO",
+        "Reuters",
+        "Tedros Adhanom Ghebreyesus"
+      ],
+      "entities": {
+        "people": [
+          "Tedros Adhanom Ghebreyesus",
+          "Doina Chiacu"
+        ],
+        "orgs": [
+          "WHO",
+          "Reuters"
+        ],
+        "places": [
+          "China",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:tedros-adhanom-ghebreyesus"
+        ],
+        "orgs": [
+          "org:who",
+          "org:reuters"
+        ],
+        "places": []
+      },
+      "source_key": "ch10-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:reuters"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "org:who",
+        "org:reuters",
+        "person:tedros-adhanom-ghebreyesus"
+      ],
+      "date_iso": "2021-03-30"
+    },
+    {
+      "id": 5,
+      "type": "Newspaper article",
+      "author": "Bremner, Charles",
+      "title": "World leaders question WHO Covid origins report",
+      "publication": "The Times",
+      "date": "March 30, 2021",
+      "url": "https://www.thetimes.com/uk/healthcare/article/britain-casts-doubt-on-whos-covid-origins-report-kdcz72xkt",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Times report that Britain, the U.S., and other countries questioned the WHO Covid origins report and demanded fuller Chinese access, while Tedros said a lab-leak pathway still needed deeper investigation despite the team ranking it least likely.",
+      "book_role": "Notes citation for Tedros and allied governments pushing past the joint study’s lab-leak dismissal.",
+      "topics": [
+        "lab-leak hypothesis",
+        "WHO",
+        "The Times",
+        "Tedros Adhanom Ghebreyesus"
+      ],
+      "entities": {
+        "people": [
+          "Tedros Adhanom Ghebreyesus",
+          "Charles Bremner"
+        ],
+        "orgs": [
+          "WHO",
+          "The Times"
+        ],
+        "places": [
+          "Wuhan",
+          "China",
+          "United Kingdom"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:tedros-adhanom-ghebreyesus"
+        ],
+        "orgs": [
+          "org:who",
+          "org:the-times"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-times"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "org:who",
+        "org:the-times",
+        "person:tedros-adhanom-ghebreyesus"
+      ],
+      "date_iso": "2021-03-30"
+    },
+    {
+      "id": 6,
+      "type": "Article",
+      "author": "Jenkins Jr.",
+      "title": "Holman W., Wuhan Lab Theory Is a Media Warning",
+      "publication": "Wall Street Journal",
+      "date": "May 28, 2021",
+      "url": "https://www.wsj.com/opinion/wuhan-lab-theory-is-a-media-warning-11622237799",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Holman W. Jenkins Jr. WSJ opinion arguing the Wuhan lab theory exposed media bias—news outlets had ruled out a lab leak for months without evidence, then scrambled as contrary facts caught up to Fauci and other deniers.",
+      "book_role": "Notes citation on media failure around early lab-leak coverage.",
+      "topics": [
+        "lab-leak hypothesis",
+        "censorship",
+        "Wuhan Institute of Virology",
+        "The Wall Street Journal"
+      ],
+      "entities": {
+        "people": [
+          "Holman W. Jenkins Jr."
+        ],
+        "orgs": [
+          "The Wall Street Journal",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-wall-street-journal",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n06",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:censorship",
+        "org:wuhan-institute-of-virology",
+        "org:the-wall-street-journal"
+      ],
+      "date_iso": "2021-05-28"
+    },
+    {
+      "id": 7,
+      "type": "Journal article",
+      "author": "Rozado, David",
+      "title": "Prevalence in News Media of Two Competing Hypotheses about COVID-19 Origins",
+      "publication": "Social Sciences",
+      "date": "August 24, 2021",
+      "url": "https://www.mdpi.com/2076-0760/10/9/320",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "David Rozado’s Social Sciences computational study of news-media prevalence of natural-emergence versus lab-leak COVID origins hypotheses, documenting a sharp mid-2021 rise in lab-leak coverage after long dominance of the zoonosis frame.",
+      "book_role": "Notes citation quantifying how news media treated competing origin hypotheses over time.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "SARS-CoV-2",
+        "censorship"
+      ],
+      "entities": {
+        "people": [
+          "David Rozado"
+        ],
+        "orgs": [
+          "Social Sciences (MDPI)"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch10-n07",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:sars-cov-2",
+        "topic:censorship"
+      ],
+      "date_iso": "2021-08-24"
+    },
+    {
+      "id": 8,
+      "type": "Newspaper article",
+      "author": "Rindsberg, Ashley",
+      "title": "The Lab Leak Fiasco",
+      "publication": "Tablet Magazine",
+      "date": "November 16, 2021",
+      "url": "https://www.tabletmag.com/sections/news/articles/lab-leak-fiasco",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Ashley Rindsberg in Tablet Mag arguing mainstream media enforced falsehoods about COVID origins for over a year—never weighing lab-leak evidence, never apologizing—and highlighting Daszak’s WIV ties as a conflicted news source.",
+      "book_role": "Notes citation on media enforcement against the lab-leak hypothesis.",
+      "topics": [
+        "lab-leak hypothesis",
+        "censorship",
+        "BSL-4 laboratory",
+        "Ashley Rindsberg",
+        "Peter Daszak",
+        "EcoHealth Alliance",
+        "Wuhan Institute of Virology"
+      ],
+      "entities": {
+        "people": [
+          "Ashley Rindsberg",
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "Tablet Magazine"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:ashley-rindsberg",
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n08",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:ashley-rindsberg"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:censorship",
+        "topic:bsl-4-laboratory",
+        "person:ashley-rindsberg",
+        "person:peter-daszak",
+        "org:ecohealth-alliance",
+        "org:wuhan-institute-of-virology"
+      ],
+      "date_iso": "2021-11-16"
+    },
+    {
+      "id": 9,
+      "type": "Article",
+      "author": "",
+      "title": "Tucker Carlson guest airs debunked conspiracy theory that coronavirus was created in a lab, PolitiFact",
+      "publication": "Editor’s Note",
+      "date": "May 17, 2021",
+      "url": "https://www.politifact.com/li-meng-yan-fact-check/",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Archived PolitiFact fact-check that labeled Li-Meng Yan’s Tucker Carlson claim of a man-made Wuhan lab virus a ‘debunked conspiracy theory’; a May 2021 editor’s note later withdrew it, saying earlier ‘could not have been manipulated’ assertions were more widely disputed.",
+      "book_role": "Notes citation for fact-checking that branded lab-origin claims conspiracy—then pulled the rating.",
+      "topics": [
+        "lab-leak hypothesis",
+        "censorship",
+        "SARS-CoV-2"
+      ],
+      "entities": {
+        "people": [
+          "Li-Meng Yan",
+          "Tucker Carlson"
+        ],
+        "orgs": [
+          "PolitiFact",
+          "Fox News"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n09",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:censorship",
+        "topic:sars-cov-2"
+      ],
+      "date_iso": "2021-05-17"
+    },
+    {
+      "id": 10,
+      "type": "PDF document",
+      "author": "",
+      "title": "Transcript of Dr. Kristian Andersen’s Testimony",
+      "publication": "US House of Representatives Select Subcommittee on the Coronavirus Pandemic",
+      "date": "June 16, 2023",
+      "url": "https://oversight.house.gov/wp-content/uploads/2023/07/2023.06.16-Andersen-Transcript.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n10.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Transcribed June 16, 2023 interview of Kristian Andersen before the House Select Subcommittee on the Coronavirus Pandemic, covering Proximal Origin, early lab-versus-natural debates, and federal COVID origins oversight.",
+      "book_role": "Notes citation for Andersen’s sworn subcommittee testimony on Proximal Origin and origins science.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "Kristian Andersen",
+        "U.S. House of Representatives",
+        "Nature Medicine"
+      ],
+      "entities": {
+        "people": [
+          "Kristian Andersen"
+        ],
+        "orgs": [
+          "U.S. House of Representatives",
+          "Nature Medicine",
+          "Select Subcommittee on the Coronavirus Pandemic"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:kristian-andersen"
+        ],
+        "orgs": [
+          "org:u-s-house-of-representatives",
+          "org:nature-medicine"
+        ],
+        "places": []
+      },
+      "source_key": "ch10-n10",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "person:kristian-andersen",
+        "org:u-s-house-of-representatives",
+        "org:nature-medicine"
+      ],
+      "date_iso": "2023-06-16"
+    },
+    {
+      "id": 11,
+      "type": "Article",
+      "author": "Suryanarayanan, Sainath",
+      "title": "New emails show scientists’ deliberations on how to discuss SARS-CoV-2 origins",
+      "publication": "U.S. Right to Know",
+      "date": "December 14, 2020",
+      "url": "https://usrtk.org/covid-19-origins/scientists-deliberations-on-sars-cov-2-origins/",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "U.S. Right to Know report on early 2020 emails among Baric, Andersen, Bedford, and National Academies figures drafting a White House response—showing experts debating lab-origin language while the final letter omitted binding-site and laboratory scenarios.",
+      "book_role": "Notes citation for behind-the-scenes scientific messaging on SARS-CoV-2 origins.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "censorship",
+        "Ralph Baric",
+        "Kristian Andersen",
+        "U.S. Right to Know"
+      ],
+      "entities": {
+        "people": [
+          "Sainath Suryanarayanan",
+          "Ralph Baric",
+          "Kristian Andersen",
+          "Trevor Bedford"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "National Academies of Sciences"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:sainath-suryanarayanan",
+          "person:ralph-baric",
+          "person:kristian-andersen"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know"
+        ],
+        "places": []
+      },
+      "source_key": "ch10-n11",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:sainath-suryanarayanan"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:censorship",
+        "person:ralph-baric",
+        "person:kristian-andersen",
+        "org:u-s-right-to-know"
+      ],
+      "date_iso": "2020-12-14"
+    },
+    {
+      "id": 12,
+      "type": "Article",
+      "author": "Suryanarayanan, Sainath",
+      "title": "Scientists discussed masking their involvement in key journal letter on Covid origins, emails show",
+      "publication": "U.S. Right to Know",
+      "date": "February 15, 2021",
+      "url": "https://usrtk.org/covid-19-origins/scientists-masked-involvement-in-lancet-letter-on-covid-origin/",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n12.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "USRTK emails showing EcoHealth’s Peter Daszak orchestrating The Lancet’s February 2020 natural-origin statement while discussing with Baric and Linfa Wang how to mask EcoHealth’s involvement so the letter would appear independent.",
+      "book_role": "Notes citation on Daszak’s hidden role in the Lancet origins letter.",
+      "topics": [
+        "lab-leak hypothesis",
+        "censorship",
+        "Peter Daszak",
+        "Ralph Baric",
+        "EcoHealth Alliance",
+        "The Lancet",
+        "U.S. Right to Know",
+        "Wuhan Institute of Virology"
+      ],
+      "entities": {
+        "people": [
+          "Sainath Suryanarayanan",
+          "Peter Daszak",
+          "Ralph Baric",
+          "Linfa Wang"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "EcoHealth Alliance",
+          "The Lancet",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:sainath-suryanarayanan",
+          "person:peter-daszak",
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know",
+          "org:ecohealth-alliance",
+          "org:the-lancet",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n12",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:sainath-suryanarayanan"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:censorship",
+        "person:peter-daszak",
+        "person:ralph-baric",
+        "org:ecohealth-alliance",
+        "org:the-lancet",
+        "org:u-s-right-to-know",
+        "org:wuhan-institute-of-virology"
+      ],
+      "date_iso": "2021-02-15"
+    },
+    {
+      "id": 13,
+      "type": "Newspaper article",
+      "author": "",
+      "title": "US says Chinese scientists asked for removal of virus records from database",
+      "publication": "Financial Times",
+      "date": "June 24, 2021",
+      "url": "https://www.ft.com/content/b53661d6-a70a-44ca-92a7-fa2fa4944d52",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n13.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Financial Times report that NIH confirmed Chinese scientists had sequences from early Wuhan COVID cases removed from a U.S. database months after submission—Jesse Bloom’s finding framed by an expert as deliberate obfuscation of origins evidence.",
+      "book_role": "Notes citation on deletion of early Wuhan viral sequence records.",
+      "topics": [
+        "SARS-CoV-2",
+        "censorship",
+        "lab-leak hypothesis",
+        "Jesse Bloom",
+        "NIH"
+      ],
+      "entities": {
+        "people": [
+          "Jesse Bloom",
+          "Kiran Stacey",
+          "George Steer"
+        ],
+        "orgs": [
+          "NIH",
+          "Financial Times"
+        ],
+        "places": [
+          "Wuhan",
+          "China",
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jesse-bloom"
+        ],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch10-n13",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:censorship",
+        "topic:lab-leak-hypothesis",
+        "person:jesse-bloom",
+        "org:nih"
+      ],
+      "date_iso": "2021-06-24"
+    },
+    {
+      "id": 14,
+      "type": "Government document",
+      "author": "",
+      "title": "NIH establishes Centers for Research in Emerging Infectious Diseases",
+      "publication": "National Institutes of Health",
+      "date": "August 27, 2020",
+      "url": "https://www.nih.gov/news-events/news-releases/nih-establishes-centers-research-emerging-infectious-diseases",
+      "status": "ok",
+      "artifact": "artifacts/ch10-n14.md",
+      "content_kind": "gov_doc",
+      "language": "en",
+      "summary": "NIH/NIAID August 2020 press release announcing ~$17 million first-year awards to launch the Centers for Research in Emerging Infectious Diseases (CREID) global network for early warning of new pathogen threats, with Fauci citing COVID-19’s lesson.",
+      "book_role": "Notes citation for NIH’s CREID network launch during the pandemic.",
+      "topics": [
+        "COVID-19",
+        "zoonosis",
+        "NIH",
+        "NIAID",
+        "Anthony Fauci"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "NIH",
+          "NIAID"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:nih",
+          "org:niaid"
+        ],
+        "places": []
+      },
+      "source_key": "ch10-n14",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:nih"
+      ],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:zoonosis",
+        "org:nih",
+        "org:niaid",
+        "person:anthony-fauci"
+      ],
+      "date_iso": "2020-08-27"
     }
   ]
 }

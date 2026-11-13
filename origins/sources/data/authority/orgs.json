@@ -1531,6 +1531,76 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "org:biorxiv",
+      "prefLabel": "bioRxiv",
+      "indexTerm": "bioRxiv",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:independent-science-news",
+      "prefLabel": "Independent Science News",
+      "indexTerm": "Independent Science News",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:cnn",
+      "prefLabel": "CNN",
+      "indexTerm": "CNN",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:pnas",
+      "prefLabel": "PNAS",
+      "indexTerm": "PNAS",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:molecular-biology-and-evolution",
+      "prefLabel": "Molecular Biology and Evolution",
+      "indexTerm": "Molecular Biology and Evolution",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:science-of-the-total-environment",
+      "prefLabel": "Science of the Total Environment",
+      "indexTerm": "Science of the Total Environment",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:skyhorse-publishing",
+      "prefLabel": "Skyhorse Publishing",
+      "indexTerm": "Skyhorse Publishing",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

@@ -501,7 +501,9 @@
         "secret email"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Josh Christenson"
+        ],
         "orgs": [
           "NIH",
           "New York Post"
@@ -511,7 +513,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:josh-christenson"
+        ],
         "orgs": [
           "org:nih",
           "org:new-york-post"
@@ -524,7 +528,9 @@
       "date_iso": "2024-05-22",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2023/06/NYPICHPDPICT000013390615.jpg?quality=75&#038;strip=all&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:josh-christenson"
+      ],
       "publication_ids": [
         "org:new-york-post"
       ]
@@ -797,7 +803,9 @@
         "pre-outbreak"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Jonathan Calvert"
+        ],
         "orgs": [
           "Wuhan Institute of Virology",
           "The Sunday Times"
@@ -810,7 +818,9 @@
         "org:wuhan-institute-of-virology"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jonathan-calvert"
+        ],
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:the-sunday-times"
@@ -823,7 +833,9 @@
       "date_iso": "2023-06-10",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/5aedcbf4-06ec-11ee-a1e5-6222cf71d60e.jpg?amp;sourceHeight=886&#038;strip=all&#038;format=webp&#038;crop=0px%2C0px%2C1575px%2C886px&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:jonathan-calvert"
+      ],
       "publication_ids": [
         "org:the-sunday-times"
       ]
@@ -1604,7 +1616,8 @@
           "Andrew Huff"
         ],
         "orgs": [
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "Skyhorse Publishing"
         ],
         "places": [
           "Wuhan"
@@ -1620,7 +1633,8 @@
           "person:andrew-huff"
         ],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:skyhorse-publishing"
         ],
         "places": [
           "place:wuhan"
@@ -1633,7 +1647,9 @@
       "author_ids": [
         "person:andrew-huff"
       ],
-      "publication_ids": []
+      "publication_ids": [
+        "org:skyhorse-publishing"
+      ]
     },
     {
       "id": 33,
@@ -2842,6 +2858,842 @@
       "publication_ids": [
         "org:abc-news"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Article",
+      "author": "Kuikanmäki",
+      "title": "Jari, Retrospective BLAST Analysis Detects RaTG13/Ra4991 in the Earliest SARS-CoV-2 Genome Submitted to NCBI GenBank (December 28, 2019), Zenodo",
+      "publication": "10 May",
+      "date": "2026",
+      "url": "https://zenodo.org/records/20104427",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Jari Kuikanmäki Zenodo preprint showing a retrospective BLAST of Lili Ren’s Dec 28, 2019 GenBank SARS-CoV-2 submission would have hit ~97.8% identity to an embargoed RaTG13/Ra4991 RdRp fragment already in GenBank—linking the new virus to WIV’s bat CoV work via Ra4991.",
+      "book_role": "Notes citation on how early GenBank data could have tied SARS-CoV-2 to RaTG13/Ra4991.",
+      "topics": [
+        "RaTG13",
+        "Ra4991",
+        "BLAST",
+        "SARS-CoV-2",
+        "bat coronaviruses",
+        "Jari Kuikanmäki",
+        "Wuhan Institute of Virology"
+      ],
+      "entities": {
+        "people": [
+          "Jari Kuikanmäki",
+          "Lili Ren"
+        ],
+        "orgs": [
+          "Wuhan Institute of Virology",
+          "Zenodo",
+          "NCBI GenBank"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jari-kuikanmaki"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch19-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:jari-kuikanmaki"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:ratg13",
+        "topic:ra4991",
+        "topic:blast",
+        "topic:sars-cov-2",
+        "topic:bat-coronaviruses",
+        "person:jari-kuikanmaki",
+        "org:wuhan-institute-of-virology"
+      ],
+      "date_iso": "2026"
+    },
+    {
+      "id": 2,
+      "type": "Newspaper article",
+      "author": "Birrell, Ian",
+      "title": "Leading US scientist says he was told about the Wuhan outbreak two weeks before Beijing warned the world",
+      "publication": "Mail on Sunday",
+      "date": "September 5, 2021",
+      "url": "https://ianbirrell.com/leading-us-scientist-i-was-told-about-the-wuhan-outbreak-two-weeks-before-beijing-warned-the-world/",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Mail on Sunday / Ian Birrell report that Columbia epidemiologist Ian Lipkin said he learned of Wuhan’s new outbreak on December 15, 2019—more than two weeks before WHO was notified—undercutting Beijing’s early case narrative.",
+      "book_role": "Notes citation for Lipkin’s early private tip about the Wuhan outbreak.",
+      "topics": [
+        "COVID-19",
+        "censorship",
+        "Patient Zero",
+        "Ian Lipkin",
+        "Ian Birrell",
+        "WHO",
+        "Wuhan"
+      ],
+      "entities": {
+        "people": [
+          "Ian Birrell",
+          "Ian Lipkin"
+        ],
+        "orgs": [
+          "WHO",
+          "Mail on Sunday"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:ian-birrell",
+          "person:ian-lipkin"
+        ],
+        "orgs": [
+          "org:who"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch19-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:ian-birrell"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:censorship",
+        "topic:patient-zero",
+        "person:ian-lipkin",
+        "person:ian-birrell",
+        "org:who",
+        "place:wuhan"
+      ],
+      "date_iso": "2021-09-05"
+    },
+    {
+      "id": 3,
+      "type": "PDF document",
+      "author": "",
+      "title": "Interview of Dr. Walter Ian Lipkin",
+      "publication": "US House Select Coronavirus Subcommittee",
+      "date": "April 6, 2023",
+      "url": "https://oversight.house.gov/wp-content/uploads/2023/07/2023.04.06-Lipkin-Transcript.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n03.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Transcribed April 6, 2023 House Select Subcommittee interview of Walter Ian Lipkin on COVID origins, early outbreak knowledge, and related scientific controversies.",
+      "book_role": "Notes citation for Lipkin’s sworn subcommittee interview.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "Ian Lipkin",
+        "U.S. House of Representatives"
+      ],
+      "entities": {
+        "people": [
+          "Ian Lipkin"
+        ],
+        "orgs": [
+          "U.S. House of Representatives",
+          "Select Subcommittee on the Coronavirus Pandemic"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:ian-lipkin"
+        ],
+        "orgs": [
+          "org:u-s-house-of-representatives"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "person:ian-lipkin",
+        "org:u-s-house-of-representatives"
+      ],
+      "date_iso": "2023-04-06"
+    },
+    {
+      "id": 4,
+      "type": "PDF document",
+      "author": "Ebright, Richard",
+      "title": "Testimony to the US Senate Committee on Homeland Security",
+      "publication": "Subcommittee on Emerging Threats and Spending Oversight",
+      "date": "June 18, 2024",
+      "url": "https://www.hsgac.senate.gov/wp-content/uploads/Testimony-Ebright-2024-06-18.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n04.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Richard Ebright’s June 18, 2024 Senate Homeland Security written testimony on COVID origins—detailing EcoHealth/WIV bat SARS-like chimeric work and DEFUSE plans to insert furin cleavage sites into lab-generated sarbecoviruses.",
+      "book_role": "Notes citation for Ebright’s Senate record on GoF/DEFUSE and origins risk.",
+      "topics": [
+        "lab-leak hypothesis",
+        "gain-of-function research",
+        "furin cleavage site",
+        "chimeric viruses",
+        "Richard Ebright",
+        "EcoHealth Alliance",
+        "Wuhan Institute of Virology",
+        "DARPA"
+      ],
+      "entities": {
+        "people": [
+          "Richard Ebright"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "DARPA",
+          "U.S. Senate Committee on Homeland Security"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:richard-ebright"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology",
+          "org:darpa"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch19-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Senate CDN blocked direct browser access; scraped PDF successfully via Firecrawl.",
+      "author_ids": [
+        "person:richard-ebright"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:gain-of-function-research",
+        "topic:furin-cleavage-site",
+        "topic:chimeric-viruses",
+        "person:richard-ebright",
+        "org:ecohealth-alliance",
+        "org:wuhan-institute-of-virology",
+        "org:darpa"
+      ],
+      "date_iso": "2024-06-18"
+    },
+    {
+      "id": 5,
+      "type": "Article",
+      "author": "",
+      "title": "EcoHealth Alliance / Daszak, Peter: DEFUSE Budget Annex, WIV Budget for DEFUSE Project with No See 'Em Technique reagents, 2018",
+      "publication": "published by DRASTIC",
+      "date": "September 2021",
+      "url": "https://zenodo.org/records/15031167",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Zenodo release of Project DEFUSE-related documents—including EcoHealth/Daszak budget annex material for WIV—detailing the DARPA proposal many cite for planned chimeric SARS-like viruses with furin-site insertions.",
+      "book_role": "Notes citation preserving DEFUSE budget/proposal documents for WIV work.",
+      "topics": [
+        "gain-of-function research",
+        "furin cleavage site",
+        "chimeric viruses",
+        "bat coronaviruses",
+        "EcoHealth Alliance",
+        "Wuhan Institute of Virology",
+        "DARPA",
+        "DRASTIC",
+        "Peter Daszak"
+      ],
+      "entities": {
+        "people": [
+          "Peter Daszak",
+          "Steven Quay"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "Wuhan Institute of Virology",
+          "DARPA",
+          "DRASTIC",
+          "Zenodo"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:wuhan-institute-of-virology",
+          "org:darpa",
+          "org:drastic"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch19-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:furin-cleavage-site",
+        "topic:chimeric-viruses",
+        "topic:bat-coronaviruses",
+        "org:ecohealth-alliance",
+        "org:wuhan-institute-of-virology",
+        "org:darpa",
+        "org:drastic",
+        "person:peter-daszak"
+      ],
+      "date_iso": "2021-09"
+    },
+    {
+      "id": 6,
+      "type": "Journal article",
+      "author": "Kaiser, Jocelyn",
+      "title": "House lawmakers on both sides grill head of nonprofit that worked with Chinese virologists",
+      "publication": "Science",
+      "date": "May 1, 2024",
+      "url": "https://www.science.org/content/article/house-lawmakers-both-sides-grill-head-nonprofit-worked-with-chinese-virologists",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Science news report on bipartisan House grilling of EcoHealth’s Peter Daszak—criticizing late NIH progress reports, WIV collaborator safety conditions, and stewardship of U.S. grant funds amid COVID origins scrutiny.",
+      "book_role": "Notes citation for congressional bipartisan pressure on EcoHealth leadership.",
+      "topics": [
+        "lab-leak hypothesis",
+        "gain-of-function research",
+        "biosafety",
+        "Peter Daszak",
+        "EcoHealth Alliance",
+        "NIH",
+        "Science",
+        "U.S. House of Representatives"
+      ],
+      "entities": {
+        "people": [
+          "Peter Daszak",
+          "Jocelyn Kaiser",
+          "Brad Wenstrup"
+        ],
+        "orgs": [
+          "Science",
+          "EcoHealth Alliance",
+          "NIH",
+          "U.S. House of Representatives"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:science",
+          "org:ecohealth-alliance",
+          "org:nih",
+          "org:u-s-house-of-representatives"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n06",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:science"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:gain-of-function-research",
+        "topic:biosafety",
+        "person:peter-daszak",
+        "org:ecohealth-alliance",
+        "org:nih",
+        "org:science",
+        "org:u-s-house-of-representatives"
+      ],
+      "date_iso": "2024-05-01"
+    },
+    {
+      "id": 7,
+      "type": "Newspaper article",
+      "author": "Christenson, Josh",
+      "title": "House COVID panel urges criminal probe over gain-of-function virus research in Wuhan",
+      "publication": "New York Post",
+      "date": "May 1, 2024",
+      "url": "https://nypost.com/2024/05/01/us-news/house-covid-panel-urges-criminal-probe-over-gain-of-function-virus-research-in-wuhan",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "New York Post report that the House COVID panel urged a criminal probe into gain-of-function virus research linked to EcoHealth/WIV—citing DEFUSE plans, Ebright commentary on the unique FCS, and Baric’s later testimony.",
+      "book_role": "Notes citation for the panel’s call to criminally investigate GoF-linked research.",
+      "topics": [
+        "gain-of-function research",
+        "furin cleavage site",
+        "lab-leak hypothesis",
+        "Josh Christenson",
+        "Richard Ebright",
+        "Peter Daszak",
+        "New York Post",
+        "EcoHealth Alliance"
+      ],
+      "entities": {
+        "people": [
+          "Josh Christenson",
+          "Richard Ebright",
+          "Peter Daszak",
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "New York Post",
+          "EcoHealth Alliance",
+          "U.S. House of Representatives"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:josh-christenson",
+          "person:richard-ebright",
+          "person:peter-daszak",
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:new-york-post",
+          "org:ecohealth-alliance",
+          "org:u-s-house-of-representatives"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n07",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:josh-christenson"
+      ],
+      "publication_ids": [
+        "org:new-york-post"
+      ],
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:furin-cleavage-site",
+        "topic:lab-leak-hypothesis",
+        "person:josh-christenson",
+        "person:richard-ebright",
+        "person:peter-daszak",
+        "org:new-york-post",
+        "org:ecohealth-alliance"
+      ],
+      "date_iso": "2024-05-01"
+    },
+    {
+      "id": 8,
+      "type": "PDF document",
+      "author": "Shellenberger, Michael",
+      "title": "The Censorship Industrial Complex, U.S. Government Support For Domestic Censorship And Disinformation Campaigns, 2016 - 2022",
+      "publication": "Testimony to The House Select Committee on the Weaponization of the Federal Government",
+      "date": "March 9, 2023",
+      "url": "https://docs.house.gov/meetings/IF/IF16/20230328/115561/HHRG-118-IF16-20230328-SD012.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n08.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "Michael Shellenberger’s March 2023 House Weaponization Committee testimony mapping a ‘censorship industrial complex,’ including a dedicated section on U.S. government-linked efforts that delegitimized the COVID lab-leak theory in 2020–2021.",
+      "book_role": "Notes citation tying domestic censorship infrastructure to lab-leak suppression.",
+      "topics": [
+        "censorship",
+        "lab-leak hypothesis",
+        "U.S. House of Representatives"
+      ],
+      "entities": {
+        "people": [
+          "Michael Shellenberger"
+        ],
+        "orgs": [
+          "U.S. House of Representatives",
+          "House Select Committee on the Weaponization of the Federal Government"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:u-s-house-of-representatives"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n08",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:lab-leak-hypothesis",
+        "org:u-s-house-of-representatives"
+      ],
+      "date_iso": "2023-03-09"
+    },
+    {
+      "id": 9,
+      "type": "Newspaper article",
+      "author": "Zweig, David",
+      "title": "How Twitter Rigged the Covid Debate (Twitter Files #10)",
+      "publication": "The Free Press",
+      "date": "December 26, 2022",
+      "url": "https://www.thefp.com/p/how-twitter-rigged-the-covid-debate",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "David Zweig’s Twitter Files #10 in The Free Press arguing Twitter suppressed true COVID information from doctors and public-health experts that conflicted with U.S. government policy—rigging platform debate.",
+      "book_role": "Notes citation for Twitter Files evidence of COVID speech suppression.",
+      "topics": [
+        "censorship",
+        "COVID-19",
+        "lab-leak hypothesis"
+      ],
+      "entities": {
+        "people": [
+          "David Zweig"
+        ],
+        "orgs": [
+          "The Free Press",
+          "Twitter"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch19-n09",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:censorship",
+        "topic:covid-19",
+        "topic:lab-leak-hypothesis"
+      ],
+      "date_iso": "2022-12-26"
+    },
+    {
+      "id": 10,
+      "type": "Preprint",
+      "author": "Bruttel, Valentin",
+      "title": "et al., Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2",
+      "publication": "bioRxiv",
+      "date": "April 11, 2023",
+      "url": "https://www.biorxiv.org/content/10.1101/2022.10.18.512756v1",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n10.md",
+      "content_kind": "preprint",
+      "language": "en",
+      "summary": "bioRxiv preprint by Bruttel, Washburne, and VanDongen arguing SARS-CoV-2’s restriction-endonuclease site pattern matches fingerprints typical of synthetic in-vitro genome assembly more than wild coronaviruses.",
+      "book_role": "Notes citation for the endonuclease ‘synthetic fingerprint’ lab-origin argument.",
+      "topics": [
+        "lab-leak hypothesis",
+        "reverse genetics",
+        "SARS-CoV-2",
+        "bioRxiv"
+      ],
+      "entities": {
+        "people": [
+          "Valentin Bruttel",
+          "Alex Washburne",
+          "Antonius VanDongen"
+        ],
+        "orgs": [
+          "bioRxiv"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:biorxiv"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n10",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:biorxiv"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:reverse-genetics",
+        "topic:sars-cov-2",
+        "org:biorxiv"
+      ],
+      "date_iso": "2023-04-11"
+    },
+    {
+      "id": 11,
+      "type": "Book",
+      "author": "Quay, Steven",
+      "title": "The Code as Witness: How the Covid Genome Reveals its Lab Origins — And How to Prevent Future Outbreaks",
+      "publication": "Skyhorse Publishing",
+      "date": "2025",
+      "url": "https://www.amazon.com/Code-Witness-Reveals-Origins-Outbreaks/dp/1641774711",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n11.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Steven Quay’s 2025 Skyhorse book The Code as Witness arguing the SARS-CoV-2 genome reveals laboratory origins and lessons for preventing future outbreaks. Amazon page only; no book text captured.",
+      "book_role": "Notes citation for Quay’s genome-as-evidence lab-origin book.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "reverse genetics",
+        "Skyhorse Publishing",
+        "Amazon"
+      ],
+      "entities": {
+        "people": [
+          "Steven Quay"
+        ],
+        "orgs": [
+          "Skyhorse Publishing",
+          "Amazon"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:skyhorse-publishing",
+          "org:amazon"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n11",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:skyhorse-publishing"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:reverse-genetics",
+        "org:skyhorse-publishing",
+        "org:amazon"
+      ],
+      "date_iso": "2025"
+    },
+    {
+      "id": 12,
+      "type": "PDF document",
+      "author": "",
+      "title": "EcoHealth Alliance—Debarment Record",
+      "publication": "HHS/NIH",
+      "date": "May 15, 2024",
+      "url": "https://oversight.house.gov/wp-content/uploads/2024/05/Tab-2-EHA-SUSP4D-ARM_05.15.2024_signed.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n12.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "May 15, 2024 HHS suspension and proposed debarment notice against EcoHealth Alliance—citing NIH grant-policy violations and the R01AI110964 NIAID award record, barring EHA from federal procurement and nonprocurement programs.",
+      "book_role": "Notes citation for the formal HHS/NIH EcoHealth suspension and proposed debarment.",
+      "topics": [
+        "gain-of-function research",
+        "biosafety",
+        "EcoHealth Alliance",
+        "NIH",
+        "NIAID",
+        "Peter Daszak"
+      ],
+      "entities": {
+        "people": [
+          "Peter Daszak"
+        ],
+        "orgs": [
+          "EcoHealth Alliance",
+          "NIH",
+          "NIAID",
+          "HHS"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:ecohealth-alliance",
+          "org:nih",
+          "org:niaid"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n12",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:nih"
+      ],
+      "topic_ids": [
+        "topic:gain-of-function-research",
+        "topic:biosafety",
+        "org:ecohealth-alliance",
+        "org:nih",
+        "org:niaid",
+        "person:peter-daszak"
+      ],
+      "date_iso": "2024-05-15"
+    },
+    {
+      "id": 13,
+      "type": "Journal article",
+      "author": "Chen, Jing",
+      "title": "et al, Bat-infecting merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a cell entry receptor",
+      "publication": "Cell",
+      "date": "March 20, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39970913/",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n13.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Cell / PubMed report that bat merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a functional receptor with broad host tropism—cryo-EM showing a distinct RBD–ACE2 binding mode and flagging zoonotic spillover potential.",
+      "book_role": "Notes citation on a bat merbecovirus already competent for human ACE2 entry.",
+      "topics": [
+        "ACE2 receptors",
+        "bat coronaviruses",
+        "zoonosis",
+        "MERS",
+        "PubMed"
+      ],
+      "entities": {
+        "people": [
+          "Jing Chen"
+        ],
+        "orgs": [
+          "PubMed",
+          "Cell"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pubmed"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n13",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:ace2-receptors",
+        "topic:bat-coronaviruses",
+        "topic:zoonosis",
+        "topic:mers",
+        "org:pubmed"
+      ],
+      "date_iso": "2025-03-20"
+    },
+    {
+      "id": 14,
+      "type": "Journal article",
+      "author": "Alwine, James",
+      "title": "et al., A Critical Analysis of the Evidence for the SARS-CoV-2 Origin Hypotheses",
+      "publication": "Journal of Virology",
+      "date": "March 28, 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10134824/",
+      "status": "ok",
+      "artifact": "artifacts/ch19-n14.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Journal of Virology editorial by Alwine, Casadevall, and coauthors critically examining evidence offered for zoonotic versus laboratory SARS-CoV-2 origin hypotheses—and how those claims should be tested scientifically.",
+      "book_role": "Notes citation for a peer-reviewed critical appraisal of both origin hypotheses’ evidence.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "furin cleavage site",
+        "SARS-CoV-2",
+        "Journal of Virology"
+      ],
+      "entities": {
+        "people": [
+          "James C. Alwine",
+          "Arturo Casadevall"
+        ],
+        "orgs": [
+          "Journal of Virology"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:journal-of-virology"
+        ],
+        "places": []
+      },
+      "source_key": "ch19-n14",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:journal-of-virology"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:furin-cleavage-site",
+        "topic:sars-cov-2",
+        "org:journal-of-virology"
+      ],
+      "date_iso": "2023-03-28"
     }
   ]
 }

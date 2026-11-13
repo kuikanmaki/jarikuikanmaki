@@ -168,7 +168,8 @@
       "entity_ids": {
         "people": [
           "person:dick-cheney",
-          "person:anthony-fauci"
+          "person:anthony-fauci",
+          "person:ashley-rindsberg"
         ],
         "orgs": [
           "org:niaid",
@@ -182,7 +183,9 @@
       "date_iso": "2022-08-29",
       "image_url": "https://unherd.com/wp-content/uploads/2022/08/GettyImages-1234075892-scaled.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:ashley-rindsberg"
+      ],
       "publication_ids": [
         "org:unherd"
       ]
@@ -395,6 +398,64 @@
       "publication_ids": [
         "org:associated-press"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Book",
+      "author": "Willman, David",
+      "title": "The Mirage Man: Bruce Ivins, the Anthrax Attacks, and America’s Rush to War",
+      "publication": "Bantam",
+      "date": "2011",
+      "url": "https://www.amazon.com/Mirage-Man-Anthrax-Attacks-Americas/dp/0553807757",
+      "status": "ok",
+      "artifact": "artifacts/ch15-n01.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "David Willman’s 2011 book The Mirage Man on Bruce Ivins and the 2001 anthrax attacks—examining the FBI case, biodefense politics, and America’s rush to war. Amazon interstitial only; no book text captured.",
+      "book_role": "Notes citation for U.S. anthrax/lab-pathogen precedent in the biodefense era.",
+      "topics": [
+        "anthrax",
+        "biodefense complex",
+        "biosecurity",
+        "Bruce E. Ivins",
+        "Amazon"
+      ],
+      "entities": {
+        "people": [
+          "Bruce E. Ivins",
+          "David Willman"
+        ],
+        "orgs": [
+          "Amazon",
+          "Bantam"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:bruce-e-ivins"
+        ],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": []
+      },
+      "source_key": "ch15-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:anthrax",
+        "topic:biodefense-complex",
+        "topic:biosecurity",
+        "person:bruce-e-ivins",
+        "org:amazon"
+      ],
+      "date_iso": "2011"
     }
   ]
 }

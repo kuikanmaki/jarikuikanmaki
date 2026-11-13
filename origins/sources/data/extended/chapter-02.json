@@ -296,5 +296,218 @@
         "org:mbio"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "PDF document",
+      "author": "Shoham, Dany",
+      "title": "China’s Biological Warfare Programme, Journal of Defence Studies",
+      "publication": "April-June 2015",
+      "date": "",
+      "url": "https://www.idsa.in/system/files/jds/jds_9_2_2015_DanyShoham.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch02-n01.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "2015 Journal of Defence Studies paper by Dany Shoham profiling China’s biological warfare programme—arguing a large network of defence- and PLA-affiliated facilities support BW research, development, production, testing, or storage.",
+      "book_role": "Notes citation on China’s pre-pandemic biological-weapons research infrastructure.",
+      "topics": [
+        "biological weapons",
+        "biodefense complex",
+        "biosecurity",
+        "Dany Shoham"
+      ],
+      "entities": {
+        "people": [
+          "Dany Shoham"
+        ],
+        "orgs": [
+          "PLA"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:dany-shoham"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch02-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:dany-shoham"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:biological-weapons",
+        "topic:biodefense-complex",
+        "topic:biosecurity",
+        "person:dany-shoham"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Article",
+      "author": "Shoham, Dany",
+      "title": "The Roots of the COVID-19 Pandemic",
+      "publication": "BESA Center",
+      "date": "December 14, 2020",
+      "url": "https://besacenter.org/covid-pandemic-roots/",
+      "status": "ok",
+      "artifact": "artifacts/ch02-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "BESA Center essay arguing SARS-CoV-2’s human pre-adaptation makes an unnatural or accidental origin more plausible than spontaneous zoonosis, and highlighting mismatches and errors at WIV and related Chinese institutions.",
+      "book_role": "Notes citation framing genomic pre-adaptation and lab-accident pathways.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "COVID-19",
+        "Wuhan Institute of Virology",
+        "Dany Shoham"
+      ],
+      "entities": {
+        "people": [
+          "Dany Shoham"
+        ],
+        "orgs": [
+          "Wuhan Institute of Virology",
+          "BESA Center"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:dany-shoham"
+        ],
+        "orgs": [
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch02-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:dany-shoham"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "org:wuhan-institute-of-virology",
+        "person:dany-shoham"
+      ],
+      "date_iso": "2020-12-14"
+    },
+    {
+      "id": 3,
+      "type": "Book",
+      "author": "Kinzer, Stephen",
+      "title": "Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control",
+      "publication": "Henry Holt and Co.",
+      "date": "2019",
+      "url": "https://www.amazon.com/Poisoner-Chief-Sidney-Gottlieb-Control/dp/1250140439",
+      "status": "ok",
+      "artifact": "artifacts/ch02-n03.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Stephen Kinzer’s 2019 biography of CIA chemist Sidney Gottlieb and MK-Ultra, documenting Cold War mind-control and covert chemical/biological experiments. Amazon product page only; no book text captured.",
+      "book_role": "Notes citation for Cold War covert biological/chemical experimentation precedents.",
+      "topics": [
+        "biological weapons",
+        "biodefense complex",
+        "CIA"
+      ],
+      "entities": {
+        "people": [
+          "Stephen Kinzer",
+          "Sidney Gottlieb"
+        ],
+        "orgs": [
+          "CIA",
+          "Amazon",
+          "Henry Holt and Co."
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:cia",
+          "org:amazon"
+        ],
+        "places": []
+      },
+      "source_key": "ch02-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:biological-weapons",
+        "topic:biodefense-complex",
+        "org:cia"
+      ],
+      "date_iso": "2019"
+    },
+    {
+      "id": 4,
+      "type": "Newspaper article",
+      "author": "Furmanski, Martin",
+      "title": "A brief, terrifying history of viruses escaping from labs: 70s Chinese pandemic was a lab mistake",
+      "publication": "National Post",
+      "date": "April 11, 2014",
+      "url": "https://nationalpost.com/news/a-brief-terrifying-history-of-viruses-escaping-from-labs-70s-chinese-pandemic-was-a-lab-mistake",
+      "status": "ok",
+      "artifact": "artifacts/ch02-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "National Post / Bulletin of the Atomic Scientists piece by Martin Furmanski on historical pathogen lab escapes, including the argument that the 1977 H1N1 ‘Russian flu’ pandemic began from a laboratory accident tied to vaccine work.",
+      "book_role": "Notes citation establishing that high-consequence lab escapes have happened before.",
+      "topics": [
+        "biosafety",
+        "lab-leak hypothesis",
+        "Martin Furmanski"
+      ],
+      "entities": {
+        "people": [
+          "Martin Furmanski"
+        ],
+        "orgs": [
+          "National Post"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:martin-furmanski"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "source_key": "ch02-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:martin-furmanski"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:biosafety",
+        "topic:lab-leak-hypothesis",
+        "person:martin-furmanski"
+      ],
+      "date_iso": "2014-04-11"
+    }
   ]
 }

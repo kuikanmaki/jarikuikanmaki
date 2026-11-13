@@ -35,6 +35,11 @@ KIND_LABEL = {
     "unknown": "Source",
 }
 
+SECTION_KEY_PREFIX = {
+    "main": "s",
+    "notes": "n",
+}
+
 
 def _merge_labels(resolved: list[str], existing: list[str]) -> list[str]:
     have = {x.casefold() for x in resolved}
@@ -63,6 +68,64 @@ def _input_fingerprint() -> str:
     return h.hexdigest()
 
 
+def _default_source_key(chapter: int, section: str, source_id: int) -> str:
+    prefix = SECTION_KEY_PREFIX.get(section, "s")
+    return f"ch{int(chapter):02d}-{prefix}{int(source_id or 0):02d}"
+
+
+def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_map) -> dict:
+    kind = source.get("content_kind") or "unknown"
+    entity_ids = source.get("entity_ids") or {}
+    author_ids = list(source.get("author_ids") or [])
+    publication_ids = list(source.get("publication_ids") or [])
+    topic_ids = list(source.get("topic_ids") or [])
+    authority_ids = list(topic_ids)
+    for aid in author_ids + publication_ids:
+        if aid not in authority_ids:
+            authority_ids.append(aid)
+    for bucket in ("people", "orgs", "places"):
+        for aid in entity_ids.get(bucket) or []:
+            if aid not in authority_ids:
+                authority_ids.append(aid)
+
+    topic_labels, _ = labels_for_ids(auth_map, topic_ids)
+    topics = _merge_labels(topic_labels, list(source.get("topics") or []))
+
+    entities = {"people": [], "orgs": [], "places": []}
+    src_ents = source.get("entities") or {}
+    for bucket in ("people", "orgs", "places"):
+        resolved, _ = labels_for_ids(auth_map, list(entity_ids.get(bucket) or []))
+        entities[bucket] = _merge_labels(resolved, list(src_ents.get(bucket) or []))
+
+    return {
+        "source_key": source.get("source_key")
+        or _default_source_key(chapter, section, source.get("id") or 0),
+        "section": section,
+        "chapter": chapter,
+        "chapter_title": chapter_title,
+        "id": source.get("id"),
+        "author": source.get("author") or "",
+        "author_ids": author_ids,
+        "title": source.get("title") or "",
+        "publication": source.get("publication") or "",
+        "publication_ids": publication_ids,
+        "date": source.get("date") or "",
+        "date_iso": source.get("date_iso") or "",
+        "url": source.get("url") or "",
+        "image_url": source.get("image_url") or "",
+        "type": source.get("type") or "",
+        "content_kind": kind,
+        "content_kind_label": KIND_LABEL.get(kind, kind.replace("_", " ")),
+        "language": source.get("language") or "",
+        "status": source.get("status") or "",
+        "summary": source.get("summary") or "",
+        "book_role": source.get("book_role") or "",
+        "topics": topics,
+        "entities": entities,
+        "authority_ids": authority_ids,
+    }
+
+
 def main() -> None:
     chapters = []
     sources = []
@@ -84,62 +147,15 @@ def main() -> None:
             }
         )
         for source in data.get("sources") or []:
-            kind = source.get("content_kind") or "unknown"
-            entity_ids = source.get("entity_ids") or {}
-            author_ids = list(source.get("author_ids") or [])
-            publication_ids = list(source.get("publication_ids") or [])
-            topic_ids = list(source.get("topic_ids") or [])
-            authority_ids = list(topic_ids)
-            for aid in author_ids + publication_ids:
-                if aid not in authority_ids:
-                    authority_ids.append(aid)
-            for bucket in ("people", "orgs", "places"):
-                for aid in entity_ids.get(bucket) or []:
-                    if aid not in authority_ids:
-                        authority_ids.append(aid)
-
-            topic_labels, _ = labels_for_ids(auth_map, topic_ids)
-            topics = _merge_labels(topic_labels, list(source.get("topics") or []))
-
-            entities = {"people": [], "orgs": [], "places": []}
-            src_ents = source.get("entities") or {}
-            for bucket in ("people", "orgs", "places"):
-                resolved, _ = labels_for_ids(auth_map, list(entity_ids.get(bucket) or []))
-                entities[bucket] = _merge_labels(resolved, list(src_ents.get(bucket) or []))
-
-            sources.append(
-                {
-                    "source_key": source.get("source_key")
-                    or f"ch{int(chapter):02d}-s{int(source.get('id') or 0):02d}",
-                    "chapter": chapter,
-                    "chapter_title": chapter_title,
-                    "id": source.get("id"),
-                    "author": source.get("author") or "",
-                    "author_ids": author_ids,
-                    "title": source.get("title") or "",
-                    "publication": source.get("publication") or "",
-                    "publication_ids": publication_ids,
-                    "date": source.get("date") or "",
-                    "date_iso": source.get("date_iso") or "",
-                    "url": source.get("url") or "",
-                    "image_url": source.get("image_url") or "",
-                    "type": source.get("type") or "",
-                    "content_kind": kind,
-                    "content_kind_label": KIND_LABEL.get(kind, kind.replace("_", " ")),
-                    "language": source.get("language") or "",
-                    "status": source.get("status") or "",
-                    "summary": source.get("summary") or "",
-                    "book_role": source.get("book_role") or "",
-                    "topics": topics,
-                    "entities": entities,
-                    "authority_ids": authority_ids,
-                }
-            )
+            sources.append(_public_card(source, chapter, chapter_title, "main", auth_map))
+        for source in data.get("notes_sources") or []:
+            sources.append(_public_card(source, chapter, chapter_title, "notes", auth_map))
 
     sources.sort(
         key=lambda row: (
             row.get("date_iso") or "9999",
             row.get("chapter") if row.get("chapter") is not None else 999,
+            0 if row.get("section") == "main" else 1,
             row.get("id") if row.get("id") is not None else 999,
         )
     )

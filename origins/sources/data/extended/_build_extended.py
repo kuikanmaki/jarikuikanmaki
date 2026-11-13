@@ -279,9 +279,31 @@ def build(ch: int) -> dict:
 
 
 def main() -> int:
+    """Legacy rebuild helper. Do not use on the live catalog of record.
+
+    Prefer `_scrape_chapter.py`, which patches artifact/status onto
+    `extended/chapter-NN.json` in place (including `notes_sources`).
+    """
     ch = int(sys.argv[1])
-    data = build(ch)
     out = EXTENDED / f"chapter-{ch:02d}.json"
+    if out.exists():
+        existing = json.loads(out.read_text(encoding="utf-8"))
+        if existing.get("notes_sources"):
+            print(
+                f"Refusing to overwrite {out.name}: it has notes_sources. "
+                "Use extended/_scrape_chapter.py --section notes (or main/all) "
+                "to patch artifacts in place.",
+                file=sys.stderr,
+            )
+            return 2
+        print(
+            f"Refusing to overwrite live catalog {out.name}. "
+            "_build_extended.py is legacy-only and would drop authority fields. "
+            "Use extended/_scrape_chapter.py to scrape/patch instead.",
+            file=sys.stderr,
+        )
+        return 2
+    data = build(ch)
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {out} ({len(data['sources'])} sources)")
     return 0

@@ -88,9 +88,10 @@ def parse_date_iso(value: str) -> str | None:
     return None
 
 
-def normalize_source(chapter: int, source: dict) -> dict:
+def normalize_source(chapter: int, source: dict, section: str = "main") -> dict:
     sid = int(source.get("id") or 0)
-    source["source_key"] = f"ch{int(chapter):02d}-s{sid:02d}"
+    prefix = "n" if section == "notes" else "s"
+    source["source_key"] = f"ch{int(chapter):02d}-{prefix}{sid:02d}"
 
     kind = source.get("content_kind") or ""
     if kind in KIND_ALIASES:
@@ -117,14 +118,15 @@ def main() -> None:
     for path in chapters:
         data = json.loads(path.read_text())
         chapter = int(data.get("chapter"))
-        for source in data.get("sources") or []:
-            before_type = (source.get("type") or "").strip()
-            normalize_source(chapter, source)
-            total += 1
-            if source.get("date_iso"):
-                with_iso += 1
-            if not before_type and (source.get("type") or "").strip():
-                filled_type += 1
+        for section, key in (("main", "sources"), ("notes", "notes_sources")):
+            for source in data.get(key) or []:
+                before_type = (source.get("type") or "").strip()
+                normalize_source(chapter, source, section)
+                total += 1
+                if source.get("date_iso"):
+                    with_iso += 1
+                if not before_type and (source.get("type") or "").strip():
+                    filled_type += 1
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(
         f"Normalized {total} sources across {len(chapters)} chapters "

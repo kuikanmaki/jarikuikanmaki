@@ -507,10 +507,14 @@
       "author_ids": [],
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:biorxiv"
+        ],
         "places": []
       },
-      "publication_ids": []
+      "publication_ids": [
+        "org:biorxiv"
+      ]
     },
     {
       "id": 10,
@@ -862,6 +866,812 @@
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": []
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Journal article",
+      "author": "Chen, Nanshan et al.",
+      "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+      "publication": "The Lancet",
+      "date": "February 15, 2020",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30211-7/fulltext",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Lancet descriptive study of 99 early 2019 novel coronavirus pneumonia cases in Wuhan—epidemiological and clinical characteristics from the first hospital series. Page body not captured (ad/shell only).",
+      "book_role": "Notes citation for one of the first peer-reviewed Wuhan clinical case series.",
+      "topics": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "Patient Zero",
+        "The Lancet",
+        "Wuhan"
+      ],
+      "entities": {
+        "people": [
+          "Nanshan Chen"
+        ],
+        "orgs": [
+          "The Lancet"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-lancet"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch17-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-lancet"
+      ],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:sars-cov-2",
+        "topic:patient-zero",
+        "org:the-lancet",
+        "place:wuhan"
+      ],
+      "date_iso": "2020-02-15"
+    },
+    {
+      "id": 2,
+      "type": "Journal article",
+      "author": "Li, Qun",
+      "title": "et al., Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia",
+      "publication": "The New England Journal of Medicine",
+      "date": "March 26, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31995857/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "NEJM analysis by Li et al. of early Wuhan transmission dynamics among the first 425 confirmed cases—mean incubation ~5.2 days, early doubling every ~7.4 days, and a sharp drop in Huanan market linkage after January 1, 2020.",
+      "book_role": "Notes citation quantifying early human-to-human spread beyond the market cluster.",
+      "topics": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "Huanan Seafood Market",
+        "Wuhan",
+        "PubMed"
+      ],
+      "entities": {
+        "people": [
+          "Qun Li"
+        ],
+        "orgs": [
+          "PubMed",
+          "The New England Journal of Medicine"
+        ],
+        "places": [
+          "Wuhan",
+          "Huanan Seafood Market",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pubmed"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:huanan-seafood-market"
+        ]
+      },
+      "source_key": "ch17-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:sars-cov-2",
+        "place:huanan-seafood-market",
+        "place:wuhan",
+        "org:pubmed"
+      ],
+      "date_iso": "2020-03-26"
+    },
+    {
+      "id": 3,
+      "type": "Journal article",
+      "author": "Kumar, Sudhir",
+      "title": "et al., An Evolutionary Portrait of the Progenitor SARS-CoV-2 and Its Dominant Offshoots in COVID-19 Pandemic",
+      "publication": "Molecular Biology and Evolution",
+      "date": "July 29, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33942847/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Molecular Biology and Evolution paper reconstructing SARS-CoV-2’s likely most recent common ancestor and dominant early lineages from thousands of genomes—mapping cryptic mutational history and spatiotemporal spread.",
+      "book_role": "Notes citation reconstructing progenitor SARS-CoV-2 and early lineage offshoots.",
+      "topics": [
+        "SARS-CoV-2",
+        "viral lineages A and B",
+        "Molecular Biology and Evolution",
+        "PubMed"
+      ],
+      "entities": {
+        "people": [
+          "Sudhir Kumar"
+        ],
+        "orgs": [
+          "Molecular Biology and Evolution",
+          "PubMed"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:molecular-biology-and-evolution",
+          "org:pubmed"
+        ],
+        "places": []
+      },
+      "source_key": "ch17-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:molecular-biology-and-evolution"
+      ],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:viral-lineages-a-and-b",
+        "org:molecular-biology-and-evolution",
+        "org:pubmed"
+      ],
+      "date_iso": "2021-07-29"
+    },
+    {
+      "id": 4,
+      "type": "Journal article",
+      "author": "Helden, Jacques van",
+      "title": "et al., An appeal for an objective, open, and transparent scientific debate about the origin of SARS-CoV-2",
+      "publication": "The Lancet",
+      "date": "October 16, 2021",
+      "url": "https://amu.hal.science/hal-03358748/document",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Lancet correspondence led by Jacques van Helden and dozens of scientists appealing for an open, transparent origins debate—arguing a research-related origin remains plausible and must not be excluded a priori.",
+      "book_role": "Notes citation for the open scientific appeal to keep lab origin on the table.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "censorship",
+        "The Lancet"
+      ],
+      "entities": {
+        "people": [
+          "Jacques van Helden",
+          "Richard Ebright"
+        ],
+        "orgs": [
+          "The Lancet"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:the-lancet"
+        ],
+        "places": []
+      },
+      "source_key": "ch17-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:the-lancet"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:censorship",
+        "org:the-lancet"
+      ],
+      "date_iso": "2021-10-16"
+    },
+    {
+      "id": 5,
+      "type": "Book",
+      "author": "Markson, Sharri",
+      "title": "What Really Happened In Wuhan: A Virus Like No Other, Countless Infections, Millions of Deaths",
+      "publication": "HarperCollins",
+      "date": "September 28, 2021",
+      "url": "https://www.amazon.com/What-Really-Happened-Wuhan-Infections/dp/1460761081",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n05.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Sharri Markson’s 2021 book What Really Happened In Wuhan, investigating early outbreak timeline, infections, and origins claims. Amazon product page only; no book text captured.",
+      "book_role": "Notes citation for Markson’s book-length Wuhan origins investigation.",
+      "topics": [
+        "lab-leak hypothesis",
+        "COVID-19",
+        "Sharri Markson",
+        "Amazon",
+        "Wuhan"
+      ],
+      "entities": {
+        "people": [
+          "Sharri Markson"
+        ],
+        "orgs": [
+          "Amazon",
+          "HarperCollins"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:sharri-markson"
+        ],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch17-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:sharri-markson"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:covid-19",
+        "person:sharri-markson",
+        "org:amazon",
+        "place:wuhan"
+      ],
+      "date_iso": "2021-09-28"
+    },
+    {
+      "id": 6,
+      "type": "Newspaper article",
+      "author": "Eban, Katherine",
+      "title": "and Jeff Kao, COVID-19 Origins: Investigating a “Complex and Grave Situation” Inside a Wuhan Lab",
+      "publication": "Vanity Fair",
+      "date": "October 28, 2022",
+      "url": "https://www.vanityfair.com/news/2022/10/covid-origins-investigation-wuhan-lab",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Vanity Fair/ProPublica investigation with Senate analyst Toy Reid decoding WIV ‘party speak’ archives—highlighting a November 2019 ‘complex and grave situation’ and biosafety concerns used to bolster lab-linked origins scrutiny.",
+      "book_role": "Notes citation on WIV internal documents and the Nov 2019 crisis language.",
+      "topics": [
+        "lab-leak hypothesis",
+        "biosafety",
+        "BSL-4 laboratory",
+        "Wuhan Institute of Virology",
+        "Katherine Eban",
+        "Vanity Fair"
+      ],
+      "entities": {
+        "people": [
+          "Katherine Eban",
+          "Jeff Kao",
+          "Toy Reid"
+        ],
+        "orgs": [
+          "Vanity Fair",
+          "Wuhan Institute of Virology",
+          "ProPublica"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:katherine-eban"
+        ],
+        "orgs": [
+          "org:vanity-fair",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch17-n06",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:katherine-eban"
+      ],
+      "publication_ids": [
+        "org:vanity-fair"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:biosafety",
+        "topic:bsl-4-laboratory",
+        "org:wuhan-institute-of-virology",
+        "person:katherine-eban",
+        "org:vanity-fair"
+      ],
+      "date_iso": "2022-10-28"
+    },
+    {
+      "id": 7,
+      "type": "Article",
+      "author": "Demaneuf, Gilles",
+      "title": "Translations of key Chinese articles and blogs about the Covid-19 Outbreak",
+      "publication": "Medium",
+      "date": "July 11, 2022",
+      "url": "https://gillesdemaneuf.medium.com/translations-of-key-chinese-articles-and-blogs-about-the-covid-19-outbreak-3c253df8df98",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Gilles Demaneuf Medium compilation of English translations of key Chinese articles and blogs on the early COVID outbreak—preserving pieces often later deleted from Chinese media.",
+      "book_role": "Notes citation preserving translated Chinese primary reporting on the outbreak’s start.",
+      "topics": [
+        "COVID-19",
+        "censorship",
+        "Gilles Demaneuf",
+        "Medium",
+        "DRASTIC",
+        "Wuhan"
+      ],
+      "entities": {
+        "people": [
+          "Gilles Demaneuf"
+        ],
+        "orgs": [
+          "Medium",
+          "DRASTIC"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:gilles-demaneuf"
+        ],
+        "orgs": [
+          "org:medium",
+          "org:drastic"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch17-n07",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:gilles-demaneuf"
+      ],
+      "publication_ids": [
+        "org:medium"
+      ],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:censorship",
+        "person:gilles-demaneuf",
+        "org:medium",
+        "org:drastic",
+        "place:wuhan"
+      ],
+      "date_iso": "2022-07-11"
+    },
+    {
+      "id": 8,
+      "type": "Article",
+      "author": "Kopp, Emily",
+      "title": "‘The CT machines were crashing’: Interview with Wuhan doctor reveals early COVID cases were suppressed",
+      "publication": "U.S. Right to Know",
+      "date": "July 10, 2023",
+      "url": "https://usrtk.org/covid-19-origins/wuhan-doctor-early-covid-cases-suppressed/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "USRTK report on a Caixin interview with a Wuhan radiologist who saw CT-confirmed cases doubling daily in January 2020 while official counts froze—estimating ≥10,000 city cases by Jan 21 amid pressure not to speak publicly.",
+      "book_role": "Notes citation for firsthand evidence that early Wuhan case counts were suppressed.",
+      "topics": [
+        "COVID-19",
+        "censorship",
+        "Patient Zero",
+        "Emily Kopp",
+        "U.S. Right to Know",
+        "Wuhan"
+      ],
+      "entities": {
+        "people": [
+          "Emily Kopp"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "Caixin"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:emily-kopp"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch17-n08",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ],
+      "topic_ids": [
+        "topic:covid-19",
+        "topic:censorship",
+        "topic:patient-zero",
+        "person:emily-kopp",
+        "org:u-s-right-to-know",
+        "place:wuhan"
+      ],
+      "date_iso": "2023-07-10"
+    },
+    {
+      "id": 9,
+      "type": "Journal article",
+      "author": "Deslandes, Alexandre",
+      "title": "et al., SARS-CoV-2 was already spreading in France in late December 2019",
+      "publication": "International Journal of Antimicrobial Agents",
+      "date": "May 3, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32371096/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "PubMed abstract of Deslandes et al.: retrospective RT-PCR on a late-December 2019 Paris ICU patient with unexplained haemoptysis—evidence consistent with SARS-CoV-2 circulating in France before the recognized January 2020 start.",
+      "book_role": "Notes citation for a purported pre-recognition European clinical COVID case.",
+      "topics": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "Patient Zero",
+        "PubMed"
+      ],
+      "entities": {
+        "people": [
+          "Alexandre Deslandes"
+        ],
+        "orgs": [
+          "PubMed"
+        ],
+        "places": [
+          "Europe",
+          "Paris",
+          "France"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pubmed"
+        ],
+        "places": [
+          "place:europe"
+        ]
+      },
+      "source_key": "ch17-n09",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "topic:patient-zero",
+        "org:pubmed"
+      ],
+      "date_iso": "2020-05-03"
+    },
+    {
+      "id": 10,
+      "type": "Journal article",
+      "author": "La Rosa",
+      "title": "Giuseppina, et al., First detection of SARS-CoV-2 in untreated wastewaters in Italy",
+      "publication": "Science of the Total Environment",
+      "date": "May 23, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32464333/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n10.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "PubMed abstract of La Rosa et al.: first detection of SARS-CoV-2 RNA in untreated Italian wastewaters—demonstrating wastewater-based epidemiology as an early community circulation signal.",
+      "book_role": "Notes citation for early European wastewater detection of SARS-CoV-2.",
+      "topics": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "Science of the Total Environment",
+        "PubMed"
+      ],
+      "entities": {
+        "people": [
+          "Giuseppina La Rosa"
+        ],
+        "orgs": [
+          "Science of the Total Environment",
+          "PubMed"
+        ],
+        "places": [
+          "Europe",
+          "Italy"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:science-of-the-total-environment",
+          "org:pubmed"
+        ],
+        "places": [
+          "place:europe"
+        ]
+      },
+      "source_key": "ch17-n10",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:science-of-the-total-environment"
+      ],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "org:science-of-the-total-environment",
+        "org:pubmed"
+      ],
+      "date_iso": "2020-05-23"
+    },
+    {
+      "id": 11,
+      "type": "Journal article",
+      "author": "Apolone, Giovanni",
+      "title": "et al., Unexpected detection of SARS-CoV-2 antibodies in the prepandemic period in Italy, Tumori Journal, October 2021 (Epub: November 11",
+      "publication": "2020)",
+      "date": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33176598/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "PubMed abstract of Apolone et al.: unexpected SARS-CoV-2 RBD antibodies in 111 of 959 asymptomatic Italians from a lung-cancer screening cohort sampled September 2019–March 2020—suggesting possible prepandemic exposure.",
+      "book_role": "Notes citation for serology hinting at Italian prepandemic SARS-CoV-2 exposure.",
+      "topics": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "Patient Zero",
+        "PubMed"
+      ],
+      "entities": {
+        "people": [
+          "Giovanni Apolone"
+        ],
+        "orgs": [
+          "PubMed",
+          "Tumori"
+        ],
+        "places": [
+          "Europe",
+          "Italy"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pubmed"
+        ],
+        "places": [
+          "place:europe"
+        ]
+      },
+      "source_key": "ch17-n11",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
+      "author_ids": [],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "topic:patient-zero",
+        "org:pubmed"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "Journal article",
+      "author": "Fongaro, Gislaine",
+      "title": "et al., The presence of SARS-CoV-2 RNA in human sewage in Santa Catarina, Brazil, November 2019",
+      "publication": "Science of the Total Environment",
+      "date": "July 15, 2021",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048969721012651",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n12.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Science of the Total Environment study detecting SARS-CoV-2 RNA in Santa Catarina, Brazil sewage as early as November 2019—pushing putative circulation in the Americas before official first cases.",
+      "book_role": "Notes citation for Brazilian wastewater evidence of late-2019 SARS-CoV-2 RNA.",
+      "topics": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "Patient Zero",
+        "Science of the Total Environment"
+      ],
+      "entities": {
+        "people": [
+          "Gislaine Fongaro"
+        ],
+        "orgs": [
+          "Science of the Total Environment"
+        ],
+        "places": [
+          "Santa Catarina",
+          "Brazil"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:science-of-the-total-environment"
+        ],
+        "places": []
+      },
+      "source_key": "ch17-n12",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:science-of-the-total-environment"
+      ],
+      "topic_ids": [
+        "topic:sars-cov-2",
+        "topic:covid-19",
+        "topic:patient-zero",
+        "org:science-of-the-total-environment"
+      ],
+      "date_iso": "2021-07-15"
+    },
+    {
+      "id": 13,
+      "type": "Article",
+      "author": "Young, Alison",
+      "title": "Could an accident have caused COVID-19? Why the Wuhan lab-leak theory shouldn't be dismissed",
+      "publication": "USA Today Opinion",
+      "date": "March 22, 2021",
+      "url": "https://web.archive.org/web/20210322085412/https://www.usatoday.com/in-depth/opinion/2021/03/22/why-covid-lab-leak-theory-wuhan-shouldnt-dismissed-column/4765985001/",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n13.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Alison Young USA Today opinion arguing the Wuhan lab-leak hypothesis should not be dismissed—drawing on her lab-safety investigations (including forgotten NIH smallpox vials) to show high-containment accidents and lapses are real precedents.",
+      "book_role": "Notes citation that mainstream reporting urged taking lab accident seriously.",
+      "topics": [
+        "lab-leak hypothesis",
+        "biosafety",
+        "Alison Young",
+        "NIH",
+        "Wuhan Institute of Virology"
+      ],
+      "entities": {
+        "people": [
+          "Alison Young"
+        ],
+        "orgs": [
+          "NIH",
+          "USA Today"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:alison-young"
+        ],
+        "orgs": [
+          "org:nih"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch17-n13",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:alison-young"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:biosafety",
+        "person:alison-young",
+        "org:nih",
+        "org:wuhan-institute-of-virology"
+      ],
+      "date_iso": "2021-03-22"
+    },
+    {
+      "id": 14,
+      "type": "Book",
+      "author": "Young, Alison",
+      "title": "Pandora’s Gamble: Lab Leaks, Pandemics, and a World at Risk",
+      "publication": "Center Street",
+      "date": "2023",
+      "url": "https://www.amazon.com/Pandoras-Gamble-Leaks-Pandemics-World/dp/0553807757",
+      "status": "ok",
+      "artifact": "artifacts/ch17-n14.md",
+      "content_kind": "book",
+      "language": "en",
+      "summary": "Alison Young’s 2023 book Pandora’s Gamble on lab leaks, pandemics, and biosafety risk—extending her investigative reporting on high-containment accidents. Amazon page only; no book text captured.",
+      "book_role": "Notes citation for Young’s book-length treatment of lab-leak risk.",
+      "topics": [
+        "lab-leak hypothesis",
+        "biosafety",
+        "biosecurity",
+        "Alison Young",
+        "Amazon"
+      ],
+      "entities": {
+        "people": [
+          "Alison Young"
+        ],
+        "orgs": [
+          "Amazon",
+          "Center Street"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:alison-young"
+        ],
+        "orgs": [
+          "org:amazon"
+        ],
+        "places": []
+      },
+      "source_key": "ch17-n14",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:alison-young"
+      ],
+      "publication_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:biosafety",
+        "topic:biosecurity",
+        "person:alison-young",
+        "org:amazon"
+      ],
+      "date_iso": "2023"
     }
   ]
 }

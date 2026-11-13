@@ -42,9 +42,13 @@
       "source_key": "ch06-s01",
       "date_iso": "2014-03-31",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:martin-furmanski"
+      ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:martin-furmanski"
+        ],
         "orgs": [
           "org:bulletin-of-the-atomic-scientists"
         ],
@@ -999,6 +1003,76 @@
       "publication_ids": [
         "org:reuters"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Article",
+      "author": "Kopp, Emily",
+      "title": "Visual Timeline: Key Events in the Writing and Publication of “Proximal Origin of SARS-CoV-2”",
+      "publication": "U.S. Right to Know",
+      "date": "April 20, 2023",
+      "url": "https://usrtk.org/covid-19-origins/visual-timeline-proximal-origin/",
+      "status": "ok",
+      "artifact": "artifacts/ch06-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "U.S. Right to Know visual timeline of how the Nature Medicine ‘Proximal Origin’ paper was drafted and published—tracking private Slack/email debates, Fauci/Collins engagement, and the public claim that a lab scenario was not plausible.",
+      "book_role": "Notes citation documenting the Proximal Origin drafting and messaging timeline.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "censorship",
+        "Kristian Andersen",
+        "Nature Medicine",
+        "EcoHealth Alliance",
+        "U.S. Right to Know"
+      ],
+      "entities": {
+        "people": [
+          "Emily Kopp",
+          "Kristian Andersen"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "Nature Medicine",
+          "EcoHealth Alliance",
+          "NIH"
+        ],
+        "places": []
+      },
+      "entity_ids": {
+        "people": [
+          "person:emily-kopp",
+          "person:kristian-andersen"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know",
+          "org:nature-medicine",
+          "org:ecohealth-alliance",
+          "org:nih"
+        ],
+        "places": []
+      },
+      "source_key": "ch06-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:censorship",
+        "person:kristian-andersen",
+        "org:nature-medicine",
+        "org:ecohealth-alliance",
+        "org:u-s-right-to-know"
+      ],
+      "date_iso": "2023-04-20"
     }
   ]
 }

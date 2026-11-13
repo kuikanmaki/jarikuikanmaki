@@ -803,5 +803,74 @@
         "org:bbc-news"
       ]
     }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Article",
+      "author": "Demaneuf, Gilles",
+      "title": "BSL-4 laboratories in China: Kunming, Wuhan, Harbin",
+      "publication": "Medium",
+      "date": "April 27, 2022",
+      "url": "https://gillesdemaneuf.medium.com/bsl-4-laboratories-in-china-kunming-wuhan-harbin-109c01d71537",
+      "status": "ok",
+      "artifact": "artifacts/ch00-n01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "DRASTIC/Gilles Demaneuf survey of China’s BSL-4 program after SARS—built and planned labs including Kunming (IMB), Wuhan (WIV), and Harbin—covering construction timelines, operators, and biosafety context.",
+      "book_role": "Notes citation mapping China’s high-containment labs beyond Wuhan alone.",
+      "topics": [
+        "BSL-4 laboratory",
+        "biosafety",
+        "Wuhan Institute of Virology",
+        "DRASTIC",
+        "Gilles Demaneuf"
+      ],
+      "entities": {
+        "people": [
+          "Gilles Demaneuf"
+        ],
+        "orgs": [
+          "DRASTIC",
+          "Wuhan Institute of Virology",
+          "Medium"
+        ],
+        "places": [
+          "Wuhan",
+          "Kunming",
+          "Harbin",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:gilles-demaneuf"
+        ],
+        "orgs": [
+          "org:drastic",
+          "org:wuhan-institute-of-virology",
+          "org:medium"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch00-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:gilles-demaneuf"
+      ],
+      "publication_ids": [
+        "org:medium"
+      ],
+      "topic_ids": [
+        "topic:bsl-4-laboratory",
+        "topic:biosafety",
+        "org:wuhan-institute-of-virology",
+        "org:drastic",
+        "person:gilles-demaneuf"
+      ],
+      "date_iso": "2022-04-27"
+    }
   ]
 }

@@ -1133,7 +1133,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jeremy-page"
+        ],
         "orgs": [
           "org:the-wall-street-journal",
           "org:wuhan-institute-of-virology"
@@ -1148,10 +1150,392 @@
       "date_iso": "2021-05-24",
       "image_url": "https://images.wsj.net/im-342289/square?width=1280&height=1280",
       "acquisition_note": "Substantial opening retrieved before paywall.",
-      "author_ids": [],
+      "author_ids": [
+        "person:jeremy-page"
+      ],
       "publication_ids": [
         "org:the-wall-street-journal"
       ]
+    }
+  ],
+  "notes_sources": [
+    {
+      "id": 1,
+      "type": "Report",
+      "author": "",
+      "title": "WHO-convened global study of origins of SARS-CoV-2: China Part",
+      "publication": "",
+      "date": "",
+      "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+      "status": "ok",
+      "artifact": "artifacts/ch09-n01.md",
+      "content_kind": "gov_doc",
+      "language": "en",
+      "summary": "WHO-convened joint study report (China Part) on SARS-CoV-2 origins—mission findings from Wuhan covering market, zoonotic, and laboratory pathways, later widely criticized for access limits and for ranking a lab incident as extremely unlikely.",
+      "book_role": "Notes citation for the official WHO–China joint origins report.",
+      "topics": [
+        "zoonosis",
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "intermediate host",
+        "WHO",
+        "Wuhan Institute of Virology",
+        "Huanan Seafood Market"
+      ],
+      "entities": {
+        "people": [],
+        "orgs": [
+          "WHO",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "Huanan Seafood Market",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:who",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan",
+          "place:huanan-seafood-market"
+        ]
+      },
+      "source_key": "ch09-n01",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Firecrawl failed on WHO landing page; scraped WHO joint-report PDF via Firecrawl.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:who"
+      ],
+      "topic_ids": [
+        "topic:zoonosis",
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:intermediate-host",
+        "org:who",
+        "org:wuhan-institute-of-virology",
+        "place:huanan-seafood-market"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Newspaper article",
+      "author": "Lentzos, Filippa",
+      "title": "Natural spillover or research lab leak? Why a credible investigation is needed to determine the origin of the coronavirus pandemic",
+      "publication": "Bulletin of the Atomic Scientists",
+      "date": "May 1, 2020",
+      "url": "https://thebulletin.org/2020/05/natural-spillover-or-research-lab-leak-why-a-credible-investigation-in-needed-to-determine-the-origin-of-the-coronavirus-pandemic/",
+      "status": "ok",
+      "artifact": "artifacts/ch09-n02.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Bulletin of the Atomic Scientists analysis by Filippa Lentzos arguing that while genetic evidence then favored natural spillover, a research-lab accident at Wuhan coronavirus labs remained a serious possibility requiring a credible international investigation.",
+      "book_role": "Early Notes citation insisting lab-leak deserved serious, evidence-based inquiry.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "biosafety",
+        "BSL-4 laboratory",
+        "Wuhan Institute of Virology",
+        "Bulletin of the Atomic Scientists"
+      ],
+      "entities": {
+        "people": [
+          "Peter Daszak",
+          "Filippa Lentzos"
+        ],
+        "orgs": [
+          "Bulletin of the Atomic Scientists",
+          "Wuhan Institute of Virology",
+          "Wuhan Center for Disease Control and Prevention"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:peter-daszak"
+        ],
+        "orgs": [
+          "org:bulletin-of-the-atomic-scientists",
+          "org:wuhan-institute-of-virology",
+          "org:wuhan-center-for-disease-control-and-prevention"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch09-n02",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:bulletin-of-the-atomic-scientists"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:biosafety",
+        "topic:bsl-4-laboratory",
+        "org:wuhan-institute-of-virology",
+        "org:bulletin-of-the-atomic-scientists"
+      ],
+      "date_iso": "2020-05-01"
+    },
+    {
+      "id": 3,
+      "type": "Article",
+      "author": "Ridley, Matt",
+      "title": "So Where Did the Virus Come From?",
+      "publication": "Wall Street Journal",
+      "date": "May 29, 2020",
+      "url": "https://www.wsj.com/articles/so-where-did-the-virus-come-from-11590756909",
+      "status": "ok",
+      "artifact": "artifacts/ch09-n03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Matt Ridley WSJ essay on SARS-CoV-2 origins research—asking how the virus became so infectious in humans and weighing bats, wildlife markets, possible intermediate hosts, and laboratories. Partial page capture.",
+      "book_role": "Notes citation opening mainstream discussion of lab involvement alongside market/zoonosis stories.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "SARS-CoV-2",
+        "bat coronaviruses",
+        "Matt Ridley",
+        "The Wall Street Journal"
+      ],
+      "entities": {
+        "people": [
+          "Matt Ridley"
+        ],
+        "orgs": [
+          "The Wall Street Journal"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:matt-ridley"
+        ],
+        "orgs": [
+          "org:the-wall-street-journal"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch09-n03",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:matt-ridley"
+      ],
+      "publication_ids": [
+        "org:the-wall-street-journal"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:sars-cov-2",
+        "topic:bat-coronaviruses",
+        "person:matt-ridley",
+        "org:the-wall-street-journal"
+      ],
+      "date_iso": "2020-05-29"
+    },
+    {
+      "id": 4,
+      "type": "Journal article",
+      "author": "Latham, Jonathan; Wilson, Allison",
+      "title": "The Case Is Building That COVID-19 Had a Lab Origin",
+      "publication": "Independent Science News",
+      "date": "June 2, 2020",
+      "url": "https://www.researchgate.net/publication/342787487_The_Case_Is_Building_That_COVID-19_Had_a_Lab_Origin_independentsciencenewsorghealththe-case-is-building-that-covid-19-had-a-lab-origin",
+      "status": "ok",
+      "artifact": "artifacts/ch09-n04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Independent Science News essay by Jonathan Latham and Allison Wilson arguing a laboratory origin for COVID-19 is scientifically plausible, stressing the outbreak’s proximity to Wuhan’s leading SARS-like coronavirus research and collection center.",
+      "book_role": "Notes citation assembling an early scientific case for lab origin beyond partisan framing.",
+      "topics": [
+        "lab-leak hypothesis",
+        "SARS-CoV-2",
+        "bat coronaviruses",
+        "Wuhan Institute of Virology",
+        "Jonathan Latham",
+        "Independent Science News"
+      ],
+      "entities": {
+        "people": [
+          "Jonathan Latham",
+          "Allison Wilson"
+        ],
+        "orgs": [
+          "Independent Science News",
+          "Wuhan Institute of Virology"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [
+          "person:jonathan-latham"
+        ],
+        "orgs": [
+          "org:independent-science-news",
+          "org:wuhan-institute-of-virology"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch09-n04",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [
+        "person:jonathan-latham"
+      ],
+      "publication_ids": [
+        "org:independent-science-news"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:sars-cov-2",
+        "topic:bat-coronaviruses",
+        "org:wuhan-institute-of-virology",
+        "person:jonathan-latham",
+        "org:independent-science-news"
+      ],
+      "date_iso": "2020-06-02"
+    },
+    {
+      "id": 5,
+      "type": "Newspaper article",
+      "author": "Leitenberg, Milton",
+      "title": "Did the SARS-CoV-2 virus arise from a bat coronavirus research program in a Chinese laboratory? Very possibly",
+      "publication": "Bulletin of the Atomic Scientists",
+      "date": "June 4, 2020",
+      "url": "https://thebulletin.org/2020/06/did-the-sars-cov-2-virus-arise-from-a-bat-coronavirus-research-program-in-a-chinese-laboratory-very-possibly/",
+      "status": "ok",
+      "artifact": "artifacts/ch09-n05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "Milton Leitenberg in the Bulletin arguing a lab escape from Wuhan bat-coronavirus research (WIV and Wuhan CDC) is a plausible, non-conspiratorial hypothesis—listing circumstantial evidence including animal infections and weak PPE/biosafety practices.",
+      "book_role": "Notes citation treating lab escape from Wuhan bat-virus programs as a serious possibility.",
+      "topics": [
+        "lab-leak hypothesis",
+        "bat coronaviruses",
+        "biosafety",
+        "Wuhan Institute of Virology",
+        "Wuhan Center for Disease Control and Prevention",
+        "Bulletin of the Atomic Scientists"
+      ],
+      "entities": {
+        "people": [
+          "Milton Leitenberg"
+        ],
+        "orgs": [
+          "Bulletin of the Atomic Scientists",
+          "Wuhan Institute of Virology",
+          "Wuhan Center for Disease Control and Prevention"
+        ],
+        "places": [
+          "Wuhan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:bulletin-of-the-atomic-scientists",
+          "org:wuhan-institute-of-virology",
+          "org:wuhan-center-for-disease-control-and-prevention"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch09-n05",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:bulletin-of-the-atomic-scientists"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:bat-coronaviruses",
+        "topic:biosafety",
+        "org:wuhan-institute-of-virology",
+        "org:wuhan-center-for-disease-control-and-prevention",
+        "org:bulletin-of-the-atomic-scientists"
+      ],
+      "date_iso": "2020-06-04"
+    },
+    {
+      "id": 6,
+      "type": "Journal article",
+      "author": "Relman, David",
+      "title": "To stop the next pandemic, we need to unravel the origins of COVID-19",
+      "publication": "PNAS",
+      "date": "November 3, 2020",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2021133117",
+      "status": "ok",
+      "artifact": "artifacts/ch09-n06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "David Relman’s PNAS perspective arguing that ten months into COVID-19, origins remain unknown; spillover and lab scenarios cannot be ruled out, and only a transparent, politically neutral investigation with full sample and data access can resolve them.",
+      "book_role": "Notes citation for a senior scientist demanding a rigorous, open origins inquiry.",
+      "topics": [
+        "lab-leak hypothesis",
+        "zoonosis",
+        "SARS-CoV-2",
+        "RaTG13",
+        "PNAS"
+      ],
+      "entities": {
+        "people": [
+          "David Relman"
+        ],
+        "orgs": [
+          "PNAS"
+        ],
+        "places": [
+          "Wuhan",
+          "Yunnan",
+          "China"
+        ]
+      },
+      "entity_ids": {
+        "people": [],
+        "orgs": [
+          "org:pnas"
+        ],
+        "places": [
+          "place:wuhan"
+        ]
+      },
+      "source_key": "ch09-n06",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.",
+      "author_ids": [],
+      "publication_ids": [
+        "org:pnas"
+      ],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis",
+        "topic:zoonosis",
+        "topic:sars-cov-2",
+        "topic:ratg13",
+        "org:pnas"
+      ],
+      "date_iso": "2020-11-03"
     }
   ]
 }

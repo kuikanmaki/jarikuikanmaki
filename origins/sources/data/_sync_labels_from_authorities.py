@@ -41,7 +41,7 @@ def main() -> None:
     for path in sorted(EXT.glob("chapter-*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
         dirty = False
-        for source in data.get("sources") or []:
+        for source in (data.get("sources") or []) + (data.get("notes_sources") or []):
             key = source.get("source_key")
             before = {
                 "topics": list(source.get("topics") or []),
