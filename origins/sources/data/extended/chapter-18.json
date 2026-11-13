@@ -788,9 +788,7 @@
       "source_key": "ch18-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [
-        "org:who"
-      ],
+      "publication_ids": [],
       "topic_ids": [
         "topic:omicron-variant",
         "topic:sars-cov-2",

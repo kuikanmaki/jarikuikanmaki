@@ -980,9 +980,9 @@
       "id": 2,
       "type": "Article",
       "author": "",
-      "title": "Notice on the Standardization of the Management of Publication of Novel Coronavirus Pneumonia Scientific Research, The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force",
-      "publication": "March 3rd",
-      "date": "2020",
+      "title": "Notice on the Standardization of the Management of Publication of Novel Coronavirus Pneumonia Scientific Research",
+      "publication": "The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force",
+      "date": "March 3, 2020",
       "url": "https://embed.documentcloud.org/documents/7340337-State-Research-regulations/",
       "status": "ok",
       "artifact": "artifacts/ch12-n02.md",
@@ -1018,7 +1018,7 @@
         "topic:covid-19",
         "topic:freedom-of-information-requests"
       ],
-      "date_iso": "2020"
+      "date_iso": "2020-03-03"
     },
     {
       "id": 3,
@@ -1085,8 +1085,8 @@
     {
       "id": 4,
       "type": "Newspaper article",
-      "author": "Zhong, Raymond",
-      "title": "et al., No 'Negative' News: How China Censored the Coronavirus",
+      "author": "Zhong, Raymond, et al.",
+      "title": "No 'Negative' News: How China Censored the Coronavirus",
       "publication": "New York Times",
       "date": "December 19, 2020",
       "url": "https://web.archive.org/web/20201219120000/https://www.nytimes.com/2020/12/19/technology/china-coronavirus-censorship.html",

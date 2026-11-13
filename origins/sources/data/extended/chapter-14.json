@@ -559,8 +559,8 @@
     {
       "id": 1,
       "type": "Journal article",
-      "author": "Lu, Wei",
-      "title": "and Zheng Liu, Shi Zhengli: The Female Scientist with viruses",
+      "author": "Lu, Wei, and Zheng Liu",
+      "title": "Shi Zhengli: The Female Scientist with viruses",
       "publication": "Sciencenet News",
       "date": "March 10, 2009",
       "url": "https://web.archive.org/web/20190207020202/http://news.sciencenet.cn/sbhtmlnews/2009/3/216816.html",
@@ -580,7 +580,8 @@
       "entities": {
         "people": [
           "Shi Zhengli",
-          "Lu Wei"
+          "Lu Wei",
+          "Zheng Liu"
         ],
         "orgs": [
           "Wuhan Institute of Virology",

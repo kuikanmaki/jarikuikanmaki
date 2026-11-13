@@ -1821,6 +1821,16 @@
         "subentries": [],
         "pages": [],
         "source": "corpus-extension"
+      },
+      {
+        "id": "org:zenodo",
+        "prefLabel": "Zenodo",
+        "indexTerm": "Zenodo",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       }
     ],
     "person": [
@@ -3246,6 +3256,26 @@
         "id": "person:josh-christenson",
         "prefLabel": "Josh Christenson",
         "indexTerm": "Christenson, Josh",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:allison-wilson",
+        "prefLabel": "Allison Wilson",
+        "indexTerm": "Wilson, Allison",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "person:alina-chan",
+        "prefLabel": "Alina Chan",
+        "indexTerm": "Chan, Alina",
         "altLabels": [],
         "related": [],
         "subentries": [],

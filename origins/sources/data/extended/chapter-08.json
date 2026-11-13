@@ -1351,8 +1351,8 @@
       "id": 2,
       "type": "Article",
       "author": "",
-      "title": "Wuhan Institute of Virology, Partnerships",
-      "publication": "Official English Website",
+      "title": "Partnerships",
+      "publication": "Wuhan Institute of Virology",
       "date": "May 29, 2019",
       "url": "https://web.archive.org/web/20190529171301/https://english.whiov.cas.cn/International_Cooperation2016/Partnerships/",
       "status": "ok",
@@ -1397,7 +1397,9 @@
       "source_key": "ch08-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:wuhan-institute-of-virology"
+      ],
       "topic_ids": [
         "org:wuhan-institute-of-virology",
         "org:ecohealth-alliance",
@@ -1528,8 +1530,8 @@
     {
       "id": 5,
       "type": "Article",
-      "author": "Hale, Thomas",
-      "title": "et al., Variation in Government Responses to COVID-19",
+      "author": "Hale, Thomas, et al.",
+      "title": "Variation in Government Responses to COVID-19",
       "publication": "Oxford COVID-19 Government Response Tracker",
       "date": "2020",
       "url": "https://www.bsg.ox.ac.uk/research/publications/variation-government-responses-covid-19",
@@ -1659,8 +1661,8 @@
     {
       "id": 8,
       "type": "Journal article",
-      "author": "Herby, Jonas",
-      "title": "et al., Were COVID-19 lockdowns worth it? A meta-analysis",
+      "author": "Herby, Jonas, et al.",
+      "title": "Were COVID-19 lockdowns worth it? A meta-analysis",
       "publication": "Public Choice",
       "date": "November 28, 2024",
       "url": "https://link.springer.com/article/10.1007/s11127-024-01216-7",

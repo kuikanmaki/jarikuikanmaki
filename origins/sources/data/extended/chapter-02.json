@@ -302,9 +302,9 @@
       "id": 1,
       "type": "PDF document",
       "author": "Shoham, Dany",
-      "title": "China’s Biological Warfare Programme, Journal of Defence Studies",
-      "publication": "April-June 2015",
-      "date": "",
+      "title": "China’s Biological Warfare Programme",
+      "publication": "Journal of Defence Studies",
+      "date": "April-June 2015",
       "url": "https://www.idsa.in/system/files/jds/jds_9_2_2015_DanyShoham.pdf",
       "status": "ok",
       "artifact": "artifacts/ch02-n01.md",
@@ -347,7 +347,8 @@
         "topic:biodefense-complex",
         "topic:biosecurity",
         "person:dany-shoham"
-      ]
+      ],
+      "date_iso": "2015"
     },
     {
       "id": 2,

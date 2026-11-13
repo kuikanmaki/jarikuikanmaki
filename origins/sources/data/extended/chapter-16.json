@@ -838,8 +838,8 @@
     {
       "id": 3,
       "type": "Newspaper article",
-      "author": "Guterl, Fred",
-      "title": "et al., The Controversial Experiments and Wuhan Lab Suspected of Starting the Coronavirus Pandemic",
+      "author": "Guterl, Fred, et al.",
+      "title": "The Controversial Experiments and Wuhan Lab Suspected of Starting the Coronavirus Pandemic",
       "publication": "Newsweek",
       "date": "April 27, 2020",
       "url": "https://www.newsweek.com/controversial-wuhan-lab-experiments-that-may-have-started-coronavirus-pandemic-1500503",
@@ -911,8 +911,8 @@
     {
       "id": 4,
       "type": "Newspaper article",
-      "author": "McNeil Jr.",
-      "title": "Donald G., Scientists Were Hunting for the Next Ebola. Now the U.S. Has Cut Off Their Funding",
+      "author": "McNeil Jr., Donald G.",
+      "title": "Scientists Were Hunting for the Next Ebola. Now the U.S. Has Cut Off Their Funding",
       "publication": "The New York Times",
       "date": "October 25, 2019",
       "url": "https://web.archive.org/web/20191025180000/https://www.nytimes.com/2019/10/25/health/predict-usaid-viruses.html",

@@ -1428,6 +1428,26 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "person:allison-wilson",
+      "prefLabel": "Allison Wilson",
+      "indexTerm": "Wilson, Allison",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "person:alina-chan",
+      "prefLabel": "Alina Chan",
+      "indexTerm": "Chan, Alina",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

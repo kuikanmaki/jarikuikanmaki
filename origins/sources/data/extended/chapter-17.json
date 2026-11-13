@@ -854,7 +854,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:people-s-liberation-army"
+          "org:people-s-liberation-army",
+          "org:zenodo"
         ],
         "places": [
           "place:wuhan",
@@ -865,7 +866,9 @@
       "date_iso": "2020-10-28",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [
+        "org:zenodo"
+      ]
     }
   ],
   "notes_sources": [
@@ -929,8 +932,8 @@
     {
       "id": 2,
       "type": "Journal article",
-      "author": "Li, Qun",
-      "title": "et al., Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia",
+      "author": "Li, Qun, et al.",
+      "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia",
       "publication": "The New England Journal of Medicine",
       "date": "March 26, 2020",
       "url": "https://pubmed.ncbi.nlm.nih.gov/31995857/",
@@ -987,8 +990,8 @@
     {
       "id": 3,
       "type": "Journal article",
-      "author": "Kumar, Sudhir",
-      "title": "et al., An Evolutionary Portrait of the Progenitor SARS-CoV-2 and Its Dominant Offshoots in COVID-19 Pandemic",
+      "author": "Kumar, Sudhir, et al.",
+      "title": "An Evolutionary Portrait of the Progenitor SARS-CoV-2 and Its Dominant Offshoots in COVID-19 Pandemic",
       "publication": "Molecular Biology and Evolution",
       "date": "July 29, 2021",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33942847/",
@@ -1039,8 +1042,8 @@
     {
       "id": 4,
       "type": "Journal article",
-      "author": "Helden, Jacques van",
-      "title": "et al., An appeal for an objective, open, and transparent scientific debate about the origin of SARS-CoV-2",
+      "author": "Helden, Jacques van, et al.",
+      "title": "An appeal for an objective, open, and transparent scientific debate about the origin of SARS-CoV-2",
       "publication": "The Lancet",
       "date": "October 16, 2021",
       "url": "https://amu.hal.science/hal-03358748/document",
@@ -1149,8 +1152,8 @@
     {
       "id": 6,
       "type": "Newspaper article",
-      "author": "Eban, Katherine",
-      "title": "and Jeff Kao, COVID-19 Origins: Investigating a “Complex and Grave Situation” Inside a Wuhan Lab",
+      "author": "Eban, Katherine, and Jeff Kao",
+      "title": "COVID-19 Origins: Investigating a “Complex and Grave Situation” Inside a Wuhan Lab",
       "publication": "Vanity Fair",
       "date": "October 28, 2022",
       "url": "https://www.vanityfair.com/news/2022/10/covid-origins-investigation-wuhan-lab",
@@ -1345,8 +1348,8 @@
     {
       "id": 9,
       "type": "Journal article",
-      "author": "Deslandes, Alexandre",
-      "title": "et al., SARS-CoV-2 was already spreading in France in late December 2019",
+      "author": "Deslandes, Alexandre, et al.",
+      "title": "SARS-CoV-2 was already spreading in France in late December 2019",
       "publication": "International Journal of Antimicrobial Agents",
       "date": "May 3, 2020",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32371096/",
@@ -1399,8 +1402,8 @@
     {
       "id": 10,
       "type": "Journal article",
-      "author": "La Rosa",
-      "title": "Giuseppina, et al., First detection of SARS-CoV-2 in untreated wastewaters in Italy",
+      "author": "La Rosa, Giuseppina, et al.",
+      "title": "First detection of SARS-CoV-2 in untreated wastewaters in Italy",
       "publication": "Science of the Total Environment",
       "date": "May 23, 2020",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32464333/",
@@ -1456,10 +1459,10 @@
     {
       "id": 11,
       "type": "Journal article",
-      "author": "Apolone, Giovanni",
-      "title": "et al., Unexpected detection of SARS-CoV-2 antibodies in the prepandemic period in Italy, Tumori Journal, October 2021 (Epub: November 11",
-      "publication": "2020)",
-      "date": "",
+      "author": "Apolone, Giovanni, et al.",
+      "title": "Unexpected detection of SARS-CoV-2 antibodies in the prepandemic period in Italy",
+      "publication": "Tumori Journal",
+      "date": "October 2021",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33176598/",
       "status": "ok",
       "artifact": "artifacts/ch17-n11.md",
@@ -1496,7 +1499,7 @@
         ]
       },
       "source_key": "ch17-n11",
-      "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
+      "acquisition_note": "Ingested from Notes HTML hyperlink.; Scrape not_found: not_found:oesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double; Scraped via browser/NCBI E-utilities after Firecrawl reported not_found. Notes HTML also records Epub: November 11, 2020.",
       "author_ids": [],
       "publication_ids": [],
       "topic_ids": [
@@ -1504,13 +1507,14 @@
         "topic:covid-19",
         "topic:patient-zero",
         "org:pubmed"
-      ]
+      ],
+      "date_iso": "2021-10"
     },
     {
       "id": 12,
       "type": "Journal article",
-      "author": "Fongaro, Gislaine",
-      "title": "et al., The presence of SARS-CoV-2 RNA in human sewage in Santa Catarina, Brazil, November 2019",
+      "author": "Fongaro, Gislaine, et al.",
+      "title": "The presence of SARS-CoV-2 RNA in human sewage in Santa Catarina, Brazil, November 2019",
       "publication": "Science of the Total Environment",
       "date": "July 15, 2021",
       "url": "https://www.sciencedirect.com/science/article/pii/S0048969721012651",

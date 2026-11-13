@@ -1185,8 +1185,8 @@
     {
       "id": 1,
       "type": "Newspaper article",
-      "author": "Gebrekidan, Selam",
-      "title": "et al., In Hunt for Coronavirus Source, W.H.O. Let China Take Charge",
+      "author": "Gebrekidan, Selam, et al.",
+      "title": "In Hunt for Coronavirus Source, W.H.O. Let China Take Charge",
       "publication": "New York Times",
       "date": "November 2, 2020",
       "url": "https://web.archive.org/web/20201102180000/https://www.nytimes.com/2020/11/02/world/who-china-coronavirus.html",
@@ -1248,8 +1248,8 @@
     {
       "id": 2,
       "type": "Article",
-      "author": "Page, Jeremy",
-      "title": "et al., How the WHO’s Hunt for Covid’s Origins Stumbled in China",
+      "author": "Page, Jeremy, et al.",
+      "title": "How the WHO’s Hunt for Covid’s Origins Stumbled in China",
       "publication": "Wall Street Journal",
       "date": "March 17, 2021",
       "url": "https://www.wsj.com/world/china/who-china-hunt-covid-origins-11616004512",
@@ -1315,8 +1315,8 @@
     {
       "id": 3,
       "type": "Newspaper article",
-      "author": "Calvert, Jonathan",
-      "title": "and George Arbuthnott, China, the WHO and the power grab that fuelled a pandemic",
+      "author": "Calvert, Jonathan, and George Arbuthnott",
+      "title": "China, the WHO and the power grab that fuelled a pandemic",
       "publication": "The Times",
       "date": "August 14, 2021",
       "url": "https://www.thetimes.com/world/asia/article/china-the-who-and-the-power-grab-that-fuelled-a-pandemic-3mt05m06n",
@@ -1502,8 +1502,8 @@
     {
       "id": 6,
       "type": "Article",
-      "author": "Jenkins Jr.",
-      "title": "Holman W., Wuhan Lab Theory Is a Media Warning",
+      "author": "Jenkins Jr., Holman W.",
+      "title": "Wuhan Lab Theory Is a Media Warning",
       "publication": "Wall Street Journal",
       "date": "May 28, 2021",
       "url": "https://www.wsj.com/opinion/wuhan-lab-theory-is-a-media-warning-11622237799",

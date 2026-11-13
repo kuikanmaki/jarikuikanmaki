@@ -1208,9 +1208,7 @@
       "source_key": "ch09-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Firecrawl failed on WHO landing page; scraped WHO joint-report PDF via Firecrawl.",
       "author_ids": [],
-      "publication_ids": [
-        "org:who"
-      ],
+      "publication_ids": [],
       "topic_ids": [
         "topic:zoonosis",
         "topic:lab-leak-hypothesis",
@@ -1388,7 +1386,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:jonathan-latham"
+          "person:jonathan-latham",
+          "person:allison-wilson"
         ],
         "orgs": [
           "org:independent-science-news",
@@ -1401,7 +1400,8 @@
       "source_key": "ch09-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [
-        "person:jonathan-latham"
+        "person:jonathan-latham",
+        "person:allison-wilson"
       ],
       "publication_ids": [
         "org:independent-science-news"

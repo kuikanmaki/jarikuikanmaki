@@ -2864,10 +2864,10 @@
     {
       "id": 1,
       "type": "Article",
-      "author": "Kuikanmäki",
-      "title": "Jari, Retrospective BLAST Analysis Detects RaTG13/Ra4991 in the Earliest SARS-CoV-2 Genome Submitted to NCBI GenBank (December 28, 2019), Zenodo",
-      "publication": "10 May",
-      "date": "2026",
+      "author": "Kuikanmäki, Jari",
+      "title": "Retrospective BLAST Analysis Detects RaTG13/Ra4991 in the Earliest SARS-CoV-2 Genome Submitted to NCBI GenBank (December 28, 2019)",
+      "publication": "Zenodo",
+      "date": "May 10, 2026",
       "url": "https://zenodo.org/records/20104427",
       "status": "ok",
       "artifact": "artifacts/ch19-n01.md",
@@ -2903,7 +2903,8 @@
           "person:jari-kuikanmaki"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:zenodo"
         ],
         "places": [
           "place:wuhan"
@@ -2914,7 +2915,9 @@
       "author_ids": [
         "person:jari-kuikanmaki"
       ],
-      "publication_ids": [],
+      "publication_ids": [
+        "org:zenodo"
+      ],
       "topic_ids": [
         "topic:ratg13",
         "topic:ra4991",
@@ -2924,7 +2927,7 @@
         "person:jari-kuikanmaki",
         "org:wuhan-institute-of-virology"
       ],
-      "date_iso": "2026"
+      "date_iso": "2026-05-10"
     },
     {
       "id": 2,
@@ -3425,8 +3428,8 @@
     {
       "id": 10,
       "type": "Preprint",
-      "author": "Bruttel, Valentin",
-      "title": "et al., Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2",
+      "author": "Bruttel, Valentin, et al.",
+      "title": "Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2",
       "publication": "bioRxiv",
       "date": "April 11, 2023",
       "url": "https://www.biorxiv.org/content/10.1101/2022.10.18.512756v1",
@@ -3594,8 +3597,8 @@
     {
       "id": 13,
       "type": "Journal article",
-      "author": "Chen, Jing",
-      "title": "et al, Bat-infecting merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a cell entry receptor",
+      "author": "Chen, Jing, et al.",
+      "title": "Bat-infecting merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a cell entry receptor",
       "publication": "Cell",
       "date": "March 20, 2025",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39970913/",
@@ -3645,8 +3648,8 @@
     {
       "id": 14,
       "type": "Journal article",
-      "author": "Alwine, James",
-      "title": "et al., A Critical Analysis of the Evidence for the SARS-CoV-2 Origin Hypotheses",
+      "author": "Alwine, James, et al.",
+      "title": "A Critical Analysis of the Evidence for the SARS-CoV-2 Origin Hypotheses",
       "publication": "Journal of Virology",
       "date": "March 28, 2023",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10134824/",
