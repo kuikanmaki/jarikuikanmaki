@@ -395,7 +395,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:vox"
-      ]
+      ],
+      "image_url": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19768100/GettyImages_643959858.jpg?quality=90&strip=all&crop=0%2C0.88729016786571%2C100%2C98.225419664269&w=2400"
     },
     {
       "id": 8,
@@ -967,7 +968,6 @@
       },
       "source_key": "ch10-s17",
       "date_iso": "2021-06-22",
-      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [
         "person:jesse-bloom"
@@ -1171,14 +1171,14 @@
       },
       "source_key": "ch10-s20",
       "date_iso": "2021-10-02",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
       ],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/09/12/00/111201837-0-image-a-8_1789168639304.jpg"
     }
   ],
   "notes_sources": [
@@ -1243,7 +1243,8 @@
         "org:the-new-york-times",
         "place:huanan-seafood-market"
       ],
-      "date_iso": "2020-11-02"
+      "date_iso": "2020-11-02",
+      "image_url": "https://web.archive.org/web/20201102180037im_/https://static01.nyt.com/images/2020/10/30/world/who-china-beijing/merlin_167257800_4ba97718-7adc-468d-9065-ac50e3a6e476-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
     },
     {
       "id": 2,
@@ -1310,7 +1311,8 @@
         "person:jeremy-page",
         "place:huanan-seafood-market"
       ],
-      "date_iso": "2021-03-17"
+      "date_iso": "2021-03-17",
+      "image_url": "https://images.wsj.net/im-312614/square?width=1280&height=1280"
     },
     {
       "id": 3,
@@ -1376,7 +1378,8 @@
         "org:the-times",
         "person:jonathan-calvert"
       ],
-      "date_iso": "2021-08-14"
+      "date_iso": "2021-08-14",
+      "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/19da5b84-fc2e-11eb-b378-10cb54573352.jpg?amp;sourceHeight=900&#038;crop=0px%2C0px%2C1600px%2C900px&#038;w=1200&#038;strip=all&#038;format=webp"
     },
     {
       "id": 4,
@@ -1436,7 +1439,8 @@
         "org:reuters",
         "person:tedros-adhanom-ghebreyesus"
       ],
-      "date_iso": "2021-03-30"
+      "date_iso": "2021-03-30",
+      "image_url": "https://www.reuters.com/resizer/v2/Z3ARX4KDCFLLRK74Q2C5T3D2PE.jpg?auth=78916f7da9afd8686f21c937916edfa7f55b4bdb18da1a214552d17937ece687&width=1080&quality=80"
     },
     {
       "id": 5,
@@ -1497,7 +1501,8 @@
         "org:the-times",
         "person:tedros-adhanom-ghebreyesus"
       ],
-      "date_iso": "2021-03-30"
+      "date_iso": "2021-03-30",
+      "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/835788c0-917b-11eb-af3b-900f1f5fe235.jpg?amp;sourceHeight=2822&#038;strip=all&#038;format=webp&#038;crop=52px%2C91px%2C4129px%2C2322px&#038;w=1200"
     },
     {
       "id": 6,
@@ -1599,7 +1604,8 @@
         "topic:sars-cov-2",
         "topic:censorship"
       ],
-      "date_iso": "2021-08-24"
+      "date_iso": "2021-08-24",
+      "image_url": "https://mdpi-res.com/socsci/socsci-10-00320/article_deploy/html/images/socsci-10-00320-g001-550.jpg"
     },
     {
       "id": 8,
@@ -1666,7 +1672,8 @@
         "org:ecohealth-alliance",
         "org:wuhan-institute-of-virology"
       ],
-      "date_iso": "2021-11-16"
+      "date_iso": "2021-11-16",
+      "image_url": "https://tablet-mag-images.b-cdn.net/production/3d2e717445919b0df2f79b1b23f273167909a292-543x317.jpg?w=1250&q=70&auto=format&dpr=1"
     },
     {
       "id": 9,
@@ -1836,7 +1843,8 @@
         "person:kristian-andersen",
         "org:u-s-right-to-know"
       ],
-      "date_iso": "2020-12-14"
+      "date_iso": "2020-12-14",
+      "image_url": "https://usrtk.org/wp-content/uploads/2020/12/nas.jpg"
     },
     {
       "id": 12,
@@ -1913,7 +1921,8 @@
         "org:u-s-right-to-know",
         "org:wuhan-institute-of-virology"
       ],
-      "date_iso": "2021-02-15"
+      "date_iso": "2021-02-15",
+      "image_url": "https://usrtk.org/wp-content/uploads/2021/02/Daszak_collaborators.jpg"
     },
     {
       "id": 13,
@@ -1974,7 +1983,8 @@
         "person:jesse-bloom",
         "org:nih"
       ],
-      "date_iso": "2021-06-24"
+      "date_iso": "2021-06-24",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F669ec8d4-5723-4af0-bf36-2df3324880a2.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1"
     },
     {
       "id": 14,
@@ -2030,7 +2040,8 @@
         "org:niaid",
         "person:anthony-fauci"
       ],
-      "date_iso": "2020-08-27"
+      "date_iso": "2020-08-27",
+      "image_url": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2025-03/20200827-covid.jpg?itok=CJNW668Y"
     }
   ]
 }

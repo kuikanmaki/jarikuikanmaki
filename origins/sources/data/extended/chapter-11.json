@@ -1231,7 +1231,8 @@
         "topic:zoonosis",
         "person:rossana-segreto"
       ],
-      "date_iso": "2021-03-25"
+      "date_iso": "2021-03-25",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10311-021-01211-0/MediaObjects/10311_2021_1211_Fig1_HTML.png"
     },
     {
       "id": 3,
@@ -1299,7 +1300,8 @@
         "person:allison-wilson",
         "org:independent-science-news"
       ],
-      "date_iso": "2020-07-15"
+      "date_iso": "2020-07-15",
+      "image_url": "https://i1.rgstatic.net/ii/profile.image/281305813143553-1444079940140_Q128/Jonathan-Latham.jpg"
     },
     {
       "id": 4,

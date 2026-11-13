@@ -408,7 +408,8 @@
         "org:wuhan-institute-of-virology",
         "person:dany-shoham"
       ],
-      "date_iso": "2020-12-14"
+      "date_iso": "2020-12-14",
+      "image_url": "https://besacenter.org/wp-content/uploads/2020/12/COVID-19-image-by-Fernando-Zhiminaicela-via-Pixabay-e1607415152875.jpg"
     },
     {
       "id": 3,
@@ -508,7 +509,8 @@
         "topic:lab-leak-hypothesis",
         "person:martin-furmanski"
       ],
-      "date_iso": "2014-04-11"
+      "date_iso": "2014-04-11",
+      "image_url": "https://beta.nationalpost.com/wp-content/uploads/sites/2/2014/04/518025850.jpg"
     }
   ]
 }

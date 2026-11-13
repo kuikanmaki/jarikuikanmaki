@@ -379,14 +379,14 @@
       },
       "source_key": "ch19-s07",
       "date_iso": "2023-03-06",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [
         "person:edward-holmes"
       ],
       "publication_ids": [
         "org:twitter-x"
-      ]
+      ],
+      "image_url": "https://web.archive.org/web/20230306190554im_/https://pbs.twimg.com/profile_images/1626687923088408576/AvOnsDVd_400x400.jpg"
     },
     {
       "id": 8,
@@ -774,7 +774,6 @@
       },
       "source_key": "ch19-s15",
       "date_iso": "2017",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
       "entity_ids": {
@@ -994,14 +993,14 @@
       },
       "source_key": "ch19-s19",
       "date_iso": "2021-04-24",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
       ],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/10/27/05/112112047-0-image-a-29_1793077218557.jpg"
     },
     {
       "id": 20,
@@ -2460,7 +2459,6 @@
       ],
       "source_key": "ch19-s48",
       "date_iso": "2017-06-29",
-      "image_url": "https://drive.proton.me/assets/proton-og-image.png",
       "acquisition_note": "",
       "author_ids": [
         "person:peter-daszak",
@@ -2927,7 +2925,8 @@
         "person:jari-kuikanmaki",
         "org:wuhan-institute-of-virology"
       ],
-      "date_iso": "2026-05-10"
+      "date_iso": "2026-05-10",
+      "image_url": "https://zenodo.org/static/images/zenodo-og.png"
     },
     {
       "id": 2,
@@ -3185,7 +3184,8 @@
         "org:drastic",
         "person:peter-daszak"
       ],
-      "date_iso": "2021-09"
+      "date_iso": "2021-09",
+      "image_url": "https://zenodo.org/static/images/zenodo-og.png"
     },
     {
       "id": 6,
@@ -3255,7 +3255,8 @@
         "org:science",
         "org:u-s-house-of-representatives"
       ],
-      "date_iso": "2024-05-01"
+      "date_iso": "2024-05-01",
+      "image_url": "https://www.science.org/do/10.1126/science.zf2v5er/full/_20240501_on_daszak_hearing_covid_origins.jpg"
     },
     {
       "id": 7,
@@ -3327,7 +3328,8 @@
         "org:new-york-post",
         "org:ecohealth-alliance"
       ],
-      "date_iso": "2024-05-01"
+      "date_iso": "2024-05-01",
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2024/05/rep-brad-wenstrup-r-oh-81012186.jpg?quality=75&#038;strip=all&#038;w=1200"
     },
     {
       "id": 8,
@@ -3423,7 +3425,8 @@
         "topic:covid-19",
         "topic:lab-leak-hypothesis"
       ],
-      "date_iso": "2022-12-26"
+      "date_iso": "2022-12-26",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!hNbc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff242e9f3-89cb-4e57-9e2a-ddee6ae5b37f_6048x4024.jpeg"
     },
     {
       "id": 10,

@@ -401,14 +401,14 @@
       },
       "source_key": "ch08-s08",
       "date_iso": "2023-01-28",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:glen-owen"
       ],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/09/10/23/111177623-0-image-a-4_1789080576211.jpg"
     },
     {
       "id": 9,
@@ -851,7 +851,6 @@
       },
       "source_key": "ch08-s16",
       "date_iso": "2020-04-30",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes.",
       "author_ids": [],
       "publication_ids": []
@@ -961,7 +960,6 @@
         ]
       },
       "source_key": "ch08-s18",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": []
@@ -1406,7 +1404,8 @@
         "org:nih",
         "topic:bsl-4-laboratory"
       ],
-      "date_iso": "2019-05-29"
+      "date_iso": "2019-05-29",
+      "image_url": "https://web.archive.org/web/20190529171301im_/https://english.whiov.cas.cn/International_Cooperation2016/Partnerships/201707/W020171216600850255210.jpg"
     },
     {
       "id": 3,
@@ -1525,7 +1524,8 @@
         "topic:reverse-genetics",
         "org:daily-mail"
       ],
-      "date_iso": "2021-05-28"
+      "date_iso": "2021-05-28",
+      "image_url": "https://i.dailymail.com/1s/2026/09/11/20/111197649-0-image-a-99_1789156755660.jpg"
     },
     {
       "id": 5,
@@ -1614,7 +1614,8 @@
         "topic:covid-19",
         "org:who"
       ],
-      "date_iso": "2020-07-09"
+      "date_iso": "2020-07-09",
+      "image_url": "https://www.who.int/images/default-source/searo---images/health-topics/corona-virus19/coronavirus-blue.tmb-1200v.jpg?Culture=en&amp;sfvrsn=1bdbbe71_6"
     },
     {
       "id": 7,
@@ -1656,7 +1657,8 @@
         "topic:censorship",
         "topic:zero-covid"
       ],
-      "date_iso": "2020-10"
+      "date_iso": "2020-10",
+      "image_url": "https://freedomhouse.org/sites/default/files/styles/1380x450_fp_and_crop_/public/2020-09/COVID_report_cover_Bolivia_GettyImages-1227753619_recolor_0.jpg?h=1116cd87&amp;itok=oEbR6qDf"
     },
     {
       "id": 8,
@@ -1700,7 +1702,8 @@
         "topic:covid-19",
         "topic:zero-covid"
       ],
-      "date_iso": "2024-11-28"
+      "date_iso": "2024-11-28",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11127-024-01216-7/MediaObjects/11127_2024_1216_Fig1_HTML.png"
     }
   ]
 }

@@ -168,12 +168,12 @@
       },
       "source_key": "ch13-s03",
       "date_iso": "2020-12-19",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "image_url": "https://i.dailymail.com/1s/2026/10/30/15/112174879-0-image-m-30_1793375655129.jpg"
     },
     {
       "id": 4,
@@ -337,7 +337,8 @@
         "topic:furin-cleavage-site",
         "org:nature"
       ],
-      "date_iso": "2021-06-24"
+      "date_iso": "2021-06-24",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-021-92388-5/MediaObjects/41598_2021_92388_Fig1_HTML.png"
     },
     {
       "id": 2,
@@ -397,7 +398,8 @@
         "person:ian-birrell",
         "org:unherd"
       ],
-      "date_iso": "2021-06-08"
+      "date_iso": "2021-06-08",
+      "image_url": "https://unherd.com/wp-content/uploads/2021/06/gettyimages-1208075486-594x594-1.jpg"
     },
     {
       "id": 3,
@@ -451,7 +453,8 @@
         "org:researchgate",
         "org:u-s-right-to-know"
       ],
-      "date_iso": "2021-09"
+      "date_iso": "2021-09",
+      "image_url": "https://i1.rgstatic.net/ii/profile.image/11431281114645328-1674593544904_Q128/Charles-Rixey.jpg"
     },
     {
       "id": 4,
@@ -523,7 +526,8 @@
         "org:bulletin-of-the-atomic-scientists",
         "org:wellcome-trust"
       ],
-      "date_iso": "2021-08-17"
+      "date_iso": "2021-08-17",
+      "image_url": "https://thebulletin.org/wp-content/uploads/2021/08/GettyImages-1230578755-1024x683.jpg.webp"
     }
   ]
 }

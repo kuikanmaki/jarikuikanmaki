@@ -246,14 +246,14 @@
       },
       "source_key": "ch14-s04",
       "date_iso": "2021-02-13",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:glen-owen"
       ],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/09/28/20/111525695-0-image-a-5_1790622752713.jpg"
     },
     {
       "id": 5,
@@ -617,7 +617,8 @@
         "org:wuhan-institute-of-virology",
         "org:chinese-academy-of-sciences"
       ],
-      "date_iso": "2009-03-10"
+      "date_iso": "2009-03-10",
+      "image_url": "https://web.archive.org/web/20190207020202im_/http://news.sciencenet.cn/upload/news/images/2009/3/2009310222017356.jpg"
     }
   ]
 }

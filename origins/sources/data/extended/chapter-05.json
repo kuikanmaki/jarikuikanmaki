@@ -301,12 +301,12 @@
       },
       "source_key": "ch05-s05",
       "date_iso": "2020-02-16",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/11/09/06/112389839-0-image-a-28_1794204603129.jpg"
     },
     {
       "id": 6,

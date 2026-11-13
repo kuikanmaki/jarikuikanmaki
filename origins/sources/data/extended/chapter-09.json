@@ -246,14 +246,14 @@
       },
       "source_key": "ch09-s04",
       "date_iso": "2020-12-19",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
       ],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/10/30/15/112174879-0-image-m-30_1793375655129.jpg"
     },
     {
       "id": 5,
@@ -612,12 +612,12 @@
       },
       "source_key": "ch09-s10",
       "date_iso": "2021-01-09",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/09/12/21/111211823-0-image-a-41_1789243978863.jpg"
     },
     {
       "id": 11,
@@ -786,14 +786,14 @@
       },
       "source_key": "ch09-s13",
       "date_iso": "2021-01-27",
-      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2016/10/suomen-uutiset-default.png",
       "acquisition_note": "",
       "author_ids": [
         "person:jari-kuikanmaki"
       ],
       "publication_ids": [
         "org:suomen-uutiset"
-      ]
+      ],
+      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2021/02/F896DD74-8DA6-4E61-AA9F-993CE8616965-scaled-e1612177081472.jpeg"
     },
     {
       "id": 14,
@@ -1217,7 +1217,8 @@
         "org:who",
         "org:wuhan-institute-of-virology",
         "place:huanan-seafood-market"
-      ]
+      ],
+      "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/global-study-of-origine-china-part-cover.tmb-479v.png?sfvrsn=adc3842c_3"
     },
     {
       "id": 2,
@@ -1283,7 +1284,8 @@
         "org:wuhan-institute-of-virology",
         "org:bulletin-of-the-atomic-scientists"
       ],
-      "date_iso": "2020-05-01"
+      "date_iso": "2020-05-01",
+      "image_url": "https://thebulletin.org/wp-content/uploads/2020/05/BSL_4_lab-1024x666.jpg.optimal.jpg"
     },
     {
       "id": 3,
@@ -1346,7 +1348,8 @@
         "person:matt-ridley",
         "org:the-wall-street-journal"
       ],
-      "date_iso": "2020-05-29"
+      "date_iso": "2020-05-29",
+      "image_url": "https://images.wsj.net/im-192026/?width=700&height=467"
     },
     {
       "id": 4,
@@ -1414,7 +1417,8 @@
         "person:jonathan-latham",
         "org:independent-science-news"
       ],
-      "date_iso": "2020-06-02"
+      "date_iso": "2020-06-02",
+      "image_url": "https://i1.rgstatic.net/ii/profile.image/281305813143553-1444079940140_Q128/Jonathan-Latham.jpg"
     },
     {
       "id": 5,
@@ -1477,7 +1481,8 @@
         "org:wuhan-center-for-disease-control-and-prevention",
         "org:bulletin-of-the-atomic-scientists"
       ],
-      "date_iso": "2020-06-04"
+      "date_iso": "2020-06-04",
+      "image_url": "https://thebulletin.org/wp-content/uploads/2020/06/902px-SARS-CoV-2_yellow.jpg.optimal.jpg"
     },
     {
       "id": 6,
@@ -1535,7 +1540,8 @@
         "topic:ratg13",
         "org:pnas"
       ],
-      "date_iso": "2020-11-03"
+      "date_iso": "2020-11-03",
+      "image_url": "https://www.pnas.org/cms/10.1073/pnas.2021133117/asset/a14c2a51-dc83-42b0-a646-e04eb03a0d0f/assets/images/large/pnas.2021133117unfig01.jpg"
     }
   ]
 }

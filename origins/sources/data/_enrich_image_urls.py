@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Attach publisher preview image URLs (og:image / suitable artifact image) to extended sources."""
+"""Attach publisher preview image URLs (og:image / suitable artifact image) to extended sources.
+
+Covers both main `sources` and Notes `notes_sources`.
+"""
 
 from __future__ import annotations
 
@@ -14,6 +17,7 @@ DATA = Path(__file__).resolve().parent
 EXTENDED = DATA / "extended"
 CACHE_PATH = EXTENDED / "image-url-cache.json"
 ART = EXTENDED / "artifacts"
+SOURCE_ARRAYS = ("sources", "notes_sources")
 
 SKIP_HOST_BITS = ("twitter.com", "x.com", "youtube.com", "youtu.be")
 BAD_HINTS = (
@@ -28,9 +32,19 @@ BAD_HINTS = (
     "badge",
     "banner",
     "placeholder",
+    "loading",
+    "channelheaders",
+    "twitter.png",
+    "fb-blue.png",
+    "highwire/images",
+    "-default.png",
+    "/default.png",
+    "og-image.png",
+    "proton-og-image",
     "base64-image-removed",
     "mailplusbanner",
     "nature-briefing-logo",
+    "web-static.archive.org/_static",
 )
 MD_IMG = re.compile(r"!\[[^\]]*\]\((https?://[^)\s]+)\)")
 OG_PATTERNS = [
@@ -110,6 +124,12 @@ def resolve_image(url: str, source_key: str | None, artifact: str | None) -> str
     return fetch_og_image(url) or artifact_fallback(source_key, artifact)
 
 
+def iter_catalog_sources(data: dict):
+    for key in SOURCE_ARRAYS:
+        for source in data.get(key) or []:
+            yield key, source
+
+
 def main() -> None:
     cache = json.loads(CACHE_PATH.read_text()) if CACHE_PATH.exists() else {}
     chapter_files = sorted(EXTENDED.glob("chapter-*.json"))
@@ -117,7 +137,7 @@ def main() -> None:
     unique: dict[str, tuple[str | None, str | None]] = {}
     for path in chapter_files:
         data = json.loads(path.read_text())
-        for source in data.get("sources") or []:
+        for _section, source in iter_catalog_sources(data):
             url = source.get("url") or ""
             if url and url not in unique:
                 unique[url] = (source.get("source_key"), source.get("artifact"))
@@ -148,11 +168,13 @@ def main() -> None:
 
     with_img = 0
     total = 0
+    by_section = {key: {"total": 0, "with_img": 0} for key in SOURCE_ARRAYS}
     for path in chapter_files:
         data = json.loads(path.read_text())
         changed = False
-        for source in data.get("sources") or []:
+        for section, source in iter_catalog_sources(data):
             total += 1
+            by_section[section]["total"] += 1
             url = source.get("url") or ""
             image = (cache.get(url) or None) if url else None
             if url and not image:
@@ -164,6 +186,7 @@ def main() -> None:
                     source["image_url"] = image
                     changed = True
                 with_img += 1
+                by_section[section]["with_img"] += 1
             elif "image_url" in source:
                 del source["image_url"]
                 changed = True
@@ -172,6 +195,8 @@ def main() -> None:
 
     CACHE_PATH.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n")
     print(f"Done: {with_img}/{total} sources have image_url")
+    for section, stats in by_section.items():
+        print(f"  {section}: {stats['with_img']}/{stats['total']}")
 
 
 if __name__ == "__main__":

@@ -198,14 +198,14 @@
       },
       "source_key": "ch00-s03",
       "date_iso": "2020-04-11",
-      "image_url": "https://i.dailymail.com/i/pix/channelheaders/US.png",
       "acquisition_note": "",
       "author_ids": [
         "person:ian-birrell"
       ],
       "publication_ids": [
         "org:daily-mail"
-      ]
+      ],
+      "image_url": "https://i.dailymail.com/1s/2026/09/16/04/111276999-0-image-m-33_1789530116932.jpg"
     },
     {
       "id": 4,
@@ -636,10 +636,10 @@
       },
       "source_key": "ch00-s10",
       "date_iso": "2020-01-03",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "image_url": "https://web.archive.org/web/20200206144253im_/https://media.bjnews.com.cn/image/2020/01/31/4887273479147171474.jpg"
     },
     {
       "id": 11,
@@ -692,10 +692,10 @@
       },
       "source_key": "ch00-s11",
       "date_iso": "2020-01-31",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "image_url": "https://web.archive.org/web/20200524103853/https://showimg.caixin.com/dolphinfile/caixin/2020/05/0_203.jpg"
     },
     {
       "id": 12,
@@ -739,7 +739,6 @@
       },
       "source_key": "ch00-s12",
       "date_iso": "2019-12-31",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": []
@@ -870,7 +869,8 @@
         "org:drastic",
         "person:gilles-demaneuf"
       ],
-      "date_iso": "2022-04-27"
+      "date_iso": "2022-04-27",
+      "image_url": "https://miro.medium.com/v2/resize:fill:32:32/1*dmbNkD5D-u45r44go_cf0g.png"
     }
   ]
 }

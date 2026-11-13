@@ -771,7 +771,8 @@
         "org:who-sago",
         "org:who"
       ],
-      "date_iso": "2025-06-27"
+      "date_iso": "2025-06-27",
+      "image_url": "https://cdn.who.int/media/images/default-source/headquarters/teams/emergency-prepardness-(wpe)/epidemic-and-pandemic-preparedness-and-prevention-(epp)/emerging-diseases-and-zoonoses-(ezd)/sago-covid-thumbnail.tmb-1200v.png?sfvrsn=a033011d_1"
     },
     {
       "id": 2,
@@ -833,7 +834,8 @@
         "org:who-sago",
         "org:nature"
       ],
-      "date_iso": "2026-02-24"
+      "date_iso": "2026-02-24",
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-00530-y/d41586-026-00530-y_52079504.jpg"
     },
     {
       "id": 3,
@@ -906,7 +908,8 @@
         "person:fred-guterl",
         "org:newsweek"
       ],
-      "date_iso": "2020-04-27"
+      "date_iso": "2020-04-27",
+      "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1585050-wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=1200&amp;crop=1"
     },
     {
       "id": 4,
@@ -1036,7 +1039,8 @@
         "org:wuhan-institute-of-virology",
         "org:vanity-fair"
       ],
-      "date_iso": "2024-05-01"
+      "date_iso": "2024-05-01",
+      "image_url": "https://media.vanityfair.com/photos/662c04ef6d50c2a1da8d3db7/16:9/w_1280,c_limit/vf0424%20Covid%20Origins%20Testimony.jpg"
     }
   ]
 }

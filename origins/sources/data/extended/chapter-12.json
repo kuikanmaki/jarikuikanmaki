@@ -1080,7 +1080,8 @@
         "org:cnn",
         "place:huanan-seafood-market"
       ],
-      "date_iso": "2020-04-16"
+      "date_iso": "2020-04-16",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/150820163747-profile-background-stock-no-photo.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50"
     },
     {
       "id": 4,
@@ -1201,7 +1202,8 @@
         "person:anthony-fauci",
         "person:rand-paul"
       ],
-      "date_iso": "2021-05-21"
+      "date_iso": "2021-05-21",
+      "image_url": "https://cdn.factcheck.org/UploadedFiles/getty-wuhan-lab.jpg"
     },
     {
       "id": 6,
@@ -1279,7 +1281,8 @@
         "org:the-washington-post",
         "org:nih"
       ],
-      "date_iso": "2021-05-18"
+      "date_iso": "2021-05-18",
+      "image_url": "https://www.washingtonpost.com/dr/resources/images/generic-newsletter-signup.png"
     },
     {
       "id": 7,
@@ -1356,7 +1359,8 @@
         "org:wuhan-institute-of-virology",
         "org:nih"
       ],
-      "date_iso": "2021-11-22"
+      "date_iso": "2021-11-22",
+      "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1926588-fauci-rand-paul-covid-19-origin-hearing.jpg?w=1200&amp;crop=1"
     },
     {
       "id": 8,
@@ -1411,7 +1415,8 @@
         "person:rand-paul",
         "org:amazon"
       ],
-      "date_iso": "2023-10-10"
+      "date_iso": "2023-10-10",
+      "image_url": "https://m.media-amazon.com/images/I/41bxTHYSB6L.jpg"
     }
   ]
 }

@@ -58,13 +58,13 @@
       },
       "source_key": "ch17-s01",
       "date_iso": "2021-10-25",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [
         "person:jari-kuikanmaki",
         "person:matti-virtanen"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "image_url": "https://web.archive.org/web/20211025121653im_/https://alfatvuutiset.fi/wp-content/uploads/2021/10/61271452-scaled-e1635106074353.jpg"
     },
     {
       "id": 2,
@@ -502,7 +502,6 @@
       ],
       "source_key": "ch17-s09",
       "date_iso": "2020-05-02",
-      "image_url": "https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
       "entity_ids": {
@@ -759,7 +758,6 @@
       },
       "source_key": "ch17-s14",
       "date_iso": "2020-05-09",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "topic_ids": [
         "org:wuhan-institute-of-virology"
@@ -767,7 +765,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:the-telegraph"
-      ]
+      ],
+      "image_url": "https://web.archive.org/web/20200510091529im_/https://www.telegraph.co.uk/content/dam/generic/Matt-cartoon-255x206px-small.png"
     },
     {
       "id": 15,
@@ -810,10 +809,10 @@
       },
       "source_key": "ch17-s15",
       "date_iso": "2019-09-26",
-      "image_url": "https://web-static.archive.org/_static/images/loading.gif",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "image_url": "https://web.archive.org/web/20200206050707im_/http://www.newsimg.cn/xl2017/images/wx.png"
     },
     {
       "id": 16,
@@ -985,7 +984,8 @@
         "place:wuhan",
         "org:pubmed"
       ],
-      "date_iso": "2020-03-26"
+      "date_iso": "2020-03-26",
+      "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9e14/7121484/a85e79b21808/NEJMoa2001316_f1.gif"
     },
     {
       "id": 3,
@@ -1214,7 +1214,8 @@
         "person:katherine-eban",
         "org:vanity-fair"
       ],
-      "date_iso": "2022-10-28"
+      "date_iso": "2022-10-28",
+      "image_url": "https://media.vanityfair.com/photos/63599642578d980751943b65/16:9/w_1280,c_limit/vf-1022-covid-trackers-site-story.jpg"
     },
     {
       "id": 7,
@@ -1279,7 +1280,8 @@
         "org:drastic",
         "place:wuhan"
       ],
-      "date_iso": "2022-07-11"
+      "date_iso": "2022-07-11",
+      "image_url": "https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png"
     },
     {
       "id": 8,
@@ -1343,7 +1345,8 @@
         "org:u-s-right-to-know",
         "place:wuhan"
       ],
-      "date_iso": "2023-07-10"
+      "date_iso": "2023-07-10",
+      "image_url": "https://usrtk.org/wp-content/uploads/2023/07/unsplash-covid-testing-squooshed-1.jpg"
     },
     {
       "id": 9,
@@ -1561,7 +1564,8 @@
         "topic:patient-zero",
         "org:science-of-the-total-environment"
       ],
-      "date_iso": "2021-07-15"
+      "date_iso": "2021-07-15",
+      "image_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0048969721X00137-cov200h.gif"
     },
     {
       "id": 13,
@@ -1620,7 +1624,8 @@
         "org:nih",
         "org:wuhan-institute-of-virology"
       ],
-      "date_iso": "2021-03-22"
+      "date_iso": "2021-03-22",
+      "image_url": "https://web.archive.org/web/20210322085412im_/https://www.gannett-cdn.com/presto/2020/05/25/USAT/f500cf5e-ef41-42a0-a9a5-909e7f2da7c7-AFP_1S280O.JPG?width=7"
     },
     {
       "id": 14,
