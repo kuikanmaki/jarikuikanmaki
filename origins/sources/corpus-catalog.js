@@ -352,29 +352,36 @@
     pagerEl.hidden = true;
     pagerEl.innerHTML = "";
     outEl.innerHTML = renderChapterSourceList(rows);
-    loadNotes(view.chapter);
+    return loadNotes(view.chapter);
   }
 
   function loadNotes(chapterNumber) {
     notesEl.hidden = false;
     notesEl.innerHTML = '<p class="status">Loading notes…</p>';
-    fetch("data/notes/" + String(chapterNumber).padStart(2, "0") + ".html", { cache: "no-cache" })
+    return fetch("data/notes/" + String(chapterNumber).padStart(2, "0") + ".html", { cache: "no-cache" })
       .then(function (res) {
         if (!res.ok) throw new Error("HTTP " + res.status);
         return res.text();
       })
       .then(function (html) {
         notesEl.innerHTML = '<hr class="notes-divider">' + html;
+        return true;
       })
       .catch(function () {
         notesEl.innerHTML = "";
         notesEl.hidden = true;
+        return false;
       });
   }
 
-  function setChapterActive(number) {
+  function setChapterActive(number, scrollTo) {
+    Array.prototype.forEach.call(listEl.querySelectorAll(".chapter-row"), function (row) {
+      row.classList.toggle("active", Number(row.getAttribute("data-chapter")) === number);
+    });
     Array.prototype.forEach.call(listEl.querySelectorAll("a"), function (a) {
-      a.classList.toggle("active", Number(a.getAttribute("data-chapter")) === number);
+      var sameChapter = Number(a.getAttribute("data-chapter")) === number;
+      var sameTarget = !scrollTo || a.getAttribute("data-scroll") === scrollTo;
+      a.classList.toggle("active", sameChapter && sameTarget);
     });
   }
 
@@ -405,17 +412,28 @@
     syncClearButton();
   }
 
-  function openChapter(number) {
+  function openChapter(number, scrollTo) {
+    scrollTo = scrollTo || "sources";
     view.mode = "chapter";
     view.chapter = number;
     view.keyword = null;
     view.page = 1;
     inputEl.value = "";
     hideSuggestions();
-    setChapterActive(number);
+    setChapterActive(number, scrollTo);
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
-    renderResults();
+    var notesPromise = renderResults();
+    if (scrollTo === "notes") {
+      Promise.resolve(notesPromise).then(function (loaded) {
+        if (loaded && !notesEl.hidden) {
+          notesEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else {
+          headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+      return;
+    }
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -521,21 +539,56 @@
     renderSuggestions(results);
   }
 
+  function chapterFullName(ch) {
+    if (ch.title && ch.name && ch.title.indexOf(ch.name) === 0) return ch.title;
+    if (ch.name && ch.title) return ch.name + " — " + ch.title;
+    return ch.title || ch.name || chapterLabel(ch.number);
+  }
+
   function renderChapterList(chapters) {
     listEl.innerHTML = "";
-    chapters.forEach(function (ch, idx) {
-      var a = document.createElement("a");
-      a.href = "#chapter-" + ch.number;
-      a.textContent = ch.name;
-      a.setAttribute("data-chapter", String(ch.number));
-      a.addEventListener("click", function (e) {
+    chapters.forEach(function (ch) {
+      var row = document.createElement("div");
+      row.className = "chapter-row";
+      row.setAttribute("data-chapter", String(ch.number));
+
+      var sources = document.createElement("a");
+      sources.href = "#chapter-" + ch.number;
+      sources.className = "chapter-row-sources";
+      sources.textContent = chapterFullName(ch);
+      sources.setAttribute("data-chapter", String(ch.number));
+      sources.setAttribute("data-scroll", "sources");
+      sources.addEventListener("click", function (e) {
         e.preventDefault();
-        openChapter(ch.number);
+        openChapter(ch.number, "sources");
       });
-      listEl.appendChild(a);
-      if (idx < chapters.length - 1) {
-        listEl.appendChild(document.createTextNode(" · "));
-      }
+
+      var leader = document.createElement("span");
+      leader.className = "chapter-row-leader";
+      leader.setAttribute("aria-hidden", "true");
+
+      var notesWrap = document.createElement("span");
+      notesWrap.className = "chapter-row-notes-wrap";
+
+      var notes = document.createElement("a");
+      notes.href = "#chapter-" + ch.number + "-notes";
+      notes.className = "chapter-row-notes";
+      notes.textContent = "Chapter Notes";
+      notes.setAttribute("data-chapter", String(ch.number));
+      notes.setAttribute("data-scroll", "notes");
+      notes.addEventListener("click", function (e) {
+        e.preventDefault();
+        openChapter(ch.number, "notes");
+      });
+
+      notesWrap.appendChild(document.createTextNode("["));
+      notesWrap.appendChild(notes);
+      notesWrap.appendChild(document.createTextNode("]"));
+
+      row.appendChild(sources);
+      row.appendChild(leader);
+      row.appendChild(notesWrap);
+      listEl.appendChild(row);
     });
   }
 
@@ -568,7 +621,7 @@
   }
 
   function clearChapterActive() {
-    Array.prototype.forEach.call(listEl.querySelectorAll("a.active"), function (el) {
+    Array.prototype.forEach.call(listEl.querySelectorAll(".chapter-row.active, a.active"), function (el) {
       el.classList.remove("active");
     });
   }

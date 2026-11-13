@@ -367,7 +367,7 @@ img {
 
 #chapter-list a { text-decoration: none; }
 #chapter-list a:hover,
-#chapter-list a:focus { text-decoration: underline; }
+#chapter-list a:focus { text-decoration: none; }
 
 #chapter-list a.active { font-weight: 600; }
 
@@ -813,14 +813,54 @@ img {
   color: hsl(var(--muted-foreground));
 }
 .sources-page .catalog-shelf #chapter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
   margin-top: 0;
-  padding: 0.9rem 1.1rem;
-  border: 1px solid hsl(var(--border));
-  border-radius: var(--radius);
-  background: hsl(var(--card));
-  color: hsl(var(--muted-foreground));
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: hsl(var(--foreground));
   font-size: 0.9375rem;
-  line-height: 1.9;
+  line-height: 1.45;
+  word-spacing: normal;
+}
+.sources-page .catalog-shelf #chapter-list .chapter-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  width: 100%;
+  min-width: 0;
+  color: hsl(var(--foreground));
+}
+.sources-page .catalog-shelf #chapter-list .chapter-row-sources {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+.sources-page .catalog-shelf #chapter-list .chapter-row-leader {
+  flex: 1 1 auto;
+  align-self: flex-end;
+  min-width: 0.75rem;
+  height: 0;
+  margin: 0 0 0.35em;
+  border-bottom: 1px dotted hsl(var(--muted-foreground) / 0.85);
+}
+.sources-page .catalog-shelf #chapter-list .chapter-row-notes-wrap {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  color: hsl(var(--foreground));
+}
+@media (max-width: 639px) {
+  .sources-page .catalog-shelf #chapter-list .chapter-row {
+    flex-wrap: wrap;
+  }
+  .sources-page .catalog-shelf #chapter-list .chapter-row-leader {
+    display: none;
+  }
+  .sources-page .catalog-shelf #chapter-list .chapter-row-notes-wrap {
+    flex: 1 0 100%;
+  }
 }
 .sources-page .catalog-shelf-examples {
   margin-top: 0;
@@ -912,10 +952,19 @@ img {
   color: hsl(var(--accent));
   outline: none;
 }
+.sources-page .catalog-shelf #chapter-list a {
+  color: hsl(var(--reference-link));
+  text-decoration: none;
+}
+.sources-page .catalog-shelf #chapter-list a:hover,
+.sources-page .catalog-shelf #chapter-list a:focus-visible {
+  color: hsl(213 70% 28%);
+  text-decoration: none;
+}
 .sources-page .catalog-shelf #chapter-list a.active {
-  color: hsl(var(--accent));
-  text-decoration: underline;
-  text-underline-offset: 0.2rem;
+  color: hsl(var(--reference-link));
+  font-weight: 600;
+  text-decoration: none;
 }
 .sources-page .catalog-card-list {
   display: flex;
@@ -1012,14 +1061,18 @@ img {
   font-size: 0.875rem;
   color: hsl(var(--muted-foreground));
 }
-.sources-page .catalog-notes { margin-top: 0.5rem; }
+.sources-page .catalog-notes {
+  margin-top: 0.5rem;
+  scroll-margin-top: 1.25rem;
+}
 .sources-page .catalog-notes a {
   color: hsl(var(--reference-link));
-  text-decoration: underline;
-  text-underline-offset: 0.15rem;
+  text-decoration: none;
 }
 .sources-page .catalog-notes a:hover {
   color: hsl(213 70% 28%);
+  text-decoration: underline;
+  text-underline-offset: 0.15rem;
 }
 .sources-page #sources-heading { scroll-margin-top: 1.25rem; }
 /* Hide the shared audiobook strip on the Sources page only. */
@@ -1032,9 +1085,9 @@ img {
 .sources-page #sources-heading { margin-top: 2rem; }
 
 /* Chapter index links (shelf container provides the border panel) */
-.sources-page #chapter-list a { color: hsl(var(--foreground)); text-decoration: none; }
+.sources-page #chapter-list a { color: hsl(var(--reference-link)); text-decoration: none; }
 .sources-page #chapter-list a:hover,
-.sources-page #chapter-list a.active { color: hsl(var(--accent)); text-decoration: underline; text-underline-offset: 0.2rem; }
+.sources-page #chapter-list a.active { color: hsl(var(--reference-link)); text-decoration: none; }
 .sources-page #chapter-list a.active { font-weight: 600; }
 
 /* Rendered sources: numbered editorial reference list */
