@@ -28,13 +28,15 @@
   var corpus = null;
   var searchIndex = null;
   var miniSearch = null;
+  var titleSearch = null;
   var chapterMeta = [];
   var activeSuggestion = -1;
   var currentSuggestions = [];
   var view = {
-    mode: "idle", // idle | chapter | keyword | explore
+    mode: "idle", // idle | chapter | keyword | explore | source
     chapter: null,
     keyword: null,
+    sourceKey: null,
     page: 1,
   };
 
@@ -61,6 +63,11 @@
 
   function sourcesForView() {
     if (!corpus) return [];
+    if (view.mode === "source" && view.sourceKey) {
+      return sortByChapterThenId(corpus.sources.filter(function (s) {
+        return s.source_key === view.sourceKey;
+      }));
+    }
     if (view.mode === "keyword" && view.keyword && searchIndex) {
       var keys = searchIndex.keywordSources[view.keyword.id] || [];
       var wanted = {};
@@ -304,7 +311,8 @@
     var show =
       inputEl.value.trim().length > 0 ||
       view.mode === "keyword" ||
-      view.mode === "explore";
+      view.mode === "explore" ||
+      view.mode === "source";
     clearEl.hidden = !show;
   }
 
@@ -320,8 +328,11 @@
     headingEl.hidden = false;
     syncClearButton();
 
-    if (view.mode === "keyword" || view.mode === "explore") {
-      var label = (view.keyword && view.keyword.label) || "Sources";
+    if (view.mode === "keyword" || view.mode === "explore" || view.mode === "source") {
+      var label =
+        view.mode === "source"
+          ? (rows[0] && rows[0].title) || "Source"
+          : (view.keyword && view.keyword.label) || "Sources";
       headingEl.innerHTML =
         '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
         '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>";
@@ -333,7 +344,11 @@
       if (!pageRows.length) {
         outEl.innerHTML =
           '<div class="catalog-empty" role="status">' +
-            "<p>No sources tagged with “" + escapeHtml(label) + "”.</p>" +
+            "<p>" +
+              (view.mode === "source"
+                ? "No matching source found."
+                : "No sources tagged with “" + escapeHtml(label) + "”.") +
+            "</p>" +
             '<button type="button" class="catalog-empty-clear">Clear search</button>' +
           "</div>";
         renderPager(0);
@@ -403,6 +418,7 @@
     view.mode = "idle";
     view.chapter = null;
     view.keyword = null;
+    view.sourceKey = null;
     view.page = 1;
     inputEl.value = "";
     hideSuggestions();
@@ -425,6 +441,7 @@
     view.mode = "chapter";
     view.chapter = number;
     view.keyword = null;
+    view.sourceKey = null;
     view.page = 1;
     inputEl.value = "";
     hideSuggestions();
@@ -448,6 +465,7 @@
   function openKeyword(hit, mode) {
     view.mode = mode || "keyword";
     view.keyword = hit;
+    view.sourceKey = null;
     view.page = 1;
     inputEl.value = hit.label;
     hideSuggestions();
@@ -462,10 +480,32 @@
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  function openSource(hit) {
+    view.mode = "source";
+    view.sourceKey = hit.id;
+    view.keyword = null;
+    view.chapter = null;
+    view.page = 1;
+    inputEl.value = hit.label || "";
+    hideSuggestions();
+    clearChapterActive();
+    clearExploreActive();
+    if (shelvesEl) shelvesEl.classList.add("is-filtered");
+    renderResults();
+    headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function openSuggestion(hit) {
+    if (!hit) return;
+    if (hit.kind === "source") openSource(hit);
+    else openKeyword(hit, "keyword");
+  }
+
   function clearKeywordFilter() {
     hideSuggestions();
     inputEl.value = "";
     view.keyword = null;
+    view.sourceKey = null;
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     clearExploreActive();
     if (view.chapter != null) {
@@ -492,6 +532,10 @@
       return;
     }
     suggestEl.innerHTML = currentSuggestions.map(function (hit, idx) {
+      var metaCount =
+        hit.kind === "source"
+          ? chapterLabel(hit.chapter)
+          : hit.sourceCount + (hit.sourceCount === 1 ? " source" : " sources");
       return (
         '<li role="option">' +
           '<button type="button" class="sources-search-suggestion' + (idx === 0 ? " is-active" : "") + '" data-index="' + idx + '" aria-selected="' + (idx === 0 ? "true" : "false") + '">' +
@@ -499,7 +543,7 @@
             '<span class="sources-search-suggestion-meta">' +
               '<span class="sources-search-suggestion-type">' + escapeHtml(hit.typeLabel || "") + "</span>" +
               '<span class="sources-search-suggestion-count">' +
-                hit.sourceCount + (hit.sourceCount === 1 ? " source" : " sources") +
+                escapeHtml(String(metaCount)) +
               "</span>" +
             "</span>" +
           "</button>" +
@@ -529,7 +573,7 @@
       return;
     }
     var qLower = q.toLowerCase();
-    var results = miniSearch.search(q, {
+    var keywordHits = miniSearch.search(q, {
       prefix: true,
       fuzzy: q.length > 3 ? 0.15 : false,
       boost: { label: 4, searchText: 2, typeLabel: 1 },
@@ -543,8 +587,62 @@
         if (tokens.indexOf(qLower) !== -1) boost *= 3.5;
         return boost;
       },
+    }).map(function (hit) {
+      return Object.assign({}, hit, { kind: "keyword" });
     });
-    renderSuggestions(results);
+
+    var sourceHits = [];
+    if (titleSearch) {
+      sourceHits = titleSearch
+        .search(q, {
+          prefix: true,
+          fuzzy: q.length > 5 ? 0.15 : false,
+          boost: { title: 6, author: 2, publication: 1 },
+          boostDocument: function (id) {
+            var row = (corpus.sources || []).find(function (s) {
+              return s.source_key === id;
+            });
+            if (!row) return 1;
+            var title = String(row.title || "").toLowerCase();
+            var boost = 1;
+            if (title === qLower) boost *= 8;
+            else if (title.indexOf(qLower) === 0) boost *= 3;
+            else if (title.indexOf(qLower) !== -1) boost *= 1.8;
+            return boost;
+          },
+        })
+        .map(function (hit) {
+          return {
+            kind: "source",
+            id: hit.id,
+            label: hit.title,
+            typeLabel: "Source",
+            chapter: hit.chapter,
+            sourceCount: 1,
+            score: hit.score,
+          };
+        });
+    }
+
+    // Strong title matches first, then authority keywords, then other title hits.
+    var strongTitles = [];
+    var otherTitles = [];
+    sourceHits.forEach(function (hit) {
+      var title = String(hit.label || "").toLowerCase();
+      if (title === qLower || title.indexOf(qLower) === 0) strongTitles.push(hit);
+      else otherTitles.push(hit);
+    });
+    var seen = {};
+    var merged = [];
+    [strongTitles, keywordHits, otherTitles].forEach(function (group) {
+      group.forEach(function (hit) {
+        var key = hit.kind + ":" + hit.id;
+        if (seen[key]) return;
+        seen[key] = true;
+        merged.push(hit);
+      });
+    });
+    renderSuggestions(merged);
   }
 
   function chapterFullName(ch) {
@@ -653,7 +751,7 @@
       setActiveSuggestion(activeSuggestion - 1);
     } else if (e.key === "Enter") {
       e.preventDefault();
-      if (activeSuggestion >= 0) openKeyword(currentSuggestions[activeSuggestion], "keyword");
+      if (activeSuggestion >= 0) openSuggestion(currentSuggestions[activeSuggestion]);
     } else if (e.key === "Escape") {
       e.preventDefault();
       hideSuggestions();
@@ -666,7 +764,7 @@
     e.preventDefault();
     var idx = Number(btn.getAttribute("data-index"));
     if (!Number.isNaN(idx) && currentSuggestions[idx]) {
-      openKeyword(currentSuggestions[idx], "keyword");
+      openSuggestion(currentSuggestions[idx]);
     }
   });
 
@@ -749,8 +847,26 @@
       });
       miniSearch.addAll(searchIndex.keywords || []);
 
+      // Second index: source titles (plus author/publication) so typing a
+      // paper/article/book title can hit that catalog record directly.
+      titleSearch = new MiniSearch({
+        idField: "source_key",
+        fields: ["title", "author", "publication"],
+        storeFields: ["title", "author", "publication", "chapter", "source_key", "section"],
+        searchOptions: {
+          boost: { title: 6, author: 2, publication: 1 },
+          prefix: true,
+          fuzzy: 0.15,
+        },
+      });
+      titleSearch.addAll(
+        (corpus.sources || []).filter(function (s) {
+          return !!(s.source_key && s.title);
+        })
+      );
+
       inputEl.disabled = false;
-      inputEl.placeholder = "Search people, organizations, topics…";
+      inputEl.placeholder = "Search people, organizations, topics, titles…";
       renderChapterList(chapterMeta);
       renderExploreShelf();
       showIdle();
