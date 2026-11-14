@@ -177,9 +177,7 @@
     );
   }
 
-  function enrichmentBlock(s, opts) {
-    opts = opts || {};
-    var includeMedia = opts.includeMedia !== false;
+  function cardCopyParts(s) {
     var chips = [];
     if (s.content_kind && s.content_kind !== "html_article" && s.content_kind_label) {
       chips.push(s.content_kind_label);
@@ -205,29 +203,49 @@
       statusNote =
         '<p class="catalog-card-status">Source access note: Full text may be paywalled.</p>';
     } else if (s.status === "skipped" && embed) {
-      // Intentionally not scraped; card embeds the live URL instead.
       statusNote = "";
     } else if (s.status && s.status !== "ok") {
-      // Other non-ok statuses kept for now; rewrite category-by-category.
       statusNote =
         '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>";
     }
-    var media = includeMedia ? cardMedia(s) : "";
     var summary =
       SHOW_CARD_COPY && s.summary
         ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>"
         : "";
-    var hasCopy = !!(summary || role || topicLine || statusNote);
-    if (!hasCopy && !media && !embed) return "";
-    var text = hasCopy
-      ? '<div class="catalog-card-copy">' + summary + role + topicLine + statusNote + "</div>"
+    return {
+      summary: summary,
+      role: role,
+      topicLine: topicLine,
+      statusNote: statusNote,
+      embed: embed,
+      hasCopy: !!(summary || role || topicLine || statusNote),
+    };
+  }
+
+  function enrichmentBlock(s) {
+    // Chapter expand panel: left text + right thumb (desktop); stacked on mobile.
+    var parts = cardCopyParts(s);
+    var media = cardMedia(s);
+    if (!parts.hasCopy && !media && !parts.embed) return "";
+    var text = parts.hasCopy
+      ? '<div class="catalog-card-copy">' +
+          parts.summary +
+          parts.role +
+          parts.topicLine +
+          parts.statusNote +
+        "</div>"
       : "";
     return (
       '<div class="catalog-card-enrichment">' +
         (text || media
-          ? '<div class="catalog-card-body">' + text + media + "</div>"
+          ? '<div class="catalog-card-layout catalog-card-layout--detail' +
+              (media ? " catalog-card-layout--media" : "") +
+            '">' +
+              media +
+              '<div class="catalog-card-rest">' + text + "</div>" +
+            "</div>"
           : "") +
-        embed +
+        parts.embed +
       "</div>"
     );
   }
@@ -247,20 +265,31 @@
     var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
     var url = s.url || "#";
     var media = cardMedia(s);
+    var parts = cardCopyParts(s);
+    var restInner =
+      (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
+      (parts.hasCopy
+        ? '<div class="catalog-card-copy">' +
+            parts.summary +
+            parts.role +
+            parts.topicLine +
+            parts.statusNote +
+          "</div>"
+        : "");
     return (
       '<article class="catalog-card">' +
-        '<div class="catalog-card-heading">' +
-          '<div class="catalog-card-title-row">' +
-            '<h3 class="catalog-card-title">' +
-              '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-                escapeHtml(s.title || "Untitled source") +
-              "</a>" +
-            "</h3>" +
-            media +
-          "</div>" +
-          (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
+        '<div class="catalog-card-layout' + (media ? " catalog-card-layout--media" : "") + '">' +
+          '<h3 class="catalog-card-title">' +
+            '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+              escapeHtml(s.title || "Untitled source") +
+            "</a>" +
+          "</h3>" +
+          media +
+          (restInner
+            ? '<div class="catalog-card-rest">' + restInner + "</div>"
+            : "") +
         "</div>" +
-        enrichmentBlock(s, { includeMedia: false }) +
+        parts.embed +
       "</article>"
     );
   }

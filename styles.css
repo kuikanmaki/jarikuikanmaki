@@ -972,7 +972,7 @@ img {
   gap: 0.75rem;
 }
 .sources-page .catalog-card {
-  padding: 1rem 1.05rem;
+  padding: 1.25rem 1.05rem 1rem;
   border: 1px solid hsl(var(--border));
   border-radius: calc(var(--radius) + 0.125rem);
   background: hsl(var(--background));
@@ -991,19 +991,40 @@ img {
   text-transform: uppercase;
   color: hsl(var(--muted-foreground));
 }
-.sources-page .catalog-card-heading {
-  min-width: 0;
-}
-.sources-page .catalog-card-title-row {
+.sources-page .catalog-card-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 0.75rem;
+  gap: 0.55rem 0.75rem;
   align-items: start;
 }
-.sources-page .catalog-card-title-row:has(.catalog-card-media) {
+/* Desktop: continuous left text column; thumbnail alone on the right. */
+.sources-page .catalog-card-layout--media {
   grid-template-columns: minmax(0, 1fr) 5.5rem;
+  grid-template-areas:
+    "title media"
+    "rest media";
 }
-.sources-page .catalog-card-title {
+.sources-page .catalog-card-layout--media > .catalog-card-title {
+  grid-area: title;
+}
+.sources-page .catalog-card-layout--media > .catalog-card-media {
+  grid-area: media;
+}
+.sources-page .catalog-card-layout--media > .catalog-card-rest {
+  grid-area: rest;
+}
+.sources-page .catalog-card-layout--detail.catalog-card-layout--media {
+  grid-template-areas: "rest media";
+}
+.sources-page .catalog-card-rest {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  min-width: 0;
+}
+.sources-page .catalog-card-title,
+.sources-page #sources-output .catalog-card-title {
+  /* Override #sources-output h3 margin-block so thumb top matches title top. */
   margin: 0;
   font-size: 1.0625rem;
   line-height: 1.3;
@@ -1015,7 +1036,7 @@ img {
 }
 .sources-page .catalog-card-title a:hover { text-decoration: underline; }
 .sources-page .catalog-card-biblio {
-  margin: 0.2rem 0 0;
+  margin: 0;
   font-size: 0.8125rem;
   line-height: 1.4;
   color: hsl(var(--muted-foreground));
@@ -1215,18 +1236,6 @@ img {
   flex-direction: column;
   gap: 0.55rem;
 }
-.sources-page .catalog-card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-  min-width: 0;
-}
-.sources-page .catalog-card-body:has(.catalog-card-media) {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 5.5rem;
-  align-items: start;
-  gap: 0.75rem;
-}
 .sources-page .catalog-card-media {
   margin: 0;
   width: 5.5rem;
@@ -1236,9 +1245,10 @@ img {
   border-radius: var(--radius);
   background: hsl(var(--border) / 0.35);
   border: 1px solid hsl(var(--border));
+  align-self: start;
 }
 .sources-page .catalog-card-embed {
-  margin: 0.15rem 0 0;
+  margin: 0.65rem 0 0;
   width: 100%;
   min-width: 0;
 }
@@ -1268,24 +1278,32 @@ img {
   object-fit: cover;
 }
 .sources-page .catalog-card-copy { min-width: 0; }
-.sources-page .catalog-card .catalog-card-enrichment:not(:empty) {
+.sources-page .catalog-card > .catalog-card-embed {
   margin-top: 0.65rem;
 }
-.sources-page .catalog-card .catalog-card-enrichment:has(.catalog-card-copy:empty):not(:has(.catalog-card-embed)) {
-  margin-top: 0;
-}
-@media (max-width: 479px) {
+/* Mobile: title → full-width centered image → remaining text. */
+@media (max-width: 639px) {
   .sources-page .catalog-card {
-    padding: 0.85rem 0.8rem;
+    padding: 1.05rem 0.8rem 0.85rem;
   }
-  .sources-page .catalog-card-title-row:has(.catalog-card-media),
-  .sources-page .catalog-card-body:has(.catalog-card-media) {
-    grid-template-columns: minmax(0, 1fr) 4.5rem;
-    gap: 0.6rem;
+  .sources-page .catalog-card-layout--media {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "title"
+      "media"
+      "rest";
+  }
+  .sources-page .catalog-card-layout--detail.catalog-card-layout--media {
+    grid-template-areas:
+      "media"
+      "rest";
   }
   .sources-page .catalog-card-media {
-    width: 4.5rem;
-    height: 3.375rem;
+    width: min(100%, 18rem);
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin-inline: auto;
+    justify-self: center;
   }
   .sources-page .catalog-card-title {
     font-size: 1rem;
