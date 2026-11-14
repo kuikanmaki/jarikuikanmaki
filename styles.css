@@ -711,6 +711,26 @@ img {
   outline-offset: 2px;
   border-color: hsl(var(--accent));
 }
+/* Same muted right-side cue as the Chapters select chevron. */
+.sources-page .sources-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.9rem;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  color: hsl(var(--muted-foreground));
+  pointer-events: none;
+}
+.sources-page .sources-search-icon svg {
+  display: block;
+}
+.sources-page .sources-search-field:has(.sources-search-clear:not([hidden])) .sources-search-icon {
+  visibility: hidden;
+}
 .sources-page .sources-search-clear {
   position: absolute;
   top: 50%;
@@ -846,6 +866,11 @@ img {
 }
 .sources-page .catalog-shelf-examples {
   margin-top: 0;
+}
+@media (max-width: 639px) {
+  .sources-page .catalog-shelf-examples {
+    display: none;
+  }
 }
 .sources-page .catalog-explore {
   display: flex;
