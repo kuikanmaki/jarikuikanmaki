@@ -560,6 +560,13 @@
     return window.matchMedia("(min-width: 640px)").matches ? 12 : 8;
   }
 
+  function syncSearchPlaceholder() {
+    if (inputEl.disabled) return;
+    inputEl.placeholder = window.matchMedia("(min-width: 640px)").matches
+      ? "Search people, organizations, topics, titles…"
+      : "Search…";
+  }
+
   function renderSuggestions(results) {
     currentSuggestions = results.slice(0, suggestionLimit());
     activeSuggestion = currentSuggestions.length ? 0 : -1;
@@ -895,7 +902,7 @@
       );
 
       inputEl.disabled = false;
-      inputEl.placeholder = "Search people, organizations, topics, titles…";
+      syncSearchPlaceholder();
       renderChapterList(chapterMeta);
       renderExploreShelf();
       showIdle();
@@ -907,4 +914,13 @@
       listEl.innerHTML = '<span class="error">Could not load the sources catalog.</span>';
       outEl.innerHTML = '<p class="error">' + escapeHtml(err.message) + "</p>";
     });
+
+  if (window.matchMedia) {
+    var desktopMq = window.matchMedia("(min-width: 640px)");
+    if (typeof desktopMq.addEventListener === "function") {
+      desktopMq.addEventListener("change", syncSearchPlaceholder);
+    } else if (typeof desktopMq.addListener === "function") {
+      desktopMq.addListener(syncSearchPlaceholder);
+    }
+  }
 })();
