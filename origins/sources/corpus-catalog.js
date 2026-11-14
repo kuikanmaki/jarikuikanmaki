@@ -6,9 +6,9 @@
   var CORPUS_URL = "data/corpus-index.json";
   var SEARCH_URL = "data/authority-search-index.json";
   var CHAPTER_INDEX_URL = "data/sources-index.json";
-  // Temporary: hide card summary + book_role on the public site while those
-  // fields are still being reviewed. Local preview (localhost / 127.0.0.1)
-  // still renders them so they can be checked on this machine.
+  // Temporary: hide card summary, book_role, and chapter-list expand chevrons
+  // on the public site while those fields are still being reviewed. Local
+  // preview (localhost / 127.0.0.1) still shows them for review.
   var SHOW_CARD_COPY =
     location.hostname === "localhost" ||
     location.hostname === "127.0.0.1";
@@ -258,9 +258,10 @@
       var date = escapeHtml(s.date || "");
       var key = escapeHtml(s.source_key || ("ch" + s.chapter + "-s" + s.id));
       var detail = enrichmentBlock(s);
-      var hasDetail = sourceHasDetail(s);
+      // Expand chevron + detail panel: local review only (same gate as summary/book_role).
+      var hasDetail = SHOW_CARD_COPY && sourceHasDetail(s);
       return (
-        '<li class="source-item source-item-expandable" data-source-key="' + key + '">' +
+        '<li class="source-item' + (hasDetail ? " source-item-expandable" : "") + '" data-source-key="' + key + '">' +
           '<div class="source-item-main">' +
             '<span class="source-id" aria-hidden="true">' + id + ".</span>" +
             '<span class="source-ref">' +

@@ -1102,6 +1102,9 @@ img {
   margin: 1.25rem 0 0;
   padding: 0;
   list-style: none;
+  /* Match chapter titles list (.catalog-shelf #chapter-list). */
+  font-size: 0.9375rem;
+  line-height: 1.45;
 }
 .sources-page .source-item {
   display: flex;
@@ -1276,10 +1279,6 @@ img {
     margin-top: 0;
     font-size: 0.9375rem;
     line-height: 1.2;
-  }
-  /* Tall enough for the 12-suggestion desktop cap without inner scroll. */
-  .sources-page .sources-search-suggestions {
-    max-height: min(32rem, 65dvh);
   }
   .sources-page .sources-search-suggestion {
     flex-direction: row;
