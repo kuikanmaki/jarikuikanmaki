@@ -6,6 +6,12 @@
   var CORPUS_URL = "data/corpus-index.json";
   var SEARCH_URL = "data/authority-search-index.json";
   var CHAPTER_INDEX_URL = "data/sources-index.json";
+  // Temporary: hide card summary + book_role on the public site while those
+  // fields are still being reviewed. Local preview (localhost / 127.0.0.1)
+  // still renders them so they can be checked on this machine.
+  var SHOW_CARD_COPY =
+    location.hostname === "localhost" ||
+    location.hostname === "127.0.0.1";
 
   var listEl = document.getElementById("chapter-list");
   var exploreEl = document.getElementById("explore-keywords");
@@ -159,7 +165,7 @@
     var topicLine = topics.length
       ? '<p class="catalog-card-topics">' + topics.map(escapeHtml).join(" · ") + "</p>"
       : "";
-    var role = s.book_role
+    var role = SHOW_CARD_COPY && s.book_role
       ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
       : "";
     var embed = hostEmbed(s);
@@ -189,7 +195,9 @@
         : "";
     var text =
       '<div class="catalog-card-copy">' +
-        (s.summary ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>" : "") +
+        (SHOW_CARD_COPY && s.summary
+          ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>"
+          : "") +
         role +
         kindNote +
         topicLine +
@@ -206,8 +214,8 @@
   function sourceHasDetail(s) {
     return !!(
       s.image_url ||
-      s.summary ||
-      s.book_role ||
+      (SHOW_CARD_COPY && s.summary) ||
+      (SHOW_CARD_COPY && s.book_role) ||
       (s.topics && s.topics.length) ||
       (s.status && s.status !== "ok") ||
       hostEmbed(s)
