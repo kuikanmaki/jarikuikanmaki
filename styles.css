@@ -1277,6 +1277,10 @@ img {
     font-size: 0.9375rem;
     line-height: 1.2;
   }
+  /* Tall enough for the 12-suggestion desktop cap without inner scroll. */
+  .sources-page .sources-search-suggestions {
+    max-height: min(32rem, 65dvh);
+  }
   .sources-page .sources-search-suggestion {
     flex-direction: row;
     align-items: baseline;

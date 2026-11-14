@@ -234,10 +234,6 @@
     var url = s.url || "#";
     return (
       '<article class="catalog-card">' +
-        '<p class="catalog-card-meta">' +
-          escapeHtml(chapterLabel(s.chapter)) +
-          (s.content_kind_label ? " · " + escapeHtml(s.content_kind_label) : "") +
-        "</p>" +
         '<h3 class="catalog-card-title">' +
           '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
             escapeHtml(s.title || "Untitled source") +
@@ -524,8 +520,13 @@
     inputEl.setAttribute("aria-expanded", "false");
   }
 
+  function suggestionLimit() {
+    // Desktop can show more; keep mobile compact (matches styles.css 640px break).
+    return window.matchMedia("(min-width: 640px)").matches ? 12 : 8;
+  }
+
   function renderSuggestions(results) {
-    currentSuggestions = results.slice(0, 8);
+    currentSuggestions = results.slice(0, suggestionLimit());
     activeSuggestion = currentSuggestions.length ? 0 : -1;
     if (!currentSuggestions.length) {
       hideSuggestions();
@@ -616,7 +617,7 @@
             kind: "source",
             id: hit.id,
             label: hit.title,
-            typeLabel: "Source",
+            typeLabel: hit.content_kind_label || "Source",
             chapter: hit.chapter,
             sourceCount: 1,
             score: hit.score,
@@ -624,7 +625,9 @@
         });
     }
 
-    // Strong title matches first, then authority keywords, then other title hits.
+    // Authority keywords first so short names (e.g. "China") are not crowded
+    // out by many titles that start with the same word. Then strong title
+    // matches, then other title hits. Dropdown still caps at 8.
     var strongTitles = [];
     var otherTitles = [];
     sourceHits.forEach(function (hit) {
@@ -634,7 +637,7 @@
     });
     var seen = {};
     var merged = [];
-    [strongTitles, keywordHits, otherTitles].forEach(function (group) {
+    [keywordHits, strongTitles, otherTitles].forEach(function (group) {
       group.forEach(function (hit) {
         var key = hit.kind + ":" + hit.id;
         if (seen[key]) return;
@@ -646,9 +649,13 @@
   }
 
   function chapterFullName(ch) {
-    if (ch.title && ch.name && ch.title.indexOf(ch.name) === 0) return ch.title;
-    if (ch.name && ch.title) return ch.name + " — " + ch.title;
-    return ch.title || ch.name || chapterLabel(ch.number);
+    // Chapters list: "5. Pangolins" (not "Chapter 5 — Pangolins").
+    // Prologue keeps its own title wording.
+    if (ch.number === 0) {
+      return ch.title || ch.name || "Prologue";
+    }
+    if (ch.title) return ch.number + ". " + ch.title;
+    return ch.number + ". " + (ch.name || chapterLabel(ch.number));
   }
 
   function renderChapterList(chapters) {
@@ -852,7 +859,15 @@
       titleSearch = new MiniSearch({
         idField: "source_key",
         fields: ["title", "author", "publication"],
-        storeFields: ["title", "author", "publication", "chapter", "source_key", "section"],
+        storeFields: [
+          "title",
+          "author",
+          "publication",
+          "chapter",
+          "source_key",
+          "section",
+          "content_kind_label",
+        ],
         searchOptions: {
           boost: { title: 6, author: 2, publication: 1 },
           prefix: true,
