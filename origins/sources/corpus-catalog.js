@@ -899,10 +899,6 @@
       renderChapterList(chapterMeta);
       renderExploreShelf();
       showIdle();
-      // Desktop only: avoid opening the mobile keyboard on load.
-      if (window.matchMedia("(min-width: 640px)").matches) {
-        inputEl.focus();
-      }
     })
     .catch(function (err) {
       console.error(err);
