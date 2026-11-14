@@ -14,6 +14,7 @@
     location.hostname === "127.0.0.1";
 
   var listEl = document.getElementById("chapter-list");
+  var chapterSelectEl = document.getElementById("chapter-select");
   var exploreEl = document.getElementById("explore-keywords");
   var outEl = document.getElementById("sources-output");
   var headingEl = document.getElementById("sources-heading");
@@ -443,15 +444,10 @@
       });
   }
 
-  function setChapterActive(number, scrollTo) {
-    Array.prototype.forEach.call(listEl.querySelectorAll(".chapter-row"), function (row) {
-      row.classList.toggle("active", Number(row.getAttribute("data-chapter")) === number);
-    });
-    Array.prototype.forEach.call(listEl.querySelectorAll("a"), function (a) {
-      var sameChapter = Number(a.getAttribute("data-chapter")) === number;
-      var sameTarget = !scrollTo || a.getAttribute("data-scroll") === scrollTo;
-      a.classList.toggle("active", sameChapter && sameTarget);
-    });
+  function setChapterActive(number) {
+    if (!chapterSelectEl) return;
+    var value = number == null || number === "" ? "" : String(number);
+    if (chapterSelectEl.value !== value) chapterSelectEl.value = value;
   }
 
   function clearExploreActive() {
@@ -482,8 +478,7 @@
     syncClearButton();
   }
 
-  function openChapter(number, scrollTo) {
-    scrollTo = scrollTo || "sources";
+  function openChapter(number) {
     view.mode = "chapter";
     view.chapter = number;
     view.keyword = null;
@@ -491,20 +486,10 @@
     view.page = 1;
     inputEl.value = "";
     hideSuggestions();
-    setChapterActive(number, scrollTo);
+    setChapterActive(number);
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
-    var notesPromise = renderResults();
-    if (scrollTo === "notes") {
-      Promise.resolve(notesPromise).then(function (loaded) {
-        if (loaded && !notesEl.hidden) {
-          notesEl.scrollIntoView({ behavior: "smooth", block: "start" });
-        } else {
-          headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      });
-      return;
-    }
+    renderResults();
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -709,50 +694,20 @@
   }
 
   function renderChapterList(chapters) {
-    listEl.innerHTML = "";
+    if (!chapterSelectEl) return;
+    chapterSelectEl.innerHTML = "";
+    var placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Select a chapter…";
+    chapterSelectEl.appendChild(placeholder);
     chapters.forEach(function (ch) {
-      var row = document.createElement("div");
-      row.className = "chapter-row";
-      row.setAttribute("data-chapter", String(ch.number));
-
-      var sources = document.createElement("a");
-      sources.href = "#chapter-" + ch.number;
-      sources.className = "chapter-row-sources";
-      sources.textContent = chapterFullName(ch);
-      sources.setAttribute("data-chapter", String(ch.number));
-      sources.setAttribute("data-scroll", "sources");
-      sources.addEventListener("click", function (e) {
-        e.preventDefault();
-        openChapter(ch.number, "sources");
-      });
-
-      var leader = document.createElement("span");
-      leader.className = "chapter-row-leader";
-      leader.setAttribute("aria-hidden", "true");
-
-      var notesWrap = document.createElement("span");
-      notesWrap.className = "chapter-row-notes-wrap";
-
-      var notes = document.createElement("a");
-      notes.href = "#chapter-" + ch.number + "-notes";
-      notes.className = "chapter-row-notes";
-      notes.textContent = "Chapter Notes";
-      notes.setAttribute("data-chapter", String(ch.number));
-      notes.setAttribute("data-scroll", "notes");
-      notes.addEventListener("click", function (e) {
-        e.preventDefault();
-        openChapter(ch.number, "notes");
-      });
-
-      notesWrap.appendChild(document.createTextNode("["));
-      notesWrap.appendChild(notes);
-      notesWrap.appendChild(document.createTextNode("]"));
-
-      row.appendChild(sources);
-      row.appendChild(leader);
-      row.appendChild(notesWrap);
-      listEl.appendChild(row);
+      var opt = document.createElement("option");
+      opt.value = String(ch.number);
+      opt.textContent = chapterFullName(ch);
+      chapterSelectEl.appendChild(opt);
     });
+    chapterSelectEl.disabled = false;
+    setChapterActive(view.chapter);
   }
 
   function renderExploreShelf() {
@@ -784,12 +739,21 @@
   }
 
   function clearChapterActive() {
-    Array.prototype.forEach.call(listEl.querySelectorAll(".chapter-row.active, a.active"), function (el) {
-      el.classList.remove("active");
-    });
+    setChapterActive(null);
   }
 
   // Events
+  if (chapterSelectEl) {
+    chapterSelectEl.addEventListener("change", function () {
+      var raw = chapterSelectEl.value;
+      if (raw === "") {
+        showIdle();
+        return;
+      }
+      openChapter(Number(raw));
+    });
+  }
+
   inputEl.addEventListener("input", function () {
     syncClearButton();
     runPredictiveSearch();
@@ -935,6 +899,10 @@
       renderChapterList(chapterMeta);
       renderExploreShelf();
       showIdle();
+      // Desktop only: avoid opening the mobile keyboard on load.
+      if (window.matchMedia("(min-width: 640px)").matches) {
+        inputEl.focus();
+      }
     })
     .catch(function (err) {
       console.error(err);

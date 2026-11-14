@@ -120,10 +120,12 @@
                 <span class="status">Loading…</span>
               </div>
             </div>
-            <div class="catalog-shelf">
-              <h2 class="catalog-shelf-title">Chapters</h2>
-              <div id="chapter-list" aria-label="Chapter list">
-                <span class="status">Loading chapters…</span>
+            <div class="catalog-shelf catalog-shelf-chapters">
+              <label class="catalog-shelf-title" for="chapter-select">Chapters</label>
+              <div id="chapter-list">
+                <select id="chapter-select" class="catalog-chapter-select" aria-label="Select a chapter" disabled>
+                  <option value="">Loading chapters…</option>
+                </select>
               </div>
             </div>
           </div>
