@@ -167,10 +167,34 @@
     load();
   }
 
-  function enrichmentBlock(s) {
-    var topics = (s.topics || []).slice(0, 4);
-    var topicLine = topics.length
-      ? '<p class="catalog-card-topics">' + topics.map(escapeHtml).join(" · ") + "</p>"
+  function cardMedia(s) {
+    // Prefer live embed over a static thumbnail when the host is YouTube/X.
+    if (hostEmbed(s) || !s.image_url) return "";
+    return (
+      '<div class="catalog-card-media">' +
+        '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
+      "</div>"
+    );
+  }
+
+  function enrichmentBlock(s, opts) {
+    opts = opts || {};
+    var includeMedia = opts.includeMedia !== false;
+    var chips = [];
+    if (s.content_kind && s.content_kind !== "html_article" && s.content_kind_label) {
+      chips.push(s.content_kind_label);
+    }
+    (s.topics || []).slice(0, 4).forEach(function (topic) {
+      if (topic) chips.push(topic);
+    });
+    var topicLine = chips.length
+      ? '<ul class="catalog-card-topics" aria-label="Topics">' +
+          chips
+            .map(function (chip) {
+              return '<li class="catalog-card-topic">' + escapeHtml(chip) + "</li>";
+            })
+            .join("") +
+        "</ul>"
       : "";
     var role = SHOW_CARD_COPY && s.book_role
       ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
@@ -188,31 +212,21 @@
       statusNote =
         '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>";
     }
-    // Default kind is html_article ("Article"); only note non-default formats after the summary.
-    var kindNote =
-      s.content_kind && s.content_kind !== "html_article" && s.content_kind_label
-        ? '<p class="catalog-card-kind">Source type: ' + escapeHtml(s.content_kind_label) + "</p>"
+    var media = includeMedia ? cardMedia(s) : "";
+    var summary =
+      SHOW_CARD_COPY && s.summary
+        ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>"
         : "";
-    // Prefer live embed over a static thumbnail when the host is YouTube/X.
-    var media =
-      !embed && s.image_url
-        ? '<div class="catalog-card-media">' +
-            '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
-          "</div>"
-        : "";
-    var text =
-      '<div class="catalog-card-copy">' +
-        (SHOW_CARD_COPY && s.summary
-          ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>"
-          : "") +
-        role +
-        kindNote +
-        topicLine +
-        statusNote +
-      "</div>";
+    var hasCopy = !!(summary || role || topicLine || statusNote);
+    if (!hasCopy && !media && !embed) return "";
+    var text = hasCopy
+      ? '<div class="catalog-card-copy">' + summary + role + topicLine + statusNote + "</div>"
+      : "";
     return (
       '<div class="catalog-card-enrichment">' +
-        '<div class="catalog-card-body">' + text + media + "</div>" +
+        (text || media
+          ? '<div class="catalog-card-body">' + text + media + "</div>"
+          : "") +
         embed +
       "</div>"
     );
@@ -232,15 +246,21 @@
   function renderCard(s) {
     var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
     var url = s.url || "#";
+    var media = cardMedia(s);
     return (
       '<article class="catalog-card">' +
-        '<h3 class="catalog-card-title">' +
-          '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-            escapeHtml(s.title || "Untitled source") +
-          "</a>" +
-        "</h3>" +
-        (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
-        enrichmentBlock(s) +
+        '<div class="catalog-card-heading">' +
+          '<div class="catalog-card-title-row">' +
+            '<h3 class="catalog-card-title">' +
+              '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+                escapeHtml(s.title || "Untitled source") +
+              "</a>" +
+            "</h3>" +
+            media +
+          "</div>" +
+          (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
+        "</div>" +
+        enrichmentBlock(s, { includeMedia: false }) +
       "</article>"
     );
   }
