@@ -1088,6 +1088,9 @@ img {
 .sources-page .catalog-notes {
   margin-top: 0.5rem;
   scroll-margin-top: 1.25rem;
+  /* Match numbered Sources list (.sources-list). */
+  font-size: 0.9375rem;
+  line-height: 1.45;
 }
 .sources-page .catalog-notes a {
   color: hsl(var(--reference-link));
