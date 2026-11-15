@@ -475,20 +475,22 @@
     chapterTriggerEl.setAttribute("aria-expanded", "false");
   }
 
-  function openChapterMenu() {
+  function openChapterMenu(opts) {
+    opts = opts || {};
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
     chapterMenuEl.hidden = false;
     chapterTriggerEl.setAttribute("aria-expanded", "true");
+    if (opts.focusOption === false) return;
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     if (focusOpt && typeof focusOpt.focus === "function") focusOpt.focus();
   }
 
-  function toggleChapterMenu() {
+  function toggleChapterMenu(opts) {
     if (!chapterMenuEl) return;
-    if (chapterMenuEl.hidden) openChapterMenu();
+    if (chapterMenuEl.hidden) openChapterMenu(opts);
     else closeChapterMenu();
   }
 
@@ -528,6 +530,12 @@
     syncClearButton();
   }
 
+  function dismissMobileKeyboard() {
+    // Blur the search field so iOS/Android hide the keyboard over results.
+    if (!window.matchMedia("(max-width: 639px)").matches) return;
+    if (inputEl && typeof inputEl.blur === "function") inputEl.blur();
+  }
+
   function openChapter(number) {
     view.mode = "chapter";
     view.chapter = number;
@@ -539,6 +547,7 @@
     setChapterActive(number);
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
+    dismissMobileKeyboard();
     renderResults();
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -557,6 +566,7 @@
       if (btn) btn.classList.add("active");
     }
     if (shelvesEl) shelvesEl.classList.add("is-filtered");
+    dismissMobileKeyboard();
     renderResults();
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -572,6 +582,7 @@
     clearChapterActive();
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.add("is-filtered");
+    dismissMobileKeyboard();
     renderResults();
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -840,14 +851,24 @@
     openChapter(Number(raw));
   }
 
+  function scrollChapterPickerIntoView() {
+    if (!window.matchMedia("(min-width: 640px)").matches) return;
+    if (!listEl || typeof listEl.scrollIntoView !== "function") return;
+    listEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   if (chapterTriggerEl && chapterMenuEl) {
-    chapterTriggerEl.addEventListener("click", function () {
-      toggleChapterMenu();
+    chapterTriggerEl.addEventListener("click", function (e) {
+      e.preventDefault();
+      scrollChapterPickerIntoView();
+      // Mouse open: keep focus on the trigger so the menu isn't dismissed mid-click.
+      toggleChapterMenu({ focusOption: false });
     });
     chapterTriggerEl.addEventListener("keydown", function (e) {
       if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
         e.preventDefault();
-        openChapterMenu();
+        scrollChapterPickerIntoView();
+        openChapterMenu({ focusOption: true });
       } else if (e.key === "Escape") {
         closeChapterMenu();
       }

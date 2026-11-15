@@ -837,6 +837,7 @@ img {
 .sources-page .catalog-chapter-picker {
   position: relative;
   margin-top: 0;
+  scroll-margin-top: 1.25rem;
 }
 .sources-page .catalog-chapter-select {
   display: block;
