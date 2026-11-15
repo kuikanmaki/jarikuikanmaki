@@ -1014,6 +1014,18 @@ img {
 .sources-page #sources-heading {
   margin-top: 2rem;
   margin-bottom: 0.85rem;
+  /* Compact context label — must stay smaller than card titles (~1.0625rem). */
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .sources-heading-label {
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
 }
 .sources-page .sources-heading-count {
   font-weight: 500;
@@ -1413,6 +1425,9 @@ img {
     margin-top: 0;
     font-size: 0.9375rem;
     line-height: 1.2;
+  }
+  .sources-page #sources-heading {
+    font-size: 0.8125rem;
   }
   .sources-page .sources-search-suggestion {
     flex-direction: row;

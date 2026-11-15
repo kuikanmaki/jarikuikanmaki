@@ -387,7 +387,7 @@
         var sourceRow = rows[0];
         label =
           sourceRow && sourceRow.chapter != null
-            ? chapterLabel(sourceRow.chapter)
+            ? chapterLabel(sourceRow.chapter) + " Source"
             : "Source";
       } else {
         label = (view.keyword && view.keyword.label) || "Sources";
