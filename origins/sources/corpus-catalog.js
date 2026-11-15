@@ -47,6 +47,13 @@
   };
   // When true, view changes must not push/replace the URL (popstate / boot restore).
   var applyingHistory = false;
+  // Desktop chapter-list hover preview (popover).
+  var sourcePreviewEl = null;
+  var sourcePreviewShowTimer = null;
+  var sourcePreviewHideTimer = null;
+  var sourcePreviewKey = null;
+  var SOURCE_PREVIEW_SHOW_MS = 380;
+  var SOURCE_PREVIEW_HIDE_MS = 180;
 
   function escapeHtml(value) {
     if (value === undefined || value === null) return "";
@@ -269,10 +276,18 @@
     );
   }
 
-  function renderCard(s) {
+  function renderCard(s, opts) {
+    opts = opts || {};
     var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
     var url = s.url || "#";
-    var media = cardMedia(s);
+    // Hover previews: image/copy only — no YouTube/X embeds (avoids autoplay / heavy widgets).
+    var media = opts.preview
+      ? s.image_url
+        ? '<div class="catalog-card-media">' +
+            '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
+          "</div>"
+        : ""
+      : cardMedia(s);
     var parts = cardCopyParts(s);
     var restInner =
       (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
@@ -285,7 +300,7 @@
           "</div>"
         : "");
     return (
-      '<article class="catalog-card">' +
+      '<article class="catalog-card' + (opts.preview ? " catalog-card--preview" : "") + '">' +
         '<div class="catalog-card-layout' + (media ? " catalog-card-layout--media" : "") + '">' +
           '<h3 class="catalog-card-title">' +
             '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
@@ -297,7 +312,7 @@
             ? '<div class="catalog-card-rest">' + restInner + "</div>"
             : "") +
         "</div>" +
-        parts.embed +
+        (opts.preview ? "" : parts.embed) +
       "</article>"
     );
   }
@@ -342,6 +357,110 @@
       );
     }).join("\n");
     return '<ol class="sources-list">' + items + "</ol>";
+  }
+
+  function isDesktopSourcePreview() {
+    return window.matchMedia("(min-width: 640px)").matches;
+  }
+
+  function clearSourcePreviewTimers() {
+    if (sourcePreviewShowTimer) {
+      clearTimeout(sourcePreviewShowTimer);
+      sourcePreviewShowTimer = null;
+    }
+    if (sourcePreviewHideTimer) {
+      clearTimeout(sourcePreviewHideTimer);
+      sourcePreviewHideTimer = null;
+    }
+  }
+
+  function hideSourcePreview() {
+    clearSourcePreviewTimers();
+    sourcePreviewKey = null;
+    if (!sourcePreviewEl) return;
+    sourcePreviewEl.hidden = true;
+    sourcePreviewEl.innerHTML = "";
+    sourcePreviewEl.setAttribute("aria-hidden", "true");
+  }
+
+  function ensureSourcePreviewEl() {
+    if (sourcePreviewEl) return sourcePreviewEl;
+    sourcePreviewEl = document.createElement("div");
+    sourcePreviewEl.id = "source-hover-preview";
+    sourcePreviewEl.className = "source-hover-preview";
+    sourcePreviewEl.hidden = true;
+    sourcePreviewEl.setAttribute("aria-hidden", "true");
+    sourcePreviewEl.addEventListener("mouseenter", function () {
+      if (sourcePreviewHideTimer) {
+        clearTimeout(sourcePreviewHideTimer);
+        sourcePreviewHideTimer = null;
+      }
+    });
+    sourcePreviewEl.addEventListener("mouseleave", function () {
+      scheduleHideSourcePreview();
+    });
+    document.body.appendChild(sourcePreviewEl);
+    return sourcePreviewEl;
+  }
+
+  function positionSourcePreview(anchorEl) {
+    if (!sourcePreviewEl || !anchorEl) return;
+    var gap = 10;
+    var pad = 12;
+    var rect = anchorEl.getBoundingClientRect();
+    var pop = sourcePreviewEl.getBoundingClientRect();
+    var vw = window.innerWidth;
+    var vh = window.innerHeight;
+    var left = rect.left;
+    var top = rect.bottom + gap;
+    if (left + pop.width > vw - pad) left = Math.max(pad, vw - pad - pop.width);
+    if (left < pad) left = pad;
+    if (top + pop.height > vh - pad && rect.top - gap - pop.height >= pad) {
+      top = rect.top - gap - pop.height;
+    } else if (top + pop.height > vh - pad) {
+      top = Math.max(pad, vh - pad - pop.height);
+    }
+    sourcePreviewEl.style.left = Math.round(left) + "px";
+    sourcePreviewEl.style.top = Math.round(top) + "px";
+  }
+
+  function showSourcePreview(anchorEl, sourceKey) {
+    if (!isDesktopSourcePreview() || !corpus || !anchorEl || !sourceKey) return;
+    var row = (corpus.sources || []).find(function (s) {
+      return s.source_key === sourceKey;
+    });
+    if (!row) return;
+    var el = ensureSourcePreviewEl();
+    sourcePreviewKey = sourceKey;
+    el.innerHTML = renderCard(row, { preview: true });
+    el.hidden = false;
+    el.removeAttribute("aria-hidden");
+    // Measure then place (and again after images may load).
+    positionSourcePreview(anchorEl);
+    requestAnimationFrame(function () {
+      positionSourcePreview(anchorEl);
+    });
+  }
+
+  function scheduleShowSourcePreview(anchorEl, sourceKey) {
+    if (!isDesktopSourcePreview()) return;
+    clearSourcePreviewTimers();
+    if (sourcePreviewKey === sourceKey && sourcePreviewEl && !sourcePreviewEl.hidden) {
+      positionSourcePreview(anchorEl);
+      return;
+    }
+    sourcePreviewShowTimer = setTimeout(function () {
+      sourcePreviewShowTimer = null;
+      showSourcePreview(anchorEl, sourceKey);
+    }, SOURCE_PREVIEW_SHOW_MS);
+  }
+
+  function scheduleHideSourcePreview() {
+    if (sourcePreviewHideTimer) clearTimeout(sourcePreviewHideTimer);
+    sourcePreviewHideTimer = setTimeout(function () {
+      sourcePreviewHideTimer = null;
+      hideSourcePreview();
+    }, SOURCE_PREVIEW_HIDE_MS);
   }
 
   function renderPager(total) {
@@ -425,6 +544,7 @@
   }
 
   function renderResults() {
+    hideSourcePreview();
     var rows = sourcesForView();
     var total = rows.length;
 
@@ -788,6 +908,7 @@
     view.page = 1;
     inputEl.value = "";
     hideSuggestions();
+    hideSourcePreview();
     clearChapterActive();
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
@@ -1312,8 +1433,55 @@
     if (media) media.remove();
   }, true);
 
+  // Desktop: hover a chapter bibliography link → compact catalog-card preview.
+  outEl.addEventListener("mouseover", function (e) {
+    if (!isDesktopSourcePreview()) return;
+    var link = e.target.closest(".sources-list .source-ref a");
+    if (!link || !outEl.contains(link)) return;
+    var item = link.closest(".source-item");
+    var key = item && item.getAttribute("data-source-key");
+    if (!key) return;
+    if (sourcePreviewHideTimer) {
+      clearTimeout(sourcePreviewHideTimer);
+      sourcePreviewHideTimer = null;
+    }
+    scheduleShowSourcePreview(link, key);
+  });
+  outEl.addEventListener("mouseout", function (e) {
+    if (!isDesktopSourcePreview()) return;
+    var link = e.target.closest(".sources-list .source-ref a");
+    if (!link || !outEl.contains(link)) return;
+    var related = e.relatedTarget;
+    if (related && (link.contains(related) || (sourcePreviewEl && sourcePreviewEl.contains(related)))) {
+      return;
+    }
+    scheduleHideSourcePreview();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") hideSourcePreview();
+  });
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (sourcePreviewEl && !sourcePreviewEl.hidden) hideSourcePreview();
+    },
+    true
+  );
+  window.addEventListener("resize", function () {
+    if (!isDesktopSourcePreview()) hideSourcePreview();
+  });
+
   document.addEventListener("click", function (e) {
     if (!e.target.closest("#sources-search")) hideSuggestions();
+    if (
+      sourcePreviewEl &&
+      !sourcePreviewEl.hidden &&
+      !e.target.closest("#source-hover-preview") &&
+      !e.target.closest(".sources-list .source-ref a")
+    ) {
+      hideSourcePreview();
+    }
   });
 
   // Boot

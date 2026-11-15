@@ -161,6 +161,21 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#chapter-select")).toHaveAttribute("aria-hidden", "true");
   });
 
+  test("chapter source link hover shows a desktop card preview", async ({ page }, testInfo) => {
+    test.skip(isMobile(testInfo.project.name), "Hover previews are desktop-only");
+    await page.goto(`${SOURCES}?chapter=5`);
+    await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
+    const link = page.locator(".sources-list .source-ref a").first();
+    await expect(link).toBeVisible();
+    await link.hover();
+    const preview = page.locator("#source-hover-preview");
+    await expect(preview).toBeVisible({ timeout: 2_000 });
+    await expect(preview.locator(".catalog-card--preview")).toBeVisible();
+    await expect(preview.locator(".catalog-card-embed")).toHaveCount(0);
+    await page.keyboard.press("Escape");
+    await expect(preview).toBeHidden();
+  });
+
   test("search suggestion opens keyword results (desktop meta)", async ({ page }, testInfo) => {
     test.skip(isMobile(testInfo.project.name), "Suggestion density differs on mobile; covered by idle + select paths");
 

@@ -1320,6 +1320,37 @@ img {
 }
 .sources-page .source-ref { min-width: 0; flex: 1 1 auto; }
 .sources-page .source-ref em { font-style: normal; }
+/* Desktop chapter-list hover preview (catalog card popover). */
+.source-hover-preview {
+  position: fixed;
+  z-index: 50;
+  width: min(22rem, calc(100vw - 1.5rem));
+  max-height: min(70vh, 28rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  pointer-events: auto;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  background: hsl(var(--card));
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+.source-hover-preview[hidden] {
+  display: none !important;
+}
+.source-hover-preview .catalog-card--preview {
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  padding: 1rem 1rem 0.9rem;
+}
+.source-hover-preview .catalog-card--preview:hover {
+  border-color: transparent;
+}
+@media (max-width: 639px) {
+  .source-hover-preview {
+    display: none !important;
+  }
+}
 .sources-page .source-expand-btn {
   flex: 0 0 auto;
   width: 1.75rem;
