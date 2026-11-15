@@ -259,6 +259,28 @@ test.describe("Sources catalog smoke", () => {
     await expect(preview).toBeHidden();
   });
 
+  test("notes Further Reading source hyperlinks show the same desktop hover preview", async ({
+    page,
+  }, testInfo) => {
+    test.skip(isMobile(testInfo.project.name), "Hover previews are desktop-only");
+    await page.goto(`${SOURCES}?chapter=1`);
+    await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
+    await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
+
+    const noteSource = page.locator(
+      '#catalog-notes a.notes-source-ref[data-source-key="ch01-n01"]'
+    );
+    await expect(noteSource).toBeVisible();
+    await expect(noteSource).toHaveAttribute("href", /^https?:\/\//);
+
+    await noteSource.hover();
+    const preview = page.locator("#source-hover-preview");
+    await expect(preview).toBeVisible({ timeout: 2_000 });
+    await expect(preview.locator(".catalog-card--preview")).toBeVisible();
+    await page.keyboard.press("Escape");
+    await expect(preview).toBeHidden();
+  });
+
   test("search suggestion opens keyword results (desktop meta)", async ({ page }, testInfo) => {
     test.skip(isMobile(testInfo.project.name), "Suggestion density differs on mobile; covered by idle + select paths");
 

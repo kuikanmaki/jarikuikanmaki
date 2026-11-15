@@ -663,8 +663,35 @@
     }
   }
 
+  function normalizeSourceUrl(url) {
+    if (!url) return "";
+    try {
+      var u = new URL(url, location.href);
+      var host = String(u.hostname || "").replace(/^www\./i, "").toLowerCase();
+      var path = String(u.pathname || "").replace(/\/+$/, "");
+      return host + path;
+    } catch (err) {
+      return String(url).toLowerCase();
+    }
+  }
+
+  function sourceKeyByNormalizedUrl() {
+    var map = Object.create(null);
+    (corpus.sources || []).forEach(function (s) {
+      var n = normalizeSourceUrl(s.url);
+      if (!n) return;
+      if (Object.prototype.hasOwnProperty.call(map, n) && map[n] !== s.source_key) {
+        map[n] = ""; // ambiguous URL → skip preview wiring
+        return;
+      }
+      map[n] = s.source_key;
+    });
+    return map;
+  }
+
   function enhanceNotesSourceLinks(root) {
-    // Notes HTML stores stable ?source= keys; resolve to external URLs at display time.
+    // Notes HTML: (1) stable ?source= cross-refs → external URL + preview key;
+    // (2) existing Notes source hyperlinks → same preview key when URL matches corpus.
     if (!root || !corpus) return;
     Array.prototype.forEach.call(root.querySelectorAll('a[href^="?source="]'), function (a) {
       var key = sourceKeyFromHref(a.getAttribute("href") || "");
@@ -676,6 +703,18 @@
       a.classList.add("notes-source-ref");
       if (row && row.url) {
         a.setAttribute("href", row.url);
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener noreferrer");
+      }
+    });
+    var byUrl = sourceKeyByNormalizedUrl();
+    Array.prototype.forEach.call(root.querySelectorAll('a[href^="http"]'), function (a) {
+      if (a.getAttribute("data-source-key")) return;
+      var key = byUrl[normalizeSourceUrl(a.getAttribute("href") || "")];
+      if (!key) return;
+      a.setAttribute("data-source-key", key);
+      a.classList.add("notes-source-ref");
+      if (!a.getAttribute("target")) {
         a.setAttribute("target", "_blank");
         a.setAttribute("rel", "noopener noreferrer");
       }
