@@ -15,6 +15,9 @@
 
   var listEl = document.getElementById("chapter-list");
   var chapterSelectEl = document.getElementById("chapter-select");
+  var chapterTriggerEl = document.getElementById("chapter-custom-trigger");
+  var chapterTriggerLabelEl = document.getElementById("chapter-custom-trigger-label");
+  var chapterMenuEl = document.getElementById("chapter-custom-list");
   var exploreEl = document.getElementById("explore-keywords");
   var outEl = document.getElementById("sources-output");
   var headingEl = document.getElementById("sources-heading");
@@ -444,10 +447,57 @@
       });
   }
 
+  function isDesktopChapterPicker() {
+    return window.matchMedia("(min-width: 640px)").matches;
+  }
+
+  function chapterOptionLabel(value) {
+    if (!chapterSelectEl) return "Select a chapter…";
+    if (value === "" || value == null) return "Select a chapter…";
+    var opt = chapterSelectEl.querySelector('option[value="' + String(value).replace(/"/g, '\\"') + '"]');
+    return (opt && opt.textContent) || "Select a chapter…";
+  }
+
+  function syncChapterCustomUi(value) {
+    if (!chapterTriggerLabelEl || !chapterMenuEl) return;
+    var next = value == null || value === "" ? "" : String(value);
+    chapterTriggerLabelEl.textContent = chapterOptionLabel(next);
+    Array.prototype.forEach.call(chapterMenuEl.querySelectorAll("[role='option']"), function (opt) {
+      var selected = opt.getAttribute("data-value") === next;
+      opt.setAttribute("aria-selected", selected ? "true" : "false");
+      opt.classList.toggle("is-selected", selected);
+    });
+  }
+
+  function closeChapterMenu() {
+    if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
+    chapterMenuEl.hidden = true;
+    chapterTriggerEl.setAttribute("aria-expanded", "false");
+  }
+
+  function openChapterMenu() {
+    if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
+    if (!isDesktopChapterPicker()) return;
+    hideSuggestions();
+    chapterMenuEl.hidden = false;
+    chapterTriggerEl.setAttribute("aria-expanded", "true");
+    var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
+    var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
+    if (focusOpt && typeof focusOpt.focus === "function") focusOpt.focus();
+  }
+
+  function toggleChapterMenu() {
+    if (!chapterMenuEl) return;
+    if (chapterMenuEl.hidden) openChapterMenu();
+    else closeChapterMenu();
+  }
+
   function setChapterActive(number) {
     if (!chapterSelectEl) return;
     var value = number == null || number === "" ? "" : String(number);
     if (chapterSelectEl.value !== value) chapterSelectEl.value = value;
+    syncChapterCustomUi(value);
+    closeChapterMenu();
   }
 
   function clearExploreActive() {
@@ -714,6 +764,26 @@
       chapterSelectEl.appendChild(opt);
     });
     chapterSelectEl.disabled = false;
+
+    if (chapterMenuEl && chapterTriggerEl) {
+      chapterMenuEl.innerHTML = "";
+      var clearOpt = document.createElement("li");
+      clearOpt.setAttribute("role", "option");
+      clearOpt.setAttribute("tabindex", "-1");
+      clearOpt.setAttribute("data-value", "");
+      clearOpt.textContent = "Select a chapter…";
+      chapterMenuEl.appendChild(clearOpt);
+      chapters.forEach(function (ch) {
+        var item = document.createElement("li");
+        item.setAttribute("role", "option");
+        item.setAttribute("tabindex", "-1");
+        item.setAttribute("data-value", String(ch.number));
+        item.textContent = chapterFullName(ch);
+        chapterMenuEl.appendChild(item);
+      });
+      chapterTriggerEl.disabled = false;
+    }
+
     setChapterActive(view.chapter);
   }
 
@@ -761,7 +831,66 @@
     });
   }
 
+  function chooseChapterValue(raw) {
+    closeChapterMenu();
+    if (raw === "") {
+      showIdle();
+      return;
+    }
+    openChapter(Number(raw));
+  }
+
+  if (chapterTriggerEl && chapterMenuEl) {
+    chapterTriggerEl.addEventListener("click", function () {
+      toggleChapterMenu();
+    });
+    chapterTriggerEl.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openChapterMenu();
+      } else if (e.key === "Escape") {
+        closeChapterMenu();
+      }
+    });
+    chapterMenuEl.addEventListener("click", function (e) {
+      var opt = e.target.closest('[role="option"]');
+      if (!opt || !chapterMenuEl.contains(opt)) return;
+      chooseChapterValue(opt.getAttribute("data-value") || "");
+    });
+    chapterMenuEl.addEventListener("keydown", function (e) {
+      var options = Array.prototype.slice.call(chapterMenuEl.querySelectorAll('[role="option"]'));
+      if (!options.length) return;
+      var current = document.activeElement;
+      var idx = options.indexOf(current);
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        options[(idx + 1 + options.length) % options.length].focus();
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        options[(idx - 1 + options.length) % options.length].focus();
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        options[0].focus();
+      } else if (e.key === "End") {
+        e.preventDefault();
+        options[options.length - 1].focus();
+      } else if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        if (idx >= 0) chooseChapterValue(options[idx].getAttribute("data-value") || "");
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        closeChapterMenu();
+        chapterTriggerEl.focus();
+      }
+    });
+    document.addEventListener("mousedown", function (e) {
+      if (!listEl || listEl.contains(e.target)) return;
+      closeChapterMenu();
+    });
+  }
+
   inputEl.addEventListener("input", function () {
+    closeChapterMenu();
     syncClearButton();
     runPredictiveSearch();
   });
@@ -917,10 +1046,14 @@
 
   if (window.matchMedia) {
     var desktopMq = window.matchMedia("(min-width: 640px)");
+    function onDesktopMqChange() {
+      syncSearchPlaceholder();
+      closeChapterMenu();
+    }
     if (typeof desktopMq.addEventListener === "function") {
-      desktopMq.addEventListener("change", syncSearchPlaceholder);
+      desktopMq.addEventListener("change", onDesktopMqChange);
     } else if (typeof desktopMq.addListener === "function") {
-      desktopMq.addListener(syncSearchPlaceholder);
+      desktopMq.addListener(onDesktopMqChange);
     }
   }
 })();
