@@ -372,36 +372,99 @@
     return n + (n === 1 ? " source" : " sources");
   }
 
+  function renderEntryNav() {
+    var base = location.pathname || "/origins/sources/";
+    return (
+      '<nav class="source-entry-nav" aria-label="Continue browsing the catalog">' +
+        '<a class="source-entry-nav-link" href="' + escapeHtml(base) + '#sources-search" data-source-exit="search">Search all sources</a>' +
+        '<a class="source-entry-nav-link" href="' + escapeHtml(base) + '#sources-chapters" data-source-exit="chapters">Browse by chapter</a>' +
+      "</nav>"
+    );
+  }
+
+  function catalogFocusFromHash() {
+    var hash = (location.hash || "").replace(/^#/, "");
+    if (hash === "sources-search") return "search";
+    if (hash === "sources-chapters" || hash === "chapter-list") return "chapters";
+    return null;
+  }
+
+  function focusWithoutScroll(el) {
+    if (!el || typeof el.focus !== "function") return;
+    try {
+      el.focus({ preventScroll: true });
+    } catch (err) {
+      el.focus();
+    }
+  }
+
+  function activateCatalogTarget(target) {
+    if (target === "search") {
+      focusWithoutScroll(inputEl);
+      return;
+    }
+    if (target !== "chapters") return;
+    // Desktop: open the custom chapter menu; mobile: focus the native select.
+    if (isDesktopChapterPicker()) {
+      focusWithoutScroll(chapterTriggerEl);
+      openChapterMenu({ focusOption: false });
+      return;
+    }
+    focusWithoutScroll(chapterSelectEl);
+  }
+
+  function exitEntryTo(target) {
+    showIdle();
+    // Keep page top; activate search/chapters without scroll-into-view from focus().
+    window.scrollTo(0, 0);
+    requestAnimationFrame(function () {
+      activateCatalogTarget(target);
+    });
+  }
+
   function renderResults() {
     var rows = sourcesForView();
     var total = rows.length;
 
-    backEl.hidden = false;
+    // Chapter entry keeps Back to top (long notes); source entry hides it.
+    backEl.hidden = view.mode === "source";
     headingEl.hidden = false;
     syncClearButton();
 
     if (view.mode === "keyword" || view.mode === "explore" || view.mode === "source") {
       var label;
+      var sourceChapterHtml = "";
       if (view.mode === "source") {
-        // Title appears on the card only; heading is chapter context if known.
+        // Title appears on the card only; heading is "Sources · Chapter N".
         var sourceRow = rows[0];
-        label =
-          sourceRow && sourceRow.chapter != null
-            ? chapterLabel(sourceRow.chapter) + " Source"
-            : "Source";
+        label = "Sources";
+        if (sourceRow && sourceRow.chapter != null && !Number.isNaN(Number(sourceRow.chapter))) {
+          var chNum = Number(sourceRow.chapter);
+          var chHref =
+            (location.pathname || "/origins/sources/") +
+            "?chapter=" +
+            encodeURIComponent(String(chNum));
+          sourceChapterHtml =
+            '<span class="sources-heading-count"> · ' +
+              '<a class="sources-heading-chapter" href="' + escapeHtml(chHref) + '" data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
+                escapeHtml(chapterLabel(chNum)) +
+              "</a>" +
+            "</span>";
+        }
       } else {
         label = (view.keyword && view.keyword.label) || "Sources";
       }
       headingEl.innerHTML =
         '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
         (view.mode === "source"
-          ? ""
+          ? sourceChapterHtml
           : '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>");
       notesEl.hidden = true;
       notesEl.innerHTML = "";
 
       var start = (view.page - 1) * PAGE_SIZE;
       var pageRows = rows.slice(start, start + PAGE_SIZE);
+      var entryNav = view.mode === "source" ? renderEntryNav() : "";
       if (!pageRows.length) {
         outEl.innerHTML =
           '<div class="catalog-empty" role="status">' +
@@ -410,15 +473,19 @@
                 ? "No matching source found."
                 : "No sources tagged with “" + escapeHtml(label) + "”.") +
             "</p>" +
-            '<button type="button" class="catalog-empty-clear">Clear search</button>' +
-          "</div>";
+            (view.mode === "source"
+              ? ""
+              : '<button type="button" class="catalog-empty-clear">Clear search</button>') +
+          "</div>" +
+          entryNav;
         renderPager(0);
         return;
       }
       outEl.innerHTML =
         '<div class="catalog-card-list">' +
         pageRows.map(renderCard).join("") +
-        "</div>";
+        "</div>" +
+        entryNav;
       ensureTwitterWidgets(outEl);
       renderPager(total);
       return;
@@ -435,7 +502,7 @@
     }
     pagerEl.hidden = true;
     pagerEl.innerHTML = "";
-    outEl.innerHTML = renderChapterSourceList(rows);
+    outEl.innerHTML = renderChapterSourceList(rows) + renderEntryNav();
     return loadNotes(view.chapter);
   }
 
@@ -480,10 +547,42 @@
     });
   }
 
+  function clearChapterMenuPosition() {
+    if (!chapterMenuEl) return;
+    chapterMenuEl.style.left = "";
+    chapterMenuEl.style.width = "";
+    chapterMenuEl.style.top = "";
+    chapterMenuEl.style.bottom = "";
+    chapterMenuEl.style.maxHeight = "";
+  }
+
+  function positionChapterMenu() {
+    if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
+    var rect = chapterTriggerEl.getBoundingClientRect();
+    var gap = 4;
+    var maxH = Math.min(22 * 16, window.innerHeight * 0.55);
+    var spaceBelow = window.innerHeight - rect.bottom - gap;
+    var spaceAbove = rect.top - gap;
+    chapterMenuEl.style.left = Math.max(0, rect.left) + "px";
+    chapterMenuEl.style.width = rect.width + "px";
+    if (spaceBelow < Math.min(maxH, 12 * 16) && spaceAbove > spaceBelow) {
+      var heightUp = Math.max(8 * 16, Math.min(maxH, spaceAbove));
+      chapterMenuEl.style.top = "auto";
+      chapterMenuEl.style.bottom = window.innerHeight - rect.top + gap + "px";
+      chapterMenuEl.style.maxHeight = heightUp + "px";
+    } else {
+      var heightDown = Math.max(8 * 16, Math.min(maxH, spaceBelow));
+      chapterMenuEl.style.bottom = "auto";
+      chapterMenuEl.style.top = rect.bottom + gap + "px";
+      chapterMenuEl.style.maxHeight = heightDown + "px";
+    }
+  }
+
   function closeChapterMenu() {
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     chapterMenuEl.hidden = true;
     chapterTriggerEl.setAttribute("aria-expanded", "false");
+    clearChapterMenuPosition();
   }
 
   function openChapterMenu(opts) {
@@ -493,8 +592,16 @@
     hideSuggestions();
     chapterMenuEl.hidden = false;
     chapterTriggerEl.setAttribute("aria-expanded", "true");
-    if (opts.focusOption === false) return;
+    positionChapterMenu();
+    // Hidden menus keep scrollTop; reset for idle, or reveal the selected chapter.
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
+    var selectedValue = selected ? selected.getAttribute("data-value") : "";
+    if (!selectedValue) {
+      chapterMenuEl.scrollTop = 0;
+    } else if (selected && typeof selected.scrollIntoView === "function") {
+      selected.scrollIntoView({ block: "nearest" });
+    }
+    if (opts.focusOption === false) return;
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     if (focusOpt && typeof focusOpt.focus === "function") focusOpt.focus();
   }
@@ -617,10 +724,10 @@
     }
   }
 
-  function syncSourceEntryLayout() {
-    // Single-source views are entry points: keep banner/intro/search/chapters,
-    // but hide browse-only chrome (Most cited).
+  function syncEntryLayout() {
+    // Source/chapter entry: keep banner + page title; hide intro/search/shelves.
     document.body.classList.toggle("sources-entry-source", view.mode === "source");
+    document.body.classList.toggle("sources-entry-chapter", view.mode === "chapter");
   }
 
   function showIdle(opts) {
@@ -644,7 +751,7 @@
     notesEl.innerHTML = "";
     backEl.hidden = true;
     syncClearButton();
-    syncSourceEntryLayout();
+    syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
   }
 
@@ -667,11 +774,12 @@
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     dismissMobileKeyboard();
-    syncSourceEntryLayout();
+    syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
+    // Chapter entry: stay at the normal page top (banner), not scrolled to the heading.
     if (opts.scroll !== false) {
-      headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.scrollTo(0, 0);
     }
   }
 
@@ -696,7 +804,7 @@
     }
     if (shelvesEl) shelvesEl.classList.add("is-filtered");
     dismissMobileKeyboard();
-    syncSourceEntryLayout();
+    syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
     if (opts.scroll !== false) {
@@ -716,14 +824,13 @@
     hideSuggestions();
     clearChapterActive();
     clearExploreActive();
-    // Source permalinks are catalog entry points: keep search + chapters usable.
-    if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     dismissMobileKeyboard();
-    syncSourceEntryLayout();
+    syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
+    // Source entry: stay at the normal page top (banner), not scrolled to the heading.
     if (opts.scroll !== false) {
-      headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.scrollTo(0, 0);
     }
   }
 
@@ -1046,8 +1153,19 @@
     });
     document.addEventListener("mousedown", function (e) {
       if (!listEl || listEl.contains(e.target)) return;
+      if (chapterMenuEl.contains(e.target)) return;
       closeChapterMenu();
     });
+    window.addEventListener("resize", function () {
+      if (!chapterMenuEl.hidden) positionChapterMenu();
+    });
+    window.addEventListener(
+      "scroll",
+      function () {
+        if (!chapterMenuEl.hidden) positionChapterMenu();
+      },
+      true
+    );
   }
 
   inputEl.addEventListener("input", function () {
@@ -1090,6 +1208,15 @@
     clearKeywordFilter();
   });
 
+  headingEl.addEventListener("click", function (e) {
+    var chapterLink = e.target.closest("[data-open-chapter]");
+    if (!chapterLink || !headingEl.contains(chapterLink)) return;
+    e.preventDefault();
+    var chapter = Number(chapterLink.getAttribute("data-open-chapter"));
+    if (Number.isNaN(chapter)) return;
+    openChapter(chapter);
+  });
+
   pagerEl.addEventListener("click", function (e) {
     var btn = e.target.closest("[data-page]");
     if (!btn || btn.disabled) return;
@@ -1105,6 +1232,12 @@
     if (e.target.closest(".catalog-empty-clear")) {
       e.preventDefault();
       clearKeywordFilter();
+      return;
+    }
+    var exitLink = e.target.closest("[data-source-exit]");
+    if (exitLink) {
+      e.preventDefault();
+      exitEntryTo(exitLink.getAttribute("data-source-exit"));
       return;
     }
     var btn = e.target.closest(".source-expand-btn");
@@ -1195,10 +1328,18 @@
       syncSearchPlaceholder();
       renderChapterList(chapterMeta);
       renderExploreShelf();
+      // Read hash before replaceState (catalog URLs omit the fragment).
+      var hashFocus = catalogFocusFromHash();
       showIdle({ history: false });
       applyCatalogState(parseLocationState(), { scroll: true });
       if (window.history && typeof window.history.replaceState === "function") {
         history.replaceState(catalogHistoryState(), "", catalogUrlFromState(catalogHistoryState()));
+      }
+      // Deep-link hashes from source-entry nav: activate search or chapters (no scroll).
+      if (view.mode === "idle" && hashFocus) {
+        requestAnimationFrame(function () {
+          activateCatalogTarget(hashFocus);
+        });
       }
     })
     .catch(function (err) {

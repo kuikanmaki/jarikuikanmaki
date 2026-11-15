@@ -33,11 +33,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
-<body class="sources-page bg-background text-foreground font-sans overflow-x-hidden">
+<body class="sources-page bg-background text-foreground font-sans">
 
   <div id="site-header"></div>
 
-  <main class="min-h-screen bg-background text-foreground overflow-x-hidden">
+  <main class="min-h-screen bg-background text-foreground">
 
     <!-- ============================================================
          BOOK SALES BANNER (compact, full-width strip)
@@ -45,13 +45,6 @@
     <aside class="sources-book-banner" aria-label="Buy the book">
       <div class="container-narrow">
         <div class="sources-book-banner-inner">
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="sources-book-banner-cover">
-            <img
-              src="/assets/img/book-cover-thumb.webp"
-              alt="Cover of Origins of Coronavirus"
-              width="40" height="60" loading="lazy"
-            />
-          </a>
           <div class="sources-book-banner-copy">
             <h2 class="font-display">
               <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
@@ -61,6 +54,13 @@
             </p>
             <div class="sources-banner-cta" data-editions data-sort="retailer"></div>
           </div>
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="sources-book-banner-cover">
+            <img
+              src="/assets/img/book-cover-thumb.webp"
+              alt="Cover of Origins of Coronavirus"
+              width="40" height="60" loading="lazy"
+            />
+          </a>
         </div>
       </div>
     </aside>
@@ -126,7 +126,7 @@
                 <span class="status">Loading…</span>
               </div>
             </div>
-            <div class="catalog-shelf catalog-shelf-chapters">
+            <div class="catalog-shelf catalog-shelf-chapters" id="sources-chapters">
               <label class="catalog-shelf-title" id="chapters-label" for="chapter-select">Chapters</label>
               <div id="chapter-list" class="catalog-chapter-picker">
                 <select id="chapter-select" class="catalog-chapter-select" aria-label="Select a chapter" disabled>

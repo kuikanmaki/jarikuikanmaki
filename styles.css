@@ -525,6 +525,13 @@ img {
 .origins-page #latest-updates h4 { font-size: 1.125rem; line-height: 1.5; }
 
 /* Compact buy strip under the header — always a single horizontal row */
+/* clip (not hidden) avoids the overflow-x/hidden → overflow-y:auto pairing
+   that creates a nested page scrollbar when dropdowns extend past main. */
+.sources-page,
+.sources-page main {
+  overflow-x: clip;
+  overflow-y: visible;
+}
 .sources-page .sources-book-banner {
   background:
     radial-gradient(120% 180% at 18% -40%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 42%, transparent 68%),
@@ -909,11 +916,9 @@ img {
   white-space: nowrap;
 }
 .sources-page .catalog-chapter-menu {
-  position: absolute;
-  z-index: 30;
-  left: 0;
-  right: 0;
-  top: calc(100% + 0.25rem);
+  /* Fixed via JS while open so the list doesn't extend document overflow. */
+  position: fixed;
+  z-index: 40;
   margin: 0;
   padding: 0.35rem 0;
   list-style: none;
@@ -958,9 +963,34 @@ img {
     display: none;
   }
 }
-/* Single-source entry view: keep banner/intro/search/chapters; hide browse chips. */
-.sources-page.sources-entry-source .catalog-shelf-examples {
+/* Source / chapter entry views: keep banner + page title; hide catalog chrome.
+   Chapter keeps Back to top (long notes); source hides it. */
+.sources-page.sources-entry-source .sources-intro,
+.sources-page.sources-entry-source .sources-search,
+.sources-page.sources-entry-source .catalog-shelves,
+.sources-page.sources-entry-source #back-to-top,
+.sources-page.sources-entry-chapter .sources-intro,
+.sources-page.sources-entry-chapter .sources-search,
+.sources-page.sources-entry-chapter .catalog-shelves {
   display: none;
+}
+.sources-page .source-entry-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+.sources-page .source-entry-nav-link {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: hsl(var(--accent));
+  text-decoration: none;
+}
+.sources-page .source-entry-nav-link:hover,
+.sources-page .source-entry-nav-link:focus-visible {
+  text-decoration: underline;
+  outline: none;
 }
 .sources-page .catalog-explore {
   display: flex;
@@ -1030,6 +1060,16 @@ img {
 .sources-page .sources-heading-count {
   font-weight: 500;
   color: hsl(var(--muted-foreground));
+}
+.sources-page .sources-heading-chapter {
+  color: hsl(var(--accent));
+  text-decoration: none;
+  font-weight: 600;
+}
+.sources-page .sources-heading-chapter:hover,
+.sources-page .sources-heading-chapter:focus-visible {
+  text-decoration: underline;
+  outline: none;
 }
 .sources-page .catalog-empty {
   margin-top: 0.5rem;
