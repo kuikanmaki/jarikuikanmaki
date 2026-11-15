@@ -39,6 +39,8 @@
   var view = {
     mode: "idle", // idle | chapter | keyword | explore | source
     chapter: null,
+    // true = stripped chapter permalink entry; false = in-page filter via Chapters selector
+    chapterEntry: false,
     keyword: null,
     sourceKey: null,
     page: 1,
@@ -502,7 +504,9 @@
     }
     pagerEl.hidden = true;
     pagerEl.innerHTML = "";
-    outEl.innerHTML = renderChapterSourceList(rows) + renderEntryNav();
+    outEl.innerHTML =
+      renderChapterSourceList(rows) +
+      (view.chapterEntry ? renderEntryNav() : "");
     return loadNotes(view.chapter);
   }
 
@@ -631,7 +635,11 @@
       return { mode: "source", source: view.sourceKey };
     }
     if (view.mode === "chapter" && view.chapter != null) {
-      return { mode: "chapter", chapter: view.chapter };
+      return {
+        mode: "chapter",
+        chapter: view.chapter,
+        entry: !!view.chapterEntry,
+      };
     }
     if ((view.mode === "keyword" || view.mode === "explore") && view.keyword && view.keyword.id) {
       return { mode: view.mode, keyword: view.keyword.id };
@@ -674,7 +682,8 @@
     var chapterRaw = params.get("chapter");
     if (chapterRaw != null && chapterRaw !== "") {
       var chapter = Number(chapterRaw);
-      if (!Number.isNaN(chapter)) return { mode: "chapter", chapter: chapter };
+      // Cold URL loads use the stripped chapter entry; in-page selector sets entry:false in history.
+      if (!Number.isNaN(chapter)) return { mode: "chapter", chapter: chapter, entry: true };
     }
     var keyword = params.get("keyword");
     if (keyword) {
@@ -706,7 +715,10 @@
         }
       }
       if (state.mode === "chapter" && state.chapter != null && !Number.isNaN(Number(state.chapter))) {
-        openChapter(Number(state.chapter), navOpts);
+        openChapter(Number(state.chapter), Object.assign({}, navOpts, {
+          // History may set entry:false for Chapters-selector browse; URLs default to entry.
+          entry: state.entry !== false,
+        }));
         return;
       }
       if ((state.mode === "keyword" || state.mode === "explore") && state.keyword && searchIndex) {
@@ -725,15 +737,20 @@
   }
 
   function syncEntryLayout() {
-    // Source/chapter entry: keep banner + page title; hide intro/search/shelves.
+    // Source entry + chapter permalink entry: keep banner + page title; hide intro/search/shelves.
+    // Chapters selector browse stays on the main catalog page (chapterEntry false).
     document.body.classList.toggle("sources-entry-source", view.mode === "source");
-    document.body.classList.toggle("sources-entry-chapter", view.mode === "chapter");
+    document.body.classList.toggle(
+      "sources-entry-chapter",
+      view.mode === "chapter" && !!view.chapterEntry
+    );
   }
 
   function showIdle(opts) {
     opts = opts || {};
     view.mode = "idle";
     view.chapter = null;
+    view.chapterEntry = false;
     view.keyword = null;
     view.sourceKey = null;
     view.page = 1;
@@ -765,6 +782,8 @@
     opts = opts || {};
     view.mode = "chapter";
     view.chapter = number;
+    // Default: in-page Chapters selector (chrome stays). Pass entry:true for permalinks.
+    view.chapterEntry = !!opts.entry;
     view.keyword = null;
     view.sourceKey = null;
     view.page = 1;
@@ -777,9 +796,14 @@
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
-    // Chapter entry: stay at the normal page top (banner), not scrolled to the heading.
     if (opts.scroll !== false) {
-      window.scrollTo(0, 0);
+      if (view.chapterEntry) {
+        // Chapter permalink entry: stay at page top.
+        window.scrollTo(0, 0);
+      } else {
+        // Main-page selector: scroll to the chapter results (previous default).
+        headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     }
   }
 
@@ -793,6 +817,8 @@
     view.mode = mode;
     view.keyword = hit;
     view.sourceKey = null;
+    view.chapter = null;
+    view.chapterEntry = false;
     view.page = 1;
     inputEl.value = hit.label;
     hideSuggestions();
@@ -818,6 +844,7 @@
     view.sourceKey = hit.id;
     view.keyword = null;
     view.chapter = null;
+    view.chapterEntry = false;
     view.page = 1;
     // Don't mirror the title into the search field — it already shows on the card.
     inputEl.value = "";
@@ -848,7 +875,7 @@
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     clearExploreActive();
     if (view.chapter != null) {
-      openChapter(view.chapter);
+      openChapter(view.chapter, { entry: view.chapterEntry });
     } else {
       showIdle();
     }
@@ -1214,7 +1241,7 @@
     e.preventDefault();
     var chapter = Number(chapterLink.getAttribute("data-open-chapter"));
     if (Number.isNaN(chapter)) return;
-    openChapter(chapter);
+    openChapter(chapter, { entry: true });
   });
 
   pagerEl.addEventListener("click", function (e) {
