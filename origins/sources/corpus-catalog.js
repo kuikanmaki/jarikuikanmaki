@@ -653,6 +653,35 @@
     return loadNotes(view.chapter);
   }
 
+  function sourceKeyFromHref(href) {
+    if (!href) return "";
+    try {
+      return new URL(href, location.href).searchParams.get("source") || "";
+    } catch (err) {
+      var m = String(href).match(/[?&]source=([^&]+)/);
+      return m ? decodeURIComponent(m[1]) : "";
+    }
+  }
+
+  function enhanceNotesSourceLinks(root) {
+    // Notes HTML stores stable ?source= keys; resolve to external URLs at display time.
+    if (!root || !corpus) return;
+    Array.prototype.forEach.call(root.querySelectorAll('a[href^="?source="]'), function (a) {
+      var key = sourceKeyFromHref(a.getAttribute("href") || "");
+      if (!key) return;
+      var row = (corpus.sources || []).find(function (s) {
+        return s.source_key === key;
+      });
+      a.setAttribute("data-source-key", key);
+      a.classList.add("notes-source-ref");
+      if (row && row.url) {
+        a.setAttribute("href", row.url);
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener noreferrer");
+      }
+    });
+  }
+
   function loadNotes(chapterNumber) {
     notesEl.hidden = false;
     notesEl.innerHTML = '<p class="status">Loading notes…</p>';
@@ -667,6 +696,7 @@
           '<hr class="notes-divider">' +
           html +
           (view.chapterEntry ? renderEntryNav() : "");
+        enhanceNotesSourceLinks(notesEl);
         // Notes inject can nudge scroll; keep Chapters pinned for in-page browse.
         if (view.mode === "chapter" && !view.chapterEntry) pinChaptersShelf();
         return true;
@@ -1484,37 +1514,58 @@
     if (media) media.remove();
   }, true);
 
-  // Desktop: hover a chapter bibliography link → compact catalog-card preview.
-  outEl.addEventListener("mouseover", function (e) {
-    if (!isDesktopSourcePreview()) return;
-    var link = e.target.closest(".sources-list .source-ref a");
-    if (!link || !outEl.contains(link)) return;
+  function sourcePreviewLinkFromEvent(e, root) {
+    if (!root) return null;
+    var notesLink = e.target.closest("a.notes-source-ref[data-source-key]");
+    if (notesLink && root.contains(notesLink)) return notesLink;
+    var bibLink = e.target.closest(".sources-list .source-ref a");
+    if (bibLink && root.contains(bibLink)) return bibLink;
+    return null;
+  }
+
+  function sourcePreviewKeyFromLink(link) {
+    if (!link) return "";
+    var key = link.getAttribute("data-source-key");
+    if (key) return key;
     var item = link.closest(".source-item");
-    var key = item && item.getAttribute("data-source-key");
-    if (!key) return;
-    rememberSourcePreviewPointer(e);
-    if (sourcePreviewHideTimer) {
-      clearTimeout(sourcePreviewHideTimer);
-      sourcePreviewHideTimer = null;
-    }
-    scheduleShowSourcePreview(link, key);
-  });
-  outEl.addEventListener("mousemove", function (e) {
-    if (!isDesktopSourcePreview()) return;
-    var link = e.target.closest(".sources-list .source-ref a");
-    if (!link || !outEl.contains(link)) return;
-    rememberSourcePreviewPointer(e);
-  });
-  outEl.addEventListener("mouseout", function (e) {
-    if (!isDesktopSourcePreview()) return;
-    var link = e.target.closest(".sources-list .source-ref a");
-    if (!link || !outEl.contains(link)) return;
-    var related = e.relatedTarget;
-    if (related && (link.contains(related) || (sourcePreviewEl && sourcePreviewEl.contains(related)))) {
-      return;
-    }
-    scheduleHideSourcePreview();
-  });
+    return (item && item.getAttribute("data-source-key")) || "";
+  }
+
+  function bindSourcePreviewRoot(root) {
+    if (!root) return;
+    root.addEventListener("mouseover", function (e) {
+      if (!isDesktopSourcePreview()) return;
+      var link = sourcePreviewLinkFromEvent(e, root);
+      var key = sourcePreviewKeyFromLink(link);
+      if (!link || !key) return;
+      rememberSourcePreviewPointer(e);
+      if (sourcePreviewHideTimer) {
+        clearTimeout(sourcePreviewHideTimer);
+        sourcePreviewHideTimer = null;
+      }
+      scheduleShowSourcePreview(link, key);
+    });
+    root.addEventListener("mousemove", function (e) {
+      if (!isDesktopSourcePreview()) return;
+      var link = sourcePreviewLinkFromEvent(e, root);
+      if (!link) return;
+      rememberSourcePreviewPointer(e);
+    });
+    root.addEventListener("mouseout", function (e) {
+      if (!isDesktopSourcePreview()) return;
+      var link = sourcePreviewLinkFromEvent(e, root);
+      if (!link) return;
+      var related = e.relatedTarget;
+      if (related && (link.contains(related) || (sourcePreviewEl && sourcePreviewEl.contains(related)))) {
+        return;
+      }
+      scheduleHideSourcePreview();
+    });
+  }
+
+  // Desktop: bibliography + notes source cites → compact catalog-card preview.
+  bindSourcePreviewRoot(outEl);
+  bindSourcePreviewRoot(notesEl);
 
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") hideSourcePreview();
@@ -1536,7 +1587,8 @@
       sourcePreviewEl &&
       !sourcePreviewEl.hidden &&
       !e.target.closest("#source-hover-preview") &&
-      !e.target.closest(".sources-list .source-ref a")
+      !e.target.closest(".sources-list .source-ref a") &&
+      !e.target.closest("a.notes-source-ref")
     ) {
       hideSourcePreview();
     }
