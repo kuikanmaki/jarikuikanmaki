@@ -1351,6 +1351,12 @@ img {
 .source-hover-preview .catalog-card--preview:hover {
   border-color: transparent;
 }
+/* Preview: thumbnail beside title only; summary/topics use full card width. */
+.source-hover-preview .catalog-card-layout--media {
+  grid-template-areas:
+    "title media"
+    "rest rest";
+}
 @media (max-width: 639px) {
   .source-hover-preview {
     display: none !important;
