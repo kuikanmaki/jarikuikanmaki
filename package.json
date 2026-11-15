@@ -1,0 +1,13 @@
+{
+  "name": "jarikuikanmaki",
+  "private": true,
+  "description": "Personal site — local tooling only",
+  "scripts": {
+    "test": "playwright test",
+    "test:sources": "playwright test e2e/sources-catalog.spec.js",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}

@@ -4,6 +4,13 @@
 __pycache__/
 *.pyc
 
+# Local Node / Playwright smoke tests
+node_modules/
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
 # Scraped source copies — kept locally for corpus work; not published
 origins/sources/data/extended/artifacts/
 

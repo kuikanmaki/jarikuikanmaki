@@ -1,0 +1,162 @@
+// @ts-check
+const { test, expect } = require("@playwright/test");
+
+const SOURCES = "/origins/sources/";
+
+async function waitForCatalog(page) {
+  await page.goto(SOURCES);
+  await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
+}
+
+function isMobile(projectName) {
+  return projectName === "mobile";
+}
+
+test.describe("Sources catalog smoke", () => {
+  test("idle catalog chrome is ready", async ({ page }, testInfo) => {
+    await waitForCatalog(page);
+
+    await expect(page.locator(".sources-intro")).toBeVisible();
+    await expect(page.locator("#sources-search")).toBeVisible();
+    await expect(page.locator("#catalog-shelves")).toBeVisible();
+    await expect(page.locator("body")).not.toHaveClass(/sources-entry-source/);
+    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
+
+    if (isMobile(testInfo.project.name)) {
+      await expect(page.locator("#authority-search-input")).toHaveAttribute(
+        "placeholder",
+        "Search…"
+      );
+      await expect(page.locator("#chapter-select")).toBeVisible();
+      await expect(page.locator(".catalog-chapter-custom")).toBeHidden();
+      await expect(page.locator(".catalog-shelf-examples")).toBeHidden();
+    } else {
+      await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
+      await expect(page.locator("#chapter-select")).toBeHidden();
+      await expect(page.locator(".catalog-shelf-examples")).toBeVisible();
+    }
+  });
+
+  test("Chapters selector browses in-page without ?chapter= and without entry chrome", async ({
+    page,
+  }, testInfo) => {
+    await waitForCatalog(page);
+
+    if (isMobile(testInfo.project.name)) {
+      await page.locator("#chapter-select").selectOption("5");
+    } else {
+      await page.locator("#chapter-custom-trigger").click();
+      await expect(page.locator("#chapter-custom-list")).toBeVisible();
+      // In-flow menu sits below the trigger (not flipped above).
+      // Playwright boundingBox uses x/y/width/height (not top/bottom).
+      const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
+      const menuBox = await page.locator("#chapter-custom-list").boundingBox();
+      expect(triggerBox).toBeTruthy();
+      expect(menuBox).toBeTruthy();
+      expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
+      await page.locator('#chapter-custom-list [data-value="5"]').click();
+    }
+
+    await expect(page.locator("#sources-heading")).toBeVisible();
+    await expect(page.locator("#sources-heading")).toContainText(/Pangolin/i);
+    await expect(page.locator("#sources-output .source-item").first()).toBeVisible();
+    await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
+
+    // In-page browse: chrome stays; URL stays clean (no ?chapter=).
+    await expect(page.locator(".sources-intro")).toBeVisible();
+    await expect(page.locator("#catalog-shelves")).toBeVisible();
+    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
+    await expect(page).toHaveURL(/\/origins\/sources\/?$/);
+    expect(new URL(page.url()).search).toBe("");
+  });
+
+  test("?chapter=N loads stripped chapter entry; exit links restore idle", async ({
+    page,
+  }, testInfo) => {
+    await page.goto(`${SOURCES}?chapter=12`);
+    await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
+
+    await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
+    await expect(page.locator(".sources-intro")).toBeHidden();
+    await expect(page.locator("#sources-search")).toBeHidden();
+    await expect(page.locator("#catalog-shelves")).toBeHidden();
+    await expect(page.locator("#sources-heading")).toContainText(/Chapter 12/i);
+    await expect(page.locator("#sources-output .source-item").first()).toBeVisible();
+    await expect(page.locator('[data-source-exit="search"]')).toBeVisible();
+    await expect(page.locator('[data-source-exit="chapters"]')).toBeVisible();
+    await expect(page.locator("#back-to-top")).toBeVisible();
+
+    // Browse by chapter: focus only (closed control), idle chrome back near page top.
+    await page.locator('[data-source-exit="chapters"]').click({ force: true });
+    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
+    await expect(page.locator("#catalog-shelves")).toBeVisible();
+    await expect(page).toHaveURL(/\/origins\/sources\/?$/);
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(40);
+
+    if (isMobile(testInfo.project.name)) {
+      await expect(page.locator("#chapter-select")).toBeFocused();
+      await expect(page.locator(".catalog-chapter-custom")).toBeHidden();
+    } else {
+      await expect(page.locator("#chapter-custom-trigger")).toBeFocused();
+      await expect(page.locator("#chapter-custom-list")).toBeHidden();
+    }
+
+    // Return to chapter entry, then Search all sources.
+    await page.goto(`${SOURCES}?chapter=12`);
+    await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
+    await page.locator('[data-source-exit="search"]').click({ force: true });
+    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
+    await expect(page.locator("#sources-search")).toBeVisible();
+    await expect(page.locator("#authority-search-input")).toBeFocused();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(40);
+  });
+
+  test("?source= loads stripped source entry; chapter link and history back work", async ({
+    page,
+  }) => {
+    await waitForCatalog(page);
+    // Resolve a real source_key from the corpus so the test stays data-driven.
+    const sample = await page.evaluate(async () => {
+      const corpus = await fetch("/origins/sources/data/corpus-index.json").then((r) =>
+        r.json()
+      );
+      const row = (corpus.sources || []).find((s) => s.source_key && s.chapter != null);
+      return row && { key: row.source_key, chapter: row.chapter };
+    });
+    expect(sample && sample.key).toBeTruthy();
+
+    await page.goto(`${SOURCES}?source=${encodeURIComponent(sample.key)}`);
+    await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
+
+    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator(".sources-intro")).toBeHidden();
+    await expect(page.locator("#catalog-shelves")).toBeHidden();
+    await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
+    await expect(page.locator("#sources-heading [data-open-chapter]")).toBeVisible();
+    await expect(page.locator("#back-to-top")).toBeHidden();
+
+    await page.locator("#sources-heading [data-open-chapter]").click();
+    await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
+    await expect(page).toHaveURL(new RegExp(`[?&]chapter=${sample.chapter}\\b`));
+
+    await page.goBack();
+    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page).toHaveURL(new RegExp(`[?&]source=`));
+  });
+
+  test("search suggestion opens keyword results (desktop meta)", async ({ page }, testInfo) => {
+    test.skip(isMobile(testInfo.project.name), "Suggestion density differs on mobile; covered by idle + select paths");
+
+    await waitForCatalog(page);
+    const input = page.locator("#authority-search-input");
+    await input.fill("Shi");
+    const suggestion = page.locator(".sources-search-suggestion").first();
+    await expect(suggestion).toBeVisible();
+    // Catalog uses mousedown (not click) so blur does not race the selection.
+    await suggestion.dispatchEvent("mousedown");
+    await expect(page.locator("#sources-heading")).toBeVisible();
+    await expect(page.locator("#sources-heading")).toContainText(/Shi/i);
+    await expect(page).toHaveURL(/keyword=/);
+    await expect(page.locator("#sources-output .catalog-card").first()).toBeVisible();
+  });
+});
