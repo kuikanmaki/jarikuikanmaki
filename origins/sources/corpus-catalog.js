@@ -52,6 +52,8 @@
   var sourcePreviewShowTimer = null;
   var sourcePreviewHideTimer = null;
   var sourcePreviewKey = null;
+  // Last pointer position over a bibliography link (viewport coords).
+  var sourcePreviewPointer = { x: 0, y: 0, hasPoint: false };
   var SOURCE_PREVIEW_SHOW_MS = 380;
   var SOURCE_PREVIEW_HIDE_MS = 180;
 
@@ -377,6 +379,7 @@
   function hideSourcePreview() {
     clearSourcePreviewTimers();
     sourcePreviewKey = null;
+    sourcePreviewPointer.hasPoint = false;
     if (!sourcePreviewEl) return;
     sourcePreviewEl.hidden = true;
     sourcePreviewEl.innerHTML = "";
@@ -403,23 +406,43 @@
     return sourcePreviewEl;
   }
 
+  function rememberSourcePreviewPointer(e) {
+    if (!e) return;
+    sourcePreviewPointer.x = e.clientX;
+    sourcePreviewPointer.y = e.clientY;
+    sourcePreviewPointer.hasPoint = true;
+  }
+
   function positionSourcePreview(anchorEl) {
-    if (!sourcePreviewEl || !anchorEl) return;
-    var gap = 10;
+    if (!sourcePreviewEl) return;
+    var gapX = 14;
+    var gapY = 18;
     var pad = 12;
-    var rect = anchorEl.getBoundingClientRect();
     var pop = sourcePreviewEl.getBoundingClientRect();
     var vw = window.innerWidth;
     var vh = window.innerHeight;
-    var left = rect.left;
-    var top = rect.bottom + gap;
-    if (left + pop.width > vw - pad) left = Math.max(pad, vw - pad - pop.width);
-    if (left < pad) left = pad;
-    if (top + pop.height > vh - pad && rect.top - gap - pop.height >= pad) {
-      top = rect.top - gap - pop.height;
-    } else if (top + pop.height > vh - pad) {
-      top = Math.max(pad, vh - pad - pop.height);
+    var px;
+    var py;
+    if (sourcePreviewPointer.hasPoint) {
+      px = sourcePreviewPointer.x;
+      py = sourcePreviewPointer.y;
+    } else if (anchorEl) {
+      // Fallback if we somehow lack a pointer sample (keyboard / synthetic).
+      var rect = anchorEl.getBoundingClientRect();
+      px = rect.left + Math.min(24, rect.width / 2);
+      py = rect.top + rect.height / 2;
+    } else {
+      return;
     }
+    // Prefer below-right of the cursor so the pointer isn't covering the card.
+    var left = px + gapX;
+    var top = py + gapY;
+    if (left + pop.width > vw - pad) left = px - gapX - pop.width;
+    if (left < pad) left = pad;
+    if (left + pop.width > vw - pad) left = Math.max(pad, vw - pad - pop.width);
+    if (top + pop.height > vh - pad) top = py - gapY - pop.height;
+    if (top < pad) top = pad;
+    if (top + pop.height > vh - pad) top = Math.max(pad, vh - pad - pop.height);
     sourcePreviewEl.style.left = Math.round(left) + "px";
     sourcePreviewEl.style.top = Math.round(top) + "px";
   }
@@ -435,7 +458,7 @@
     el.innerHTML = renderCard(row, { preview: true });
     el.hidden = false;
     el.removeAttribute("aria-hidden");
-    // Measure then place (and again after images may load).
+    // Place from the latest pointer sample; remeasure after layout.
     positionSourcePreview(anchorEl);
     requestAnimationFrame(function () {
       positionSourcePreview(anchorEl);
@@ -445,8 +468,8 @@
   function scheduleShowSourcePreview(anchorEl, sourceKey) {
     if (!isDesktopSourcePreview()) return;
     clearSourcePreviewTimers();
+    // Same card already open: leave it put so it doesn't run away from the cursor.
     if (sourcePreviewKey === sourceKey && sourcePreviewEl && !sourcePreviewEl.hidden) {
-      positionSourcePreview(anchorEl);
       return;
     }
     sourcePreviewShowTimer = setTimeout(function () {
@@ -1469,11 +1492,18 @@
     var item = link.closest(".source-item");
     var key = item && item.getAttribute("data-source-key");
     if (!key) return;
+    rememberSourcePreviewPointer(e);
     if (sourcePreviewHideTimer) {
       clearTimeout(sourcePreviewHideTimer);
       sourcePreviewHideTimer = null;
     }
     scheduleShowSourcePreview(link, key);
+  });
+  outEl.addEventListener("mousemove", function (e) {
+    if (!isDesktopSourcePreview()) return;
+    var link = e.target.closest(".sources-list .source-ref a");
+    if (!link || !outEl.contains(link)) return;
+    rememberSourcePreviewPointer(e);
   });
   outEl.addEventListener("mouseout", function (e) {
     if (!isDesktopSourcePreview()) return;
