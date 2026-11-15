@@ -43,6 +43,8 @@
     sourceKey: null,
     page: 1,
   };
+  // When true, view changes must not push/replace the URL (popstate / boot restore).
+  var applyingHistory = false;
 
   function escapeHtml(value) {
     if (value === undefined || value === null) return "";
@@ -379,13 +381,22 @@
     syncClearButton();
 
     if (view.mode === "keyword" || view.mode === "explore" || view.mode === "source") {
-      var label =
-        view.mode === "source"
-          ? (rows[0] && rows[0].title) || "Source"
-          : (view.keyword && view.keyword.label) || "Sources";
+      var label;
+      if (view.mode === "source") {
+        // Title appears on the card only; heading is chapter context if known.
+        var sourceRow = rows[0];
+        label =
+          sourceRow && sourceRow.chapter != null
+            ? chapterLabel(sourceRow.chapter)
+            : "Source";
+      } else {
+        label = (view.keyword && view.keyword.label) || "Sources";
+      }
       headingEl.innerHTML =
         '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
-        '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>";
+        (view.mode === "source"
+          ? ""
+          : '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>");
       notesEl.hidden = true;
       notesEl.innerHTML = "";
 
@@ -508,7 +519,112 @@
     });
   }
 
-  function showIdle() {
+  function catalogHistoryState() {
+    if (view.mode === "source" && view.sourceKey) {
+      return { mode: "source", source: view.sourceKey };
+    }
+    if (view.mode === "chapter" && view.chapter != null) {
+      return { mode: "chapter", chapter: view.chapter };
+    }
+    if ((view.mode === "keyword" || view.mode === "explore") && view.keyword && view.keyword.id) {
+      return { mode: view.mode, keyword: view.keyword.id };
+    }
+    return { mode: "idle" };
+  }
+
+  function catalogUrlFromState(state) {
+    var params = new URLSearchParams();
+    if (state.mode === "source" && state.source) {
+      params.set("source", state.source);
+    } else if (state.mode === "chapter" && state.chapter != null && state.chapter !== "") {
+      params.set("chapter", String(state.chapter));
+    } else if ((state.mode === "keyword" || state.mode === "explore") && state.keyword) {
+      params.set("keyword", state.keyword);
+      if (state.mode === "explore") params.set("via", "explore");
+    }
+    var qs = params.toString();
+    return location.pathname + (qs ? "?" + qs : "");
+  }
+
+  function syncCatalogUrl(opts) {
+    opts = opts || {};
+    if (applyingHistory) return;
+    if (!window.history || typeof window.history.pushState !== "function") return;
+    var state = catalogHistoryState();
+    var url = catalogUrlFromState(state);
+    var current = location.pathname + location.search;
+    if (opts.replace || current === url) {
+      history.replaceState(state, "", url);
+    } else {
+      history.pushState(state, "", url);
+    }
+  }
+
+  function parseLocationState() {
+    var params = new URLSearchParams(location.search);
+    var source = params.get("source");
+    if (source) return { mode: "source", source: source };
+    var chapterRaw = params.get("chapter");
+    if (chapterRaw != null && chapterRaw !== "") {
+      var chapter = Number(chapterRaw);
+      if (!Number.isNaN(chapter)) return { mode: "chapter", chapter: chapter };
+    }
+    var keyword = params.get("keyword");
+    if (keyword) {
+      return {
+        mode: params.get("via") === "explore" ? "explore" : "keyword",
+        keyword: keyword,
+      };
+    }
+    return { mode: "idle" };
+  }
+
+  function applyCatalogState(state, opts) {
+    opts = opts || {};
+    state = state || { mode: "idle" };
+    var navOpts = {
+      history: false,
+      scroll: opts.scroll !== false,
+      replace: true,
+    };
+    applyingHistory = true;
+    try {
+      if (state.mode === "source" && state.source && corpus) {
+        var row = (corpus.sources || []).find(function (s) {
+          return s.source_key === state.source;
+        });
+        if (row) {
+          openSource({ id: row.source_key, label: row.title || row.source_key }, navOpts);
+          return;
+        }
+      }
+      if (state.mode === "chapter" && state.chapter != null && !Number.isNaN(Number(state.chapter))) {
+        openChapter(Number(state.chapter), navOpts);
+        return;
+      }
+      if ((state.mode === "keyword" || state.mode === "explore") && state.keyword && searchIndex) {
+        var hit = (searchIndex.keywords || []).find(function (k) {
+          return k.id === state.keyword;
+        });
+        if (hit) {
+          openKeyword(hit, state.mode === "explore" ? "explore" : "keyword", navOpts);
+          return;
+        }
+      }
+      showIdle(navOpts);
+    } finally {
+      applyingHistory = false;
+    }
+  }
+
+  function syncSourceEntryLayout() {
+    // Single-source views are entry points: keep banner/intro/search/chapters,
+    // but hide browse-only chrome (Most cited).
+    document.body.classList.toggle("sources-entry-source", view.mode === "source");
+  }
+
+  function showIdle(opts) {
+    opts = opts || {};
     view.mode = "idle";
     view.chapter = null;
     view.keyword = null;
@@ -528,6 +644,8 @@
     notesEl.innerHTML = "";
     backEl.hidden = true;
     syncClearButton();
+    syncSourceEntryLayout();
+    if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
   }
 
   function dismissMobileKeyboard() {
@@ -536,7 +654,8 @@
     if (inputEl && typeof inputEl.blur === "function") inputEl.blur();
   }
 
-  function openChapter(number) {
+  function openChapter(number, opts) {
+    opts = opts || {};
     view.mode = "chapter";
     view.chapter = number;
     view.keyword = null;
@@ -548,12 +667,22 @@
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     dismissMobileKeyboard();
+    syncSourceEntryLayout();
+    if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
-    headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (opts.scroll !== false) {
+      headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
-  function openKeyword(hit, mode) {
-    view.mode = mode || "keyword";
+  function openKeyword(hit, mode, opts) {
+    if (mode && typeof mode === "object") {
+      opts = mode;
+      mode = "keyword";
+    }
+    opts = opts || {};
+    mode = mode || "keyword";
+    view.mode = mode;
     view.keyword = hit;
     view.sourceKey = null;
     view.page = 1;
@@ -567,24 +696,35 @@
     }
     if (shelvesEl) shelvesEl.classList.add("is-filtered");
     dismissMobileKeyboard();
+    syncSourceEntryLayout();
+    if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
-    headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (opts.scroll !== false) {
+      headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
-  function openSource(hit) {
+  function openSource(hit, opts) {
+    opts = opts || {};
     view.mode = "source";
     view.sourceKey = hit.id;
     view.keyword = null;
     view.chapter = null;
     view.page = 1;
-    inputEl.value = hit.label || "";
+    // Don't mirror the title into the search field — it already shows on the card.
+    inputEl.value = "";
     hideSuggestions();
     clearChapterActive();
     clearExploreActive();
-    if (shelvesEl) shelvesEl.classList.add("is-filtered");
+    // Source permalinks are catalog entry points: keep search + chapters usable.
+    if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     dismissMobileKeyboard();
+    syncSourceEntryLayout();
+    if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
-    headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (opts.scroll !== false) {
+      headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   function openSuggestion(hit) {
@@ -1055,7 +1195,11 @@
       syncSearchPlaceholder();
       renderChapterList(chapterMeta);
       renderExploreShelf();
-      showIdle();
+      showIdle({ history: false });
+      applyCatalogState(parseLocationState(), { scroll: true });
+      if (window.history && typeof window.history.replaceState === "function") {
+        history.replaceState(catalogHistoryState(), "", catalogUrlFromState(catalogHistoryState()));
+      }
     })
     .catch(function (err) {
       console.error(err);
@@ -1064,6 +1208,11 @@
       listEl.innerHTML = '<span class="error">Could not load the sources catalog.</span>';
       outEl.innerHTML = '<p class="error">' + escapeHtml(err.message) + "</p>";
     });
+
+  window.addEventListener("popstate", function (e) {
+    if (!corpus || !searchIndex) return;
+    applyCatalogState(e.state || parseLocationState(), { scroll: true });
+  });
 
   if (window.matchMedia) {
     var desktopMq = window.matchMedia("(min-width: 640px)");

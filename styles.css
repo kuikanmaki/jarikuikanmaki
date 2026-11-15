@@ -958,6 +958,10 @@ img {
     display: none;
   }
 }
+/* Single-source entry view: keep banner/intro/search/chapters; hide browse chips. */
+.sources-page.sources-entry-source .catalog-shelf-examples {
+  display: none;
+}
 .sources-page .catalog-explore {
   display: flex;
   flex-wrap: wrap;
