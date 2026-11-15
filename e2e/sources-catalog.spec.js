@@ -82,12 +82,15 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page.locator("#sources-heading")).toContainText(/Chapter 12/i);
     await expect(page.locator("#sources-output .source-item").first()).toBeVisible();
-    await expect(page.locator('[data-source-exit="search"]')).toBeVisible();
-    await expect(page.locator('[data-source-exit="chapters"]')).toBeVisible();
+    await expect(page.locator("#sources-output [data-source-exit]")).toHaveCount(2);
     await expect(page.locator("#back-to-top")).toBeVisible();
+    // Exit nav is repeated after notes for long chapter pages.
+    await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
+    await expect(page.locator("#catalog-notes [data-source-exit]")).toHaveCount(2);
 
     // Browse by chapter: focus only (closed control), idle chrome back near page top.
-    await page.locator('[data-source-exit="chapters"]').click({ force: true });
+    // Prefer the after-notes copy (covers the long-page exit path).
+    await page.locator("#catalog-notes [data-source-exit=\"chapters\"]").click({ force: true });
     await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
     await expect(page.locator("#catalog-shelves")).toBeVisible();
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
@@ -104,7 +107,7 @@ test.describe("Sources catalog smoke", () => {
     // Return to chapter entry, then Search all sources.
     await page.goto(`${SOURCES}?chapter=12`);
     await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
-    await page.locator('[data-source-exit="search"]').click({ force: true });
+    await page.locator("#catalog-notes [data-source-exit=\"search\"]").click({ force: true });
     await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
     await expect(page.locator("#sources-search")).toBeVisible();
     await expect(page.locator("#authority-search-input")).toBeFocused();
@@ -142,6 +145,20 @@ test.describe("Sources catalog smoke", () => {
     await page.goBack();
     await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
     await expect(page).toHaveURL(new RegExp(`[?&]source=`));
+  });
+
+  test("closed Chapters menu stays out of the accessibility tree (desktop)", async ({
+    page,
+  }, testInfo) => {
+    test.skip(isMobile(testInfo.project.name), "Mobile uses the native select");
+    await waitForCatalog(page);
+    await expect(page.locator("#chapter-custom-list")).toBeHidden();
+    await expect(page.locator("#chapter-custom-list")).toHaveAttribute("aria-hidden", "true");
+    const optionCount = await page.locator('#chapter-custom-list [role="option"]').count();
+    expect(optionCount).toBeGreaterThan(0);
+    // Closed / inert listbox options must not be reachable as roles.
+    await expect(page.getByRole("option", { name: /Pangolins/ })).toHaveCount(0);
+    await expect(page.locator("#chapter-select")).toHaveAttribute("aria-hidden", "true");
   });
 
   test("search suggestion opens keyword results (desktop meta)", async ({ page }, testInfo) => {

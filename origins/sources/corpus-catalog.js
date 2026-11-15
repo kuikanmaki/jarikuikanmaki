@@ -519,12 +519,16 @@
         return res.text();
       })
       .then(function (html) {
-        notesEl.innerHTML = '<hr class="notes-divider">' + html;
+        // Repeat exit nav after notes so long chapter pages still offer a way out.
+        notesEl.innerHTML =
+          '<hr class="notes-divider">' +
+          html +
+          (view.chapterEntry ? renderEntryNav() : "");
         return true;
       })
       .catch(function () {
-        notesEl.innerHTML = "";
-        notesEl.hidden = true;
+        notesEl.innerHTML = view.chapterEntry ? renderEntryNav() : "";
+        notesEl.hidden = !view.chapterEntry;
         return false;
       });
   }
@@ -551,10 +555,47 @@
     });
   }
 
+  function setChapterMenuOpen(open) {
+    if (!chapterMenuEl || !chapterTriggerEl) return;
+    chapterMenuEl.hidden = !open;
+    chapterTriggerEl.setAttribute("aria-expanded", open ? "true" : "false");
+    // Keep closed options out of the accessibility tree (hidden alone is not enough everywhere).
+    if (open) {
+      chapterMenuEl.removeAttribute("aria-hidden");
+      chapterMenuEl.inert = false;
+    } else {
+      chapterMenuEl.setAttribute("aria-hidden", "true");
+      chapterMenuEl.inert = true;
+    }
+  }
+
+  function syncChapterPickerA11y() {
+    var desktop = isDesktopChapterPicker();
+    var customWrap = document.querySelector(".catalog-chapter-custom");
+    if (chapterSelectEl) {
+      if (desktop) {
+        chapterSelectEl.setAttribute("aria-hidden", "true");
+        chapterSelectEl.tabIndex = -1;
+      } else {
+        chapterSelectEl.removeAttribute("aria-hidden");
+        chapterSelectEl.removeAttribute("tabindex");
+      }
+    }
+    if (customWrap) {
+      if (desktop) {
+        customWrap.removeAttribute("aria-hidden");
+        customWrap.inert = false;
+      } else {
+        customWrap.setAttribute("aria-hidden", "true");
+        customWrap.inert = true;
+        setChapterMenuOpen(false);
+      }
+    }
+  }
+
   function closeChapterMenu() {
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
-    chapterMenuEl.hidden = true;
-    chapterTriggerEl.setAttribute("aria-expanded", "false");
+    setChapterMenuOpen(false);
   }
 
   function openChapterMenu(opts) {
@@ -562,8 +603,7 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
-    chapterMenuEl.hidden = false;
-    chapterTriggerEl.setAttribute("aria-expanded", "true");
+    setChapterMenuOpen(true);
     // Do not scrollIntoView a selected option here: that jumps the page so the
     // trigger sits above the viewport and the list looks like it opened above it.
     if (opts.focusOption === false) return;
@@ -719,11 +759,23 @@
   function syncEntryLayout() {
     // Source entry + chapter permalink entry: keep banner + page title; hide intro/search/shelves.
     // Chapters selector browse stays on the main catalog page (chapterEntry false).
-    document.body.classList.toggle("sources-entry-source", view.mode === "source");
-    document.body.classList.toggle(
-      "sources-entry-chapter",
-      view.mode === "chapter" && !!view.chapterEntry
-    );
+    var isSourceEntry = view.mode === "source";
+    var isChapterEntry = view.mode === "chapter" && !!view.chapterEntry;
+    document.body.classList.toggle("sources-entry-source", isSourceEntry);
+    document.body.classList.toggle("sources-entry-chapter", isChapterEntry);
+    // Match visual hide for AT: display:none chrome should also be inert / aria-hidden.
+    var hideChrome = isSourceEntry || isChapterEntry;
+    var intro = document.querySelector(".sources-intro");
+    [intro, document.getElementById("sources-search"), shelvesEl].forEach(function (el) {
+      if (!el) return;
+      if (hideChrome) {
+        el.setAttribute("aria-hidden", "true");
+        el.inert = true;
+      } else {
+        el.removeAttribute("aria-hidden");
+        el.inert = false;
+      }
+    });
   }
 
   function showIdle(opts) {
@@ -1105,23 +1157,15 @@
     openChapter(Number(raw));
   }
 
-  function scrollChapterPickerIntoView() {
-    if (!window.matchMedia("(min-width: 640px)").matches) return;
-    if (!listEl || typeof listEl.scrollIntoView !== "function") return;
-    listEl.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-
   if (chapterTriggerEl && chapterMenuEl) {
     chapterTriggerEl.addEventListener("click", function (e) {
       e.preventDefault();
-      scrollChapterPickerIntoView();
       // Mouse open: keep focus on the trigger so the menu isn't dismissed mid-click.
       toggleChapterMenu({ focusOption: false });
     });
     chapterTriggerEl.addEventListener("keydown", function (e) {
       if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
         e.preventDefault();
-        scrollChapterPickerIntoView();
         openChapterMenu({ focusOption: true });
       } else if (e.key === "Escape") {
         closeChapterMenu();
@@ -1225,18 +1269,23 @@
     headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
+  function onCatalogClick(e) {
+    var exitLink = e.target.closest("[data-source-exit]");
+    if (exitLink) {
+      e.preventDefault();
+      exitEntryTo(exitLink.getAttribute("data-source-exit"));
+      return true;
+    }
+    return false;
+  }
+
   outEl.addEventListener("click", function (e) {
     if (e.target.closest(".catalog-empty-clear")) {
       e.preventDefault();
       clearKeywordFilter();
       return;
     }
-    var exitLink = e.target.closest("[data-source-exit]");
-    if (exitLink) {
-      e.preventDefault();
-      exitEntryTo(exitLink.getAttribute("data-source-exit"));
-      return;
-    }
+    if (onCatalogClick(e)) return;
     var btn = e.target.closest(".source-expand-btn");
     if (!btn) return;
     e.preventDefault();
@@ -1250,6 +1299,10 @@
     item.classList.toggle("is-expanded", !open);
     btn.title = open ? "Show source details" : "Hide source details";
     if (!open) ensureTwitterWidgets(detail);
+  });
+
+  notesEl.addEventListener("click", function (e) {
+    onCatalogClick(e);
   });
 
   outEl.addEventListener("error", function (e) {
@@ -1324,6 +1377,7 @@
       inputEl.disabled = false;
       syncSearchPlaceholder();
       renderChapterList(chapterMeta);
+      syncChapterPickerA11y();
       renderExploreShelf();
       // Read hash before replaceState (catalog URLs omit the fragment).
       var hashFocus = catalogFocusFromHash();
@@ -1357,6 +1411,7 @@
     function onDesktopMqChange() {
       syncSearchPlaceholder();
       closeChapterMenu();
+      syncChapterPickerA11y();
     }
     if (typeof desktopMq.addEventListener === "function") {
       desktopMq.addEventListener("change", onDesktopMqChange);
