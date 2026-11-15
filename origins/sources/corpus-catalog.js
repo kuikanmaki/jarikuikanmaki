@@ -644,6 +644,8 @@
           '<hr class="notes-divider">' +
           html +
           (view.chapterEntry ? renderEntryNav() : "");
+        // Notes inject can nudge scroll; keep Chapters pinned for in-page browse.
+        if (view.mode === "chapter" && !view.chapterEntry) pinChaptersShelf();
         return true;
       })
       .catch(function () {
@@ -718,12 +720,29 @@
     setChapterMenuOpen(false);
   }
 
+  function scrollChaptersLabelIntoView() {
+    // Desktop: pin the "Chapters" shelf at the top (below the sticky header).
+    if (!isDesktopChapterPicker()) return;
+    var target =
+      document.getElementById("sources-chapters") ||
+      document.getElementById("chapters-label");
+    if (!target) return;
+    var header = document.querySelector(".site-header");
+    var headerH = header ? header.getBoundingClientRect().height : 0;
+    var gap = 8;
+    var top = target.getBoundingClientRect().top + window.scrollY - headerH - gap;
+    window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
+  }
+
   function openChapterMenu(opts) {
     opts = opts || {};
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
     setChapterMenuOpen(true);
+    if (opts.pinChapters !== false) {
+      pinChaptersShelf();
+    }
     // Do not scrollIntoView a selected option here: that jumps the page so the
     // trigger sits above the viewport and the list looks like it opened above it.
     if (opts.focusOption === false) return;
@@ -954,10 +973,18 @@
         // Chapter permalink entry: stay at page top.
         window.scrollTo(0, 0);
       } else {
-        // Main-page selector: scroll to the chapter results (previous default).
-        headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        // In-page selector: re-pin Chapters after layout (menu close + new results).
+        pinChaptersShelf();
       }
     }
+  }
+
+  function pinChaptersShelf() {
+    // Re-run after layout settles — closing the in-flow menu can adjust scrollY.
+    requestAnimationFrame(function () {
+      scrollChaptersLabelIntoView();
+      requestAnimationFrame(scrollChaptersLabelIntoView);
+    });
   }
 
   function openKeyword(hit, mode, opts) {
@@ -1282,6 +1309,7 @@
     chapterTriggerEl.addEventListener("click", function (e) {
       e.preventDefault();
       // Mouse open: keep focus on the trigger so the menu isn't dismissed mid-click.
+      // openChapterMenu pins the Chapters label after the list expands.
       toggleChapterMenu({ focusOption: false });
     });
     chapterTriggerEl.addEventListener("keydown", function (e) {
@@ -1571,8 +1599,42 @@
 
   window.addEventListener("popstate", function (e) {
     if (!corpus || !searchIndex) return;
-    applyCatalogState(e.state || parseLocationState(), { scroll: true });
+    // Same-document fragment navigations (e.g. legacy #sources-top) can fire
+    // popstate with null state while pathname/search still look like idle.
+    // Don't wipe an active in-page chapter/keyword/source view.
+    if (e.state == null) {
+      var parsed = parseLocationState();
+      if (parsed.mode === "idle" && view.mode !== "idle") {
+        if (typeof history.replaceState === "function") {
+          history.replaceState(
+            catalogHistoryState(),
+            "",
+            catalogUrlFromState(catalogHistoryState())
+          );
+        }
+        return;
+      }
+      applyCatalogState(parsed, { scroll: true });
+      return;
+    }
+    applyCatalogState(e.state, { scroll: true });
   });
+
+  // Back to Top: scroll without a hash navigation. Fragment links fire popstate
+  // with null state after History API use and would otherwise clear the view.
+  if (backEl) {
+    backEl.addEventListener("click", function (e) {
+      var link = e.target.closest('a[href="#sources-top"]');
+      if (!link || !backEl.contains(link)) return;
+      e.preventDefault();
+      var top = document.getElementById("sources-top");
+      if (top && typeof top.scrollIntoView === "function") {
+        top.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    });
+  }
 
   if (window.matchMedia) {
     var desktopMq = window.matchMedia("(min-width: 640px)");

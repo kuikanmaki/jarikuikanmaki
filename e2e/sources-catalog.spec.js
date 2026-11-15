@@ -47,14 +47,25 @@ test.describe("Sources catalog smoke", () => {
     } else {
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
+      // Opening the picker pins "Chapters" near the top of the viewport.
+      await expect
+        .poll(async () =>
+          page.locator("#chapters-label").evaluate((el) => el.getBoundingClientRect().top)
+        )
+        .toBeLessThan(100);
       // In-flow menu sits below the trigger (not flipped above).
-      // Playwright boundingBox uses x/y/width/height (not top/bottom).
       const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
       const menuBox = await page.locator("#chapter-custom-list").boundingBox();
       expect(triggerBox).toBeTruthy();
       expect(menuBox).toBeTruthy();
       expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
       await page.locator('#chapter-custom-list [data-value="5"]').click();
+      // Selecting a chapter re-pins Chapters at the top.
+      await expect
+        .poll(async () =>
+          page.locator("#chapters-label").evaluate((el) => el.getBoundingClientRect().top)
+        )
+        .toBeLessThan(100);
     }
 
     await expect(page.locator("#sources-heading")).toBeVisible();
@@ -68,6 +79,55 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
     expect(new URL(page.url()).search).toBe("");
+
+    // After scrolling away, picking another chapter should pin Chapters again.
+    if (!isMobile(testInfo.project.name)) {
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      await page.locator("#chapter-custom-trigger").click();
+      await expect(page.locator("#chapter-custom-list")).toBeVisible();
+      await page.locator('#chapter-custom-list [data-value="7"]').click();
+      await expect(page.locator("#sources-heading")).toContainText(/Everything Is Under Control/i);
+      await expect
+        .poll(async () =>
+          page.locator("#chapters-label").evaluate((el) => el.getBoundingClientRect().top)
+        )
+        .toBeLessThan(100);
+    }
+  });
+
+  test("Back to Top keeps in-page chapter selection", async ({ page }, testInfo) => {
+    await waitForCatalog(page);
+
+    if (isMobile(testInfo.project.name)) {
+      await page.locator("#chapter-select").selectOption("12");
+    } else {
+      await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
+      await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
+      await page.locator("#chapter-custom-trigger").click();
+      await expect(page.locator("#chapter-custom-list")).toBeVisible();
+      await page.locator('#chapter-custom-list [data-value="12"]').click();
+    }
+
+    await expect(page.locator("#sources-heading")).toBeVisible();
+    await expect(page.locator("#sources-heading")).toContainText(/Chapter 12|Wuhan/i);
+    await expect(page.locator("#back-to-top")).toBeVisible();
+    await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
+
+    await page.locator("#back-to-top a").click();
+
+    // Must not clear the chapter filter (hash navigation used to fire idle via popstate).
+    await expect(page.locator("#sources-heading")).toBeVisible();
+    await expect(page.locator("#sources-heading")).toContainText(/Chapter 12|Wuhan/i);
+    await expect(page.locator("#sources-output .source-item").first()).toBeVisible();
+    await expect(page.locator("#back-to-top")).toBeVisible();
+    await expect(page).toHaveURL(/\/origins\/sources\/?$/);
+    expect(new URL(page.url()).hash).toBe("");
+
+    if (isMobile(testInfo.project.name)) {
+      await expect(page.locator("#chapter-select")).toHaveValue("12");
+    } else {
+      await expect(page.locator("#chapter-custom-trigger-label")).toContainText(/12\./);
+    }
   });
 
   test("?chapter=N loads stripped chapter entry; exit links restore idle", async ({

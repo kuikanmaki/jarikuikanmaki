@@ -840,6 +840,11 @@ img {
   text-transform: uppercase;
   color: hsl(var(--muted-foreground));
 }
+.sources-page #sources-chapters,
+.sources-page #chapters-label {
+  /* Clear the sticky site header when pinning Chapters on picker open. */
+  scroll-margin-top: 4.5rem;
+}
 .sources-page .catalog-shelf #chapter-list,
 .sources-page .catalog-chapter-picker {
   position: relative;
