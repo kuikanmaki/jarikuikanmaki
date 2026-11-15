@@ -551,42 +551,10 @@
     });
   }
 
-  function clearChapterMenuPosition() {
-    if (!chapterMenuEl) return;
-    chapterMenuEl.style.left = "";
-    chapterMenuEl.style.width = "";
-    chapterMenuEl.style.top = "";
-    chapterMenuEl.style.bottom = "";
-    chapterMenuEl.style.maxHeight = "";
-  }
-
-  function positionChapterMenu() {
-    if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
-    var rect = chapterTriggerEl.getBoundingClientRect();
-    var gap = 4;
-    var maxH = Math.min(22 * 16, window.innerHeight * 0.55);
-    var spaceBelow = window.innerHeight - rect.bottom - gap;
-    var spaceAbove = rect.top - gap;
-    chapterMenuEl.style.left = Math.max(0, rect.left) + "px";
-    chapterMenuEl.style.width = rect.width + "px";
-    if (spaceBelow < Math.min(maxH, 12 * 16) && spaceAbove > spaceBelow) {
-      var heightUp = Math.max(8 * 16, Math.min(maxH, spaceAbove));
-      chapterMenuEl.style.top = "auto";
-      chapterMenuEl.style.bottom = window.innerHeight - rect.top + gap + "px";
-      chapterMenuEl.style.maxHeight = heightUp + "px";
-    } else {
-      var heightDown = Math.max(8 * 16, Math.min(maxH, spaceBelow));
-      chapterMenuEl.style.bottom = "auto";
-      chapterMenuEl.style.top = rect.bottom + gap + "px";
-      chapterMenuEl.style.maxHeight = heightDown + "px";
-    }
-  }
-
   function closeChapterMenu() {
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     chapterMenuEl.hidden = true;
     chapterTriggerEl.setAttribute("aria-expanded", "false");
-    clearChapterMenuPosition();
   }
 
   function openChapterMenu(opts) {
@@ -596,13 +564,10 @@
     hideSuggestions();
     chapterMenuEl.hidden = false;
     chapterTriggerEl.setAttribute("aria-expanded", "true");
-    positionChapterMenu();
-    // Hidden menus keep scrollTop; reset for idle, or reveal the selected chapter.
+    // In-flow menu: grow the picker; optionally bring the selected chapter into view via page scroll.
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var selectedValue = selected ? selected.getAttribute("data-value") : "";
-    if (!selectedValue) {
-      chapterMenuEl.scrollTop = 0;
-    } else if (selected && typeof selected.scrollIntoView === "function") {
+    if (selectedValue && selected && typeof selected.scrollIntoView === "function") {
       selected.scrollIntoView({ block: "nearest" });
     }
     if (opts.focusOption === false) return;
@@ -1183,16 +1148,6 @@
       if (chapterMenuEl.contains(e.target)) return;
       closeChapterMenu();
     });
-    window.addEventListener("resize", function () {
-      if (!chapterMenuEl.hidden) positionChapterMenu();
-    });
-    window.addEventListener(
-      "scroll",
-      function () {
-        if (!chapterMenuEl.hidden) positionChapterMenu();
-      },
-      true
-    );
   }
 
   inputEl.addEventListener("input", function () {

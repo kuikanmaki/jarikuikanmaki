@@ -916,15 +916,15 @@ img {
   white-space: nowrap;
 }
 .sources-page .catalog-chapter-menu {
-  /* Fixed via JS while open so the list doesn't extend document overflow. */
-  position: fixed;
-  z-index: 40;
-  margin: 0;
+  /* In-flow list: picker grows with the open menu; page scroll is the only scrollbar. */
+  position: static;
+  z-index: auto;
+  width: 100%;
+  margin: 0.25rem 0 0;
   padding: 0.35rem 0;
   list-style: none;
-  max-height: min(22rem, 55dvh);
-  overflow: auto;
-  overscroll-behavior: contain;
+  max-height: none;
+  overflow: visible;
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius);
   background: hsl(var(--card));
