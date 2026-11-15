@@ -406,10 +406,9 @@
       return;
     }
     if (target !== "chapters") return;
-    // Desktop: open the custom chapter menu; mobile: focus the native select.
+    // Focus only — do not auto-open the list (avoids below-fold / scroll confusion).
     if (isDesktopChapterPicker()) {
       focusWithoutScroll(chapterTriggerEl);
-      openChapterMenu({ focusOption: false });
       return;
     }
     focusWithoutScroll(chapterSelectEl);
@@ -417,10 +416,11 @@
 
   function exitEntryTo(target) {
     showIdle();
-    // Keep page top; activate search/chapters without scroll-into-view from focus().
+    // Stay at page top; activate search/chapters without scroll-into-view from focus().
     window.scrollTo(0, 0);
     requestAnimationFrame(function () {
       activateCatalogTarget(target);
+      window.scrollTo(0, 0);
     });
   }
 
@@ -564,15 +564,12 @@
     hideSuggestions();
     chapterMenuEl.hidden = false;
     chapterTriggerEl.setAttribute("aria-expanded", "true");
-    // In-flow menu: grow the picker; optionally bring the selected chapter into view via page scroll.
-    var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
-    var selectedValue = selected ? selected.getAttribute("data-value") : "";
-    if (selectedValue && selected && typeof selected.scrollIntoView === "function") {
-      selected.scrollIntoView({ block: "nearest" });
-    }
+    // Do not scrollIntoView a selected option here: that jumps the page so the
+    // trigger sits above the viewport and the list looks like it opened above it.
     if (opts.focusOption === false) return;
+    var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
-    if (focusOpt && typeof focusOpt.focus === "function") focusOpt.focus();
+    focusWithoutScroll(focusOpt);
   }
 
   function toggleChapterMenu(opts) {
@@ -616,7 +613,13 @@
     var params = new URLSearchParams();
     if (state.mode === "source" && state.source) {
       params.set("source", state.source);
-    } else if (state.mode === "chapter" && state.chapter != null && state.chapter !== "") {
+    } else if (
+      state.mode === "chapter" &&
+      state.chapter != null &&
+      state.chapter !== "" &&
+      state.entry
+    ) {
+      // Permalinks / stripped entry only. In-page selector browse keeps a clean URL.
       params.set("chapter", String(state.chapter));
     } else if ((state.mode === "keyword" || state.mode === "explore") && state.keyword) {
       params.set("keyword", state.keyword);
@@ -626,6 +629,17 @@
     return location.pathname + (qs ? "?" + qs : "");
   }
 
+  function historyStatesEqual(a, b) {
+    if (!a || !b) return false;
+    return (
+      a.mode === b.mode &&
+      a.chapter === b.chapter &&
+      !!a.entry === !!b.entry &&
+      a.source === b.source &&
+      a.keyword === b.keyword
+    );
+  }
+
   function syncCatalogUrl(opts) {
     opts = opts || {};
     if (applyingHistory) return;
@@ -633,7 +647,8 @@
     var state = catalogHistoryState();
     var url = catalogUrlFromState(state);
     var current = location.pathname + location.search;
-    if (opts.replace || current === url) {
+    // Inline chapter shares the bare pathname with idle — compare state, not only URL.
+    if (opts.replace || (current === url && historyStatesEqual(history.state, state))) {
       history.replaceState(state, "", url);
     } else {
       history.pushState(state, "", url);
@@ -647,7 +662,7 @@
     var chapterRaw = params.get("chapter");
     if (chapterRaw != null && chapterRaw !== "") {
       var chapter = Number(chapterRaw);
-      // Cold URL loads use the stripped chapter entry; in-page selector sets entry:false in history.
+      // ?chapter=N is always the stripped chapter permalink entry.
       if (!Number.isNaN(chapter)) return { mode: "chapter", chapter: chapter, entry: true };
     }
     var keyword = params.get("keyword");
@@ -681,8 +696,8 @@
       }
       if (state.mode === "chapter" && state.chapter != null && !Number.isNaN(Number(state.chapter))) {
         openChapter(Number(state.chapter), Object.assign({}, navOpts, {
-          // History may set entry:false for Chapters-selector browse; URLs default to entry.
-          entry: state.entry !== false,
+          // History may restore in-page browse (entry:false); ?chapter= URLs are entry.
+          entry: state.entry === true,
         }));
         return;
       }

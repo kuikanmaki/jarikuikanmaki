@@ -845,6 +845,8 @@ img {
   position: relative;
   margin-top: 0;
   scroll-margin-top: 1.25rem;
+  /* Expanding the in-flow list shouldn't drag the page via scroll anchoring. */
+  overflow-anchor: none;
 }
 .sources-page .catalog-chapter-select {
   display: block;
