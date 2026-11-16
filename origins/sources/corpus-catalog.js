@@ -32,6 +32,7 @@
 
   var corpus = null;
   var searchIndex = null;
+  var keywordById = Object.create(null);
   var miniSearch = null;
   var titleSearch = null;
   var chapterMeta = [];
@@ -349,9 +350,47 @@
     );
   }
 
+  function keywordPageHref(keywordId) {
+    if (!keywordId) return "#";
+    return location.pathname + "?keyword=" + encodeURIComponent(keywordId);
+  }
+
+  // Clear match: exactly one authority id that resolves in the keyword index.
+  function clearAuthorityMatch(ids) {
+    if (!ids || ids.length !== 1) return null;
+    var id = ids[0];
+    if (!id || !keywordById[id]) return null;
+    return keywordById[id];
+  }
+
+  function authorityFieldHtml(label, ids, opts) {
+    opts = opts || {};
+    if (!label) return "";
+    var text = escapeHtml(label);
+    if (opts.plain) return text;
+    var hit = clearAuthorityMatch(ids);
+    if (!hit || !hit.id) return text;
+    return (
+      '<a class="catalog-keyword-link" href="' + escapeHtml(keywordPageHref(hit.id)) + '"' +
+        ' data-keyword-id="' + escapeHtml(hit.id) + '">' +
+        text +
+      "</a>"
+    );
+  }
+
+  function renderBiblioHtml(s, opts) {
+    opts = opts || {};
+    var parts = [];
+    if (s.author) parts.push(authorityFieldHtml(s.author, s.author_ids, opts));
+    if (s.publication) parts.push(authorityFieldHtml(s.publication, s.publication_ids, opts));
+    if (s.date) parts.push(escapeHtml(s.date));
+    return parts.join(" · ");
+  }
+
   function renderCard(s, opts) {
     opts = opts || {};
-    var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
+    // Previews wrap the whole card in a link — keep biblio plain (no nested anchors).
+    var biblio = renderBiblioHtml(s, { plain: !!opts.preview });
     var key = s.source_key || "";
     var pageHref = sourcePageHref(key);
     var external = typeof s.url === "string" && s.url ? s.url : "";
@@ -365,18 +404,18 @@
       : cardMedia(s);
     var parts = cardCopyParts(s);
     var onSourcePage = view.mode === "source";
-    // Host hint only on the Source page card (not chapter lists / search results / previews).
+    // Full catalog cards (Source page + search/explore) share the same content chrome.
+    // Hover previews stay compact (no Open URL / access line).
     var original = opts.preview
       ? ""
-      : openOriginalHtml(external, { showHost: onSourcePage });
-    // Source page: access note sits on the Open URL line (after host), not as a separate block.
+      : openOriginalHtml(external, { showHost: true });
     var accessInline =
-      !opts.preview && onSourcePage && parts.access
+      !opts.preview && parts.access
         ? '<span class="source-open-access"> · ' + escapeHtml(parts.access.short) + "</span>"
         : "";
     var actionsHtml = original + accessInline;
     // Preview: whole card is the link (plain title). Source page: plain title (no self-link).
-    // Other catalog cards: title links to the Source page.
+    // Search/explore: title links to the Source page.
     var titleText = escapeHtml(s.title || "Untitled source");
     var titleHtml =
       opts.preview || onSourcePage
@@ -384,8 +423,8 @@
         : '<a class="source-page-link" href="' + escapeHtml(pageHref) + '"' +
             (key ? ' data-source-key="' + escapeHtml(key) + '"' : "") +
           ">" + titleText + "</a>";
-    var copyStatus = onSourcePage ? "" : parts.statusNote;
-    var hasCopyBody = !!(parts.summary || parts.role || parts.topicLine || copyStatus);
+    // Access notes live on the Open URL line for full cards (not a separate block).
+    var hasCopyBody = !!(parts.summary || parts.role || parts.topicLine);
     var restInner =
       (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
       (actionsHtml ? '<p class="catalog-card-actions">' + actionsHtml + "</p>" : "") +
@@ -394,7 +433,6 @@
             parts.summary +
             parts.role +
             parts.topicLine +
-            copyStatus +
           "</div>"
         : "");
     var cardHtml =
@@ -1739,6 +1777,14 @@
       openSourceFromPageLink(pageLink);
       return;
     }
+    var keywordLink = e.target.closest("a.catalog-keyword-link[data-keyword-id]");
+    if (keywordLink && outEl.contains(keywordLink)) {
+      e.preventDefault();
+      var kid = keywordLink.getAttribute("data-keyword-id");
+      var khit = kid && keywordById[kid];
+      if (khit) openKeyword(khit, "keyword");
+      return;
+    }
     var btn = e.target.closest(".source-expand-btn");
     if (!btn) return;
     e.preventDefault();
@@ -1890,6 +1936,10 @@
         },
       });
       miniSearch.addAll(searchIndex.keywords || []);
+      keywordById = Object.create(null);
+      (searchIndex.keywords || []).forEach(function (k) {
+        if (k && k.id) keywordById[k.id] = k;
+      });
 
       // Second index: source titles (plus author/publication) so typing a
       // paper/article/book title can hit that catalog record directly.

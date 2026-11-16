@@ -1235,6 +1235,16 @@ img {
   line-height: 1.4;
   color: hsl(var(--muted-foreground));
 }
+.sources-page .catalog-card-biblio a.catalog-keyword-link {
+  color: hsl(var(--reference-link));
+  text-decoration: none;
+  font-weight: 500;
+}
+.sources-page .catalog-card-biblio a.catalog-keyword-link:hover,
+.sources-page .catalog-card-biblio a.catalog-keyword-link:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
 .sources-page .catalog-card-actions {
   margin: 0.35rem 0 0;
   font-size: 0.8125rem;
