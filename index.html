@@ -8,12 +8,12 @@
 
   <!-- Primary Meta Tags -->
     <title>Jari Kuikanmäki | Journalist & Author</title>
-    <meta name="description" content="New book Origins of Coronavirus coming out now! Buy on Amazon." />
+    <meta name="description" content="Origins of Coronavirus is out now — buy the book or listen on Google Play and Storytel." />
     <meta name="author" content="Jari Kuikanmäki" />
   
   <!-- Open Graph / Social Media -->
   <meta property="og:title" content="Jari Kuikanmäki | Journalist & Author" />
-  <meta property="og:description" content="New book Origins of Coronavirus coming out now! Buy on Amazon." />
+  <meta property="og:description" content="Origins of Coronavirus is out now — buy the book or listen on Google Play and Storytel." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://jarikuikanmaki.com/assets/img/index-preview-card.webp" />
   
@@ -52,7 +52,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles.css?v=20261116a" />
 
     <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L17YYREQ51"></script>
@@ -192,7 +192,7 @@ src="https://www.facebook.com/tr?id=977885917988328&ev=PageView&noscript=1"
   <script>
     (async () => {
       const load = async (id, url) => {
-        const res = await fetch(url);
+        const res = await fetch(url, { cache: "no-cache" });
         document.getElementById(id).innerHTML = await res.text();
       };
       await Promise.all([
@@ -204,6 +204,6 @@ src="https://www.facebook.com/tr?id=977885917988328&ev=PageView&noscript=1"
   </script>
 
   <script src="/data/origins-editions.js"></script>
-  <script src="script.js"></script>
+  <script src="/script.js?v=20261116a"></script>
 </body>
 </html>

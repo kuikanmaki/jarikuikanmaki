@@ -31,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/styles.css?v=20261116a" />
 </head>
 <body class="sources-page bg-background text-foreground font-sans">
 
@@ -46,18 +46,16 @@
       <div class="container-narrow">
         <div class="sources-book-banner-inner">
           <div class="sources-book-banner-copy">
-            <h2 class="font-display">
-              <span class="sources-banner-title-accent">Origins of Corona</span><span class="sources-banner-title-red">virus</span>
-            </h2>
+            <h2 class="font-display">Origins of Coronavirus</h2>
             <p class="sources-book-banner-tagline">
               Wuhan, the Secret Research That Sparked the Pandemic, and the Cover-Up of the Century
             </p>
             <div class="sources-banner-cta" data-editions data-sort="retailer"></div>
           </div>
-          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="sources-book-banner-cover">
+          <a href="https://mybook.to/origins-amazon" target="_blank" rel="noopener noreferrer" class="sources-book-banner-cover" aria-label="Buy Origins of Coronavirus on Amazon">
             <img
               src="/assets/img/book-cover-thumb.webp"
-              alt="Cover of Origins of Coronavirus"
+              alt=""
               width="40" height="60" loading="lazy"
             />
           </a>
@@ -178,7 +176,7 @@
   <script>
     (async () => {
       const load = async (id, url) => {
-        const res = await fetch(url);
+        const res = await fetch(url, { cache: "no-cache" });
         document.getElementById(id).innerHTML = await res.text();
       };
       await Promise.all([
@@ -192,6 +190,6 @@
   <script src="/assets/js/minisearch.min.js"></script>
   <script src="corpus-catalog.js"></script>
   <script src="/data/origins-editions.js"></script>
-  <script src="/script.js"></script>
+  <script src="/script.js?v=20261116a"></script>
 </body>
 </html>

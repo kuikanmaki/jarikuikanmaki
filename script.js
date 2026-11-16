@@ -18,12 +18,15 @@ if (header) {
 // 2. Mobile menu toggle
 // The header is injected async by the shared-header fetch, so we use event
 // delegation on document instead of binding to the button directly.
+const setMenuButtonState = (btn, open) => {
+  btn.classList.toggle('open', open);
+  btn.setAttribute('aria-expanded', String(open));
+  btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+};
+
 const closeMenu = () => {
   document.querySelectorAll('[data-menu].open').forEach((menu) => menu.classList.remove('open'));
-  document.querySelectorAll('[data-menu-button].open').forEach((btn) => {
-    btn.classList.remove('open');
-    btn.setAttribute('aria-expanded', 'false');
-  });
+  document.querySelectorAll('[data-menu-button]').forEach((btn) => setMenuButtonState(btn, false));
 };
 
 document.addEventListener('click', (e) => {
@@ -33,8 +36,7 @@ document.addEventListener('click', (e) => {
     if (menu) {
       const open = !menu.classList.contains('open');
       menu.classList.toggle('open', open);
-      btn.classList.toggle('open', open);
-      btn.setAttribute('aria-expanded', String(open));
+      setMenuButtonState(btn, open);
     }
     return;
   }

@@ -5,14 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Origins of Coronavirus — Jari Kuikanmäki</title>
-
-  <!-- Primary Meta Tags -->
-  <title>Jari Kuikanmäki | Origins of Coronavirus</title>
-  <meta name="description" content="New book out June 30, 2026. Buy now. A true crime investigation into the origins of SARS-CoV-2 and the cover-up of the century." />
+  <meta name="description" content="Origins of Coronavirus is out now. A true crime investigation into the origins of SARS-CoV-2 and the cover-up of the century." />
   
   <!-- Open Graph / Social Media -->
-  <meta property="og:title" content="Jari Kuikanmäki | Origins of Coronavirus" />
-  <meta property="og:description" content="New book out June, 30 2026. Buy now. A true crime investigation into the origins of SARS-CoV-2 and the cover-up of the century." />
+  <meta property="og:title" content="Origins of Coronavirus — Jari Kuikanmäki" />
+  <meta property="og:description" content="Origins of Coronavirus is out now. A true crime investigation into the origins of SARS-CoV-2 and the cover-up of the century." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://jarikuikanmaki.com/assets/img/index-preview-card.webp" />
 
@@ -46,7 +43,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/styles.css?v=20261116a" />
 
     <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L17YYREQ51"></script>
@@ -274,12 +271,20 @@
           <!-- Latest Substack Post -->
           <div>
             <h3 class="font-display text-xl font-bold sm:text-2xl">Substack Articles</h3>
-            <div class="mt-6">
-              <div class="substack-post-embed">
-                <p lang="en">Evidence Shows COVID Origins Cover-Up Reached Straight to Fauci by Jari Kuikanmäki</p>
-                <p>With his top deputy David Morens now facing federal conspiracy charges, emails with alleged co-conspirators and deleted records reveal a coordinated cover-up at NIH, reaching all the way to Fauci.</p>
-                <a data-post-link href="https://jarikuikanmaki.substack.com/p/evidence-shows-covid-origins-cover">Read on Substack</a>
-              </div>
+            <div class="mt-6 border border-border rounded-[var(--radius)] bg-card p-5 sm:p-6 shadow-sm">
+              <h4 class="text-lg font-semibold leading-snug sm:text-xl">
+                <a href="https://jarikuikanmaki.substack.com/p/evidence-shows-covid-origins-cover" target="_blank" rel="noopener noreferrer" class="text-foreground transition-colors hover:text-accent">
+                  Evidence Shows COVID Origins Cover-Up Reached Straight to Fauci
+                </a>
+              </h4>
+              <p class="mt-3 text-base leading-relaxed text-muted-foreground">
+                With his top deputy David Morens now facing federal conspiracy charges, emails with alleged co-conspirators and deleted records reveal a coordinated cover-up at NIH, reaching all the way to Fauci.
+              </p>
+              <p class="mt-4">
+                <a href="https://jarikuikanmaki.substack.com/p/evidence-shows-covid-origins-cover" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-accent transition-colors hover:underline">
+                  Read on Substack →
+                </a>
+              </p>
             </div>
           </div>
     
@@ -308,7 +313,6 @@
         </div>
       </div>
     </div>      
-  <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
 </section>
 
   <!-- ABOUT THE AUTHOR -->
@@ -344,7 +348,7 @@
   <script>
     (async () => {
       const load = async (id, url) => {
-        const res = await fetch(url);
+        const res = await fetch(url, { cache: "no-cache" });
         document.getElementById(id).innerHTML = await res.text();
       };
       await Promise.all([
@@ -356,6 +360,6 @@
   </script>
 
   <script src="/data/origins-editions.js"></script>
-  <script src="/script.js"></script>
+  <script src="/script.js?v=20261116a"></script>
 </body>
 </html>
