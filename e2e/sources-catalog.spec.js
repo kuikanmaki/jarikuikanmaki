@@ -272,7 +272,7 @@ test.describe("Sources catalog smoke", () => {
     await expect(preview).toBeHidden();
   });
 
-  test("notes source cites open external URLs and show desktop hover preview", async ({
+  test("notes source cites open Source pages and show desktop hover preview", async ({
     page,
   }, testInfo) => {
     await page.goto(`${SOURCES}?chapter=1`);
@@ -282,8 +282,8 @@ test.describe("Sources catalog smoke", () => {
     const cite = page.locator("#catalog-notes a.notes-source-ref").first();
     await expect(cite).toBeVisible();
     await expect(cite).toHaveAttribute("data-source-key", /.+/);
-    await expect(cite).toHaveAttribute("href", /^https?:\/\//);
-    await expect(cite).toHaveAttribute("target", "_blank");
+    await expect(cite).toHaveAttribute("href", /\?source=/);
+    await expect(cite).not.toHaveAttribute("target", "_blank");
 
     if (isMobile(testInfo.project.name)) return;
 
@@ -295,7 +295,7 @@ test.describe("Sources catalog smoke", () => {
     await expect(preview).toBeHidden();
   });
 
-  test("notes Further Reading source hyperlinks show the same desktop hover preview", async ({
+  test("notes Further Reading source hyperlinks open Source pages + hover preview", async ({
     page,
   }, testInfo) => {
     test.skip(isMobile(testInfo.project.name), "Hover previews are desktop-only");
@@ -307,7 +307,7 @@ test.describe("Sources catalog smoke", () => {
       '#catalog-notes a.notes-source-ref[data-source-key="ch01-n01"]'
     );
     await expect(noteSource).toBeVisible();
-    await expect(noteSource).toHaveAttribute("href", /^https?:\/\//);
+    await expect(noteSource).toHaveAttribute("href", /\?source=ch01-n01\b/);
 
     await noteSource.hover();
     const preview = page.locator("#source-hover-preview");
@@ -315,6 +315,10 @@ test.describe("Sources catalog smoke", () => {
     await expect(preview.locator(".catalog-card--preview")).toBeVisible();
     await page.keyboard.press("Escape");
     await expect(preview).toBeHidden();
+
+    await noteSource.click();
+    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page).toHaveURL(/\?source=ch01-n01\b/);
   });
 
   test("search suggestion opens keyword results (desktop meta)", async ({ page }, testInfo) => {

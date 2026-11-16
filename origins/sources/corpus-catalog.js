@@ -800,34 +800,27 @@
   }
 
   function enhanceNotesSourceLinks(root) {
-    // Notes HTML: (1) stable ?source= cross-refs → external URL + preview key;
-    // (2) existing Notes source hyperlinks → same preview key when URL matches corpus.
+    // Notes HTML: wire corpus cites to the Source page (same as bibliography titles).
+    // (1) stable ?source= cross-refs; (2) Notes hyperlinks whose URL matches a corpus row.
+    // External originals stay available via Open URL on the Source page card.
     if (!root || !corpus) return;
-    Array.prototype.forEach.call(root.querySelectorAll('a[href^="?source="]'), function (a) {
-      var key = sourceKeyFromHref(a.getAttribute("href") || "");
-      if (!key) return;
-      var row = (corpus.sources || []).find(function (s) {
-        return s.source_key === key;
-      });
+    function wireNotesSourcePageLink(a, key) {
+      if (!a || !key) return;
       a.setAttribute("data-source-key", key);
-      a.classList.add("notes-source-ref");
-      if (row && row.url) {
-        a.setAttribute("href", row.url);
-        a.setAttribute("target", "_blank");
-        a.setAttribute("rel", "noopener noreferrer");
-      }
+      a.classList.add("notes-source-ref", "source-page-link");
+      a.setAttribute("href", sourcePageHref(key));
+      a.removeAttribute("target");
+      a.removeAttribute("rel");
+    }
+    Array.prototype.forEach.call(root.querySelectorAll('a[href^="?source="]'), function (a) {
+      wireNotesSourcePageLink(a, sourceKeyFromHref(a.getAttribute("href") || ""));
     });
     var byUrl = sourceKeyByNormalizedUrl();
     Array.prototype.forEach.call(root.querySelectorAll('a[href^="http"]'), function (a) {
       if (a.getAttribute("data-source-key")) return;
       var key = byUrl[normalizeSourceUrl(a.getAttribute("href") || "")];
       if (!key) return;
-      a.setAttribute("data-source-key", key);
-      a.classList.add("notes-source-ref");
-      if (!a.getAttribute("target")) {
-        a.setAttribute("target", "_blank");
-        a.setAttribute("rel", "noopener noreferrer");
-      }
+      wireNotesSourcePageLink(a, key);
     });
   }
 
@@ -1737,7 +1730,12 @@
   });
 
   notesEl.addEventListener("click", function (e) {
-    onCatalogClick(e);
+    if (onCatalogClick(e)) return;
+    var pageLink = e.target.closest("a.notes-source-ref[data-source-key]");
+    if (pageLink && notesEl.contains(pageLink)) {
+      e.preventDefault();
+      openSourceFromPageLink(pageLink);
+    }
   });
 
   outEl.addEventListener("error", function (e) {
