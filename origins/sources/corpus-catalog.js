@@ -24,6 +24,7 @@
   var pagerEl = document.getElementById("catalog-pager");
   var notesEl = document.getElementById("catalog-notes");
   var backEl = document.getElementById("back-to-top");
+  var historyBackEl = document.getElementById("sources-history-back");
   var inputEl = document.getElementById("authority-search-input");
   var suggestEl = document.getElementById("authority-search-suggestions");
   var clearEl = document.getElementById("authority-search-clear");
@@ -47,6 +48,27 @@
   };
   // When true, view changes must not push/replace the URL (popstate / boot restore).
   var applyingHistory = false;
+  // Source-page ← Back: only when we can return to a same-site prior entry.
+  var sourceHistoryBackEnabled = false;
+  // Own scroll stamping/restore — avoid the browser's animated scroll restoration.
+  if (window.history && "scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
+  // Site CSS uses html { scroll-behavior: smooth }, and scrollTo({ behavior:"auto" })
+  // still follows that. Force an instant jump for SPA source enter/back.
+  function scrollWindowInstant(y) {
+    var top = Math.max(0, Number(y) || 0);
+    var root = document.documentElement;
+    var prev = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    try {
+      window.scrollTo({ top: top, left: 0, behavior: "instant" });
+    } catch (err) {
+      window.scrollTo(0, top);
+    }
+    root.style.scrollBehavior = prev;
+  }
   // Desktop chapter-list hover preview (popover).
   var sourcePreviewEl = null;
   var sourcePreviewShowTimer = null;
@@ -194,6 +216,24 @@
     );
   }
 
+  function sourceAccessLabel(s) {
+    var embed = hostEmbed(s);
+    if (s.status === "paywall") {
+      return {
+        short: "May be paywalled",
+        long: "Source access note: Full text may be paywalled.",
+      };
+    }
+    if (s.status === "skipped" && embed) return null;
+    if (s.status && s.status !== "ok") {
+      return {
+        short: String(s.status),
+        long: "Access note: " + String(s.status),
+      };
+    }
+    return null;
+  }
+
   function cardCopyParts(s) {
     var chips = [];
     if (s.content_kind && s.content_kind !== "html_article" && s.content_kind_label) {
@@ -215,16 +255,10 @@
       ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
       : "";
     var embed = hostEmbed(s);
-    var statusNote = "";
-    if (s.status === "paywall") {
-      statusNote =
-        '<p class="catalog-card-status">Source access note: Full text may be paywalled.</p>';
-    } else if (s.status === "skipped" && embed) {
-      statusNote = "";
-    } else if (s.status && s.status !== "ok") {
-      statusNote =
-        '<p class="catalog-card-status">Access note: ' + escapeHtml(s.status) + "</p>";
-    }
+    var access = sourceAccessLabel(s);
+    var statusNote = access
+      ? '<p class="catalog-card-status">' + escapeHtml(access.long) + "</p>"
+      : "";
     var summary =
       SHOW_CARD_COPY && s.summary
         ? '<p class="catalog-card-summary">' + escapeHtml(s.summary) + "</p>"
@@ -234,6 +268,7 @@
       role: role,
       topicLine: topicLine,
       statusNote: statusNote,
+      access: access,
       embed: embed,
       hasCopy: !!(summary || role || topicLine || statusNote),
     };
@@ -278,10 +313,46 @@
     );
   }
 
+  function sourcePageHref(sourceKey) {
+    if (!sourceKey) return "#";
+    return location.pathname + "?source=" + encodeURIComponent(sourceKey);
+  }
+
+  function displayHostFromUrl(url) {
+    if (!url) return "";
+    try {
+      var host = new URL(url, location.href).hostname || "";
+      if (host.indexOf("www.") === 0) host = host.slice(4);
+      if (!host) return "";
+      // Keep long hosts readable without blowing the actions line.
+      if (host.length > 32) host = host.slice(0, 29) + "…";
+      return host;
+    } catch (err) {
+      return "";
+    }
+  }
+
+  function openOriginalHtml(url, opts) {
+    if (!url) return "";
+    opts = opts || {};
+    var host =
+      opts.showHost ? displayHostFromUrl(url) : "";
+    return (
+      '<a class="source-open-original" href="' +
+      escapeHtml(url) +
+      '" target="_blank" rel="noopener noreferrer">Open URL<span aria-hidden="true"> ↗</span></a>' +
+      (host
+        ? '<span class="source-open-host"> · ' + escapeHtml(host) + "</span>"
+        : "")
+    );
+  }
+
   function renderCard(s, opts) {
     opts = opts || {};
     var biblio = [s.author, s.publication, s.date].filter(Boolean).map(escapeHtml).join(" · ");
-    var url = s.url || "#";
+    var key = s.source_key || "";
+    var pageHref = sourcePageHref(key);
+    var external = typeof s.url === "string" && s.url ? s.url : "";
     // Hover previews: image/copy only — no YouTube/X embeds (avoids autoplay / heavy widgets).
     var media = opts.preview
       ? s.image_url
@@ -291,32 +362,59 @@
         : ""
       : cardMedia(s);
     var parts = cardCopyParts(s);
+    var onSourcePage = view.mode === "source";
+    // Host hint only on the Source page card (not chapter lists / search results / previews).
+    var original = opts.preview
+      ? ""
+      : openOriginalHtml(external, { showHost: onSourcePage });
+    // Source page: access note sits on the Open URL line (after host), not as a separate block.
+    var accessInline =
+      !opts.preview && onSourcePage && parts.access
+        ? '<span class="source-open-access"> · ' + escapeHtml(parts.access.short) + "</span>"
+        : "";
+    var actionsHtml = original + accessInline;
+    // Preview: whole card is the link (plain title). Source page: plain title (no self-link).
+    // Other catalog cards: title links to the Source page.
+    var titleText = escapeHtml(s.title || "Untitled source");
+    var titleHtml =
+      opts.preview || onSourcePage
+        ? titleText
+        : '<a class="source-page-link" href="' + escapeHtml(pageHref) + '"' +
+            (key ? ' data-source-key="' + escapeHtml(key) + '"' : "") +
+          ">" + titleText + "</a>";
+    var copyStatus = onSourcePage ? "" : parts.statusNote;
+    var hasCopyBody = !!(parts.summary || parts.role || parts.topicLine || copyStatus);
     var restInner =
       (biblio ? '<p class="catalog-card-biblio">' + biblio + "</p>" : "") +
-      (parts.hasCopy
+      (actionsHtml ? '<p class="catalog-card-actions">' + actionsHtml + "</p>" : "") +
+      (hasCopyBody
         ? '<div class="catalog-card-copy">' +
             parts.summary +
             parts.role +
             parts.topicLine +
-            parts.statusNote +
+            copyStatus +
           "</div>"
         : "");
-    return (
+    var cardHtml =
       '<article class="catalog-card' + (opts.preview ? " catalog-card--preview" : "") + '">' +
         '<div class="catalog-card-layout' + (media ? " catalog-card-layout--media" : "") + '">' +
-          '<h3 class="catalog-card-title">' +
-            '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-              escapeHtml(s.title || "Untitled source") +
-            "</a>" +
-          "</h3>" +
+          '<h3 class="catalog-card-title">' + titleHtml + "</h3>" +
           media +
           (restInner
             ? '<div class="catalog-card-rest">' + restInner + "</div>"
             : "") +
         "</div>" +
         (opts.preview ? "" : parts.embed) +
-      "</article>"
-    );
+      "</article>";
+    if (opts.preview && key) {
+      return (
+        '<a class="source-hover-preview-link source-page-link" href="' + escapeHtml(pageHref) + '"' +
+          ' data-source-key="' + escapeHtml(key) + '">' +
+          cardHtml +
+        "</a>"
+      );
+    }
+    return cardHtml;
   }
 
   function renderChapterSourceList(rows) {
@@ -325,12 +423,14 @@
     }
     var items = rows.map(function (s) {
       var id = escapeHtml(s.id != null ? s.id : "?");
-      var url = (typeof s.url === "string" && s.url) ? s.url : "#";
+      var external = typeof s.url === "string" && s.url ? s.url : "";
       var author = escapeHtml(s.author || "");
       var title = escapeHtml(s.title || "");
       var publication = escapeHtml(s.publication || "");
       var date = escapeHtml(s.date || "");
-      var key = escapeHtml(s.source_key || ("ch" + s.chapter + "-s" + s.id));
+      var keyRaw = s.source_key || ("ch" + s.chapter + "-s" + s.id);
+      var key = escapeHtml(keyRaw);
+      var pageHref = escapeHtml(sourcePageHref(keyRaw));
       var detail = enrichmentBlock(s);
       // Expand chevron + detail panel: local review only (same gate as summary/book_role).
       var hasDetail = SHOW_CARD_COPY && sourceHasDetail(s);
@@ -339,12 +439,13 @@
           '<div class="source-item-main">' +
             '<span class="source-id" aria-hidden="true">' + id + ".</span>" +
             '<span class="source-ref">' +
-              '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+              '<a class="source-page-link" href="' + pageHref + '" data-source-key="' + key + '">' +
                 (author ? author + ", " : "") +
                 "<em>" + title + "</em>" +
                 (publication ? ", " + publication : "") +
                 (date ? ", " + date : "") +
               "</a>" +
+              (external ? " " + openOriginalHtml(external) : "") +
             "</span>" +
             (hasDetail
               ? '<button type="button" class="source-expand-btn" aria-expanded="false" aria-controls="detail-' + key + '" title="Show source details" aria-label="Show details for source ' + id + '">' +
@@ -415,8 +516,10 @@
 
   function positionSourcePreview(anchorEl) {
     if (!sourcePreviewEl) return;
-    var gapX = 14;
-    var gapY = 18;
+    // Keep the card almost under the pointer so the path to it has no dead gap
+    // (a larger offset lets mouseleave fire before mouseenter on the preview).
+    var gapX = 2;
+    var gapY = 2;
     var pad = 12;
     var pop = sourcePreviewEl.getBoundingClientRect();
     var vw = window.innerWidth;
@@ -574,36 +677,42 @@
     // Chapter entry keeps Back to top (long notes); source entry hides it.
     backEl.hidden = view.mode === "source";
     headingEl.hidden = false;
+    syncSourceHistoryBack();
     syncClearButton();
 
     if (view.mode === "keyword" || view.mode === "explore" || view.mode === "source") {
       var label;
       var sourceChapterHtml = "";
       if (view.mode === "source") {
-        // Title appears on the card only; heading is "Sources · Chapter N".
+        // Compact breadcrumb: Book › Sources › Chapter N (card title is the leaf).
         var sourceRow = rows[0];
         label = "Sources";
+        var path = location.pathname || "/origins/sources/";
+        sourceChapterHtml =
+          '<a class="sources-crumb" href="/origins/">Origins of Coronavirus</a>' +
+          '<span class="sources-heading-sep"> › </span>' +
+          '<a class="sources-crumb" href="' + escapeHtml(path) + '#sources-top" data-source-exit="search">Sources</a>';
         if (sourceRow && sourceRow.chapter != null && !Number.isNaN(Number(sourceRow.chapter))) {
           var chNum = Number(sourceRow.chapter);
-          var chHref =
-            (location.pathname || "/origins/sources/") +
-            "?chapter=" +
-            encodeURIComponent(String(chNum));
-          sourceChapterHtml =
-            '<span class="sources-heading-count"> · ' +
-              '<a class="sources-heading-chapter" href="' + escapeHtml(chHref) + '" data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
-                escapeHtml(chapterLabel(chNum)) +
-              "</a>" +
-            "</span>";
+          var chHref = path + "?chapter=" + encodeURIComponent(String(chNum));
+          sourceChapterHtml +=
+            '<span class="sources-heading-sep"> › </span>' +
+            '<a class="sources-crumb" href="' + escapeHtml(chHref) + '" data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
+              escapeHtml(chapterLabel(chNum)) +
+            "</a>";
         }
       } else {
         label = (view.keyword && view.keyword.label) || "Sources";
       }
-      headingEl.innerHTML =
-        '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
-        (view.mode === "source"
-          ? sourceChapterHtml
-          : '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>");
+      if (view.mode === "source") {
+        headingEl.classList.add("sources-heading--breadcrumb");
+        headingEl.innerHTML = '<span class="sources-heading-trail">' + sourceChapterHtml + "</span>";
+      } else {
+        headingEl.classList.remove("sources-heading--breadcrumb");
+        headingEl.innerHTML =
+          '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
+          '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>";
+      }
       notesEl.hidden = true;
       notesEl.innerHTML = "";
 
@@ -638,6 +747,7 @@
 
     var chName = chapterLabel(view.chapter);
     var meta = (corpus.chapters || []).find(function (c) { return c.number === view.chapter; });
+    headingEl.classList.remove("sources-heading--breadcrumb");
     // Prologue title already includes "Prologue:"; avoid "Prologue — Prologue: …"
     if (meta && meta.title) {
       var titleStartsWithName = meta.name && meta.title.indexOf(meta.name) === 0;
@@ -880,6 +990,53 @@
     return { mode: "idle" };
   }
 
+  function sameOriginReferrer() {
+    if (!document.referrer) return false;
+    try {
+      return new URL(document.referrer).origin === location.origin;
+    } catch (err) {
+      return false;
+    }
+  }
+
+  function landingAllowsSourceHistoryBack() {
+    if (!sameOriginReferrer()) return false;
+    try {
+      // New tab / direct open often reports length 1 even with a referrer.
+      if (history.length <= 1) return false;
+    } catch (err) {
+      return false;
+    }
+    return true;
+  }
+
+  function stampCurrentHistoryScroll() {
+    if (!window.history || typeof history.replaceState !== "function") return;
+    var base =
+      history.state && typeof history.state === "object"
+        ? Object.assign({}, history.state)
+        : catalogHistoryState();
+    if (!base.mode) base = catalogHistoryState();
+    base.scrollY = window.scrollY || window.pageYOffset || 0;
+    history.replaceState(base, "", location.pathname + location.search);
+  }
+
+  function restoreHistoryScroll(state) {
+    if (!state || typeof state.scrollY !== "number") return false;
+    var y = state.scrollY;
+    scrollWindowInstant(y);
+    // Re-pin after layout from the restored catalog view settles.
+    requestAnimationFrame(function () {
+      scrollWindowInstant(y);
+    });
+    return true;
+  }
+
+  function syncSourceHistoryBack() {
+    if (!historyBackEl) return;
+    historyBackEl.hidden = !(view.mode === "source" && sourceHistoryBackEnabled);
+  }
+
   function catalogUrlFromState(state) {
     var params = new URLSearchParams();
     if (state.mode === "source" && state.source) {
@@ -988,7 +1145,8 @@
   }
 
   function syncEntryLayout() {
-    // Source entry + chapter permalink entry: keep banner + page title; hide intro/search/shelves.
+    // Source entry + chapter permalink entry: keep banner; hide intro/search/shelves.
+    // Source entry also hides the page H1 (breadcrumb is enough).
     // Chapters selector browse stays on the main catalog page (chapterEntry false).
     var isSourceEntry = view.mode === "source";
     var isChapterEntry = view.mode === "chapter" && !!view.chapterEntry;
@@ -997,6 +1155,7 @@
     // Match visual hide for AT: display:none chrome should also be inert / aria-hidden.
     var hideChrome = isSourceEntry || isChapterEntry;
     var intro = document.querySelector(".sources-intro");
+    var pageTitle = document.getElementById("sources-top");
     [intro, document.getElementById("sources-search"), shelvesEl].forEach(function (el) {
       if (!el) return;
       if (hideChrome) {
@@ -1007,6 +1166,15 @@
         el.inert = false;
       }
     });
+    if (pageTitle) {
+      if (isSourceEntry) {
+        pageTitle.setAttribute("aria-hidden", "true");
+        pageTitle.inert = true;
+      } else {
+        pageTitle.removeAttribute("aria-hidden");
+        pageTitle.inert = false;
+      }
+    }
   }
 
   function showIdle(opts) {
@@ -1024,6 +1192,7 @@
     clearExploreActive();
     if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     headingEl.hidden = true;
+    headingEl.classList.remove("sources-heading--breadcrumb");
     headingEl.textContent = "";
     outEl.innerHTML = "";
     pagerEl.hidden = true;
@@ -1031,6 +1200,7 @@
     notesEl.hidden = true;
     notesEl.innerHTML = "";
     backEl.hidden = true;
+    syncSourceHistoryBack();
     syncClearButton();
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
@@ -1112,6 +1282,13 @@
 
   function openSource(hit, opts) {
     opts = opts || {};
+    var willPush =
+      opts.history !== false && !opts.replace && !applyingHistory;
+    if (willPush) {
+      // Remember scroll on the current entry so ← Back can restore it.
+      stampCurrentHistoryScroll();
+      sourceHistoryBackEnabled = true;
+    }
     view.mode = "source";
     view.sourceKey = hit.id;
     view.keyword = null;
@@ -1128,8 +1305,9 @@
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
     // Source entry: stay at the normal page top (banner), not scrolled to the heading.
+    // Instant — avoid smooth-scroll animation from mid-page chapter lists.
     if (opts.scroll !== false) {
-      window.scrollTo(0, 0);
+      scrollWindowInstant(0);
     }
   }
 
@@ -1491,6 +1669,7 @@
   });
 
   headingEl.addEventListener("click", function (e) {
+    if (onCatalogClick(e)) return;
     var chapterLink = e.target.closest("[data-open-chapter]");
     if (!chapterLink || !headingEl.contains(chapterLink)) return;
     e.preventDefault();
@@ -1520,6 +1699,15 @@
     return false;
   }
 
+  function openSourceFromPageLink(link) {
+    if (!link) return false;
+    var key = link.getAttribute("data-source-key");
+    if (!key) return false;
+    hideSourcePreview();
+    openSource({ id: key, label: (link.textContent || "").trim() || key });
+    return true;
+  }
+
   outEl.addEventListener("click", function (e) {
     if (e.target.closest(".catalog-empty-clear")) {
       e.preventDefault();
@@ -1527,6 +1715,12 @@
       return;
     }
     if (onCatalogClick(e)) return;
+    var pageLink = e.target.closest("a.source-page-link[data-source-key]");
+    if (pageLink && outEl.contains(pageLink)) {
+      e.preventDefault();
+      openSourceFromPageLink(pageLink);
+      return;
+    }
     var btn = e.target.closest(".source-expand-btn");
     if (!btn) return;
     e.preventDefault();
@@ -1557,7 +1751,8 @@
     if (!root) return null;
     var notesLink = e.target.closest("a.notes-source-ref[data-source-key]");
     if (notesLink && root.contains(notesLink)) return notesLink;
-    var bibLink = e.target.closest(".sources-list .source-ref a");
+    // Title → Source page (not "Open original").
+    var bibLink = e.target.closest(".sources-list .source-ref a.source-page-link");
     if (bibLink && root.contains(bibLink)) return bibLink;
     return null;
   }
@@ -1622,11 +1817,19 @@
 
   document.addEventListener("click", function (e) {
     if (!e.target.closest("#sources-search")) hideSuggestions();
+    var previewPageLink = e.target.closest(
+      "#source-hover-preview a.source-hover-preview-link[data-source-key], #source-hover-preview a.source-page-link[data-source-key]"
+    );
+    if (previewPageLink) {
+      e.preventDefault();
+      openSourceFromPageLink(previewPageLink);
+      return;
+    }
     if (
       sourcePreviewEl &&
       !sourcePreviewEl.hidden &&
       !e.target.closest("#source-hover-preview") &&
-      !e.target.closest(".sources-list .source-ref a") &&
+      !e.target.closest(".sources-list .source-ref a.source-page-link") &&
       !e.target.closest("a.notes-source-ref")
     ) {
       hideSourcePreview();
@@ -1698,11 +1901,16 @@
       renderExploreShelf();
       // Read hash before replaceState (catalog URLs omit the fragment).
       var hashFocus = catalogFocusFromHash();
+      var landingState = parseLocationState();
+      // Cold-loaded ?source= from another page on this site → offer ← Back.
+      sourceHistoryBackEnabled =
+        landingState.mode === "source" && landingAllowsSourceHistoryBack();
       showIdle({ history: false });
-      applyCatalogState(parseLocationState(), { scroll: true });
+      applyCatalogState(landingState, { scroll: true });
       if (window.history && typeof window.history.replaceState === "function") {
         history.replaceState(catalogHistoryState(), "", catalogUrlFromState(catalogHistoryState()));
       }
+      syncSourceHistoryBack();
       // Deep-link hashes from source-entry nav: activate search or chapters (no scroll).
       if (view.mode === "idle" && hashFocus) {
         requestAnimationFrame(function () {
@@ -1736,10 +1944,27 @@
         return;
       }
       applyCatalogState(parsed, { scroll: true });
+      syncSourceHistoryBack();
       return;
     }
-    applyCatalogState(e.state, { scroll: true });
+    // Restore view first, then snap scroll (instant) so Back isn't a smooth pan.
+    var hasStampedScroll = e.state && typeof e.state.scrollY === "number";
+    applyCatalogState(e.state, { scroll: !hasStampedScroll });
+    if (hasStampedScroll) restoreHistoryScroll(e.state);
+    syncSourceHistoryBack();
   });
+
+  if (historyBackEl) {
+    historyBackEl.addEventListener("click", function (e) {
+      var btn = e.target.closest(".sources-history-back");
+      if (!btn || !historyBackEl.contains(btn)) return;
+      e.preventDefault();
+      if (!sourceHistoryBackEnabled) return;
+      if (window.history && typeof history.back === "function") {
+        history.back();
+      }
+    });
+  }
 
   // Back to Top: scroll without a hash navigation. Fragment links fire popstate
   // with null state after History API use and would otherwise clear the view.

@@ -964,8 +964,10 @@ img {
     font-size: 0.875rem;
   }
 }
-/* Source / chapter entry views: keep banner + page title; hide catalog chrome.
+/* Source / chapter entry views: keep banner; hide catalog chrome.
+   Source also drops the page H1 (breadcrumb replaces it).
    Chapter keeps Back to top (long notes); source hides it. */
+.sources-page.sources-entry-source #sources-top,
 .sources-page.sources-entry-source .sources-intro,
 .sources-page.sources-entry-source .sources-search,
 .sources-page.sources-entry-source .catalog-shelves,
@@ -1059,6 +1061,60 @@ img {
 .sources-page .sources-heading-label {
   font-weight: inherit;
   color: inherit;
+}
+.sources-page .sources-history-back-wrap {
+  margin: 0 0 0.65rem;
+}
+.sources-page .sources-history-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: hsl(var(--reference-link));
+  cursor: pointer;
+}
+.sources-page .sources-history-back:hover,
+.sources-page .sources-history-back:focus-visible {
+  color: hsl(var(--accent));
+  outline: none;
+}
+.sources-page #sources-heading.sources-heading--breadcrumb {
+  font-family: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.45;
+  margin-bottom: 0.75rem;
+  color: hsl(var(--muted-foreground));
+}
+.sources-page .sources-heading-trail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0;
+}
+.sources-page .sources-crumb {
+  color: hsl(var(--reference-link));
+  text-decoration: none;
+  font-weight: 500;
+}
+.sources-page .sources-crumb:hover,
+.sources-page .sources-crumb:focus-visible {
+  color: hsl(var(--accent));
+  text-decoration: none;
+  outline: none;
+}
+.sources-page .sources-heading-sep {
+  display: inline-block;
+  padding: 0 0.4em;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
 }
 .sources-page .sources-heading-count {
   font-weight: 500;
@@ -1178,6 +1234,34 @@ img {
   font-size: 0.8125rem;
   line-height: 1.4;
   color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-card-actions {
+  margin: 0.35rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+.sources-page .source-open-original {
+  color: hsl(var(--muted-foreground));
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.sources-page .source-open-original:hover {
+  color: hsl(var(--accent));
+  text-decoration: underline;
+}
+.sources-page .source-open-host,
+.sources-page .source-open-access {
+  color: hsl(var(--muted-foreground));
+  font-weight: 400;
+}
+.sources-page .source-open-host {
+  white-space: nowrap;
+}
+.sources-page .source-ref .source-open-original {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
 }
 .sources-page .catalog-card-summary {
   margin: 0;
@@ -1346,9 +1430,29 @@ img {
   border-radius: var(--radius);
   background: hsl(var(--card));
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  transition: border-color 0.14s ease, box-shadow 0.14s ease;
+}
+/* Clickable affordance: edge picks up the reference-link blue (no fill overlay). */
+.source-hover-preview:has(.source-hover-preview-link:hover),
+.source-hover-preview:has(.source-hover-preview-link:focus-visible) {
+  border-color: hsl(var(--reference-link));
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.12),
+    0 0 0 1px hsl(var(--reference-link) / 0.35);
 }
 .source-hover-preview[hidden] {
   display: none !important;
+}
+.source-hover-preview .source-hover-preview-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: inherit;
+}
+.source-hover-preview .source-hover-preview-link:hover,
+.source-hover-preview .source-hover-preview-link:focus-visible {
+  outline: none;
 }
 .source-hover-preview .catalog-card--preview {
   margin: 0;
@@ -1356,8 +1460,8 @@ img {
   box-shadow: none;
   padding: 1rem 1rem 0.9rem;
 }
-.source-hover-preview .catalog-card--preview:hover {
-  border-color: transparent;
+.source-hover-preview .catalog-card--preview .catalog-card-title {
+  color: hsl(var(--foreground));
 }
 /* Preview: thumbnail beside title only; summary/topics use full card width. */
 .source-hover-preview .catalog-card-layout--media {

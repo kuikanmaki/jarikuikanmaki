@@ -192,11 +192,14 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
 
     await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator("#sources-top")).toBeHidden();
     await expect(page.locator(".sources-intro")).toBeHidden();
     await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
     await expect(page.locator("#sources-heading [data-open-chapter]")).toBeVisible();
     await expect(page.locator("#back-to-top")).toBeHidden();
+    // Direct deep link has no same-site history → no ← Back.
+    await expect(page.locator("#sources-history-back")).toBeHidden();
 
     await page.locator("#sources-heading [data-open-chapter]").click();
     await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
@@ -205,6 +208,33 @@ test.describe("Sources catalog smoke", () => {
     await page.goBack();
     await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
     await expect(page).toHaveURL(new RegExp(`[?&]source=`));
+  });
+
+  test("in-catalog source open shows ← Back and restores prior view", async ({
+    page,
+  }, testInfo) => {
+    await waitForCatalog(page);
+
+    if (isMobile(testInfo.project.name)) {
+      await page.locator("#chapter-select").selectOption("12");
+    } else {
+      await page.locator("#chapter-custom-trigger").click();
+      await page.locator('#chapter-custom-list [data-value="12"]').click();
+    }
+    await expect(page.locator("#sources-output .source-page-link").first()).toBeVisible({
+      timeout: 10_000,
+    });
+    await page.locator("#sources-output .source-page-link").first().click();
+
+    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator("#sources-history-back")).toBeVisible();
+    await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
+
+    await page.locator("#sources-history-back .sources-history-back").click();
+    await expect(page.locator("body")).not.toHaveClass(/sources-entry-source/);
+    await expect(page.locator("#sources-search")).toBeVisible();
+    await expect(page.locator("#sources-heading")).toContainText(/Chapter 12|What Did They Study/i);
+    await expect(page.locator("#sources-history-back")).toBeHidden();
   });
 
   test("closed Chapters menu stays out of the accessibility tree (desktop)", async ({
@@ -232,6 +262,12 @@ test.describe("Sources catalog smoke", () => {
     await expect(preview).toBeVisible({ timeout: 2_000 });
     await expect(preview.locator(".catalog-card--preview")).toBeVisible();
     await expect(preview.locator(".catalog-card-embed")).toHaveCount(0);
+    // Whole preview card is the Source-page link; title is plain text.
+    await expect(preview.locator("a.source-hover-preview-link")).toHaveAttribute(
+      "data-source-key",
+      /.+/
+    );
+    await expect(preview.locator(".catalog-card-title a")).toHaveCount(0);
     await page.keyboard.press("Escape");
     await expect(preview).toBeHidden();
   });
