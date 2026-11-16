@@ -21,11 +21,10 @@
 /* -------------------------------------------------------------
    1. WEB FONTS
    -------------------------------------------------------------
-   We load two Google Fonts:
-     • Inter         → body text (clean, neutral)
-     • Space Grotesk → headlines (slightly more characterful)
+   Loaded once via <link> in each HTML page (not here):
+     • Inter         → body text (roman + italic)
+     • Space Grotesk → headlines (roman only; no italic face)
    ------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 
 /* -------------------------------------------------------------
@@ -397,12 +396,10 @@ img {
 .homepage {
   --homepage-book-shadow: 0 16px 32px -12px hsl(var(--foreground) / 0.25);
 }
+/* Keep display heads tight; leave eyebrows / nav / footer tracking alone. */
 :is(.homepage, .origins-page, .sources-page) h1,
 :is(.homepage, .origins-page, .sources-page) h2,
-:is(.homepage, .origins-page, .sources-page) h3,
-:is(.homepage, .origins-page, .sources-page) .eyebrow,
-:is(.homepage, .origins-page, .sources-page) header a,
-:is(.homepage, .origins-page, .sources-page) footer a { letter-spacing: 0; }
+:is(.homepage, .origins-page, .sources-page) h3 { letter-spacing: 0; }
 :is(.homepage, .origins-page, .sources-page) .eyebrow {
   font-size: 0.6875rem;
   line-height: 1.6;
@@ -434,7 +431,6 @@ img {
 .homepage #book h2 + p { font-size: 1.125rem; line-height: 1.5; }
 .homepage #book p.text-accent {
   font-size: 0.6875rem;
-  letter-spacing: 0;
   font-weight: 600;
   line-height: 1.6;
   margin-top: 1.25rem;
@@ -442,7 +438,7 @@ img {
 .homepage #book p.leading-relaxed { font-size: 1rem; line-height: 1.75; margin-top: 1.25rem; }
 .homepage #book .book-cover-shadow { box-shadow: var(--homepage-book-shadow); }
 .homepage #book .border-l-2 { margin-top: 1.5rem; padding-left: 1rem; }
-.homepage #book .border-l-2 p:first-child { letter-spacing: 0; font-size: 0.6875rem; }
+.homepage #book .border-l-2 p:first-child { font-size: 0.6875rem; }
 :is(.homepage, .origins-page, .sources-page) main .flex:has(> a.btn) { gap: 0.625rem; margin-top: 1.75rem; }
 :is(.homepage, .origins-page, .sources-page) .btn { font-size: 0.8125rem; font-weight: 600; padding-inline: 1.125rem; }
 :is(.homepage, .origins-page, .sources-page) .btn-text {
@@ -513,11 +509,10 @@ img {
 .origins-page #book h1 + p { font-size: 1.125rem; line-height: 1.5; }
 .origins-page #book p.text-accent {
   font-size: 0.6875rem;
-  letter-spacing: 0;
   line-height: 1.6;
 }
 .origins-page #book .border-l-2 { margin-top: 1.5rem; padding-left: 1rem; }
-.origins-page #book .border-l-2 p:first-child { font-size: 0.6875rem; letter-spacing: 0; }
+.origins-page #book .border-l-2 p:first-child { font-size: 0.6875rem; }
 .origins-page #description .space-y-6 > :not([hidden]) ~ :not([hidden]),
 .origins-page #about .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 1.25rem; }
 .origins-page #about > .container-narrow { gap: 2rem; }
