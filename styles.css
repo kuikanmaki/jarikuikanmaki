@@ -1186,15 +1186,21 @@ img {
   text-transform: uppercase;
   color: hsl(var(--muted-foreground));
 }
-.sources-page .catalog-card-meta a.catalog-chapter-link {
+.sources-page .catalog-card-meta a.catalog-chapter-link,
+.sources-page .catalog-card-meta a.catalog-sources-link {
   color: inherit;
   text-decoration: none;
 }
 .sources-page .catalog-card-meta a.catalog-chapter-link:hover,
-.sources-page .catalog-card-meta a.catalog-chapter-link:focus-visible {
+.sources-page .catalog-card-meta a.catalog-chapter-link:focus-visible,
+.sources-page .catalog-card-meta a.catalog-sources-link:hover,
+.sources-page .catalog-card-meta a.catalog-sources-link:focus-visible {
   color: hsl(var(--reference-link));
   text-decoration: underline;
   outline: none;
+}
+.sources-page .catalog-card-meta-sep {
+  font-weight: inherit;
 }
 .sources-page .catalog-card-layout {
   display: grid;

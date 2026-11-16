@@ -291,16 +291,35 @@
   }
 
   function renderCardChapterMeta(s) {
-    if (s.chapter == null || Number.isNaN(Number(s.chapter))) return "";
-    var chNum = Number(s.chapter);
-    return (
-      '<p class="catalog-card-meta">' +
-        '<a class="catalog-chapter-link" href="' + escapeHtml(chapterPageHref(chNum)) + '"' +
-          ' data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
-          escapeHtml(chapterLabel(chNum)) +
-        "</a>" +
-      "</p>"
-    );
+    var chNum =
+      s.chapter != null && !Number.isNaN(Number(s.chapter))
+        ? Number(s.chapter)
+        : null;
+    var chapterLink =
+      chNum != null
+        ? '<a class="catalog-chapter-link" href="' + escapeHtml(chapterPageHref(chNum)) + '"' +
+            ' data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
+            escapeHtml(chapterLabel(chNum)) +
+          "</a>"
+        : "";
+    // Source page: "Sources: Chapter N" (Sources replaces the old breadcrumb exit).
+    if (view.mode === "source") {
+      var path = location.pathname || "/origins/sources/";
+      var sourcesLink =
+        '<a class="catalog-sources-link" href="' + escapeHtml(path) + '#sources-top" data-source-exit="search">Sources</a>';
+      if (!chapterLink) {
+        return '<p class="catalog-card-meta">' + sourcesLink + "</p>";
+      }
+      return (
+        '<p class="catalog-card-meta">' +
+          sourcesLink +
+          '<span class="catalog-card-meta-sep">: </span>' +
+          chapterLink +
+        "</p>"
+      );
+    }
+    if (!chapterLink) return "";
+    return '<p class="catalog-card-meta">' + chapterLink + "</p>";
   }
 
   function displayHostFromUrl(url) {
@@ -695,27 +714,16 @@
 
     // Chapter entry keeps Back to top (long notes); source entry hides it.
     backEl.hidden = view.mode === "source";
-    headingEl.hidden = false;
+    // Source page: no heading/breadcrumb — "Sources: Chapter N" lives on the card.
+    headingEl.hidden = view.mode === "source";
     syncSourceHistoryBack();
     syncClearButton();
 
     if (view.mode === "keyword" || view.mode === "explore" || view.mode === "source") {
-      var label;
-      var sourceChapterHtml = "";
+      var label = (view.keyword && view.keyword.label) || "Sources";
       if (view.mode === "source") {
-        // Compact breadcrumb: Book › Sources (Chapter N lives on the card).
-        label = "Sources";
-        var path = location.pathname || "/origins/sources/";
-        sourceChapterHtml =
-          '<a class="sources-crumb" href="/origins/">Origins of Coronavirus</a>' +
-          '<span class="sources-heading-sep"> › </span>' +
-          '<a class="sources-crumb" href="' + escapeHtml(path) + '#sources-top" data-source-exit="search">Sources</a>';
-      } else {
-        label = (view.keyword && view.keyword.label) || "Sources";
-      }
-      if (view.mode === "source") {
-        headingEl.classList.add("sources-heading--breadcrumb");
-        headingEl.innerHTML = '<span class="sources-heading-trail">' + sourceChapterHtml + "</span>";
+        headingEl.classList.remove("sources-heading--breadcrumb");
+        headingEl.innerHTML = "";
       } else {
         headingEl.classList.remove("sources-heading--breadcrumb");
         // Type label deferred until the classification scheme is reviewed.

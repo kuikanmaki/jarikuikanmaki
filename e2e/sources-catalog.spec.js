@@ -196,8 +196,9 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator(".sources-intro")).toBeHidden();
     await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
-    // Chapter lives on the card (same chrome as search), not in the breadcrumb.
-    await expect(page.locator("#sources-heading [data-open-chapter]")).toHaveCount(0);
+    // No breadcrumb heading; card meta is "Sources: Chapter N".
+    await expect(page.locator("#sources-heading")).toBeHidden();
+    await expect(page.locator("#sources-output [data-source-exit=\"search\"]")).toBeVisible();
     await expect(page.locator("#sources-output [data-open-chapter]")).toBeVisible();
     await expect(page.locator("#back-to-top")).toBeHidden();
     // Direct deep link has no same-site history → no ← Back.
