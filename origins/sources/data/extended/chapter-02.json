@@ -45,7 +45,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:dany-shoham"
+          "person:dany-shoham",
+          "person:bill-gertz"
         ],
         "orgs": [
           "org:the-washington-times"
@@ -58,7 +59,9 @@
       "source_key": "ch02-s01",
       "date_iso": "2020-01-26",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:bill-gertz"
+      ],
       "publication_ids": [
         "org:the-washington-times"
       ]
@@ -99,7 +102,9 @@
         "topic:biological-weapons"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:david-hoffman"
+        ],
         "orgs": [
           "org:amazon"
         ],
@@ -112,7 +117,9 @@
       "date_iso": "2009-09-22",
       "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
       "acquisition_note": "Amazon product page; retail landing page, not book text.",
-      "author_ids": [],
+      "author_ids": [
+        "person:david-hoffman"
+      ],
       "publication_ids": []
     },
     {
@@ -155,7 +162,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:ken-alibek"
+          "person:ken-alibek",
+          "person:stephen-handelman"
         ],
         "orgs": [
           "org:biopreparat",
@@ -172,7 +180,8 @@
       "image_url": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
       "acquisition_note": "Amazon product page; retail landing page only.",
       "author_ids": [
-        "person:ken-alibek"
+        "person:ken-alibek",
+        "person:stephen-handelman"
       ],
       "publication_ids": [
         "org:random-house"
@@ -274,7 +283,10 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:michelle-rozo",
+          "person:gigi-kwik-gronvall"
+        ],
         "orgs": [
           "org:mbio"
         ],
@@ -291,7 +303,10 @@
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research"
       ],
-      "author_ids": [],
+      "author_ids": [
+        "person:michelle-rozo",
+        "person:gigi-kwik-gronvall"
+      ],
       "publication_ids": [
         "org:mbio"
       ]

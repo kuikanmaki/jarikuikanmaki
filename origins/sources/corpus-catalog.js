@@ -277,48 +277,30 @@
     };
   }
 
-  function enrichmentBlock(s) {
-    // Chapter expand panel: left text + right thumb (desktop); stacked on mobile.
-    var parts = cardCopyParts(s);
-    var media = cardMedia(s);
-    if (!parts.hasCopy && !media && !parts.embed) return "";
-    var text = parts.hasCopy
-      ? '<div class="catalog-card-copy">' +
-          parts.summary +
-          parts.role +
-          parts.topicLine +
-          parts.statusNote +
-        "</div>"
-      : "";
-    return (
-      '<div class="catalog-card-enrichment">' +
-        (text || media
-          ? '<div class="catalog-card-layout catalog-card-layout--detail' +
-              (media ? " catalog-card-layout--media" : "") +
-            '">' +
-              media +
-              '<div class="catalog-card-rest">' + text + "</div>" +
-            "</div>"
-          : "") +
-        parts.embed +
-      "</div>"
-    );
-  }
-
-  function sourceHasDetail(s) {
-    return !!(
-      s.image_url ||
-      (SHOW_CARD_COPY && s.summary) ||
-      (SHOW_CARD_COPY && s.book_role) ||
-      (s.topics && s.topics.length) ||
-      (s.status && s.status !== "ok") ||
-      hostEmbed(s)
-    );
-  }
-
   function sourcePageHref(sourceKey) {
     if (!sourceKey) return "#";
     return location.pathname + "?source=" + encodeURIComponent(sourceKey);
+  }
+
+  function chapterPageHref(chapterNumber) {
+    return (
+      location.pathname +
+      "?chapter=" +
+      encodeURIComponent(String(chapterNumber))
+    );
+  }
+
+  function renderCardChapterMeta(s) {
+    if (s.chapter == null || Number.isNaN(Number(s.chapter))) return "";
+    var chNum = Number(s.chapter);
+    return (
+      '<p class="catalog-card-meta">' +
+        '<a class="catalog-chapter-link" href="' + escapeHtml(chapterPageHref(chNum)) + '"' +
+          ' data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
+          escapeHtml(chapterLabel(chNum)) +
+        "</a>" +
+      "</p>"
+    );
   }
 
   function displayHostFromUrl(url) {
@@ -404,6 +386,12 @@
       : cardMedia(s);
     var parts = cardCopyParts(s);
     var onSourcePage = view.mode === "source";
+    // Keyword/explore/source: Chapter N on the card (same chrome). Skip hover previews.
+    var chapterMetaHtml =
+      !opts.preview &&
+      (view.mode === "keyword" || view.mode === "explore" || view.mode === "source")
+        ? renderCardChapterMeta(s)
+        : "";
     // Full catalog cards (Source page + search/explore) share the same content chrome.
     // Hover previews stay compact (no Open URL / access line).
     var original = opts.preview
@@ -437,6 +425,7 @@
         : "");
     var cardHtml =
       '<article class="catalog-card' + (opts.preview ? " catalog-card--preview" : "") + '">' +
+        chapterMetaHtml +
         '<div class="catalog-card-layout' + (media ? " catalog-card-layout--media" : "") + '">' +
           '<h3 class="catalog-card-title">' + titleHtml + "</h3>" +
           media +
@@ -471,11 +460,9 @@
       var keyRaw = s.source_key || ("ch" + s.chapter + "-s" + s.id);
       var key = escapeHtml(keyRaw);
       var pageHref = escapeHtml(sourcePageHref(keyRaw));
-      var detail = enrichmentBlock(s);
-      // Expand chevron + detail panel: local review only (same gate as summary/book_role).
-      var hasDetail = SHOW_CARD_COPY && sourceHasDetail(s);
+      // Compact bibliography → Source page (details live there / hover preview).
       return (
-        '<li class="source-item' + (hasDetail ? " source-item-expandable" : "") + '" data-source-key="' + key + '">' +
+        '<li class="source-item" data-source-key="' + key + '">' +
           '<div class="source-item-main">' +
             '<span class="source-id" aria-hidden="true">' + id + ".</span>" +
             '<span class="source-ref">' +
@@ -487,15 +474,7 @@
               "</a>" +
               (external ? " " + openOriginalHtml(external) : "") +
             "</span>" +
-            (hasDetail
-              ? '<button type="button" class="source-expand-btn" aria-expanded="false" aria-controls="detail-' + key + '" title="Show source details" aria-label="Show details for source ' + id + '">' +
-                  '<span class="source-expand-icon" aria-hidden="true"></span>' +
-                "</button>"
-              : "") +
           "</div>" +
-          (hasDetail
-            ? '<div class="source-item-detail" id="detail-' + key + '" hidden>' + detail + "</div>"
-            : "") +
         "</li>"
       );
     }).join("\n");
@@ -724,23 +703,13 @@
       var label;
       var sourceChapterHtml = "";
       if (view.mode === "source") {
-        // Compact breadcrumb: Book › Sources › Chapter N (card title is the leaf).
-        var sourceRow = rows[0];
+        // Compact breadcrumb: Book › Sources (Chapter N lives on the card).
         label = "Sources";
         var path = location.pathname || "/origins/sources/";
         sourceChapterHtml =
           '<a class="sources-crumb" href="/origins/">Origins of Coronavirus</a>' +
           '<span class="sources-heading-sep"> › </span>' +
           '<a class="sources-crumb" href="' + escapeHtml(path) + '#sources-top" data-source-exit="search">Sources</a>';
-        if (sourceRow && sourceRow.chapter != null && !Number.isNaN(Number(sourceRow.chapter))) {
-          var chNum = Number(sourceRow.chapter);
-          var chHref = path + "?chapter=" + encodeURIComponent(String(chNum));
-          sourceChapterHtml +=
-            '<span class="sources-heading-sep"> › </span>' +
-            '<a class="sources-crumb" href="' + escapeHtml(chHref) + '" data-open-chapter="' + escapeHtml(String(chNum)) + '">' +
-              escapeHtml(chapterLabel(chNum)) +
-            "</a>";
-        }
       } else {
         label = (view.keyword && view.keyword.label) || "Sources";
       }
@@ -1785,19 +1754,12 @@
       if (khit) openKeyword(khit, "keyword");
       return;
     }
-    var btn = e.target.closest(".source-expand-btn");
-    if (!btn) return;
-    e.preventDefault();
-    var item = btn.closest(".source-item-expandable");
-    if (!item) return;
-    var detail = item.querySelector(".source-item-detail");
-    if (!detail) return;
-    var open = btn.getAttribute("aria-expanded") === "true";
-    btn.setAttribute("aria-expanded", open ? "false" : "true");
-    detail.hidden = open;
-    item.classList.toggle("is-expanded", !open);
-    btn.title = open ? "Show source details" : "Hide source details";
-    if (!open) ensureTwitterWidgets(detail);
+    var chapterLink = e.target.closest("[data-open-chapter]");
+    if (chapterLink && outEl.contains(chapterLink)) {
+      e.preventDefault();
+      var chapterNum = Number(chapterLink.getAttribute("data-open-chapter"));
+      if (!Number.isNaN(chapterNum)) openChapter(chapterNum, { entry: true });
+    }
   });
 
   notesEl.addEventListener("click", function (e) {

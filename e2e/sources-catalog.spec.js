@@ -196,12 +196,14 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator(".sources-intro")).toBeHidden();
     await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
-    await expect(page.locator("#sources-heading [data-open-chapter]")).toBeVisible();
+    // Chapter lives on the card (same chrome as search), not in the breadcrumb.
+    await expect(page.locator("#sources-heading [data-open-chapter]")).toHaveCount(0);
+    await expect(page.locator("#sources-output [data-open-chapter]")).toBeVisible();
     await expect(page.locator("#back-to-top")).toBeHidden();
     // Direct deep link has no same-site history → no ← Back.
     await expect(page.locator("#sources-history-back")).toBeHidden();
 
-    await page.locator("#sources-heading [data-open-chapter]").click();
+    await page.locator("#sources-output [data-open-chapter]").click();
     await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
     await expect(page).toHaveURL(new RegExp(`[?&]chapter=${sample.chapter}\\b`));
 

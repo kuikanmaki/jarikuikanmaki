@@ -574,7 +574,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:david-rising"
+        ],
         "orgs": [
           "org:associated-press"
         ],
@@ -587,7 +589,9 @@
       "source_key": "ch18-s12",
       "date_iso": "2022-03-11",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:david-rising"
+      ],
       "publication_ids": [
         "org:associated-press"
       ]

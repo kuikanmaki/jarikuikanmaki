@@ -216,7 +216,11 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ensheng-dong",
+          "person:hongru-du",
+          "person:lauren-gardner"
+        ],
         "orgs": [],
         "places": [
           "place:united-states",
@@ -226,7 +230,11 @@
       "source_key": "ch04-s04",
       "date_iso": "2020-02-19",
       "acquisition_note": "Full text was not retrieved (paywall/chrome only).",
-      "author_ids": [],
+      "author_ids": [
+        "person:ensheng-dong",
+        "person:hongru-du",
+        "person:lauren-gardner"
+      ],
       "publication_ids": []
     },
     {
@@ -323,7 +331,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:victor-ting"
+        ],
         "orgs": [
           "org:south-china-morning-post"
         ],
@@ -337,7 +347,9 @@
       "date_iso": "2020-01-27",
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&amp;v=1580140381",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:victor-ting"
+      ],
       "publication_ids": [
         "org:south-china-morning-post"
       ]
@@ -422,7 +434,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:nassim-nicholas-taleb"
+          "person:nassim-nicholas-taleb",
+          "person:joseph-norman"
         ],
         "orgs": [],
         "places": [
@@ -433,7 +446,9 @@
       "source_key": "ch04-s08",
       "date_iso": "2020-01-26",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:joseph-norman"
+      ],
       "publication_ids": []
     },
     {
@@ -736,7 +751,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:mirja-rintala"
+        ],
         "orgs": [
           "org:who"
         ],
@@ -748,7 +765,9 @@
       "date_iso": "2020-01-31",
       "image_url": "https://images.sanoma-sndp.fi/485bc57b785e4d1cb1c0025ca0a8acba.jpg/some/is-default.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:mirja-rintala"
+      ],
       "publication_ids": []
     },
     {
@@ -786,7 +805,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:trevor-bedford"
+          "person:trevor-bedford",
+          "person:emma-hodcroft"
         ],
         "orgs": [],
         "places": []
@@ -796,7 +816,8 @@
       "image_url": "https://nextstrain.org/dist/13fec0d41212fe68ae22.png",
       "acquisition_note": "",
       "author_ids": [
-        "person:trevor-bedford"
+        "person:trevor-bedford",
+        "person:emma-hodcroft"
       ],
       "publication_ids": []
     }

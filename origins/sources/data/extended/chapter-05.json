@@ -165,7 +165,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:lisa-beilfuss"
+        ],
         "orgs": [],
         "places": [
           "place:china"
@@ -175,7 +177,9 @@
       "date_iso": "2020-02-13",
       "image_url": "https://images.barrons.com/im-154315/?width=639&height=426",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:lisa-beilfuss"
+      ],
       "publication_ids": []
     },
     {
@@ -287,7 +291,9 @@
         "place:huanan-seafood-market"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ross-ibbetson"
+        ],
         "orgs": [
           "org:daily-mail",
           "org:wuhan-institute-of-virology"
@@ -302,7 +308,9 @@
       "source_key": "ch05-s05",
       "date_iso": "2020-02-16",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:ross-ibbetson"
+      ],
       "publication_ids": [
         "org:daily-mail"
       ],

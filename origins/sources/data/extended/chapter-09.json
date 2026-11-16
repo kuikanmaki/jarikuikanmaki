@@ -42,7 +42,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:tedros-adhanom-ghebreyesus"
+          "person:tedros-adhanom-ghebreyesus",
+          "person:sarah-boseley"
         ],
         "orgs": [
           "org:the-guardian",
@@ -61,7 +62,9 @@
       "date_iso": "2021-01-05",
       "image_url": "https://i.guim.co.uk/img/media/1cbf118f5bcae0749bf1670e24ba6fd99f28439f/210_31_1505_903/master/1505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=45f17cd2647be2c8a7b5d64656aee188",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:sarah-boseley"
+      ],
       "publication_ids": [
         "org:the-guardian"
       ]
@@ -100,7 +103,10 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:sam-mcneil",
+          "person:huizhong-wu"
+        ],
         "orgs": [
           "org:associated-press",
           "org:who"
@@ -113,7 +119,10 @@
       "source_key": "ch09-s02",
       "date_iso": "2021-01-14",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:sam-mcneil",
+        "person:huizhong-wu"
+      ],
       "publication_ids": [
         "org:associated-press"
       ]
@@ -163,7 +172,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:michelle-roberts"
         ],
         "orgs": [
           "org:who",
@@ -179,7 +189,9 @@
       "date_iso": "2021-02-09",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/171C2/production/_116885649_mediaitem116885648.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:michelle-roberts"
+      ],
       "publication_ids": [
         "org:bbc-news"
       ]
@@ -296,7 +308,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:donald-trump"
+          "person:donald-trump",
+          "person:sarah-owermohle"
         ],
         "orgs": [
           "org:nih",
@@ -311,7 +324,9 @@
       "source_key": "ch09-s05",
       "date_iso": "2020-04-27",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:sarah-owermohle"
+      ],
       "publication_ids": [
         "org:politico"
       ]
@@ -416,7 +431,8 @@
       "entity_ids": {
         "people": [
           "person:anthony-fauci",
-          "person:joe-biden"
+          "person:joe-biden",
+          "person:kenya-evelyn"
         ],
         "orgs": [
           "org:the-guardian"
@@ -429,7 +445,9 @@
       "date_iso": "2020-12-04",
       "image_url": "https://i.guim.co.uk/img/media/936eb15416a692d2f2f32c7ac6692c706bd5c070/0_120_3600_2161/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c47e1df9362b0549859622cee80a96e4",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:kenya-evelyn"
+      ],
       "publication_ids": [
         "org:the-guardian"
       ]
@@ -599,7 +617,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:jonathan-bucks"
         ],
         "orgs": [
           "org:daily-mail",
@@ -613,7 +632,9 @@
       "source_key": "ch09-s10",
       "date_iso": "2021-01-09",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:jonathan-bucks"
+      ],
       "publication_ids": [
         "org:daily-mail"
       ],
@@ -651,7 +672,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:guy-rosen"
+        ],
         "orgs": [
           "org:meta",
           "org:who"
@@ -662,7 +685,9 @@
       "date_iso": "2020-04-16",
       "image_url": "https://about.fb.com/wp-content/uploads/2020/04/NRP-COVID_Misinfo_Update_inline-1.jpg?resize=960%2C640",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:guy-rosen"
+      ],
       "publication_ids": [
         "org:meta"
       ]
@@ -900,7 +925,10 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:amy-dockser-marcus",
+          "person:betsy-mckay"
+        ],
         "orgs": [
           "org:the-wall-street-journal",
           "org:science",
@@ -915,7 +943,10 @@
       "date_iso": "2021-05-13",
       "image_url": "https://images.wsj.net/im-86307786?width=330&height=185",
       "acquisition_note": "Opening paragraphs retrieved before the paywall.",
-      "author_ids": [],
+      "author_ids": [
+        "person:amy-dockser-marcus",
+        "person:betsy-mckay"
+      ],
       "publication_ids": [
         "org:the-wall-street-journal"
       ]
@@ -942,6 +973,7 @@
       ],
       "entities": {
         "people": [
+          "Jesse Bloom",
           "Jesse D. Bloom"
         ],
         "orgs": [
@@ -954,7 +986,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jesse-bloom"
+        ],
         "orgs": [
           "org:science",
           "org:who"
@@ -968,7 +1002,9 @@
       "date_iso": "2021-05-14",
       "image_url": "https://www.science.org/cms/asset/2b03471c-1d31-4cfd-9cda-a9eb9a0c4f00/science.2021.372.issue-6543.cover.gif",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:jesse-bloom"
+      ],
       "publication_ids": [
         "org:science"
       ]
@@ -995,6 +1031,7 @@
       ],
       "entities": {
         "people": [
+          "Michael Gordon",
           "Michael R. Gordon"
         ],
         "orgs": [
@@ -1012,7 +1049,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:michael-gordon"
+        ],
         "orgs": [
           "org:the-wall-street-journal",
           "org:wuhan-institute-of-virology",
@@ -1028,7 +1067,9 @@
       "date_iso": "2021-05-23",
       "image_url": "https://images.wsj.net/im-86307786?width=330&height=185",
       "acquisition_note": "Partial text before paywall.",
-      "author_ids": [],
+      "author_ids": [
+        "person:michael-gordon"
+      ],
       "publication_ids": [
         "org:the-wall-street-journal"
       ]

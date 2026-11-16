@@ -106,7 +106,10 @@
         "place:italy"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jane-chung",
+          "person:emily-chow"
+        ],
         "orgs": [
           "org:reuters"
         ],
@@ -119,7 +122,10 @@
       "date_iso": "2020-02-23",
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F02%2F23%2FLYNXNPEG1M040.JPG?auth=49b18298f5af325ef079933b8d06aa148d995c7944783d1299272145c2011951&width=1080&quality=80",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:jane-chung",
+        "person:emily-chow"
+      ],
       "publication_ids": [
         "org:reuters"
       ]

@@ -233,7 +233,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:glen-owen"
+          "person:glen-owen",
+          "person:jake-ryan"
         ],
         "orgs": [
           "org:daily-mail",
@@ -248,7 +249,8 @@
       "date_iso": "2021-02-13",
       "acquisition_note": "",
       "author_ids": [
-        "person:glen-owen"
+        "person:glen-owen",
+        "person:jake-ryan"
       ],
       "publication_ids": [
         "org:daily-mail"
@@ -408,7 +410,9 @@
       },
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:sharon-lerner",
+          "person:mara-hvistendahl"
         ],
         "orgs": [
           "org:the-intercept",
@@ -425,7 +429,10 @@
       "date_iso": "2021-09-06",
       "image_url": "https://theintercept.com/wp-content/uploads/2021/09/GettyImages-1230940643-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:sharon-lerner",
+        "person:mara-hvistendahl"
+      ],
       "publication_ids": [
         "org:the-intercept"
       ]
@@ -535,7 +542,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:danielle-anderson"
+          "person:danielle-anderson",
+          "person:paul-d-thacker"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
@@ -549,7 +557,9 @@
       "date_iso": "2022-09-20",
       "image_url": "https://substackcdn.com/image/fetch/$s_!fqa5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F91060aa8-e7e7-4a09-ae77-0bb6da044daa_852x806.jpeg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:paul-d-thacker"
+      ],
       "publication_ids": [
         "org:substack"
       ]

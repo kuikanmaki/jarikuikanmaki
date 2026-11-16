@@ -664,6 +664,7 @@
       "entities": {
         "people": [
           "Li Wenliang",
+          "Jianxing Tan",
           "Tan Jianxing"
         ],
         "orgs": [
@@ -680,7 +681,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:li-wenliang"
+          "person:li-wenliang",
+          "person:jianxing-tan"
         ],
         "orgs": [
           "org:wuhan-central-hospital"
@@ -693,7 +695,9 @@
       "source_key": "ch00-s11",
       "date_iso": "2020-01-31",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:jianxing-tan"
+      ],
       "publication_ids": [],
       "image_url": "https://web.archive.org/web/20200524103853/https://showimg.caixin.com/dolphinfile/caixin/2020/05/0_203.jpg"
     },

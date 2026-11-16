@@ -28,10 +28,31 @@ ORG_HINTS = re.compile(
     r"office|house|senate|congress|organization|organisation|who|cdc|nih|"
     r"niaid|bbc|reuters|associated press|news|police|bureau|alliance|"
     r"foundation|trust|journal|nature|science|lancet|promed|genbank|"
-    r"government|administration|council|laboratory|lab\b|center|centre"
+    r"government|administration|council|laboratory|lab\b|center|centre|"
+    r"press\b|symposium"
     r")\b",
     re.I,
 )
+
+def looks_like_handle(name: str) -> bool:
+    """@user, HumbleScientist, TheSeeker268 — not 'Betsy McKay'."""
+    s = (name or "").strip()
+    if not s or " " in s or "," in s:
+        return s.startswith("@")
+    if s.startswith("@"):
+        return True
+    # CamelCase or letters+digits single token
+    return bool(re.fullmatch(r"[A-Za-z]*[a-z][A-Z][A-Za-z0-9]*", s)) or bool(
+        re.fullmatch(r"[A-Za-z]+\d+", s)
+    )
+
+
+def is_initial_token(tok: str) -> bool:
+    """True for B, L., X.Y., Z.-L. — not for Yu, Ed, Amy."""
+    letters = re.findall(r"[A-Za-z]+", tok or "")
+    if not letters:
+        return False
+    return all(len(g) == 1 for g in letters)
 
 
 def norm(s: str) -> str:
@@ -92,6 +113,62 @@ def looks_like_person(name: str) -> bool:
     return 2 <= len(parts) <= 4 and all(p[:1].isalpha() for p in parts)
 
 
+def _given_tokens(name: str) -> list[str]:
+    if name.count(",") == 1:
+        _last, rest = [x.strip() for x in name.split(",", 1)]
+        return [t for t in re.split(r"\s+", rest) if t]
+    parts = name.split()
+    return parts[:-1] if len(parts) >= 2 else []
+
+
+def looks_like_clear_person(name: str) -> bool:
+    """Person-like name with a real given name (not handle / initials-only)."""
+    if not looks_like_person(name):
+        return False
+    if looks_like_handle(name):
+        return False
+    given = _given_tokens(name)
+    if not given:
+        return False
+    # At least one given-name token with 2+ letters (Anthony, Chaolin) — not only B / X.Y.
+    return any(not is_initial_token(tok) and len(re.sub(r"[^A-Za-z]", "", tok)) >= 2 for tok in given)
+
+
+def strip_initial_tokens(name: str) -> str | None:
+    """'Anthony S. Fauci' / 'Fauci, Anthony S.' → drop single-letter initials."""
+    natural = natural_from_inverted(name) or name
+    parts = [p for p in natural.split() if p]
+    if len(parts) < 2:
+        return None
+    kept = []
+    for i, p in enumerate(parts):
+        # Keep surname (last) always; drop middle/first initial tokens.
+        if i == len(parts) - 1:
+            kept.append(p)
+            continue
+        if is_initial_token(p):
+            continue
+        kept.append(p)
+    if len(kept) < 2:
+        return None
+    return " ".join(kept)
+
+
+def extract_inverted_pairs(text: str) -> list[str]:
+    """'Dong, Ensheng, Du, Hongru' → ['Dong, Ensheng', 'Du, Hongru'] when evenly paired."""
+    parts = [p.strip() for p in text.split(",") if p.strip()]
+    if len(parts) < 2 or len(parts) % 2 != 0:
+        return []
+    pairs: list[str] = []
+    for i in range(0, len(parts), 2):
+        last, first = parts[i], parts[i + 1]
+        # Surname should be a single token; given may include initials (Jesse D.).
+        if " " in last or not last or not first:
+            return []
+        pairs.append(f"{last}, {first}")
+    return pairs
+
+
 def parse_author_string(author: str) -> list[str]:
     """Return ordered contributor name strings (bibliographic tokens)."""
     if not (author or "").strip():
@@ -121,20 +198,25 @@ def parse_author_string(author: str) -> list[str]:
         right = text[m.end() :].strip(" ,")
         out = []
         if left:
-            # Handle "Dong, Ensheng, Du, Hongru" before ", and Gardner, Lauren"
-            # If left has multiple inverted pairs, keep first pair only for identity linking.
-            inv = re.match(r"^([^,]+),\s*([^,]+)$", left)
-            if inv:
-                out.append(left)
+            pairs = extract_inverted_pairs(left)
+            if pairs:
+                out.extend(pairs)
             else:
-                # take first Last, First
-                m2 = re.match(r"^([^,]+),\s*([^,]+)", left)
-                if m2:
-                    out.append(f"{m2.group(1).strip()}, {m2.group(2).strip()}")
-                else:
+                inv = re.match(r"^([^,]+),\s*([^,]+)$", left)
+                if inv:
                     out.append(left)
+                else:
+                    m2 = re.match(r"^([^,]+),\s*([^,]+)", left)
+                    if m2:
+                        out.append(f"{m2.group(1).strip()}, {m2.group(2).strip()}")
+                    else:
+                        out.append(left)
         if right:
-            out.append(right)
+            right_pairs = extract_inverted_pairs(right)
+            if right_pairs:
+                out.extend(right_pairs)
+            else:
+                out.append(right)
         return out[:12]
 
     # "First Last and First2 Last2"
@@ -194,6 +276,14 @@ class AuthorityResolver:
             hit = self._unique_person_token_match(natural)
             if hit:
                 return hit
+            stripped = strip_initial_tokens(natural)
+            if stripped and norm(stripped) != norm(natural):
+                hit = self.alias.get(norm(stripped))
+                if hit:
+                    return hit
+                hit = self._unique_person_token_match(stripped)
+                if hit:
+                    return hit
         inverted = inverted_from_natural(name)
         if inverted:
             hit = self.alias.get(norm(inverted))
@@ -203,6 +293,14 @@ class AuthorityResolver:
             hit = self._unique_person_token_match(name)
             if hit:
                 return hit
+            stripped = strip_initial_tokens(name)
+            if stripped and norm(stripped) != norm(name):
+                hit = self.alias.get(norm(stripped))
+                if hit:
+                    return hit
+                hit = self._unique_person_token_match(stripped)
+                if hit:
+                    return hit
         return None
 
     def _unique_person_token_match(self, name: str) -> str | None:
@@ -215,7 +313,6 @@ class AuthorityResolver:
                 continue
             pref_tokens = set(norm(item.get("prefLabel") or "").split())
             if tokens <= pref_tokens and tokens & pref_tokens:
-                # require last token match when inverted-style natural form
                 hits.append(cid)
         if len(hits) == 1:
             return hits[0]
@@ -357,17 +454,28 @@ def main() -> None:
             for name in names:
                 contrib_freq[name] += 1
 
-    # Mint frequent unmatched person contributors
+    # Mint unmatched clear person names (including single-occurrence bylines).
+    # Skip handles, initials-only tokens, and org-like strings.
     minted_people = []
     for name, count in contrib_freq.most_common():
-        if count < 2:
-            continue
         if resolver.resolve(name):
             continue
-        if not looks_like_person(name):
+        if not looks_like_clear_person(name):
             continue
         item = resolver.mint_person(name)
         minted_people.append((name, item["id"], count))
+
+    # Mint clear org bylines that appear as the whole author string.
+    minted_orgs = []
+    for name, count in contrib_freq.most_common():
+        if resolver.resolve(name):
+            continue
+        if not ORG_HINTS.search(name):
+            continue
+        if re.search(r",\s*and\s+|\sand\s+|;", name, re.I):
+            continue
+        item = resolver.mint_org(name)
+        minted_orgs.append((name, item["id"], count))
 
     # Apply links on every source
     stats = Counter()
@@ -456,6 +564,9 @@ def main() -> None:
         "minted_people": [
             {"name": n, "id": i, "count": c} for n, i, c in minted_people
         ],
+        "minted_orgs": [
+            {"name": n, "id": i, "count": c} for n, i, c in minted_orgs
+        ],
         "unresolved_top": unresolved_samples.most_common(40),
         "person_authority_count": len(master["authorities"]["person"]),
         "org_authority_count": len(master["authorities"]["org"]),
@@ -466,6 +577,9 @@ def main() -> None:
     print(json.dumps(report["stats"], indent=2))
     print("minted_people", len(minted_people))
     for row in minted_people[:20]:
+        print(" ", row)
+    print("minted_orgs", len(minted_orgs))
+    for row in minted_orgs[:20]:
         print(" ", row)
     print("unresolved_top:")
     for name, c in unresolved_samples.most_common(20):

@@ -1946,6 +1946,16 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "org:cell-press",
+      "prefLabel": "Cell Press",
+      "indexTerm": "Cell Press",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

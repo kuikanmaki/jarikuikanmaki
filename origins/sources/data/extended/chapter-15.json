@@ -49,7 +49,9 @@
         "org:drastic"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ed-browne"
+        ],
         "orgs": [
           "org:darpa",
           "org:ecohealth-alliance",
@@ -66,7 +68,9 @@
       "date_iso": "2021-09-22",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1899730-wuhan-institute-virology.jpg?w=1200&amp;crop=1",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:ed-browne"
+      ],
       "publication_ids": [
         "org:newsweek"
       ]
@@ -110,7 +114,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:jeffrey-sachs"
+          "person:jeffrey-sachs",
+          "person:nathan-robinson"
         ],
         "orgs": [
           "org:the-lancet"
@@ -123,7 +128,9 @@
       "date_iso": "2022-08-02",
       "image_url": "https://www.currentaffairs.org/hubfs/Imported_Blog_Media/jeffsachs-1024x646.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:nathan-robinson"
+      ],
       "publication_ids": []
     },
     {
@@ -226,7 +233,9 @@
         "place:united-states"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:stephanie-richards"
+        ],
         "orgs": [
           "org:pmc"
         ],
@@ -237,7 +246,9 @@
       "source_key": "ch15-s04",
       "date_iso": "2014-03-06",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:stephanie-richards"
+      ],
       "publication_ids": []
     },
     {
@@ -330,7 +341,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:dezhong-xu"
+        ],
         "orgs": [],
         "places": [
           "place:china"
@@ -339,7 +352,9 @@
       "source_key": "ch15-s06",
       "date_iso": "2015",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:dezhong-xu"
+      ],
       "publication_ids": []
     },
     {

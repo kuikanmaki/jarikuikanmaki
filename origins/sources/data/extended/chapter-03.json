@@ -43,7 +43,9 @@
         "place:wuhan"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:chaolin-huang"
+        ],
         "orgs": [
           "org:the-lancet"
         ],
@@ -55,7 +57,9 @@
       "source_key": "ch03-s01",
       "date_iso": "2020-01-24",
       "acquisition_note": "Full text was not retrieved (paywall/chrome only).",
-      "author_ids": [],
+      "author_ids": [
+        "person:chaolin-huang"
+      ],
       "publication_ids": [
         "org:the-lancet"
       ]
@@ -279,7 +283,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:anthony-fauci"
+          "person:anthony-fauci",
+          "person:grace-curley"
         ],
         "orgs": [
           "org:niaid"
@@ -292,7 +297,9 @@
       "date_iso": "2022-10-03",
       "image_url": "https://www.bostonherald.com/wp-content/uploads/2022/09/fauci-first-pitch-mariners.jpg?w=4472&#038;h=2981",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:grace-curley"
+      ],
       "publication_ids": []
     },
     {
@@ -662,7 +669,8 @@
           "person:vineet-menachery",
           "person:ralph-baric",
           "person:anthony-fauci",
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:matt-frieman"
         ],
         "orgs": [
           "org:u-s-right-to-know",
@@ -676,7 +684,9 @@
       "source_key": "ch03-s11",
       "date_iso": "2020-02-18",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:matt-frieman"
+      ],
       "publication_ids": []
     },
     {

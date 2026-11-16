@@ -216,7 +216,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:danielle-anderson"
+          "person:danielle-anderson",
+          "person:michelle-fay-cortez"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology"
@@ -230,7 +231,9 @@
       "date_iso": "2021-06-28",
       "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8J6oFkzuFyg/v0/-1x-1.webp",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:michelle-fay-cortez"
+      ],
       "publication_ids": []
     },
     {

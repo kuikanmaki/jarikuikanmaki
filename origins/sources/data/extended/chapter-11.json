@@ -507,7 +507,9 @@
         "org:chinese-center-for-disease-control-and-prevention"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:canping-huang"
+        ],
         "orgs": [
           "org:chinese-center-for-disease-control-and-prevention",
           "org:documentcloud"
@@ -519,7 +521,9 @@
       "source_key": "ch11-s09",
       "date_iso": "2016-06",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:canping-huang"
+      ],
       "publication_ids": []
     },
     {
@@ -560,7 +564,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:zhong-nanshan"
+          "person:zhong-nanshan",
+          "person:margaret-chan"
         ],
         "orgs": [],
         "places": [
@@ -572,7 +577,9 @@
       "date_iso": "2020-09-22",
       "image_url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltdfd478ef99673df1/698a124d457a526b50d646a9/time-100-Zhong-Nanshan.jpg?branch=production&amp;width=2400&amp;quality=75&amp;auto=webp&amp;crop=16:9",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:margaret-chan"
+      ],
       "publication_ids": []
     },
     {
@@ -741,7 +748,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:yawen-chen"
+          "person:yawen-chen",
+          "person:cate-cadell"
         ],
         "orgs": [
           "org:reuters"
@@ -757,6 +765,7 @@
       "image_url": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F04%2F08%2FLYNXMPEG370GA.JPG?auth=dbfb0fe44bd5097ea5e92894d6d57c5bc1a3518d93326820fa9f84b58e50559e&width=1080&quality=80",
       "acquisition_note": "",
       "author_ids": [
+        "person:cate-cadell",
         "person:yawen-chen"
       ],
       "publication_ids": [
@@ -804,7 +813,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:xing-yi-ge"
         ],
         "orgs": [
           "org:nature",
@@ -818,7 +828,9 @@
       "date_iso": "2013-10-30",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnature12711/MediaObjects/41586_2013_Article_BFnature12711_Fig1_HTML.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:xing-yi-ge"
+      ],
       "publication_ids": [
         "org:nature"
       ]
@@ -857,7 +869,9 @@
         "topic:furin-cleavage-site"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:kathryn-follis"
+        ],
         "orgs": [
           "org:pmc"
         ],
@@ -866,7 +880,9 @@
       "source_key": "ch11-s15",
       "date_iso": "2006-07-05",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:kathryn-follis"
+      ],
       "publication_ids": []
     },
     {
@@ -948,9 +964,13 @@
       "source_key": "ch11-s17",
       "date_iso": "2020-02-26",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:shan-lu-liu"
+      ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:shan-lu-liu"
+        ],
         "orgs": [],
         "places": []
       },
@@ -992,7 +1012,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:shannon-murray"
+        ],
         "orgs": [
           "org:u-s-right-to-know"
         ],
@@ -1002,7 +1024,9 @@
       "date_iso": "2021-08-11",
       "image_url": "https://usrtk.org/wp-content/uploads/2021/04/EMI-cover-e1628731989446.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:shannon-murray"
+      ],
       "publication_ids": [
         "org:u-s-right-to-know"
       ]
@@ -1042,7 +1066,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:yawen-chen"
+          "person:yawen-chen",
+          "person:dake-kang"
         ],
         "orgs": [
           "org:associated-press"
@@ -1056,6 +1081,7 @@
       "date_iso": "2020-12-30",
       "acquisition_note": "",
       "author_ids": [
+        "person:dake-kang",
         "person:yawen-chen"
       ],
       "publication_ids": []

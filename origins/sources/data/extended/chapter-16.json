@@ -47,7 +47,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:samuel-chamberlain"
         ],
         "orgs": [
           "org:ecohealth-alliance",
@@ -62,7 +63,9 @@
       "date_iso": "2021-07-01",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2021/07/pentagon-ecohealth-alliance-696.jpg?quality=75&#038;strip=all&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:samuel-chamberlain"
+      ],
       "publication_ids": [
         "org:new-york-post"
       ]
@@ -108,7 +111,9 @@
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:mara-hvistendahl",
+          "person:sharon-lerner"
         ],
         "orgs": [
           "org:the-intercept",
@@ -124,7 +129,10 @@
       "date_iso": "2021-10-01",
       "image_url": "https://theintercept.com/wp-content/uploads/2021/10/2CTT5TC-crop.jpg?fit=2000%2C1000&#038;w=1200&#038;h=800",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:mara-hvistendahl",
+        "person:sharon-lerner"
+      ],
       "publication_ids": [
         "org:the-intercept"
       ]
@@ -421,7 +429,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:jinlong-cheng"
+        ],
         "orgs": [
           "org:pmc"
         ],
@@ -432,7 +442,9 @@
       "source_key": "ch16-s08",
       "date_iso": "2019-10-22",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:jinlong-cheng"
+      ],
       "publication_ids": []
     },
     {
@@ -466,7 +478,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:fernando-almazan"
+        ],
         "orgs": [
           "org:pmc"
         ],
@@ -478,7 +492,9 @@
       "source_key": "ch16-s09",
       "date_iso": "2014-06-12",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:fernando-almazan"
+      ],
       "publication_ids": []
     },
     {
@@ -581,7 +597,10 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:philip-willan",
+          "person:didi-tang"
+        ],
         "orgs": [
           "org:the-times",
           "org:wuhan-institute-of-virology",
@@ -596,7 +615,10 @@
       "date_iso": "2021-06-21",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/a1c7dba2-d262-11eb-b50d-ece47261907f.jpg?amp;sourceHeight=3093&#038;strip=all&#038;format=webp&#038;crop=0px%2C242px%2C4639px%2C2610px&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:philip-willan",
+        "person:didi-tang"
+      ],
       "publication_ids": [
         "org:the-times"
       ]

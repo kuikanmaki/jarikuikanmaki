@@ -209,7 +209,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:cristiano-lima"
+        ],
         "orgs": [
           "org:meta",
           "org:politico"
@@ -222,7 +224,9 @@
       "date_iso": "2021-05-26",
       "image_url": "https://static.politico.com/34/89/1f62aabb49b8abc45f32fff85523/ap21076642655125.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:cristiano-lima"
+      ],
       "publication_ids": [
         "org:politico"
       ]
@@ -267,7 +271,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:tom-cotton"
+          "person:tom-cotton",
+          "person:olafimihan-oshin"
         ],
         "orgs": [
           "org:the-washington-post"
@@ -281,7 +286,9 @@
       "date_iso": "2021-06-01",
       "image_url": "https://i0.wp.com/thehill.com/wp-content/uploads/sites/2/2021/05/cottontom_051821gn_lead.jpg?w=2000&ssl=1",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:olafimihan-oshin"
+      ],
       "publication_ids": []
     },
     {
@@ -380,7 +387,9 @@
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:eliza-barclay"
+        ],
         "orgs": [
           "org:vox"
         ],
@@ -392,7 +401,9 @@
       "source_key": "ch10-s07",
       "date_iso": "2021-05-25",
       "acquisition_note": "Scraped via browser (Firecrawl blocked this host with HTTP 403).",
-      "author_ids": [],
+      "author_ids": [
+        "person:eliza-barclay"
+      ],
       "publication_ids": [
         "org:vox"
       ],
@@ -609,7 +620,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:sarah-knapton"
+        ],
         "orgs": [
           "org:the-telegraph"
         ],
@@ -622,7 +635,9 @@
       "source_key": "ch10-s11",
       "date_iso": "2021-09-10",
       "acquisition_note": "Live URL blocked (Akamai); replaced with earliest Internet Archive capture. Scraped via browser.",
-      "author_ids": [],
+      "author_ids": [
+        "person:sarah-knapton"
+      ],
       "publication_ids": [
         "org:the-telegraph"
       ]
@@ -842,7 +857,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:gilles-demaneuf"
+          "person:gilles-demaneuf",
+          "person:charles-small"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
@@ -858,7 +874,9 @@
       "date_iso": "2021-02",
       "image_url": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:charles-small"
+      ],
       "publication_ids": [
         "org:researchgate"
       ]
@@ -897,7 +915,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:miranda-devine"
+        ],
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:who",
@@ -912,7 +932,9 @@
       "date_iso": "2020-05-06",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2020/05/china-coronavirus.jpg?quality=75&#038;strip=all&#038;w=1200",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:miranda-devine"
+      ],
       "publication_ids": [
         "org:new-york-post"
       ]
@@ -1099,7 +1121,8 @@
         "people": [
           "person:kristian-andersen",
           "person:robert-garry",
-          "person:anthony-fauci"
+          "person:anthony-fauci",
+          "person:ryan-grim"
         ],
         "orgs": [
           "org:the-intercept",
@@ -1114,7 +1137,9 @@
       "date_iso": "2023-07-21",
       "image_url": "https://theintercept.com/wp-content/uploads/2023/07/GettyImages-1534048302gary-anderson-origin-covid.jpg?fit=4696%2C2348&#038;w=1200&#038;h=800",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:ryan-grim"
+      ],
       "publication_ids": [
         "org:the-intercept"
       ]

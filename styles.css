@@ -1166,7 +1166,7 @@ img {
   gap: 0.75rem;
 }
 .sources-page .catalog-card {
-  padding: 1.25rem 1.05rem 1rem;
+  padding: 1rem 1.05rem;
   border: 1px solid hsl(var(--border));
   border-radius: calc(var(--radius) + 0.125rem);
   background: hsl(var(--background));
@@ -1184,6 +1184,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: hsl(var(--muted-foreground));
+}
+.sources-page .catalog-card-meta a.catalog-chapter-link {
+  color: inherit;
+  text-decoration: none;
+}
+.sources-page .catalog-card-meta a.catalog-chapter-link:hover,
+.sources-page .catalog-card-meta a.catalog-chapter-link:focus-visible {
+  color: hsl(var(--reference-link));
+  text-decoration: underline;
+  outline: none;
 }
 .sources-page .catalog-card-layout {
   display: grid;
@@ -1207,9 +1217,6 @@ img {
 .sources-page .catalog-card-layout--media > .catalog-card-rest {
   grid-area: rest;
 }
-.sources-page .catalog-card-layout--detail.catalog-card-layout--media {
-  grid-template-areas: "rest media";
-}
 .sources-page .catalog-card-rest {
   display: flex;
   flex-direction: column;
@@ -1229,10 +1236,14 @@ img {
   text-decoration: none;
 }
 .sources-page .catalog-card-title a:hover { text-decoration: underline; }
-.sources-page .catalog-card-biblio {
+/* #sources-output p { margin-block: 1rem } — beat it so card rows use layout/rest gap only. */
+.sources-page #sources-output .catalog-card-biblio,
+.sources-page #sources-output .catalog-card-actions {
   margin: 0;
   font-size: 0.8125rem;
   line-height: 1.4;
+}
+.sources-page .catalog-card-biblio {
   color: hsl(var(--muted-foreground));
 }
 .sources-page .catalog-card-biblio a.catalog-keyword-link {
@@ -1244,11 +1255,6 @@ img {
 .sources-page .catalog-card-biblio a.catalog-keyword-link:focus-visible {
   text-decoration: underline;
   outline: none;
-}
-.sources-page .catalog-card-actions {
-  margin: 0.35rem 0 0;
-  font-size: 0.8125rem;
-  line-height: 1.4;
 }
 .sources-page .source-open-original {
   color: hsl(var(--muted-foreground));
@@ -1408,10 +1414,6 @@ img {
   gap: 0.625rem;
   padding-block: 0.125rem;
 }
-.sources-page .source-item-expandable {
-  display: block;
-  padding-block: 0.35rem;
-}
 .sources-page .source-item-main {
   display: flex;
   gap: 0.5rem;
@@ -1484,43 +1486,6 @@ img {
     display: none !important;
   }
 }
-.sources-page .source-expand-btn {
-  flex: 0 0 auto;
-  width: 1.75rem;
-  height: 1.75rem;
-  margin-top: 0.1rem;
-  border: 1px solid hsl(var(--border));
-  border-radius: var(--radius);
-  background: hsl(var(--card));
-  color: hsl(var(--muted-foreground));
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-.sources-page .source-expand-btn:hover {
-  border-color: hsl(var(--accent));
-  color: hsl(var(--accent));
-}
-.sources-page .source-expand-icon {
-  width: 0.45rem;
-  height: 0.45rem;
-  border-right: 2px solid currentColor;
-  border-bottom: 2px solid currentColor;
-  transform: rotate(45deg);
-  margin-top: -0.15rem;
-  transition: transform 0.15s ease;
-}
-.sources-page .source-item-expandable.is-expanded .source-expand-icon {
-  transform: rotate(-135deg);
-  margin-top: 0.15rem;
-}
-.sources-page .source-item-detail {
-  margin: 0.45rem 0 0.35rem 1.35rem;
-  padding: 0.15rem 0 0.75rem;
-  border-bottom: 1px solid hsl(var(--border));
-}
 .sources-page #sources-output .catalog-card-copy {
   display: flex;
   flex-direction: column;
@@ -1528,11 +1493,6 @@ img {
 }
 .sources-page #sources-output .catalog-card-copy p {
   margin-block: 0;
-}
-.sources-page .catalog-card-enrichment {
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
 }
 .sources-page .catalog-card-media {
   margin: 0;
@@ -1544,6 +1504,16 @@ img {
   background: hsl(var(--border) / 0.35);
   border: 1px solid hsl(var(--border));
   align-self: start;
+}
+/* Source page only (not search/explore lists): larger desktop thumb. */
+@media (min-width: 640px) {
+  .sources-page.sources-entry-source .catalog-card-layout--media {
+    grid-template-columns: minmax(0, 1fr) 7rem;
+  }
+  .sources-page.sources-entry-source .catalog-card-media {
+    width: 7rem;
+    height: 5.25rem;
+  }
 }
 .sources-page .catalog-card-embed {
   margin: 0.65rem 0 0;
@@ -1582,17 +1552,12 @@ img {
 /* Mobile: title → full-width centered image → remaining text. */
 @media (max-width: 639px) {
   .sources-page .catalog-card {
-    padding: 1.05rem 0.8rem 0.85rem;
+    padding: 0.85rem 0.8rem;
   }
   .sources-page .catalog-card-layout--media {
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       "title"
-      "media"
-      "rest";
-  }
-  .sources-page .catalog-card-layout--detail.catalog-card-layout--media {
-    grid-template-areas:
       "media"
       "rest";
   }
@@ -1625,10 +1590,9 @@ img {
   .sources-page .sources-search-suggestions {
     max-height: min(16rem, 42dvh);
   }
-  .sources-page .source-item:not(.source-item-expandable) { flex-direction: column; gap: 0.125rem; }
+  .sources-page .source-item { flex-direction: column; gap: 0.125rem; }
   .sources-page .source-item-main { gap: 0.4rem; }
   .sources-page .source-id { flex: none; text-align: left; padding-top: 0; }
-  .sources-page .source-item-detail { margin-left: 0; }
 }
 @media (min-width: 640px) {
   :is(.origins-page, .sources-page) main h1 { font-size: 2.5rem; }

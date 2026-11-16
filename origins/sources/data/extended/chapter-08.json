@@ -37,7 +37,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:vasilis-kontis"
+        ],
         "orgs": [
           "org:nature-medicine",
           "org:pubmed"
@@ -47,7 +49,9 @@
       "source_key": "ch08-s01",
       "date_iso": "2020-10-14",
       "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
-      "author_ids": [],
+      "author_ids": [
+        "person:vasilis-kontis"
+      ],
       "publication_ids": [
         "org:nature-medicine"
       ]
@@ -136,7 +140,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:maria-van-kerkhove"
+          "person:maria-van-kerkhove",
+          "person:andrew-joseph"
         ],
         "orgs": [
           "org:who",
@@ -154,7 +159,9 @@
       "date_iso": "2020-08-24",
       "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/GettyImages-1225250385-1024x576.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:andrew-joseph"
+      ],
       "publication_ids": [
         "org:stat-news"
       ]
@@ -291,9 +298,13 @@
       "date_iso": "2020-11-09",
       "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/B2AE/production/_115324754_gettyimages-1283824133.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:james-gallagher"
+      ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:james-gallagher"
+        ],
         "orgs": [
           "org:bbc-news"
         ],
@@ -449,7 +460,9 @@
         "topic:zoonosis"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:ping-liu"
+        ],
         "orgs": [
           "org:pubmed",
           "org:plos-pathogens"
@@ -463,7 +476,9 @@
       "date_iso": "2020-05-14",
       "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a2dc/7224457/ea7900f60d83/ppat.1008421.g001.gif",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:ping-liu"
+      ],
       "publication_ids": [
         "org:plos-pathogens"
       ]
@@ -502,7 +517,10 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:steven-myers",
+          "person:chris-buckley"
+        ],
         "orgs": [
           "org:the-new-york-times"
         ],
@@ -514,7 +532,10 @@
       "source_key": "ch08-s10",
       "date_iso": "2020-03-29",
       "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
-      "author_ids": [],
+      "author_ids": [
+        "person:steven-myers",
+        "person:chris-buckley"
+      ],
       "publication_ids": [
         "org:the-new-york-times"
       ]
@@ -550,7 +571,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:frank-chen"
+        ],
         "orgs": [
           "org:asia-times"
         ],
@@ -561,7 +584,9 @@
       "source_key": "ch08-s11",
       "date_iso": "2020-11-04",
       "acquisition_note": "Scraped via browser after Firecrawl blocked.",
-      "author_ids": [],
+      "author_ids": [
+        "person:frank-chen"
+      ],
       "publication_ids": [
         "org:asia-times"
       ]
@@ -609,7 +634,8 @@
       "entity_ids": {
         "people": [
           "person:donald-trump",
-          "person:mike-pompeo"
+          "person:mike-pompeo",
+          "person:zachary-cohen"
         ],
         "orgs": [
           "org:cnn"
@@ -624,7 +650,9 @@
       "date_iso": "2020-05-01",
       "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/170706100527-zachary-cohen.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:zachary-cohen"
+      ],
       "publication_ids": [
         "org:cnn"
       ]
@@ -664,7 +692,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:mike-pompeo"
+          "person:mike-pompeo",
+          "person:martha-raddatz"
         ],
         "orgs": [
           "org:u-s-department-of-state",
@@ -681,7 +710,9 @@
       "topic_ids": [
         "person:mike-pompeo"
       ],
-      "author_ids": [],
+      "author_ids": [
+        "person:martha-raddatz"
+      ],
       "publication_ids": [
         "org:abc-news"
       ]
@@ -730,7 +761,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:mike-pompeo"
+          "person:mike-pompeo",
+          "person:dan-sabbagh"
         ],
         "orgs": [
           "org:the-guardian",
@@ -748,7 +780,9 @@
       "date_iso": "2020-05-04",
       "image_url": "https://i.guim.co.uk/img/media/c36e0d494293f8ba64d8dfc89f99ec95688b4969/0_189_3048_1829/master/3048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=66b74a2bdb71a64328ab97efb990ca83",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:dan-sabbagh"
+      ],
       "publication_ids": [
         "org:the-guardian"
       ]
@@ -876,8 +910,9 @@
       ],
       "entities": {
         "people": [
-          "Warren P. Strobel",
-          "Dustin Volz"
+          "Warren Strobel",
+          "Dustin Volz",
+          "Warren P. Strobel"
         ],
         "orgs": [
           "The Wall Street Journal",
@@ -890,7 +925,10 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:warren-strobel",
+          "person:dustin-volz"
+        ],
         "orgs": [
           "org:the-wall-street-journal"
         ],
@@ -907,7 +945,10 @@
       "date_iso": "2020-04-30",
       "image_url": "https://images.wsj.net/im-11136007?width=330&height=185",
       "acquisition_note": "Opening paragraphs retrieved before the subscriber wall.",
-      "author_ids": [],
+      "author_ids": [
+        "person:warren-strobel",
+        "person:dustin-volz"
+      ],
       "publication_ids": [
         "org:the-wall-street-journal"
       ]
@@ -995,7 +1036,9 @@
         "places": []
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:shen-zhou"
+        ],
         "orgs": [
           "org:pmc"
         ],
@@ -1004,7 +1047,9 @@
       "source_key": "ch08-s19",
       "date_iso": "2019-07-26",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:shen-zhou"
+      ],
       "publication_ids": []
     },
     {
@@ -1029,6 +1074,7 @@
       ],
       "entities": {
         "people": [
+          "Pinghui Zhuang",
           "Zhuang Pinghui"
         ],
         "orgs": [
@@ -1040,7 +1086,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:pinghui-zhuang"
+        ],
         "orgs": [
           "org:south-china-morning-post"
         ],
@@ -1053,7 +1101,9 @@
       "date_iso": "2020-02-28",
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/02/29/70ad35f6-5a29-11ea-b438-8452af50d521_image_hires_024800.JPG?itok=YOu6YWJ2&amp;v=1582915687",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:pinghui-zhuang"
+      ],
       "publication_ids": [
         "org:south-china-morning-post"
       ]
@@ -1080,6 +1130,7 @@
       ],
       "entities": {
         "people": [
+          "Yu Gao",
           "Gao Yu"
         ],
         "orgs": [
@@ -1095,7 +1146,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:yu-gao"
+        ],
         "orgs": [
           "org:who"
         ],
@@ -1108,7 +1161,9 @@
       "date_iso": "2020-02-28",
       "image_url": "https://www.straitstimes.com/og/st-bg-1200x630.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:yu-gao"
+      ],
       "publication_ids": []
     },
     {
@@ -1155,7 +1210,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:josh-rogin"
         ],
         "orgs": [
           "org:the-washington-post",
@@ -1171,7 +1227,9 @@
       "source_key": "ch08-s22",
       "date_iso": "2020-04-14",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:josh-rogin"
+      ],
       "publication_ids": [
         "org:the-washington-post"
       ]
@@ -1214,7 +1272,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:birger-s-rensen"
+          "person:birger-s-rensen",
+          "person:aksel-fridstr-m"
         ],
         "orgs": [],
         "places": []
@@ -1223,7 +1282,9 @@
       "date_iso": "2020-07-13",
       "image_url": "https://image.minerva.no/362540.webp?imageId=362540&width=960&height=548&format=jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:aksel-fridstr-m"
+      ],
       "publication_ids": []
     },
     {
@@ -1269,7 +1330,8 @@
       "entity_ids": {
         "people": [
           "person:richard-dearlove",
-          "person:birger-s-rensen"
+          "person:birger-s-rensen",
+          "person:bill-gardner"
         ],
         "orgs": [
           "org:the-telegraph"
@@ -1283,7 +1345,9 @@
       "date_iso": "2020-06-03",
       "image_url": "https://www.telegraph.co.uk/content/dam/news/2020/06/03/PLANET_NORMAL_SLATE_RICHARDDEARLOVE-01_1_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=640",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:bill-gardner"
+      ],
       "publication_ids": [
         "org:the-telegraph"
       ]

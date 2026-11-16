@@ -43,7 +43,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:ralph-baric"
+          "person:ralph-baric",
+          "person:boyd-yount"
         ],
         "orgs": [
           "org:journal-of-virology",
@@ -54,7 +55,9 @@
       "source_key": "ch12-s01",
       "date_iso": "2002-11",
       "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
-      "author_ids": [],
+      "author_ids": [
+        "person:boyd-yount"
+      ],
       "publication_ids": [
         "org:journal-of-virology"
       ]
@@ -91,7 +94,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:ralph-baric"
+          "person:ralph-baric",
+          "person:anjeanette-roberts"
         ],
         "orgs": [
           "org:plos-pathogens"
@@ -105,7 +109,9 @@
       "topic_ids": [
         "topic:serial-passaging"
       ],
-      "author_ids": [],
+      "author_ids": [
+        "person:anjeanette-roberts"
+      ],
       "publication_ids": [
         "org:plos-pathogens"
       ]
@@ -142,7 +148,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:ralph-baric"
+          "person:ralph-baric",
+          "person:michelle-becker"
         ],
         "orgs": [
           "org:pnas"
@@ -153,7 +160,9 @@
       "date_iso": "2008-12-16",
       "image_url": "https://www.pnas.org/cms/10.1073/pnas.0808116105/asset/a876f9e6-3613-4196-8b08-f35013154517/assets/graphic/zpq9990857570001.jpeg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:michelle-becker"
+      ],
       "publication_ids": [
         "org:pnas"
       ]
@@ -192,7 +201,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:wendong-li"
         ],
         "orgs": [
           "org:science",
@@ -208,7 +218,9 @@
       "topic_ids": [
         "topic:bat-coronaviruses"
       ],
-      "author_ids": [],
+      "author_ids": [
+        "person:wendong-li"
+      ],
       "publication_ids": [
         "org:science"
       ]
@@ -321,7 +333,8 @@
         "people": [
           "person:ralph-baric",
           "person:shi-zhengli",
-          "person:vineet-menachery"
+          "person:vineet-menachery",
+          "person:declan-butler"
         ],
         "orgs": [
           "org:nature"
@@ -338,7 +351,9 @@
       "topic_ids": [
         "topic:gain-of-function-research"
       ],
-      "author_ids": [],
+      "author_ids": [
+        "person:declan-butler"
+      ],
       "publication_ids": [
         "org:nature"
       ]
@@ -378,7 +393,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:wuze-ren"
         ],
         "orgs": [
           "org:journal-of-virology",
@@ -394,7 +410,9 @@
       "topic_ids": [
         "topic:bat-coronaviruses"
       ],
-      "author_ids": [],
+      "author_ids": [
+        "person:wuze-ren"
+      ],
       "publication_ids": [
         "org:journal-of-virology"
       ]
@@ -433,7 +451,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:yuxuan-hou"
         ],
         "orgs": [
           "org:pubmed"
@@ -446,7 +465,9 @@
       "date_iso": "2010-10",
       "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/16d7/7086629/cccc66b860d1/705_2010_729_Fig1_HTML.gif",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:yuxuan-hou"
+      ],
       "publication_ids": []
     },
     {
@@ -489,7 +510,8 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:lei-ping-zeng"
         ],
         "orgs": [
           "org:journal-of-virology",
@@ -502,7 +524,9 @@
       "source_key": "ch12-s09",
       "date_iso": "2016-06-24",
       "acquisition_note": "Scraped via browser/NCBI E-utilities after Firecrawl reported not_found.",
-      "author_ids": [],
+      "author_ids": [
+        "person:lei-ping-zeng"
+      ],
       "publication_ids": [
         "org:journal-of-virology"
       ]
@@ -660,7 +684,9 @@
         ]
       },
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:christina-lin"
+        ],
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:asia-times"
@@ -677,7 +703,9 @@
       "date_iso": "2020-04-22",
       "image_url": "https://i2.wp.com/asiatimes.com/wp-content/uploads/2020/04/Bats-Covid-19-Coronavirus-1.jpg?fit=1600%2C1001",
       "acquisition_note": "Scraped via browser after Firecrawl blocked.",
-      "author_ids": [],
+      "author_ids": [
+        "person:christina-lin"
+      ],
       "publication_ids": [
         "org:asia-times"
       ]
