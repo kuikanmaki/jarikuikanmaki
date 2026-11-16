@@ -50,6 +50,8 @@
   var applyingHistory = false;
   // Source-page ← Back: only when we can return to a same-site prior entry.
   var sourceHistoryBackEnabled = false;
+  // Chapter Back restore: re-apply scrollY after async notes HTML lands (page grows).
+  var pendingRestoreScrollY = null;
   // Own scroll stamping/restore — avoid the browser's animated scroll restoration.
   if (window.history && "scrollRestoration" in history) {
     history.scrollRestoration = "manual";
@@ -839,6 +841,10 @@
           html +
           (view.chapterEntry ? renderEntryNav() : "");
         enhanceNotesSourceLinks(notesEl);
+        // Back restore wins over the usual Chapters re-pin (which also smooth-scrolls via CSS).
+        if (applyPendingRestoreScroll()) {
+          return true;
+        }
         // Notes inject can nudge scroll; keep Chapters pinned for in-page browse.
         if (view.mode === "chapter" && !view.chapterEntry) pinChaptersShelf();
         return true;
@@ -846,6 +852,7 @@
       .catch(function () {
         notesEl.innerHTML = view.chapterEntry ? renderEntryNav() : "";
         notesEl.hidden = !view.chapterEntry;
+        applyPendingRestoreScroll();
         return false;
       });
   }
@@ -926,7 +933,8 @@
     var headerH = header ? header.getBoundingClientRect().height : 0;
     var gap = 8;
     var top = target.getBoundingClientRect().top + window.scrollY - headerH - gap;
-    window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
+    // Instant — site CSS scroll-behavior:smooth would animate behavior:"auto".
+    scrollWindowInstant(Math.max(0, top));
   }
 
   function openChapterMenu(opts) {
@@ -1017,8 +1025,25 @@
   function restoreHistoryScroll(state) {
     if (!state || typeof state.scrollY !== "number") return false;
     var y = state.scrollY;
+    // Chapter views reload notes async. Defer the snap until notes HTML is in —
+    // applying early clamps to a short page, then jumps again when notes arrive.
+    if (state.mode === "chapter") {
+      pendingRestoreScrollY = y;
+      return true;
+    }
+    pendingRestoreScrollY = null;
     scrollWindowInstant(y);
-    // Re-pin after layout from the restored catalog view settles.
+    requestAnimationFrame(function () {
+      scrollWindowInstant(y);
+    });
+    return true;
+  }
+
+  function applyPendingRestoreScroll() {
+    if (pendingRestoreScrollY == null) return false;
+    var y = pendingRestoreScrollY;
+    pendingRestoreScrollY = null;
+    scrollWindowInstant(y);
     requestAnimationFrame(function () {
       scrollWindowInstant(y);
     });
@@ -1226,7 +1251,7 @@
     if (opts.scroll !== false) {
       if (view.chapterEntry) {
         // Chapter permalink entry: stay at page top.
-        window.scrollTo(0, 0);
+        scrollWindowInstant(0);
       } else {
         // In-page selector: re-pin Chapters after layout (menu close + new results).
         pinChaptersShelf();
