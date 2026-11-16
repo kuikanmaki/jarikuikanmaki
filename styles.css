@@ -401,7 +401,7 @@ img {
 :is(.homepage, .origins-page, .sources-page) h2,
 :is(.homepage, .origins-page, .sources-page) h3 { letter-spacing: 0; }
 :is(.homepage, .origins-page, .sources-page) .eyebrow {
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   line-height: 1.6;
   font-weight: 600;
   gap: 0.625rem;
@@ -417,7 +417,6 @@ img {
 }
 .homepage #top p {
   margin-top: 1.25rem;
-  font-size: 1rem;
   line-height: 1.75;
 }
 .homepage #top img { max-width: 20rem; margin-inline: auto; }
@@ -430,15 +429,15 @@ img {
 }
 .homepage #book h2 + p { font-size: 1.125rem; line-height: 1.5; }
 .homepage #book p.text-accent {
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   line-height: 1.6;
   margin-top: 1.25rem;
 }
-.homepage #book p.leading-relaxed { font-size: 1rem; line-height: 1.75; margin-top: 1.25rem; }
+.homepage #book p.leading-relaxed { line-height: 1.75; margin-top: 1.25rem; }
 .homepage #book .book-cover-shadow { box-shadow: var(--homepage-book-shadow); }
 .homepage #book .border-l-2 { margin-top: 1.5rem; padding-left: 1rem; }
-.homepage #book .border-l-2 p:first-child { font-size: 0.6875rem; }
+.homepage #book .border-l-2 p:first-child { font-size: 0.8125rem; }
 :is(.homepage, .origins-page, .sources-page) main .flex:has(> a.btn) { gap: 0.625rem; margin-top: 1.75rem; }
 :is(.homepage, .origins-page, .sources-page) .btn { font-size: 0.8125rem; font-weight: 600; padding-inline: 1.125rem; }
 :is(.homepage, .origins-page, .sources-page) .btn-text {
@@ -450,7 +449,7 @@ img {
 :is(.homepage, .origins-page, .sources-page) .btn-text:hover { color: hsl(var(--accent)); text-decoration: underline; text-underline-offset: 0.25rem; }
 :is(.homepage, .origins-page, .sources-page) a:focus-visible { outline: 2px solid hsl(var(--accent)); outline-offset: 4px; }
 .homepage #contact h2 { font-size: 2rem; line-height: 1.15; margin-top: 1rem; }
-.homepage #contact p { max-width: 38rem; margin-inline: auto; font-size: 1rem; line-height: 1.75; margin-top: 1.25rem; }
+.homepage #contact p { max-width: 38rem; margin-inline: auto; line-height: 1.75; margin-top: 1.25rem; }
 .homepage #contact p + div { margin-top: 1.75rem; }
 .homepage #contact .btn { max-width: 100%; }
 .homepage #contact svg { flex-shrink: 0; }
@@ -496,7 +495,6 @@ img {
 }
 :is(.origins-page, .sources-page) main h3 { line-height: 1.3; }
 :is(.origins-page, .sources-page) main .leading-relaxed {
-  font-size: 1rem;
   line-height: 1.75;
 }
 .origins-page main .mt-10,
@@ -508,15 +506,14 @@ img {
 .origins-page .book-cover-shadow { box-shadow: var(--editorial-book-shadow); }
 .origins-page #book h1 + p { font-size: 1.125rem; line-height: 1.5; }
 .origins-page #book p.text-accent {
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   line-height: 1.6;
 }
 .origins-page #book .border-l-2 { margin-top: 1.5rem; padding-left: 1rem; }
-.origins-page #book .border-l-2 p:first-child { font-size: 0.6875rem; }
+.origins-page #book .border-l-2 p:first-child { font-size: 0.8125rem; }
 .origins-page #description .space-y-6 > :not([hidden]) ~ :not([hidden]),
 .origins-page #about .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 1.25rem; }
 .origins-page #about > .container-narrow { gap: 2rem; }
-.origins-page #about h2 { font-size: 1.75rem; }
 .origins-page #media .grid,
 .origins-page #latest-updates .grid { gap: 2rem; }
 .origins-page #latest-updates .grid > div { min-width: 0; }
@@ -524,9 +521,8 @@ img {
 .origins-page .podcast-appearance .aspect-video {
   max-width: 36rem;
 }
-.origins-page .podcast-appearance h3 { font-size: 1.25rem; }
 .origins-page .podcast-appearance > .mt-6 { margin-top: 1rem; }
-.origins-page #latest-updates h4 { font-size: 1.125rem; line-height: 1.5; }
+.origins-page #latest-updates h4 { line-height: 1.5; }
 
 /* Compact buy strip under the header — always a single horizontal row */
 /* clip (not hidden) avoids the overflow-x/hidden → overflow-y:auto pairing
@@ -653,7 +649,7 @@ img {
   .sources-page .sources-banner-cta .btn {
     min-height: 1.75rem;
     padding: 0.25rem 0.65rem;
-    font-size: 0.6875rem;
+    font-size: 0.8125rem;
     line-height: 1.35;
   }
 }
@@ -1046,21 +1042,23 @@ img {
   color: inherit;
   opacity: 0.85;
 }
-.sources-page #sources-heading {
+/* Chapter title above Sources list + "Notes to Chapter N" — same section-head recipe. */
+.sources-page #sources-heading,
+.sources-page #catalog-notes > h2:first-of-type,
+.sources-page .catalog-notes > h2:first-of-type {
   margin-top: 2rem;
   margin-bottom: 0.85rem;
-  /* Compact context label — must stay smaller than card titles (~1.0625rem). */
-  font-family: inherit;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  line-height: 1.35;
-  text-transform: uppercase;
-  color: hsl(var(--muted-foreground));
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.3;
+  text-transform: none;
+  color: hsl(var(--foreground));
 }
 .sources-page .sources-heading-label {
-  font-weight: 600;
-  color: hsl(var(--muted-foreground));
+  font-weight: inherit;
+  color: inherit;
 }
 .sources-page .sources-heading-count {
   font-weight: 500;
@@ -1264,6 +1262,11 @@ img {
   font-size: 0.9375rem;
   line-height: 1.45;
 }
+.sources-page #catalog-notes h3,
+.sources-page .catalog-notes h3 {
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
 .sources-page .catalog-notes a {
   color: hsl(var(--reference-link));
   text-decoration: none;
@@ -1288,8 +1291,15 @@ img {
 .sources-page #sources-output a { color: hsl(var(--reference-link)); }
 .sources-page #sources-output h2,
 .sources-page #sources-output h3 { margin-block: 1.5rem 1rem; }
-/* Chapter-notes subheading ("Notes to Chapter X") stays one step smaller than section headings. */
-.sources-page #sources-output h2 { font-size: 1.375rem; line-height: 1.3; }
+.sources-page #sources-output h2 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-transform: none;
+  color: hsl(var(--foreground));
+}
 .sources-page #sources-output p { margin-block: 1rem; }
 .sources-page .sources-list {
   margin: 1.25rem 0 0;
@@ -1515,8 +1525,12 @@ img {
     font-size: 0.9375rem;
     line-height: 1.2;
   }
-  .sources-page #sources-heading {
-    font-size: 0.8125rem;
+  /* Keep catalog section titles at 1.375rem; do not inherit main h2 scale. */
+  .sources-page #sources-heading,
+  .sources-page #catalog-notes > h2:first-of-type,
+  .sources-page .catalog-notes > h2:first-of-type,
+  .sources-page #sources-output h2 {
+    font-size: 1.375rem;
   }
   .sources-page .sources-search-suggestion {
     flex-direction: row;
