@@ -972,24 +972,9 @@ img {
   margin-top: 0;
 }
 @media (max-width: 639px) {
+  /* Most cited chips: desktop/tablet only — too noisy on narrow viewports. */
   .sources-page .catalog-shelf-examples {
-    display: block;
-    min-width: 0;
-  }
-  .sources-page .catalog-explore {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    padding-bottom: 0.15rem;
-    margin-inline: -0.25rem;
-    padding-inline: 0.25rem;
-  }
-  .sources-page .catalog-explore-chip {
-    flex: 0 0 auto;
-    min-height: 2.75rem;
-    font-size: 0.875rem;
+    display: none;
   }
 }
 /* Source / chapter entry views: keep banner; hide catalog chrome.
