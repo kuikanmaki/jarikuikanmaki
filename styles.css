@@ -1116,6 +1116,7 @@ img {
   font-weight: 500;
   color: hsl(var(--muted-foreground));
 }
+.sources-page .sources-heading-type,
 .sources-page .sources-heading-count {
   font-weight: 500;
   color: hsl(var(--muted-foreground));

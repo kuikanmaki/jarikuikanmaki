@@ -718,8 +718,15 @@
         headingEl.innerHTML = '<span class="sources-heading-trail">' + sourceChapterHtml + "</span>";
       } else {
         headingEl.classList.remove("sources-heading--breadcrumb");
+        var typeLabel =
+          view.keyword && view.keyword.typeLabel
+            ? String(view.keyword.typeLabel)
+            : "";
         headingEl.innerHTML =
           '<span class="sources-heading-label">' + escapeHtml(label) + "</span>" +
+          (typeLabel
+            ? '<span class="sources-heading-type"> · ' + escapeHtml(typeLabel) + "</span>"
+            : "") +
           '<span class="sources-heading-count"> · ' + escapeHtml(sourceCountLabel(total)) + "</span>";
       }
       notesEl.hidden = true;
