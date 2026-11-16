@@ -314,6 +314,21 @@ main .flex:has(> a.btn) { flex-wrap: wrap; }
   display: block;
 }
 
+/* Origins · Sources — one nav cluster, two destinations. */
+.nav-origins-pair {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.nav-origins-sep {
+  color: hsl(var(--muted-foreground));
+  opacity: 0.65;
+  font-weight: 400;
+  user-select: none;
+  pointer-events: none;
+}
+
 @media (max-width: 767px) {
   .site-menu.open {
     position: absolute;
@@ -328,14 +343,27 @@ main .flex:has(> a.btn) { flex-wrap: wrap; }
     border-bottom: 1px solid hsl(var(--border));
     box-shadow: 0 12px 24px -16px hsl(var(--foreground) / 0.3);
   }
+  .site-menu.open > li {
+    border-bottom: 1px solid hsl(var(--border) / 0.5);
+  }
+  .site-menu.open > li:last-child {
+    border-bottom: 0;
+  }
   .site-menu.open a {
     display: flex;
     align-items: center;
     min-height: 2.75rem;
     padding: 0.75rem 0;
-    border-bottom: 1px solid hsl(var(--border) / 0.5);
   }
-  .site-menu.open li:last-child a { border-bottom: 0; }
+  .site-menu.open .nav-origins-pair {
+    min-height: 2.75rem;
+    width: 100%;
+  }
+  .site-menu.open .nav-origins-pair a {
+    min-height: 0;
+    padding: 0.75rem 0;
+    display: inline-flex;
+  }
 }
 
 /* Desktop (768px+): button hidden, links inline in a row. */
