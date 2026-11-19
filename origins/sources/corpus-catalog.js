@@ -746,6 +746,7 @@
     headingEl.hidden = view.mode === "source";
     syncSourceHistoryBack();
     syncClearButton();
+    syncDocumentHead();
 
     if (view.mode === "keyword" || view.mode === "explore" || view.mode === "source") {
       var label = (view.keyword && view.keyword.label) || "Sources";
@@ -795,16 +796,8 @@
       return;
     }
 
-    var chName = chapterLabel(view.chapter);
-    var meta = (corpus.chapters || []).find(function (c) { return c.number === view.chapter; });
     headingEl.classList.remove("sources-heading--breadcrumb");
-    // Prologue title already includes "Prologue:"; avoid "Prologue — Prologue: …"
-    if (meta && meta.title) {
-      var titleStartsWithName = meta.name && meta.title.indexOf(meta.name) === 0;
-      headingEl.textContent = titleStartsWithName ? meta.title : (meta.name + " — " + meta.title);
-    } else {
-      headingEl.textContent = chName;
-    }
+    headingEl.textContent = chapterDocumentHeading(view.chapter);
     pagerEl.hidden = true;
     pagerEl.innerHTML = "";
     outEl.innerHTML = renderChapterSourceList(rows);
@@ -1279,6 +1272,72 @@
     }
   }
 
+  var CATALOG_DOC_TITLE =
+    "Sources and Notes — Origins of Coronavirus | Jari Kuikanmäki";
+  var CATALOG_DOC_DESCRIPTION =
+    "Chapter-by-chapter sources and author's notes for Origins of Coronavirus by Jari Kuikanmäki — over 400 primary documents behind the investigation.";
+
+  function ensureMetaByName(name) {
+    var el = document.querySelector('meta[name="' + name + '"]');
+    if (el) return el;
+    el = document.createElement("meta");
+    el.setAttribute("name", name);
+    document.head.appendChild(el);
+    return el;
+  }
+
+  function chapterDocumentHeading(chapterNumber) {
+    var chName = chapterLabel(chapterNumber);
+    var meta = (corpus && corpus.chapters ? corpus.chapters : []).find(function (c) {
+      return c.number === chapterNumber;
+    });
+    if (meta && meta.title) {
+      var titleStartsWithName = meta.name && meta.title.indexOf(meta.name) === 0;
+      return titleStartsWithName ? meta.title : meta.name + " — " + meta.title;
+    }
+    return chName;
+  }
+
+  function syncDocumentHead() {
+    // Human/tab UX only — social crawlers read the static shell (branded catalog OG).
+    // Keep Sources out of search indexes.
+    ensureMetaByName("robots").setAttribute("content", "noindex, nofollow");
+
+    var title = CATALOG_DOC_TITLE;
+    var description = CATALOG_DOC_DESCRIPTION;
+
+    if (view.mode === "source" && view.sourceKey && corpus) {
+      var row = (corpus.sources || []).find(function (s) {
+        return s.source_key === view.sourceKey;
+      });
+      if (row && row.title) {
+        title = row.title + " — Sources | Origins of Coronavirus";
+        if (row.summary) description = String(row.summary);
+      }
+    } else if (view.mode === "chapter" && view.chapter != null) {
+      var chapterHeading = chapterDocumentHeading(view.chapter);
+      title = chapterHeading + " — Sources | Origins of Coronavirus";
+      description =
+        "Sources and notes for " +
+        chapterHeading +
+        " in Origins of Coronavirus by Jari Kuikanmäki.";
+    } else if (
+      (view.mode === "keyword" || view.mode === "explore") &&
+      view.keyword &&
+      view.keyword.label
+    ) {
+      title =
+        view.keyword.label + " — Sources | Origins of Coronavirus";
+      description =
+        "Sources tagged “" +
+        view.keyword.label +
+        "” in Origins of Coronavirus by Jari Kuikanmäki.";
+    }
+
+    document.title = title;
+    ensureMetaByName("description").setAttribute("content", description);
+  }
+
   function syncEntryLayout() {
     // Catalog modes (idle / chapter / search): stable shell.
     // Source reading view: stripped — card (+ optional ← Back) only.
@@ -1299,6 +1358,7 @@
         el.inert = false;
       }
     });
+    syncDocumentHead();
   }
 
   function showIdle(opts) {

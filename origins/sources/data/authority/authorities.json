@@ -753,7 +753,10 @@
         "id": "org:genbank",
         "prefLabel": "GenBank",
         "indexTerm": "GenBank",
-        "altLabels": [],
+        "altLabels": [
+          "GenBank (NCBI)",
+          "NCBI GenBank"
+        ],
         "related": [],
         "subentries": [
           "deleted entries"
@@ -1243,19 +1246,6 @@
         "source": "book-index"
       },
       {
-        "id": "org:twitter",
-        "prefLabel": "Twitter",
-        "indexTerm": "Twitter",
-        "altLabels": [
-          "X (Twitter)",
-          "X"
-        ],
-        "related": [],
-        "subentries": [],
-        "pages": [],
-        "source": "corpus-extension"
-      },
-      {
         "id": "org:u-s-congress",
         "prefLabel": "U.S. Congress",
         "indexTerm": "U.S. Congress",
@@ -1702,16 +1692,6 @@
         "source": "corpus-extension"
       },
       {
-        "id": "org:genbank-ncbi",
-        "prefLabel": "GenBank (NCBI)",
-        "indexTerm": "GenBank (NCBI)",
-        "altLabels": [],
-        "related": [],
-        "subentries": [],
-        "pages": [],
-        "source": "corpus-extension"
-      },
-      {
         "id": "org:stat-news",
         "prefLabel": "STAT News",
         "indexTerm": "STAT News",
@@ -1917,7 +1897,12 @@
         "id": "org:twitter-x",
         "prefLabel": "Twitter (X)",
         "indexTerm": "Twitter (X)",
-        "altLabels": [],
+        "altLabels": [
+          "Twitter",
+          "X (Twitter)",
+          "X",
+          "twitter.com"
+        ],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -3593,7 +3578,10 @@
         "id": "person:glen-owen",
         "prefLabel": "Glen Owen",
         "indexTerm": "Owen, Glen",
-        "altLabels": [],
+        "altLabels": [
+          "Glenn Owen",
+          "Owen, Glenn"
+        ],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -3683,16 +3671,6 @@
         "id": "person:martin-furmanski",
         "prefLabel": "Martin Furmanski",
         "indexTerm": "Furmanski, Martin",
-        "altLabels": [],
-        "related": [],
-        "subentries": [],
-        "pages": [],
-        "source": "corpus-extension"
-      },
-      {
-        "id": "person:glenn-owen",
-        "prefLabel": "Glenn Owen",
-        "indexTerm": "Owen, Glenn",
         "altLabels": [],
         "related": [],
         "subentries": [],
@@ -4153,7 +4131,11 @@
         "id": "person:steven-quay",
         "prefLabel": "Steven Quay",
         "indexTerm": "Quay, Steven",
-        "altLabels": [],
+        "altLabels": [
+          "Steven Carl Quay",
+          "Quay, Steven Carl",
+          "Quay, Steven"
+        ],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -5293,16 +5275,6 @@
         "id": "person:hongxia-ai",
         "prefLabel": "Hongxia Ai",
         "indexTerm": "Ai, Hongxia",
-        "altLabels": [],
-        "related": [],
-        "subentries": [],
-        "pages": [],
-        "source": "corpus-extension"
-      },
-      {
-        "id": "person:steven-carl-quay",
-        "prefLabel": "Steven Carl Quay",
-        "indexTerm": "Quay, Steven Carl",
         "altLabels": [],
         "related": [],
         "subentries": [],

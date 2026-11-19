@@ -1,2 +1,116 @@
-User-agent: *
+# Search engines: index author + book pages; keep Sources out of search (for now).
+# Social preview bots: allowed to fetch Sources HTML for Open Graph / Twitter cards.
+# AI training crawlers: disallowed sitewide.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# --- Social preview bots (must fetch Sources for share cards) ---
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Slackbot-LinkExpanding
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# --- Search crawlers: no Sources / corpus data ---
+User-agent: Googlebot
+Disallow: /origins/sources/
 Disallow: /vendor/
+
+User-agent: Googlebot-Image
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+User-agent: Bingbot
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+User-agent: DuckDuckBot
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+User-agent: Slurp
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+User-agent: Baiduspider
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+User-agent: Yandex
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+User-agent: Applebot
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+# --- Everyone else ---
+User-agent: *
+Disallow: /origins/sources/
+Disallow: /vendor/
+
+Sitemap: https://jarikuikanmaki.com/sitemap.xml

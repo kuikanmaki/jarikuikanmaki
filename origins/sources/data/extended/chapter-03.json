@@ -821,6 +821,7 @@
       ],
       "entities": {
         "people": [
+          "Glen Owen",
           "Glenn Owen"
         ],
         "orgs": [
@@ -835,7 +836,7 @@
       },
       "entity_ids": {
         "people": [
-          "person:glenn-owen"
+          "person:glen-owen"
         ],
         "orgs": [
           "org:daily-mail",
@@ -850,7 +851,7 @@
       "source_key": "ch03-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [
-        "person:glenn-owen"
+        "person:glen-owen"
       ],
       "publication_ids": [
         "org:daily-mail"
@@ -881,6 +882,7 @@
       ],
       "entities": {
         "people": [
+          "Glen Owen",
           "Glenn Owen"
         ],
         "orgs": [
@@ -896,7 +898,7 @@
       },
       "entity_ids": {
         "people": [
-          "person:glenn-owen"
+          "person:glen-owen"
         ],
         "orgs": [
           "org:daily-mail",
@@ -912,7 +914,7 @@
       "source_key": "ch03-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
       "author_ids": [
-        "person:glenn-owen"
+        "person:glen-owen"
       ],
       "publication_ids": [
         "org:daily-mail"

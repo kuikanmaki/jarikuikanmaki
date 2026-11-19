@@ -29,6 +29,7 @@
           "DRASTIC",
           "EcoHealth Alliance",
           "DARPA",
+          "Twitter (X)",
           "Twitter"
         ],
         "places": []
@@ -40,7 +41,7 @@
           "org:drastic",
           "org:ecohealth-alliance",
           "org:darpa",
-          "org:twitter"
+          "org:twitter-x"
         ],
         "places": [],
         "works": [
@@ -52,7 +53,7 @@
       "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ]
     },
     {
@@ -248,6 +249,7 @@
           "Peter Daszak"
         ],
         "orgs": [
+          "Twitter (X)",
           "Twitter"
         ],
         "places": []
@@ -260,7 +262,7 @@
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:twitter"
+          "org:twitter-x"
         ],
         "places": []
       },
@@ -271,7 +273,7 @@
         "person:peter-daszak"
       ],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ]
     },
     {
@@ -294,8 +296,9 @@
           "Peter Daszak"
         ],
         "orgs": [
-          "Twitter",
-          "Wuhan Institute of Virology"
+          "Twitter (X)",
+          "Wuhan Institute of Virology",
+          "Twitter"
         ],
         "places": [
           "Wuhan"
@@ -307,7 +310,7 @@
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:twitter",
+          "org:twitter-x",
           "org:wuhan-institute-of-virology"
         ],
         "places": [
@@ -321,7 +324,7 @@
         "person:peter-daszak"
       ],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ]
     },
     {

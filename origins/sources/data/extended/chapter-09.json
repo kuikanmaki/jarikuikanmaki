@@ -433,6 +433,7 @@
           "Anthony Fauci"
         ],
         "orgs": [
+          "Twitter (X)",
           "Twitter"
         ],
         "places": []
@@ -446,7 +447,7 @@
           "person:anthony-fauci"
         ],
         "orgs": [
-          "org:twitter"
+          "org:twitter-x"
         ],
         "places": []
       },
@@ -457,7 +458,7 @@
         "person:peter-daszak"
       ],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ]
     },
     {
@@ -482,8 +483,9 @@
           "Joe Biden"
         ],
         "orgs": [
-          "Twitter",
-          "Nature"
+          "Twitter (X)",
+          "Nature",
+          "Twitter"
         ],
         "places": []
       },
@@ -495,7 +497,7 @@
           "person:joe-biden"
         ],
         "orgs": [
-          "org:twitter",
+          "org:twitter-x",
           "org:nature"
         ],
         "places": []
@@ -507,7 +509,7 @@
         "person:peter-daszak"
       ],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ]
     },
     {

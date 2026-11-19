@@ -80,6 +80,7 @@
           "HumbleScientist"
         ],
         "orgs": [
+          "Twitter (X)",
           "Twitter"
         ],
         "places": []
@@ -87,7 +88,7 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:twitter"
+          "org:twitter-x"
         ],
         "places": [],
         "events": [
@@ -99,7 +100,7 @@
       "acquisition_note": "Embedded X/Twitter post; text scrape skipped by policy.",
       "author_ids": [],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ],
       "topic_ids": []
     },

@@ -795,6 +795,7 @@
       "topics": [],
       "entities": {
         "people": [
+          "Steven Quay",
           "Steven Carl Quay"
         ],
         "orgs": [
@@ -810,7 +811,7 @@
       "topic_ids": [],
       "entity_ids": {
         "people": [
-          "person:steven-carl-quay"
+          "person:steven-quay"
         ],
         "orgs": [
           "org:zenodo",
@@ -829,7 +830,7 @@
       "date_iso": "2020-10-28",
       "acquisition_note": "",
       "author_ids": [
-        "person:steven-carl-quay"
+        "person:steven-quay"
       ],
       "publication_ids": [
         "org:zenodo"

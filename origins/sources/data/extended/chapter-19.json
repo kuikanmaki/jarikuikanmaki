@@ -47,8 +47,7 @@
           "person:edward-holmes"
         ],
         "orgs": [
-          "org:genbank",
-          "org:genbank-ncbi"
+          "org:genbank"
         ],
         "places": [
           "place:yunnan"
@@ -62,7 +61,7 @@
         "person:edward-holmes"
       ],
       "publication_ids": [
-        "org:genbank-ncbi"
+        "org:genbank"
       ]
     },
     {
@@ -238,8 +237,8 @@
         ],
         "orgs": [
           "GenBank",
-          "GenBank (NCBI)",
-          "Chinese Academy of Medical Sciences"
+          "Chinese Academy of Medical Sciences",
+          "GenBank (NCBI)"
         ],
         "places": [
           "Wuhan"
@@ -252,7 +251,6 @@
         ],
         "orgs": [
           "org:genbank",
-          "org:genbank-ncbi",
           "org:chinese-academy-of-medical-sciences"
         ],
         "places": [
@@ -266,7 +264,7 @@
         "person:lili-ren"
       ],
       "publication_ids": [
-        "org:genbank-ncbi"
+        "org:genbank"
       ]
     },
     {
@@ -288,8 +286,8 @@
         "people": [],
         "orgs": [
           "GenBank",
-          "GenBank (NCBI)",
-          "Chinese Academy of Medical Sciences"
+          "Chinese Academy of Medical Sciences",
+          "GenBank (NCBI)"
         ],
         "places": [
           "Wuhan"
@@ -299,7 +297,6 @@
         "people": [],
         "orgs": [
           "org:genbank",
-          "org:genbank-ncbi",
           "org:chinese-academy-of-medical-sciences"
         ],
         "places": [
@@ -311,7 +308,7 @@
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": [
-        "org:genbank-ncbi"
+        "org:genbank"
       ],
       "topic_ids": []
     },
@@ -3248,6 +3245,7 @@
         ],
         "orgs": [
           "The Free Press",
+          "Twitter (X)",
           "Twitter"
         ],
         "places": []
@@ -3258,7 +3256,7 @@
         ],
         "orgs": [
           "org:the-free-press",
-          "org:twitter"
+          "org:twitter-x"
         ],
         "places": []
       },

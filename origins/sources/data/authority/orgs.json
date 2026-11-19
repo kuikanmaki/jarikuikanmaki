@@ -413,7 +413,10 @@
       "id": "org:genbank",
       "prefLabel": "GenBank",
       "indexTerm": "GenBank",
-      "altLabels": [],
+      "altLabels": [
+        "GenBank (NCBI)",
+        "NCBI GenBank"
+      ],
       "related": [],
       "subentries": [
         "deleted entries"
@@ -903,19 +906,6 @@
       "source": "book-index"
     },
     {
-      "id": "org:twitter",
-      "prefLabel": "Twitter",
-      "indexTerm": "Twitter",
-      "altLabels": [
-        "X (Twitter)",
-        "X"
-      ],
-      "related": [],
-      "subentries": [],
-      "pages": [],
-      "source": "corpus-extension"
-    },
-    {
       "id": "org:u-s-congress",
       "prefLabel": "U.S. Congress",
       "indexTerm": "U.S. Congress",
@@ -1362,16 +1352,6 @@
       "source": "corpus-extension"
     },
     {
-      "id": "org:genbank-ncbi",
-      "prefLabel": "GenBank (NCBI)",
-      "indexTerm": "GenBank (NCBI)",
-      "altLabels": [],
-      "related": [],
-      "subentries": [],
-      "pages": [],
-      "source": "corpus-extension"
-    },
-    {
       "id": "org:stat-news",
       "prefLabel": "STAT News",
       "indexTerm": "STAT News",
@@ -1577,7 +1557,12 @@
       "id": "org:twitter-x",
       "prefLabel": "Twitter (X)",
       "indexTerm": "Twitter (X)",
-      "altLabels": [],
+      "altLabels": [
+        "Twitter",
+        "X (Twitter)",
+        "X",
+        "twitter.com"
+      ],
       "related": [],
       "subentries": [],
       "pages": [],

@@ -227,6 +227,7 @@
           "Neil Ferguson"
         ],
         "orgs": [
+          "Twitter (X)",
           "Twitter"
         ],
         "places": [
@@ -239,7 +240,7 @@
           "person:neil-ferguson"
         ],
         "orgs": [
-          "org:twitter"
+          "org:twitter-x"
         ],
         "places": [
           "place:china",
@@ -257,7 +258,7 @@
         "person:neil-ferguson"
       ],
       "publication_ids": [
-        "org:twitter"
+        "org:twitter-x"
       ]
     },
     {
