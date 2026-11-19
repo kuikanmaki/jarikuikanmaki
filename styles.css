@@ -502,6 +502,15 @@ img {
 }
 @media (max-width: 639px) {
   :is(.homepage, .origins-page, .sources-page) .btn { white-space: normal; min-height: 2.75rem; height: auto; padding-block: 0.625rem; line-height: 1.4; }
+  /* Sources buy strip: keep compact chips — don't inherit the tall mobile .btn scale. */
+  .sources-page .sources-banner-cta .btn {
+    white-space: nowrap;
+    min-height: 1.625rem;
+    height: auto;
+    padding: 0.15rem 0.45rem;
+    font-size: 0.6875rem;
+    line-height: 1.2;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .homepage { scroll-behavior: auto; }
@@ -573,20 +582,21 @@ img {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 .sources-page .sources-book-banner-inner {
-  /* Title+cover on row 1; CTAs full-width under them on narrow screens. */
+  /* Compact strip: title + CTAs left, cover right (same skeleton at all widths). */
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   grid-template-areas:
     "copy cover"
-    "cta cta";
-  column-gap: 0.75rem;
-  row-gap: 0.55rem;
+    "cta cover";
+  column-gap: 0.7rem;
+  row-gap: 0.35rem;
   align-items: center;
-  padding-block: 0.55rem;
+  padding-block: 0.5rem;
 }
 .sources-page .sources-book-banner-copy {
   grid-area: copy;
   min-width: 0;
+  align-self: end;
 }
 .sources-page .sources-book-banner-cover {
   grid-area: cover;
@@ -596,7 +606,7 @@ img {
 }
 .sources-page .sources-book-banner-cover img {
   display: block;
-  width: 2.75rem;
+  width: 3.25rem;
   height: auto;
   border-radius: 2px;
   box-shadow: var(--editorial-book-shadow);
@@ -621,20 +631,22 @@ img {
 .sources-page .sources-banner-cta {
   grid-area: cta;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 0.4rem;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.4rem;
   margin: 0;
+  align-self: start;
 }
-/* Full-width stacked CTAs under title/cover on narrow — no orphan wraps. */
+/* Compact chips beside the cover — keep the strip short on narrow screens. */
 .sources-page .sources-banner-cta .btn {
-  width: 100%;
+  flex: 0 0 auto;
+  width: auto;
   height: auto;
-  min-height: 2.5rem;
+  min-height: 1.75rem;
   margin: 0;
-  padding: 0.45rem 0.75rem;
+  padding: 0.2rem 0.5rem;
   border-radius: var(--radius);
-  font-size: 0.8125rem;
+  font-size: 0.6875rem;
   font-weight: 600;
   line-height: 1.25;
   white-space: nowrap;
@@ -675,17 +687,12 @@ img {
 }
 @media (min-width: 640px) {
   .sources-page .sources-book-banner-inner {
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-areas:
-      "copy cover"
-      "cta cover";
     column-gap: 0.95rem;
-    row-gap: 0.55rem;
-    align-items: start;
+    row-gap: 0.45rem;
     padding-block: 0.75rem;
   }
-  .sources-page .sources-book-banner-cover {
-    align-self: center;
+  .sources-page .sources-book-banner-copy {
+    align-self: start;
   }
   .sources-page .sources-book-banner-cover img {
     width: 3rem;
@@ -695,19 +702,13 @@ img {
     line-height: 1.35;
   }
   .sources-page .sources-banner-cta {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
     gap: 0.45rem;
   }
   .sources-page .sources-banner-cta .btn {
-    width: auto;
-    flex: 0 0 auto;
     min-height: 1.75rem;
     padding: 0.25rem 0.65rem;
     font-size: 0.8125rem;
     line-height: 1.35;
-    justify-content: flex-start;
   }
 }
 @media (min-width: 768px) {
@@ -717,7 +718,7 @@ img {
     line-height: 1.45;
   }
   .sources-page .sources-book-banner-inner {
-    row-gap: 0.7rem;
+    row-gap: 0.55rem;
   }
 }
 
