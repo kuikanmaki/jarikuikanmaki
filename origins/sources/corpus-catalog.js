@@ -28,6 +28,7 @@
   var suggestEl = document.getElementById("authority-search-suggestions");
   var clearEl = document.getElementById("authority-search-clear");
   var shelvesEl = document.getElementById("catalog-shelves");
+  var topicCloudWrapEl = document.getElementById("sources-topic-cloud");
   var topicCloudEl = document.getElementById("topic-cloud");
 
   var corpus = null;
@@ -914,8 +915,8 @@
         if (applyPendingRestoreScroll()) {
           return true;
         }
-        // Link/permalink: keep Chapters pinned. Selector browse: rescue if title is above the fold.
-        if (view.mode === "chapter" && view.chapterEntry) {
+        // Link/permalink + desktop selector: pin Chapters. Mobile selector: rescue if title is above the fold.
+        if (view.mode === "chapter" && (view.chapterEntry || isDesktopLayout())) {
           pinChaptersShelf();
         } else if (view.mode === "chapter" && !view.chapterEntry) {
           pinResultsHeadingIfObscured();
@@ -933,6 +934,10 @@
   function isDesktopChapterPicker() {
     // Custom listbox at all widths — native <select> popups break on narrow desktop/macOS.
     return true;
+  }
+
+  function isDesktopLayout() {
+    return window.matchMedia("(min-width: 640px)").matches;
   }
 
   function chapterOptionLabel(value) {
@@ -1385,6 +1390,18 @@
     ensureMetaByName("description").setAttribute("content", description);
   }
 
+  function syncTopicCloudVisibility() {
+    // Show under Search only when there is no active search (idle / chapter browse).
+    if (!topicCloudWrapEl) return;
+    var show = view.mode === "idle" || view.mode === "chapter";
+    topicCloudWrapEl.hidden = !show;
+    if (show) {
+      topicCloudWrapEl.removeAttribute("aria-hidden");
+    } else {
+      topicCloudWrapEl.setAttribute("aria-hidden", "true");
+    }
+  }
+
   function syncEntryLayout() {
     // Catalog modes (idle / chapter / search): stable shell.
     // Source reading view: stripped — card (+ optional ← Back) only.
@@ -1405,6 +1422,7 @@
         el.inert = false;
       }
     });
+    syncTopicCloudVisibility();
     syncDocumentHead();
   }
 
@@ -1527,7 +1545,11 @@
       pinChaptersShelf();
       return;
     }
-    // Selector browse: only auto-scroll if the new chapter title is above the viewport.
+    // Desktop selector: always pin Chapters near the top. Mobile: only if the title is obscured.
+    if (isDesktopLayout()) {
+      pinChaptersShelf();
+      return;
+    }
     pinResultsHeadingIfObscured();
   }
 

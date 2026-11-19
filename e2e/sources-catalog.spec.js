@@ -91,26 +91,31 @@ test.describe("Sources catalog smoke", () => {
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
     expect(new URL(page.url()).search).toBe("");
 
-    // If the title was scrolled above the fold while the menu stayed open, rescue to the title.
+    // Desktop: selecting a chapter pins the Chapters selector near the top.
     if (!isMobile(testInfo.project.name)) {
+      await expect
+        .poll(async () =>
+          page.locator("#sources-chapters").evaluate((el) => {
+            const header = document.querySelector(".site-header");
+            const headerH = header ? header.getBoundingClientRect().height : 0;
+            return el.getBoundingClientRect().top - headerH;
+          })
+        )
+        .toBeLessThan(40);
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
-      await page.evaluate(() => {
-        const heading = document.getElementById("sources-heading");
-        const header = document.querySelector(".site-header");
-        if (!heading) return;
-        const headerH = header ? header.getBoundingClientRect().height : 0;
-        // Nudge the page so the chapter title sits above the sticky-header clear zone.
-        window.scrollBy(0, heading.getBoundingClientRect().top - headerH + 40);
-      });
-      await page.locator('#chapter-custom-list [data-value="7"]').click({ force: true });
+      await page.locator('#chapter-custom-list [data-value="7"]').click();
       await expect(page.locator("#sources-heading")).toContainText(/Everything Is Under Control/i);
       await expectStableChrome(page);
       await expect
         .poll(async () =>
-          page.locator("#sources-heading").evaluate((el) => el.getBoundingClientRect().top)
+          page.locator("#sources-chapters").evaluate((el) => {
+            const header = document.querySelector(".site-header");
+            const headerH = header ? header.getBoundingClientRect().height : 0;
+            return el.getBoundingClientRect().top - headerH;
+          })
         )
-        .toBeLessThan(160);
+        .toBeLessThan(40);
     }
   });
 
