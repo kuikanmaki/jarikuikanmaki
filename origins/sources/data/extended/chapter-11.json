@@ -30,23 +30,7 @@
           "Rahul Bahulikar"
         ],
         "orgs": [
-          "The Week",
-          "Scientific American",
-          "University of North Carolina",
-          "Associated Press",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "NIH",
-          "Reuters",
-          "Science",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "The Week"
         ],
         "places": [
           "Mojiang mine",
@@ -63,9 +47,7 @@
           "person:rahul-bahulikar"
         ],
         "orgs": [
-          "org:the-week",
-          "org:scientific-american",
-          "org:university-of-north-carolina"
+          "org:the-week"
         ],
         "places": [
           "place:mojiang-mine"
@@ -109,17 +91,7 @@
         "people": [
           "Vincent Racaniello"
         ],
-        "orgs": [
-          "University of North Carolina",
-          "Virology Blog",
-          "Chinese Academy of Sciences",
-          "GenBank",
-          "Journal of Virology",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
-        ],
+        "orgs": [],
         "places": []
       },
       "topic_ids": [
@@ -138,9 +110,7 @@
         "people": [
           "person:vincent-racaniello"
         ],
-        "orgs": [
-          "org:university-of-north-carolina"
-        ],
+        "orgs": [],
         "places": []
       },
       "publication_ids": []
@@ -168,15 +138,7 @@
           "Xing-Yi Ge"
         ],
         "orgs": [
-          "Virologica Sinica",
-          "mBio",
-          "Chinese Academy of Sciences",
-          "Nature",
-          "PMC",
-          "PubMed",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Virologica Sinica"
         ],
         "places": [
           "Mojiang mine",
@@ -192,8 +154,7 @@
           "person:xing-yi-ge"
         ],
         "orgs": [
-          "org:virologica-sinica",
-          "org:mbio"
+          "org:virologica-sinica"
         ],
         "places": [
           "place:mojiang-mine",
@@ -233,11 +194,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "GenBank",
-          "NCBI",
-          "PubMed",
-          "Science",
-          "Wuhan Institute of Virology"
+          "GenBank"
         ],
         "places": [
           "Mojiang mine"
@@ -290,19 +247,7 @@
           "Monali Rahalkar",
           "Rahul Bahulikar"
         ],
-        "orgs": [
-          "Chinese Center for Disease Control and Prevention",
-          "DocumentCloud",
-          "Scientific American",
-          "Frontiers in Public Health",
-          "Chinese Academy of Sciences",
-          "DRASTIC",
-          "Nature",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "Cell"
-        ],
+        "orgs": [],
         "places": [
           "Mojiang mine",
           "Yunnan"
@@ -313,11 +258,7 @@
           "person:monali-rahalkar",
           "person:rahul-bahulikar"
         ],
-        "orgs": [
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:documentcloud",
-          "org:scientific-american"
-        ],
+        "orgs": [],
         "places": [
           "place:mojiang-mine",
           "place:yunnan"
@@ -362,12 +303,7 @@
           "Shi Zhengli"
         ],
         "orgs": [
-          "GenBank",
-          "NCBI",
-          "Chinese Academy of Sciences",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology"
+          "GenBank"
         ],
         "places": [
           "Mojiang mine"
@@ -417,32 +353,12 @@
       ],
       "entities": {
         "people": [
-          "TheSeeker268"
+          "TheSeeker"
         ],
         "orgs": [
           "DRASTIC",
           "The Week",
-          "China Virome Project",
-          "Chinese Center for Disease Control and Prevention",
-          "Global Virome Project",
-          "Scientific American",
-          "USAID",
-          "Virologica Sinica",
-          "Chinese Academy of Sciences",
-          "EcoHealth Alliance",
-          "GenBank",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Lancet",
-          "Twitter",
-          "U.S. Department of State",
-          "U.S. Right to Know",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "USAID"
         ],
         "places": [
           "Wuhan",
@@ -453,16 +369,13 @@
         "topic:open-source-investigation"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:theseeker"
+        ],
         "orgs": [
           "org:drastic",
           "org:the-week",
-          "org:china-virome-project",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:global-virome-project",
-          "org:scientific-american",
-          "org:usaid",
-          "org:virologica-sinica"
+          "org:usaid"
         ],
         "places": [
           "place:wuhan",
@@ -476,7 +389,9 @@
       "date_iso": "2021-07-11",
       "image_url": "https://img.theweek.in/content/dam/week/magazine/theweek/cover/images/2021/7/1/shutterstock_1811050684.jpg",
       "acquisition_note": "",
-      "author_ids": [],
+      "author_ids": [
+        "person:theseeker"
+      ],
       "publication_ids": [
         "org:the-week"
       ]
@@ -502,16 +417,7 @@
         "people": [
           "Li Xu"
         ],
-        "orgs": [
-          "DocumentCloud",
-          "Independent Science News",
-          "Kunming Medical University",
-          "Meta",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
-        ],
+        "orgs": [],
         "places": [
           "Mojiang mine",
           "Yunnan",
@@ -522,10 +428,7 @@
         "people": [
           "person:li-xu"
         ],
-        "orgs": [
-          "org:documentcloud",
-          "org:independent-science-news"
-        ],
+        "orgs": [],
         "places": [
           "place:mojiang-mine",
           "place:yunnan"
@@ -566,20 +469,7 @@
         ],
         "orgs": [
           "Chinese Center for Disease Control and Prevention",
-          "DocumentCloud",
-          "CDC",
-          "Independent Science News",
-          "BioEssays",
-          "GenBank",
-          "Medium",
-          "Meta",
-          "Nature",
-          "Science",
-          "Twitter",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "ResearchGate",
-          "Cell"
+          "CDC"
         ],
         "places": []
       },
@@ -590,10 +480,7 @@
         ],
         "orgs": [
           "org:chinese-center-for-disease-control-and-prevention",
-          "org:documentcloud",
-          "org:cdc",
-          "org:independent-science-news",
-          "org:bioessays"
+          "org:cdc"
         ],
         "places": [],
         "events": [
@@ -628,18 +515,7 @@
           "Zhong Nanshan",
           "Margaret Chan"
         ],
-        "orgs": [
-          "Time Magazine",
-          "National Health Commission",
-          "Amazon",
-          "Science",
-          "The New York Times",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate",
-          "WHO",
-          "Cell"
-        ],
+        "orgs": [],
         "places": [
           "China"
         ]
@@ -688,34 +564,9 @@
         ],
         "orgs": [
           "Independent Science News",
-          "CDC",
-          "Chengdu Military Center",
-          "Chinese Center for Disease Control and Prevention",
-          "DocumentCloud",
-          "Scientific American",
           "University of North Carolina",
-          "PLOS Pathogens",
-          "Newsweek",
-          "Virologica Sinica",
-          "bioRxiv",
-          "Zenodo",
-          "BioEssays",
-          "Environmental Chemistry Letters",
-          "Chinese Academy of Sciences",
-          "EcoHealth Alliance",
-          "GenBank",
-          "Journal of Virology",
-          "Meta",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "U.S. Congress",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "ResearchGate",
-          "Cell"
+          "CDC",
+          "Chinese Center for Disease Control and Prevention"
         ],
         "places": [
           "Mojiang mine"
@@ -731,19 +582,9 @@
         ],
         "orgs": [
           "org:independent-science-news",
-          "org:cdc",
-          "org:chengdu-military-center",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:documentcloud",
-          "org:scientific-american",
           "org:university-of-north-carolina",
-          "org:plos-pathogens",
-          "org:newsweek",
-          "org:virologica-sinica",
-          "org:biorxiv",
-          "org:zenodo",
-          "org:bioessays",
-          "org:environmental-chemistry-letters"
+          "org:cdc",
+          "org:chinese-center-for-disease-control-and-prevention"
         ],
         "places": [
           "place:mojiang-mine"
@@ -790,19 +631,7 @@
         "orgs": [
           "The Telegraph",
           "Wuhan Institute of Virology",
-          "Chinese Center for Disease Control and Prevention",
-          "Chinese Communist Party",
-          "Scientific American",
-          "Associated Press",
-          "DRASTIC",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Lancet",
-          "Twitter",
-          "U.S. Department of State",
-          "WHO",
-          "Cell"
+          "Chinese Communist Party"
         ],
         "places": [
           "Wuhan",
@@ -821,9 +650,7 @@
         "orgs": [
           "org:the-telegraph",
           "org:wuhan-institute-of-virology",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:chinese-communist-party",
-          "org:scientific-american"
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:wuhan",
@@ -866,9 +693,7 @@
           "Cate Cadell"
         ],
         "orgs": [
-          "Reuters",
-          "DRASTIC",
-          "Medium"
+          "Reuters"
         ],
         "places": [
           "Wuhan",
@@ -928,17 +753,7 @@
         ],
         "orgs": [
           "Nature",
-          "Wuhan Institute of Virology",
-          "USAID",
-          "Chinese Academy of Sciences",
-          "EcoHealth Alliance",
-          "GenBank",
-          "Medium",
-          "NIAID",
-          "NIH",
-          "PubMed",
-          "Science",
-          "Cell"
+          "Wuhan Institute of Virology"
         ],
         "places": []
       },
@@ -952,8 +767,7 @@
         ],
         "orgs": [
           "org:nature",
-          "org:wuhan-institute-of-virology",
-          "org:usaid"
+          "org:wuhan-institute-of-virology"
         ],
         "places": []
       },
@@ -990,16 +804,7 @@
           "Kathryn Follis"
         ],
         "orgs": [
-          "PMC",
-          "CDC",
-          "Virology",
-          "Medium",
-          "Meta",
-          "Nature",
-          "NIH",
-          "PubMed",
-          "Science",
-          "Cell"
+          "CDC"
         ],
         "places": []
       },
@@ -1011,7 +816,6 @@
           "person:kathryn-follis"
         ],
         "orgs": [
-          "org:pmc",
           "org:cdc"
         ],
         "places": []
@@ -1044,18 +848,14 @@
           "L. Kuo"
         ],
         "orgs": [
-          "Journal of Virology",
-          "PubMed",
-          "U.S. Department of State",
-          "Cell"
+          "Journal of Virology"
         ],
         "places": []
       },
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:journal-of-virology",
-          "org:pubmed"
+          "org:journal-of-virology"
         ],
         "places": []
       },
@@ -1092,16 +892,7 @@
           "Susan R. Weiss",
           "Lishan Su"
         ],
-        "orgs": [
-          "University of North Carolina",
-          "bioRxiv",
-          "Emerging Microbes & Infections",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "Cell"
-        ],
+        "orgs": [],
         "places": []
       },
       "source_key": "ch11-s17",
@@ -1114,10 +905,7 @@
         "people": [
           "person:shan-lu-liu"
         ],
-        "orgs": [
-          "org:university-of-north-carolina",
-          "org:biorxiv"
-        ],
+        "orgs": [],
         "places": []
       },
       "publication_ids": [],
@@ -1153,17 +941,7 @@
         "orgs": [
           "U.S. Right to Know",
           "University of North Carolina",
-          "USAID",
-          "Newsweek",
-          "EcoHealth Alliance",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "USAID"
         ],
         "places": []
       },
@@ -1180,8 +958,7 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:university-of-north-carolina",
-          "org:usaid",
-          "org:newsweek"
+          "org:usaid"
         ],
         "places": []
       },
@@ -1219,14 +996,7 @@
           "Dake Kang"
         ],
         "orgs": [
-          "Associated Press",
-          "White House",
-          "Amazon",
-          "Medium",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "U.S. Congress"
+          "Associated Press"
         ],
         "places": [
           "China"
@@ -1238,8 +1008,7 @@
           "person:dake-kang"
         ],
         "orgs": [
-          "org:associated-press",
-          "org:white-house"
+          "org:associated-press"
         ],
         "places": [
           "place:china"
@@ -1280,15 +1049,7 @@
         ],
         "orgs": [
           "PMC",
-          "Virologica Sinica",
-          "mBio",
-          "Chinese Academy of Sciences",
-          "Nature",
-          "NIH",
-          "PubMed",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Virologica Sinica"
         ],
         "places": [
           "Mojiang mine",
@@ -1304,8 +1065,7 @@
         ],
         "orgs": [
           "org:pmc",
-          "org:virologica-sinica",
-          "org:mbio"
+          "org:virologica-sinica"
         ],
         "places": [
           "place:mojiang-mine",
@@ -1351,15 +1111,7 @@
           "Hua Guo"
         ],
         "orgs": [
-          "Journal of Virology",
-          "Chinese Academy of Sciences",
-          "GenBank",
-          "Medium",
-          "Nature",
-          "PubMed",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Journal of Virology"
         ],
         "places": []
       },
@@ -1414,16 +1166,7 @@
           "Rossana Segreto"
         ],
         "orgs": [
-          "Environmental Chemistry Letters",
-          "bioRxiv",
-          "Zenodo",
-          "BioEssays",
-          "EcoHealth Alliance",
-          "Meta",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Environmental Chemistry Letters"
         ],
         "places": []
       },
@@ -1432,10 +1175,7 @@
           "person:rossana-segreto"
         ],
         "orgs": [
-          "org:environmental-chemistry-letters",
-          "org:biorxiv",
-          "org:zenodo",
-          "org:bioessays"
+          "org:environmental-chemistry-letters"
         ],
         "places": []
       },
@@ -1482,22 +1222,7 @@
           "Allison Wilson"
         ],
         "orgs": [
-          "Independent Science News",
-          "DocumentCloud",
-          "Scientific American",
-          "PLOS Pathogens",
-          "Virologica Sinica",
-          "bioRxiv",
-          "Journal of Virology",
-          "Meta",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Lancet",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "ResearchGate",
-          "Cell"
+          "Independent Science News"
         ],
         "places": []
       },
@@ -1507,12 +1232,7 @@
           "person:allison-wilson"
         ],
         "orgs": [
-          "org:independent-science-news",
-          "org:documentcloud",
-          "org:scientific-american",
-          "org:plos-pathogens",
-          "org:virologica-sinica",
-          "org:biorxiv"
+          "org:independent-science-news"
         ],
         "places": [],
         "events": [
@@ -1565,18 +1285,7 @@
         ],
         "orgs": [
           "BioEssays",
-          "Chinese Center for Disease Control and Prevention",
-          "University of North Carolina",
-          "USAMRIID",
-          "mBio",
-          "EcoHealth Alliance",
-          "Meta",
-          "Nature",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": []
       },
@@ -1587,10 +1296,7 @@
         ],
         "orgs": [
           "org:bioessays",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:university-of-north-carolina",
-          "org:usamriid",
-          "org:mbio"
+          "org:university-of-north-carolina"
         ],
         "places": []
       },
@@ -1637,10 +1343,7 @@
         ],
         "orgs": [
           "Amazon",
-          "Harper",
-          "Medium",
-          "Science",
-          "Wuhan Institute of Virology"
+          "Harper"
         ],
         "places": [
           "Wuhan"

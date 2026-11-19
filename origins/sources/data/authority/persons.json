@@ -657,10 +657,14 @@
       "source": "book-index"
     },
     {
-      "id": "person:matt-friedman",
-      "prefLabel": "Matt Friedman",
-      "indexTerm": "Friedman, Matt",
-      "altLabels": [],
+      "id": "person:matt-frieman",
+      "prefLabel": "Matt Frieman",
+      "indexTerm": "Frieman, Matt",
+      "altLabels": [
+        "Matt Friedman",
+        "Matthew Frieman",
+        "Frieman, Matt"
+      ],
       "related": [],
       "subentries": [
         "Baric conversations",
@@ -2043,16 +2047,6 @@
       "id": "person:grace-curley",
       "prefLabel": "Grace Curley",
       "indexTerm": "Curley, Grace",
-      "altLabels": [],
-      "related": [],
-      "subentries": [],
-      "pages": [],
-      "source": "corpus-extension"
-    },
-    {
-      "id": "person:matt-frieman",
-      "prefLabel": "Matt Frieman",
-      "indexTerm": "Frieman, Matt",
       "altLabels": [],
       "related": [],
       "subentries": [],

@@ -24,9 +24,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters",
-          "Taliban",
-          "Medium"
+          "Reuters"
         ],
         "places": [
           "United States",
@@ -70,12 +68,7 @@
       "topics": [],
       "entities": {
         "people": [],
-        "orgs": [
-          "Euronews",
-          "Medium",
-          "Twitter",
-          "Cell"
-        ],
+        "orgs": [],
         "places": [
           "Europe",
           "Belarus",
@@ -115,8 +108,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters",
-          "Medium"
+          "Reuters"
         ],
         "places": [
           "Ukraine",
@@ -163,13 +155,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "CDC",
-          "USAID",
-          "Al Jazeera",
-          "Reuters",
-          "Twitter",
-          "WHO",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Europe",
@@ -179,8 +165,7 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:cdc",
-          "org:usaid"
+          "org:cdc"
         ],
         "places": [
           "place:europe",
@@ -217,12 +202,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters",
-          "Amazon",
-          "Medium",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate"
+          "Reuters"
         ],
         "places": [
           "United States"
@@ -269,10 +249,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "France 24",
-          "Meta",
-          "Reuters",
-          "Twitter"
+          "France 24"
         ],
         "places": [
           "Europe",
@@ -324,14 +301,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Associated Press",
-          "White House",
-          "Amazon",
-          "Medium",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "U.S. Congress"
+          "Associated Press"
         ],
         "places": [
           "Canada",
@@ -341,8 +311,7 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:associated-press",
-          "org:white-house"
+          "org:associated-press"
         ],
         "places": [
           "place:canada"
@@ -382,11 +351,7 @@
           "Vladimir Putin"
         ],
         "orgs": [
-          "Reuters",
-          "White House",
-          "Amazon",
-          "Associated Press",
-          "Medium"
+          "Reuters"
         ],
         "places": [
           "Ukraine",
@@ -399,8 +364,7 @@
           "person:vladimir-putin"
         ],
         "orgs": [
-          "org:reuters",
-          "org:white-house"
+          "org:reuters"
         ],
         "places": [
           "place:ukraine",
@@ -435,13 +399,15 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters",
-          "Medium"
+          "Reuters"
         ],
         "places": [
           "Ukraine",
           "Russia",
           "Kyiv"
+        ],
+        "events": [
+          "Russia–Ukraine war"
         ]
       },
       "topic_ids": [],
@@ -453,6 +419,9 @@
         "places": [
           "place:ukraine",
           "place:russia"
+        ],
+        "events": [
+          "event:russia-ukraine-war"
         ]
       },
       "source_key": "ch18-s09",
@@ -524,11 +493,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "UNESCO",
-          "Medium",
-          "Nature",
-          "Science",
-          "Twitter"
+          "UNESCO"
         ],
         "places": []
       },
@@ -571,15 +536,7 @@
           "David Rising"
         ],
         "orgs": [
-          "Associated Press",
-          "White House",
-          "Amazon",
-          "Medium",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate"
+          "Associated Press"
         ],
         "places": [
           "Ukraine",
@@ -592,8 +549,7 @@
           "person:david-rising"
         ],
         "orgs": [
-          "org:associated-press",
-          "org:white-house"
+          "org:associated-press"
         ],
         "places": [
           "place:ukraine",
@@ -633,22 +589,14 @@
         "people": [
           "Dwight D. Eisenhower"
         ],
-        "orgs": [
-          "White House",
-          "National Archives",
-          "Science",
-          "U.S. Congress",
-          "U.S. Senate"
-        ],
+        "orgs": [],
         "places": []
       },
       "entity_ids": {
         "people": [
           "person:dwight-d-eisenhower"
         ],
-        "orgs": [
-          "org:white-house"
-        ],
+        "orgs": [],
         "places": []
       },
       "source_key": "ch18-s13",
@@ -678,9 +626,7 @@
       "topics": [],
       "entities": {
         "people": [],
-        "orgs": [
-          "NATO"
-        ],
+        "orgs": [],
         "places": [
           "Finland",
           "Europe",
@@ -724,8 +670,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "The Guardian",
-          "U.S. Congress"
+          "The Guardian"
         ],
         "places": [
           "Ukraine",
@@ -779,8 +724,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "WHO",
-          "Meta"
+          "WHO"
         ],
         "places": [
           "South Africa"
@@ -828,59 +772,26 @@
         ],
         "orgs": [
           "Center for Security Policy",
-          "CDC",
-          "Chinese Center for Disease Control and Prevention",
           "Chinese Communist Party",
-          "Global Engagement Center",
-          "Scientific American",
-          "Wikipedia",
-          "Wuhan Center for Disease Control and Prevention",
-          "Wuhan Central Hospital",
-          "South China Morning Post",
-          "Asia Times",
-          "White House",
-          "USA Today",
-          "Associated Press",
-          "Medium",
-          "NIAID",
-          "Reuters",
-          "Science",
-          "The New York Times",
-          "The Wall Street Journal",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Department of State",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Wuhan",
-          "China"
+          "China",
+          "Taiwan"
         ]
       },
       "entity_ids": {
         "people": [],
         "orgs": [
           "org:center-for-security-policy",
-          "org:cdc",
-          "org:chinese-center-for-disease-control-and-prevention",
           "org:chinese-communist-party",
-          "org:global-engagement-center",
-          "org:scientific-american",
-          "org:wikipedia",
-          "org:wuhan-center-for-disease-control-and-prevention",
-          "org:wuhan-central-hospital",
-          "org:south-china-morning-post",
-          "org:asia-times",
-          "org:white-house",
-          "org:usa-today"
+          "org:cdc"
         ],
         "places": [
           "place:wuhan",
-          "place:china"
+          "place:china",
+          "place:taiwan"
         ]
       },
       "source_key": "ch18-n02",
@@ -918,8 +829,7 @@
         ],
         "orgs": [
           "Amazon",
-          "Vintage",
-          "Medium"
+          "Vintage"
         ],
         "places": []
       },
@@ -969,12 +879,7 @@
           "Frank Hoffman"
         ],
         "orgs": [
-          "Potomac Institute",
-          "Potomac Institute for Policy Studies",
-          "DARPA",
-          "Science",
-          "U.S. Senate",
-          "Cell"
+          "Potomac Institute"
         ],
         "places": []
       },

@@ -30,14 +30,7 @@
           "EcoHealth Alliance",
           "Wuhan Institute of Virology",
           "DRASTIC",
-          "Newsweek",
-          "US Geological Survey National Wildlife Health Center",
-          "Meta",
-          "NIH",
-          "Science",
-          "Twitter",
-          "WHO",
-          "YouTube"
+          "Newsweek"
         ],
         "places": [
           "Wuhan"
@@ -53,8 +46,7 @@
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
           "org:drastic",
-          "org:newsweek",
-          "org:us-geological-survey-national-wildlife-health-center"
+          "org:newsweek"
         ],
         "places": [
           "place:wuhan"
@@ -95,21 +87,7 @@
           "Nathan Robinson"
         ],
         "orgs": [
-          "The Lancet",
-          "Lancet COVID-19 Commission",
-          "The Week",
-          "Current Affairs",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "The Guardian",
-          "The New York Times",
-          "Twitter",
-          "U.S. Congress",
-          "WHO",
-          "Wuhan Institute of Virology"
+          "The Lancet"
         ],
         "places": [
           "United States"
@@ -122,9 +100,7 @@
           "person:nathan-robinson"
         ],
         "orgs": [
-          "org:the-lancet",
-          "org:lancet-covid-19-commission",
-          "org:the-week"
+          "org:the-lancet"
         ],
         "places": [
           "place:united-states"
@@ -163,29 +139,16 @@
         "people": [
           "Dick Cheney",
           "Anthony Fauci",
-          "Ashley Rindsberg"
+          "Ashley Rindsberg",
+          "George W. Bush"
         ],
         "orgs": [
-          "NIAID",
-          "UnHerd",
-          "New York Post",
-          "ABC News",
-          "White House",
-          "NBC News",
-          "Amazon",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIH",
-          "Science",
-          "The New York Times",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate",
-          "Wuhan Institute of Virology",
-          "Vanity Fair",
-          "Cell"
+          "UnHerd"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "September 11 attacks"
+        ]
       },
       "topic_ids": [
         "topic:biodefense-complex"
@@ -194,17 +157,16 @@
         "people": [
           "person:dick-cheney",
           "person:anthony-fauci",
-          "person:ashley-rindsberg"
+          "person:ashley-rindsberg",
+          "person:george-w-bush"
         ],
         "orgs": [
-          "org:niaid",
-          "org:unherd",
-          "org:new-york-post",
-          "org:abc-news",
-          "org:white-house",
-          "org:nbc-news"
+          "org:unherd"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:september-11-attacks"
+        ]
       },
       "source_key": "ch15-s03",
       "date_iso": "2022-08-29",
@@ -239,18 +201,7 @@
           "Stephanie Richards"
         ],
         "orgs": [
-          "PMC",
-          "CDC",
-          "White House",
-          "Biosecurity and Bioterrorism",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "PubMed",
-          "Science",
-          "U.S. Congress",
-          "BBC News",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "United States"
@@ -264,9 +215,7 @@
           "person:stephanie-richards"
         ],
         "orgs": [
-          "org:pmc",
-          "org:cdc",
-          "org:white-house"
+          "org:cdc"
         ],
         "places": [
           "place:united-states"
@@ -300,14 +249,8 @@
           "Ralph Baric"
         ],
         "orgs": [
-          "University of North Carolina",
           "ResearchGate",
-          "GenBank",
-          "Meta",
-          "Nature",
-          "NIH",
-          "Science",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": []
       },
@@ -317,8 +260,8 @@
           "person:ralph-baric"
         ],
         "orgs": [
-          "org:university-of-north-carolina",
-          "org:researchgate"
+          "org:researchgate",
+          "org:university-of-north-carolina"
         ],
         "places": []
       },
@@ -355,9 +298,7 @@
           "Dezhong Xu"
         ],
         "orgs": [
-          "Academy of Military Medical Sciences",
-          "Academy of Military Medical Sciences Press",
-          "Science"
+          "Academy of Military Medical Sciences"
         ],
         "places": []
       },
@@ -404,12 +345,11 @@
         ],
         "orgs": [
           "Associated Press",
-          "FBI",
-          "CBC",
-          "U.S. Army",
-          "U.S. Congress"
+          "FBI"
         ],
-        "places": []
+        "places": [
+          "Fort Detrick"
+        ]
       },
       "topic_ids": [
         "topic:anthrax"
@@ -422,7 +362,9 @@
           "org:associated-press",
           "org:fbi"
         ],
-        "places": [],
+        "places": [
+          "place:fort-detrick"
+        ],
         "events": [
           "event:anthrax-attacks-2001"
         ]
@@ -465,8 +407,7 @@
         "orgs": [
           "Amazon",
           "Bantam",
-          "FBI",
-          "Medium"
+          "FBI"
         ],
         "places": [
           "United States"

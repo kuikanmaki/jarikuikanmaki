@@ -29,10 +29,7 @@
         "orgs": [
           "The Guardian",
           "WHO",
-          "Chinese Center for Disease Control and Prevention",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology"
+          "Chinese Center for Disease Control and Prevention"
         ],
         "places": [
           "China"
@@ -89,14 +86,7 @@
         ],
         "orgs": [
           "Associated Press",
-          "WHO",
-          "White House",
-          "Amazon",
-          "Medium",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "U.S. Congress"
+          "WHO"
         ],
         "places": [
           "Wuhan"
@@ -109,8 +99,7 @@
         ],
         "orgs": [
           "org:associated-press",
-          "org:who",
-          "org:white-house"
+          "org:who"
         ],
         "places": [
           "place:wuhan"
@@ -157,11 +146,7 @@
         ],
         "orgs": [
           "WHO",
-          "BBC News",
-          "Medium",
-          "Science",
-          "U.S. Department of State",
-          "Wuhan Institute of Virology"
+          "BBC News"
         ],
         "places": [
           "Wuhan",
@@ -226,16 +211,7 @@
           "Daily Mail",
           "WHO",
           "EcoHealth Alliance",
-          "Wuhan Institute of Virology",
-          "University of North Carolina",
-          "White House",
-          "Amazon",
-          "Nature",
-          "Science",
-          "The Lancet",
-          "U.S. Right to Know",
-          "U.S. Senate",
-          "Cell"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "China"
@@ -256,9 +232,7 @@
           "org:daily-mail",
           "org:who",
           "org:ecohealth-alliance",
-          "org:wuhan-institute-of-virology",
-          "org:university-of-north-carolina",
-          "org:white-house"
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:china"
@@ -298,12 +272,7 @@
         "orgs": [
           "NIH",
           "EcoHealth Alliance",
-          "Politico",
-          "White House",
-          "Nature",
-          "NIAID",
-          "U.S. Department of State",
-          "Wuhan Institute of Virology"
+          "Politico"
         ],
         "places": [
           "China",
@@ -319,8 +288,7 @@
         "orgs": [
           "org:nih",
           "org:ecohealth-alliance",
-          "org:politico",
-          "org:white-house"
+          "org:politico"
         ],
         "places": [
           "place:china",
@@ -364,10 +332,7 @@
           "Science",
           "NIH",
           "EcoHealth Alliance",
-          "HHS",
-          "Medium",
-          "Twitter",
-          "Cell"
+          "HHS"
         ],
         "places": []
       },
@@ -418,12 +383,7 @@
           "Ron Klain"
         ],
         "orgs": [
-          "The Guardian",
-          "White House",
-          "NBC News",
-          "NIAID",
-          "Twitter",
-          "U.S. Senate"
+          "The Guardian"
         ],
         "places": []
       },
@@ -435,9 +395,7 @@
           "person:kenya-evelyn"
         ],
         "orgs": [
-          "org:the-guardian",
-          "org:white-house",
-          "org:nbc-news"
+          "org:the-guardian"
         ],
         "places": []
       },
@@ -475,8 +433,7 @@
           "Anthony Fauci"
         ],
         "orgs": [
-          "Twitter",
-          "WHO"
+          "Twitter"
         ],
         "places": []
       },
@@ -526,8 +483,7 @@
         ],
         "orgs": [
           "Twitter",
-          "Nature",
-          "Science"
+          "Nature"
         ],
         "places": []
       },
@@ -577,13 +533,7 @@
         ],
         "orgs": [
           "Daily Mail",
-          "Wuhan Institute of Virology",
-          "National Natural Science Foundation of China",
-          "Amazon",
-          "Meta",
-          "Science",
-          "WHO",
-          "Cell"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -637,11 +587,7 @@
           "Guy Rosen"
         ],
         "orgs": [
-          "Meta",
-          "WHO",
-          "Facebook",
-          "Nature",
-          "Reuters"
+          "Meta"
         ],
         "places": []
       },
@@ -650,8 +596,7 @@
           "person:guy-rosen"
         ],
         "orgs": [
-          "org:meta",
-          "org:who"
+          "org:meta"
         ],
         "places": []
       },
@@ -693,15 +638,7 @@
           "Mike Pompeo"
         ],
         "orgs": [
-          "Suomen Uutiset",
-          "Five Eyes",
-          "Scientific American",
-          "The Telegraph",
-          "Reuters",
-          "The Guardian",
-          "The Washington Post",
-          "Wuhan Institute of Virology",
-          "YouTube"
+          "Suomen Uutiset"
         ],
         "places": [
           "United States",
@@ -716,10 +653,7 @@
           "person:mike-pompeo"
         ],
         "orgs": [
-          "org:suomen-uutiset",
-          "org:five-eyes",
-          "org:scientific-american",
-          "org:the-telegraph"
+          "org:suomen-uutiset"
         ],
         "places": [
           "place:united-states",
@@ -765,12 +699,7 @@
           "Steve Bannon"
         ],
         "orgs": [
-          "U.S. Department of State",
-          "Suomen Uutiset",
-          "Wikipedia",
-          "The Guardian",
-          "Twitter",
-          "WHO"
+          "Suomen Uutiset"
         ],
         "places": [
           "China",
@@ -785,9 +714,7 @@
           "person:donald-trump"
         ],
         "orgs": [
-          "org:u-s-department-of-state",
-          "org:suomen-uutiset",
-          "org:wikipedia"
+          "org:suomen-uutiset"
         ],
         "places": [
           "place:china",
@@ -828,30 +755,8 @@
         ],
         "orgs": [
           "Bulletin of the Atomic Scientists",
-          "Cambridge Working Group",
-          "CDC",
-          "Director of National Intelligence",
           "University of North Carolina",
-          "bioRxiv",
-          "Independent Science News",
-          "Zenodo",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "NIH",
-          "Science",
-          "The Guardian",
-          "The Lancet",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Department of State",
-          "U.S. Right to Know",
-          "U.S. Senate",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Wuhan"
@@ -865,13 +770,8 @@
         ],
         "orgs": [
           "org:bulletin-of-the-atomic-scientists",
-          "org:cambridge-working-group",
-          "org:cdc",
-          "org:director-of-national-intelligence",
           "org:university-of-north-carolina",
-          "org:biorxiv",
-          "org:independent-science-news",
-          "org:zenodo"
+          "org:cdc"
         ],
         "places": [
           "place:wuhan"
@@ -915,8 +815,7 @@
         "orgs": [
           "The Wall Street Journal",
           "Science",
-          "WHO",
-          "Reuters"
+          "WHO"
         ],
         "places": []
       },
@@ -970,14 +869,12 @@
         ],
         "orgs": [
           "Science",
-          "WHO",
-          "University of North Carolina",
-          "Wikipedia",
-          "ProMED",
-          "Zenodo",
-          "Twitter"
+          "WHO"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "WHO China origins study (2021)"
+        ]
       },
       "entity_ids": {
         "people": [
@@ -985,13 +882,12 @@
         ],
         "orgs": [
           "org:science",
-          "org:who",
-          "org:university-of-north-carolina",
-          "org:wikipedia",
-          "org:promed",
-          "org:zenodo"
+          "org:who"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:who-china-origins-study-2021"
+        ]
       },
       "source_key": "ch09-s16",
       "date_iso": "2021-05-14",
@@ -1033,12 +929,13 @@
         "orgs": [
           "The Wall Street Journal",
           "Wuhan Institute of Virology",
-          "U.S. Department of State",
-          "Reuters",
-          "WHO"
+          "U.S. Department of State"
         ],
         "places": [
           "Wuhan"
+        ],
+        "works": [
+          "U.S. State Department Fact Sheet"
         ]
       },
       "topic_ids": [
@@ -1055,6 +952,9 @@
         ],
         "places": [
           "place:wuhan"
+        ],
+        "works": [
+          "work:u-s-state-department-fact-sheet"
         ]
       },
       "source_key": "ch09-s17",
@@ -1150,8 +1050,7 @@
         ],
         "orgs": [
           "The Wall Street Journal",
-          "Wuhan Institute of Virology",
-          "Reuters"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Mojiang mine",
@@ -1217,14 +1116,7 @@
         "people": [],
         "orgs": [
           "WHO",
-          "Chinese Academy of Medical Sciences",
-          "Chinese Center for Disease Control and Prevention",
-          "Wuhan Central Hospital",
-          "Meta",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Chinese Center for Disease Control and Prevention"
         ],
         "places": [
           "Wuhan",
@@ -1236,9 +1128,7 @@
         "people": [],
         "orgs": [
           "org:who",
-          "org:chinese-academy-of-medical-sciences",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:wuhan-central-hospital"
+          "org:chinese-center-for-disease-control-and-prevention"
         ],
         "places": [
           "place:wuhan",
@@ -1286,30 +1176,7 @@
         ],
         "orgs": [
           "Bulletin of the Atomic Scientists",
-          "Wuhan Center for Disease Control and Prevention",
-          "CDC",
-          "Scientific American",
-          "Politico",
-          "bioRxiv",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "NIH",
-          "PubMed",
-          "Reuters",
-          "Science",
-          "The Guardian",
-          "The Lancet",
-          "The Wall Street Journal",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Department of State",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "ResearchGate",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Wuhan"
@@ -1321,11 +1188,7 @@
         ],
         "orgs": [
           "org:bulletin-of-the-atomic-scientists",
-          "org:wuhan-center-for-disease-control-and-prevention",
-          "org:cdc",
-          "org:scientific-american",
-          "org:politico",
-          "org:biorxiv"
+          "org:cdc"
         ],
         "places": [
           "place:wuhan"
@@ -1375,10 +1238,7 @@
           "Matt Ridley"
         ],
         "orgs": [
-          "The Wall Street Journal",
-          "White House",
-          "The Week",
-          "Nature"
+          "The Wall Street Journal"
         ],
         "places": []
       },
@@ -1387,9 +1247,7 @@
           "person:matt-ridley"
         ],
         "orgs": [
-          "org:the-wall-street-journal",
-          "org:white-house",
-          "org:the-week"
+          "org:the-wall-street-journal"
         ],
         "places": []
       },
@@ -1434,29 +1292,7 @@
           "Allison Wilson"
         ],
         "orgs": [
-          "Independent Science News",
-          "Chinese Academy of Medical Sciences",
-          "Scientific American",
-          "PLOS Pathogens",
-          "Newsweek",
-          "Virologica Sinica",
-          "bioRxiv",
-          "Zenodo",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "Journal of Virology",
-          "Meta",
-          "Nature",
-          "Nature Medicine",
-          "NIH",
-          "Science",
-          "The Lancet",
-          "The Washington Post",
-          "U.S. Department of State",
-          "Wuhan Institute of Virology",
-          "ResearchGate",
-          "Bulletin of the Atomic Scientists",
-          "Cell"
+          "Independent Science News"
         ],
         "places": [
           "Wuhan"
@@ -1468,14 +1304,7 @@
           "person:allison-wilson"
         ],
         "orgs": [
-          "org:independent-science-news",
-          "org:chinese-academy-of-medical-sciences",
-          "org:scientific-american",
-          "org:plos-pathogens",
-          "org:newsweek",
-          "org:virologica-sinica",
-          "org:biorxiv",
-          "org:zenodo"
+          "org:independent-science-news"
         ],
         "places": [
           "place:wuhan"
@@ -1524,37 +1353,8 @@
         "orgs": [
           "Bulletin of the Atomic Scientists",
           "Wuhan Institute of Virology",
-          "Wuhan Center for Disease Control and Prevention",
           "CDC",
-          "Chinese Center for Disease Control and Prevention",
-          "Defense Intelligence Agency",
-          "Five Eyes",
-          "Scientific American",
-          "The Telegraph",
-          "University of North Carolina",
-          "USAMRIID",
-          "South China Morning Post",
-          "Newsweek",
-          "NBC News",
-          "bioRxiv",
-          "Independent Science News",
-          "Financial Times",
-          "Journal of Virology",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "PubMed",
-          "Science",
-          "The Guardian",
-          "The Lancet",
-          "The New York Times",
-          "The Wall Street Journal",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Department of State",
-          "WHO",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": [
           "Wuhan",
@@ -1568,21 +1368,8 @@
         "orgs": [
           "org:bulletin-of-the-atomic-scientists",
           "org:wuhan-institute-of-virology",
-          "org:wuhan-center-for-disease-control-and-prevention",
           "org:cdc",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:defense-intelligence-agency",
-          "org:five-eyes",
-          "org:scientific-american",
-          "org:the-telegraph",
-          "org:university-of-north-carolina",
-          "org:usamriid",
-          "org:south-china-morning-post",
-          "org:newsweek",
-          "org:nbc-news",
-          "org:biorxiv",
-          "org:independent-science-news",
-          "org:financial-times"
+          "org:university-of-north-carolina"
         ],
         "places": [
           "place:wuhan",
@@ -1632,18 +1419,7 @@
           "David Relman"
         ],
         "orgs": [
-          "PNAS",
-          "Lancet COVID-19 Commission",
-          "The Telegraph",
-          "Wikipedia",
-          "Meta",
-          "Nature",
-          "PubMed",
-          "Science",
-          "The Lancet",
-          "Twitter",
-          "WHO",
-          "Cell"
+          "PNAS"
         ],
         "places": [
           "Yunnan"
@@ -1654,10 +1430,7 @@
           "person:david-relman"
         ],
         "orgs": [
-          "org:pnas",
-          "org:lancet-covid-19-commission",
-          "org:the-telegraph",
-          "org:wikipedia"
+          "org:pnas"
         ],
         "places": [
           "place:yunnan"

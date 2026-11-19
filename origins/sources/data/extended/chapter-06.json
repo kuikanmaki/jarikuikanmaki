@@ -30,16 +30,13 @@
           "Martin Furmanski"
         ],
         "orgs": [
-          "Bulletin of the Atomic Scientists",
-          "Medium",
-          "Nature",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "U.S. Congress",
-          "WHO"
+          "Bulletin of the Atomic Scientists"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "SARS lab escapes (2003–2004)",
+          "Taiwan BSL-4 laboratory breach (2003)"
+        ]
       },
       "topic_ids": [
         "topic:gain-of-function-research",
@@ -61,7 +58,8 @@
         ],
         "places": [],
         "events": [
-          "event:sars-lab-escapes-2003-2004"
+          "event:sars-lab-escapes-2003-2004",
+          "event:taiwan-bsl-4-laboratory-breach-2003"
         ]
       },
       "publication_ids": [
@@ -91,8 +89,7 @@
           "Pan Chuntao"
         ],
         "orgs": [
-          "The Washington Post",
-          "Amazon"
+          "The Washington Post"
         ],
         "places": [
           "Beijing",
@@ -149,12 +146,7 @@
           "Chen Qiushi"
         ],
         "orgs": [
-          "The Guardian",
-          "Science",
-          "Twitter",
-          "U.S. Senate",
-          "Wuhan Institute of Virology",
-          "YouTube"
+          "The Guardian"
         ],
         "places": [
           "Wuhan",
@@ -208,14 +200,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Global Engagement Center",
-          "U.S. Department of State",
-          "FAS",
-          "DRASTIC",
-          "Science",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "YouTube"
+          "Global Engagement Center"
         ],
         "places": [
           "Russia",
@@ -226,8 +211,7 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:global-engagement-center",
-          "org:u-s-department-of-state"
+          "org:global-engagement-center"
         ],
         "places": [
           "place:russia",
@@ -263,14 +247,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "France 24",
-          "Global Engagement Center",
-          "AFP",
-          "U.S. government",
-          "Meta",
-          "Twitter",
-          "U.S. Department of State",
-          "WHO"
+          "France 24"
         ],
         "places": [
           "Russia",
@@ -280,8 +257,7 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:france-24",
-          "org:global-engagement-center"
+          "org:france-24"
         ],
         "places": [
           "place:russia",
@@ -318,19 +294,13 @@
         "Freedom of Information requests"
       ],
       "entities": {
-        "people": [],
+        "people": [
+          "Tian Junhua"
+        ],
         "orgs": [
           "U.S. Department of State",
           "Wuhan Institute of Virology",
-          "U.S. Right to Know",
-          "CDC",
-          "Wuhan Central Hospital",
-          "Wuhan CDC",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Washington Post",
-          "ResearchGate"
+          "CDC"
         ],
         "places": [
           "Wuhan",
@@ -342,13 +312,13 @@
         "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:tian-junhua"
+        ],
         "orgs": [
           "org:u-s-department-of-state",
           "org:wuhan-institute-of-virology",
-          "org:u-s-right-to-know",
-          "org:cdc",
-          "org:wuhan-central-hospital"
+          "org:cdc"
         ],
         "places": [
           "place:wuhan",
@@ -386,13 +356,7 @@
         ],
         "orgs": [
           "U.S. Senate",
-          "CDC",
-          "Business Insider",
-          "Associated Press",
-          "Chinese Academy of Sciences",
-          "Science",
-          "The Lancet",
-          "Wuhan Institute of Virology"
+          "CDC"
         ],
         "places": [
           "China"
@@ -442,8 +406,7 @@
           "Alexandra Stevenson"
         ],
         "orgs": [
-          "The New York Times",
-          "Twitter"
+          "The New York Times"
         ],
         "places": []
       },
@@ -491,8 +454,7 @@
           "Paulina Firozi"
         ],
         "orgs": [
-          "The Washington Post",
-          "Amazon"
+          "The Washington Post"
         ],
         "places": []
       },
@@ -550,15 +512,7 @@
         ],
         "orgs": [
           "Nature Medicine",
-          "Wellcome Trust",
-          "mBio",
-          "bioRxiv",
-          "GenBank",
-          "Nature",
-          "PMC",
-          "PubMed",
-          "Science",
-          "Cell"
+          "Wellcome Trust"
         ],
         "places": []
       },
@@ -578,9 +532,7 @@
         ],
         "orgs": [
           "org:nature-medicine",
-          "org:wellcome-trust",
-          "org:mbio",
-          "org:biorxiv"
+          "org:wellcome-trust"
         ],
         "places": [],
         "works": [
@@ -625,15 +577,7 @@
         "orgs": [
           "U.S. Right to Know",
           "EcoHealth Alliance",
-          "The Lancet",
-          "Lancet COVID-19 Commission",
-          "Medium",
-          "Nature",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "WHO",
-          "Wuhan Institute of Virology"
+          "The Lancet"
         ],
         "places": []
       },
@@ -650,8 +594,7 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:ecohealth-alliance",
-          "org:the-lancet",
-          "org:lancet-covid-19-commission"
+          "org:the-lancet"
         ],
         "places": [],
         "works": [
@@ -694,21 +637,7 @@
           "Jimmy Tobias"
         ],
         "orgs": [
-          "NIH",
-          "DocumentCloud",
-          "Wellcome Trust",
-          "City Journal",
-          "Amazon",
-          "Medium",
-          "Meta",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "Science",
-          "The New York Times",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Wellcome Trust"
         ],
         "places": []
       },
@@ -723,8 +652,6 @@
           "person:jimmy-tobias"
         ],
         "orgs": [
-          "org:nih",
-          "org:documentcloud",
           "org:wellcome-trust"
         ],
         "places": [],
@@ -761,62 +688,36 @@
       "entities": {
         "people": [
           "Kristian Andersen",
-          "Emily Kopp"
+          "Emily Kopp",
+          "Christian Drosten",
+          "Michael Farzan",
+          "Ron Fouchier"
         ],
         "orgs": [
           "U.S. Right to Know",
           "Nature Medicine",
-          "CDC",
-          "DocumentCloud",
-          "Global Engagement Center",
-          "House Oversight and Reform Committee",
+          "Wellcome Trust",
           "University of North Carolina",
           "USAID",
-          "Wellcome Trust",
-          "ProMED",
-          "White House",
-          "The Week",
-          "bioRxiv",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "GenBank",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "PubMed",
-          "Reuters",
-          "Science",
-          "The Intercept",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Department of State",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Vanity Fair",
-          "Cell"
+          "CDC"
         ],
         "places": []
       },
       "entity_ids": {
         "people": [
           "person:kristian-andersen",
-          "person:emily-kopp"
+          "person:emily-kopp",
+          "person:christian-drosten",
+          "person:michael-farzan",
+          "person:ron-fouchier"
         ],
         "orgs": [
           "org:u-s-right-to-know",
           "org:nature-medicine",
-          "org:cdc",
-          "org:documentcloud",
-          "org:global-engagement-center",
-          "org:house-oversight-and-reform-committee",
+          "org:wellcome-trust",
           "org:university-of-north-carolina",
           "org:usaid",
-          "org:wellcome-trust",
-          "org:promed",
-          "org:white-house",
-          "org:the-week",
-          "org:biorxiv"
+          "org:cdc"
         ],
         "places": [],
         "works": [
@@ -916,14 +817,7 @@
           "Jon Cohen"
         ],
         "orgs": [
-          "Science",
-          "The Lancet",
-          "EcoHealth Alliance",
-          "Medium",
-          "NIAID",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Science"
         ],
         "places": [
           "Wuhan"
@@ -937,8 +831,7 @@
           "person:jon-cohen"
         ],
         "orgs": [
-          "org:science",
-          "org:the-lancet"
+          "org:science"
         ],
         "places": [
           "place:wuhan"
@@ -979,17 +872,7 @@
           "Anjana Ahuja"
         ],
         "orgs": [
-          "Amazon",
-          "Wellcome Trust",
-          "The Sunday Times",
-          "The Times",
-          "Financial Times",
-          "Social Sciences",
-          "Profile Books",
-          "Nature",
-          "Science",
-          "The Guardian",
-          "WHO"
+          "Wellcome Trust"
         ],
         "places": [
           "United Kingdom"
@@ -1002,12 +885,7 @@
           "person:anjana-ahuja"
         ],
         "orgs": [
-          "org:amazon",
-          "org:wellcome-trust",
-          "org:the-sunday-times",
-          "org:the-times",
-          "org:financial-times",
-          "org:social-sciences"
+          "org:wellcome-trust"
         ],
         "places": [
           "place:united-kingdom"
@@ -1049,9 +927,7 @@
         "orgs": [
           "Reuters",
           "WHO",
-          "Wellcome Trust",
-          "Medium",
-          "Science"
+          "Wellcome Trust"
         ],
         "places": [
           "Geneva",
@@ -1113,34 +989,16 @@
         "orgs": [
           "U.S. Right to Know",
           "Nature Medicine",
-          "NIH",
-          "Chinese Center for Disease Control and Prevention",
-          "Defense Intelligence Agency",
-          "Director of National Intelligence",
-          "DocumentCloud",
-          "University of North Carolina",
           "Wellcome Trust",
-          "White House",
-          "The Week",
-          "Substack",
-          "bioRxiv",
-          "Zenodo",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "PubMed",
-          "Science",
-          "The New York Times",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Department of State",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "University of North Carolina"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "Origins teleconference (1 February 2020)"
+        ],
+        "works": [
+          "The proximal origin of SARS-CoV-2"
+        ]
       },
       "entity_ids": {
         "people": [
@@ -1150,20 +1008,16 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:nature-medicine",
-          "org:nih",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:defense-intelligence-agency",
-          "org:director-of-national-intelligence",
-          "org:documentcloud",
-          "org:university-of-north-carolina",
           "org:wellcome-trust",
-          "org:white-house",
-          "org:the-week",
-          "org:substack",
-          "org:biorxiv",
-          "org:zenodo"
+          "org:university-of-north-carolina"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:origins-teleconference-1-february-2020"
+        ],
+        "works": [
+          "work:the-proximal-origin-of-sars-cov-2"
+        ]
       },
       "source_key": "ch06-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",

@@ -401,7 +401,9 @@
         "id": "org:biological-sciences-experts-group",
         "prefLabel": "Biological Sciences Experts Group",
         "indexTerm": "Biological Sciences Experts Group",
-        "altLabels": [],
+        "altLabels": [
+          "BSEG"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -453,7 +455,8 @@
         "altLabels": [
           "U.S. CDC",
           "US CDC",
-          "Centers for Disease Control and Prevention"
+          "Centers for Disease Control and Prevention",
+          "US Centers for Disease Control and Prevention"
         ],
         "related": [],
         "subentries": [],
@@ -488,7 +491,9 @@
         "id": "org:chinese-academy-of-medical-sciences",
         "prefLabel": "Chinese Academy of Medical Sciences",
         "indexTerm": "Chinese Academy of Medical Sciences",
-        "altLabels": [],
+        "altLabels": [
+          "CAMS"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -517,7 +522,8 @@
         "indexTerm": "CCDC",
         "altLabels": [
           "CCDC",
-          "China CDC"
+          "China CDC",
+          "Chinese CDC"
         ],
         "related": [],
         "subentries": [],
@@ -532,7 +538,8 @@
         "indexTerm": "CCP",
         "altLabels": [
           "CCP",
-          "Communist Party of China"
+          "Communist Party of China",
+          "CPC"
         ],
         "related": [],
         "subentries": [
@@ -606,7 +613,9 @@
         "id": "org:defense-intelligence-agency",
         "prefLabel": "Defense Intelligence Agency",
         "indexTerm": "Defense Intelligence Agency",
-        "altLabels": [],
+        "altLabels": [
+          "DIA"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -623,7 +632,8 @@
         "altLabels": [
           "DOE",
           "Energy Department",
-          "Department of Energy"
+          "Department of Energy",
+          "U.S. Department of Energy"
         ],
         "related": [],
         "subentries": [],
@@ -775,7 +785,9 @@
         "id": "org:global-virome-project",
         "prefLabel": "Global Virome Project",
         "indexTerm": "Global Virome Project",
-        "altLabels": [],
+        "altLabels": [
+          "GVP"
+        ],
         "related": [
           {
             "label": "PREDICT program",
@@ -805,7 +817,10 @@
         "id": "org:house-oversight-and-reform-committee",
         "prefLabel": "House Oversight and Reform Committee",
         "indexTerm": "House Oversight and Reform Committee",
-        "altLabels": [],
+        "altLabels": [
+          "House Oversight",
+          "House Oversight Committee"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -845,7 +860,10 @@
         "id": "org:lawrence-livermore-national-laboratory",
         "prefLabel": "Lawrence Livermore National Laboratory",
         "indexTerm": "Lawrence Livermore National Laboratory",
-        "altLabels": [],
+        "altLabels": [
+          "Lawrence Livermore",
+          "LLNL"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -1321,7 +1339,13 @@
         "id": "org:university-of-north-carolina",
         "prefLabel": "University of North Carolina",
         "indexTerm": "North Carolina, University of",
-        "altLabels": [],
+        "altLabels": [
+          "UNC",
+          "UNC-Chapel Hill",
+          "UNC Chapel Hill",
+          "University of North Carolina at Chapel Hill",
+          "University of North Carolina, Chapel Hill"
+        ],
         "related": [],
         "subentries": [
           "Baric, [given name not provided]",
@@ -1347,7 +1371,9 @@
         "prefLabel": "USAID",
         "indexTerm": "USAID",
         "altLabels": [
-          "U.S. Agency for International Development"
+          "U.S. Agency for International Development",
+          "US Agency for International Development",
+          "United States Agency for International Development"
         ],
         "related": [
           {
@@ -1367,7 +1393,8 @@
         "prefLabel": "USAMRIID",
         "indexTerm": "USAMRIID",
         "altLabels": [
-          "U.S. Army Medical Research Institute of Infectious Diseases"
+          "U.S. Army Medical Research Institute of Infectious Diseases",
+          "US Army Medical Research Institute of Infectious Diseases"
         ],
         "related": [
           {
@@ -1397,7 +1424,9 @@
         "id": "org:wellcome-trust",
         "prefLabel": "Wellcome Trust",
         "indexTerm": "Wellcome Trust",
-        "altLabels": [],
+        "altLabels": [
+          "Wellcome"
+        ],
         "related": [],
         "subentries": [
           "covert communications",
@@ -1462,7 +1491,9 @@
         "id": "org:wuhan-center-for-disease-control-and-prevention",
         "prefLabel": "Wuhan Center for Disease Control and Prevention",
         "indexTerm": "Wuhan Center for Disease Control and Prevention",
-        "altLabels": [],
+        "altLabels": [
+          "Wuhan CDC"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -1488,7 +1519,9 @@
         "id": "org:wuhan-institute-of-biological-products",
         "prefLabel": "Wuhan Institute of Biological Products",
         "indexTerm": "Wuhan Institute of Biological Products",
-        "altLabels": [],
+        "altLabels": [
+          "WIBP"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -1862,7 +1895,9 @@
         "id": "org:white-coat-waste-project",
         "prefLabel": "White Coat Waste Project",
         "indexTerm": "White Coat Waste Project",
-        "altLabels": [],
+        "altLabels": [
+          "WCW"
+        ],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -2968,10 +3003,14 @@
         "source": "book-index"
       },
       {
-        "id": "person:matt-friedman",
-        "prefLabel": "Matt Friedman",
-        "indexTerm": "Friedman, Matt",
-        "altLabels": [],
+        "id": "person:matt-frieman",
+        "prefLabel": "Matt Frieman",
+        "indexTerm": "Frieman, Matt",
+        "altLabels": [
+          "Matt Friedman",
+          "Matthew Frieman",
+          "Frieman, Matt"
+        ],
         "related": [],
         "subentries": [
           "Baric conversations",
@@ -4354,16 +4393,6 @@
         "id": "person:grace-curley",
         "prefLabel": "Grace Curley",
         "indexTerm": "Curley, Grace",
-        "altLabels": [],
-        "related": [],
-        "subentries": [],
-        "pages": [],
-        "source": "corpus-extension"
-      },
-      {
-        "id": "person:matt-frieman",
-        "prefLabel": "Matt Frieman",
-        "indexTerm": "Frieman, Matt",
         "altLabels": [],
         "related": [],
         "subentries": [],

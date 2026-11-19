@@ -80,10 +80,7 @@
           "Emily Chow"
         ],
         "orgs": [
-          "Reuters",
-          "Medium",
-          "Science",
-          "WHO"
+          "Reuters"
         ],
         "places": [
           "Italy",
@@ -141,12 +138,7 @@
           "B. Coutard"
         ],
         "orgs": [
-          "PubMed",
-          "mBio",
-          "Antiviral Research",
-          "PMC",
-          "Science",
-          "Cell"
+          "PubMed"
         ],
         "places": []
       },
@@ -158,8 +150,7 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:pubmed",
-          "org:mbio"
+          "org:pubmed"
         ],
         "places": []
       },
@@ -190,11 +181,7 @@
           "Giuseppe Conte"
         ],
         "orgs": [
-          "BBC News",
-          "Medium",
-          "Twitter",
-          "WHO",
-          "Cell"
+          "BBC News"
         ],
         "places": [
           "Italy",
@@ -290,8 +277,7 @@
         ],
         "orgs": [
           "Yle",
-          "Yle News",
-          "THL"
+          "Yle News"
         ],
         "places": [
           "Italy",

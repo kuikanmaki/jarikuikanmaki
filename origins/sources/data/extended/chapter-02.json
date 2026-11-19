@@ -28,16 +28,7 @@
         ],
         "orgs": [
           "The Washington Times",
-          "Wuhan Institute of Virology",
-          "Chinese Center for Disease Control and Prevention",
-          "Wuhan Institute of Biological Products",
-          "Chinese Academy of Sciences",
-          "Daily Mail",
-          "Nature",
-          "Science",
-          "U.S. Congress",
-          "U.S. Department of State",
-          "WHO"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -52,9 +43,7 @@
         ],
         "orgs": [
           "org:the-washington-times",
-          "org:wuhan-institute-of-virology",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:wuhan-institute-of-biological-products"
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan",
@@ -92,14 +81,7 @@
         "people": [
           "David Hoffman"
         ],
-        "orgs": [
-          "Amazon",
-          "The Times",
-          "Doubleday",
-          "Science",
-          "The New York Times",
-          "The Washington Post"
-        ],
+        "orgs": [],
         "places": [
           "Soviet Union"
         ]
@@ -111,10 +93,7 @@
         "people": [
           "person:david-hoffman"
         ],
-        "orgs": [
-          "org:amazon",
-          "org:the-times"
-        ],
+        "orgs": [],
         "places": [
           "place:soviet-union"
         ]
@@ -151,14 +130,9 @@
           "Stephen Handelman"
         ],
         "orgs": [
-          "Biopreparat",
-          "Amazon",
           "Random House",
-          "Unit 731",
           "USAMRIID",
-          "mBio",
-          "Science",
-          "The New York Times"
+          "Biopreparat"
         ],
         "places": [
           "Soviet Union",
@@ -174,12 +148,9 @@
           "person:stephen-handelman"
         ],
         "orgs": [
-          "org:biopreparat",
-          "org:amazon",
           "org:random-house",
-          "org:unit-731",
           "org:usamriid",
-          "org:mbio"
+          "org:biopreparat"
         ],
         "places": [
           "place:soviet-union",
@@ -221,10 +192,8 @@
         ],
         "orgs": [
           "WHO",
-          "The Wall Street Journal",
           "STAT News",
-          "CDC",
-          "University of North Carolina"
+          "CDC"
         ],
         "places": [
           "Wuhan",
@@ -240,10 +209,8 @@
         ],
         "orgs": [
           "org:who",
-          "org:the-wall-street-journal",
           "org:stat-news",
-          "org:cdc",
-          "org:university-of-north-carolina"
+          "org:cdc"
         ],
         "places": [
           "place:wuhan",
@@ -285,26 +252,13 @@
         ],
         "orgs": [
           "mBio",
-          "Biopreparat",
-          "CDC",
-          "Chinese Academy of Medical Sciences",
-          "White House",
-          "Regnery",
-          "American Society for Microbiology",
-          "Medium",
-          "Nature",
-          "NIH",
-          "PubMed",
-          "Science",
-          "The Guardian",
-          "The New York Times",
-          "The Washington Post",
-          "Twitter",
-          "WHO",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Soviet Union"
+        ],
+        "events": [
+          "Russian flu (1977)"
         ]
       },
       "entity_ids": {
@@ -314,14 +268,13 @@
         ],
         "orgs": [
           "org:mbio",
-          "org:biopreparat",
-          "org:cdc",
-          "org:chinese-academy-of-medical-sciences",
-          "org:white-house",
-          "org:regnery"
+          "org:cdc"
         ],
         "places": [
           "place:soviet-union"
+        ],
+        "events": [
+          "event:russian-flu-1977"
         ]
       },
       "source_key": "ch02-s05",
@@ -366,18 +319,13 @@
         ],
         "orgs": [
           "Journal of Defence Studies",
-          "People’s Liberation Army",
-          "Defense Intelligence Agency",
-          "Chinese Academy of Sciences",
-          "Nature",
-          "Science",
-          "U.S. Congress",
-          "U.S. Senate",
-          "WHO",
-          "Wuhan Institute of Virology"
+          "People’s Liberation Army"
         ],
         "places": [
           "China"
+        ],
+        "events": [
+          "Biological Weapons Convention (1972)"
         ]
       },
       "entity_ids": {
@@ -386,11 +334,13 @@
         ],
         "orgs": [
           "org:journal-of-defence-studies",
-          "org:people-s-liberation-army",
-          "org:defense-intelligence-agency"
+          "org:people-s-liberation-army"
         ],
         "places": [
           "place:china"
+        ],
+        "events": [
+          "event:biological-weapons-convention-1972"
         ]
       },
       "source_key": "ch02-n01",
@@ -430,14 +380,7 @@
           "Dany Shoham"
         ],
         "orgs": [
-          "BESA Center",
-          "Five Eyes",
-          "UNESCO",
-          "Wuhan Institute of Biological Products",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "BESA Center"
         ],
         "places": []
       },
@@ -446,10 +389,7 @@
           "person:dany-shoham"
         ],
         "orgs": [
-          "org:besa-center",
-          "org:five-eyes",
-          "org:unesco",
-          "org:wuhan-institute-of-biological-products"
+          "org:besa-center"
         ],
         "places": [],
         "events": [
@@ -496,11 +436,12 @@
         "orgs": [
           "CIA",
           "Amazon",
-          "Henry Holt and Co.",
-          "Medium",
-          "Science"
+          "Henry Holt and Co."
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "MKUltra"
+        ]
       },
       "entity_ids": {
         "people": [
@@ -511,7 +452,10 @@
           "org:amazon",
           "org:henry-holt-and-co"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:mkultra"
+        ]
       },
       "source_key": "ch02-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -549,18 +493,15 @@
           "Martin Furmanski"
         ],
         "orgs": [
-          "National Post",
-          "Amazon",
-          "Medium",
-          "Nature",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "WHO",
-          "Bulletin of the Atomic Scientists"
+          "National Post"
         ],
         "places": [
           "China"
+        ],
+        "events": [
+          "SARS lab escapes (2003–2004)",
+          "Russian flu (1977)",
+          "Taiwan BSL-4 laboratory breach (2003)"
         ]
       },
       "entity_ids": {
@@ -574,7 +515,9 @@
           "place:china"
         ],
         "events": [
-          "event:sars-lab-escapes-2003-2004"
+          "event:sars-lab-escapes-2003-2004",
+          "event:russian-flu-1977",
+          "event:taiwan-bsl-4-laboratory-breach-2003"
         ]
       },
       "source_key": "ch02-n04",

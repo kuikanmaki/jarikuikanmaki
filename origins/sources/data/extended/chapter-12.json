@@ -30,8 +30,7 @@
         ],
         "orgs": [
           "Journal of Virology",
-          "PubMed",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": []
       },
@@ -45,7 +44,7 @@
         ],
         "orgs": [
           "org:journal-of-virology",
-          "org:pubmed"
+          "org:university-of-north-carolina"
         ],
         "places": []
       },
@@ -83,14 +82,7 @@
           "Anjeanette Roberts"
         ],
         "orgs": [
-          "PLOS Pathogens",
-          "mBio",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "Cell"
+          "PLOS Pathogens"
         ],
         "places": []
       },
@@ -100,8 +92,7 @@
           "person:anjeanette-roberts"
         ],
         "orgs": [
-          "org:plos-pathogens",
-          "org:mbio"
+          "org:plos-pathogens"
         ],
         "places": []
       },
@@ -141,17 +132,7 @@
           "Michelle Becker"
         ],
         "orgs": [
-          "PNAS",
-          "The Times",
-          "University of North Carolina",
-          "Wikipedia",
-          "mBio",
-          "GenBank",
-          "NIAID",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "Cell"
+          "PNAS"
         ],
         "places": []
       },
@@ -161,11 +142,7 @@
           "person:michelle-becker"
         ],
         "orgs": [
-          "org:pnas",
-          "org:the-times",
-          "org:university-of-north-carolina",
-          "org:wikipedia",
-          "org:mbio"
+          "org:pnas"
         ],
         "places": []
       },
@@ -204,15 +181,7 @@
         ],
         "orgs": [
           "Science",
-          "Wuhan Institute of Virology",
-          "Wikipedia",
-          "Zenodo",
-          "Chinese Academy of Sciences",
-          "EcoHealth Alliance",
-          "GenBank",
-          "PubMed",
-          "Twitter",
-          "Cell"
+          "Wuhan Institute of Virology"
         ],
         "places": []
       },
@@ -222,9 +191,7 @@
         ],
         "orgs": [
           "org:science",
-          "org:wuhan-institute-of-virology",
-          "org:wikipedia",
-          "org:zenodo"
+          "org:wuhan-institute-of-virology"
         ],
         "places": []
       },
@@ -270,14 +237,7 @@
         "orgs": [
           "Wuhan Institute of Virology",
           "EcoHealth Alliance",
-          "University of North Carolina",
-          "MIT Technology Review",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": [
           "Wuhan",
@@ -339,14 +299,12 @@
           "Declan Butler"
         ],
         "orgs": [
-          "Nature",
-          "PMC",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "Cell"
+          "Nature"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence"
+        ]
       },
       "entity_ids": {
         "people": [
@@ -357,7 +315,10 @@
         "orgs": [
           "org:nature"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "work:a-sars-like-cluster-of-circulating-bat-coronaviruses-shows-potential-for-human-emergence"
+        ]
       },
       "source_key": "ch12-s06",
       "date_iso": "2015-11-12",
@@ -395,11 +356,7 @@
           "Wuze Ren"
         ],
         "orgs": [
-          "Journal of Virology",
-          "PubMed",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Journal of Virology"
         ],
         "places": []
       },
@@ -408,8 +365,7 @@
           "person:wuze-ren"
         ],
         "orgs": [
-          "org:journal-of-virology",
-          "org:pubmed"
+          "org:journal-of-virology"
         ],
         "places": []
       },
@@ -445,24 +401,14 @@
         "people": [
           "Yuxuan Hou"
         ],
-        "orgs": [
-          "PubMed",
-          "Archives of Virology",
-          "GenBank",
-          "Meta",
-          "Nature",
-          "PMC",
-          "Cell"
-        ],
+        "orgs": [],
         "places": []
       },
       "entity_ids": {
         "people": [
           "person:yuxuan-hou"
         ],
-        "orgs": [
-          "org:pubmed"
-        ],
+        "orgs": [],
         "places": []
       },
       "source_key": "ch12-s08",
@@ -498,12 +444,7 @@
           "Lei-Ping Zeng"
         ],
         "orgs": [
-          "Journal of Virology",
-          "EcoHealth Alliance",
-          "PubMed",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Journal of Virology"
         ],
         "places": [
           "Wuhan"
@@ -558,16 +499,7 @@
         ],
         "orgs": [
           "Wuhan Institute of Virology",
-          "PLOS Pathogens",
-          "USAID",
-          "Chinese Academy of Sciences",
-          "GenBank",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "Cell"
+          "PLOS Pathogens"
         ],
         "places": [
           "Yunnan"
@@ -583,8 +515,7 @@
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
-          "org:plos-pathogens",
-          "org:usaid"
+          "org:plos-pathogens"
         ],
         "places": [
           "place:yunnan"
@@ -624,15 +555,7 @@
         ],
         "orgs": [
           "Nature",
-          "Wuhan Institute of Virology",
-          "Chinese Academy of Sciences",
-          "EcoHealth Alliance",
-          "NIAID",
-          "NIH",
-          "PMC",
-          "PubMed",
-          "Science",
-          "Cell"
+          "Wuhan Institute of Virology"
         ],
         "places": []
       },
@@ -681,12 +604,7 @@
         ],
         "orgs": [
           "Asia Times",
-          "CDC",
-          "Daily Mail",
-          "NIAID",
-          "NIH",
-          "Science",
-          "Wuhan Institute of Virology"
+          "CDC"
         ],
         "places": [
           "Wuhan",
@@ -741,10 +659,7 @@
         "orgs": [
           "NIAID",
           "NIH",
-          "EcoHealth Alliance",
-          "Nature",
-          "U.S. Congress",
-          "Cell"
+          "EcoHealth Alliance"
         ],
         "places": []
       },
@@ -790,17 +705,7 @@
           "Ben Hu"
         ],
         "orgs": [
-          "PLOS Pathogens",
-          "USAID",
-          "Chinese Academy of Sciences",
-          "GenBank",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "PLOS Pathogens"
         ],
         "places": [
           "Yunnan"
@@ -815,8 +720,7 @@
           "person:ben-hu"
         ],
         "orgs": [
-          "org:plos-pathogens",
-          "org:usaid"
+          "org:plos-pathogens"
         ],
         "places": [
           "place:yunnan"
@@ -857,18 +761,7 @@
         ],
         "orgs": [
           "U.S. Senate",
-          "CDC",
-          "NIAID",
-          "Rev",
-          "Medium",
-          "Nature",
-          "NIH",
-          "Science",
-          "The Guardian",
-          "The Lancet",
-          "U.S. Congress",
-          "WHO",
-          "Cell"
+          "CDC"
         ],
         "places": []
       },
@@ -882,8 +775,7 @@
         ],
         "orgs": [
           "org:u-s-senate",
-          "org:cdc",
-          "org:niaid"
+          "org:cdc"
         ],
         "places": []
       },
@@ -917,9 +809,7 @@
           "Anthony Fauci"
         ],
         "orgs": [
-          "YouTube",
-          "U.S. Senate",
-          "C-SPAN"
+          "YouTube"
         ],
         "places": []
       },
@@ -932,8 +822,7 @@
           "person:anthony-fauci"
         ],
         "orgs": [
-          "org:youtube",
-          "org:u-s-senate"
+          "org:youtube"
         ],
         "places": []
       },
@@ -967,8 +856,7 @@
         "people": [],
         "orgs": [
           "Chinese Center for Disease Control and Prevention",
-          "CDC",
-          "Science"
+          "CDC"
         ],
         "places": [
           "China"
@@ -1018,9 +906,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force",
-          "State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism",
-          "Science"
+          "The State Council Novel Coronavirus Pneumonia Epidemic Joint Prevention and Control Mechanism Scientific Research Task Force"
         ],
         "places": [
           "China"
@@ -1073,11 +959,7 @@
           "Ivan Watson"
         ],
         "orgs": [
-          "CNN",
-          "Academy of Military Medical Sciences",
-          "The New England Journal of Medicine",
-          "Science",
-          "Twitter"
+          "CNN"
         ],
         "places": [
           "Huanan Seafood Market",
@@ -1092,9 +974,7 @@
           "person:ivan-watson"
         ],
         "orgs": [
-          "org:cnn",
-          "org:academy-of-military-medical-sciences",
-          "org:the-new-england-journal-of-medicine"
+          "org:cnn"
         ],
         "places": [
           "place:huanan-seafood-market",
@@ -1143,12 +1023,7 @@
         ],
         "orgs": [
           "The New York Times",
-          "Chinese Communist Party",
-          "The Times",
-          "Associated Press",
-          "Twitter",
-          "WHO",
-          "YouTube"
+          "Chinese Communist Party"
         ],
         "places": [
           "China"
@@ -1160,8 +1035,7 @@
         ],
         "orgs": [
           "org:the-new-york-times",
-          "org:chinese-communist-party",
-          "org:the-times"
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:china"
@@ -1209,24 +1083,7 @@
           "EcoHealth Alliance",
           "Wuhan Institute of Virology",
           "FactCheck.org",
-          "Cambridge Working Group",
-          "Moderna",
-          "Scientific American",
-          "University of North Carolina",
-          "White House",
-          "PolitiFact",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "Science",
-          "The New York Times",
-          "The Wall Street Journal",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Senate",
-          "WHO",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": [
           "Wuhan"
@@ -1243,12 +1100,7 @@
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
           "org:factcheck-org",
-          "org:cambridge-working-group",
-          "org:moderna",
-          "org:scientific-american",
-          "org:university-of-north-carolina",
-          "org:white-house",
-          "org:politifact"
+          "org:university-of-north-carolina"
         ],
         "places": [
           "place:wuhan"
@@ -1295,8 +1147,7 @@
         "orgs": [
           "The Washington Post",
           "NIH",
-          "Wuhan Institute of Virology",
-          "EcoHealth Alliance"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -1358,23 +1209,7 @@
         ],
         "orgs": [
           "Newsweek",
-          "NIH",
-          "White Coat Waste Project",
-          "DARPA",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "Science",
-          "The Intercept",
-          "The Lancet",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "NIH"
         ],
         "places": [
           "China"
@@ -1388,8 +1223,7 @@
         ],
         "orgs": [
           "org:newsweek",
-          "org:nih",
-          "org:white-coat-waste-project"
+          "org:nih"
         ],
         "places": [
           "place:china"
@@ -1435,14 +1269,7 @@
         ],
         "orgs": [
           "Amazon",
-          "Regnery",
-          "The Washington Times",
-          "Wikipedia",
-          "White House",
-          "Science",
-          "The New York Times",
-          "U.S. Senate",
-          "Wuhan Institute of Virology"
+          "Regnery"
         ],
         "places": []
       },
@@ -1452,10 +1279,7 @@
         ],
         "orgs": [
           "org:amazon",
-          "org:regnery",
-          "org:the-washington-times",
-          "org:wikipedia",
-          "org:white-house"
+          "org:regnery"
         ],
         "places": []
       },

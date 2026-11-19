@@ -29,9 +29,7 @@
           "Joe Biden"
         ],
         "orgs": [
-          "White House",
-          "U.S. Intelligence Community",
-          "U.S. Congress"
+          "White House"
         ],
         "places": []
       },
@@ -80,10 +78,7 @@
           "Liang Wannian"
         ],
         "orgs": [
-          "WHO",
-          "The Week",
-          "Science",
-          "Cell"
+          "WHO"
         ],
         "places": [
           "Geneva"
@@ -94,8 +89,7 @@
           "person:tedros-adhanom-ghebreyesus"
         ],
         "orgs": [
-          "org:who",
-          "org:the-week"
+          "org:who"
         ],
         "places": []
       },
@@ -135,8 +129,7 @@
         "people": [],
         "orgs": [
           "U.S. Department of State",
-          "WHO",
-          "Science"
+          "WHO"
         ],
         "places": [
           "China",
@@ -195,16 +188,7 @@
           "Cristiano Lima"
         ],
         "orgs": [
-          "Meta",
-          "Politico",
-          "Facebook",
-          "Nature",
-          "The Wall Street Journal",
-          "Twitter",
-          "U.S. Congress",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "Politico"
         ],
         "places": []
       },
@@ -213,7 +197,6 @@
           "person:cristiano-lima"
         ],
         "orgs": [
-          "org:meta",
           "org:politico"
         ],
         "places": []
@@ -257,12 +240,7 @@
           "Olafimihan Oshin"
         ],
         "orgs": [
-          "The Washington Post",
-          "White House",
-          "The Hill",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate"
+          "The Washington Post"
         ],
         "places": [
           "United States"
@@ -278,8 +256,7 @@
           "person:olafimihan-oshin"
         ],
         "orgs": [
-          "org:the-washington-post",
-          "org:white-house"
+          "org:the-washington-post"
         ],
         "places": [
           "place:united-states"
@@ -317,9 +294,7 @@
         ],
         "orgs": [
           "The Washington Post",
-          "Wuhan Institute of Virology",
-          "Amazon",
-          "U.S. Senate"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -374,23 +349,7 @@
         ],
         "orgs": [
           "Vox",
-          "Chinese Communist Party",
-          "This Week in Virology",
-          "New York Post",
-          "South China Morning Post",
-          "White House",
-          "The Week",
-          "EcoHealth Alliance",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Lancet",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Congress",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Chinese Communist Party"
         ],
         "places": []
       },
@@ -403,12 +362,7 @@
         ],
         "orgs": [
           "org:vox",
-          "org:chinese-communist-party",
-          "org:this-week-in-virology",
-          "org:new-york-post",
-          "org:south-china-morning-post",
-          "org:white-house",
-          "org:the-week"
+          "org:chinese-communist-party"
         ],
         "places": []
       },
@@ -449,12 +403,12 @@
         ],
         "orgs": [
           "NIH",
-          "DocumentCloud",
-          "NIAID",
-          "Nature",
-          "Nature Medicine"
+          "DocumentCloud"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence"
+        ]
       },
       "entity_ids": {
         "people": [
@@ -464,10 +418,12 @@
         ],
         "orgs": [
           "org:nih",
-          "org:documentcloud",
-          "org:niaid"
+          "org:documentcloud"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "work:a-sars-like-cluster-of-circulating-bat-coronaviruses-shows-potential-for-human-emergence"
+        ]
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
@@ -507,10 +463,7 @@
         ],
         "orgs": [
           "NIH",
-          "CDC",
-          "White House",
-          "Science",
-          "U.S. Senate"
+          "White House"
         ],
         "places": [
           "Wuhan"
@@ -526,7 +479,6 @@
         ],
         "orgs": [
           "org:nih",
-          "org:cdc",
           "org:white-house"
         ],
         "places": [
@@ -607,15 +559,8 @@
         ],
         "orgs": [
           "The Telegraph",
-          "Global Virome Project",
           "Wellcome Trust",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "Science",
-          "The Lancet",
-          "The Wall Street Journal",
-          "Wuhan Institute of Virology"
+          "Global Virome Project"
         ],
         "places": [
           "China",
@@ -629,8 +574,8 @@
         ],
         "orgs": [
           "org:the-telegraph",
-          "org:global-virome-project",
-          "org:wellcome-trust"
+          "org:wellcome-trust",
+          "org:global-virome-project"
         ],
         "places": [
           "place:china",
@@ -675,8 +620,7 @@
         ],
         "orgs": [
           "This Week in Virology",
-          "EcoHealth Alliance",
-          "YouTube"
+          "EcoHealth Alliance"
         ],
         "places": []
       },
@@ -690,8 +634,7 @@
         ],
         "orgs": [
           "org:this-week-in-virology",
-          "org:ecohealth-alliance",
-          "org:youtube"
+          "org:ecohealth-alliance"
         ],
         "places": []
       },
@@ -727,11 +670,7 @@
         "people": [],
         "orgs": [
           "NIH",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "U.S. Congress",
-          "Cell"
+          "EcoHealth Alliance"
         ],
         "places": []
       },
@@ -779,25 +718,7 @@
         "orgs": [
           "DRASTIC",
           "Wuhan Institute of Virology",
-          "Newsweek",
-          "Scientific American",
-          "The Sunday Times",
-          "UnHerd",
-          "The Week",
-          "EcoHealth Alliance",
-          "Medium",
-          "Meta",
-          "Nature",
-          "Science",
-          "The Lancet",
-          "The New York Times",
-          "The Wall Street Journal",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate",
-          "YouTube",
-          "Cell"
+          "Newsweek"
         ],
         "places": [
           "Wuhan"
@@ -815,11 +736,7 @@
         "orgs": [
           "org:drastic",
           "org:wuhan-institute-of-virology",
-          "org:newsweek",
-          "org:scientific-american",
-          "org:the-sunday-times",
-          "org:unherd",
-          "org:the-week"
+          "org:newsweek"
         ],
         "places": [
           "place:wuhan"
@@ -862,20 +779,7 @@
           "Wuhan Institute of Virology",
           "DRASTIC",
           "ResearchGate",
-          "China Virome Project",
-          "Global Virome Project",
-          "Scientific American",
-          "USAID",
-          "The Week",
-          "Virologica Sinica",
-          "Chinese Academy of Sciences",
-          "EcoHealth Alliance",
-          "GenBank",
-          "Meta",
-          "Nature",
-          "NIAID",
-          "Science",
-          "Cell"
+          "USAID"
         ],
         "places": []
       },
@@ -888,12 +792,7 @@
           "org:wuhan-institute-of-virology",
           "org:drastic",
           "org:researchgate",
-          "org:china-virome-project",
-          "org:global-virome-project",
-          "org:scientific-american",
-          "org:usaid",
-          "org:the-week",
-          "org:virologica-sinica"
+          "org:usaid"
         ],
         "places": []
       },
@@ -937,10 +836,7 @@
           "Wuhan Institute of Virology",
           "WHO",
           "New York Post",
-          "Chinese Communist Party",
-          "Scientific American",
-          "ABC News",
-          "Twitter"
+          "Chinese Communist Party"
         ],
         "places": [
           "Wuhan",
@@ -955,9 +851,7 @@
           "org:wuhan-institute-of-virology",
           "org:who",
           "org:new-york-post",
-          "org:chinese-communist-party",
-          "org:scientific-american",
-          "org:abc-news"
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:wuhan",
@@ -1002,16 +896,7 @@
         ],
         "orgs": [
           "Molecular Biology and Evolution",
-          "bioRxiv",
-          "Moderna",
-          "Sequence Read Archive",
-          "NIH Sequence Read Archive",
-          "NIH",
-          "PubMed",
-          "Science",
-          "Twitter",
-          "WHO",
-          "Cell"
+          "Sequence Read Archive"
         ],
         "places": [
           "Wuhan",
@@ -1027,8 +912,6 @@
         ],
         "orgs": [
           "org:molecular-biology-and-evolution",
-          "org:biorxiv",
-          "org:moderna",
           "org:sequence-read-archive"
         ],
         "places": [
@@ -1073,27 +956,9 @@
           "Eddie Holmes"
         ],
         "orgs": [
-          "Wellcome Trust",
-          "The Lancet",
           "UnHerd",
-          "CDC",
-          "Moderna",
-          "USAMRIID",
-          "Politico",
-          "Financial Times",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "Science",
-          "The Guardian",
-          "Twitter",
-          "U.S. Right to Know",
-          "U.S. Senate",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "Wellcome Trust",
+          "CDC"
         ],
         "places": [
           "United Kingdom"
@@ -1111,14 +976,9 @@
           "person:kristian-andersen"
         ],
         "orgs": [
-          "org:wellcome-trust",
-          "org:the-lancet",
           "org:unherd",
-          "org:cdc",
-          "org:moderna",
-          "org:usamriid",
-          "org:politico",
-          "org:financial-times"
+          "org:wellcome-trust",
+          "org:cdc"
         ],
         "places": [
           "place:united-kingdom"
@@ -1170,21 +1030,7 @@
           "The Intercept",
           "NIH",
           "NIAID",
-          "U.S. Congress",
-          "DocumentCloud",
-          "Politico",
-          "White House",
-          "The Free Press",
-          "Scripps Research",
-          "DARPA",
-          "EcoHealth Alliance",
-          "Meta",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "Twitter",
-          "U.S. Senate",
-          "Wuhan Institute of Virology"
+          "U.S. Congress"
         ],
         "places": []
       },
@@ -1202,11 +1048,7 @@
           "org:the-intercept",
           "org:nih",
           "org:niaid",
-          "org:u-s-congress",
-          "org:documentcloud",
-          "org:politico",
-          "org:white-house",
-          "org:the-free-press"
+          "org:u-s-congress"
         ],
         "places": [],
         "works": [
@@ -1248,19 +1090,7 @@
           "Patrick Vallance"
         ],
         "orgs": [
-          "Daily Mail",
-          "Wellcome Trust",
-          "UK Government",
-          "Amazon",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "Nature",
-          "Science",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Right to Know",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "Daily Mail"
         ],
         "places": [
           "United Kingdom"
@@ -1276,8 +1106,7 @@
           "person:patrick-vallance"
         ],
         "orgs": [
-          "org:daily-mail",
-          "org:wellcome-trust"
+          "org:daily-mail"
         ],
         "places": [
           "place:united-kingdom"
@@ -1322,15 +1151,7 @@
         ],
         "orgs": [
           "WHO",
-          "The New York Times",
-          "The Times",
-          "Associated Press",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "Twitter"
+          "The New York Times"
         ],
         "places": [
           "Huanan Seafood Market",
@@ -1345,8 +1166,7 @@
         ],
         "orgs": [
           "org:who",
-          "org:the-new-york-times",
-          "org:the-times"
+          "org:the-new-york-times"
         ],
         "places": [
           "place:huanan-seafood-market",
@@ -1391,8 +1211,7 @@
         ],
         "orgs": [
           "WHO",
-          "The Wall Street Journal",
-          "Nature"
+          "The Wall Street Journal"
         ],
         "places": [
           "Wuhan",
@@ -1454,27 +1273,11 @@
           "WHO",
           "The Times",
           "The Sunday Times",
-          "Chinese Communist Party",
-          "People’s Liberation Army",
-          "Wuhan Central Hospital",
-          "Wuhan Municipal Health Commission",
-          "The Week",
-          "Associated Press",
-          "EcoHealth Alliance",
-          "GenBank",
-          "Nature",
-          "Reuters",
-          "Science",
-          "The Lancet",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Department of State",
-          "Wuhan Institute of Virology",
-          "Vanity Fair",
-          "Cell"
+          "Chinese Communist Party"
         ],
         "places": [
-          "China"
+          "China",
+          "Taiwan"
         ]
       },
       "entity_ids": {
@@ -1486,14 +1289,11 @@
           "org:who",
           "org:the-times",
           "org:the-sunday-times",
-          "org:chinese-communist-party",
-          "org:people-s-liberation-army",
-          "org:wuhan-central-hospital",
-          "org:wuhan-municipal-health-commission",
-          "org:the-week"
+          "org:chinese-communist-party"
         ],
         "places": [
-          "place:china"
+          "place:china",
+          "place:taiwan"
         ]
       },
       "source_key": "ch10-n03",
@@ -1536,8 +1336,7 @@
         "orgs": [
           "WHO",
           "Reuters",
-          "CDC",
-          "Medium"
+          "CDC"
         ],
         "places": [
           "China",
@@ -1602,13 +1401,13 @@
         "orgs": [
           "WHO",
           "The Times",
-          "Chinese Communist Party",
-          "Reuters",
-          "Twitter",
-          "Wuhan Institute of Virology"
+          "Chinese Communist Party"
         ],
         "places": [
           "United Kingdom"
+        ],
+        "events": [
+          "WHO China origins study (2021)"
         ]
       },
       "entity_ids": {
@@ -1623,6 +1422,9 @@
         ],
         "places": [
           "place:united-kingdom"
+        ],
+        "events": [
+          "event:who-china-origins-study-2021"
         ]
       },
       "source_key": "ch10-n05",
@@ -1664,8 +1466,7 @@
         ],
         "orgs": [
           "The Wall Street Journal",
-          "Wuhan Institute of Virology",
-          "White House"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -1677,8 +1478,7 @@
         ],
         "orgs": [
           "org:the-wall-street-journal",
-          "org:wuhan-institute-of-virology",
-          "org:white-house"
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan"
@@ -1722,31 +1522,7 @@
           "David Rozado"
         ],
         "orgs": [
-          "Social Sciences",
-          "Wikipedia",
-          "New York Post",
-          "The Week",
-          "bioRxiv",
-          "Zenodo",
-          "Social Sciences (MDPI)",
-          "EcoHealth Alliance",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "PubMed",
-          "Reuters",
-          "Science",
-          "The Lancet",
-          "The New York Times",
-          "The Wall Street Journal",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Department of State",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "BBC News",
-          "Bulletin of the Atomic Scientists",
-          "Cell"
+          "Social Sciences"
         ],
         "places": []
       },
@@ -1755,12 +1531,7 @@
           "person:david-rozado"
         ],
         "orgs": [
-          "org:social-sciences",
-          "org:wikipedia",
-          "org:new-york-post",
-          "org:the-week",
-          "org:biorxiv",
-          "org:zenodo"
+          "org:social-sciences"
         ],
         "places": []
       },
@@ -1806,33 +1577,7 @@
         ],
         "orgs": [
           "Tablet Magazine",
-          "Chinese Communist Party",
-          "The Washington Times",
-          "ProMED",
-          "ABC News",
-          "Politico",
-          "UnHerd",
-          "Substack",
-          "NBC News",
-          "FactCheck.org",
-          "Amazon",
-          "Associated Press",
-          "Daily Mail",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "NIH",
-          "Science",
-          "The Guardian",
-          "The Lancet",
-          "The New York Times",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Senate",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Vanity Fair"
+          "Chinese Communist Party"
         ],
         "places": []
       },
@@ -1842,15 +1587,7 @@
         ],
         "orgs": [
           "org:tablet-magazine",
-          "org:chinese-communist-party",
-          "org:the-washington-times",
-          "org:promed",
-          "org:abc-news",
-          "org:politico",
-          "org:unherd",
-          "org:substack",
-          "org:nbc-news",
-          "org:factcheck-org"
+          "org:chinese-communist-party"
         ],
         "places": []
       },
@@ -1897,23 +1634,7 @@
         "orgs": [
           "PolitiFact",
           "CDC",
-          "Chinese Communist Party",
-          "Defense Intelligence Agency",
-          "New York Post",
-          "South China Morning Post",
-          "Newsweek",
-          "Zenodo",
-          "Fox News",
-          "Editor’s Note",
-          "Nature",
-          "NIAID",
-          "Reuters",
-          "Science",
-          "The New York Times",
-          "The Washington Post",
-          "Twitter",
-          "WHO",
-          "Wuhan Institute of Virology"
+          "Chinese Communist Party"
         ],
         "places": [
           "Wuhan"
@@ -1924,12 +1645,7 @@
         "orgs": [
           "org:politifact",
           "org:cdc",
-          "org:chinese-communist-party",
-          "org:defense-intelligence-agency",
-          "org:new-york-post",
-          "org:south-china-morning-post",
-          "org:newsweek",
-          "org:zenodo"
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:wuhan"
@@ -1969,14 +1685,7 @@
           "Kristian Andersen"
         ],
         "orgs": [
-          "U.S. House of Representatives",
-          "Nature Medicine",
-          "House Oversight and Reform Committee",
-          "Select Subcommittee on the Coronavirus Pandemic",
-          "Nature",
-          "Science",
-          "U.S. Congress",
-          "Cell"
+          "U.S. House of Representatives"
         ],
         "places": []
       },
@@ -1985,9 +1694,7 @@
           "person:kristian-andersen"
         ],
         "orgs": [
-          "org:u-s-house-of-representatives",
-          "org:nature-medicine",
-          "org:house-oversight-and-reform-committee"
+          "org:u-s-house-of-representatives"
         ],
         "places": [],
         "events": [
@@ -2032,19 +1739,8 @@
         ],
         "orgs": [
           "U.S. Right to Know",
-          "Chinese Center for Disease Control and Prevention",
-          "University of North Carolina",
           "White House",
-          "National Academies of Sciences",
-          "EcoHealth Alliance",
-          "Nature",
-          "Nature Medicine",
-          "Science",
-          "The Lancet",
-          "Twitter",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": []
       },
@@ -2057,9 +1753,8 @@
         ],
         "orgs": [
           "org:u-s-right-to-know",
-          "org:chinese-center-for-disease-control-and-prevention",
-          "org:university-of-north-carolina",
-          "org:white-house"
+          "org:white-house",
+          "org:university-of-north-carolina"
         ],
         "places": []
       },
@@ -2106,12 +1801,7 @@
         "orgs": [
           "U.S. Right to Know",
           "EcoHealth Alliance",
-          "The Lancet",
-          "Lancet COVID-19 Commission",
-          "Science",
-          "Twitter",
-          "WHO",
-          "Wuhan Institute of Virology"
+          "The Lancet"
         ],
         "places": []
       },
@@ -2125,8 +1815,7 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:ecohealth-alliance",
-          "org:the-lancet",
-          "org:lancet-covid-19-commission"
+          "org:the-lancet"
         ],
         "places": []
       },
@@ -2170,11 +1859,7 @@
         ],
         "orgs": [
           "NIH",
-          "Financial Times",
-          "Science",
-          "Twitter",
-          "WHO",
-          "Wuhan Institute of Virology"
+          "Financial Times"
         ],
         "places": [
           "Wuhan",
@@ -2232,9 +1917,7 @@
         ],
         "orgs": [
           "NIH",
-          "NIAID",
-          "EcoHealth Alliance",
-          "Cell"
+          "NIAID"
         ],
         "places": []
       },

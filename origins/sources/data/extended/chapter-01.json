@@ -119,11 +119,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "BBC News",
-          "Medium",
-          "Twitter",
-          "WHO",
-          "Cell"
+          "BBC News"
         ],
         "places": [
           "Wuhan",
@@ -180,16 +176,7 @@
         "people": [
           "Edward Holmes"
         ],
-        "orgs": [
-          "Chinese Academy of Medical Sciences",
-          "Wuhan Center for Disease Control and Prevention",
-          "bioRxiv",
-          "Virological.org",
-          "GenBank",
-          "Science",
-          "Twitter",
-          "Cell"
-        ],
+        "orgs": [],
         "places": [
           "Australia"
         ]
@@ -201,11 +188,7 @@
         "people": [
           "person:edward-holmes"
         ],
-        "orgs": [
-          "org:chinese-academy-of-medical-sciences",
-          "org:wuhan-center-for-disease-control-and-prevention",
-          "org:biorxiv"
-        ],
+        "orgs": [],
         "places": [
           "place:australia"
         ]
@@ -241,10 +224,7 @@
         "people": [
           "Xiaodong Wang"
         ],
-        "orgs": [
-          "China Daily",
-          "Twitter"
-        ],
+        "orgs": [],
         "places": []
       },
       "entity_ids": {
@@ -338,9 +318,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "The New York Times",
-          "Nature",
-          "NIH"
+          "The New York Times"
         ],
         "places": []
       },
@@ -386,12 +364,7 @@
         "people": [],
         "orgs": [
           "Cambridge Working Group",
-          "CDC",
-          "UNESCO",
-          "DRASTIC",
-          "Science",
-          "Twitter",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Cambridge"
@@ -406,8 +379,7 @@
         "people": [],
         "orgs": [
           "org:cambridge-working-group",
-          "org:cdc",
-          "org:unesco"
+          "org:cdc"
         ],
         "places": []
       },
@@ -442,25 +414,25 @@
       "entities": {
         "people": [],
         "orgs": [
-          "NIH",
-          "HHS",
-          "Office of Science and Technology Policy",
-          "Department of Health and Human Services",
-          "Nature",
-          "Science"
+          "HHS"
         ],
         "places": [
           "United States"
+        ],
+        "events": [
+          "Gain-of-function moratorium (2014)"
         ]
       },
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:nih",
           "org:hhs"
         ],
         "places": [
           "place:united-states"
+        ],
+        "events": [
+          "event:gain-of-function-moratorium-2014"
         ]
       },
       "topic_ids": [
@@ -498,15 +470,7 @@
         ],
         "orgs": [
           "Science",
-          "CDC",
-          "Erasmus Medical Center",
-          "GenBank",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "PubMed",
-          "Cell"
+          "CDC"
         ],
         "places": [
           "Netherlands"
@@ -559,12 +523,8 @@
           "Marion Koopmans"
         ],
         "orgs": [
-          "Wuhan Municipal Health Commission",
           "STAT News",
-          "University of North Carolina",
-          "Erasmus Medical Center",
-          "Twitter",
-          "WHO"
+          "University of North Carolina"
         ],
         "places": [
           "Wuhan",
@@ -577,7 +537,6 @@
           "person:helen-branswell"
         ],
         "orgs": [
-          "org:wuhan-municipal-health-commission",
           "org:stat-news",
           "org:university-of-north-carolina"
         ],
@@ -623,8 +582,7 @@
           "Natasha Khan"
         ],
         "orgs": [
-          "The Wall Street Journal",
-          "U.S. Congress"
+          "The Wall Street Journal"
         ],
         "places": [
           "China"
@@ -682,16 +640,7 @@
           "Natalie Rahhal"
         ],
         "orgs": [
-          "Daily Mail",
-          "Wuhan Municipal Health Commission",
-          "White House",
-          "The Week",
-          "Harper",
-          "Nature",
-          "Science",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "Cell"
+          "Daily Mail"
         ],
         "places": [
           "Wuhan",
@@ -704,11 +653,7 @@
           "person:natalie-rahhal"
         ],
         "orgs": [
-          "org:daily-mail",
-          "org:wuhan-municipal-health-commission",
-          "org:white-house",
-          "org:the-week",
-          "org:harper"
+          "org:daily-mail"
         ],
         "places": [
           "place:wuhan",

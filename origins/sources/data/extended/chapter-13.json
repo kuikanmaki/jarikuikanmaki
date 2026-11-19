@@ -27,9 +27,7 @@
         ],
         "orgs": [
           "The Washington Post",
-          "Wuhan Institute of Virology",
-          "Amazon",
-          "U.S. Senate"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -129,17 +127,7 @@
         ],
         "orgs": [
           "Daily Mail",
-          "WHO",
-          "University of North Carolina",
-          "White House",
-          "Amazon",
-          "Nature",
-          "Science",
-          "The Lancet",
-          "U.S. Right to Know",
-          "U.S. Senate",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "WHO"
         ],
         "places": [
           "China",
@@ -157,9 +145,7 @@
         ],
         "orgs": [
           "org:daily-mail",
-          "org:who",
-          "org:university-of-north-carolina",
-          "org:white-house"
+          "org:who"
         ],
         "places": [
           "place:china",
@@ -201,9 +187,7 @@
           "Michelle Fay Cortez"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
-          "Bloomberg",
-          "Medium"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -254,10 +238,7 @@
           "Jeremy Farrar"
         ],
         "orgs": [
-          "Wellcome Trust",
-          "Wikipedia",
-          "Science",
-          "Cell"
+          "Wellcome Trust"
         ],
         "places": [
           "United Kingdom"
@@ -269,8 +250,7 @@
           "person:jeremy-farrar"
         ],
         "orgs": [
-          "org:wellcome-trust",
-          "org:wikipedia"
+          "org:wellcome-trust"
         ],
         "places": [
           "place:united-kingdom"
@@ -312,15 +292,7 @@
           "S. Piplani"
         ],
         "orgs": [
-          "Nature",
-          "Scientific Reports",
-          "mBio",
-          "bioRxiv",
-          "GenBank",
-          "Medium",
-          "Science",
-          "WHO",
-          "Cell"
+          "Scientific Reports"
         ],
         "places": []
       },
@@ -329,10 +301,7 @@
           "person:s-piplani"
         ],
         "orgs": [
-          "org:nature",
-          "org:scientific-reports",
-          "org:mbio",
-          "org:biorxiv"
+          "org:scientific-reports"
         ],
         "places": []
       },
@@ -378,21 +347,7 @@
           "Nikolai Petrovsky"
         ],
         "orgs": [
-          "UnHerd",
-          "Wellcome Trust",
-          "White House",
-          "bioRxiv",
-          "Financial Times",
-          "Scientific Reports",
-          "EcoHealth Alliance",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "Science",
-          "The Lancet",
-          "Twitter",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "UnHerd"
         ],
         "places": [
           "Beijing",
@@ -404,12 +359,7 @@
           "person:ian-birrell"
         ],
         "orgs": [
-          "org:unherd",
-          "org:wellcome-trust",
-          "org:white-house",
-          "org:biorxiv",
-          "org:financial-times",
-          "org:scientific-reports"
+          "org:unherd"
         ],
         "places": [
           "place:beijing",
@@ -456,24 +406,9 @@
         ],
         "orgs": [
           "ResearchGate",
-          "U.S. Right to Know",
-          "Academy of Military Medical Sciences",
-          "People’s Liberation Army",
           "Wellcome Trust",
-          "ProMED",
-          "White House",
-          "Substack",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "PubMed",
-          "Science",
-          "The Lancet",
-          "U.S. Congress",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "People’s Liberation Army",
+          "Academy of Military Medical Sciences"
         ],
         "places": []
       },
@@ -483,13 +418,9 @@
         ],
         "orgs": [
           "org:researchgate",
-          "org:u-s-right-to-know",
-          "org:academy-of-military-medical-sciences",
-          "org:people-s-liberation-army",
           "org:wellcome-trust",
-          "org:promed",
-          "org:white-house",
-          "org:substack"
+          "org:people-s-liberation-army",
+          "org:academy-of-military-medical-sciences"
         ],
         "places": [],
         "events": [
@@ -540,27 +471,7 @@
           "Bulletin of the Atomic Scientists",
           "Wellcome Trust",
           "CDC",
-          "Chinese Communist Party",
-          "DocumentCloud",
-          "White House",
-          "UnHerd",
-          "The Week",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "Nature Medicine",
-          "NIAID",
-          "NIH",
-          "Science",
-          "The Guardian",
-          "The Lancet",
-          "The New York Times",
-          "Twitter",
-          "U.S. Right to Know",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "YouTube",
-          "ResearchGate"
+          "Chinese Communist Party"
         ],
         "places": [
           "United Kingdom"
@@ -576,11 +487,7 @@
           "org:bulletin-of-the-atomic-scientists",
           "org:wellcome-trust",
           "org:cdc",
-          "org:chinese-communist-party",
-          "org:documentcloud",
-          "org:white-house",
-          "org:unherd",
-          "org:the-week"
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:united-kingdom"

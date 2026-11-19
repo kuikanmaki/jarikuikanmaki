@@ -82,17 +82,7 @@
           "EcoHealth Alliance",
           "DARPA",
           "Wuhan Institute of Virology",
-          "University of North Carolina",
-          "USAID",
-          "mBio",
-          "PNAS",
-          "GenBank",
-          "Medium",
-          "Meta",
-          "Nature",
-          "NIAID",
-          "Science",
-          "Cell"
+          "University of North Carolina"
         ],
         "places": [
           "Yunnan",
@@ -113,10 +103,7 @@
           "org:ecohealth-alliance",
           "org:darpa",
           "org:wuhan-institute-of-virology",
-          "org:university-of-north-carolina",
-          "org:usaid",
-          "org:mbio",
-          "org:pnas"
+          "org:university-of-north-carolina"
         ],
         "places": [
           "place:yunnan",
@@ -157,9 +144,7 @@
           "Sharri Markson"
         ],
         "orgs": [
-          "YouTube",
-          "Wuhan Institute of Virology",
-          "Sky News Australia"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -171,7 +156,6 @@
           "person:sharri-markson"
         ],
         "orgs": [
-          "org:youtube",
           "org:wuhan-institute-of-virology"
         ],
         "places": [
@@ -209,17 +193,7 @@
         "orgs": [
           "Daily Mail",
           "Wuhan Institute of Virology",
-          "Chinese Communist Party",
-          "Amazon",
-          "EcoHealth Alliance",
-          "Nature",
-          "Science",
-          "The Guardian",
-          "The New York Times",
-          "U.S. Department of State",
-          "U.S. Senate",
-          "WHO",
-          "Cell"
+          "Chinese Communist Party"
         ],
         "places": [
           "Wuhan"
@@ -321,8 +295,7 @@
         ],
         "orgs": [
           "Twitter",
-          "Wuhan Institute of Virology",
-          "Science"
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -376,19 +349,14 @@
         "orgs": [
           "The Intercept",
           "EcoHealth Alliance",
-          "NIH",
-          "DocumentCloud",
-          "The Free Press",
-          "NIAID",
-          "Twitter",
-          "U.S. Congress",
-          "U.S. Right to Know",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "NIH"
         ],
         "places": [
           "China"
+        ],
+        "works": [
+          "Understanding the Risk of Bat Coronavirus Emergence",
+          "Year-4 Progress Report (EcoHealth Alliance)"
         ]
       },
       "entity_ids": {
@@ -399,12 +367,14 @@
         "orgs": [
           "org:the-intercept",
           "org:ecohealth-alliance",
-          "org:nih",
-          "org:documentcloud",
-          "org:the-free-press"
+          "org:nih"
         ],
         "places": [
           "place:china"
+        ],
+        "works": [
+          "work:understanding-the-risk-of-bat-coronavirus-emergence",
+          "work:year-4-progress-report-ecohealth-alliance"
         ]
       },
       "source_key": "ch14-s07",
@@ -448,20 +418,13 @@
           "The Intercept",
           "EcoHealth Alliance",
           "NIH",
-          "NIAID",
-          "DocumentCloud",
-          "US Geological Survey National Wildlife Health Center",
-          "USAID",
-          "Virologica Sinica",
-          "Amazon",
-          "Nature",
-          "Science",
-          "U.S. Congress",
-          "WHO",
-          "Wuhan Institute of Virology",
-          "Cell"
+          "USAID"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "Year-4 Progress Report (EcoHealth Alliance)",
+          "Understanding the Risk of Bat Coronavirus Emergence"
+        ]
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
@@ -475,15 +438,12 @@
           "org:the-intercept",
           "org:ecohealth-alliance",
           "org:nih",
-          "org:niaid",
-          "org:documentcloud",
-          "org:us-geological-survey-national-wildlife-health-center",
-          "org:usaid",
-          "org:virologica-sinica"
+          "org:usaid"
         ],
         "places": [],
         "works": [
-          "work:year-4-progress-report-ecohealth-alliance"
+          "work:year-4-progress-report-ecohealth-alliance",
+          "work:understanding-the-risk-of-bat-coronavirus-emergence"
         ]
       },
       "source_key": "ch14-s08",
@@ -521,34 +481,7 @@
           "Wuhan Institute of Virology",
           "Substack",
           "Chinese Communist Party",
-          "DocumentCloud",
-          "People’s Liberation Army",
-          "Scientific American",
-          "New York Post",
-          "Politico",
-          "Newsweek",
-          "bioRxiv",
-          "PolitiFact",
-          "DisInformation Chronicle",
-          "Amazon",
-          "Chinese Academy of Sciences",
-          "Daily Mail",
-          "DARPA",
-          "DRASTIC",
-          "EcoHealth Alliance",
-          "Medium",
-          "Nature",
-          "NIAID",
-          "NIH",
-          "Science",
-          "The Intercept",
-          "The Lancet",
-          "The Washington Post",
-          "Twitter",
-          "U.S. Department of State",
-          "U.S. Right to Know",
-          "WHO",
-          "Cell"
+          "People’s Liberation Army"
         ],
         "places": [
           "Wuhan"
@@ -566,14 +499,7 @@
           "org:wuhan-institute-of-virology",
           "org:substack",
           "org:chinese-communist-party",
-          "org:documentcloud",
-          "org:people-s-liberation-army",
-          "org:scientific-american",
-          "org:new-york-post",
-          "org:politico",
-          "org:newsweek",
-          "org:biorxiv",
-          "org:politifact"
+          "org:people-s-liberation-army"
         ],
         "places": [
           "place:wuhan"
@@ -617,11 +543,7 @@
           "Zheng Liu"
         ],
         "orgs": [
-          "Chinese Academy of Sciences",
-          "Sciencenet News",
-          "Science",
-          "Twitter",
-          "Wuhan Institute of Virology"
+          "Sciencenet News"
         ],
         "places": [
           "Wuhan",
@@ -635,7 +557,6 @@
           "person:zheng-liu"
         ],
         "orgs": [
-          "org:chinese-academy-of-sciences",
           "org:sciencenet-news"
         ],
         "places": [

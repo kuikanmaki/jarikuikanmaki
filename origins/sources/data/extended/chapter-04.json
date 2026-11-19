@@ -79,10 +79,7 @@
           "Agnès Buzyn"
         ],
         "orgs": [
-          "Reuters",
-          "French Health Ministry",
-          "Medium",
-          "WHO"
+          "Reuters"
         ],
         "places": [
           "France",
@@ -130,9 +127,7 @@
         "people": [],
         "orgs": [
           "Yle",
-          "Yle News",
-          "THL",
-          "Lapland Central Hospital"
+          "Yle News"
         ],
         "places": [
           "Finland",
@@ -184,11 +179,7 @@
           "Hongru Du",
           "Lauren Gardner"
         ],
-        "orgs": [
-          "The Lancet Infectious Diseases",
-          "Johns Hopkins University",
-          "The Lancet"
-        ],
+        "orgs": [],
         "places": []
       },
       "entity_ids": {
@@ -236,8 +227,7 @@
           "Neil Ferguson"
         ],
         "orgs": [
-          "Twitter",
-          "Imperial College London"
+          "Twitter"
         ],
         "places": [
           "China",
@@ -293,9 +283,7 @@
           "Gabriel Leung"
         ],
         "orgs": [
-          "South China Morning Post",
-          "University of Hong Kong",
-          "Cell"
+          "South China Morning Post"
         ],
         "places": [
           "Hong Kong",
@@ -347,11 +335,7 @@
       "topics": [],
       "entities": {
         "people": [],
-        "orgs": [
-          "World Bank",
-          "ICAO",
-          "Twitter"
-        ],
+        "orgs": [],
         "places": [
           "China"
         ]
@@ -393,12 +377,7 @@
           "Joseph Norman",
           "Yaneer Bar-Yam"
         ],
-        "orgs": [
-          "New England Complex Systems Institute",
-          "New York University",
-          "Universa Investments",
-          "DRASTIC"
-        ],
+        "orgs": [],
         "places": []
       },
       "entity_ids": {
@@ -443,9 +422,7 @@
           "Nassim Nicholas Taleb"
         ],
         "orgs": [
-          "Random House",
-          "Amazon",
-          "WHO"
+          "Random House"
         ],
         "places": []
       },
@@ -495,13 +472,7 @@
           "Christl Donnelly",
           "Steven Riley"
         ],
-        "orgs": [
-          "Imperial College London",
-          "WHO Collaborating Centre for Infectious Disease Modelling",
-          "Nature",
-          "Science",
-          "WHO"
-        ],
+        "orgs": [],
         "places": [
           "United Kingdom"
         ]
@@ -549,8 +520,7 @@
           "Tedros Adhanom Ghebreyesus"
         ],
         "orgs": [
-          "WHO",
-          "Wuhan Municipal Health Commission"
+          "WHO"
         ],
         "places": [
           "Beijing"
@@ -561,8 +531,7 @@
           "person:tedros-adhanom-ghebreyesus"
         ],
         "orgs": [
-          "org:who",
-          "org:wuhan-municipal-health-commission"
+          "org:who"
         ],
         "places": [
           "place:beijing"
@@ -599,8 +568,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "WHO",
-          "IHR Emergency Committee"
+          "WHO"
         ],
         "places": []
       },
@@ -641,10 +609,7 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters",
-          "Italian government",
-          "DRASTIC",
-          "Medium"
+          "Reuters"
         ],
         "places": [
           "Italy",
@@ -693,12 +658,7 @@
           "Krista Kiuru"
         ],
         "orgs": [
-          "WHO",
-          "Iltasanomat",
-          "THL",
-          "Medium",
-          "Twitter",
-          "YouTube"
+          "WHO"
         ],
         "places": [
           "Finland",
@@ -750,15 +710,7 @@
           "Trevor Bedford",
           "Emma Hodcroft"
         ],
-        "orgs": [
-          "Chinese Academy of Medical Sciences",
-          "Chinese Center for Disease Control and Prevention",
-          "Nextstrain",
-          "Chinese Academy of Sciences",
-          "Meta",
-          "Science",
-          "Wuhan Institute of Virology"
-        ],
+        "orgs": [],
         "places": []
       },
       "topic_ids": [
@@ -771,10 +723,7 @@
           "person:trevor-bedford",
           "person:emma-hodcroft"
         ],
-        "orgs": [
-          "org:chinese-academy-of-medical-sciences",
-          "org:chinese-center-for-disease-control-and-prevention"
-        ],
+        "orgs": [],
         "places": []
       },
       "source_key": "ch04-s15",
