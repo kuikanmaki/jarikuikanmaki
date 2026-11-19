@@ -71,6 +71,20 @@
     }
     root.style.scrollBehavior = prev;
   }
+
+  // Gradual page roll for Chapters / Search pin (not for Back / source enter).
+  function scrollWindowSmooth(y) {
+    var top = Math.max(0, Number(y) || 0);
+    try {
+      window.scrollTo({ top: top, left: 0, behavior: "smooth" });
+    } catch (err) {
+      window.scrollTo(0, top);
+    }
+  }
+
+  function windowScrollY() {
+    return window.scrollY || window.pageYOffset || 0;
+  }
   // Desktop chapter-list hover preview (popover).
   var sourcePreviewEl = null;
   var sourcePreviewShowTimer = null;
@@ -961,42 +975,44 @@
     setChapterMenuOpen(false);
   }
 
-  function scrollBelowStickyHeader(el, gapPx) {
+  function scrollBelowStickyHeader(el, gapPx, mode) {
     if (!el) return;
     var header = document.querySelector(".site-header");
     var headerH = header ? header.getBoundingClientRect().height : 0;
     var gap = typeof gapPx === "number" ? gapPx : 12;
-    var top = el.getBoundingClientRect().top + window.scrollY - headerH - gap;
-    scrollWindowInstant(Math.max(0, top));
+    var top = Math.max(0, el.getBoundingClientRect().top + windowScrollY() - headerH - gap);
+    // Already parked — don't start a second animation / jump.
+    if (Math.abs(windowScrollY() - top) < 10) return;
+    if (mode === "smooth") scrollWindowSmooth(top);
+    else scrollWindowInstant(top);
   }
 
-  function scrollSearchBarIntoView() {
+  function scrollSearchBarIntoView(mode) {
     // Pin the Search field below the sticky header (small top margin).
     var target = document.getElementById("sources-search") || inputEl;
     if (!target) return;
-    scrollBelowStickyHeader(target, 12);
+    scrollBelowStickyHeader(target, 12, mode || "smooth");
   }
 
   function pinSearchBar() {
+    // One smooth roll (double rAF + instant scroll felt jumpy).
     requestAnimationFrame(function () {
-      scrollSearchBarIntoView();
-      requestAnimationFrame(scrollSearchBarIntoView);
+      scrollSearchBarIntoView("smooth");
     });
   }
 
-  function scrollChaptersShelfIntoView() {
+  function scrollChaptersShelfIntoView(mode) {
     // Pin the Chapters selector below the sticky header (small top margin).
     var target =
       document.getElementById("sources-chapters") ||
       document.getElementById("chapters-label");
     if (!target) return;
-    scrollBelowStickyHeader(target, 12);
+    scrollBelowStickyHeader(target, 12, mode || "smooth");
   }
 
   function pinChaptersShelf() {
     requestAnimationFrame(function () {
-      scrollChaptersShelfIntoView();
-      requestAnimationFrame(scrollChaptersShelfIntoView);
+      scrollChaptersShelfIntoView("smooth");
     });
   }
 
@@ -1031,12 +1047,7 @@
     // Selector browse safety net: only scroll if the new title is off-screen above.
     requestAnimationFrame(function () {
       if (!resultsHeadingIsAboveClearZone()) return;
-      scrollBelowStickyHeader(headingEl, 12);
-      requestAnimationFrame(function () {
-        if (resultsHeadingIsAboveClearZone()) {
-          scrollBelowStickyHeader(headingEl, 12);
-        }
-      });
+      scrollBelowStickyHeader(headingEl, 12, "smooth");
     });
   }
 
@@ -1058,8 +1069,9 @@
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
     // If Chapters is mid-page, pin it first so the downward menu has room on screen.
+    // Instant here — opening the list during a smooth page roll makes the menu drift.
     if (opts.pinChapters !== false && chaptersShelfNeedsOpenPin()) {
-      scrollChaptersShelfIntoView();
+      scrollChaptersShelfIntoView("instant");
     }
     setChapterMenuOpen(true);
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
