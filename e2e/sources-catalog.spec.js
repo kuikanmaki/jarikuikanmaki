@@ -54,51 +54,57 @@ test.describe("Sources catalog smoke", () => {
     await waitForCatalog(page);
 
     await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
-    const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
-    // Idle/short page: open in place — no invented page length / white-space pad.
-    await expect
-      .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
-      .toBe(scrollBefore);
-    const noFakePad = await page.evaluate(() => {
+    // In-flow menu: picker grows with the list (no overlay / flip / fake spacer).
+    const flow = await page.evaluate(() => {
+      const trigger = document.getElementById("chapter-custom-trigger");
+      const menu = document.getElementById("chapter-custom-list");
+      const wrap = document.querySelector(".catalog-chapter-custom");
       const main = document.querySelector("main");
-      return !(
-        main &&
-        (main.getAttribute("data-chapters-pin-pad") ||
-          main.style.marginBottom ||
-          document.getElementById("chapters-pin-spacer"))
-      );
+      const pos = getComputedStyle(menu).position;
+      const t = trigger.getBoundingClientRect();
+      const m = menu.getBoundingClientRect();
+      const w = wrap.getBoundingClientRect();
+      return {
+        position: pos,
+        belowTrigger: m.top >= t.bottom - 2,
+        wrapContainsMenu: w.bottom >= m.bottom - 2,
+        noFakePad: !(
+          main &&
+          (main.getAttribute("data-chapters-pin-pad") ||
+            main.style.marginBottom ||
+            document.getElementById("chapters-pin-spacer"))
+        ),
+      };
     });
-    expect(noFakePad).toBe(true);
-    // Overlay menu sits below the trigger (not flipped above) and scrolls internally.
-    const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
-    const menuBox = await page.locator("#chapter-custom-list").boundingBox();
-    expect(triggerBox).toBeTruthy();
-    expect(menuBox).toBeTruthy();
-    expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
+    expect(flow.position).toBe("static");
+    expect(flow.belowTrigger).toBe(true);
+    expect(flow.wrapContainsMenu).toBe(true);
+    expect(flow.noFakePad).toBe(true);
     await expect
       .poll(async () =>
         page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
       )
       .toMatch(/auto|scroll/);
-    // Menu stays in-viewport and is a normal ~10-row dropdown (not full-viewport).
-    const menuFits = await page.locator("#chapter-custom-list").evaluate((el) => {
-      const r = el.getBoundingClientRect();
-      return r.bottom <= window.innerHeight + 1;
-    });
-    expect(menuFits).toBe(true);
-    const menuSized = await page.evaluate(() => {
-      const trigger = document.getElementById("chapter-custom-trigger");
-      const menu = document.getElementById("chapter-custom-list");
-      const opt = menu.querySelector('[role="option"]');
-      const rowH = opt ? opt.getBoundingClientRect().height : 44;
-      const room = window.innerHeight - trigger.getBoundingClientRect().bottom - 12;
-      const h = menu.getBoundingClientRect().height;
-      const comfort = rowH * 10 + 12;
-      return h <= Math.min(comfort, Math.max(room, 0)) + 12 && h >= rowH * 3 - 4;
-    });
-    expect(menuSized).toBe(true);
+    // After open (+ pin when needed), menu stays on screen under the trigger.
+    await expect
+      .poll(async () =>
+        page.evaluate(() => {
+          const trigger = document.getElementById("chapter-custom-trigger");
+          const menu = document.getElementById("chapter-custom-list");
+          const opt = menu.querySelector('[role="option"]');
+          const rowH = opt ? opt.getBoundingClientRect().height : 44;
+          const r = menu.getBoundingClientRect();
+          const t = trigger.getBoundingClientRect();
+          const comfort = rowH * 10 + 12;
+          const inView = r.top >= -1 && r.bottom <= window.innerHeight + 1;
+          const under = r.top >= t.bottom - 2;
+          const sized = r.height <= comfort + 12 && r.height >= rowH * 2 - 4;
+          return inView && under && sized;
+        })
+      )
+      .toBe(true);
     await page.locator('#chapter-custom-list [data-value="5"]').click();
 
     await expect(page.locator("#sources-heading")).toBeVisible();
@@ -153,29 +159,23 @@ test.describe("Sources catalog smoke", () => {
 
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
+    // In-flow growth + pin: menu opens below the trigger and stays on screen.
     await expect
       .poll(async () =>
         page.evaluate(() => {
           const trigger = document.getElementById("chapter-custom-trigger");
           const el = document.getElementById("chapter-custom-list");
-          const opt = el.querySelector('[role="option"]');
-          const rowH = opt ? opt.getBoundingClientRect().height : 44;
-          const gap = 12;
-          const minH = rowH * 3;
-          const comfort = rowH * 10 + 12;
+          const wrap = document.querySelector(".catalog-chapter-custom");
           const t = trigger.getBoundingClientRect();
-          const roomBelow = Math.floor(window.innerHeight - t.bottom - gap);
-          const roomAbove = Math.floor(t.top - gap);
-          const openUp = roomBelow < minH && roomAbove > roomBelow;
-          const room = openUp ? roomAbove : roomBelow;
-          const expected = Math.min(comfort, Math.max(0, room));
           const r = el.getBoundingClientRect();
-          const sized = Math.abs(el.clientHeight - expected) <= 16;
-          const inView =
-            r.top >= -1 && r.bottom <= window.innerHeight + 1;
+          const w = wrap.getBoundingClientRect();
+          const inFlow =
+            getComputedStyle(el).position === "static" &&
+            r.top >= t.bottom - 2 &&
+            w.bottom >= r.bottom - 2;
+          const inView = r.top >= -1 && r.bottom <= window.innerHeight + 1;
           const scrolls = el.scrollHeight > el.clientHeight;
-          const flipped = el.classList.contains("is-flipped") === openUp;
-          return sized && inView && scrolls && flipped;
+          return inFlow && inView && scrolls;
         })
       )
       .toBe(true);

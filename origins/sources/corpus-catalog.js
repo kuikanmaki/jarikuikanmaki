@@ -968,47 +968,23 @@
     });
   }
 
-  function resetChapterMenuPlacement() {
-    if (!chapterMenuEl) return;
-    chapterMenuEl.style.maxHeight = "";
-    chapterMenuEl.style.top = "";
-    chapterMenuEl.style.bottom = "";
-    chapterMenuEl.classList.remove("is-flipped");
-  }
-
   function fitChapterMenuToViewport() {
-    // ~10-row dropdown; stay inside the viewport. Prefer below the trigger; flip
-    // above when there isn't enough room under it (short windows / near fold).
+    // In-flow dropdown: grow the picker, cap at ~10 rows or whatever fits under the trigger.
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
-      resetChapterMenuPlacement();
+      chapterMenuEl.style.maxHeight = "";
       return;
     }
-    var gap = 12;
     var comfortRows = 10;
     var sample = chapterMenuEl.querySelector('[role="option"]');
     var rowH = sample ? Math.ceil(sample.getBoundingClientRect().height) : 44;
     var comfort = comfortRows * rowH + 12;
-    var minH = rowH * 3;
-    var triggerRect = chapterTriggerEl.getBoundingClientRect();
-    var roomBelow = Math.floor(window.innerHeight - triggerRect.bottom - gap);
-    var roomAbove = Math.floor(triggerRect.top - gap);
-    var openUp = roomBelow < minH && roomAbove > roomBelow;
-    var room = openUp ? roomAbove : roomBelow;
-    var next = Math.min(comfort, Math.max(0, room));
-    if (next < 1) next = Math.min(comfort, Math.max(roomAbove, roomBelow, minH));
-    // Never grow past the chosen direction's free space (avoids clipping off-screen).
-    if (room > 0) next = Math.min(next, room);
+    var roomBelow = Math.floor(
+      window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - 12
+    );
+    var next = Math.min(comfort, Math.max(0, roomBelow));
+    if (next < 1) next = Math.min(comfort, rowH * 2);
     chapterMenuEl.style.maxHeight = next + "px";
-    if (openUp) {
-      chapterMenuEl.style.top = "auto";
-      chapterMenuEl.style.bottom = "calc(100% + 0.25rem)";
-      chapterMenuEl.classList.add("is-flipped");
-    } else {
-      chapterMenuEl.style.top = "";
-      chapterMenuEl.style.bottom = "";
-      chapterMenuEl.classList.remove("is-flipped");
-    }
   }
 
   function setChapterMenuOpen(open) {
@@ -1023,7 +999,7 @@
     } else {
       chapterMenuEl.setAttribute("aria-hidden", "true");
       chapterMenuEl.inert = true;
-      resetChapterMenuPlacement();
+      chapterMenuEl.style.maxHeight = "";
     }
   }
 
@@ -1109,9 +1085,8 @@
       0,
       el.getBoundingClientRect().top + windowScrollY() - stickyClearancePx(el, gapPx)
     );
-    var maxScroll = maxWindowScroll();
-    if (top > maxScroll + 8) return; // Not enough page length; leave scroll alone.
-    top = Math.min(top, maxScroll);
+    // Clamp to what the page can scroll — in-flow menu growth may still be settling.
+    top = Math.min(top, maxWindowScroll());
     // Already parked — don't start a second animation / jump.
     if (Math.abs(windowScrollY() - top) < 10) return;
     if (mode === "smooth") scrollWindowSmooth(top);
@@ -1201,21 +1176,19 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
-    // 1) Open first at a comfortable height for the space under the trigger.
+    // Open in-flow (picker grows), pin under the header when needed, then size to fit.
     setChapterMenuOpen(true);
     fitChapterMenuToViewport();
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     scrollOptionIntoChapterMenu(selected || focusOpt);
-    // 2) Then pin only if the user is above and the page can already scroll there.
-    if (
-      isDesktopLayout() &&
-      chaptersShelfIsBelowPinLine() &&
-      canScrollChaptersToPin()
-    ) {
+    if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
       scrollChaptersShelfIntoView("smooth");
       window.setTimeout(function () {
         if (!chapterMenuEl || chapterMenuEl.hidden) return;
+        fitChapterMenuToViewport();
+        // Menu growth can unlock more scroll room — pin again, then final size.
+        if (chaptersShelfIsBelowPinLine()) scrollChaptersShelfIntoView("instant");
         fitChapterMenuToViewport();
         scrollOptionIntoChapterMenu(
           chapterMenuEl.querySelector('[role="option"][aria-selected="true"]') ||
