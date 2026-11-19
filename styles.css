@@ -732,6 +732,58 @@ img {
   /* Clear sticky header + a few px when pinning Search from keyword links. */
   scroll-margin-top: calc(4.5rem + 12px);
 }
+/* Weighted topic cloud under Search — size/weight scale with sourceCount (--w: 0–1). */
+.sources-page .catalog-topic-cloud-wrap {
+  margin-top: 1.15rem;
+}
+.sources-page .catalog-topic-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.85rem;
+  margin: 0;
+  padding: 0;
+}
+.sources-page .catalog-topic-cloud-tag {
+  display: inline;
+  margin: 0;
+  padding: 0.2rem 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: hsl(var(--foreground) / calc(0.5 + var(--w, 0.35) * 0.5));
+  font: inherit;
+  font-size: calc(0.8125rem + var(--w, 0.35) * 0.7rem);
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.18em;
+  transition: color 0.12s ease, text-decoration-color 0.12s ease;
+}
+.sources-page .catalog-topic-cloud-tag:hover,
+.sources-page .catalog-topic-cloud-tag:focus-visible {
+  color: hsl(var(--accent));
+  text-decoration-color: hsl(var(--accent) / 0.55);
+  outline: none;
+}
+.sources-page .catalog-topic-cloud-tag.is-active {
+  color: hsl(var(--accent));
+  font-weight: 600;
+  text-decoration-color: hsl(var(--accent) / 0.7);
+}
+@media (max-width: 639px) {
+  .sources-page .catalog-topic-cloud {
+    gap: 0.15rem 0.7rem;
+  }
+  .sources-page .catalog-topic-cloud-tag {
+    font-size: calc(0.8125rem + var(--w, 0.35) * 0.45rem);
+    min-height: 2rem;
+  }
+}
 .sources-page .sources-search-controls {
   display: block;
 }

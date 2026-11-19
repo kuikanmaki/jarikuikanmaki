@@ -28,6 +28,7 @@
   var suggestEl = document.getElementById("authority-search-suggestions");
   var clearEl = document.getElementById("authority-search-clear");
   var shelvesEl = document.getElementById("catalog-shelves");
+  var topicCloudEl = document.getElementById("topic-cloud");
 
   var corpus = null;
   var searchIndex = null;
@@ -1407,6 +1408,68 @@
     syncDocumentHead();
   }
 
+  function clearTopicCloudActive() {
+    if (!topicCloudEl) return;
+    Array.prototype.forEach.call(topicCloudEl.querySelectorAll("button"), function (b) {
+      b.classList.remove("is-active");
+      b.removeAttribute("aria-current");
+    });
+  }
+
+  function syncTopicCloudActive() {
+    if (!topicCloudEl) return;
+    clearTopicCloudActive();
+    var id =
+      (view.mode === "keyword" || view.mode === "explore") && view.keyword
+        ? view.keyword.id
+        : "";
+    if (!id) return;
+    var btn = topicCloudEl.querySelector('[data-id="' + String(id).replace(/"/g, '\\"') + '"]');
+    if (!btn) return;
+    btn.classList.add("is-active");
+    btn.setAttribute("aria-current", "true");
+  }
+
+  function renderTopicCloud() {
+    // Weighted, clickable topic tags under Search (font size ∝ sourceCount).
+    if (!topicCloudEl || !searchIndex) return;
+    var picks = (searchIndex.keywords || [])
+      .filter(function (k) {
+        return k && k.type === "topic" && (k.sourceCount || 0) >= 5;
+      })
+      .sort(function (a, b) {
+        return (b.sourceCount || 0) - (a.sourceCount || 0);
+      })
+      .slice(0, 18);
+    topicCloudEl.innerHTML = "";
+    if (!picks.length) {
+      topicCloudEl.innerHTML = '<span class="status">No topics yet.</span>';
+      return;
+    }
+    var max = picks[0].sourceCount || 1;
+    var min = picks[picks.length - 1].sourceCount || 1;
+    var span = Math.max(1, max - min);
+    picks.forEach(function (k) {
+      var w = (k.sourceCount - min) / span;
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "catalog-topic-cloud-tag";
+      btn.setAttribute("data-id", k.id);
+      btn.style.setProperty("--w", String(Math.round(w * 1000) / 1000));
+      btn.setAttribute(
+        "aria-label",
+        k.label + ", " + sourceCountLabel(k.sourceCount)
+      );
+      btn.title = sourceCountLabel(k.sourceCount);
+      btn.textContent = k.label;
+      btn.addEventListener("click", function () {
+        openKeyword(k, "explore");
+      });
+      topicCloudEl.appendChild(btn);
+    });
+    syncTopicCloudActive();
+  }
+
   function showIdle(opts) {
     opts = opts || {};
     view.mode = "idle";
@@ -1419,6 +1482,7 @@
     hideSuggestions();
     hideSourcePreview();
     clearChapterActive();
+    clearTopicCloudActive();
     headingEl.hidden = true;
     headingEl.classList.remove("sources-heading--breadcrumb");
     headingEl.textContent = "";
@@ -1452,6 +1516,7 @@
     inputEl.value = "";
     hideSuggestions();
     setChapterActive(number);
+    clearTopicCloudActive();
     dismissMobileKeyboard();
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
@@ -1482,6 +1547,7 @@
     inputEl.value = hit.label;
     hideSuggestions();
     clearChapterActive();
+    syncTopicCloudActive();
     dismissMobileKeyboard();
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
@@ -2086,6 +2152,7 @@
 
       inputEl.disabled = false;
       syncSearchPlaceholder();
+      renderTopicCloud();
       renderChapterList(chapterMeta);
       syncChapterPickerA11y();
       // Read hash before replaceState (catalog URLs omit the fragment).
