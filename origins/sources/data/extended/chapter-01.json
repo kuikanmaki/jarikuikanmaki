@@ -58,7 +58,9 @@
       "language": "en",
       "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Early reporting"
+      ],
       "entities": {
         "people": [
           "Amy Qin",
@@ -68,7 +70,6 @@
           "The New York Times"
         ],
         "places": [
-          "Wuhan",
           "China"
         ]
       },
@@ -81,7 +82,6 @@
           "org:the-new-york-times"
         ],
         "places": [
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -95,7 +95,9 @@
       "publication_ids": [
         "org:the-new-york-times"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:early-reporting"
+      ]
     },
     {
       "id": 3,
@@ -111,7 +113,9 @@
       "language": "en",
       "summary": "BBC report on expanding Hubei lockdowns after the novel coronavirus emerged in Wuhan, including transport shutdowns in Wuhan and neighboring cities and rising case counts.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Travel restrictions"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -125,7 +129,9 @@
           "Vietnam"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:travel-restrictions"
+      ],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -171,7 +177,6 @@
           "Virological.org"
         ],
         "places": [
-          "China",
           "Australia"
         ]
       },
@@ -184,7 +189,6 @@
         ],
         "orgs": [],
         "places": [
-          "place:china",
           "place:australia"
         ]
       },
@@ -211,7 +215,10 @@
       "language": "en",
       "summary": "China Daily piece reporting expert confirmation that the new pneumonia-linked virus can infect humans, reflecting shifting official messaging in mid-to-late January 2020.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Human-to-human transmission",
+        "Wuhan pneumonia"
+      ],
       "entities": {
         "people": [
           "Xiaodong Wang"
@@ -219,20 +226,14 @@
         "orgs": [
           "China Daily"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
           "person:xiaodong-wang"
         ],
         "orgs": [],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch01-s05",
       "date_iso": "2020-01-20",
@@ -242,7 +243,10 @@
         "person:xiaodong-wang"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:human-to-human-transmission",
+        "topic:wuhan-pneumonia"
+      ]
     },
     {
       "id": 6,
@@ -259,7 +263,8 @@
       "summary": "WHO tweet stating there was then ‘no clear evidence’ of human-to-human transmission of 2019-nCoV in Wuhan.",
       "book_role": "",
       "topics": [
-        "SARS-CoV-2"
+        "SARS-CoV-2",
+        "Human-to-human transmission"
       ],
       "entities": {
         "people": [],
@@ -272,7 +277,8 @@
         ]
       },
       "topic_ids": [
-        "topic:sars-cov-2"
+        "topic:sars-cov-2",
+        "topic:human-to-human-transmission"
       ],
       "entity_ids": {
         "people": [],
@@ -307,28 +313,26 @@
       "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research.",
       "book_role": "",
       "topics": [
-        "gain-of-function research"
+        "gain-of-function research",
+        "biosafety"
       ],
       "entities": {
         "people": [],
         "orgs": [
           "The New York Times"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [],
         "orgs": [
           "org:the-new-york-times"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "topic_ids": [
-        "topic:gain-of-function-research"
+        "topic:gain-of-function-research",
+        "topic:biosafety"
       ],
       "source_key": "ch01-s07",
       "date_iso": "2012-01-07",
@@ -353,7 +357,9 @@
       "summary": "Cambridge Working Group consensus statement opposing certain creation of potential pandemic pathogens, preserved as a historical biosafety advocacy document.",
       "book_role": "",
       "topics": [
-        "gain-of-function research"
+        "gain-of-function research",
+        "Potential pandemic pathogens",
+        "biosafety"
       ],
       "entities": {
         "people": [],
@@ -361,21 +367,20 @@
           "Cambridge Working Group"
         ],
         "places": [
-          "United States",
           "Cambridge"
         ]
       },
       "topic_ids": [
-        "topic:gain-of-function-research"
+        "topic:gain-of-function-research",
+        "topic:potential-pandemic-pathogens",
+        "topic:biosafety"
       ],
       "entity_ids": {
         "people": [],
         "orgs": [
           "org:cambridge-working-group"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch01-s08",
       "date_iso": "2014-07-14",
@@ -402,7 +407,8 @@
       "book_role": "",
       "topics": [
         "MERS",
-        "SARS"
+        "SARS",
+        "gain-of-function research"
       ],
       "entities": {
         "people": [],
@@ -428,7 +434,8 @@
       },
       "topic_ids": [
         "topic:mers",
-        "topic:sars"
+        "topic:sars",
+        "topic:gain-of-function-research"
       ],
       "source_key": "ch01-s09",
       "date_iso": "2014-10-17",
@@ -503,7 +510,9 @@
       "language": "en",
       "summary": "STAT early report on experts parsing sparse Chinese statements about Wuhan’s unexplained pneumonia cluster, including rising case counts and coronavirus speculation.",
       "book_role": "Early Western reporting that already noted Wuhan’s BSL-4 laboratory.",
-      "topics": [],
+      "topics": [
+        "Early reporting"
+      ],
       "entities": {
         "people": [
           "Helen Branswell",
@@ -533,7 +542,9 @@
           "place:china"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:early-reporting"
+      ],
       "source_key": "ch01-s11",
       "date_iso": "2020-01-04",
       "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/Wuhan-GettyImages-946736186-1024x576.jpg",
@@ -559,7 +570,10 @@
       "language": "en",
       "summary": "Wall Street Journal report that Chinese scientists had identified a new virus in the pneumonia outbreak.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Wuhan pneumonia",
+        "Early reporting"
+      ],
       "entities": {
         "people": [
           "Natasha Khan"
@@ -568,7 +582,6 @@
           "The Wall Street Journal"
         ],
         "places": [
-          "Wuhan",
           "China"
         ]
       },
@@ -580,7 +593,6 @@
           "org:the-wall-street-journal"
         ],
         "places": [
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -594,7 +606,10 @@
       "publication_ids": [
         "org:the-wall-street-journal"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:wuhan-pneumonia",
+        "topic:early-reporting"
+      ]
     }
   ],
   "notes_sources": [
@@ -615,16 +630,14 @@
       "topics": [
         "BSL-4 laboratory",
         "biosafety",
-        "SARS",
-        "lab-leak hypothesis"
+        "SARS"
       ],
       "entities": {
         "people": [
           "Natalie Rahhal"
         ],
         "orgs": [
-          "Daily Mail",
-          "Wuhan Institute of Virology"
+          "Daily Mail"
         ],
         "places": [
           "Wuhan",
@@ -637,8 +650,7 @@
           "person:natalie-rahhal"
         ],
         "orgs": [
-          "org:daily-mail",
-          "org:wuhan-institute-of-virology"
+          "org:daily-mail"
         ],
         "places": [
           "place:wuhan",
@@ -657,8 +669,7 @@
       "topic_ids": [
         "topic:bsl-4-laboratory",
         "topic:biosafety",
-        "topic:sars",
-        "topic:lab-leak-hypothesis"
+        "topic:sars"
       ],
       "date_iso": "2020-01-23",
       "image_url": "https://i.dailymail.com/1s/2026/09/10/16/111155329-0-image-a-6_1789055733762.jpg"

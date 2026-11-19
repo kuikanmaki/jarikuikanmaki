@@ -244,7 +244,9 @@
       "language": "en",
       "summary": "France 24 on clashes in Brussels as tens of thousands protest COVID rules.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "COVID protests"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -273,7 +275,9 @@
       "publication_ids": [
         "org:france-24"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:covid-protests"
+      ]
     },
     {
       "id": 7,
@@ -289,7 +293,9 @@
       "language": "en",
       "summary": "AP: Ottawa declares a state of emergency amid COVID trucker/convoy protests.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "COVID protests"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -316,7 +322,9 @@
       "publication_ids": [
         "org:associated-press"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:covid-protests"
+      ]
     },
     {
       "id": 8,
@@ -509,7 +517,9 @@
       "language": "en",
       "summary": "AP: China amplifies unsupported Russian claims about Ukraine biolabs—origins/bioweapons rhetoric weaponized in the new war.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Disinformation"
+      ],
       "entities": {
         "people": [
           "David Rising"
@@ -545,7 +555,9 @@
       "publication_ids": [
         "org:associated-press"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:disinformation"
+      ]
     },
     {
       "id": 13,
@@ -569,18 +581,14 @@
         "orgs": [
           "National Archives"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
           "person:dwight-d-eisenhower"
         ],
         "orgs": [],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch18-s13",
       "date_iso": "1961-01-17",
@@ -704,8 +712,7 @@
       "book_role": "Notes citation for WHO’s official Omicron VOC designation.",
       "topics": [
         "Omicron variant",
-        "SARS-CoV-2",
-        "COVID-19"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [],
@@ -731,8 +738,7 @@
       ],
       "topic_ids": [
         "topic:omicron-variant",
-        "topic:sars-cov-2",
-        "topic:covid-19"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2021-11-26"
     },
@@ -751,8 +757,7 @@
       "summary": "Center for Security Policy expanding timeline by J. Michael Waller tracking Chinese Communist Party propaganda and regime actions from late 2019 through spring 2020—arguing Beijing weaponized narrative control around the Wuhan outbreak.",
       "book_role": "Notes citation chronicling CCP propaganda lines during the outbreak’s first months.",
       "topics": [
-        "censorship",
-        "COVID-19"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -763,8 +768,7 @@
         ],
         "places": [
           "Wuhan",
-          "China",
-          "United States"
+          "China"
         ]
       },
       "entity_ids": {
@@ -774,8 +778,7 @@
         ],
         "places": [
           "place:wuhan",
-          "place:china",
-          "place:united-states"
+          "place:china"
         ]
       },
       "source_key": "ch18-n02",
@@ -785,8 +788,7 @@
         "org:center-for-security-policy"
       ],
       "topic_ids": [
-        "topic:censorship",
-        "topic:covid-19"
+        "topic:censorship"
       ],
       "date_iso": "2020-07-07",
       "image_url": "https://centerforsecuritypolicy.org/wp-content/uploads/2020/03/China-Party-Line-March-2020b-1024x683.jpg"

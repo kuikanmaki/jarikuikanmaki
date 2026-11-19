@@ -23,7 +23,8 @@
       "topics": [
         "bat coronaviruses",
         "BSL-4 laboratory",
-        "SARS"
+        "SARS",
+        "Wuhan pneumonia"
       ],
       "entities": {
         "people": [
@@ -46,7 +47,8 @@
       "topic_ids": [
         "topic:bat-coronaviruses",
         "topic:bsl-4-laboratory",
-        "topic:sars"
+        "topic:sars",
+        "topic:wuhan-pneumonia"
       ],
       "entity_ids": {
         "people": [
@@ -93,15 +95,15 @@
       "book_role": "Early reporting on the Wuhan BSL-4 lab used when introducing the institute’s high-containment work.",
       "topics": [
         "BSL-4 laboratory",
-        "biosafety"
+        "biosafety",
+        "Early reporting"
       ],
       "entities": {
         "people": [
           "David Cyranoski"
         ],
         "orgs": [
-          "Nature",
-          "Wuhan Institute of Virology"
+          "Nature"
         ],
         "places": [
           "Wuhan",
@@ -110,15 +112,15 @@
       },
       "topic_ids": [
         "topic:bsl-4-laboratory",
-        "topic:biosafety"
+        "topic:biosafety",
+        "topic:early-reporting"
       ],
       "entity_ids": {
         "people": [
           "person:david-cyranoski"
         ],
         "orgs": [
-          "org:nature",
-          "org:wuhan-institute-of-virology"
+          "org:nature"
         ],
         "places": [
           "place:wuhan",
@@ -151,7 +153,8 @@
       "summary": "Investigative article arguing Chinese authorities constrained public discussion of early genomic findings and origin questions around Shi Zhengli and related research. Used in the book’s notes as evidence of suppression during early reporting.",
       "book_role": "Documents that Shi’s early interviews took place while authorities were already suppressing origin discussion.",
       "topics": [
-        "lab-leak hypothesis"
+        "censorship",
+        "Early reporting"
       ],
       "entities": {
         "people": [
@@ -159,17 +162,16 @@
           "Ian Birrell"
         ],
         "orgs": [
-          "Daily Mail",
-          "Wuhan Institute of Virology"
+          "Daily Mail"
         ],
         "places": [
           "Beijing",
-          "Wuhan",
           "China"
         ]
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:censorship",
+        "topic:early-reporting"
       ],
       "entity_ids": {
         "people": [
@@ -177,12 +179,10 @@
           "person:ian-birrell"
         ],
         "orgs": [
-          "org:daily-mail",
-          "org:wuhan-institute-of-virology"
+          "org:daily-mail"
         ],
         "places": [
           "place:beijing",
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -212,12 +212,10 @@
       "summary": "Science interview/profile in which Shi Zhengli denies lab responsibility for the pandemic, describes WIV biosafety work, and demands an apology from then-President Trump for lab-origin allegations.",
       "book_role": "",
       "topics": [
-        "biosafety",
-        "lab-leak hypothesis"
+        "biosafety"
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Jon Cohen",
           "Donald Trump"
         ],
@@ -227,18 +225,14 @@
           "AAAS"
         ],
         "places": [
-          "Wuhan",
-          "China",
-          "United States"
+          "China"
         ]
       },
       "topic_ids": [
-        "topic:biosafety",
-        "topic:lab-leak-hypothesis"
+        "topic:biosafety"
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:jon-cohen",
           "person:donald-trump"
         ],
@@ -247,9 +241,7 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan",
-          "place:china",
-          "place:united-states"
+          "place:china"
         ]
       },
       "source_key": "ch00-s04",
@@ -278,41 +270,33 @@
       "summary": "Long MIT Technology Review feature (listed in the bibliography under Scientific American) revisiting Shi Zhengli amid the lab-leak controversy, WHO origins visit optics, and contested claims about WIV research and transparency.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "lab-leak hypothesis",
+        "Transparency"
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Jane Qiu"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "WHO",
           "Scientific American",
           "MIT Technology Review"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:lab-leak-hypothesis",
+        "topic:transparency"
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:jane-qiu"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:who",
           "org:scientific-american"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch00-s05",
       "date_iso": "2022-02-09",
@@ -357,8 +341,7 @@
         ],
         "places": [
           "Wuhan",
-          "France",
-          "China"
+          "France"
         ]
       },
       "topic_ids": [
@@ -374,8 +357,7 @@
         ],
         "places": [
           "place:wuhan",
-          "place:france",
-          "place:china"
+          "place:france"
         ]
       },
       "source_key": "ch00-s06",
@@ -412,12 +394,10 @@
         ],
         "orgs": [
           "DRASTIC",
-          "Wuhan Institute of Virology",
           "Medium"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "topic_ids": [
@@ -429,12 +409,10 @@
         ],
         "orgs": [
           "org:drastic",
-          "org:wuhan-institute-of-virology",
           "org:medium"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch00-s07",
@@ -462,7 +440,10 @@
       "language": "en",
       "summary": "WHO Disease Outbreak News item reporting 44 pneumonia-of-unknown-cause cases in Wuhan as of 3 January 2020, market closure, isolation of patients, and then-official statements of no clear significant human-to-human transmission or health-worker infections.",
       "book_role": "WHO Disease Outbreak News bulletin quoted for the early “pneumonia of unknown cause” announcement.",
-      "topics": [],
+      "topics": [
+        "Wuhan pneumonia",
+        "Human-to-human transmission"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -476,7 +457,10 @@
           "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:wuhan-pneumonia",
+        "topic:human-to-human-transmission"
+      ],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -521,7 +505,6 @@
         ],
         "places": [
           "Hubei",
-          "Wuhan",
           "China"
         ]
       },
@@ -532,7 +515,6 @@
         ],
         "places": [
           "place:hubei",
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -559,7 +541,9 @@
       "language": "zh",
       "summary": "Beijing News (Xin Jing Bao) archived interview with Li Wenliang discussing the police admonishment after he warned classmates about SARS-like cases linked to the Huanan market; includes his account of the WeChat messages and later public attention to the ‘rumor-mongers.’",
       "book_role": "Wuhan police admonishment of Li Wenliang quoted in the Prologue’s suppression arc.",
-      "topics": [],
+      "topics": [
+        "Whistleblowers"
+      ],
       "entities": {
         "people": [
           "Li Wenliang",
@@ -575,7 +559,9 @@
           "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:whistleblowers"
+      ],
       "entity_ids": {
         "people": [
           "person:li-wenliang"
@@ -609,7 +595,9 @@
       "language": "zh",
       "summary": "Caixin commentary/report (Wayback capture) on Li Wenliang as coronavirus whistleblower, arguing that establishing truth about early warnings matters more than symbolic rehabilitation.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Whistleblowers"
+      ],
       "entities": {
         "people": [
           "Li Wenliang",
@@ -619,12 +607,11 @@
           "Wuhan Central Hospital",
           "Caixin"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:whistleblowers"
+      ],
       "entity_ids": {
         "people": [
           "person:li-wenliang",
@@ -633,10 +620,7 @@
         "orgs": [
           "org:wuhan-central-hospital"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch00-s11",
       "date_iso": "2020-01-31",
@@ -661,7 +645,10 @@
       "language": "zh",
       "summary": "Archived 31 December 2019 Chinese news item circulating official messaging that Wuhan’s unexplained pneumonia cases had not been confirmed as SARS, while noting critically ill patients. Capture is thin (Wayback chrome + partial page).",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Wuhan pneumonia",
+        "SARS"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -669,8 +656,7 @@
           "People's Daily"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "entity_ids": {
@@ -679,8 +665,7 @@
           "org:wuhan-municipal-health-commission"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch00-s12",
@@ -688,7 +673,10 @@
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:wuhan-pneumonia",
+        "topic:sars"
+      ]
     },
     {
       "id": 13,
@@ -704,7 +692,9 @@
       "language": "en",
       "summary": "BBC report on the death of Li Wenliang from COVID-19, recounting his early WeChat warning, police admonishment, infection while working at Wuhan Central Hospital, and the public anger that followed.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Whistleblowers"
+      ],
       "entities": {
         "people": [
           "Li Wenliang"
@@ -718,7 +708,9 @@
           "China"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:whistleblowers"
+      ],
       "entity_ids": {
         "people": [
           "person:li-wenliang"

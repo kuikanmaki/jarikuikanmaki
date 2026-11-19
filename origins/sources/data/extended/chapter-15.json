@@ -33,8 +33,7 @@
           "Newsweek"
         ],
         "places": [
-          "Wuhan",
-          "United States"
+          "Wuhan"
         ]
       },
       "topic_ids": [],
@@ -50,8 +49,7 @@
           "org:newsweek"
         ],
         "places": [
-          "place:wuhan",
-          "place:united-states"
+          "place:wuhan"
         ],
         "works": [
           "work:defuse"
@@ -147,9 +145,7 @@
           "NIAID",
           "UnHerd"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:biodefense-complex"
@@ -164,9 +160,7 @@
           "org:niaid",
           "org:unherd"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch15-s03",
       "date_iso": "2022-08-29",
@@ -193,7 +187,9 @@
       "language": "en",
       "summary": "2014 survey comparing BSL-3 practices at U.S. select-agent versus non–select-agent facilities—empirical look at biosafety variation inside the domestic biodefense lab network.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "biosafety"
+      ],
       "entities": {
         "people": [
           "Stephanie Richards"
@@ -206,7 +202,9 @@
           "United States"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:biosafety"
+      ],
       "entity_ids": {
         "people": [
           "person:stephanie-richards"
@@ -249,9 +247,7 @@
           "University of North Carolina",
           "ResearchGate"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [],
       "entity_ids": {
@@ -262,9 +258,7 @@
           "org:university-of-north-carolina",
           "org:researchgate"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch15-s05",
       "date_iso": "2007-12",
@@ -291,7 +285,9 @@
       "language": "zh",
       "summary": "2015 Chinese Academy of Military Medical Sciences Press book on unnatural SARS origin and artificial humanized viruses as genetic weapons. No URL in source data.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "SARS"
+      ],
       "entities": {
         "people": [
           "Dezhong Xu"
@@ -299,18 +295,14 @@
         "orgs": [
           "Academy of Military Medical Sciences Press"
         ],
-        "places": [
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
           "person:dezhong-xu"
         ],
         "orgs": [],
-        "places": [
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch15-s06",
       "date_iso": "2015",
@@ -319,7 +311,9 @@
         "person:dezhong-xu"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:sars"
+      ]
     },
     {
       "id": 7,
@@ -335,7 +329,9 @@
       "language": "en",
       "summary": "AP/CBC report on Bruce Ivins’s suicide as FBI prepared to indict him in the 2001 anthrax-letter attacks—foundational trauma of the U.S. biodefense era.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "anthrax"
+      ],
       "entities": {
         "people": [
           "Bruce E. Ivins"
@@ -346,11 +342,11 @@
           "CBC",
           "U.S. Army"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:anthrax"
+      ],
       "entity_ids": {
         "people": [
           "person:bruce-e-ivins"
@@ -359,9 +355,7 @@
           "org:associated-press",
           "org:fbi"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch15-s07",
       "date_iso": "2008-08-01",

@@ -21,7 +21,8 @@
       "summary": "The Week profile of Monali Rahalkar and Rahul Bahulikar’s independent work tracing COVID origins—especially reconnecting RaTG13 to the 2012 Mojiang mineshaft pneumonia cases.",
       "book_role": "Rahalkar & Bahulikar’s independent work that opened the Mojiang mine trail.",
       "topics": [
-        "RaTG13"
+        "RaTG13",
+        "Origins debate"
       ],
       "entities": {
         "people": [
@@ -33,12 +34,12 @@
         ],
         "places": [
           "Mojiang mine",
-          "Wuhan",
           "India"
         ]
       },
       "topic_ids": [
-        "topic:ratg13"
+        "topic:ratg13",
+        "topic:origins-debate"
       ],
       "entity_ids": {
         "people": [
@@ -49,8 +50,7 @@
           "org:the-week"
         ],
         "places": [
-          "place:mojiang-mine",
-          "place:wuhan"
+          "place:mojiang-mine"
         ]
       },
       "source_key": "ch11-s01",
@@ -129,39 +129,35 @@
       "summary": "2016 Virologica Sinica paper documenting multiple coronaviruses coexisting in bat colonies in an abandoned mineshaft—the Mojiang site later tied to RaTG13/BtCoV/4991.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses"
+        "bat coronaviruses",
+        "RaTG13"
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Xing-Yi Ge"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "Virologica Sinica"
         ],
         "places": [
           "Mojiang mine",
-          "Yunnan",
-          "China"
+          "Yunnan"
         ]
       },
       "topic_ids": [
-        "topic:bat-coronaviruses"
+        "topic:bat-coronaviruses",
+        "topic:ratg13"
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:xing-yi-ge"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:virologica-sinica"
         ],
         "places": [
           "place:mojiang-mine",
-          "place:yunnan",
-          "place:china"
+          "place:yunnan"
         ]
       },
       "source_key": "ch11-s03",
@@ -187,29 +183,31 @@
       "language": "en",
       "summary": "GenBank record KP876546 for partial RdRp of Rhinolophus bat coronavirus BtCoV/4991—later recognized as the same virus lineage renamed RaTG13.",
       "book_role": "2016 GenBank deposit of the partial Ra4991 sequence later known as RaTG13.",
-      "topics": [],
+      "topics": [
+        "RaTG13",
+        "RdRp"
+      ],
       "entities": {
         "people": [],
         "orgs": [
-          "Wuhan Institute of Virology",
           "GenBank",
           "NCBI"
         ],
         "places": [
-          "Mojiang mine",
-          "China"
+          "Mojiang mine"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:ratg13",
+        "topic:rdrp"
+      ],
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:genbank"
         ],
         "places": [
-          "place:mojiang-mine",
-          "place:china"
+          "place:mojiang-mine"
         ]
       },
       "source_key": "ch11-s04",
@@ -235,7 +233,8 @@
       "summary": "Rahalkar & Bahulikar Frontiers paper arguing the 2012 Mojiang miners’ lethal pneumonia and the mineshaft where RaTG13 was sampled are critical, under-examined clues to SARS-CoV-2 origins.",
       "book_role": "Rahalkar & Bahulikar paper on the 2012 Mojiang miner pneumonia cases.",
       "topics": [
-        "RaTG13"
+        "RaTG13",
+        "Mojiang miners"
       ],
       "entities": {
         "people": [
@@ -247,8 +246,7 @@
         ],
         "places": [
           "Mojiang mine",
-          "Yunnan",
-          "China"
+          "Yunnan"
         ]
       },
       "entity_ids": {
@@ -259,12 +257,12 @@
         "orgs": [],
         "places": [
           "place:mojiang-mine",
-          "place:yunnan",
-          "place:china"
+          "place:yunnan"
         ]
       },
       "topic_ids": [
-        "topic:ratg13"
+        "topic:ratg13",
+        "topic:mojiang-miners"
       ],
       "source_key": "ch11-s05",
       "date_iso": "2020-10-20",
@@ -298,13 +296,11 @@
           "Shi Zhengli"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "GenBank",
           "NCBI"
         ],
         "places": [
-          "Mojiang mine",
-          "Wuhan"
+          "Mojiang mine"
         ]
       },
       "topic_ids": [
@@ -315,12 +311,10 @@
           "person:shi-zhengli"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:genbank"
         ],
         "places": [
-          "place:mojiang-mine",
-          "place:wuhan"
+          "place:mojiang-mine"
         ]
       },
       "source_key": "ch11-s06",
@@ -345,7 +339,9 @@
       "language": "en",
       "summary": "The Week cover piece by DRASTIC researcher @TheSeeker268 synthesizing what open-source investigators pieced together about Wuhan, Mojiang, and lab-linked origin clues.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Open-source investigation"
+      ],
       "entities": {
         "people": [
           "TheSeeker268"
@@ -356,11 +352,12 @@
         ],
         "places": [
           "Wuhan",
-          "Mojiang mine",
-          "China"
+          "Mojiang mine"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:open-source-investigation"
+      ],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -369,8 +366,7 @@
         ],
         "places": [
           "place:wuhan",
-          "place:mojiang-mine",
-          "place:china"
+          "place:mojiang-mine"
         ]
       },
       "source_key": "ch11-s07",
@@ -396,7 +392,9 @@
       "language": "en",
       "summary": "English translation of Li Xu’s 2013 Kunming Medical University master’s thesis analyzing six Mojiang miners with severe pneumonia from unknown viruses—clinical detail on the 2012 outbreak.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Mojiang miners"
+      ],
       "entities": {
         "people": [
           "Li Xu"
@@ -430,7 +428,9 @@
         "person:li-xu"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:mojiang-miners"
+      ]
     },
     {
       "id": 9,
@@ -455,9 +455,7 @@
           "Chinese Center for Disease Control and Prevention",
           "DocumentCloud"
         ],
-        "places": [
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [],
       "entity_ids": {
@@ -468,9 +466,7 @@
           "org:chinese-center-for-disease-control-and-prevention",
           "org:documentcloud"
         ],
-        "places": [
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch11-s09",
       "date_iso": "2016-06",
@@ -505,8 +501,7 @@
           "National Health Commission"
         ],
         "places": [
-          "China",
-          "Wuhan"
+          "China"
         ]
       },
       "topic_ids": [],
@@ -517,8 +512,7 @@
         ],
         "orgs": [],
         "places": [
-          "place:china",
-          "place:wuhan"
+          "place:china"
         ]
       },
       "source_key": "ch11-s10",
@@ -544,36 +538,34 @@
       "language": "en",
       "summary": "Latham & Wilson analysis of how a Chinese PhD thesis and related materials shed new light on RaTG13’s Mojiang provenance and gaps in Zhou et al. 2020’s brief account of the closest relative.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "RaTG13"
+      ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Jonathan Latham",
           "Allison Wilson"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "Independent Science News"
         ],
         "places": [
-          "Mojiang mine",
-          "Wuhan"
+          "Mojiang mine"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:ratg13"
+      ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:jonathan-latham",
           "person:allison-wilson"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:independent-science-news"
         ],
         "places": [
-          "place:mojiang-mine",
-          "place:wuhan"
+          "place:mojiang-mine"
         ]
       },
       "source_key": "ch11-s11",
@@ -604,7 +596,7 @@
       "book_role": "",
       "topics": [
         "pangolins",
-        "lab-leak hypothesis"
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -617,13 +609,12 @@
         ],
         "places": [
           "Wuhan",
-          "China",
           "Mojiang mine"
         ]
       },
       "topic_ids": [
         "topic:pangolins",
-        "topic:lab-leak-hypothesis"
+        "topic:covid-19"
       ],
       "entity_ids": {
         "people": [
@@ -636,7 +627,6 @@
         ],
         "places": [
           "place:wuhan",
-          "place:china",
           "place:mojiang-mine"
         ]
       },
@@ -677,8 +667,7 @@
         ],
         "places": [
           "Wuhan",
-          "Hubei",
-          "China"
+          "Hubei"
         ]
       },
       "entity_ids": {
@@ -691,8 +680,7 @@
         ],
         "places": [
           "place:wuhan",
-          "place:hubei",
-          "place:china"
+          "place:hubei"
         ]
       },
       "source_key": "ch11-s13",
@@ -728,16 +716,13 @@
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Xing-Yi Ge"
         ],
         "orgs": [
           "Nature",
           "Wuhan Institute of Virology"
         ],
-        "places": [
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:ace2-receptors",
@@ -745,16 +730,13 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:xing-yi-ge"
         ],
         "orgs": [
           "org:nature",
           "org:wuhan-institute-of-virology"
         ],
-        "places": [
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch11-s14",
       "date_iso": "2013-10-30",
@@ -870,7 +852,9 @@
       "language": "en",
       "summary": "Liu, Saif, Weiss & Su commentary asserting no credible evidence of laboratory engineering of SARS-CoV-2—early published dismissal of lab-origin claims.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "SARS-CoV-2"
+      ],
       "entities": {
         "people": [
           "Shan-Lu Liu",
@@ -897,7 +881,9 @@
         "places": []
       },
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:sars-cov-2"
+      ]
     },
     {
       "id": 18,
@@ -915,7 +901,8 @@
       "book_role": "Reporting on conflicts among authors of the February 2020 paper denying lab engineering.",
       "topics": [
         "furin cleavage site",
-        "lab-leak hypothesis"
+        "lab-leak hypothesis",
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -930,7 +917,8 @@
       },
       "topic_ids": [
         "topic:furin-cleavage-site",
-        "topic:lab-leak-hypothesis"
+        "topic:lab-leak-hypothesis",
+        "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
         "people": [
@@ -967,7 +955,9 @@
       "language": "en",
       "summary": "AP investigation of China’s internal, tightly controlled origins hunt—including bat and animal sampling—while suppressing independent inquiry and controlling what leaves the country.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "censorship"
+      ],
       "entities": {
         "people": [
           "Yawen Chen",
@@ -977,8 +967,7 @@
           "Associated Press"
         ],
         "places": [
-          "China",
-          "Wuhan"
+          "China"
         ]
       },
       "entity_ids": {
@@ -990,8 +979,7 @@
           "org:associated-press"
         ],
         "places": [
-          "place:china",
-          "place:wuhan"
+          "place:china"
         ]
       },
       "source_key": "ch11-s19",
@@ -1002,7 +990,9 @@
         "person:yawen-chen"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:censorship"
+      ]
     },
     {
       "id": 20,
@@ -1023,12 +1013,10 @@
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Xing-Yi Ge"
         ],
         "orgs": [
           "PMC",
-          "Wuhan Institute of Virology",
           "Virologica Sinica"
         ],
         "places": [
@@ -1041,12 +1029,10 @@
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:xing-yi-ge"
         ],
         "orgs": [
           "org:pmc",
-          "org:wuhan-institute-of-virology",
           "org:virologica-sinica"
         ],
         "places": [
@@ -1092,9 +1078,7 @@
         "orgs": [
           "Journal of Virology"
         ],
-        "places": [
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -1103,9 +1087,7 @@
         "orgs": [
           "org:journal-of-virology"
         ],
-        "places": [
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch11-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -1141,7 +1123,8 @@
         "lab-leak hypothesis",
         "furin cleavage site",
         "ACE2 receptors",
-        "zoonosis"
+        "zoonosis",
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -1150,9 +1133,7 @@
         "orgs": [
           "Environmental Chemistry Letters"
         ],
-        "places": [
-          "Wuhan"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -1161,9 +1142,7 @@
         "orgs": [
           "org:environmental-chemistry-letters"
         ],
-        "places": [
-          "place:wuhan"
-        ]
+        "places": []
       },
       "source_key": "ch11-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -1177,7 +1156,8 @@
         "topic:lab-leak-hypothesis",
         "topic:furin-cleavage-site",
         "topic:ace2-receptors",
-        "topic:zoonosis"
+        "topic:zoonosis",
+        "topic:covid-19"
       ],
       "date_iso": "2021-03-25",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10311-021-01211-0/MediaObjects/10311_2021_1211_Fig1_HTML.png"
@@ -1197,7 +1177,6 @@
       "summary": "Independent Science News commentary by Jonathan Latham and Allison Wilson proposing a laboratory-linked pathway for SARS-CoV-2, including discussion of serial passaging and why RaTG13 alone is an imperfect natural progenitor explanation.",
       "book_role": "Notes citation for a detailed proposed lab-origin pathway for SARS-CoV-2.",
       "topics": [
-        "lab-leak hypothesis",
         "serial passaging",
         "RaTG13",
         "SARS-CoV-2"
@@ -1210,10 +1189,7 @@
         "orgs": [
           "Independent Science News"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -1223,10 +1199,7 @@
         "orgs": [
           "org:independent-science-news"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch11-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -1238,7 +1211,6 @@
         "org:independent-science-news"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:serial-passaging",
         "topic:ratg13",
         "topic:sars-cov-2"
@@ -1265,7 +1237,8 @@
         "furin cleavage site",
         "chimeric viruses",
         "RaTG13",
-        "pangolins"
+        "pangolins",
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -1301,7 +1274,8 @@
         "topic:furin-cleavage-site",
         "topic:chimeric-viruses",
         "topic:ratg13",
-        "topic:pangolins"
+        "topic:pangolins",
+        "topic:sars-cov-2"
       ],
       "date_iso": "2020-11-29"
     },
@@ -1320,9 +1294,7 @@
       "summary": "Matt Ridley and Alina Chan’s 2021 book Viral: The Search for the Origin of COVID-19, investigating market spillover versus Wuhan laboratory hypotheses. Amazon product page only; no book text captured.",
       "book_role": "Notes citation for the Ridley–Chan book-length origins investigation.",
       "topics": [
-        "lab-leak hypothesis",
-        "zoonosis",
-        "SARS-CoV-2"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -1360,9 +1332,7 @@
         "org:harper"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
-        "topic:zoonosis",
-        "topic:sars-cov-2"
+        "topic:zoonosis"
       ],
       "date_iso": "2021-11-16"
     }

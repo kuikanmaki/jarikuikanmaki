@@ -23,7 +23,6 @@
       "topics": [],
       "entities": {
         "people": [
-          "Peter Daszak",
           "Samuel Chamberlain"
         ],
         "orgs": [
@@ -33,14 +32,12 @@
           "U.S. Department of Defense"
         ],
         "places": [
-          "Wuhan",
-          "United States"
+          "Wuhan"
         ]
       },
       "topic_ids": [],
       "entity_ids": {
         "people": [
-          "person:peter-daszak",
           "person:samuel-chamberlain"
         ],
         "orgs": [
@@ -49,8 +46,7 @@
           "org:dtra"
         ],
         "places": [
-          "place:wuhan",
-          "place:united-states"
+          "place:wuhan"
         ]
       },
       "source_key": "ch16-s01",
@@ -78,10 +74,11 @@
       "language": "en",
       "summary": "Intercept report that EcoHealth’s NIH bat-coronavirus progress report was filed more than two years late—oversight failure in the WIV collaboration grant.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "NIH grant"
+      ],
       "entities": {
         "people": [
-          "Peter Daszak",
           "Mara Hvistendahl",
           "Sharon Lerner"
         ],
@@ -90,15 +87,13 @@
           "NIH",
           "EcoHealth Alliance"
         ],
-        "places": [
-          "Wuhan",
-          "United States"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:nih-grant"
+      ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak",
           "person:mara-hvistendahl",
           "person:sharon-lerner"
         ],
@@ -107,10 +102,7 @@
           "org:nih",
           "org:ecohealth-alliance"
         ],
-        "places": [
-          "place:wuhan",
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch16-s02",
       "date_iso": "2021-10-01",
@@ -143,7 +135,6 @@
       ],
       "entities": {
         "people": [
-          "Peter Daszak",
           "Katherine Eban"
         ],
         "orgs": [
@@ -151,17 +142,13 @@
           "Wuhan Institute of Virology",
           "Vanity Fair"
         ],
-        "places": [
-          "Wuhan",
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak",
           "person:katherine-eban"
         ],
         "orgs": [
@@ -169,10 +156,7 @@
           "org:wuhan-institute-of-virology",
           "org:vanity-fair"
         ],
-        "places": [
-          "place:wuhan",
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch16-s03",
       "date_iso": "2022-03-31",
@@ -243,16 +227,12 @@
           "Defense Threat Reduction Agency",
           "U.S. Department of Defense"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [],
         "orgs": [],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch16-s05",
       "image_url": "https://d34w7g4gy10iej.cloudfront.net/graphics/2510/38614.png",
@@ -282,9 +262,7 @@
           "EcoHealth Alliance",
           "Defense Threat Reduction Agency"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [],
       "entity_ids": {
@@ -292,9 +270,7 @@
         "orgs": [
           "org:ecohealth-alliance"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch16-s06",
       "date_iso": "2019-08-19",
@@ -317,7 +293,9 @@
       "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "lab-leak hypothesis",
+        "Intelligence community",
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -327,13 +305,12 @@
           "U.S. Department of State",
           "Vanity Fair"
         ],
-        "places": [
-          "Wuhan",
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:lab-leak-hypothesis",
+        "topic:intelligence-community",
+        "topic:covid-19"
       ],
       "entity_ids": {
         "people": [
@@ -343,10 +320,7 @@
           "org:u-s-department-of-state",
           "org:vanity-fair"
         ],
-        "places": [
-          "place:wuhan",
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch16-s07",
       "date_iso": "2021-06-03",
@@ -382,9 +356,7 @@
           "PMC",
           "Viruses"
         ],
-        "places": [
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -393,9 +365,7 @@
         "orgs": [
           "org:pmc"
         ],
-        "places": [
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch16-s08",
       "date_iso": "2019-10-22",
@@ -478,7 +448,6 @@
           "Shi Zhengli"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "French National Academy of Medicine"
         ],
         "places": [
@@ -496,9 +465,7 @@
         "people": [
           "person:shi-zhengli"
         ],
-        "orgs": [
-          "org:wuhan-institute-of-virology"
-        ],
+        "orgs": [],
         "places": [
           "place:france",
           "place:wuhan"
@@ -526,9 +493,7 @@
       "language": "en",
       "summary": "Times reporting that WIV used Chinese military as key advisers—and related coverage of China nominating WIV for a top science award amid lab-leak debate.",
       "book_role": "",
-      "topics": [
-        "lab-leak hypothesis"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Philip Willan",
@@ -544,9 +509,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "topic:lab-leak-hypothesis"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:philip-willan",
@@ -589,7 +552,8 @@
       "summary": "FOIA’d 2016 Daszak email celebrating lifting of the gain-of-function funding pause.",
       "book_role": "",
       "topics": [
-        "Freedom of Information requests"
+        "Freedom of Information requests",
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -597,29 +561,24 @@
           "Jenny Greer"
         ],
         "orgs": [
-          "EcoHealth Alliance",
           "NIAID",
           "White Coat Waste Project"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [
-        "topic:freedom-of-information-requests"
+        "topic:freedom-of-information-requests",
+        "topic:gain-of-function-research"
       ],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:ecohealth-alliance",
           "org:niaid",
           "org:white-coat-waste-project"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch16-s12",
       "date_iso": "2016-07-11",
@@ -651,10 +610,7 @@
         "orgs": [
           "Wuhan Institute of Virology"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [],
       "entity_ids": {
@@ -662,10 +618,7 @@
         "orgs": [
           "org:wuhan-institute-of-virology"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch16-s13",
       "date_iso": "2018-11-30",
@@ -692,9 +645,9 @@
       "summary": "WHO SAGO independent assessment (updated June 2025) reviewing published science, intelligence reports, and expert input on SARS-CoV-2 origins—restating the need for fuller data sharing and further studies after SAGO’s earlier 2022 findings.",
       "book_role": "Notes citation for SAGO’s formal independent origins assessment to WHO.",
       "topics": [
-        "lab-leak hypothesis",
         "zoonosis",
-        "SARS-CoV-2"
+        "SARS-CoV-2",
+        "Intelligence community"
       ],
       "entities": {
         "people": [],
@@ -702,10 +655,7 @@
           "WHO SAGO",
           "WHO"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [],
@@ -713,10 +663,7 @@
           "org:who-sago",
           "org:who"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch16-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -725,9 +672,9 @@
         "org:who-sago"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:zoonosis",
-        "topic:sars-cov-2"
+        "topic:sars-cov-2",
+        "topic:intelligence-community"
       ],
       "date_iso": "2025-06-27",
       "image_url": "https://cdn.who.int/media/images/default-source/headquarters/teams/emergency-prepardness-(wpe)/epidemic-and-pandemic-preparedness-and-prevention-(epp)/emerging-diseases-and-zoonoses-(ezd)/sago-covid-thumbnail.tmb-1200v.png?sfvrsn=a033011d_1"
@@ -747,9 +694,8 @@
       "summary": "Nature commentary by 23 of 27 original WHO SAGO members summarizing their June 2025 origins assessment—weighing zoonosis, market amplification at Huanan, and lab-incident hypotheses while noting unresolved evidence and conflicting intelligence confidence levels.",
       "book_role": "Notes citation for SAGO members’ public digest of what is and isn’t known about COVID’s origins.",
       "topics": [
-        "lab-leak hypothesis",
         "zoonosis",
-        "SARS-CoV-2"
+        "Intelligence community"
       ],
       "entities": {
         "people": [],
@@ -759,7 +705,6 @@
           "WHO"
         ],
         "places": [
-          "Wuhan",
           "Huanan Seafood Market"
         ]
       },
@@ -771,7 +716,6 @@
           "org:who"
         ],
         "places": [
-          "place:wuhan",
           "place:huanan-seafood-market"
         ]
       },
@@ -782,9 +726,8 @@
         "org:nature"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:zoonosis",
-        "topic:sars-cov-2"
+        "topic:intelligence-community"
       ],
       "date_iso": "2026-02-24",
       "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-00530-y/d41586-026-00530-y_52079504.jpg"
@@ -804,15 +747,14 @@
       "summary": "April 2020 Newsweek investigation reporting the Defense Intelligence Agency revised its assessment to include possible accidental lab release, and examining controversial bat-coronavirus/gain-of-function work linked to the Wuhan lab and Baric–Shi collaboration.",
       "book_role": "Early Notes citation connecting DIA lab-accident openness to Wuhan experiment scrutiny.",
       "topics": [
-        "lab-leak hypothesis",
         "gain-of-function research",
-        "chimeric viruses"
+        "chimeric viruses",
+        "Intelligence community"
       ],
       "entities": {
         "people": [
           "Fred Guterl",
-          "Ralph Baric",
-          "Shi Zhengli"
+          "Ralph Baric"
         ],
         "orgs": [
           "Newsweek",
@@ -826,8 +768,7 @@
       "entity_ids": {
         "people": [
           "person:fred-guterl",
-          "person:ralph-baric",
-          "person:shi-zhengli"
+          "person:ralph-baric"
         ],
         "orgs": [
           "org:newsweek",
@@ -847,9 +788,9 @@
         "org:newsweek"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research",
-        "topic:chimeric-viruses"
+        "topic:chimeric-viruses",
+        "topic:intelligence-community"
       ],
       "date_iso": "2020-04-27",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1585050-wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=1200&amp;crop=1"
@@ -878,8 +819,7 @@
         ],
         "orgs": [
           "USAID",
-          "The New York Times",
-          "EcoHealth Alliance"
+          "The New York Times"
         ],
         "places": [
           "United States"
@@ -891,8 +831,7 @@
         ],
         "orgs": [
           "org:usaid",
-          "org:the-new-york-times",
-          "org:ecohealth-alliance"
+          "org:the-new-york-times"
         ],
         "places": [
           "place:united-states"
@@ -934,12 +873,10 @@
       "entities": {
         "people": [
           "Katherine Eban",
-          "Ralph Baric",
-          "Shi Zhengli"
+          "Ralph Baric"
         ],
         "orgs": [
-          "Vanity Fair",
-          "Wuhan Institute of Virology"
+          "Vanity Fair"
         ],
         "places": [
           "Wuhan"
@@ -948,12 +885,10 @@
       "entity_ids": {
         "people": [
           "person:katherine-eban",
-          "person:ralph-baric",
-          "person:shi-zhengli"
+          "person:ralph-baric"
         ],
         "orgs": [
-          "org:vanity-fair",
-          "org:wuhan-institute-of-virology"
+          "org:vanity-fair"
         ],
         "places": [
           "place:wuhan"

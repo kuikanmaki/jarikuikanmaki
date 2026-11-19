@@ -73,35 +73,31 @@
       "language": "en",
       "summary": "NIH FOIA release of EcoHealth bat-coronavirus emergence materials including the late Year-5 interim RPPR describing WIV experiments.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Freedom of Information requests",
+        "bat coronaviruses"
+      ],
       "entities": {
-        "people": [
-          "Peter Daszak"
-        ],
+        "people": [],
         "orgs": [
           "NIH",
           "EcoHealth Alliance",
           "Wuhan Institute of Virology"
         ],
-        "places": [
-          "Wuhan",
-          "United States"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:freedom-of-information-requests",
+        "topic:bat-coronaviruses"
+      ],
       "entity_ids": {
-        "people": [
-          "person:peter-daszak"
-        ],
+        "people": [],
         "orgs": [
           "org:nih",
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology"
         ],
-        "places": [
-          "place:wuhan",
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch17-s02",
       "date_iso": "2021-10-20",
@@ -134,10 +130,7 @@
           "HHS",
           "U.S. House Energy and Commerce Committee"
         ],
-        "places": [
-          "United States",
-          "Wuhan"
-        ]
+        "places": []
       },
       "topic_ids": [],
       "entity_ids": {
@@ -148,10 +141,7 @@
           "org:nih",
           "org:hhs"
         ],
-        "places": [
-          "place:united-states",
-          "place:wuhan"
-        ]
+        "places": []
       },
       "source_key": "ch17-s03",
       "date_iso": "2021-10-20",
@@ -187,8 +177,7 @@
           "Vanity Fair"
         ],
         "places": [
-          "Wuhan",
-          "United States"
+          "Wuhan"
         ]
       },
       "topic_ids": [],
@@ -203,8 +192,7 @@
           "org:vanity-fair"
         ],
         "places": [
-          "place:wuhan",
-          "place:united-states"
+          "place:wuhan"
         ]
       },
       "source_key": "ch17-s04",
@@ -233,7 +221,9 @@
       "summary": "Nature news on BANAL bat coronaviruses from Laos—closer relatives to SARS-CoV-2 than RaTG13 in key spike regions—complicating simple Wuhan-only stories.",
       "book_role": "BANAL-52 discovery showing close sarbecovirus relatives in Laos, still not a direct progenitor.",
       "topics": [
-        "RaTG13"
+        "RaTG13",
+        "bat coronaviruses",
+        "BANAL-52"
       ],
       "entities": {
         "people": [
@@ -248,7 +238,9 @@
         ]
       },
       "topic_ids": [
-        "topic:ratg13"
+        "topic:ratg13",
+        "topic:bat-coronaviruses",
+        "topic:banal-52"
       ],
       "entity_ids": {
         "people": [
@@ -297,8 +289,7 @@
           "DRASTIC"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "topic_ids": [],
@@ -312,8 +303,7 @@
           "org:drastic"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch17-s06",
@@ -350,9 +340,7 @@
           "Science"
         ],
         "places": [
-          "Hubei",
-          "Wuhan",
-          "China"
+          "Hubei"
         ]
       },
       "entity_ids": {
@@ -363,9 +351,7 @@
           "org:science"
         ],
         "places": [
-          "place:hubei",
-          "place:wuhan",
-          "place:china"
+          "place:hubei"
         ]
       },
       "topic_ids": [],
@@ -395,7 +381,9 @@
       "summary": "Washburne Substack cataloging zoonotic-origin evidence that is still missing—intermediate hosts, early animal positives, market chain—versus what lab-leak critics demand.",
       "book_role": "",
       "topics": [
-        "intermediate host"
+        "intermediate host",
+        "Origins debate",
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -404,12 +392,12 @@
         "orgs": [
           "Substack"
         ],
-        "places": [
-          "Wuhan"
-        ]
+        "places": []
       },
       "topic_ids": [
-        "topic:intermediate-host"
+        "topic:intermediate-host",
+        "topic:origins-debate",
+        "topic:zoonosis"
       ],
       "entity_ids": {
         "people": [
@@ -418,9 +406,7 @@
         "orgs": [
           "org:substack"
         ],
-        "places": [
-          "place:wuhan"
-        ]
+        "places": []
       },
       "source_key": "ch17-s08",
       "date_iso": "2022-11-21",
@@ -497,7 +483,8 @@
       "book_role": "Fauci’s own earlier writing that a GoF experiment gone wrong could start a pandemic.",
       "topics": [
         "gain-of-function research",
-        "H5N1 avian flu"
+        "H5N1 avian flu",
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -508,13 +495,12 @@
           "PMC",
           "mBio"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:gain-of-function-research",
-        "topic:h5n1-avian-flu"
+        "topic:h5n1-avian-flu",
+        "topic:biosafety"
       ],
       "entity_ids": {
         "people": [
@@ -525,9 +511,7 @@
           "org:pmc",
           "org:mbio"
         ],
-        "places": [
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch17-s10",
       "date_iso": "2012-10-09",
@@ -553,7 +537,9 @@
       "language": "en",
       "summary": "Pre-COVID Bulletin warning that human error in high-biocontainment labs is a likely pandemic threat—lab-accident risk as mainstream biosafety concern.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "biosafety"
+      ],
       "entities": {
         "people": [
           "Lynn Klotz"
@@ -582,7 +568,9 @@
       "publication_ids": [
         "org:bulletin-of-the-atomic-scientists"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:biosafety"
+      ]
     },
     {
       "id": 12,
@@ -598,7 +586,10 @@
       "language": "zh",
       "summary": "Archived Sept 2019 procurement notice for WIV central air-conditioning renovation—cited in debates over pre-outbreak lab infrastructure problems. Thin archive capture.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "biosafety",
+        "September 2019"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -624,7 +615,10 @@
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:biosafety",
+        "topic:september-2019"
+      ]
     },
     {
       "id": 13,
@@ -690,7 +684,9 @@
       "language": "en",
       "summary": "Archived Telegraph report that U.S. and UK intelligence were examining the mobile-phone data claims about the Wuhan laboratory.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Intelligence community"
+      ],
       "entities": {
         "people": [
           "Nick Allen"
@@ -722,7 +718,9 @@
       "source_key": "ch17-s14",
       "date_iso": "2020-05-09",
       "acquisition_note": "",
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:intelligence-community"
+      ],
       "author_ids": [
         "person:nick-allen"
       ],
@@ -745,7 +743,9 @@
       "language": "zh",
       "summary": "Xinhua (archived) on opening a dedicated airport port-of-entry for the Wuhan Military World Games testing—pre-outbreak mass international military gathering in Wuhan.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "September 2019"
+      ],
       "entities": {
         "people": [
           "Hongxia Ai"
@@ -754,8 +754,7 @@
           "Xinhua News Agency"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "entity_ids": {
@@ -764,8 +763,7 @@
         ],
         "orgs": [],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch17-s15",
@@ -776,7 +774,9 @@
       ],
       "publication_ids": [],
       "image_url": "https://web.archive.org/web/20200206050707im_/http://www.newsimg.cn/xl2017/images/wx.png",
-      "topic_ids": []
+      "topic_ids": [
+        "topic:september-2019"
+      ]
     },
     {
       "id": 16,
@@ -849,7 +849,6 @@
       "summary": "Lancet descriptive study of 99 early 2019 novel coronavirus pneumonia cases in Wuhan—epidemiological and clinical characteristics from the first hospital series. Page body not captured (ad/shell only).",
       "book_role": "Notes citation for one of the first peer-reviewed Wuhan clinical case series.",
       "topics": [
-        "COVID-19",
         "SARS-CoV-2",
         "Patient Zero"
       ],
@@ -886,7 +885,6 @@
         "org:the-lancet"
       ],
       "topic_ids": [
-        "topic:covid-19",
         "topic:sars-cov-2",
         "topic:patient-zero"
       ],
@@ -907,7 +905,6 @@
       "summary": "NEJM analysis by Li et al. of early Wuhan transmission dynamics among the first 425 confirmed cases—mean incubation ~5.2 days, early doubling every ~7.4 days, and a sharp drop in Huanan market linkage after January 1, 2020.",
       "book_role": "Notes citation quantifying early human-to-human spread beyond the market cluster.",
       "topics": [
-        "COVID-19",
         "SARS-CoV-2"
       ],
       "entities": {
@@ -947,7 +944,6 @@
         "org:the-new-england-journal-of-medicine"
       ],
       "topic_ids": [
-        "topic:covid-19",
         "topic:sars-cov-2"
       ],
       "date_iso": "2020-03-26",
@@ -1022,7 +1018,8 @@
       "topics": [
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "censorship"
+        "censorship",
+        "Origins debate"
       ],
       "entities": {
         "people": [
@@ -1055,7 +1052,8 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:censorship"
+        "topic:censorship",
+        "topic:origins-debate"
       ],
       "date_iso": "2021-10-16"
     },
@@ -1073,10 +1071,7 @@
       "language": "en",
       "summary": "Sharri Markson’s 2021 book What Really Happened In Wuhan, investigating early outbreak timeline, infections, and origins claims. Amazon product page only; no book text captured.",
       "book_role": "Notes citation for Markson’s book-length Wuhan origins investigation.",
-      "topics": [
-        "lab-leak hypothesis",
-        "COVID-19"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Sharri Markson"
@@ -1109,10 +1104,7 @@
       "publication_ids": [
         "org:harpercollins"
       ],
-      "topic_ids": [
-        "topic:lab-leak-hypothesis",
-        "topic:covid-19"
-      ],
+      "topic_ids": [],
       "date_iso": "2021-09-28"
     },
     {
@@ -1130,9 +1122,9 @@
       "summary": "Vanity Fair/ProPublica investigation with Senate analyst Toy Reid decoding WIV ‘party speak’ archives—highlighting a November 2019 ‘complex and grave situation’ and biosafety concerns used to bolster lab-linked origins scrutiny.",
       "book_role": "Notes citation on WIV internal documents and the Nov 2019 crisis language.",
       "topics": [
-        "lab-leak hypothesis",
         "biosafety",
-        "BSL-4 laboratory"
+        "BSL-4 laboratory",
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -1172,9 +1164,9 @@
         "org:vanity-fair"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:biosafety",
-        "topic:bsl-4-laboratory"
+        "topic:bsl-4-laboratory",
+        "topic:covid-19"
       ],
       "date_iso": "2022-10-28",
       "image_url": "https://media.vanityfair.com/photos/63599642578d980751943b65/16:9/w_1280,c_limit/vf-1022-covid-trackers-site-story.jpg"
@@ -1206,7 +1198,6 @@
           "DRASTIC"
         ],
         "places": [
-          "Wuhan",
           "China"
         ]
       },
@@ -1219,7 +1210,6 @@
           "org:drastic"
         ],
         "places": [
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -1266,8 +1256,7 @@
           "Caixin"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "entity_ids": {
@@ -1278,8 +1267,7 @@
           "org:u-s-right-to-know"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch17-n08",
@@ -1374,8 +1362,7 @@
       "summary": "PubMed abstract of La Rosa et al.: first detection of SARS-CoV-2 RNA in untreated Italian wastewaters—demonstrating wastewater-based epidemiology as an early community circulation signal.",
       "book_role": "Notes citation for early European wastewater detection of SARS-CoV-2.",
       "topics": [
-        "SARS-CoV-2",
-        "COVID-19"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -1412,8 +1399,7 @@
         "org:science-of-the-total-environment"
       ],
       "topic_ids": [
-        "topic:sars-cov-2",
-        "topic:covid-19"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2020-05-23"
     },
@@ -1433,8 +1419,8 @@
       "book_role": "Notes citation for serology hinting at Italian prepandemic SARS-CoV-2 exposure.",
       "topics": [
         "SARS-CoV-2",
-        "COVID-19",
-        "Patient Zero"
+        "Patient Zero",
+        "September 2019"
       ],
       "entities": {
         "people": [
@@ -1473,8 +1459,8 @@
       ],
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:covid-19",
-        "topic:patient-zero"
+        "topic:patient-zero",
+        "topic:september-2019"
       ],
       "date_iso": "2021-10"
     },
@@ -1494,7 +1480,6 @@
       "book_role": "Notes citation for Brazilian wastewater evidence of late-2019 SARS-CoV-2 RNA.",
       "topics": [
         "SARS-CoV-2",
-        "COVID-19",
         "Patient Zero"
       ],
       "entities": {
@@ -1528,7 +1513,6 @@
       ],
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:covid-19",
         "topic:patient-zero"
       ],
       "date_iso": "2021-07-15",
@@ -1550,7 +1534,8 @@
       "book_role": "Notes citation that mainstream reporting urged taking lab accident seriously.",
       "topics": [
         "lab-leak hypothesis",
-        "biosafety"
+        "biosafety",
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -1588,7 +1573,8 @@
       ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:biosafety"
+        "topic:biosafety",
+        "topic:covid-19"
       ],
       "date_iso": "2021-03-22",
       "image_url": "https://web.archive.org/web/20210322085412im_/https://www.gannett-cdn.com/presto/2020/05/25/USAT/f500cf5e-ef41-42a0-a9a5-909e7f2da7c7-AFP_1S280O.JPG?width=7"

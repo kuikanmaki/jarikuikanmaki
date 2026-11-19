@@ -23,7 +23,6 @@
       "topics": [],
       "entities": {
         "people": [
-          "Peter Daszak",
           "TheSeeker268"
         ],
         "orgs": [
@@ -36,9 +35,7 @@
       },
       "topic_ids": [],
       "entity_ids": {
-        "people": [
-          "person:peter-daszak"
-        ],
+        "people": [],
         "orgs": [
           "org:drastic",
           "org:ecohealth-alliance",
@@ -79,8 +76,7 @@
       "entities": {
         "people": [
           "Peter Daszak",
-          "Ralph Baric",
-          "Shi Zhengli"
+          "Ralph Baric"
         ],
         "orgs": [
           "EcoHealth Alliance",
@@ -101,8 +97,7 @@
       "entity_ids": {
         "people": [
           "person:peter-daszak",
-          "person:ralph-baric",
-          "person:shi-zhengli"
+          "person:ralph-baric"
         ],
         "orgs": [
           "org:ecohealth-alliance",
@@ -203,8 +198,7 @@
           "Wuhan Institute of Virology"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "topic_ids": [],
@@ -218,8 +212,7 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch14-s04",
@@ -248,31 +241,29 @@
       "language": "en",
       "summary": "Daszak tweet denying live or dead bats in labs he collaborated with for 15 years, calling bat-in-lab claims a conspiracy theory.",
       "book_role": "Daszak’s public denial that partner labs kept live bats—set against DEFUSE’s bat plans.",
-      "topics": [],
+      "topics": [
+        "Conspiracy theories"
+      ],
       "entities": {
         "people": [
           "Peter Daszak"
         ],
         "orgs": [
-          "EcoHealth Alliance",
           "Twitter"
         ],
-        "places": [
-          "Wuhan"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:conspiracy-theories"
+      ],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:ecohealth-alliance",
           "org:twitter"
         ],
-        "places": [
-          "place:wuhan"
-        ]
+        "places": []
       },
       "source_key": "ch14-s05",
       "date_iso": "2020-12-10",
@@ -304,7 +295,6 @@
           "Peter Daszak"
         ],
         "orgs": [
-          "EcoHealth Alliance",
           "Twitter",
           "Wuhan Institute of Virology"
         ],
@@ -318,7 +308,6 @@
           "person:peter-daszak"
         ],
         "orgs": [
-          "org:ecohealth-alliance",
           "org:twitter",
           "org:wuhan-institute-of-virology"
         ],
@@ -350,38 +339,34 @@
       "language": "en",
       "summary": "Intercept reporting new details from FOIA’d EcoHealth/NIH documents on coronavirus research at the Chinese lab—progress reports and experimental descriptions.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Freedom of Information requests"
+      ],
       "entities": {
         "people": [
-          "Peter Daszak",
           "Sharon Lerner",
           "Mara Hvistendahl"
         ],
         "orgs": [
           "The Intercept",
           "EcoHealth Alliance",
-          "Wuhan Institute of Virology",
           "NIH"
         ],
         "places": [
-          "Wuhan",
           "China"
         ]
       },
       "entity_ids": {
         "people": [
-          "person:peter-daszak",
           "person:sharon-lerner",
           "person:mara-hvistendahl"
         ],
         "orgs": [
           "org:the-intercept",
           "org:ecohealth-alliance",
-          "org:wuhan-institute-of-virology",
           "org:nih"
         ],
         "places": [
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -396,7 +381,9 @@
       "publication_ids": [
         "org:the-intercept"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:freedom-of-information-requests"
+      ]
     },
     {
       "id": 8,
@@ -412,10 +399,12 @@
       "language": "en",
       "summary": "Large FOIA dump of the EcoHealth/NIH bat-coronavirus emergence grant materials, including the Year-4 progress report (2017–2018) describing WIV collaborative experiments.",
       "book_role": "EcoHealth FOIA progress report on sample shipping and Baric’s letter of support.",
-      "topics": [],
+      "topics": [
+        "Freedom of Information requests",
+        "bat coronaviruses"
+      ],
       "entities": {
         "people": [
-          "Peter Daszak",
           "Ralph Baric"
         ],
         "orgs": [
@@ -424,15 +413,14 @@
           "NIH",
           "NIAID"
         ],
-        "places": [
-          "Wuhan",
-          "United States"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:freedom-of-information-requests",
+        "topic:bat-coronaviruses"
+      ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak",
           "person:ralph-baric"
         ],
         "orgs": [
@@ -441,10 +429,7 @@
           "org:nih",
           "org:niaid"
         ],
-        "places": [
-          "place:wuhan",
-          "place:united-states"
-        ],
+        "places": [],
         "works": [
           "work:year-4-progress-report-ecohealth-alliance"
         ]
@@ -472,7 +457,9 @@
       "language": "en",
       "summary": "Thacker Substack piece arguing funding documents complicate Danielle Anderson’s role as a ‘conspiracy buster’ on Wuhan lab origins.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Origins debate"
+      ],
       "entities": {
         "people": [
           "Danielle Anderson",
@@ -487,7 +474,9 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:origins-debate"
+      ],
       "entity_ids": {
         "people": [
           "person:danielle-anderson",
@@ -539,13 +528,11 @@
           "Zheng Liu"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "Chinese Academy of Sciences",
           "Sciencenet News"
         ],
         "places": [
           "Wuhan",
-          "China",
           "Henan"
         ]
       },
@@ -556,13 +543,11 @@
           "person:zheng-liu"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:chinese-academy-of-sciences",
           "org:sciencenet-news"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch14-n01",

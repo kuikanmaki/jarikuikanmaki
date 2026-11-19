@@ -22,7 +22,8 @@
       "book_role": "",
       "topics": [
         "gain-of-function research",
-        "biosafety"
+        "biosafety",
+        "Potential pandemic pathogens"
       ],
       "entities": {
         "people": [
@@ -35,7 +36,8 @@
       },
       "topic_ids": [
         "topic:gain-of-function-research",
-        "topic:biosafety"
+        "topic:biosafety",
+        "topic:potential-pandemic-pathogens"
       ],
       "source_key": "ch06-s01",
       "date_iso": "2014-03-31",
@@ -70,7 +72,9 @@
       "language": "en",
       "summary": "Washington Post investigation of early Chinese official secrecy and missteps that likely let the virus spread farther and faster.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "censorship"
+      ],
       "entities": {
         "people": [
           "Gerry Shih",
@@ -80,7 +84,6 @@
           "The Washington Post"
         ],
         "places": [
-          "Wuhan",
           "Beijing",
           "China"
         ]
@@ -93,12 +96,13 @@
           "org:the-washington-post"
         ],
         "places": [
-          "place:wuhan",
           "place:beijing",
           "place:china"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:censorship"
+      ],
       "source_key": "ch06-s02",
       "date_iso": "2020-02-01",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
@@ -124,7 +128,9 @@
       "language": "en",
       "summary": "Guardian report on citizen journalist Chen Qiushi going missing in Wuhan amid anger after Li Wenliang’s death, with claims authorities were silencing another whistleblower.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Whistleblowers"
+      ],
       "entities": {
         "people": [
           "Li Wenliang",
@@ -139,7 +145,9 @@
           "China"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:whistleblowers"
+      ],
       "entity_ids": {
         "people": [
           "person:li-wenliang",
@@ -178,7 +186,9 @@
       "language": "en",
       "summary": "U.S. Global Engagement Center report tracking Russia-linked personas amplifying coronavirus themes in multiple languages from late January 2020 as part of a broader disinformation apparatus.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Disinformation"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -188,7 +198,6 @@
         ],
         "places": [
           "Russia",
-          "United States",
           "France",
           "Syria"
         ]
@@ -201,7 +210,6 @@
         ],
         "places": [
           "place:russia",
-          "place:united-states",
           "place:france"
         ]
       },
@@ -210,7 +218,9 @@
       "acquisition_note": "",
       "author_ids": [],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:disinformation"
+      ]
     },
     {
       "id": 5,
@@ -226,7 +236,9 @@
       "language": "en",
       "summary": "France 24/AFP report summarizing U.S. claims that a Russia-linked campaign was fueling coronavirus alarm and related narratives online.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Disinformation"
+      ],
       "entities": {
         "people": [],
         "orgs": [
@@ -257,7 +269,9 @@
       "publication_ids": [
         "org:france-24"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:disinformation"
+      ]
     },
     {
       "id": 6,
@@ -274,7 +288,7 @@
       "summary": "FOIA-released State Department analysis arguing there is no smoking-gun proof of a lab leak but substantial circumstantial evidence pointing to Wuhan CDC and WIV as the least probed, most plausible sources.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [],
@@ -287,12 +301,11 @@
         "places": [
           "Wuhan",
           "Italy",
-          "United States",
           "Guangdong"
         ]
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
         "people": [],
@@ -303,8 +316,7 @@
         ],
         "places": [
           "place:wuhan",
-          "place:italy",
-          "place:united-states"
+          "place:italy"
         ]
       },
       "source_key": "ch06-s06",
@@ -329,9 +341,7 @@
       "language": "en",
       "summary": "Business Insider coverage of Sen. Tom Cotton suggesting at a Senate hearing that the coronavirus—‘worse than Chernobyl’—might have come from a Chinese ‘superlaboratory’ and that Beijing had misled about the outbreak.",
       "book_role": "",
-      "topics": [
-        "lab-leak hypothesis"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Tom Cotton",
@@ -343,14 +353,10 @@
           "Business Insider"
         ],
         "places": [
-          "China",
-          "Wuhan",
-          "United States"
+          "China"
         ]
       },
-      "topic_ids": [
-        "topic:lab-leak-hypothesis"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:tom-cotton",
@@ -361,9 +367,7 @@
           "org:u-s-senate"
         ],
         "places": [
-          "place:china",
-          "place:wuhan",
-          "place:united-states"
+          "place:china"
         ]
       },
       "source_key": "ch06-s07",
@@ -397,10 +401,7 @@
         "orgs": [
           "The New York Times"
         ],
-        "places": [
-          "China",
-          "United States"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -410,10 +411,7 @@
         "orgs": [
           "org:the-new-york-times"
         ],
-        "places": [
-          "place:china",
-          "place:united-states"
-        ]
+        "places": []
       },
       "topic_ids": [],
       "source_key": "ch06-s08",
@@ -440,7 +438,9 @@
       "language": "en",
       "summary": "Washington Post politics piece that originally called Cotton’s Wuhan-research comments a debunked conspiracy theory; a later correction removed ‘debunked’/‘conspiracy theory’ language. Only partial text retrieved.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Conspiracy theories"
+      ],
       "entities": {
         "people": [
           "Tom Cotton",
@@ -449,11 +449,7 @@
         "orgs": [
           "The Washington Post"
         ],
-        "places": [
-          "Wuhan",
-          "China",
-          "United States"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -463,13 +459,11 @@
         "orgs": [
           "org:the-washington-post"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china",
-          "place:united-states"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:conspiracy-theories"
+      ],
       "source_key": "ch06-s09",
       "date_iso": "2020-02-17",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
@@ -497,7 +491,9 @@
       "book_role": "The Nature Medicine “Proximal Origin” paper that declared a laboratory origin implausible.",
       "topics": [
         "SARS-CoV-2",
-        "furin cleavage site"
+        "furin cleavage site",
+        "zoonosis",
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -510,14 +506,13 @@
         "orgs": [
           "Nature Medicine"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:furin-cleavage-site"
+        "topic:furin-cleavage-site",
+        "topic:zoonosis",
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
@@ -530,10 +525,7 @@
         "orgs": [
           "org:nature-medicine"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ],
+        "places": [],
         "works": [
           "work:the-proximal-origin-of-sars-cov-2"
         ]
@@ -563,7 +555,10 @@
       "language": "en",
       "summary": "USRTK FOIA-based report that EcoHealth’s Peter Daszak drafted The Lancet statement condemning lab-origin ‘conspiracy theories,’ intending it not to look like it came from any one organization.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Freedom of Information requests",
+        "Conspiracy theories"
+      ],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -573,15 +568,14 @@
         "orgs": [
           "U.S. Right to Know",
           "EcoHealth Alliance",
-          "The Lancet",
-          "Wuhan Institute of Virology"
+          "The Lancet"
         ],
-        "places": [
-          "United States",
-          "Wuhan"
-        ]
+        "places": []
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:freedom-of-information-requests",
+        "topic:conspiracy-theories"
+      ],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -591,13 +585,9 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:ecohealth-alliance",
-          "org:the-lancet",
-          "org:wuhan-institute-of-virology"
+          "org:the-lancet"
         ],
-        "places": [
-          "place:united-states",
-          "place:wuhan"
-        ],
+        "places": [],
         "works": [
           "work:lancet-letter-february-2020"
         ]
@@ -629,7 +619,8 @@
       "book_role": "",
       "topics": [
         "lab-leak hypothesis",
-        "furin cleavage site"
+        "furin cleavage site",
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -640,13 +631,12 @@
           "NIH",
           "City Journal"
         ],
-        "places": [
-          "United States"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:furin-cleavage-site"
+        "topic:furin-cleavage-site",
+        "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
         "people": [
@@ -656,9 +646,7 @@
         "orgs": [
           "org:nih"
         ],
-        "places": [
-          "place:united-states"
-        ],
+        "places": [],
         "works": [
           "work:the-proximal-origin-of-sars-cov-2"
         ]
@@ -696,13 +684,9 @@
         ],
         "orgs": [
           "U.S. Right to Know",
-          "Nature Medicine",
-          "Wuhan Institute of Virology"
+          "Nature Medicine"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -711,13 +695,9 @@
         ],
         "orgs": [
           "org:u-s-right-to-know",
-          "org:nature-medicine",
-          "org:wuhan-institute-of-virology"
+          "org:nature-medicine"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ],
+        "places": [],
         "works": [
           "work:the-proximal-origin-of-sars-cov-2"
         ]
@@ -750,32 +730,34 @@
       "language": "en",
       "summary": "Lancet multi-author statement supporting Chinese scientists and condemning conspiracy theories that COVID-19 lacked a natural origin.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "zoonosis",
+        "Conspiracy theories"
+      ],
       "entities": {
         "people": [
-          "Peter Daszak",
           "Charles Calisher"
         ],
         "orgs": [
           "The Lancet"
         ],
         "places": [
-          "China",
-          "Wuhan"
+          "China"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:zoonosis",
+        "topic:conspiracy-theories"
+      ],
       "entity_ids": {
         "people": [
-          "person:peter-daszak",
           "person:charles-calisher"
         ],
         "orgs": [
           "org:the-lancet"
         ],
         "places": [
-          "place:china",
-          "place:wuhan"
+          "place:china"
         ],
         "works": [
           "work:lancet-letter-february-2020"
@@ -805,7 +787,9 @@
       "language": "en",
       "summary": "Science news coverage of the 27-scientist Lancet statement condemning rumors that COVID-19 came from a Wuhan lab and warning that such talk threatened open data sharing.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Conspiracy theories"
+      ],
       "entities": {
         "people": [
           "Jon Cohen"
@@ -815,11 +799,12 @@
           "The Lancet"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:conspiracy-theories"
+      ],
       "entity_ids": {
         "people": [
           "person:jon-cohen"
@@ -829,8 +814,7 @@
           "org:the-lancet"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ],
         "works": [
           "work:lancet-letter-february-2020"
@@ -975,7 +959,6 @@
       "summary": "U.S. Right to Know visual timeline of how the Nature Medicine ‘Proximal Origin’ paper was drafted and published—tracking private Slack/email debates, Fauci/Collins engagement, and the public claim that a lab scenario was not plausible.",
       "book_role": "Notes citation documenting the Proximal Origin drafting and messaging timeline.",
       "topics": [
-        "lab-leak hypothesis",
         "SARS-CoV-2",
         "censorship"
       ],
@@ -987,7 +970,6 @@
         "orgs": [
           "U.S. Right to Know",
           "Nature Medicine",
-          "EcoHealth Alliance",
           "NIH"
         ],
         "places": []
@@ -1000,7 +982,6 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:nature-medicine",
-          "org:ecohealth-alliance",
           "org:nih"
         ],
         "places": []
@@ -1014,7 +995,6 @@
         "org:u-s-right-to-know"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
         "topic:censorship"
       ],

@@ -22,11 +22,11 @@
       "book_role": "WIV Nature paper framing a probable bat origin as the official scientific storyline.",
       "topics": [
         "SARS-CoV-2",
-        "RaTG13"
+        "RaTG13",
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Peng Zhou"
         ],
         "orgs": [
@@ -34,17 +34,16 @@
           "Wuhan Institute of Virology"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:ratg13"
+        "topic:ratg13",
+        "topic:bat-coronaviruses"
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:peng-zhou"
         ],
         "orgs": [
@@ -52,8 +51,7 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch05-s01",
@@ -95,7 +93,6 @@
         ],
         "places": [
           "China",
-          "Wuhan",
           "Guangzhou"
         ]
       },
@@ -112,8 +109,7 @@
           "org:nature"
         ],
         "places": [
-          "place:china",
-          "place:wuhan"
+          "place:china"
         ]
       },
       "source_key": "ch05-s02",
@@ -198,7 +194,6 @@
         ],
         "places": [
           "Wuhan",
-          "China",
           "Huanan Seafood Market"
         ]
       },
@@ -213,7 +208,6 @@
         ],
         "places": [
           "place:wuhan",
-          "place:china",
           "place:huanan-seafood-market"
         ]
       },
@@ -243,9 +237,7 @@
       "language": "en",
       "summary": "Daily Mail report on the Xiao/Xiao preprint arguing the virus likely came from a Wuhan lab (WHCDC and/or WIV), citing bat research near the Huanan market, bat–researcher accidents, and the distance of native bats from Wuhan.",
       "book_role": "",
-      "topics": [
-        "lab-leak hypothesis"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ross Ibbetson",
@@ -266,9 +258,7 @@
           "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [
-        "topic:lab-leak-hypothesis"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ross-ibbetson",
@@ -314,7 +304,8 @@
       "book_role": "",
       "topics": [
         "bat coronaviruses",
-        "chimeric viruses"
+        "chimeric viruses",
+        "SARS"
       ],
       "entities": {
         "people": [
@@ -325,14 +316,12 @@
           "Nature Medicine",
           "University of North Carolina"
         ],
-        "places": [
-          "United States",
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:bat-coronaviruses",
-        "topic:chimeric-viruses"
+        "topic:chimeric-viruses",
+        "topic:sars"
       ],
       "entity_ids": {
         "people": [
@@ -343,10 +332,7 @@
           "org:nature-medicine",
           "org:university-of-north-carolina"
         ],
-        "places": [
-          "place:united-states",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch05-s06",
       "date_iso": "2015-11-09",

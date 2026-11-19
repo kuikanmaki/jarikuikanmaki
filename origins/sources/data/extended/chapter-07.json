@@ -84,7 +84,6 @@
         ],
         "places": [
           "Italy",
-          "China",
           "South Korea",
           "Daegu",
           "Iran"
@@ -100,8 +99,7 @@
           "org:reuters"
         ],
         "places": [
-          "place:italy",
-          "place:china"
+          "place:italy"
         ]
       },
       "source_key": "ch07-s02",
@@ -188,7 +186,6 @@
         ],
         "places": [
           "Italy",
-          "China",
           "Europe"
         ]
       },
@@ -199,7 +196,6 @@
         ],
         "places": [
           "place:italy",
-          "place:china",
           "place:europe"
         ]
       },
@@ -227,14 +223,15 @@
       "language": "en",
       "summary": "WHO Situation Report 39 raising global spread/impact risk to ‘very high,’ noting new countries reporting cases, the WHO–China Joint Mission findings, and—as the book notes—continued advice against travel/trade restrictions.",
       "book_role": "WHO Situation Report cited for continued advice against travel and trade restrictions.",
-      "topics": [],
+      "topics": [
+        "Travel restrictions"
+      ],
       "entities": {
         "people": [],
         "orgs": [
           "WHO"
         ],
         "places": [
-          "China",
           "Belarus",
           "Lithuania",
           "Netherlands",
@@ -247,9 +244,7 @@
         "orgs": [
           "org:who"
         ],
-        "places": [
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch07-s05",
       "date_iso": "2020-02-28",
@@ -258,7 +253,9 @@
       "publication_ids": [
         "org:who"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:travel-restrictions"
+      ]
     },
     {
       "id": 6,

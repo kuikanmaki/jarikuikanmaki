@@ -20,9 +20,7 @@
       "language": "en",
       "summary": "WaPo report that WIV staff received state-secrets training in May 2019 and that classified military-linked research at the lab complicates origins inquiries. Opening retrieved behind subscription wall.",
       "book_role": "",
-      "topics": [
-        "lab-leak hypothesis"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Eva Dou"
@@ -32,13 +30,10 @@
           "Wuhan Institute of Virology"
         ],
         "places": [
-          "Wuhan",
-          "China"
+          "Wuhan"
         ]
       },
-      "topic_ids": [
-        "topic:lab-leak-hypothesis"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:eva-dou"
@@ -48,8 +43,7 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch13-s01",
@@ -117,16 +111,17 @@
       "language": "en",
       "summary": "Birrell Mail on Sunday column on secrecy-cloaked inquiries, WHO letting Beijing vet investigators, and Daszak’s Wuhan-linked appointment—reused artifact from chapter 9.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Conflicts of interest",
+        "censorship"
+      ],
       "entities": {
         "people": [
-          "Ian Birrell",
-          "Peter Daszak"
+          "Ian Birrell"
         ],
         "orgs": [
           "Daily Mail",
-          "WHO",
-          "EcoHealth Alliance"
+          "WHO"
         ],
         "places": [
           "China",
@@ -134,16 +129,17 @@
           "United Kingdom"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:conflicts-of-interest",
+        "topic:censorship"
+      ],
       "entity_ids": {
         "people": [
-          "person:ian-birrell",
-          "person:peter-daszak"
+          "person:ian-birrell"
         ],
         "orgs": [
           "org:daily-mail",
-          "org:who",
-          "org:ecohealth-alliance"
+          "org:who"
         ],
         "places": [
           "place:china",
@@ -176,7 +172,9 @@
       "language": "en",
       "summary": "Bloomberg feature on Danielle Anderson, the last foreign scientist at WIV before COVID, speaking on the origins debate and what she observed in the lab.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Origins debate"
+      ],
       "entities": {
         "people": [
           "Danielle Anderson",
@@ -188,11 +186,12 @@
         ],
         "places": [
           "Wuhan",
-          "China",
           "Melbourne"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:origins-debate"
+      ],
       "entity_ids": {
         "people": [
           "person:danielle-anderson",
@@ -202,8 +201,7 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan",
-          "place:china"
+          "place:wuhan"
         ]
       },
       "source_key": "ch13-s04",
@@ -338,7 +336,6 @@
       "book_role": "Notes citation on journal gatekeeping around early lab-origin science.",
       "topics": [
         "censorship",
-        "lab-leak hypothesis",
         "ACE2 receptors"
       ],
       "entities": {
@@ -376,7 +373,6 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:lab-leak-hypothesis",
         "topic:ace2-receptors"
       ],
       "date_iso": "2021-06-08",
@@ -398,8 +394,8 @@
       "book_role": "Notes citation timeline of early scientific censorship around COVID origins.",
       "topics": [
         "censorship",
-        "lab-leak hypothesis",
-        "Freedom of Information requests"
+        "Freedom of Information requests",
+        "Origins debate"
       ],
       "entities": {
         "people": [
@@ -431,8 +427,8 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:lab-leak-hypothesis",
-        "topic:freedom-of-information-requests"
+        "topic:freedom-of-information-requests",
+        "topic:origins-debate"
       ],
       "date_iso": "2021-09",
       "image_url": "https://i1.rgstatic.net/ii/profile.image/11431281114645328-1674593544904_Q128/Charles-Rixey.jpg"
@@ -452,9 +448,8 @@
       "summary": "Nicholas Wade in the Bulletin arguing COVID origins were obscured by Chinese concealment and by Western officials—centering the Feb 1, 2020 Farrar teleconference where virologists briefly favored lab manipulation then reversed into journal letters closing the question.",
       "book_role": "Notes citation on East–West scientific messaging that shut down early lab-origin debate.",
       "topics": [
-        "lab-leak hypothesis",
         "censorship",
-        "SARS-CoV-2"
+        "Origins debate"
       ],
       "entities": {
         "people": [
@@ -467,9 +462,7 @@
           "Wellcome Trust"
         ],
         "places": [
-          "China",
-          "United Kingdom",
-          "United States"
+          "United Kingdom"
         ]
       },
       "entity_ids": {
@@ -483,9 +476,7 @@
           "org:wellcome-trust"
         ],
         "places": [
-          "place:china",
-          "place:united-kingdom",
-          "place:united-states"
+          "place:united-kingdom"
         ]
       },
       "source_key": "ch13-n04",
@@ -497,9 +488,8 @@
         "org:bulletin-of-the-atomic-scientists"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:censorship",
-        "topic:sars-cov-2"
+        "topic:origins-debate"
       ],
       "date_iso": "2021-08-17",
       "image_url": "https://thebulletin.org/wp-content/uploads/2021/08/GettyImages-1230578755-1024x683.jpg.webp"

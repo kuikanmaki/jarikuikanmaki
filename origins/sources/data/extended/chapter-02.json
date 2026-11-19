@@ -86,8 +86,7 @@
           "Doubleday"
         ],
         "places": [
-          "Soviet Union",
-          "United States"
+          "Soviet Union"
         ]
       },
       "topic_ids": [
@@ -101,8 +100,7 @@
           "org:amazon"
         ],
         "places": [
-          "place:soviet-union",
-          "place:united-states"
+          "place:soviet-union"
         ]
       },
       "source_key": "ch02-s02",
@@ -128,7 +126,9 @@
       "language": "en",
       "summary": "Ken Alibek’s insider account of the Soviet biological weapons program.",
       "book_role": "Alibek’s Biohazard account of a covert Soviet outbreak used as historical warning.",
-      "topics": [],
+      "topics": [
+        "biological weapons"
+      ],
       "entities": {
         "people": [
           "Ken Alibek",
@@ -144,7 +144,9 @@
           "Russia"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:biological-weapons"
+      ],
       "entity_ids": {
         "people": [
           "person:ken-alibek",
@@ -187,7 +189,7 @@
       "summary": "STAT report that WHO confirmed Chinese authorities believed a new coronavirus may cause Wuhan’s mysterious pneumonia cases, before China had fully stated that publicly.",
       "book_role": "First major Western article attributing the Wuhan outbreak to a new virus and linking it to the seafood market.",
       "topics": [
-        "SARS-CoV-2"
+        "Wuhan pneumonia"
       ],
       "entities": {
         "people": [
@@ -204,7 +206,7 @@
         ]
       },
       "topic_ids": [
-        "topic:sars-cov-2"
+        "topic:wuhan-pneumonia"
       ],
       "entity_ids": {
         "people": [
@@ -246,7 +248,6 @@
       "summary": "mBio analysis linking the 1977 H1N1 reemergence (widely discussed as a possible lab-related event) to contemporary gain-of-function policy debates.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
         "gain-of-function research"
       ],
       "entities": {
@@ -259,7 +260,6 @@
           "American Society for Microbiology"
         ],
         "places": [
-          "China",
           "Soviet Union"
         ]
       },
@@ -272,7 +272,6 @@
           "org:mbio"
         ],
         "places": [
-          "place:china",
           "place:soviet-union"
         ]
       },
@@ -281,7 +280,6 @@
       "image_url": "https://journals.asm.org/cms/10.1128/mbio.01013-15/asset/aeae5b73-69e1-43c8-b8d7-07ce985cf93d/assets/graphic/mbo0041524260001.jpeg",
       "acquisition_note": "",
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research"
       ],
       "author_ids": [
@@ -367,8 +365,6 @@
       "summary": "BESA Center essay arguing SARS-CoV-2’s human pre-adaptation makes an unnatural or accidental origin more plausible than spontaneous zoonosis, and highlighting mismatches and errors at WIV and related Chinese institutions.",
       "book_role": "Notes citation framing genomic pre-adaptation and lab-accident pathways.",
       "topics": [
-        "lab-leak hypothesis",
-        "SARS-CoV-2",
         "COVID-19"
       ],
       "entities": {
@@ -376,26 +372,18 @@
           "Dany Shoham"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "BESA Center"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
           "person:dany-shoham"
         ],
         "orgs": [
-          "org:wuhan-institute-of-virology",
           "org:besa-center"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch02-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -406,8 +394,6 @@
         "org:besa-center"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
-        "topic:sars-cov-2",
         "topic:covid-19"
       ],
       "date_iso": "2020-12-14",
@@ -483,8 +469,7 @@
       "summary": "National Post / Bulletin of the Atomic Scientists piece by Martin Furmanski on historical pathogen lab escapes, including the argument that the 1977 H1N1 ‘Russian flu’ pandemic began from a laboratory accident tied to vaccine work.",
       "book_role": "Notes citation establishing that high-consequence lab escapes have happened before.",
       "topics": [
-        "biosafety",
-        "lab-leak hypothesis"
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -517,8 +502,7 @@
         "org:national-post"
       ],
       "topic_ids": [
-        "topic:biosafety",
-        "topic:lab-leak-hypothesis"
+        "topic:biosafety"
       ],
       "date_iso": "2014-04-11",
       "image_url": "https://beta.nationalpost.com/wp-content/uploads/sites/2/2014/04/518025850.jpg"

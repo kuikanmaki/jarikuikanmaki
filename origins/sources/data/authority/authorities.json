@@ -8,7 +8,7 @@
       "org": 86,
       "person": 84,
       "place": 26,
-      "topic": 37,
+      "topic": 63,
       "work": 14
     },
     "redirects": [
@@ -27,7 +27,8 @@
       "Subentries are facet notes under the heading, not separate authorities (yet).",
       "corpus-extension entries cover high-frequency entities absent from the back-of-book index.",
       "Authors linked via _link_authors.py; corpus-extension persons/orgs minted for frequent bylines.",
-      "Publications linked via _link_publications.py; corpus-extension orgs minted for frequent venues."
+      "Publications linked via _link_publications.py; corpus-extension orgs minted for frequent venues.",
+      "Topics minted/linked via _mint_and_link_topics.py from catalog demand + BITS-aware aliases."
     ]
   },
   "authorities": {
@@ -5664,7 +5665,9 @@
         "id": "topic:anthrax",
         "prefLabel": "anthrax",
         "indexTerm": "anthrax",
-        "altLabels": [],
+        "altLabels": [
+          "anthrax attacks"
+        ],
         "related": [],
         "subentries": [
           "biodefense buildup",
@@ -5690,7 +5693,10 @@
         "id": "topic:bat-coronaviruses",
         "prefLabel": "bat coronaviruses",
         "indexTerm": "bat coronaviruses",
-        "altLabels": [],
+        "altLabels": [
+          "bat coronavirus emergence",
+          "bat origin"
+        ],
         "related": [],
         "subentries": [
           "chimeric-virus creation",
@@ -5770,7 +5776,12 @@
         "prefLabel": "biosafety",
         "indexTerm": "biosafety",
         "altLabels": [
-          "biosecurity"
+          "biosecurity",
+          "WIV biosafety",
+          "biosafety debate",
+          "biosafety infrastructure",
+          "biosafety policy",
+          "biosafety practices"
         ],
         "related": [],
         "subentries": [],
@@ -5832,7 +5843,12 @@
         "id": "topic:censorship",
         "prefLabel": "censorship",
         "indexTerm": "censorship",
-        "altLabels": [],
+        "altLabels": [
+          "WIV database censorship",
+          "content moderation",
+          "information control",
+          "secrecy"
+        ],
         "related": [
           {
             "label": "Global Engagement Center",
@@ -5869,14 +5885,102 @@
         "source": "book-index"
       },
       {
+        "id": "topic:china-cover-up",
+        "prefLabel": "China cover-up",
+        "indexTerm": "China cover-up",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:conflicts-of-interest",
+        "prefLabel": "Conflicts of interest",
+        "indexTerm": "Conflicts of interest",
+        "altLabels": [
+          "WHO conflicts"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:conspiracy-theories",
+        "prefLabel": "Conspiracy theories",
+        "indexTerm": "Conspiracy theories",
+        "altLabels": [
+          "conspiracy framing",
+          "conspiracy theory framing"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
         "id": "topic:covid-19",
         "prefLabel": "COVID-19",
         "indexTerm": "COVID-19",
         "altLabels": [
           "Covid-19",
           "covid19",
-          "coronavirus disease 2019"
+          "coronavirus disease 2019",
+          "COVID-19 dashboard"
         ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:covid-protests",
+        "prefLabel": "COVID protests",
+        "indexTerm": "COVID protests",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:data-access",
+        "prefLabel": "Data access",
+        "indexTerm": "Data access",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:disinformation",
+        "prefLabel": "Disinformation",
+        "indexTerm": "Disinformation",
+        "altLabels": [
+          "Russian disinformation"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:early-cases",
+        "prefLabel": "Early cases",
+        "indexTerm": "Early cases",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:early-reporting",
+        "prefLabel": "Early reporting",
+        "indexTerm": "Early reporting",
+        "altLabels": [],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -5889,7 +5993,9 @@
         "altLabels": [
           "FOIA",
           "FoIA",
-          "FOI"
+          "FOI",
+          "FOIA emails",
+          "NIH FOIA"
         ],
         "related": [],
         "subentries": [
@@ -5923,8 +6029,19 @@
           "gain-of-function",
           "gain of function",
           "GoF",
-          "GOF"
+          "GOF",
+          "gain-of-function pause"
         ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:genome-analysis",
+        "prefLabel": "Genome analysis",
+        "indexTerm": "Genome analysis",
+        "altLabels": [],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -5942,6 +6059,16 @@
         ],
         "pages": [],
         "source": "book-index"
+      },
+      {
+        "id": "topic:human-to-human-transmission",
+        "prefLabel": "Human-to-human transmission",
+        "indexTerm": "Human-to-human transmission",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "topic:humanized-mouse-models",
@@ -5973,6 +6100,18 @@
         "source": "book-index"
       },
       {
+        "id": "topic:intelligence-community",
+        "prefLabel": "Intelligence community",
+        "indexTerm": "Intelligence community",
+        "altLabels": [
+          "intelligence"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
         "id": "topic:intermediate-host",
         "prefLabel": "intermediate host",
         "indexTerm": "intermediate host",
@@ -5996,7 +6135,10 @@
           "lab-leak",
           "laboratory leak",
           "laboratory origin",
-          "lab leak theory"
+          "lab leak theory",
+          "lab leak dismissal",
+          "lab-leak credibility",
+          "lab-leak dismissal"
         ],
         "related": [],
         "subentries": [
@@ -6039,6 +6181,28 @@
         "source": "corpus-extension"
       },
       {
+        "id": "topic:mojiang-miners",
+        "prefLabel": "Mojiang miners",
+        "indexTerm": "Mojiang miners",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:nih-grant",
+        "prefLabel": "NIH grant",
+        "indexTerm": "NIH grant",
+        "altLabels": [
+          "R01AI110964"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
         "id": "topic:omicron-variant",
         "prefLabel": "Omicron variant",
         "indexTerm": "Omicron variant",
@@ -6049,6 +6213,30 @@
           "214"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "topic:open-source-investigation",
+        "prefLabel": "Open-source investigation",
+        "indexTerm": "Open-source investigation",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:origins-debate",
+        "prefLabel": "Origins debate",
+        "indexTerm": "Origins debate",
+        "altLabels": [
+          "COVID origins",
+          "lab vs natural",
+          "origins"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "topic:pangolins",
@@ -6076,6 +6264,26 @@
         ],
         "pages": [],
         "source": "book-index"
+      },
+      {
+        "id": "topic:phylogenetics",
+        "prefLabel": "Phylogenetics",
+        "indexTerm": "Phylogenetics",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:potential-pandemic-pathogens",
+        "prefLabel": "Potential pandemic pathogens",
+        "indexTerm": "Potential pandemic pathogens",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "topic:ra4991",
@@ -6114,8 +6322,21 @@
         "indexTerm": "RaTG13",
         "altLabels": [
           "RaTG13 virus",
-          "RaTG13 sequence"
+          "RaTG13 sequence",
+          "RaTG13 context",
+          "RaTG13 precursor",
+          "RaTG13 provenance"
         ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:rdrp",
+        "prefLabel": "RdRp",
+        "indexTerm": "RdRp",
+        "altLabels": [],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -6150,7 +6371,11 @@
         "indexTerm": "SARS",
         "altLabels": [
           "SARS-CoV",
-          "severe acute respiratory syndrome"
+          "severe acute respiratory syndrome",
+          "SARS comparison",
+          "SARS lessons",
+          "SARS origin",
+          "mouse-adapted SARS"
         ],
         "related": [],
         "subentries": [],
@@ -6164,8 +6389,32 @@
         "altLabels": [
           "2019-nCoV",
           "COVID-19 virus",
-          "novel coronavirus"
+          "novel coronavirus",
+          "SARS-CoV-2 genealogy",
+          "SARS-CoV-2 genome",
+          "SARS-CoV-2 origin",
+          "SARS-CoV-2 origins"
         ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:sarsr-cov-gene-pool",
+        "prefLabel": "SARSr-CoV gene pool",
+        "indexTerm": "SARSr-CoV gene pool",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:september-2019",
+        "prefLabel": "September 2019",
+        "indexTerm": "September 2019",
+        "altLabels": [],
         "related": [],
         "subentries": [],
         "pages": [],
@@ -6208,6 +6457,46 @@
         "source": "book-index"
       },
       {
+        "id": "topic:state-department-cables",
+        "prefLabel": "State Department cables",
+        "indexTerm": "State Department cables",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:transmissibility",
+        "prefLabel": "Transmissibility",
+        "indexTerm": "Transmissibility",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:transparency",
+        "prefLabel": "Transparency",
+        "indexTerm": "Transparency",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:travel-restrictions",
+        "prefLabel": "Travel restrictions",
+        "indexTerm": "Travel restrictions",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
         "id": "topic:viral-lineages-a-and-b",
         "prefLabel": "viral lineages A and B",
         "indexTerm": "viral lineages A and B",
@@ -6218,6 +6507,16 @@
           "203"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "topic:whistleblowers",
+        "prefLabel": "Whistleblowers",
+        "indexTerm": "Whistleblowers",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "topic:wiv1",
@@ -6231,6 +6530,16 @@
           "241"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "topic:wuhan-pneumonia",
+        "prefLabel": "Wuhan pneumonia",
+        "indexTerm": "Wuhan pneumonia",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "topic:zero-covid",
@@ -6249,7 +6558,10 @@
         "id": "topic:zoonosis",
         "prefLabel": "zoonosis",
         "indexTerm": "zoonosis",
-        "altLabels": [],
+        "altLabels": [
+          "lab vs zoonosis",
+          "natural origin"
+        ],
         "related": [],
         "subentries": [
           "Huanan market hypothesis"

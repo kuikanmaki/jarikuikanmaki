@@ -213,7 +213,6 @@
           "FDA"
         ],
         "places": [
-          "United States",
           "Germany"
         ]
       },
@@ -221,7 +220,6 @@
         "people": [],
         "orgs": [],
         "places": [
-          "place:united-states",
           "place:germany"
         ]
       },
@@ -296,7 +294,8 @@
       "summary": "EU Commission/UNESCO guide listing traits of conspiracy theories and, under COVID-19, explicitly treating claims that the virus was artificially created in a laboratory as dangerous conspiracy theories—guidance that remains online.",
       "book_role": "European Commission guide that branded lab-manipulation claims as dangerous conspiracy theories.",
       "topics": [
-        "lab-leak hypothesis"
+        "Conspiracy theories",
+        "Disinformation"
       ],
       "entities": {
         "people": [],
@@ -322,7 +321,8 @@
       "image_url": "https://commission.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png",
       "acquisition_note": "",
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:conspiracy-theories",
+        "topic:disinformation"
       ],
       "author_ids": [],
       "publication_ids": []
@@ -408,10 +408,7 @@
           "PubMed",
           "PLOS Pathogens"
         ],
-        "places": [
-          "Wuhan",
-          "China"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:pangolins",
@@ -426,10 +423,7 @@
           "org:pubmed",
           "org:plos-pathogens"
         ],
-        "places": [
-          "place:wuhan",
-          "place:china"
-        ]
+        "places": []
       },
       "source_key": "ch08-s09",
       "date_iso": "2020-05-14",
@@ -456,7 +450,9 @@
       "language": "en",
       "summary": "New York Times investigation of how China’s post-SARS contagion-alert system failed in the early COVID outbreak.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "SARS"
+      ],
       "entities": {
         "people": [
           "Steven Myers",
@@ -466,8 +462,7 @@
           "The New York Times"
         ],
         "places": [
-          "China",
-          "Wuhan"
+          "China"
         ]
       },
       "entity_ids": {
@@ -479,8 +474,7 @@
           "org:the-new-york-times"
         ],
         "places": [
-          "place:china",
-          "place:wuhan"
+          "place:china"
         ]
       },
       "source_key": "ch08-s10",
@@ -493,7 +487,9 @@
       "publication_ids": [
         "org:the-new-york-times"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:sars"
+      ]
     },
     {
       "id": 11,
@@ -509,7 +505,9 @@
       "language": "en",
       "summary": "Asia Times piece on Beijing trying to reverse the COVID origins blame narrative. Only a browser-check interstitial was retrieved.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Origins debate"
+      ],
       "entities": {
         "people": [
           "Frank Chen"
@@ -541,7 +539,9 @@
       "publication_ids": [
         "org:asia-times"
       ],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:origins-debate"
+      ]
     },
     {
       "id": 12,
@@ -566,7 +566,6 @@
         ],
         "orgs": [
           "CNN",
-          "Wuhan Institute of Virology",
           "Office of the Director of National Intelligence"
         ],
         "places": [
@@ -583,8 +582,7 @@
           "person:zachary-cohen"
         ],
         "orgs": [
-          "org:cnn",
-          "org:wuhan-institute-of-virology"
+          "org:cnn"
         ],
         "places": [
           "place:wuhan",
@@ -617,7 +615,9 @@
       "language": "en",
       "summary": "ABC News YouTube clip of Pompeo calling China’s coronavirus response a classic communist disinformation effort.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Disinformation"
+      ],
       "entities": {
         "people": [
           "Mike Pompeo",
@@ -628,8 +628,7 @@
           "ABC News"
         ],
         "places": [
-          "China",
-          "United States"
+          "China"
         ]
       },
       "entity_ids": {
@@ -642,14 +641,15 @@
           "org:abc-news"
         ],
         "places": [
-          "place:china",
-          "place:united-states"
+          "place:china"
         ]
       },
       "source_key": "ch08-s13",
       "date_iso": "2020-05-03",
       "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:disinformation"
+      ],
       "author_ids": [
         "person:martha-raddatz"
       ],
@@ -672,7 +672,7 @@
       "summary": "Guardian piece citing Five Eyes sources saying there was then no evidence of a Wuhan lab leak, distancing allied intel from White House claims and from the Australian Daily Telegraph’s 15-page dossier.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -681,18 +681,16 @@
         ],
         "orgs": [
           "The Guardian",
-          "Five Eyes",
-          "Wuhan Institute of Virology"
+          "Five Eyes"
         ],
         "places": [
           "Wuhan",
-          "China",
           "United Kingdom",
           "Australia"
         ]
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:covid-19"
       ],
       "entity_ids": {
         "people": [
@@ -701,12 +699,10 @@
         ],
         "orgs": [
           "org:the-guardian",
-          "org:five-eyes",
-          "org:wuhan-institute-of-virology"
+          "org:five-eyes"
         ],
         "places": [
           "place:wuhan",
-          "place:china",
           "place:united-kingdom",
           "place:australia"
         ]
@@ -736,32 +732,30 @@
       "language": "en",
       "summary": "Australian Daily Telegraph report on a 15-page Western-government research dossier alleging China suppressed outbreak evidence—silencing doctors, destroying lab evidence, and refusing live samples—costing many lives.",
       "book_role": "Markson dossier reporting contrasted with anonymous Five Eyes pushback.",
-      "topics": [],
+      "topics": [
+        "China cover-up",
+        "Transparency"
+      ],
       "entities": {
         "people": [
           "Sharri Markson"
         ],
         "orgs": [
-          "Wuhan Institute of Virology",
           "Daily Telegraph"
         ],
         "places": [
           "China",
-          "Australia",
-          "Wuhan"
+          "Australia"
         ]
       },
       "entity_ids": {
         "people": [
           "person:sharri-markson"
         ],
-        "orgs": [
-          "org:wuhan-institute-of-virology"
-        ],
+        "orgs": [],
         "places": [
           "place:china",
-          "place:australia",
-          "place:wuhan"
+          "place:australia"
         ]
       },
       "source_key": "ch08-s15",
@@ -772,7 +766,10 @@
         "person:sharri-markson"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:china-cover-up",
+        "topic:transparency"
+      ]
     },
     {
       "id": 16,
@@ -788,33 +785,33 @@
       "language": "en",
       "summary": "Archived ODNI press release page for the April 30, 2020 Intelligence Community statement on COVID-19 origins—publicly affirming the virus was ‘not manmade or genetically modified’ while saying agencies were examining natural contact versus lab accident.",
       "book_role": "April 2020 ODNI statement aligning the IC with “not manmade or genetically modified.”",
-      "topics": [],
+      "topics": [
+        "Intelligence community",
+        "Origins debate",
+        "COVID-19"
+      ],
       "entities": {
         "people": [],
         "orgs": [
           "Office of the Director of National Intelligence"
         ],
-        "places": [
-          "Wuhan",
-          "China",
-          "United States"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [],
         "orgs": [],
-        "places": [
-          "place:wuhan",
-          "place:china",
-          "place:united-states"
-        ]
+        "places": []
       },
       "source_key": "ch08-s16",
       "date_iso": "2020-04-30",
       "acquisition_note": "Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes.",
       "author_ids": [],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:intelligence-community",
+        "topic:origins-debate",
+        "topic:covid-19"
+      ]
     },
     {
       "id": 17,
@@ -830,7 +827,9 @@
       "language": "en",
       "summary": "WSJ report that ODNI publicly confirmed investigating a possible Wuhan lab escape while also stating Covid-19 was not manmade or genetically modified.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Intelligence community"
+      ],
       "entities": {
         "people": [
           "Warren Strobel",
@@ -842,7 +841,6 @@
         ],
         "places": [
           "Wuhan",
-          "China",
           "United States"
         ]
       },
@@ -856,11 +854,12 @@
         ],
         "places": [
           "place:wuhan",
-          "place:china",
           "place:united-states"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:intelligence-community"
+      ],
       "source_key": "ch08-s17",
       "date_iso": "2020-04-30",
       "image_url": "https://images.wsj.net/im-11136007?width=330&height=185",
@@ -888,13 +887,12 @@
       "summary": "Archived Project Evidence open dossier arguing SARS-CoV-2 emerged from a Wuhan biological laboratory, structured around claims that the virus was present at a Wuhan lab and may have begun from an infected worker or animal, with references including pre-pandemic coronavirus experiments.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Open-source investigation"
       ],
       "entities": {
         "people": [],
         "orgs": [
-          "Project Evidence",
-          "Wuhan Institute of Virology"
+          "Project Evidence"
         ],
         "places": [
           "Wuhan",
@@ -902,13 +900,12 @@
         ]
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis"
+        "topic:open-source-investigation"
       ],
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:project-evidence",
-          "org:wuhan-institute-of-virology"
+          "org:project-evidence"
         ],
         "places": [
           "place:wuhan",
@@ -1028,7 +1025,9 @@
       "language": "en",
       "summary": "Straits Times / Caixin investigation: Chinese labs sequenced a SARS-like virus by late December—days before WHO notification and weeks before public confirmation of human-to-human spread—while alerts failed to trigger a public response.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "Wuhan pneumonia"
+      ],
       "entities": {
         "people": [
           "Yu Gao"
@@ -1040,7 +1039,6 @@
           "BGI"
         ],
         "places": [
-          "Wuhan",
           "China",
           "Guangzhou"
         ]
@@ -1053,7 +1051,6 @@
           "org:who"
         ],
         "places": [
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -1065,7 +1062,9 @@
         "person:yu-gao"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [
+        "topic:wuhan-pneumonia"
+      ]
     },
     {
       "id": 22,
@@ -1082,11 +1081,13 @@
       "summary": "Josh Rogin opinion based on 2018 U.S. Embassy cables warning of safety and staffing weaknesses at WIV’s BSL-4 bat-coronavirus research—and the risk of a SARS-like pandemic—years before COVID.",
       "book_role": "Rogin’s State Department cables warning about safety problems at the Wuhan lab.",
       "topics": [
-        "bat coronaviruses"
+        "bat coronaviruses",
+        "State Department cables",
+        "biosafety",
+        "BSL-4 laboratory"
       ],
       "entities": {
         "people": [
-          "Shi Zhengli",
           "Josh Rogin",
           "Jamison Fouss",
           "Rick Switzer"
@@ -1103,11 +1104,13 @@
         ]
       },
       "topic_ids": [
-        "topic:bat-coronaviruses"
+        "topic:bat-coronaviruses",
+        "topic:state-department-cables",
+        "topic:biosafety",
+        "topic:bsl-4-laboratory"
       ],
       "entity_ids": {
         "people": [
-          "person:shi-zhengli",
           "person:josh-rogin"
         ],
         "orgs": [
@@ -1145,7 +1148,9 @@
       "language": "en",
       "summary": "Minerva article presenting the Sørensen–Dalgleish–Susrud paper arguing SARS-CoV-2’s spike inserts and stability make a laboratory origin the most logical explanation, with interview commentary from Birger Sørensen.",
       "book_role": "",
-      "topics": [],
+      "topics": [
+        "lab-leak hypothesis"
+      ],
       "entities": {
         "people": [
           "Birger Sørensen",
@@ -1159,7 +1164,9 @@
           "Norway"
         ]
       },
-      "topic_ids": [],
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ],
       "entity_ids": {
         "people": [
           "person:birger-s-rensen",
@@ -1191,9 +1198,7 @@
       "language": "en",
       "summary": "Telegraph exclusive: former MI6 chief Sir Richard Dearlove says COVID began as a Chinese lab accident, citing the Sørensen–Dalgleish report on inserted spike features, and raising the prospect of Chinese reparations.",
       "book_role": "",
-      "topics": [
-        "lab-leak hypothesis"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Richard Dearlove",
@@ -1210,9 +1215,7 @@
           "United Kingdom"
         ]
       },
-      "topic_ids": [
-        "topic:lab-leak-hypothesis"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:richard-dearlove",
@@ -1256,7 +1259,8 @@
       "book_role": "Notes citation on early political pressure shaping official COVID disinformation narratives.",
       "topics": [
         "censorship",
-        "COVID-19"
+        "COVID-19",
+        "Disinformation"
       ],
       "entities": {
         "people": [
@@ -1294,7 +1298,8 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:covid-19"
+        "topic:covid-19",
+        "topic:disinformation"
       ],
       "date_iso": "2020-04-24"
     },
@@ -1325,9 +1330,7 @@
           "Institut Pasteur"
         ],
         "places": [
-          "Wuhan",
-          "France",
-          "United States"
+          "France"
         ]
       },
       "entity_ids": {
@@ -1339,9 +1342,7 @@
           "org:chinese-academy-of-sciences"
         ],
         "places": [
-          "place:wuhan",
-          "place:france",
-          "place:united-states"
+          "place:france"
         ]
       },
       "source_key": "ch08-n02",
@@ -1383,7 +1384,6 @@
           "U.S. Right to Know"
         ],
         "places": [
-          "Wuhan",
           "Beijing",
           "China",
           "France"
@@ -1397,7 +1397,6 @@
           "org:u-s-right-to-know"
         ],
         "places": [
-          "place:wuhan",
           "place:beijing",
           "place:china",
           "place:france"
@@ -1430,8 +1429,6 @@
       "summary": "Daily Mail coverage of a Dalgleish–Sørensen study claiming Chinese scientists engineered SARS-CoV-2 then reverse-engineered related sequences to mimic natural bat evolution—reporting that journals had long ignored their evidence.",
       "book_role": "Notes citation for press amplification of the Dalgleish–Sørensen lab-engineering claim.",
       "topics": [
-        "lab-leak hypothesis",
-        "SARS-CoV-2",
         "bat coronaviruses",
         "reverse genetics"
       ],
@@ -1445,7 +1442,6 @@
           "Daily Mail"
         ],
         "places": [
-          "Wuhan",
           "China"
         ]
       },
@@ -1458,7 +1454,6 @@
           "org:daily-mail"
         ],
         "places": [
-          "place:wuhan",
           "place:china"
         ]
       },
@@ -1471,8 +1466,6 @@
         "org:daily-mail"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
-        "topic:sars-cov-2",
         "topic:bat-coronaviruses",
         "topic:reverse-genetics"
       ],

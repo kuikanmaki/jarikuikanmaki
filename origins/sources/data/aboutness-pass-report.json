@@ -1,0 +1,39 @@
+{
+  "before": {
+    "place:wuhan": 189,
+    "place:china": 178,
+    "place:united-states": 109,
+    "topic:lab-leak-hypothesis": 100,
+    "org:wuhan-institute-of-virology": 96,
+    "topic:sars-cov-2": 56,
+    "org:ecohealth-alliance": 51,
+    "person:peter-daszak": 44,
+    "topic:covid-19": 38,
+    "person:shi-zhengli": 36
+  },
+  "after": {
+    "place:wuhan": 105,
+    "place:china": 84,
+    "place:united-states": 26,
+    "topic:lab-leak-hypothesis": 37,
+    "org:wuhan-institute-of-virology": 61,
+    "topic:sars-cov-2": 37,
+    "org:ecohealth-alliance": 36,
+    "person:peter-daszak": 20,
+    "topic:covid-19": 27,
+    "person:shi-zhengli": 7
+  },
+  "removed": {
+    "place:wuhan": 84,
+    "place:china": 94,
+    "place:united-states": 83,
+    "topic:lab-leak-hypothesis": 63,
+    "org:wuhan-institute-of-virology": 35,
+    "topic:sars-cov-2": 19,
+    "org:ecohealth-alliance": 15,
+    "person:peter-daszak": 24,
+    "topic:covid-19": 11,
+    "person:shi-zhengli": 29
+  },
+  "sources_changed": 277
+}

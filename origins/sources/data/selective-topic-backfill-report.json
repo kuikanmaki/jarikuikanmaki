@@ -1,0 +1,376 @@
+{
+  "sources": [
+    {
+      "source_key": "ch03-s06",
+      "added": [
+        {
+          "id": "topic:nih-grant",
+          "label": "NIH grant"
+        },
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch03-s11",
+      "added": [
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        },
+        {
+          "id": "topic:chimeric-viruses",
+          "label": "chimeric viruses"
+        }
+      ]
+    },
+    {
+      "source_key": "ch01-s08",
+      "added": [
+        {
+          "id": "topic:biosafety",
+          "label": "biosafety"
+        }
+      ]
+    },
+    {
+      "source_key": "ch06-s06",
+      "added": [
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch08-s22",
+      "added": [
+        {
+          "id": "topic:bsl-4-laboratory",
+          "label": "BSL-4 laboratory"
+        }
+      ]
+    },
+    {
+      "source_key": "ch08-s23",
+      "added": [
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        },
+        {
+          "id": "topic:sars-cov-2",
+          "label": "SARS-CoV-2"
+        }
+      ]
+    },
+    {
+      "source_key": "ch08-s14",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch08-s16",
+      "added": [
+        {
+          "id": "topic:origins-debate",
+          "label": "Origins debate"
+        },
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch09-n04",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch09-n05",
+      "added": [
+        {
+          "id": "topic:sars-cov-2",
+          "label": "SARS-CoV-2"
+        }
+      ]
+    },
+    {
+      "source_key": "ch10-s12",
+      "added": [
+        {
+          "id": "topic:bat-coronaviruses",
+          "label": "bat coronaviruses"
+        }
+      ]
+    },
+    {
+      "source_key": "ch10-s18",
+      "added": [
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        },
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch10-s20",
+      "added": [
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        },
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch11-n02",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch11-n04",
+      "added": [
+        {
+          "id": "topic:sars-cov-2",
+          "label": "SARS-CoV-2"
+        }
+      ]
+    },
+    {
+      "source_key": "ch11-s03",
+      "added": [
+        {
+          "id": "topic:ratg13",
+          "label": "RaTG13"
+        }
+      ]
+    },
+    {
+      "source_key": "ch11-s12",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch12-s05",
+      "added": [
+        {
+          "id": "topic:reverse-genetics",
+          "label": "reverse genetics"
+        },
+        {
+          "id": "topic:bat-coronaviruses",
+          "label": "bat coronaviruses"
+        }
+      ]
+    },
+    {
+      "source_key": "ch14-s07",
+      "added": [
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch16-s07",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch17-s02",
+      "added": [
+        {
+          "id": "topic:bat-coronaviruses",
+          "label": "bat coronaviruses"
+        }
+      ]
+    },
+    {
+      "source_key": "ch17-s05",
+      "added": [
+        {
+          "id": "topic:bat-coronaviruses",
+          "label": "bat coronaviruses"
+        },
+        {
+          "id": "topic:banal-52",
+          "label": "BANAL-52"
+        },
+        {
+          "id": "topic:sars-cov-2",
+          "label": "SARS-CoV-2"
+        }
+      ]
+    },
+    {
+      "source_key": "ch17-s08",
+      "added": [
+        {
+          "id": "topic:zoonosis",
+          "label": "zoonosis"
+        }
+      ]
+    },
+    {
+      "source_key": "ch17-s11",
+      "added": [
+        {
+          "id": "topic:biosafety",
+          "label": "biosafety"
+        },
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        }
+      ]
+    },
+    {
+      "source_key": "ch17-n06",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch17-n13",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s09",
+      "added": [
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s14",
+      "added": [
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s21",
+      "added": [
+        {
+          "id": "topic:freedom-of-information-requests",
+          "label": "Freedom of Information requests"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s24",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s26",
+      "added": [
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s27",
+      "added": [
+        {
+          "id": "topic:lab-leak-hypothesis",
+          "label": "lab-leak hypothesis"
+        },
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s38",
+      "added": [
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch19-s50",
+      "added": [
+        {
+          "id": "topic:gain-of-function-research",
+          "label": "gain-of-function research"
+        },
+        {
+          "id": "topic:covid-19",
+          "label": "COVID-19"
+        }
+      ]
+    },
+    {
+      "source_key": "ch02-s03",
+      "added": [
+        {
+          "id": "topic:biological-weapons",
+          "label": "biological weapons"
+        }
+      ]
+    },
+    {
+      "source_key": "ch05-s06",
+      "added": [
+        {
+          "id": "topic:sars",
+          "label": "SARS"
+        }
+      ]
+    }
+  ]
+}

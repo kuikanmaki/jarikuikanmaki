@@ -1,0 +1,239 @@
+{
+  "baseline_commit": "f7c38e6",
+  "topics_before": 37,
+  "topics_after": 63,
+  "minted_count": 26,
+  "minted": [
+    {
+      "id": "topic:origins-debate",
+      "prefLabel": "Origins debate",
+      "altLabels": [
+        "COVID origins",
+        "lab vs natural",
+        "origins"
+      ],
+      "source_links": 27
+    },
+    {
+      "id": "topic:intelligence-community",
+      "prefLabel": "Intelligence community",
+      "altLabels": [
+        "intelligence"
+      ],
+      "source_links": 16
+    },
+    {
+      "id": "topic:conspiracy-theories",
+      "prefLabel": "Conspiracy theories",
+      "altLabels": [
+        "conspiracy framing",
+        "conspiracy theory framing"
+      ],
+      "source_links": 9
+    },
+    {
+      "id": "topic:nih-grant",
+      "prefLabel": "NIH grant",
+      "altLabels": [
+        "R01AI110964"
+      ],
+      "source_links": 8
+    },
+    {
+      "id": "topic:disinformation",
+      "prefLabel": "Disinformation",
+      "altLabels": [
+        "Russian disinformation"
+      ],
+      "source_links": 7
+    },
+    {
+      "id": "topic:wuhan-pneumonia",
+      "prefLabel": "Wuhan pneumonia",
+      "altLabels": [],
+      "source_links": 7
+    },
+    {
+      "id": "topic:transparency",
+      "prefLabel": "Transparency",
+      "altLabels": [],
+      "source_links": 6
+    },
+    {
+      "id": "topic:early-reporting",
+      "prefLabel": "Early reporting",
+      "altLabels": [],
+      "source_links": 5
+    },
+    {
+      "id": "topic:human-to-human-transmission",
+      "prefLabel": "Human-to-human transmission",
+      "altLabels": [],
+      "source_links": 5
+    },
+    {
+      "id": "topic:conflicts-of-interest",
+      "prefLabel": "Conflicts of interest",
+      "altLabels": [
+        "WHO conflicts"
+      ],
+      "source_links": 4
+    },
+    {
+      "id": "topic:whistleblowers",
+      "prefLabel": "Whistleblowers",
+      "altLabels": [],
+      "source_links": 4
+    },
+    {
+      "id": "topic:data-access",
+      "prefLabel": "Data access",
+      "altLabels": [],
+      "source_links": 3
+    },
+    {
+      "id": "topic:open-source-investigation",
+      "prefLabel": "Open-source investigation",
+      "altLabels": [],
+      "source_links": 3
+    },
+    {
+      "id": "topic:september-2019",
+      "prefLabel": "September 2019",
+      "altLabels": [],
+      "source_links": 3
+    },
+    {
+      "id": "topic:travel-restrictions",
+      "prefLabel": "Travel restrictions",
+      "altLabels": [],
+      "source_links": 3
+    },
+    {
+      "id": "topic:china-cover-up",
+      "prefLabel": "China cover-up",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:covid-protests",
+      "prefLabel": "COVID protests",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:early-cases",
+      "prefLabel": "Early cases",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:genome-analysis",
+      "prefLabel": "Genome analysis",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:mojiang-miners",
+      "prefLabel": "Mojiang miners",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:phylogenetics",
+      "prefLabel": "Phylogenetics",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:potential-pandemic-pathogens",
+      "prefLabel": "Potential pandemic pathogens",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:rdrp",
+      "prefLabel": "RdRp",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:sarsr-cov-gene-pool",
+      "prefLabel": "SARSr-CoV gene pool",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:state-department-cables",
+      "prefLabel": "State Department cables",
+      "altLabels": [],
+      "source_links": 2
+    },
+    {
+      "id": "topic:transmissibility",
+      "prefLabel": "Transmissibility",
+      "altLabels": [],
+      "source_links": 2
+    }
+  ],
+  "sources_changed": 146,
+  "topic_id_links_added": 175,
+  "existing_alts_added": {
+    "topic:anthrax": [
+      "anthrax attacks"
+    ],
+    "topic:bat-coronaviruses": [
+      "bat coronavirus emergence",
+      "bat origin"
+    ],
+    "topic:biosafety": [
+      "WIV biosafety",
+      "biosafety debate",
+      "biosafety infrastructure",
+      "biosafety policy",
+      "biosafety practices"
+    ],
+    "topic:censorship": [
+      "WIV database censorship",
+      "content moderation",
+      "information control",
+      "secrecy"
+    ],
+    "topic:covid-19": [
+      "COVID-19 dashboard"
+    ],
+    "topic:freedom-of-information-requests": [
+      "FOIA emails",
+      "NIH FOIA"
+    ],
+    "topic:gain-of-function-research": [
+      "gain-of-function pause"
+    ],
+    "topic:lab-leak-hypothesis": [
+      "lab leak dismissal",
+      "lab-leak credibility",
+      "lab-leak dismissal"
+    ],
+    "topic:ratg13": [
+      "RaTG13 context",
+      "RaTG13 precursor",
+      "RaTG13 provenance"
+    ],
+    "topic:sars": [
+      "SARS comparison",
+      "SARS lessons",
+      "SARS origin",
+      "mouse-adapted SARS"
+    ],
+    "topic:sars-cov-2": [
+      "SARS-CoV-2 genealogy",
+      "SARS-CoV-2 genome",
+      "SARS-CoV-2 origin",
+      "SARS-CoV-2 origins"
+    ],
+    "topic:zoonosis": [
+      "lab vs zoonosis",
+      "natural origin"
+    ]
+  }
+}
