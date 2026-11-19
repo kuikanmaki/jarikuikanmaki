@@ -968,22 +968,30 @@
     });
   }
 
+  function chapterMenuRowHeight() {
+    if (!chapterMenuEl) return 44;
+    var sample = chapterMenuEl.querySelector('[role="option"]');
+    if (!sample || chapterMenuEl.hidden) return 44;
+    var h = sample.getBoundingClientRect().height;
+    return h > 0 ? Math.ceil(h) : 44;
+  }
+
+  function chapterMenuComfortHeight() {
+    return 10 * chapterMenuRowHeight() + 12;
+  }
+
   function fitChapterMenuToViewport() {
-    // In-flow dropdown: grow the picker, cap at ~10 rows or whatever fits under the trigger.
+    // In-flow dropdown: ~10 rows, or whatever still fits under the trigger after pin.
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
       chapterMenuEl.style.maxHeight = "";
       return;
     }
-    var comfortRows = 10;
-    var sample = chapterMenuEl.querySelector('[role="option"]');
-    var rowH = sample ? Math.ceil(sample.getBoundingClientRect().height) : 44;
-    var comfort = comfortRows * rowH + 12;
+    var comfort = chapterMenuComfortHeight();
     var roomBelow = Math.floor(
       window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - 12
     );
-    var next = Math.min(comfort, Math.max(0, roomBelow));
-    if (next < 1) next = Math.min(comfort, rowH * 2);
+    var next = roomBelow > 0 ? Math.min(comfort, roomBelow) : comfort;
     chapterMenuEl.style.maxHeight = next + "px";
   }
 
@@ -995,7 +1003,6 @@
     if (open) {
       chapterMenuEl.removeAttribute("aria-hidden");
       chapterMenuEl.inert = false;
-      fitChapterMenuToViewport();
     } else {
       chapterMenuEl.setAttribute("aria-hidden", "true");
       chapterMenuEl.inert = true;
@@ -1176,26 +1183,20 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
-    // Open in-flow (picker grows), pin under the header when needed, then size to fit.
+    // One paint: pin first, pre-size to comfort, then reveal — no short stub → grow → jump.
+    if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
+      scrollChaptersShelfIntoView("instant");
+    }
+    chapterMenuEl.style.maxHeight = chapterMenuComfortHeight() + "px";
     setChapterMenuOpen(true);
     fitChapterMenuToViewport();
+    if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
+      scrollChaptersShelfIntoView("instant");
+      fitChapterMenuToViewport();
+    }
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     scrollOptionIntoChapterMenu(selected || focusOpt);
-    if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
-      scrollChaptersShelfIntoView("smooth");
-      window.setTimeout(function () {
-        if (!chapterMenuEl || chapterMenuEl.hidden) return;
-        fitChapterMenuToViewport();
-        // Menu growth can unlock more scroll room — pin again, then final size.
-        if (chaptersShelfIsBelowPinLine()) scrollChaptersShelfIntoView("instant");
-        fitChapterMenuToViewport();
-        scrollOptionIntoChapterMenu(
-          chapterMenuEl.querySelector('[role="option"][aria-selected="true"]') ||
-            chapterMenuEl.querySelector('[role="option"]')
-        );
-      }, 420);
-    }
     if (opts.focusOption === false) return;
     focusWithoutScroll(focusOpt);
   }
