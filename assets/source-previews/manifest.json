@@ -1,4 +1,11 @@
 {
+  "ch00-n01": {
+    "remote": "https://miro.medium.com/v2/resize:fit:594/0*2XkPeZyKJC45fTTd.png",
+    "path": "/assets/source-previews/ch00-n01.webp",
+    "bytes": 43746,
+    "fetched_at": "2026-11-19T16:26:57Z",
+    "source": "artifact"
+  },
   "ch00-s01": {
     "remote": "https://static.scientificamerican.com/sciam/cache/file/0AEA7BC6-2561-4E38-87C0A2A8F3599D7A_source.jpg?w=1200",
     "path": "/assets/source-previews/ch00-s01.webp",
@@ -17,6 +24,13 @@
     "bytes": 11592,
     "fetched_at": "2026-11-19T16:00:05Z"
   },
+  "ch00-s04": {
+    "remote": "https://www.science.org/cms/asset/10d04c33-7966-40d7-ab33-35b6e2721279/cc_1_main_gettyimages-643961442_1280p.jpg",
+    "path": "/assets/source-previews/ch00-s04.webp",
+    "bytes": 26778,
+    "fetched_at": "2026-11-19T16:43:45Z",
+    "source": "browser"
+  },
   "ch00-s05": {
     "remote": "https://wp.technologyreview.com/wp-content/uploads/2022/01/Unknown-1.jpeg?resize=1200,600",
     "path": "/assets/source-previews/ch00-s05.webp",
@@ -28,6 +42,13 @@
     "path": "/assets/source-previews/ch00-s06.webp",
     "bytes": 6262,
     "fetched_at": "2026-11-19T15:58:34Z"
+  },
+  "ch00-s07": {
+    "remote": "https://miro.medium.com/v2/resize:fit:500/0*AIAMTeb_VraqtVh5.png",
+    "path": "/assets/source-previews/ch00-s07.webp",
+    "bytes": 35378,
+    "fetched_at": "2026-11-19T16:26:56Z",
+    "source": "artifact"
   },
   "ch00-s13": {
     "remote": "https://ichef.bbci.co.uk/news/1024/branded_news/11C1A/production/_110803727_mediaitem110803726.jpg",
@@ -65,11 +86,25 @@
     "bytes": 8994,
     "fetched_at": "2026-11-19T15:58:36Z"
   },
+  "ch01-s10": {
+    "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/917c/4810786/59cebbdd67e3/nihms764094f1.jpg",
+    "path": "/assets/source-previews/ch01-s10.webp",
+    "bytes": 16570,
+    "fetched_at": "2026-11-19T16:26:56Z",
+    "source": "artifact"
+  },
   "ch01-s11": {
     "remote": "https://www.statnews.com/wp-content/uploads/2020/01/Wuhan-GettyImages-946736186-1024x576.jpg",
     "path": "/assets/source-previews/ch01-s11.webp",
     "bytes": 42556,
     "fetched_at": "2026-11-19T15:58:36Z"
+  },
+  "ch01-s12": {
+    "remote": "https://images.wsj.net/im-142407/?width=700&height=467",
+    "path": "/assets/source-previews/ch01-s12.webp",
+    "bytes": 38628,
+    "fetched_at": "2026-11-19T16:37:32Z",
+    "source": "artifact"
   },
   "ch02-n02": {
     "remote": "https://besacenter.org/wp-content/uploads/2020/12/COVID-19-image-by-Fernando-Zhiminaicela-via-Pixabay-e1607415152875.jpg",
@@ -82,6 +117,13 @@
     "path": "/assets/source-previews/ch02-n04.webp",
     "bytes": 32846,
     "fetched_at": "2026-11-19T16:00:05Z"
+  },
+  "ch02-s01": {
+    "remote": "https://twt-thumbs.washtimes.com/media/image/2020/03/20/virus_outbreak_china_49697_c0-285-5000-3200_s885x516.jpg?2e66e9e9bae8aebd12f43dd6b5f51144a5865faf",
+    "path": "/assets/source-previews/ch02-s01.webp",
+    "bytes": 27798,
+    "fetched_at": "2026-11-19T16:26:58Z",
+    "source": "artifact"
   },
   "ch02-s02": {
     "remote": "https://m.media-amazon.com/images/I/21qZvUoFnDL.jpg",
@@ -149,11 +191,32 @@
     "bytes": 10902,
     "fetched_at": "2026-11-19T15:58:37Z"
   },
+  "ch03-s12": {
+    "remote": "https://substackcdn.com/image/fetch/$s_!gNIc!,w_170,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7d59b24e-9f81-4d48-b92e-51db010866cd_400x400.png",
+    "path": "/assets/source-previews/ch03-s12.webp",
+    "bytes": 40188,
+    "fetched_at": "2026-11-19T16:26:58Z",
+    "source": "artifact"
+  },
   "ch03-s13": {
     "remote": "https://miro.medium.com/v2/resize:fit:1102/1*_avmtKnw_ZE-HjyhUyIDpQ.png",
     "path": "/assets/source-previews/ch03-s13.webp",
     "bytes": 52382,
     "fetched_at": "2026-11-19T15:58:37Z"
+  },
+  "ch04-s02": {
+    "remote": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F01%2F24%2FLYNXMPEG0N22L.JPG?auth=494d53414de2576c9245b5b5bcd33999af3f743a206328cef33b7c34be9aa80b&width=1920&quality=80",
+    "path": "/assets/source-previews/ch04-s02.webp",
+    "bytes": 29086,
+    "fetched_at": "2026-11-19T16:37:33Z",
+    "source": "artifact"
+  },
+  "ch04-s03": {
+    "remote": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11183219",
+    "path": "/assets/source-previews/ch04-s03.webp",
+    "bytes": 29394,
+    "fetched_at": "2026-11-19T16:37:34Z",
+    "source": "artifact"
   },
   "ch04-s06": {
     "remote": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/01/27/825a81f6-40ec-11ea-9fd9-ecfbb38a9743_image_hires_235253.jpg?itok=D2I78JME&v=1580140381",
@@ -179,6 +242,13 @@
     "bytes": 14902,
     "fetched_at": "2026-11-19T15:58:37Z"
   },
+  "ch04-s15": {
+    "remote": "https://github.com/blab.png?size=200",
+    "path": "/assets/source-previews/ch04-s15.webp",
+    "bytes": 14426,
+    "fetched_at": "2026-11-19T16:26:59Z",
+    "source": "artifact"
+  },
   "ch05-s01": {
     "remote": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-020-2012-7/MediaObjects/41586_2020_2012_Fig1_HTML.png",
     "path": "/assets/source-previews/ch05-s01.webp",
@@ -190,6 +260,13 @@
     "path": "/assets/source-previews/ch05-s02.webp",
     "bytes": 28028,
     "fetched_at": "2026-11-19T15:58:37Z"
+  },
+  "ch05-s03": {
+    "remote": "https://images.barrons.com/im-154315/?width=639&height=426",
+    "path": "/assets/source-previews/ch05-s03.webp",
+    "bytes": 46722,
+    "fetched_at": "2026-11-19T16:37:35Z",
+    "source": "artifact"
   },
   "ch05-s04": {
     "remote": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
@@ -233,6 +310,13 @@
     "bytes": 19842,
     "fetched_at": "2026-11-19T15:58:38Z"
   },
+  "ch06-s07": {
+    "remote": "https://i.insider.com/5e3868725bc79c7f6e5d4686?width=700",
+    "path": "/assets/source-previews/ch06-s07.webp",
+    "bytes": 13536,
+    "fetched_at": "2026-11-19T16:27:00Z",
+    "source": "artifact"
+  },
   "ch06-s09": {
     "remote": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
     "path": "/assets/source-previews/ch06-s09.webp",
@@ -269,6 +353,20 @@
     "bytes": 5192,
     "fetched_at": "2026-11-19T15:58:38Z"
   },
+  "ch06-s17": {
+    "remote": "https://www.reuters.com/resizer/v2/VQ5YY73HNVPXJOAXWT3Y3XTYWQ.jpg?auth=b5c4b8ad6ad58ae5962fb5d7cc16ebb01a53ce1be70277371cb88afc60cbca43&width=1920&quality=80",
+    "path": "/assets/source-previews/ch06-s17.webp",
+    "bytes": 32676,
+    "fetched_at": "2026-11-19T16:37:39Z",
+    "source": "artifact"
+  },
+  "ch07-s02": {
+    "remote": "https://www.reuters.com/resizer/v2/https%3A%2F%2Farchive-images.prod.global.a201836.reutersmedia.net%2F2020%2F02%2F23%2FLYNXNPEG1M042.JPG?auth=89fe0fa92bfd97aa032ff1178edbbb39142a3a3b94c83e4af7aa40ccbfb329af&width=1080&quality=80",
+    "path": "/assets/source-previews/ch07-s02.webp",
+    "bytes": 28832,
+    "fetched_at": "2026-11-19T16:27:02Z",
+    "source": "artifact"
+  },
   "ch07-s03": {
     "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/640b/7114094/e056f631d356/gr1_lrg.gif",
     "path": "/assets/source-previews/ch07-s03.webp",
@@ -280,6 +378,13 @@
     "path": "/assets/source-previews/ch07-s04.webp",
     "bytes": 9390,
     "fetched_at": "2026-11-19T15:58:39Z"
+  },
+  "ch07-s06": {
+    "remote": "https://img.img-cdn.yle.fi/crop_fill,w_1200,h_628/f_auto/13-3-11225321",
+    "path": "/assets/source-previews/ch07-s06.webp",
+    "bytes": 47724,
+    "fetched_at": "2026-11-19T16:37:39Z",
+    "source": "artifact"
   },
   "ch08-n04": {
     "remote": "https://i.dailymail.com/1s/2026/09/11/20/111197649-0-image-a-99_1789156755660.jpg",
@@ -310,6 +415,13 @@
     "path": "/assets/source-previews/ch08-s03.webp",
     "bytes": 6254,
     "fetched_at": "2026-11-19T15:58:39Z"
+  },
+  "ch08-s05": {
+    "remote": "https://cdn.pfizer.com/pfizercom/styles/style_260_185_jpg/s3/2024-06/Pfizer-Brand-Motif-Technology-Structure_285X190px.png?VersionId=ZIjHMNLeEWJ50hTenn2.FCpfG8QhmN6l&itok=VG80VKM_",
+    "path": "/assets/source-previews/ch08-s05.webp",
+    "bytes": 15842,
+    "fetched_at": "2026-11-19T16:27:02Z",
+    "source": "artifact"
   },
   "ch08-s06": {
     "remote": "https://ichef.bbci.co.uk/news/1024/branded_news/B2AE/production/_115324754_gettyimages-1283824133.jpg",
@@ -347,6 +459,27 @@
     "bytes": 45502,
     "fetched_at": "2026-11-19T16:00:06Z"
   },
+  "ch08-s15": {
+    "remote": "https://content.api.news/v3/images/bin/f507ede3c072a8a7486986e6ffbf7e41?width=150",
+    "path": "/assets/source-previews/ch08-s15.webp",
+    "bytes": 16200,
+    "fetched_at": "2026-11-19T16:37:43Z",
+    "source": "artifact"
+  },
+  "ch08-s17": {
+    "remote": "https://images.wsj.net/im-11136007?width=800&height=185",
+    "path": "/assets/source-previews/ch08-s17.webp",
+    "bytes": 1984,
+    "fetched_at": "2026-11-19T16:37:40Z",
+    "source": "artifact"
+  },
+  "ch08-s19": {
+    "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/316a/6746460/5c5fd8052c80/zbc0381911180001.jpg",
+    "path": "/assets/source-previews/ch08-s19.webp",
+    "bytes": 27566,
+    "fetched_at": "2026-11-19T16:27:03Z",
+    "source": "artifact"
+  },
   "ch08-s20": {
     "remote": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/02/29/70ad35f6-5a29-11ea-b438-8452af50d521_image_hires_024800.JPG?itok=YOu6YWJ2&v=1582915687",
     "path": "/assets/source-previews/ch08-s20.webp",
@@ -358,6 +491,20 @@
     "path": "/assets/source-previews/ch08-s21.webp",
     "bytes": 1638,
     "fetched_at": "2026-11-19T16:01:14Z"
+  },
+  "ch08-s22": {
+    "remote": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YYRTCV6YN3X2S7E3QKWBCWU6AE_size-normalized.jpg&w=750&h=495",
+    "path": "/assets/source-previews/ch08-s22.webp",
+    "bytes": 25488,
+    "fetched_at": "2026-11-19T16:37:39Z",
+    "source": "artifact"
+  },
+  "ch08-s23": {
+    "remote": "https://image.minerva.no/362540.webp?imageId=362540&width=960&height=548&format=jpg&fm=jpg",
+    "path": "/assets/source-previews/ch08-s23.webp",
+    "bytes": 8706,
+    "fetched_at": "2026-11-19T16:37:40Z",
+    "source": "artifact"
   },
   "ch08-s24": {
     "remote": "https://www.telegraph.co.uk/content/dam/news/2020/06/03/PLANET_NORMAL_SLATE_RICHARDDEARLOVE-01_1_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=640",
@@ -371,6 +518,13 @@
     "bytes": 3912,
     "fetched_at": "2026-11-19T15:58:40Z"
   },
+  "ch09-n03": {
+    "remote": "https://images.wsj.net/im-192026/?width=700&height=467",
+    "path": "/assets/source-previews/ch09-n03.webp",
+    "bytes": 25540,
+    "fetched_at": "2026-11-19T16:37:42Z",
+    "source": "artifact"
+  },
   "ch09-n04": {
     "remote": "https://i1.rgstatic.net/ii/profile.image/281305813143553-1444079940140_Q128/Jonathan-Latham.jpg",
     "path": "/assets/source-previews/ch09-n04.webp",
@@ -382,6 +536,13 @@
     "path": "/assets/source-previews/ch09-s01.webp",
     "bytes": 25342,
     "fetched_at": "2026-11-19T16:00:07Z"
+  },
+  "ch09-s02": {
+    "remote": "https://dims.apnews.com/dims4/default/5ff330b/2147483647/strip/true/crop/3000x2018+0+0/resize/599x403!/quality/90/?url=https%3A%2F%2Fafs-prod.storage.googleapis.com%2Fmedia%2F3b27b5cf933f496898aa84cb8f02ebda%2F3000.jpeg",
+    "path": "/assets/source-previews/ch09-s02.webp",
+    "bytes": 26704,
+    "fetched_at": "2026-11-19T16:27:05Z",
+    "source": "artifact"
   },
   "ch09-s03": {
     "remote": "https://ichef.bbci.co.uk/news/1024/branded_news/171C2/production/_116885649_mediaitem116885648.jpg",
@@ -425,11 +586,39 @@
     "bytes": 21100,
     "fetched_at": "2026-11-19T15:58:40Z"
   },
+  "ch09-s15": {
+    "remote": "https://images.wsj.net/im-86307786?width=800&height=185",
+    "path": "/assets/source-previews/ch09-s15.webp",
+    "bytes": 8402,
+    "fetched_at": "2026-11-19T16:37:42Z",
+    "source": "artifact"
+  },
+  "ch09-s17": {
+    "remote": "https://images.wsj.net/im-86307786?width=800&height=185",
+    "path": "/assets/source-previews/ch09-s17.webp",
+    "bytes": 8402,
+    "fetched_at": "2026-11-19T16:37:42Z",
+    "source": "artifact"
+  },
   "ch09-s18": {
     "remote": "https://2017-2021.state.gov/wp-content/uploads/2019/12/dos_seal.png",
     "path": "/assets/source-previews/ch09-s18.webp",
     "bytes": 24954,
     "fetched_at": "2026-11-19T15:58:41Z"
+  },
+  "ch09-s19": {
+    "remote": "https://images.wsj.net/im-342289/square?width=1280&height=1280",
+    "path": "/assets/source-previews/ch09-s19.webp",
+    "bytes": 65618,
+    "fetched_at": "2026-11-19T16:37:42Z",
+    "source": "artifact"
+  },
+  "ch10-n02": {
+    "remote": "https://images.wsj.net/im-312614/square?width=1280&height=1280",
+    "path": "/assets/source-previews/ch10-n02.webp",
+    "bytes": 16590,
+    "fetched_at": "2026-11-19T16:37:43Z",
+    "source": "artifact"
   },
   "ch10-n03": {
     "remote": "https://cms.thetimes.com/wp-content/uploads/image-server/production/19da5b84-fc2e-11eb-b378-10cb54573352.jpg?amp;sourceHeight=900&crop=0px%2C0px%2C1600px%2C900px&w=1200&strip=all&format=webp",
@@ -449,11 +638,25 @@
     "bytes": 15222,
     "fetched_at": "2026-11-19T16:00:08Z"
   },
+  "ch10-n06": {
+    "remote": "https://opinion-images.wsj.net/im-25710896?width=800&height=185",
+    "path": "/assets/source-previews/ch10-n06.webp",
+    "bytes": 10458,
+    "fetched_at": "2026-11-19T16:37:45Z",
+    "source": "artifact"
+  },
   "ch10-n07": {
     "remote": "https://mdpi-res.com/socsci/socsci-10-00320/article_deploy/html/images/socsci-10-00320-g001-550.jpg",
     "path": "/assets/source-previews/ch10-n07.webp",
     "bytes": 53142,
     "fetched_at": "2026-11-19T15:58:41Z"
+  },
+  "ch10-n08": {
+    "remote": "https://tablet-mag-images.b-cdn.net/production/3d2e717445919b0df2f79b1b23f273167909a292-543x317.jpg?w=1250&q=70&dpr=1",
+    "path": "/assets/source-previews/ch10-n08.webp",
+    "bytes": 21584,
+    "fetched_at": "2026-11-19T16:47:09Z",
+    "source": "urllib-retry"
   },
   "ch10-n11": {
     "remote": "https://usrtk.org/wp-content/uploads/2020/12/nas.jpg",
@@ -466,6 +669,13 @@
     "path": "/assets/source-previews/ch10-n12.webp",
     "bytes": 32844,
     "fetched_at": "2026-11-19T15:58:41Z"
+  },
+  "ch10-n13": {
+    "remote": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F669ec8d4-5723-4af0-bf36-2df3324880a2.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1&format=jpg&fm=jpg",
+    "path": "/assets/source-previews/ch10-n13.webp",
+    "bytes": 30734,
+    "fetched_at": "2026-11-19T16:37:44Z",
+    "source": "artifact"
   },
   "ch10-s02": {
     "remote": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30",
@@ -551,6 +761,13 @@
     "bytes": 11614,
     "fetched_at": "2026-11-19T16:00:08Z"
   },
+  "ch11-s01": {
+    "remote": "https://img.theweek.in/content/dam/week/en/author-images/user.png",
+    "path": "/assets/source-previews/ch11-s01.webp",
+    "bytes": 3028,
+    "fetched_at": "2026-11-19T16:27:13Z",
+    "source": "artifact"
+  },
   "ch11-s02": {
     "remote": "https://www.virology.ws/wp-content/uploads/2020/02/coronavirus_S-300x261.jpg",
     "path": "/assets/source-previews/ch11-s02.webp",
@@ -568,6 +785,13 @@
     "path": "/assets/source-previews/ch11-s05.webp",
     "bytes": 25660,
     "fetched_at": "2026-11-19T15:58:43Z"
+  },
+  "ch11-s07": {
+    "remote": "https://img.theweek.in/content/dam/week/en/author-images/user.png",
+    "path": "/assets/source-previews/ch11-s07.webp",
+    "bytes": 3028,
+    "fetched_at": "2026-11-19T16:27:14Z",
+    "source": "artifact"
   },
   "ch11-s10": {
     "remote": "https://static.time.com/v3/assets/bltea6093859af6183b/bltdfd478ef99673df1/698a124d457a526b50d646a9/time-100-Zhong-Nanshan.jpg?branch=production&width=2400&quality=75&auto=webp&crop=16:9",
@@ -599,11 +823,25 @@
     "bytes": 28374,
     "fetched_at": "2026-11-19T15:58:43Z"
   },
+  "ch11-s15": {
+    "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4625/7111780/450de59ca73c/gr1.jpg",
+    "path": "/assets/source-previews/ch11-s15.webp",
+    "bytes": 30122,
+    "fetched_at": "2026-11-19T16:27:10Z",
+    "source": "artifact"
+  },
   "ch11-s18": {
     "remote": "https://usrtk.org/wp-content/uploads/2021/04/EMI-cover-e1628731989446.jpg",
     "path": "/assets/source-previews/ch11-s18.webp",
     "bytes": 14966,
     "fetched_at": "2026-11-19T15:58:43Z"
+  },
+  "ch11-s19": {
+    "remote": "https://dims.apnews.com/dims4/default/be810b2/2147483647/strip/true/crop/3000x2000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fafs-prod.storage.googleapis.com%2Fmedia%2F9aeb2f00cb3143aaadb4c2bd4762d057%2F3000.jpeg",
+    "path": "/assets/source-previews/ch11-s19.webp",
+    "bytes": 22522,
+    "fetched_at": "2026-11-19T16:27:10Z",
+    "source": "artifact"
   },
   "ch11-s20": {
     "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5578/8193380/46b11ee206d4/12250_2016_3713_Figa_HTML.jpg",
@@ -611,11 +849,25 @@
     "bytes": 15082,
     "fetched_at": "2026-11-19T15:58:43Z"
   },
+  "ch12-n03": {
+    "remote": "https://media.cnn.com/api/v1/images/stellar/prod/200413152909-china-restricts-paper.jpg?q=x_2,y_0,h_1078,w_1915,c_crop/w_860",
+    "path": "/assets/source-previews/ch12-n03.webp",
+    "bytes": 23862,
+    "fetched_at": "2026-11-19T16:27:11Z",
+    "source": "artifact"
+  },
   "ch12-n05": {
     "remote": "https://cdn.factcheck.org/UploadedFiles/getty-wuhan-lab.jpg",
     "path": "/assets/source-previews/ch12-n05.webp",
     "bytes": 28880,
     "fetched_at": "2026-11-19T15:58:43Z"
+  },
+  "ch12-n06": {
+    "remote": "https://www.washingtonpost.com/dr/resources/images/generic-newsletter-signup.png",
+    "path": "/assets/source-previews/ch12-n06.webp",
+    "bytes": 14320,
+    "fetched_at": "2026-11-19T16:37:46Z",
+    "source": "artifact"
   },
   "ch12-n07": {
     "remote": "https://assets.newsweek.com/wp-content/uploads/2025/08/1926588-fauci-rand-paul-covid-19-origin-hearing.jpg?w=1200&crop=1",
@@ -773,6 +1025,13 @@
     "bytes": 3724,
     "fetched_at": "2026-11-19T15:58:46Z"
   },
+  "ch15-s07": {
+    "remote": "https://i.cbc.ca/ais/e775da89-3f25-461c-8160-278ddac2d18d,1794011848736/full/max/0/default.jpg?im=Crop%2Crect%3D%28127%2C0%2C1559%2C876%29%3B",
+    "path": "/assets/source-previews/ch15-s07.webp",
+    "bytes": 16232,
+    "fetched_at": "2026-11-19T16:37:46Z",
+    "source": "artifact"
+  },
   "ch16-n01": {
     "remote": "https://cdn.who.int/media/images/default-source/headquarters/teams/emergency-prepardness-(wpe)/epidemic-and-pandemic-preparedness-and-prevention-(epp)/emerging-diseases-and-zoonoses-(ezd)/sago-covid-thumbnail.tmb-1200v.png?sfvrsn=a033011d_1",
     "path": "/assets/source-previews/ch16-n01.webp",
@@ -827,6 +1086,20 @@
     "bytes": 51358,
     "fetched_at": "2026-11-19T16:00:09Z"
   },
+  "ch16-s08": {
+    "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bdc9/6832359/ff0719de6f74/viruses-11-00972-g001.jpg",
+    "path": "/assets/source-previews/ch16-s08.webp",
+    "bytes": 20422,
+    "fetched_at": "2026-11-19T16:27:12Z",
+    "source": "artifact"
+  },
+  "ch16-s09": {
+    "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f316/7114496/83ddd779f928/gr1.jpg",
+    "path": "/assets/source-previews/ch16-s09.webp",
+    "bytes": 21170,
+    "fetched_at": "2026-11-19T16:27:12Z",
+    "source": "artifact"
+  },
   "ch16-s11": {
     "remote": "https://cms.thetimes.com/wp-content/uploads/image-server/production/a1c7dba2-d262-11eb-b50d-ece47261907f.jpg?amp;sourceHeight=3093&strip=all&format=webp&crop=0px%2C242px%2C4639px%2C2610px&w=1200",
     "path": "/assets/source-previews/ch16-s11.webp",
@@ -844,6 +1117,13 @@
     "path": "/assets/source-previews/ch17-n06.webp",
     "bytes": 28268,
     "fetched_at": "2026-11-19T16:00:09Z"
+  },
+  "ch17-n07": {
+    "remote": "https://miro.medium.com/v2/resize:fit:585/1*C1mU2yl2yToat7XWWZUWUA.jpeg",
+    "path": "/assets/source-previews/ch17-n07.webp",
+    "bytes": 30284,
+    "fetched_at": "2026-11-19T16:27:13Z",
+    "source": "artifact"
   },
   "ch17-n08": {
     "remote": "https://usrtk.org/wp-content/uploads/2023/07/unsplash-covid-testing-squooshed-1.jpg",
@@ -869,6 +1149,13 @@
     "bytes": 28572,
     "fetched_at": "2026-11-19T15:58:48Z"
   },
+  "ch17-s06": {
+    "remote": "https://miro.medium.com/v2/resize:fit:563/0*J9qiqLMX6QDF-5fR.png",
+    "path": "/assets/source-previews/ch17-s06.webp",
+    "bytes": 62222,
+    "fetched_at": "2026-11-19T16:27:12Z",
+    "source": "artifact"
+  },
   "ch17-s08": {
     "remote": "https://substackcdn.com/image/fetch/$s_!9VB-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6e0edc22-aeaf-4ea4-b33e-a69d55f737bd_1024x961.jpeg",
     "path": "/assets/source-previews/ch17-s08.webp",
@@ -887,11 +1174,39 @@
     "bytes": 51322,
     "fetched_at": "2026-11-19T16:00:10Z"
   },
+  "ch18-s01": {
+    "remote": "https://www.reuters.com/resizer/v2/6YXB65AWPBKRJJ6E5I2Y7PWWMA.jpg?auth=cf7a3a78397c30c74a95b18abadfe226c4d9fe68088b7dae0dca4b48564908c1&width=1080&quality=80",
+    "path": "/assets/source-previews/ch18-s01.webp",
+    "bytes": 47766,
+    "fetched_at": "2026-11-19T16:37:49Z",
+    "source": "artifact"
+  },
+  "ch18-s02": {
+    "remote": "https://static.euronews.com/articles/stories/06/21/66/48/1200x675_cmsv2_868000d6-b38c-56e1-a8a2-8f8bc88a29b5-6216648.jpg",
+    "path": "/assets/source-previews/ch18-s02.webp",
+    "bytes": 50860,
+    "fetched_at": "2026-11-19T16:37:49Z",
+    "source": "artifact"
+  },
+  "ch18-s03": {
+    "remote": "https://www.reuters.com/resizer/v2/V6XITVQRWVOLVEQLLZT42NND4Q.jpg?auth=4663df438520b4bc70d7a7df8eca5d5dc1c04ae5e7213d6163fc5e80094517dc&width=1920&quality=80",
+    "path": "/assets/source-previews/ch18-s03.webp",
+    "bytes": 17306,
+    "fetched_at": "2026-11-19T16:37:49Z",
+    "source": "artifact"
+  },
   "ch18-s04": {
     "remote": "https://www.aljazeera.com/wp-content/uploads/2021/12/AP21362595458007.jpg?resize=1920%2C1440",
     "path": "/assets/source-previews/ch18-s04.webp",
     "bytes": 43098,
     "fetched_at": "2026-11-19T16:00:10Z"
+  },
+  "ch18-s05": {
+    "remote": "https://www.reuters.com/resizer/v2/R3V2BKJRQBN4RGSCNTV66UA57Q.jpg?auth=ad076a597058b04f1853309415a3c1a5f287b09f1f6976d686e5d2de730a3228&width=1080&quality=80",
+    "path": "/assets/source-previews/ch18-s05.webp",
+    "bytes": 21336,
+    "fetched_at": "2026-11-19T16:27:18Z",
+    "source": "artifact"
   },
   "ch18-s06": {
     "remote": "https://s.france24.com/media/display/a572f9f0-7c7e-11ec-95af-005056bfb2b6/w:1280/p:16x9/brussels-clashes.jpg",
@@ -899,11 +1214,39 @@
     "bytes": 23278,
     "fetched_at": "2026-11-19T15:58:50Z"
   },
+  "ch18-s07": {
+    "remote": "https://dims.apnews.com/dims4/default/dfe6a46/2147483647/strip/true/crop/3000x2048+0+0/resize/599x409!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2Fbf99d6622f404cde893eea9578b61a38%2F3000.jpeg",
+    "path": "/assets/source-previews/ch18-s07.webp",
+    "bytes": 40906,
+    "fetched_at": "2026-11-19T16:27:14Z",
+    "source": "artifact"
+  },
+  "ch18-s08": {
+    "remote": "https://www.reuters.com/resizer/v2/CLXJM5TRQRD4DJWCBW7NNL7II4.JPG?auth=d735251de7390802345a32be8c085ab45b980b02593da8aaff3f6f24c0f786c3&width=1080&quality=80",
+    "path": "/assets/source-previews/ch18-s08.webp",
+    "bytes": 42282,
+    "fetched_at": "2026-11-19T16:37:49Z",
+    "source": "artifact"
+  },
+  "ch18-s09": {
+    "remote": "https://www.reuters.com/resizer/v2/MIT77UA5YBIXBAETU7DD5AMRS4.jpg?auth=f7f394d26b500fabf77929e73f494bb8d9731504f9ad6ad4ec5285ad95b4c500&width=1920&quality=80",
+    "path": "/assets/source-previews/ch18-s09.webp",
+    "bytes": 14922,
+    "fetched_at": "2026-11-19T16:37:50Z",
+    "source": "artifact"
+  },
   "ch18-s11": {
     "remote": "https://www.unesco.org/sites/default/files/styles/best_image/public/2022-02/Screenshot%20%28134%29.png.webp?itok=UKnjP90M",
     "path": "/assets/source-previews/ch18-s11.webp",
     "bytes": 47892,
     "fetched_at": "2026-11-19T16:00:11Z"
+  },
+  "ch18-s12": {
+    "remote": "https://assets.apnews.com/fc/a1/53384a5d478eb84047f13a8f8541/david-rising-david-rising.jpg",
+    "path": "/assets/source-previews/ch18-s12.webp",
+    "bytes": 19692,
+    "fetched_at": "2026-11-19T16:47:09Z",
+    "source": "urllib-retry"
   },
   "ch18-s13": {
     "remote": "https://www.archives.gov/files/milestone-documents/images/doc-090-big.jpg",
@@ -952,6 +1295,13 @@
     "path": "/assets/source-previews/ch19-s02.webp",
     "bytes": 16008,
     "fetched_at": "2026-11-19T15:58:51Z"
+  },
+  "ch19-s04": {
+    "remote": "https://images.wsj.net/im-913114?width=700&height=493",
+    "path": "/assets/source-previews/ch19-s04.webp",
+    "bytes": 27616,
+    "fetched_at": "2026-11-19T16:37:49Z",
+    "source": "artifact"
   },
   "ch19-s08": {
     "remote": "https://substackcdn.com/image/fetch/$s_!6nh-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b6f7c19-c791-455e-99c1-b6ad105a8f39_1736x1050.jpeg",
@@ -1007,6 +1357,20 @@
     "bytes": 26866,
     "fetched_at": "2026-11-19T15:58:54Z"
   },
+  "ch19-s27": {
+    "remote": "https://images.wsj.net/im-34888661?width=800&height=185",
+    "path": "/assets/source-previews/ch19-s27.webp",
+    "bytes": 14580,
+    "fetched_at": "2026-11-19T16:37:51Z",
+    "source": "artifact"
+  },
+  "ch19-s28": {
+    "remote": "https://images.wsj.net/im-34888661?width=800&height=185",
+    "path": "/assets/source-previews/ch19-s28.webp",
+    "bytes": 14580,
+    "fetched_at": "2026-11-19T16:37:51Z",
+    "source": "artifact"
+  },
   "ch19-s29": {
     "remote": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-01/250125-covid-19-vaccine-wm-1129a-ec66ff.jpg",
     "path": "/assets/source-previews/ch19-s29.webp",
@@ -1043,6 +1407,13 @@
     "bytes": 26394,
     "fetched_at": "2026-11-19T16:00:11Z"
   },
+  "ch19-s42": {
+    "remote": "https://www.reuters.com/resizer/v2/TOF4BP7WLZLZNLAAYD2KTEBDYU.jpg?auth=460d2c39b88dffc859c097448997c1ee607143963ab64bacefd6b2817565fe18&width=1080&quality=80",
+    "path": "/assets/source-previews/ch19-s42.webp",
+    "bytes": 8142,
+    "fetched_at": "2026-11-19T16:37:50Z",
+    "source": "artifact"
+  },
   "ch19-s44": {
     "remote": "https://image-cdn-ak.spotifycdn.com/image/ab6772ab000016920dbcd3e556e3c6d45fd8ba6d",
     "path": "/assets/source-previews/ch19-s44.webp",
@@ -1078,5 +1449,12 @@
     "path": "/assets/source-previews/ch19-s53.webp",
     "bytes": 9464,
     "fetched_at": "2026-11-19T15:58:56Z"
+  },
+  "ch19-s55": {
+    "remote": "https://i.abcnewsfe.com/a/06cd7f4c-e4b4-4d34-b7cb-84f0dde0eb38/biden-fauci-file-gty-ml-250120_1737375325545_hpMain_16x9.jpg?w=1600",
+    "path": "/assets/source-previews/ch19-s55.webp",
+    "bytes": 23250,
+    "fetched_at": "2026-11-19T16:37:51Z",
+    "source": "artifact"
   }
 }

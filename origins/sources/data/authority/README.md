@@ -91,7 +91,7 @@ python3 origins/sources/data/_build_authority_search_index.py
 
 `corpus-index.json` is generated-only (`input_sha256` + `corpus-index.sha256`). Do not hand-edit it.
 
-Preview images: extended chapters store publisher `image_url` (from og/Twitter cards). Run `_cache_preview_images.py` to mirror them as WebP thumbs under `/assets/source-previews/`; `corpus-index.json` prefers the local thumb when present.
+Preview images: extended chapters store publisher `image_url` (from og/Twitter cards). Run `_cache_preview_images.py` to mirror them as WebP thumbs under `/assets/source-previews/` (optional `--artifacts` rescues missing thumbs from scrape artifacts). `corpus-index.json` prefers the local thumb when present.
 
 Extended chapter records may also include `acquisition_note` (scrape/paywall/retail metadata). That field stays local to extended JSON and is not published in `corpus-index.json`; visitor-facing `summary` should remain clean.
 
