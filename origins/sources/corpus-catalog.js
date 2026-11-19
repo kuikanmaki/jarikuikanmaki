@@ -222,14 +222,39 @@
     load();
   }
 
+  function hideBrokenCardImage(img) {
+    // Remote hotlinks (Science, Archive, CDNs) often 403/404 — drop the slot
+    // entirely so cards/previews never show a broken-image icon.
+    if (!img || !img.classList || !img.classList.contains("catalog-card-image")) return;
+    var media = img.closest(".catalog-card-media");
+    var layout = img.closest(".catalog-card-layout--media");
+    if (media) media.remove();
+    else img.remove();
+    if (layout) layout.classList.remove("catalog-card-layout--media");
+  }
+
+  // error does not bubble — capture so late-loading thumbs can clear themselves.
+  document.addEventListener(
+    "error",
+    function (e) {
+      hideBrokenCardImage(e.target);
+    },
+    true
+  );
+
+  function cardImageHtml(url) {
+    if (!url) return "";
+    return (
+      '<div class="catalog-card-media">' +
+        '<img src="' + escapeHtml(url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
+      "</div>"
+    );
+  }
+
   function cardMedia(s) {
     // Prefer live embed over a static thumbnail when the host is YouTube/X.
     if (hostEmbed(s) || !s.image_url) return "";
-    return (
-      '<div class="catalog-card-media">' +
-        '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
-      "</div>"
-    );
+    return cardImageHtml(s.image_url);
   }
 
   function sourceAccessLabel(s) {
@@ -447,13 +472,7 @@
     var pageHref = sourcePageHref(key);
     var external = typeof s.url === "string" && s.url ? s.url : "";
     // Hover previews: image/copy only — no YouTube/X embeds (avoids autoplay / heavy widgets).
-    var media = opts.preview
-      ? s.image_url
-        ? '<div class="catalog-card-media">' +
-            '<img src="' + escapeHtml(s.image_url) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="catalog-card-image">' +
-          "</div>"
-        : ""
-      : cardMedia(s);
+    var media = opts.preview ? cardImageHtml(s.image_url) : cardMedia(s);
     // Previews: plain topic chips (card is already one link — no nested anchors).
     var parts = cardCopyParts(s, { plain: !!opts.preview });
     var onSourcePage = view.mode === "source";
