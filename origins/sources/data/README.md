@@ -250,6 +250,7 @@ python3 _sync_labels_from_authorities.py
 python3 _verify_authority_links.py
 python3 _normalize_catalog.py          # optional housekeeping
 python3 _enrich_image_urls.py          # optional; needs network
+python3 _cache_preview_images.py       # optional; local WebP thumbs under assets/source-previews/
 python3 _build_corpus_index.py
 python3 _verify_corpus_index.py
 python3 _build_authority_search_index.py
@@ -269,6 +270,7 @@ From repo root, prefix with `origins/sources/data/`.
 | `_verify_corpus_index.py` | Confirm index matches a clean rebuild |
 | `_build_authority_search_index.py` | Build MiniSearch keyword index |
 | `_enrich_image_urls.py` | Fill `image_url` from og/Twitter cards (main + Notes) |
+| `_cache_preview_images.py` | Download remotes → `assets/source-previews/{source_key}.webp` (corpus prefers local) |
 | `_normalize_catalog.py` | Catalog normalization helpers |
 | `_authority_lib.py` | Shared authority loaders |
 | `extended/_scrape_chapter.py` | Firecrawl scrape into artifacts; patches `extended/chapter-NN.json` in place (`--section main\|notes\|all`, `--only-missing`) |

@@ -18,6 +18,9 @@ ROOT = Path(__file__).resolve().parent
 EXT = ROOT / "extended"
 OUT = ROOT / "corpus-index.json"
 HASH_OUT = ROOT / "corpus-index.sha256"
+REPO = ROOT.parents[2]
+PREVIEW_DIR = REPO / "assets" / "source-previews"
+PREVIEW_SITE_PREFIX = "/assets/source-previews"
 
 KIND_LABEL = {
     "html_article": "Article",
@@ -113,9 +116,19 @@ def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_m
         resolved, _ = labels_for_ids(auth_map, ids)
         entities[bucket] = resolved
 
+    source_key = source.get("source_key") or _default_source_key(
+        chapter, section, source.get("id") or 0
+    )
+    remote_image = source.get("image_url") or ""
+    local_preview = PREVIEW_DIR / f"{source_key}.webp"
+    image_url = (
+        f"{PREVIEW_SITE_PREFIX}/{source_key}.webp"
+        if local_preview.is_file()
+        else remote_image
+    )
+
     return {
-        "source_key": source.get("source_key")
-        or _default_source_key(chapter, section, source.get("id") or 0),
+        "source_key": source_key,
         "section": section,
         "chapter": chapter,
         "chapter_title": chapter_title,
@@ -128,7 +141,7 @@ def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_m
         "date": source.get("date") or "",
         "date_iso": source.get("date_iso") or "",
         "url": source.get("url") or "",
-        "image_url": source.get("image_url") or "",
+        "image_url": image_url,
         "type": source.get("type") or "",
         "content_kind": kind,
         "content_kind_label": KIND_LABEL.get(kind, kind.replace("_", " ")),
