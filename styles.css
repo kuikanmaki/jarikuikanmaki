@@ -1003,7 +1003,7 @@ img {
 }
 .sources-page .catalog-chapter-menu {
   /* Overlay under the trigger — opening must not change page length / scroll anchoring.
-     JS sets max-height to the remaining viewport under the trigger. */
+     JS tightens to ~10 rows or remaining space under the trigger. */
   position: absolute;
   z-index: 30;
   left: 0;
@@ -1013,7 +1013,7 @@ img {
   margin: 0;
   padding: 0.35rem 0;
   list-style: none;
-  max-height: calc(100dvh - 8rem);
+  max-height: min(28rem, 45vh);
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;

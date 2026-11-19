@@ -57,38 +57,20 @@ test.describe("Sources catalog smoke", () => {
     const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
-    if (!isMobile(testInfo.project.name)) {
-      // Desktop idle: open tall menu, then pin (main grows — not a footer spacer).
-      await expect
-        .poll(async () =>
-          page.locator("#sources-chapters").evaluate((el) => {
-            const sm = parseFloat(getComputedStyle(el).scrollMarginTop);
-            const header =
-              document.querySelector(".site-header") ||
-              document.querySelector("#site-header");
-            const clear = !Number.isNaN(sm) && sm > 0
-              ? sm
-              : (header ? header.getBoundingClientRect().height : 0) + 12;
-            return el.getBoundingClientRect().top - clear;
-          })
-        )
-        .toBeLessThan(24);
-      const mainPad = await page.evaluate(() => {
-        const main = document.querySelector("main");
-        return main
-          ? {
-              pad: main.getAttribute("data-chapters-pin-pad"),
-              marginBottom: main.style.marginBottom,
-            }
-          : null;
-      });
-      expect(mainPad && mainPad.pad).toBeTruthy();
-      expect(mainPad.marginBottom).toMatch(/px$/);
-    } else {
-      await expect
-        .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
-        .toBe(scrollBefore);
-    }
+    // Idle/short page: open in place — no invented page length / white-space pad.
+    await expect
+      .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
+      .toBe(scrollBefore);
+    const noFakePad = await page.evaluate(() => {
+      const main = document.querySelector("main");
+      return !(
+        main &&
+        (main.getAttribute("data-chapters-pin-pad") ||
+          main.style.marginBottom ||
+          document.getElementById("chapters-pin-spacer"))
+      );
+    });
+    expect(noFakePad).toBe(true);
     // Overlay menu sits below the trigger (not flipped above) and scrolls internally.
     const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
     const menuBox = await page.locator("#chapter-custom-list").boundingBox();
@@ -100,20 +82,23 @@ test.describe("Sources catalog smoke", () => {
         page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
       )
       .toMatch(/auto|scroll/);
-    // Menu uses the remaining viewport under the trigger (not an arbitrary short cap).
+    // Menu stays in-viewport and is a normal ~10-row dropdown (not full-viewport).
     const menuFits = await page.locator("#chapter-custom-list").evaluate((el) => {
       const r = el.getBoundingClientRect();
       return r.bottom <= window.innerHeight + 1;
     });
     expect(menuFits).toBe(true);
-    const usesRoom = await page.evaluate(() => {
+    const menuSized = await page.evaluate(() => {
       const trigger = document.getElementById("chapter-custom-trigger");
       const menu = document.getElementById("chapter-custom-list");
+      const opt = menu.querySelector('[role="option"]');
+      const rowH = opt ? opt.getBoundingClientRect().height : 44;
       const room = window.innerHeight - trigger.getBoundingClientRect().bottom - 12;
       const h = menu.getBoundingClientRect().height;
-      return room > 120 ? h >= Math.min(room, 200) - 8 : h > 0;
+      const comfort = rowH * 10 + 12;
+      return h <= Math.min(comfort, Math.max(room, 0)) + 12 && h >= rowH * 3 - 4;
     });
-    expect(usesRoom).toBe(true);
+    expect(menuSized).toBe(true);
     await page.locator('#chapter-custom-list [data-value="5"]').click();
 
     await expect(page.locator("#sources-heading")).toBeVisible();
@@ -173,14 +158,18 @@ test.describe("Sources catalog smoke", () => {
         page.evaluate(() => {
           const trigger = document.getElementById("chapter-custom-trigger");
           const el = document.getElementById("chapter-custom-list");
+          const opt = el.querySelector('[role="option"]');
+          const rowH = opt ? opt.getBoundingClientRect().height : 44;
           const room = Math.floor(
             window.innerHeight - trigger.getBoundingClientRect().bottom - 12
           );
+          const comfort = rowH * 10 + 12;
           const r = el.getBoundingClientRect();
-          const fillsRoom = Math.abs(el.clientHeight - Math.max(room, 0)) <= 12;
+          const expected = Math.min(comfort, Math.max(room, rowH * 3));
+          const sized = Math.abs(el.clientHeight - expected) <= 16;
           const inView = r.bottom <= window.innerHeight + 1;
-          const scrollsIfNeeded = el.scrollHeight <= el.clientHeight + 1 || el.scrollHeight > el.clientHeight;
-          return fillsRoom && inView && scrollsIfNeeded;
+          const scrolls = el.scrollHeight > el.clientHeight;
+          return sized && inView && scrolls;
         })
       )
       .toBe(true);
