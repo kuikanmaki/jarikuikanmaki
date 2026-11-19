@@ -958,9 +958,6 @@ img {
   appearance: none;
   pointer-events: none;
 }
-.sources-page .catalog-chapter-custom {
-  display: block;
-}
 .sources-page .catalog-chapter-trigger {
   display: flex;
   align-items: center;
@@ -999,13 +996,20 @@ img {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.sources-page .catalog-chapter-custom {
+  position: relative;
+  z-index: 20;
+  display: block;
+}
 .sources-page .catalog-chapter-menu {
-  /* In-flow list capped so long chapter lists scroll inside the menu, not the page.
-     JS further tightens max-height to the space under the trigger on short viewports. */
-  position: static;
-  z-index: auto;
+  /* Overlay under the trigger — opening must not change page length / scroll anchoring. */
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  top: calc(100% + 0.25rem);
   width: 100%;
-  margin: 0.25rem 0 0;
+  margin: 0;
   padding: 0.35rem 0;
   list-style: none;
   /* JS further sizes to viewport and enforces a ~6-row minimum. */

@@ -909,23 +909,33 @@
         return res.text();
       })
       .then(function (html) {
+        // Stale response after the user picked another chapter — ignore.
+        if (view.mode !== "chapter" || view.chapter !== chapterNumber) {
+          return false;
+        }
         notesEl.innerHTML = '<hr class="notes-divider">' + html;
         enhanceNotesSourceLinks(notesEl);
         // History ← Back may need scrollY re-applied after notes HTML grows the page.
         if (applyPendingRestoreScroll()) {
           return true;
         }
-        // Link/permalink + desktop selector: pin Chapters. Mobile selector: rescue if title is above the fold.
-        if (view.mode === "chapter" && (view.chapterEntry || isDesktopLayout())) {
+        // Permalinks: keep Chapters pinned after notes land.
+        // Desktop selector: only if the user is still above the shelf (don't yank back).
+        // Mobile selector: rescue if the title ended above the fold.
+        if (view.chapterEntry) {
           pinChaptersShelf();
-        } else if (view.mode === "chapter" && !view.chapterEntry) {
+        } else if (isDesktopLayout()) {
+          pinChaptersShelfIfUserAbove();
+        } else {
           pinResultsHeadingIfObscured();
         }
         return true;
       })
       .catch(function () {
-        notesEl.innerHTML = "";
-        notesEl.hidden = true;
+        if (view.mode === "chapter" && view.chapter === chapterNumber) {
+          notesEl.innerHTML = "";
+          notesEl.hidden = true;
+        }
         applyPendingRestoreScroll();
         return false;
       });
@@ -959,8 +969,8 @@
   }
 
   function fitChapterMenuToViewport() {
-    // Size the open list to the space under the trigger, but never shorter than
-    // ~6 chapter rows (tiny menus on mid-page opens are worse than mild overflow).
+    // Size the overlay list to the space under the trigger. Never move the page —
+    // opening must not change document height or scroll position.
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
       chapterMenuEl.style.maxHeight = "";
@@ -975,19 +985,8 @@
     var room = Math.floor(
       window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap
     );
-
-    // If fewer than 6 rows fit, scroll the page up so the list can open taller.
-    if (room < minH && windowScrollY() > 0) {
-      var lift = Math.min(minH - room, windowScrollY());
-      if (lift > 0) {
-        scrollWindowInstant(windowScrollY() - lift);
-        room = Math.floor(
-          window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap
-        );
-      }
-    }
-
-    var next = Math.min(cssCap, Math.max(minH, room));
+    // Prefer ~6 rows; if the trigger is near the fold, allow a shorter overlay.
+    var next = Math.min(cssCap, room >= minH ? Math.max(minH, room) : Math.max(rowH * 3, room));
     if (next < 1) next = Math.min(cssCap, minH);
     chapterMenuEl.style.maxHeight = next + "px";
   }
@@ -1075,6 +1074,28 @@
   function pinChaptersShelf() {
     requestAnimationFrame(function () {
       scrollChaptersShelfIntoView("smooth");
+    });
+  }
+
+  function chaptersShelfIsBelowPinLine() {
+    // True when the user is still above the Chapters shelf (shelf sits below the
+    // sticky clear zone). False when already pinned or scrolled past it.
+    var target =
+      document.getElementById("sources-chapters") ||
+      document.getElementById("chapters-label");
+    if (!target) return false;
+    var header = document.querySelector(".site-header");
+    var headerH = header ? header.getBoundingClientRect().height : 0;
+    return target.getBoundingClientRect().top > headerH + 12 + 10;
+  }
+
+  function pinChaptersShelfIfUserAbove() {
+    // Select/activate: only park the shelf when the user is still above it.
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        if (!chaptersShelfIsBelowPinLine()) return;
+        scrollChaptersShelfIntoView("smooth");
+      });
     });
   }
 
@@ -1540,14 +1561,15 @@
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
     if (opts.scroll === false) return;
-    // Internal Chapter links / ?chapter=: pin the Chapters selector at the top.
+    // Internal Chapter links / ?chapter=: always pin Chapters at the top.
     if (view.chapterEntry) {
       pinChaptersShelf();
       return;
     }
-    // Desktop selector: always pin Chapters near the top. Mobile: only if the title is obscured.
+    // Desktop selector: pin only when the user is still above the shelf.
+    // (Menu is an overlay — closed before render — so page length is stable here.)
     if (isDesktopLayout()) {
-      pinChaptersShelf();
+      pinChaptersShelfIfUserAbove();
       return;
     }
     pinResultsHeadingIfObscured();
