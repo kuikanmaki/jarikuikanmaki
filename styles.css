@@ -1009,6 +1009,12 @@ img {
 .sources-page.sources-view-source #back-to-top {
   display: none;
 }
+@media (max-width: 639px) {
+  /* Source card page: drop the buy strip on narrow — focus the card. */
+  .sources-page.sources-view-source .sources-book-banner {
+    display: none;
+  }
+}
 /* Chapter title above Sources list + "Notes to Chapter N" — same section-head recipe. */
 .sources-page #sources-heading,
 .sources-page #catalog-notes > h2:first-of-type,
