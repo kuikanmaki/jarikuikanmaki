@@ -20,11 +20,7 @@
       "language": "fi",
       "summary": "YouTube episode of the Jari & Otto Show titled ‘Everything is Under Control’ (17 Feb 2020).",
       "book_role": "",
-      "topics": [
-        "Finland",
-        "podcast",
-        "early pandemic"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jari Kuikanmäki",
@@ -38,9 +34,7 @@
           "Finland"
         ]
       },
-      "topic_ids": [
-        "place:finland"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jari-kuikanmaki",
@@ -79,13 +73,7 @@
       "language": "en",
       "summary": "Reuters report on surging cases outside China—South Korea past 600 with a Daegu church cluster, Italy above 150 with town lockdowns, and rising concern in Iran—showing the epidemic escaping containment.",
       "book_role": "",
-      "topics": [
-        "Italy",
-        "South Korea",
-        "Iran",
-        "community spread",
-        "Daegu"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jane Chung",
@@ -102,9 +90,7 @@
           "Iran"
         ]
       },
-      "topic_ids": [
-        "place:italy"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jane-chung",
@@ -147,8 +133,7 @@
       "topics": [
         "furin cleavage site",
         "SARS-CoV-2",
-        "sarbecoviruses",
-        "spike glycoprotein"
+        "sarbecoviruses"
       ],
       "entities": {
         "people": [
@@ -193,18 +178,13 @@
       "language": "en",
       "summary": "BBC report that Italy extended coronavirus emergency measures nationwide, with Conte ordering people to stay home as deaths jumped and cases rose across all regions—then the worst-hit country after China.",
       "book_role": "",
-      "topics": [
-        "Italy lockdown",
-        "Giuseppe Conte",
-        "nationwide restrictions"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Giuseppe Conte"
         ],
         "orgs": [
-          "BBC News",
-          "BBC"
+          "BBC News"
         ],
         "places": [
           "Italy",
@@ -230,7 +210,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:bbc-news"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 5,
@@ -246,12 +227,7 @@
       "language": "en",
       "summary": "WHO Situation Report 39 raising global spread/impact risk to ‘very high,’ noting new countries reporting cases, the WHO–China Joint Mission findings, and—as the book notes—continued advice against travel/trade restrictions.",
       "book_role": "WHO Situation Report cited for continued advice against travel and trade restrictions.",
-      "topics": [
-        "WHO situation report",
-        "travel restrictions",
-        "WHO-China Joint Mission",
-        "global risk"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -281,7 +257,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:who"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 6,
@@ -297,12 +274,7 @@
       "language": "fi",
       "summary": "Yle report quoting THL’s Mika Salminen calling Italy’s municipal lockdowns excessive and saying Italians were caught badly off guard—as Europe’s first major outbreak unfolds in northern Italy.",
       "book_role": "",
-      "topics": [
-        "Mika Salminen",
-        "THL",
-        "Italy restrictions",
-        "Finland preparedness"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Mika Salminen"
@@ -337,7 +309,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:yle-news"
-      ]
+      ],
+      "topic_ids": []
     }
   ]
 }

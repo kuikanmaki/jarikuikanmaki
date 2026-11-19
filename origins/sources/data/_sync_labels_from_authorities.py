@@ -57,8 +57,9 @@ def main() -> None:
             topic_labels, miss = labels_for_ids(auth_map, topic_ids)
             for m in miss:
                 missing_ids.append({"source_key": key, "id": m, "field": "topic_ids"})
+            # Chips are authority-only: drop orphan free-text topics from display.
             orphans_t = orphan_strings(before["topics"], topic_labels)
-            new_topics = topic_labels + orphans_t
+            new_topics = topic_labels
 
             ent_ids = source.get("entity_ids") or {}
             new_entities = {"people": [], "orgs": [], "places": []}

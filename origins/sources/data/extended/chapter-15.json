@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "Newsweek report that DARPA denied funding the EcoHealth DEFUSE proposal involving WIV after DRASTIC leaked the document—proposal rejected, not awarded.",
       "book_role": "",
-      "topics": [
-        "DARPA",
-        "Wuhan Institute of Virology",
-        "DEFUSE",
-        "DRASTIC"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ed Browne"
@@ -42,12 +37,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:darpa",
-        "org:wuhan-institute-of-virology",
-        "work:defuse",
-        "org:drastic"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ed-browne"
@@ -62,6 +52,9 @@
         "places": [
           "place:wuhan",
           "place:united-states"
+        ],
+        "works": [
+          "work:defuse"
         ]
       },
       "source_key": "ch15-s01",
@@ -89,12 +82,7 @@
       "language": "en",
       "summary": "Current Affairs interview with Jeffrey Sachs arguing he is ‘pretty convinced’ COVID came from U.S. lab biotechnology and that Washington blocks a real origins investigation amid dangerous unregulated virus research.",
       "book_role": "",
-      "topics": [
-        "Jeffrey Sachs",
-        "Lancet COVID-19 Commission",
-        "U.S. lab biotechnology",
-        "investigation blocked"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jeffrey Sachs",
@@ -102,23 +90,22 @@
         ],
         "orgs": [
           "The Lancet",
+          "Lancet COVID-19 Commission",
           "Current Affairs"
         ],
         "places": [
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:jeffrey-sachs",
-        "org:lancet-covid-19-commission"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jeffrey-sachs",
           "person:nathan-robinson"
         ],
         "orgs": [
-          "org:the-lancet"
+          "org:the-lancet",
+          "org:lancet-covid-19-commission"
         ],
         "places": [
           "place:united-states"
@@ -148,10 +135,7 @@
       "summary": "UnHerd essay arguing post-9/11 Cheney-era biodefense strategy elevated Fauci’s role and built the risky pathogen-research complex that later backfired.",
       "book_role": "",
       "topics": [
-        "Dick Cheney",
-        "Anthony Fauci",
-        "biodefense complex",
-        "post-9/11"
+        "biodefense complex"
       ],
       "entities": {
         "people": [
@@ -168,8 +152,6 @@
         ]
       },
       "topic_ids": [
-        "person:dick-cheney",
-        "person:anthony-fauci",
         "topic:biodefense-complex"
       ],
       "entity_ids": {
@@ -211,12 +193,7 @@
       "language": "en",
       "summary": "2014 survey comparing BSL-3 practices at U.S. select-agent versus non–select-agent facilities—empirical look at biosafety variation inside the domestic biodefense lab network.",
       "book_role": "",
-      "topics": [
-        "United States",
-        "BSL-3",
-        "select agents",
-        "biosafety practices"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Stephanie Richards"
@@ -229,9 +206,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "place:united-states"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:stephanie-richards"
@@ -265,12 +240,7 @@
       "language": "en",
       "summary": "2007 Baric paper on risks and benefits of synthetic viral genomics—early articulation of dual-use coronavirus reverse-genetics capabilities from a central U.S. practitioner.",
       "book_role": "Baric’s 2006 synthetic-genomics essay warning of dual-use risks and false-origin signatures.",
-      "topics": [
-        "Ralph Baric",
-        "synthetic viral genomics",
-        "dual use",
-        "risks and benefits"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ralph Baric"
@@ -283,9 +253,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:ralph-baric"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ralph-baric"
@@ -323,12 +291,7 @@
       "language": "zh",
       "summary": "2015 Chinese Academy of Military Medical Sciences Press book on unnatural SARS origin and artificial humanized viruses as genetic weapons. No URL in source data.",
       "book_role": "",
-      "topics": [
-        "genetic weapons",
-        "artificial humanized viruses",
-        "SARS origin",
-        "Chinese military medicine"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Dezhong Xu"
@@ -355,7 +318,8 @@
       "author_ids": [
         "person:dezhong-xu"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 7,
@@ -371,15 +335,10 @@
       "language": "en",
       "summary": "AP/CBC report on Bruce Ivins’s suicide as FBI prepared to indict him in the 2001 anthrax-letter attacks—foundational trauma of the U.S. biodefense era.",
       "book_role": "",
-      "topics": [
-        "FBI",
-        "Bruce E. Ivins",
-        "anthrax attacks",
-        "biodefense origins"
-      ],
+      "topics": [],
       "entities": {
         "people": [
-          "Bruce Ivins"
+          "Bruce E. Ivins"
         ],
         "orgs": [
           "Associated Press",
@@ -391,12 +350,11 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:fbi",
-        "person:bruce-e-ivins"
-      ],
+      "topic_ids": [],
       "entity_ids": {
-        "people": [],
+        "people": [
+          "person:bruce-e-ivins"
+        ],
         "orgs": [
           "org:associated-press",
           "org:fbi"
@@ -433,9 +391,7 @@
       "topics": [
         "anthrax",
         "biodefense complex",
-        "biosecurity",
-        "Bruce E. Ivins",
-        "Amazon"
+        "biosecurity"
       ],
       "entities": {
         "people": [
@@ -459,7 +415,9 @@
           "org:amazon",
           "org:bantam"
         ],
-        "places": []
+        "places": [
+          "place:united-states"
+        ]
       },
       "source_key": "ch15-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -472,9 +430,7 @@
       "topic_ids": [
         "topic:anthrax",
         "topic:biodefense-complex",
-        "topic:biosecurity",
-        "person:bruce-e-ivins",
-        "org:amazon"
+        "topic:biosecurity"
       ],
       "date_iso": "2011"
     }

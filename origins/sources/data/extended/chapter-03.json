@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "Lancet clinical report on the first hospitalized 2019-nCoV patients in Wuhan. This is the case series later cited to show the earliest patient had no seafood-market link.",
       "book_role": "",
-      "topics": [
-        "Huanan Seafood Market",
-        "Wuhan",
-        "2019-nCoV clinical features",
-        "early cases"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Chaolin Huang"
@@ -35,13 +30,11 @@
         ],
         "places": [
           "Wuhan",
-          "China"
+          "China",
+          "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [
-        "place:huanan-seafood-market",
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:chaolin-huang"
@@ -51,7 +44,8 @@
         ],
         "places": [
           "place:wuhan",
-          "place:china"
+          "place:china",
+          "place:huanan-seafood-market"
         ]
       },
       "source_key": "ch03-s01",
@@ -79,10 +73,7 @@
       "summary": "Science news piece on the Lancet first-41-patients paper, noting the earliest case became ill on 1 December 2019 with no reported market link and arguing the Huanan seafood market may not be where the outbreak began.",
       "book_role": "Science interview in which Daniel Lucey argues the virus entered the market before spreading from it.",
       "topics": [
-        "Huanan Seafood Market",
-        "SARS-CoV-2",
-        "early cases",
-        "outbreak origin"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -99,7 +90,6 @@
         ]
       },
       "topic_ids": [
-        "place:huanan-seafood-market",
         "topic:sars-cov-2"
       ],
       "entity_ids": {
@@ -142,10 +132,7 @@
       "summary": "FOIA-released pages from Anthony Fauci’s official work calendar around the turn of 2019/2020, listing day-to-day NIAID meetings as the novel coronavirus emerges.",
       "book_role": "",
       "topics": [
-        "Anthony Fauci",
-        "Freedom of Information requests",
-        "NIAID calendar",
-        "early pandemic response"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -162,7 +149,6 @@
         ]
       },
       "topic_ids": [
-        "person:anthony-fauci",
         "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
@@ -200,10 +186,7 @@
       "summary": "Seattle Times report that a Snohomish County resident is the first confirmed U.S. case of the new coronavirus, with CDC and Washington state officials briefing the public.",
       "book_role": "",
       "topics": [
-        "SARS-CoV-2",
-        "CDC",
-        "first U.S. case",
-        "Snohomish County"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -224,8 +207,7 @@
         ]
       },
       "topic_ids": [
-        "topic:sars-cov-2",
-        "org:cdc"
+        "topic:sars-cov-2"
       ],
       "entity_ids": {
         "people": [],
@@ -258,11 +240,7 @@
       "language": "en",
       "summary": "Critical Boston Herald opinion on Fauci’s later ‘Fauci Effect’ remarks at Fred Hutchinson, attacking his public self-mythology after the pandemic.",
       "book_role": "",
-      "topics": [
-        "Anthony Fauci",
-        "Fauci Effect",
-        "pandemic politics"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Anthony Fauci",
@@ -278,9 +256,7 @@
           "Seattle"
         ]
       },
-      "topic_ids": [
-        "person:anthony-fauci"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:anthony-fauci",
@@ -316,13 +292,7 @@
       "language": "en",
       "summary": "FOIA email on draft talking points noting that NIAID-funded coronavirus experts—including Peter Daszak’s EcoHealth group with Ralph Baric and others—had been funded for coronavirus work in China via R01AI110964.",
       "book_role": "Folkers email alerting Fauci that NIAID funding involved WIV collaborators working on nCoV.",
-      "topics": [
-        "EcoHealth Alliance",
-        "Wuhan Institute of Virology",
-        "Peter Daszak",
-        "Ralph Baric",
-        "NIAID grant"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Greg Folkers",
@@ -337,7 +307,8 @@
           "NIAID",
           "NIH",
           "EcoHealth Alliance",
-          "U.S. Right to Know"
+          "U.S. Right to Know",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "China",
@@ -345,12 +316,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance",
-        "org:wuhan-institute-of-virology",
-        "person:peter-daszak",
-        "person:ralph-baric"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:greg-folkers",
@@ -363,7 +329,8 @@
           "org:niaid",
           "org:nih",
           "org:ecohealth-alliance",
-          "org:u-s-right-to-know"
+          "org:u-s-right-to-know",
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:china",
@@ -394,10 +361,7 @@
       "summary": "HHS TAGGS award page for NIAID grant R01AI110964 (2014–2024) to study bat coronavirus emergence risk, summarizing SARSr-CoV surveillance work funded after SARS/MERS and into the COVID era.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
-        "EcoHealth Alliance",
-        "R01AI110964",
-        "NIAID funding"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -415,8 +379,7 @@
         ]
       },
       "topic_ids": [
-        "topic:bat-coronaviruses",
-        "org:ecohealth-alliance"
+        "topic:bat-coronaviruses"
       ],
       "entity_ids": {
         "people": [
@@ -453,10 +416,7 @@
       "book_role": "",
       "topics": [
         "gain-of-function research",
-        "Ralph Baric",
-        "Anthony Fauci",
-        "chimeric viruses",
-        "WIV collaboration"
+        "chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -478,8 +438,6 @@
       },
       "topic_ids": [
         "topic:gain-of-function-research",
-        "person:ralph-baric",
-        "person:anthony-fauci",
         "topic:chimeric-viruses"
       ],
       "entity_ids": {
@@ -525,10 +483,7 @@
       "summary": "OpenTheBooks release of Fauci’s Nov 2019–Mar 2020 calendar, including early NSC/White House coronavirus meetings and the February 2020 Baric meeting entry.",
       "book_role": "",
       "topics": [
-        "Freedom of Information requests",
-        "Anthony Fauci calendar",
-        "Ralph Baric meeting",
-        "NSC"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -583,11 +538,7 @@
       "language": "en",
       "summary": "Video-recorded deposition of Anthony Fauci taken 23 November 2022 at NIH in Bethesda for Louisiana federal litigation, including counsel captions and sworn Q&A.",
       "book_role": "",
-      "topics": [
-        "Anthony Fauci deposition",
-        "court testimony",
-        "early knowledge"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Anthony Fauci"
@@ -619,7 +570,8 @@
       "date_iso": "2022-11-23",
       "acquisition_note": "Scrape is a large DocumentCloud/OCR transcript dump.",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 11,
@@ -635,13 +587,7 @@
       "language": "en",
       "summary": "FOIA Slack notification in which Matt Frieman says Ralph Baric sat in Fauci’s office talking about the outbreak and chimeras, bristled at a WIV-link joke, and claimed Shi’s paper lacked Chinese government approval.",
       "book_role": "Frieman’s account of Baric’s private reaction after meeting Fauci.",
-      "topics": [
-        "Ralph Baric",
-        "Anthony Fauci",
-        "Wuhan Institute of Virology",
-        "chimeras",
-        "Slack FOIA"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Vineet Menachery",
@@ -659,11 +605,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:ralph-baric",
-        "person:anthony-fauci",
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:vineet-menachery",
@@ -704,10 +646,7 @@
       "summary": "Early January 2020 technical essay by Karl and Dan Sirotkin arguing logistical and genomic reasons to take a laboratory origin for the Wuhan coronavirus seriously.",
       "book_role": "Early public proposal that SARS-CoV-2 could have emerged via serial passage in humanized mice.",
       "topics": [
-        "lab-leak hypothesis",
-        "Wuhan strain",
-        "genome analysis",
-        "early skepticism"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -762,8 +701,7 @@
       "topics": [
         "gain-of-function research",
         "lab-leak hypothesis",
-        "reverse genetics",
-        "SARS-CoV-2 genealogy"
+        "reverse genetics"
       ],
       "entities": {
         "people": [
@@ -848,7 +786,8 @@
           "org:nerd-has-power"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch03-n01",
@@ -883,8 +822,7 @@
       "book_role": "Notes citation for the early HIV-insert spike claim that circulated in origin debates.",
       "topics": [
         "SARS-CoV-2",
-        "lab-leak hypothesis",
-        "bioRxiv"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -914,8 +852,7 @@
       ],
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:lab-leak-hypothesis",
-        "org:biorxiv"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2020-02-02"
     },
@@ -935,9 +872,7 @@
       "book_role": "Notes citation tying WIV bat fieldwork in Yunnan to early lab-accident scrutiny.",
       "topics": [
         "bat coronaviruses",
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology",
-        "Shi Zhengli"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -964,7 +899,9 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:yunnan",
+          "place:china"
         ]
       },
       "source_key": "ch03-n03",
@@ -977,9 +914,7 @@
       ],
       "topic_ids": [
         "topic:bat-coronaviruses",
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology",
-        "person:shi-zhengli"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2020-04-11",
       "image_url": "https://i.dailymail.com/1s/2026/10/06/20/111687845-0-image-m-3_1791315410624.jpg"
@@ -1001,10 +936,7 @@
       "topics": [
         "bat coronaviruses",
         "gain-of-function research",
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology",
-        "NIH",
-        "EcoHealth Alliance"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1034,7 +966,10 @@
           "org:ecohealth-alliance"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:yunnan",
+          "place:united-states",
+          "place:china"
         ]
       },
       "source_key": "ch03-n04",
@@ -1048,10 +983,7 @@
       "topic_ids": [
         "topic:bat-coronaviruses",
         "topic:gain-of-function-research",
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology",
-        "org:nih",
-        "org:ecohealth-alliance"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2020-04-12",
       "image_url": "https://i.dailymail.com/1s/2026/09/10/16/111155329-0-image-a-6_1789055733762.jpg"

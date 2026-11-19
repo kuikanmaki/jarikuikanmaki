@@ -237,23 +237,53 @@
     return null;
   }
 
-  function cardCopyParts(s) {
-    var chips = [];
-    if (s.content_kind && s.content_kind !== "html_article" && s.content_kind_label) {
-      chips.push(s.content_kind_label);
+  function pushChipItem(items, seen, id, label, opts, limit) {
+    if (!id || seen[id] || items.length >= limit) return;
+    seen[id] = true;
+    var text = escapeHtml(label || id);
+    var inner = opts.plain
+      ? text
+      : '<a class="catalog-keyword-link" href="' + escapeHtml(keywordPageHref(id)) + '"' +
+          ' data-keyword-id="' + escapeHtml(id) + '">' + text + "</a>";
+    items.push('<li class="catalog-card-topic">' + inner + "</li>");
+  }
+
+  function topicChipsHtml(s, opts) {
+    opts = opts || {};
+    // Authority-only chips: topics first, then linked entities (people/orgs/places/works/events).
+    // Labels come from parallel prefLabel arrays — no free-text orphans.
+    var limit = 8;
+    var items = [];
+    var seen = Object.create(null);
+
+    var topicIds = s.topic_ids || [];
+    var topicLabels = s.topics || [];
+    for (var i = 0; i < topicIds.length && items.length < limit; i++) {
+      pushChipItem(items, seen, topicIds[i], topicLabels[i] || topicIds[i], opts, limit);
     }
-    (s.topics || []).slice(0, 4).forEach(function (topic) {
-      if (topic) chips.push(topic);
-    });
-    var topicLine = chips.length
-      ? '<ul class="catalog-card-topics" aria-label="Topics">' +
-          chips
-            .map(function (chip) {
-              return '<li class="catalog-card-topic">' + escapeHtml(chip) + "</li>";
-            })
-            .join("") +
-        "</ul>"
-      : "";
+
+    var entIds = s.entity_ids || {};
+    var ents = s.entities || {};
+    var buckets = ["people", "orgs", "places", "works", "events"];
+    for (var b = 0; b < buckets.length; b++) {
+      var bucket = buckets[b];
+      var ids = entIds[bucket] || [];
+      var labels = ents[bucket] || [];
+      for (var j = 0; j < ids.length && items.length < limit; j++) {
+        // entities.* may append orphan strings after id-backed labels; only chip linked ids.
+        pushChipItem(items, seen, ids[j], labels[j] || ids[j], opts, limit);
+      }
+    }
+
+    if (!items.length) return "";
+    return (
+      '<ul class="catalog-card-topics" aria-label="Topics and entities">' + items.join("") + "</ul>"
+    );
+  }
+
+  function cardCopyParts(s, opts) {
+    opts = opts || {};
+    var topicLine = topicChipsHtml(s, opts);
     var role = SHOW_CARD_COPY && s.book_role
       ? '<p class="catalog-card-role"><span>In the book</span> ' + escapeHtml(s.book_role) + "</p>"
       : "";
@@ -403,7 +433,8 @@
           "</div>"
         : ""
       : cardMedia(s);
-    var parts = cardCopyParts(s);
+    // Previews: plain topic chips (card is already one link — no nested anchors).
+    var parts = cardCopyParts(s, { plain: !!opts.preview });
     var onSourcePage = view.mode === "source";
     // Keyword/explore/source: Chapter N on the card (same chrome). Skip hover previews.
     var chapterMetaHtml =

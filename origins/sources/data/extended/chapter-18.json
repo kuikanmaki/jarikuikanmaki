@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "Reuters on the Taliban entering Kabul as U.S. diplomats evacuated by helicopter—collapse of the Afghanistan mission.",
       "book_role": "",
-      "topics": [
-        "Afghanistan",
-        "Taliban",
-        "U.S. withdrawal",
-        "Kabul"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -54,7 +49,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:reuters"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 2,
@@ -70,12 +66,7 @@
       "language": "en",
       "summary": "Euronews on Poland–Belarus border migrant chaos framed as hybrid attack rather than ordinary migration crisis.",
       "book_role": "",
-      "topics": [
-        "Belarus border",
-        "hybrid attack",
-        "Poland",
-        "migration"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -99,7 +90,8 @@
       "image_url": "https://static.euronews.com/articles/stories/06/21/66/48/1200x675_cmsv2_868000d6-b38c-56e1-a8a2-8f8bc88a29b5-6216648.jpg",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 3,
@@ -115,11 +107,7 @@
       "language": "en",
       "summary": "Reuters: Ukraine reports nearly 100,000 Russian troops near its border—pre-invasion buildup.",
       "book_role": "",
-      "topics": [
-        "Russia troop buildup",
-        "Ukraine border",
-        "pre-invasion"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -147,7 +135,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:reuters"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 4,
@@ -164,9 +153,7 @@
       "summary": "Al Jazeera on Omicron driving record daily COVID cases across Europe in late December 2021.",
       "book_role": "",
       "topics": [
-        "Europe",
-        "Omicron variant",
-        "record COVID cases"
+        "Omicron variant"
       ],
       "entities": {
         "people": [],
@@ -187,7 +174,6 @@
         ]
       },
       "topic_ids": [
-        "place:europe",
         "topic:omicron-variant"
       ],
       "source_key": "ch18-s04",
@@ -212,9 +198,7 @@
       "summary": "Reuters: U.S. COVID hospitalizations exceed 132,000 under Omicron—new pandemic peak.",
       "book_role": "",
       "topics": [
-        "Omicron variant",
-        "U.S. hospitalizations",
-        "COVID surge"
+        "Omicron variant"
       ],
       "entities": {
         "people": [],
@@ -260,12 +244,7 @@
       "language": "en",
       "summary": "France 24 on clashes in Brussels as tens of thousands protest COVID rules.",
       "book_role": "",
-      "topics": [
-        "COVID protests",
-        "Brussels",
-        "clashes",
-        "pandemic rules"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -293,7 +272,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:france-24"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 7,
@@ -309,12 +289,7 @@
       "language": "en",
       "summary": "AP: Ottawa declares a state of emergency amid COVID trucker/convoy protests.",
       "book_role": "",
-      "topics": [
-        "Ottawa",
-        "state of emergency",
-        "COVID protests",
-        "Freedom Convoy"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -340,7 +315,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:associated-press"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 8,
@@ -356,12 +332,7 @@
       "language": "en",
       "summary": "Reuters day-of-invasion report: missiles across Ukraine as Russia launches full-scale war.",
       "book_role": "",
-      "topics": [
-        "Ukraine",
-        "Russia invasion",
-        "missiles",
-        "February 24 2022"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Vladimir Putin"
@@ -387,9 +358,7 @@
           "place:russia"
         ]
       },
-      "topic_ids": [
-        "place:ukraine"
-      ],
+      "topic_ids": [],
       "source_key": "ch18-s08",
       "date_iso": "2022-02-24",
       "image_url": "https://www.reuters.com/resizer/v2/CLXJM5TRQRD4DJWCBW7NNL7II4.JPG?auth=d735251de7390802345a32be8c085ab45b980b02593da8aaff3f6f24c0f786c3&width=1080&quality=80",
@@ -413,12 +382,7 @@
       "language": "en",
       "summary": "Companion Reuters piece confirming Kyiv’s assessment of a full-scale Russian invasion.",
       "book_role": "",
-      "topics": [
-        "Ukraine",
-        "Russia",
-        "full-scale invasion",
-        "Kyiv"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -430,10 +394,7 @@
           "Kyiv"
         ]
       },
-      "topic_ids": [
-        "place:ukraine",
-        "place:russia"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -467,10 +428,7 @@
       "language": "fi",
       "summary": "Author’s personal journal entry dated 25 Jan 2022. No public URL; private contemporaneous note.",
       "book_role": "",
-      "topics": [
-        "personal journal",
-        "author contemporaneous note"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jari Kuikanmäki"
@@ -495,7 +453,8 @@
       "author_ids": [
         "person:jari-kuikanmaki"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 11,
@@ -511,12 +470,7 @@
       "language": "en",
       "summary": "UNESCO Constitution (1945)—founding text on education, science, culture and peace after world war.",
       "book_role": "",
-      "topics": [
-        "UNESCO Constitution",
-        "peace",
-        "science and culture",
-        "1945"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -538,7 +492,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:unesco"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 12,
@@ -554,12 +509,7 @@
       "language": "en",
       "summary": "AP: China amplifies unsupported Russian claims about Ukraine biolabs—origins/bioweapons rhetoric weaponized in the new war.",
       "book_role": "",
-      "topics": [
-        "Ukraine biolabs",
-        "Russian claims",
-        "China amplification",
-        "disinformation"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "David Rising"
@@ -594,7 +544,8 @@
       ],
       "publication_ids": [
         "org:associated-press"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 13,
@@ -610,15 +561,10 @@
       "language": "en",
       "summary": "Eisenhower’s farewell address warning of the military-industrial complex—canonical text on permanent war-and-science machinery.",
       "book_role": "Eisenhower’s farewell warning about the military–industrial–scientific elite, used as closing frame.",
-      "topics": [
-        "Dwight D. Eisenhower",
-        "military-industrial complex",
-        "farewell address"
-      ],
+      "topics": [],
       "entities": {
         "people": [
-          "Dwight D. Eisenhower",
-          "Dwight Eisenhower"
+          "Dwight D. Eisenhower"
         ],
         "orgs": [
           "National Archives"
@@ -640,9 +586,7 @@
       "date_iso": "1961-01-17",
       "image_url": "https://www.archives.gov/files/milestone-documents/images/doc-090-big.jpg",
       "acquisition_note": "",
-      "topic_ids": [
-        "person:dwight-d-eisenhower"
-      ],
+      "topic_ids": [],
       "author_ids": [
         "person:dwight-d-eisenhower"
       ],
@@ -662,12 +606,7 @@
       "language": "en",
       "summary": "NATO announcement that Finland and Sweden submitted applications to join the Alliance after Russia’s invasion.",
       "book_role": "",
-      "topics": [
-        "Finland",
-        "Russia–Ukraine war",
-        "NATO enlargement",
-        "Sweden"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -679,16 +618,16 @@
           "Sweden"
         ]
       },
-      "topic_ids": [
-        "place:finland",
-        "event:russia-ukraine-war"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [],
         "places": [
           "place:finland",
           "place:europe"
+        ],
+        "events": [
+          "event:russia-ukraine-war"
         ]
       },
       "source_key": "ch18-s14",
@@ -712,11 +651,7 @@
       "language": "en",
       "summary": "Guardian on Ukraine’s surprise Kharkiv-region counteroffensive against Russian forces.",
       "book_role": "",
-      "topics": [
-        "Russia",
-        "Russia–Ukraine war",
-        "Kharkiv counteroffensive"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -728,10 +663,7 @@
           "Kharkiv"
         ]
       },
-      "topic_ids": [
-        "place:russia",
-        "event:russia-ukraine-war"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -740,6 +672,9 @@
         "places": [
           "place:ukraine",
           "place:russia"
+        ],
+        "events": [
+          "event:russia-ukraine-war"
         ]
       },
       "source_key": "ch18-s15",
@@ -770,8 +705,7 @@
       "topics": [
         "Omicron variant",
         "SARS-CoV-2",
-        "COVID-19",
-        "WHO"
+        "COVID-19"
       ],
       "entities": {
         "people": [],
@@ -798,8 +732,7 @@
       "topic_ids": [
         "topic:omicron-variant",
         "topic:sars-cov-2",
-        "topic:covid-19",
-        "org:who"
+        "topic:covid-19"
       ],
       "date_iso": "2021-11-26"
     },
@@ -819,8 +752,7 @@
       "book_role": "Notes citation chronicling CCP propaganda lines during the outbreak’s first months.",
       "topics": [
         "censorship",
-        "COVID-19",
-        "Wuhan"
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -841,7 +773,9 @@
           "org:center-for-security-policy"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china",
+          "place:united-states"
         ]
       },
       "source_key": "ch18-n02",
@@ -852,8 +786,7 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:covid-19",
-        "place:wuhan"
+        "topic:covid-19"
       ],
       "date_iso": "2020-07-07",
       "image_url": "https://centerforsecuritypolicy.org/wp-content/uploads/2020/03/China-Party-Line-March-2020b-1024x683.jpg"
@@ -873,8 +806,7 @@
       "summary": "Jacques Ellul’s classic Propaganda: The Formation of Men’s Attitudes (Vintage edition)—a theoretical framework for modern propaganda’s sociological effects. Amazon page only; no book text captured.",
       "book_role": "Notes citation for Ellul’s foundational propaganda analysis applied to pandemic messaging.",
       "topics": [
-        "censorship",
-        "Amazon"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -905,8 +837,7 @@
         "org:vintage"
       ],
       "topic_ids": [
-        "topic:censorship",
-        "org:amazon"
+        "topic:censorship"
       ],
       "date_iso": "1973"
     },
@@ -930,8 +861,7 @@
       ],
       "entities": {
         "people": [
-          "Frank Hoffman",
-          "Frank G. Hoffman"
+          "Frank Hoffman"
         ],
         "orgs": [
           "Potomac Institute",

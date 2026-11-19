@@ -20,10 +20,7 @@
       "language": "en",
       "summary": "Author’s personal journal entry dated 26 January 2020; no public URL. Used as a first-person timestamp for when the author first registered the outbreak.",
       "book_role": "",
-      "topics": [
-        "personal journal",
-        "early outbreak awareness"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jari Kuikanmäki"
@@ -44,7 +41,8 @@
       "author_ids": [
         "person:jari-kuikanmaki"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 2,
@@ -60,11 +58,7 @@
       "language": "en",
       "summary": "New York Times report on China’s first announced death from the then-new Wuhan virus.",
       "book_role": "",
-      "topics": [
-        "first death",
-        "Wuhan outbreak",
-        "early reporting"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Amy Qin",
@@ -100,7 +94,8 @@
       ],
       "publication_ids": [
         "org:the-new-york-times"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 3,
@@ -116,11 +111,7 @@
       "language": "en",
       "summary": "BBC report on expanding Hubei lockdowns after the novel coronavirus emerged in Wuhan, including transport shutdowns in Wuhan and neighboring cities and rising case counts.",
       "book_role": "",
-      "topics": [
-        "Wuhan",
-        "Hubei lockdown",
-        "travel restrictions"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -134,9 +125,7 @@
           "Vietnam"
         ]
       },
-      "topic_ids": [
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -172,10 +161,7 @@
       "summary": "Virological.org thread posting the novel 2019 coronavirus genome outside China, a foundational public release for global virologists.",
       "book_role": "Edward Holmes’s early public release of the SARS-CoV-2 genome sequence.",
       "topics": [
-        "Edward Holmes",
-        "SARS-CoV-2",
-        "SARS-CoV-2 genome",
-        "Virological"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -190,7 +176,6 @@
         ]
       },
       "topic_ids": [
-        "person:edward-holmes",
         "topic:sars-cov-2"
       ],
       "entity_ids": {
@@ -226,15 +211,10 @@
       "language": "en",
       "summary": "China Daily piece reporting expert confirmation that the new pneumonia-linked virus can infect humans, reflecting shifting official messaging in mid-to-late January 2020.",
       "book_role": "",
-      "topics": [
-        "human-to-human transmission",
-        "official messaging",
-        "Wuhan pneumonia"
-      ],
+      "topics": [],
       "entities": {
         "people": [
-          "Xiaodong Wang",
-          "Wang Xiaodong"
+          "Xiaodong Wang"
         ],
         "orgs": [
           "China Daily"
@@ -261,7 +241,8 @@
       "author_ids": [
         "person:xiaodong-wang"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 6,
@@ -278,9 +259,7 @@
       "summary": "WHO tweet stating there was then ‘no clear evidence’ of human-to-human transmission of 2019-nCoV in Wuhan.",
       "book_role": "",
       "topics": [
-        "WHO",
-        "SARS-CoV-2",
-        "human-to-human transmission"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [],
@@ -293,7 +272,6 @@
         ]
       },
       "topic_ids": [
-        "org:who",
         "topic:sars-cov-2"
       ],
       "entity_ids": {
@@ -329,9 +307,7 @@
       "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
-        "engineered pathogens",
-        "biosafety debate"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [],
@@ -377,9 +353,7 @@
       "summary": "Cambridge Working Group consensus statement opposing certain creation of potential pandemic pathogens, preserved as a historical biosafety advocacy document.",
       "book_role": "",
       "topics": [
-        "Cambridge Working Group",
-        "gain-of-function research",
-        "potential pandemic pathogens"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [],
@@ -392,7 +366,6 @@
         ]
       },
       "topic_ids": [
-        "org:cambridge-working-group",
         "topic:gain-of-function-research"
       ],
       "entity_ids": {
@@ -429,15 +402,13 @@
       "book_role": "",
       "topics": [
         "MERS",
-        "SARS",
-        "gain-of-function pause",
-        "OSTP",
-        "HHS"
+        "SARS"
       ],
       "entities": {
         "people": [],
         "orgs": [
           "NIH",
+          "HHS",
           "Office of Science and Technology Policy",
           "Department of Health and Human Services"
         ],
@@ -448,7 +419,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:nih"
+          "org:nih",
+          "org:hhs"
         ],
         "places": [
           "place:united-states"
@@ -480,9 +452,7 @@
       "book_role": "",
       "topics": [
         "gain-of-function research",
-        "H5N1 avian flu",
-        "ferrets",
-        "airborne transmission"
+        "H5N1 avian flu"
       ],
       "entities": {
         "people": [
@@ -533,12 +503,7 @@
       "language": "en",
       "summary": "STAT early report on experts parsing sparse Chinese statements about Wuhan’s unexplained pneumonia cluster, including rising case counts and coronavirus speculation.",
       "book_role": "Early Western reporting that already noted Wuhan’s BSL-4 laboratory.",
-      "topics": [
-        "Wuhan",
-        "mystery pneumonia",
-        "early reporting",
-        "information scarcity"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Helen Branswell",
@@ -568,9 +533,7 @@
           "place:china"
         ]
       },
-      "topic_ids": [
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "source_key": "ch01-s11",
       "date_iso": "2020-01-04",
       "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/Wuhan-GettyImages-946736186-1024x576.jpg",
@@ -596,11 +559,7 @@
       "language": "en",
       "summary": "Wall Street Journal report that Chinese scientists had identified a new virus in the pneumonia outbreak.",
       "book_role": "",
-      "topics": [
-        "novel virus discovery",
-        "Wuhan pneumonia",
-        "early reporting"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Natasha Khan"
@@ -634,7 +593,8 @@
       ],
       "publication_ids": [
         "org:the-wall-street-journal"
-      ]
+      ],
+      "topic_ids": []
     }
   ],
   "notes_sources": [
@@ -656,8 +616,7 @@
         "BSL-4 laboratory",
         "biosafety",
         "SARS",
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -682,7 +641,9 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china",
+          "place:beijing"
         ]
       },
       "source_key": "ch01-n01",
@@ -697,8 +658,7 @@
         "topic:bsl-4-laboratory",
         "topic:biosafety",
         "topic:sars",
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2020-01-23",
       "image_url": "https://i.dailymail.com/1s/2026/09/10/16/111155329-0-image-a-6_1789055733762.jpg"

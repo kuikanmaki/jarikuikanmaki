@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "Guardian report that China had not yet approved visas for the WHO origins delegation due to visit Wuhan, effectively blocking the team’s entry after months of negotiation.",
       "book_role": "",
-      "topics": [
-        "Wuhan",
-        "Tedros Adhanom Ghebreyesus",
-        "WHO origins mission",
-        "visa blockade"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Tedros Adhanom Ghebreyesus",
@@ -54,10 +49,7 @@
           "place:wuhan"
         ]
       },
-      "topic_ids": [
-        "place:wuhan",
-        "person:tedros-adhanom-ghebreyesus"
-      ],
+      "topic_ids": [],
       "source_key": "ch09-s01",
       "date_iso": "2021-01-05",
       "image_url": "https://i.guim.co.uk/img/media/1cbf118f5bcae0749bf1670e24ba6fd99f28439f/210_31_1505_903/master/1505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjEucG5n&enable=upscale&s=45f17cd2647be2c8a7b5d64656aee188",
@@ -83,11 +75,7 @@
       "language": "en",
       "summary": "AP dispatch on the WHO origins team finally arriving in Wuhan on 14 January 2021 for a politically sensitive investigation amid uncertainty whether Beijing would allow embarrassing findings.",
       "book_role": "",
-      "topics": [
-        "WHO team arrival",
-        "Wuhan investigation",
-        "Beijing control"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Sam McNeil",
@@ -125,7 +113,8 @@
       ],
       "publication_ids": [
         "org:associated-press"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 3,
@@ -141,24 +130,19 @@
       "language": "en",
       "summary": "BBC report on Peter Ben Embarek calling a Wuhan lab leak ‘extremely unlikely,’ favoring a natural bat reservoir (likely not in Wuhan), while Daszak floated shifting focus to Southeast Asia—effectively sidelining the lab hypothesis from future study.",
       "book_role": "BBC/WHO coverage of the mission’s “extremely unlikely” lab-leak ranking.",
-      "topics": [
-        "Peter Daszak",
-        "Peter Embarek",
-        "extremely unlikely",
-        "lab leak dismissal"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
           "Michelle Roberts",
+          "Peter Embarek",
           "Peter Ben Embarek",
           "Liang Wannian"
         ],
         "orgs": [
           "WHO",
           "Wuhan Institute of Virology",
-          "BBC News",
-          "BBC"
+          "BBC News"
         ],
         "places": [
           "Wuhan",
@@ -166,14 +150,12 @@
           "Southeast Asia"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak",
-        "person:peter-embarek"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
-          "person:michelle-roberts"
+          "person:michelle-roberts",
+          "person:peter-embarek"
         ],
         "orgs": [
           "org:who",
@@ -210,12 +192,7 @@
       "language": "en",
       "summary": "Birrell column arguing WHO let Beijing vet investigators and appointed Peter Daszak—whose EcoHealth bat-virus work at WIV had been cut—while FOIA emails showed early lab-release language deleted from a scientists’ White House letter.",
       "book_role": "Birrell’s pre-mission warning that Daszak’s role created a conflict of interest.",
-      "topics": [
-        "Peter Daszak",
-        "WHO conflicts",
-        "FOIA emails",
-        "lab release"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ian Birrell",
@@ -235,15 +212,14 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ian-birrell",
           "person:peter-daszak",
           "person:ralph-baric",
-          "person:shi-zhengli"
+          "person:shi-zhengli",
+          "person:david-relman"
         ],
         "orgs": [
           "org:daily-mail",
@@ -281,12 +257,7 @@
       "language": "en",
       "summary": "Politico report that NIH told EcoHealth Alliance future funding for its bat–human virus transmission work was cut amid Trump administration concern over China ties.",
       "book_role": "",
-      "topics": [
-        "EcoHealth Alliance",
-        "Donald Trump",
-        "NIH grant cutoff",
-        "bat-human transmission"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Donald Trump",
@@ -302,10 +273,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance",
-        "person:donald-trump"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:donald-trump",
@@ -345,12 +313,7 @@
       "language": "en",
       "summary": "Science News piece on 77 Nobel laureates and dozens of societies urging Francis Collins and HHS to reverse NIH’s cancellation of the EcoHealth coronavirus grant after Trump-era political pressure.",
       "book_role": "",
-      "topics": [
-        "Francis Collins",
-        "EcoHealth Alliance",
-        "Nobel laureates",
-        "NIH grant"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Francis Collins",
@@ -366,10 +329,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:francis-collins",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:francis-collins",
@@ -406,11 +366,7 @@
       "language": "en",
       "summary": "Guardian report that Anthony Fauci accepted Joe Biden’s offer to serve as chief medical adviser, saying he agreed ‘right on the spot.’",
       "book_role": "",
-      "topics": [
-        "Anthony Fauci",
-        "Biden administration",
-        "chief medical adviser"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Anthony Fauci",
@@ -425,9 +381,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:anthony-fauci"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:anthony-fauci",
@@ -466,12 +420,7 @@
       "language": "en",
       "summary": "Daszak tweet framing trust as Fauci versus ‘politicized conspiracy theorists.’",
       "book_role": "Daszak’s public comments as a WHO team member shifting focus away from the lab.",
-      "topics": [
-        "Peter Daszak",
-        "Anthony Fauci",
-        "Twitter",
-        "conspiracy framing"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -485,11 +434,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak",
-        "person:anthony-fauci",
-        "org:twitter"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -527,11 +472,7 @@
       "language": "en",
       "summary": "Daszak tweet endorsing Biden and branding Trump an anti-science, conspiracy-based candidate.",
       "book_role": "",
-      "topics": [
-        "Peter Daszak",
-        "Biden endorsement",
-        "anti-science framing"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -547,9 +488,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -589,12 +528,7 @@
       "language": "en",
       "summary": "Mail on Sunday report that NSFC wiped online records of hundreds of WIV studies—including all of Shi Zhengli’s listed work and bat cross-species infection studies—as China blocked WHO investigators.",
       "book_role": "",
-      "topics": [
-        "Shi Zhengli",
-        "NSFC database deletion",
-        "WIV studies",
-        "cover-up"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Shi Zhengli",
@@ -612,9 +546,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "person:shi-zhengli"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:shi-zhengli",
@@ -654,12 +586,7 @@
       "language": "en",
       "summary": "Facebook/Meta integrity update expanding removal of COVID false claims; the page also records the later policy shift that they would no longer remove ‘COVID-19 is man-made’ claims amid origins investigations.",
       "book_role": "",
-      "topics": [
-        "Facebook misinformation",
-        "man-made claim removal",
-        "content moderation",
-        "WHO partnership"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Guy Rosen"
@@ -690,7 +617,8 @@
       ],
       "publication_ids": [
         "org:meta"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 12,
@@ -707,10 +635,7 @@
       "summary": "Author’s Suomen Uutiset piece on Trump/Pompeo accusing China over outbreak cover-up and U.S. intelligence treating a Wuhan lab escape as possible—early Finnish-language coverage of the origins clash.",
       "book_role": "",
       "topics": [
-        "Mike Pompeo",
-        "lab-leak hypothesis",
-        "U.S.–China relations",
-        "Finland media"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -747,7 +672,6 @@
       "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2020/05/kiina_korona_yhdysvallast.png",
       "acquisition_note": "",
       "topic_ids": [
-        "person:mike-pompeo",
         "topic:lab-leak-hypothesis"
       ],
       "author_ids": [
@@ -771,11 +695,7 @@
       "language": "fi",
       "summary": "Author’s report that China sanctioned outgoing Secretary Pompeo and other Trump officials after Pompeo’s Uyghur genocide determination—diplomatic freeze coinciding with the WHO Wuhan mission window.",
       "book_role": "",
-      "topics": [
-        "Pompeo sanctions",
-        "Uyghur genocide",
-        "U.S.–China diplomacy"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jari Kuikanmäki",
@@ -818,7 +738,8 @@
       "publication_ids": [
         "org:suomen-uutiset"
       ],
-      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2021/02/F896DD74-8DA6-4E61-AA9F-993CE8616965-scaled-e1612177081472.jpeg"
+      "image_url": "https://media.suomenuutiset.fi/wp-content/uploads/2021/02/F896DD74-8DA6-4E61-AA9F-993CE8616965-scaled-e1612177081472.jpeg",
+      "topic_ids": []
     },
     {
       "id": 14,
@@ -834,12 +755,7 @@
       "language": "en",
       "summary": "Nicholas Wade’s long Bulletin analysis weighing natural spillover versus lab escape, criticizing the Lancet and Proximal Origin statements, Daszak’s conflicts, and the scientific politics that closed ranks against the lab hypothesis.",
       "book_role": "Named among early public intellectuals who challenged the dominant origin narrative.",
-      "topics": [
-        "Lancet letter (February 2020)",
-        "The proximal origin of SARS-CoV-2",
-        "EcoHealth Alliance",
-        "lab vs natural origin"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Nicholas Wade",
@@ -857,11 +773,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "work:lancet-letter-february-2020",
-        "work:the-proximal-origin-of-sars-cov-2",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:nicholas-wade",
@@ -877,6 +789,10 @@
         "places": [
           "place:wuhan",
           "place:china"
+        ],
+        "works": [
+          "work:lancet-letter-february-2020",
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "source_key": "ch09-s14",
@@ -904,11 +820,7 @@
       "language": "en",
       "summary": "WSJ coverage of 18 scientists’ Science letter criticizing the WHO-led report and demanding balanced evaluation of lab accident and animal spillover.",
       "book_role": "",
-      "topics": [
-        "Science letter",
-        "deeper investigation",
-        "WHO report critique"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Amy Dockser Marcus",
@@ -949,7 +861,8 @@
       ],
       "publication_ids": [
         "org:the-wall-street-journal"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 16,
@@ -965,16 +878,10 @@
       "language": "en",
       "summary": "Science letter by Bloom et al. arguing lab release and zoonotic spillover both remain viable; criticizing the WHO–China joint study for ranking a lab incident ‘extremely unlikely’ without balanced consideration and calling for transparent, conflict-managed investigation.",
       "book_role": "",
-      "topics": [
-        "lab vs zoonosis",
-        "WHO-China joint study",
-        "conflicts of interest",
-        "transparency"
-      ],
+      "topics": [],
       "entities": {
         "people": [
-          "Jesse Bloom",
-          "Jesse D. Bloom"
+          "Jesse Bloom"
         ],
         "orgs": [
           "Science",
@@ -1007,7 +914,8 @@
       ],
       "publication_ids": [
         "org:science"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 17,
@@ -1024,15 +932,11 @@
       "summary": "WSJ report that a U.S. intelligence assessment said three WIV researchers became sick enough in November 2019 to seek hospital care—going beyond the Trump State Department fact sheet and fueling lab-escape debate.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "sick WIV researchers",
-        "November 2019",
-        "U.S. intelligence"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
-          "Michael Gordon",
-          "Michael R. Gordon"
+          "Michael Gordon"
         ],
         "orgs": [
           "The Wall Street Journal",
@@ -1090,9 +994,7 @@
       "book_role": "",
       "topics": [
         "RaTG13",
-        "gain-of-function research",
-        "WIV illnesses",
-        "military activity"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -1131,7 +1033,9 @@
       "image_url": "https://2017-2021.state.gov/wp-content/uploads/2019/12/dos_seal.png",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [
+        "org:u-s-department-of-state"
+      ]
     },
     {
       "id": 19,
@@ -1148,10 +1052,8 @@
       "summary": "WSJ feature on the Mojiang/Danaoshan mine where six miners fell ill in 2012 and WIV later sampled viruses closest to SARS-CoV-2—now central to mainstream lab-leak scrutiny.",
       "book_role": "",
       "topics": [
-        "Mojiang mine",
         "RaTG13",
-        "lab-leak hypothesis",
-        "WIV transparency"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1169,7 +1071,6 @@
         ]
       },
       "topic_ids": [
-        "place:mojiang-mine",
         "topic:ratg13",
         "topic:lab-leak-hypothesis"
       ],
@@ -1218,10 +1119,7 @@
         "zoonosis",
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "intermediate host",
-        "WHO",
-        "Wuhan Institute of Virology",
-        "Huanan Seafood Market"
+        "intermediate host"
       ],
       "entities": {
         "people": [],
@@ -1243,7 +1141,8 @@
         ],
         "places": [
           "place:wuhan",
-          "place:huanan-seafood-market"
+          "place:huanan-seafood-market",
+          "place:china"
         ]
       },
       "source_key": "ch09-n01",
@@ -1254,10 +1153,7 @@
         "topic:zoonosis",
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:intermediate-host",
-        "org:who",
-        "org:wuhan-institute-of-virology",
-        "place:huanan-seafood-market"
+        "topic:intermediate-host"
       ],
       "image_url": "https://cdn.who.int/media/images/default-source/health-topics/coronavirus/global-study-of-origine-china-part-cover.tmb-479v.png?sfvrsn=adc3842c_3"
     },
@@ -1279,9 +1175,7 @@
         "lab-leak hypothesis",
         "zoonosis",
         "biosafety",
-        "BSL-4 laboratory",
-        "Wuhan Institute of Virology",
-        "Bulletin of the Atomic Scientists"
+        "BSL-4 laboratory"
       ],
       "entities": {
         "people": [
@@ -1309,7 +1203,8 @@
           "org:wuhan-center-for-disease-control-and-prevention"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch09-n02",
@@ -1324,9 +1219,7 @@
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",
         "topic:biosafety",
-        "topic:bsl-4-laboratory",
-        "org:wuhan-institute-of-virology",
-        "org:bulletin-of-the-atomic-scientists"
+        "topic:bsl-4-laboratory"
       ],
       "date_iso": "2020-05-01",
       "image_url": "https://thebulletin.org/wp-content/uploads/2020/05/BSL_4_lab-1024x666.jpg.optimal.jpg"
@@ -1349,9 +1242,7 @@
         "lab-leak hypothesis",
         "zoonosis",
         "SARS-CoV-2",
-        "bat coronaviruses",
-        "Matt Ridley",
-        "The Wall Street Journal"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -1373,7 +1264,8 @@
           "org:the-wall-street-journal"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch09-n03",
@@ -1388,9 +1280,7 @@
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",
         "topic:sars-cov-2",
-        "topic:bat-coronaviruses",
-        "person:matt-ridley",
-        "org:the-wall-street-journal"
+        "topic:bat-coronaviruses"
       ],
       "date_iso": "2020-05-29",
       "image_url": "https://images.wsj.net/im-192026/?width=700&height=467"
@@ -1412,10 +1302,7 @@
       "topics": [
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "bat coronaviruses",
-        "Wuhan Institute of Virology",
-        "Jonathan Latham",
-        "Independent Science News"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -1441,7 +1328,8 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch09-n04",
@@ -1456,10 +1344,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:bat-coronaviruses",
-        "org:wuhan-institute-of-virology",
-        "person:jonathan-latham",
-        "org:independent-science-news"
+        "topic:bat-coronaviruses"
       ],
       "date_iso": "2020-06-02",
       "image_url": "https://i1.rgstatic.net/ii/profile.image/281305813143553-1444079940140_Q128/Jonathan-Latham.jpg"
@@ -1481,10 +1366,7 @@
       "topics": [
         "lab-leak hypothesis",
         "bat coronaviruses",
-        "biosafety",
-        "Wuhan Institute of Virology",
-        "Wuhan Center for Disease Control and Prevention",
-        "Bulletin of the Atomic Scientists"
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -1510,7 +1392,8 @@
           "org:wuhan-center-for-disease-control-and-prevention"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch09-n05",
@@ -1524,10 +1407,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:bat-coronaviruses",
-        "topic:biosafety",
-        "org:wuhan-institute-of-virology",
-        "org:wuhan-center-for-disease-control-and-prevention",
-        "org:bulletin-of-the-atomic-scientists"
+        "topic:biosafety"
       ],
       "date_iso": "2020-06-04",
       "image_url": "https://thebulletin.org/wp-content/uploads/2020/06/902px-SARS-CoV-2_yellow.jpg.optimal.jpg"
@@ -1550,8 +1430,7 @@
         "lab-leak hypothesis",
         "zoonosis",
         "SARS-CoV-2",
-        "RaTG13",
-        "PNAS"
+        "RaTG13"
       ],
       "entities": {
         "people": [
@@ -1574,7 +1453,9 @@
           "org:pnas"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:yunnan",
+          "place:china"
         ]
       },
       "source_key": "ch09-n06",
@@ -1589,8 +1470,7 @@
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",
         "topic:sars-cov-2",
-        "topic:ratg13",
-        "org:pnas"
+        "topic:ratg13"
       ],
       "date_iso": "2020-11-03",
       "image_url": "https://www.pnas.org/cms/10.1073/pnas.2021133117/asset/a14c2a51-dc83-42b0-a646-e04eb03a0d0f/assets/images/large/pnas.2021133117unfig01.jpg"

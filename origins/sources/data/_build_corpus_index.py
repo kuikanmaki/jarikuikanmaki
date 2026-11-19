@@ -83,19 +83,35 @@ def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_m
     for aid in author_ids + publication_ids:
         if aid not in authority_ids:
             authority_ids.append(aid)
-    for bucket in ("people", "orgs", "places"):
+    for bucket in ("people", "orgs", "places", "works", "events"):
         for aid in entity_ids.get(bucket) or []:
             if aid not in authority_ids:
                 authority_ids.append(aid)
 
+    # Public chips: labels for topic_ids only (no orphan free-text merge).
     topic_labels, _ = labels_for_ids(auth_map, topic_ids)
-    topics = _merge_labels(topic_labels, list(source.get("topics") or []))
+
+    public_entity_ids = {
+        "people": list(entity_ids.get("people") or []),
+        "orgs": list(entity_ids.get("orgs") or []),
+        "places": list(entity_ids.get("places") or []),
+    }
+    if entity_ids.get("works"):
+        public_entity_ids["works"] = list(entity_ids.get("works") or [])
+    if entity_ids.get("events"):
+        public_entity_ids["events"] = list(entity_ids.get("events") or [])
 
     entities = {"people": [], "orgs": [], "places": []}
     src_ents = source.get("entities") or {}
     for bucket in ("people", "orgs", "places"):
-        resolved, _ = labels_for_ids(auth_map, list(entity_ids.get(bucket) or []))
+        resolved, _ = labels_for_ids(auth_map, list(public_entity_ids.get(bucket) or []))
         entities[bucket] = _merge_labels(resolved, list(src_ents.get(bucket) or []))
+    for bucket in ("works", "events"):
+        ids = list(public_entity_ids.get(bucket) or [])
+        if not ids:
+            continue
+        resolved, _ = labels_for_ids(auth_map, ids)
+        entities[bucket] = resolved
 
     return {
         "source_key": source.get("source_key")
@@ -120,7 +136,9 @@ def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_m
         "status": source.get("status") or "",
         "summary": source.get("summary") or "",
         "book_role": source.get("book_role") or "",
-        "topics": topics,
+        "topic_ids": topic_ids,
+        "topics": topic_labels,
+        "entity_ids": public_entity_ids,
         "entities": entities,
         "authority_ids": authority_ids,
     }

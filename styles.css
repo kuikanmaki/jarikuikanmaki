@@ -355,6 +355,10 @@ main .flex:has(> a.btn) { flex-wrap: wrap; }
     min-height: 2.75rem;
     padding: 0.75rem 0;
   }
+  /* Icon-only X row is full-width flex — left-align with text links. */
+  .site-menu.open a.nav-social-x {
+    justify-content: flex-start;
+  }
   .site-menu.open .nav-origins-pair {
     min-height: 2.75rem;
     width: 100%;
@@ -1340,6 +1344,16 @@ img {
   line-height: 1.35;
   color: hsl(var(--muted-foreground));
   overflow-wrap: anywhere;
+}
+.sources-page .catalog-card-topic a.catalog-keyword-link {
+  color: inherit;
+  text-decoration: none;
+}
+.sources-page .catalog-card-topic a.catalog-keyword-link:hover,
+.sources-page .catalog-card-topic a.catalog-keyword-link:focus-visible {
+  color: hsl(var(--reference-link));
+  text-decoration: underline;
+  outline: none;
 }
 .sources-page .catalog-card-status {
   margin: 0;

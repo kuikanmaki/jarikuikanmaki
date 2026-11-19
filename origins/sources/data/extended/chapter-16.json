@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "NY Post report that the Pentagon/DTRA gave millions to EcoHealth Alliance under a combating-WMD research program tied to the broader Wuhan-lab funding controversy.",
       "book_role": "",
-      "topics": [
-        "EcoHealth Alliance",
-        "DTRA",
-        "Pentagon",
-        "WMD research"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -34,6 +29,7 @@
         "orgs": [
           "EcoHealth Alliance",
           "New York Post",
+          "DTRA",
           "U.S. Department of Defense"
         ],
         "places": [
@@ -41,10 +37,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance",
-        "org:dtra"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -52,7 +45,8 @@
         ],
         "orgs": [
           "org:ecohealth-alliance",
-          "org:new-york-post"
+          "org:new-york-post",
+          "org:dtra"
         ],
         "places": [
           "place:wuhan",
@@ -84,12 +78,7 @@
       "language": "en",
       "summary": "Intercept report that EcoHealth’s NIH bat-coronavirus progress report was filed more than two years late—oversight failure in the WIV collaboration grant.",
       "book_role": "",
-      "topics": [
-        "EcoHealth Alliance",
-        "late progress report",
-        "NIH grant",
-        "oversight"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -106,9 +95,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -152,10 +139,7 @@
       "summary": "Vanity Fair long-form on EcoHealth Alliance’s virus-hunting network, Daszak, WIV ties, and the lab-leak controversy’s funding politics.",
       "book_role": "",
       "topics": [
-        "EcoHealth Alliance",
-        "lab-leak hypothesis",
-        "Peter Daszak",
-        "virus hunting"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -173,9 +157,7 @@
         ]
       },
       "topic_ids": [
-        "org:ecohealth-alliance",
-        "topic:lab-leak-hypothesis",
-        "person:peter-daszak"
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
@@ -217,11 +199,7 @@
       "language": "en",
       "summary": "Global Virome Project history/leadership page.",
       "book_role": "",
-      "topics": [
-        "Global Virome Project",
-        "virus discovery",
-        "leadership"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -229,9 +207,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "org:global-virome-project"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -260,11 +236,7 @@
       "language": "en",
       "summary": "DTRA official mission page describing the agency’s role countering WMD threats—institutional home of EcoHealth’s HDTRA grant.",
       "book_role": "",
-      "topics": [
-        "DTRA mission",
-        "WMD",
-        "defense threat reduction"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -286,7 +258,8 @@
       "image_url": "https://d34w7g4gy10iej.cloudfront.net/graphics/2510/38614.png",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 6,
@@ -302,12 +275,7 @@
       "language": "en",
       "summary": "USAspending.gov award record for EcoHealth HDTRA11910033 combating-WMD scientific research.",
       "book_role": "",
-      "topics": [
-        "EcoHealth Alliance",
-        "HDTRA11910033",
-        "combating WMD",
-        "USAspending"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -318,9 +286,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -351,10 +317,7 @@
       "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
       "book_role": "",
       "topics": [
-        "U.S. Department of State",
-        "lab-leak hypothesis",
-        "intelligence",
-        "origins investigation"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -370,7 +333,6 @@
         ]
       },
       "topic_ids": [
-        "org:u-s-department-of-state",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -411,11 +373,7 @@
       "language": "en",
       "summary": "2019 Viruses paper on QX-type IBV spike S2 determining neurotropism—example of coronavirus spike/domain engineering literature in the Chinese research ecosystem.",
       "book_role": "2014 paper “Proximal Origin” cited, misleadingly, as proof no prior backbone existed.",
-      "topics": [
-        "spike S2",
-        "neurotropism",
-        "infectious bronchitis coronavirus"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jinlong Cheng"
@@ -445,7 +403,8 @@
       "author_ids": [
         "person:jinlong-cheng"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 9,
@@ -462,10 +421,7 @@
       "summary": "2014 review of coronavirus reverse-genetic systems—infectious clones and replicons enabling engineered CoV recovery.",
       "book_role": "",
       "topics": [
-        "reverse genetics",
-        "infectious clones",
-        "replicons",
-        "coronavirus"
+        "reverse genetics"
       ],
       "entities": {
         "people": [
@@ -512,7 +468,6 @@
       "summary": "Shi Zhengli webinar presentation on bat coronaviruses from SARS/MERS to COVID-19. No URL in source data.",
       "book_role": "Shi review used in the funding/Wuhan research discussion; notes flag later Sunday Times claims on undisclosed Mojiang variants.",
       "topics": [
-        "Shi Zhengli",
         "bat coronaviruses",
         "SARS",
         "MERS",
@@ -532,7 +487,6 @@
         ]
       },
       "topic_ids": [
-        "person:shi-zhengli",
         "topic:bat-coronaviruses",
         "topic:sars",
         "topic:mers",
@@ -573,10 +527,7 @@
       "summary": "Times reporting that WIV used Chinese military as key advisers—and related coverage of China nominating WIV for a top science award amid lab-leak debate.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "Chinese military",
-        "WIV advisers",
-        "science award"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -638,10 +589,7 @@
       "summary": "FOIA’d 2016 Daszak email celebrating lifting of the gain-of-function funding pause.",
       "book_role": "",
       "topics": [
-        "NIAID",
-        "EcoHealth Alliance",
-        "Freedom of Information requests",
-        "gain-of-function pause"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -658,8 +606,6 @@
         ]
       },
       "topic_ids": [
-        "org:niaid",
-        "org:ecohealth-alliance",
         "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
@@ -699,12 +645,7 @@
       "language": "en",
       "summary": "WIV newsletter of the Oct 2018 international emerging-viral-diseases symposium—programmatic window into Wuhan’s pre-pandemic virus-research network.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "emerging viral diseases symposium",
-        "2018",
-        "international collaboration"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -715,9 +656,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -755,9 +694,7 @@
       "topics": [
         "lab-leak hypothesis",
         "zoonosis",
-        "SARS-CoV-2",
-        "WHO SAGO",
-        "WHO"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [],
@@ -777,7 +714,8 @@
           "org:who"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch16-n01",
@@ -789,9 +727,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",
-        "topic:sars-cov-2",
-        "org:who-sago",
-        "org:who"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2025-06-27",
       "image_url": "https://cdn.who.int/media/images/default-source/headquarters/teams/emergency-prepardness-(wpe)/epidemic-and-pandemic-preparedness-and-prevention-(epp)/emerging-diseases-and-zoonoses-(ezd)/sago-covid-thumbnail.tmb-1200v.png?sfvrsn=a033011d_1"
@@ -813,10 +749,7 @@
       "topics": [
         "lab-leak hypothesis",
         "zoonosis",
-        "SARS-CoV-2",
-        "Huanan Seafood Market",
-        "WHO SAGO",
-        "Nature"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [],
@@ -851,10 +784,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",
-        "topic:sars-cov-2",
-        "place:huanan-seafood-market",
-        "org:who-sago",
-        "org:nature"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2026-02-24",
       "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-00530-y/d41586-026-00530-y_52079504.jpg"
@@ -876,12 +806,7 @@
       "topics": [
         "lab-leak hypothesis",
         "gain-of-function research",
-        "chimeric viruses",
-        "Wuhan Institute of Virology",
-        "Ralph Baric",
-        "Shi Zhengli",
-        "Fred Guterl",
-        "Newsweek"
+        "chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -906,7 +831,8 @@
         ],
         "orgs": [
           "org:newsweek",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:defense-intelligence-agency"
         ],
         "places": [
           "place:wuhan"
@@ -923,12 +849,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research",
-        "topic:chimeric-viruses",
-        "org:wuhan-institute-of-virology",
-        "person:ralph-baric",
-        "person:shi-zhengli",
-        "person:fred-guterl",
-        "org:newsweek"
+        "topic:chimeric-viruses"
       ],
       "date_iso": "2020-04-27",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1585050-wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=1200&amp;crop=1"
@@ -949,10 +870,7 @@
       "book_role": "Notes citation on the eve-of-pandemic cutoff of U.S. viral discovery surveillance.",
       "topics": [
         "zoonosis",
-        "biosecurity",
-        "USAID",
-        "The New York Times",
-        "EcoHealth Alliance"
+        "biosecurity"
       ],
       "entities": {
         "people": [
@@ -976,7 +894,9 @@
           "org:the-new-york-times",
           "org:ecohealth-alliance"
         ],
-        "places": []
+        "places": [
+          "place:united-states"
+        ]
       },
       "source_key": "ch16-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.; Live NYT blocked by Firecrawl; replaced with Internet Archive capture and scraped via Firecrawl/Wayback.",
@@ -988,10 +908,7 @@
       ],
       "topic_ids": [
         "topic:zoonosis",
-        "topic:biosecurity",
-        "org:usaid",
-        "org:the-new-york-times",
-        "org:ecohealth-alliance"
+        "topic:biosecurity"
       ],
       "date_iso": "2019-10-25"
     },
@@ -1012,12 +929,7 @@
       "topics": [
         "lab-leak hypothesis",
         "chimeric viruses",
-        "gain-of-function research",
-        "Ralph Baric",
-        "Shi Zhengli",
-        "Katherine Eban",
-        "Wuhan Institute of Virology",
-        "Vanity Fair"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -1058,12 +970,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:chimeric-viruses",
-        "topic:gain-of-function-research",
-        "person:ralph-baric",
-        "person:shi-zhengli",
-        "person:katherine-eban",
-        "org:wuhan-institute-of-virology",
-        "org:vanity-fair"
+        "topic:gain-of-function-research"
       ],
       "date_iso": "2024-05-01",
       "image_url": "https://media.vanityfair.com/photos/662c04ef6d50c2a1da8d3db7/16:9/w_1280,c_limit/vf0424%20Covid%20Origins%20Testimony.jpg"

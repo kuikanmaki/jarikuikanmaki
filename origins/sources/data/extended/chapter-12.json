@@ -21,10 +21,7 @@
       "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform.",
       "book_role": "Early Baric reverse-genetics paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
-        "reverse genetics",
-        "Ralph Baric",
-        "infectious cDNA",
-        "mouse hepatitis virus"
+        "reverse genetics"
       ],
       "entities": {
         "people": [
@@ -38,8 +35,7 @@
         "places": []
       },
       "topic_ids": [
-        "topic:reverse-genetics",
-        "person:ralph-baric"
+        "topic:reverse-genetics"
       ],
       "entity_ids": {
         "people": [
@@ -77,10 +73,7 @@
       "summary": "2007 PLOS Pathogens study creating a mouse-adapted SARS-CoV that causes disease and mortality in BALB/c mice via serial passage—lab evolution of pathogenicity.",
       "book_role": "Baric mouse-adapted SARS paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
-        "serial passaging",
-        "mouse-adapted SARS",
-        "BALB/c",
-        "pathogenicity"
+        "serial passaging"
       ],
       "entities": {
         "people": [
@@ -130,12 +123,7 @@
       "language": "en",
       "summary": "2008 PNAS paper on a synthetic recombinant bat SARS-like coronavirus infectious in cells and mice—spike/backbone chimera work in the Baric orbit.",
       "book_role": "Synthetic recombinant bat SARS-like coronavirus paper in the Baric research lineage.",
-      "topics": [
-        "synthetic bat SARS-like CoV",
-        "recombinant virus",
-        "mice",
-        "chimera"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ralph Baric",
@@ -165,7 +153,8 @@
       ],
       "publication_ids": [
         "org:pnas"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 4,
@@ -182,9 +171,7 @@
       "summary": "2005 Science paper establishing horseshoe bats as natural reservoirs of SARS-like coronaviruses—foundational for Shi Zhengli’s subsequent WIV program.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
-        "bat reservoirs",
-        "horseshoe bats"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -242,8 +229,6 @@
       "topics": [
         "gain-of-function research",
         "WIV1",
-        "EcoHealth Alliance",
-        "Ralph Baric",
         "biosafety"
       ],
       "entities": {
@@ -266,8 +251,6 @@
       "topic_ids": [
         "topic:gain-of-function-research",
         "topic:wiv1",
-        "org:ecohealth-alliance",
-        "person:ralph-baric",
         "topic:biosafety"
       ],
       "entity_ids": {
@@ -310,9 +293,7 @@
       "summary": "2015 Nature news on the Menachery/Baric/Shi chimeric bat SARS-like virus paper that stirred gain-of-function debate over risky research.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
-        "engineered bat virus",
-        "Menachery 2015"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -373,10 +354,7 @@
       "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
-        "receptor usage",
-        "chimeric spike",
-        "human cells"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -431,11 +409,7 @@
       "language": "en",
       "summary": "2010 Archives of Virology study testing ACE2 from different bat species for variable SARS-CoV entry susceptibility—mapping which bat receptors allow infection.",
       "book_role": "",
-      "topics": [
-        "bat ACE2",
-        "SARS-CoV entry",
-        "species susceptibility"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Shi Zhengli",
@@ -468,7 +442,8 @@
       "author_ids": [
         "person:yuxuan-hou"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 9,
@@ -486,10 +461,7 @@
       "book_role": "WIV1 bat SARS-like coronavirus infection study in the Wuhan research record.",
       "topics": [
         "WIV1",
-        "reverse genetics",
-        "infectious clone",
-        "ORFX",
-        "BSL-2"
+        "reverse genetics"
       ],
       "entities": {
         "people": [
@@ -546,10 +518,7 @@
       "summary": "2017 PLoS Pathogens Hu et al.: rich Yunnan-cave gene pool of bat SARS-related CoVs; native and chimeric viruses infect human cells—direct WIV lab characterization of spillover-capable viruses.",
       "book_role": "",
       "topics": [
-        "chimeric viruses",
-        "Yunnan cave",
-        "SARSr-CoV gene pool",
-        "human cells"
+        "chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -607,12 +576,7 @@
       "language": "en",
       "summary": "2018 Nature Zhou et al. on SADS: fatal swine acute diarrhoea from an HKU2-related bat coronavirus—WIV work infecting piglets with a bat CoV (chapter notes).",
       "book_role": "Shi/WIV swine acute diarrhoea coronavirus paper in the chapter’s Wuhan research survey.",
-      "topics": [
-        "SADS",
-        "HKU2-related CoV",
-        "piglets",
-        "bat origin"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Shi Zhengli",
@@ -648,7 +612,8 @@
       ],
       "publication_ids": [
         "org:nature"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 12,
@@ -664,12 +629,7 @@
       "language": "en",
       "summary": "Asia Times piece on why U.S. entities outsourced bat-virus research to Wuhan. Only a browser-check interstitial was retrieved.",
       "book_role": "",
-      "topics": [
-        "Wuhan",
-        "U.S. outsourcing",
-        "bat virus research",
-        "funding"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Christina Lin"
@@ -696,9 +656,7 @@
           "place:united-states"
         ]
       },
-      "topic_ids": [
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "source_key": "ch12-s12",
       "date_iso": "2020-04-22",
       "image_url": "https://i2.wp.com/asiatimes.com/wp-content/uploads/2020/04/Bats-Covid-19-Coronavirus-1.jpg?fit=1600%2C1001",
@@ -725,10 +683,7 @@
       "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant.",
       "book_role": "",
       "topics": [
-        "EcoHealth Alliance",
-        "NIAID",
-        "bat coronaviruses",
-        "R01AI110964"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -745,8 +700,6 @@
         ]
       },
       "topic_ids": [
-        "org:ecohealth-alliance",
-        "org:niaid",
         "topic:bat-coronaviruses"
       ],
       "entity_ids": {
@@ -784,9 +737,7 @@
       "summary": "DOI twin of Hu et al. 2017 PLoS Pathogens Yunnan SARSr-CoV gene-pool paper (same study as s10).",
       "book_role": "",
       "topics": [
-        "Yunnan",
-        "chimeric viruses",
-        "SARSr-CoV gene pool"
+        "chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -803,7 +754,6 @@
         ]
       },
       "topic_ids": [
-        "place:yunnan",
         "topic:chimeric-viruses"
       ],
       "entity_ids": {
@@ -846,10 +796,7 @@
       "summary": "Rev transcript of May 11, 2021 Senate testimony including Fauci’s exchange on NIH funding and gain-of-function research linked to Wuhan.",
       "book_role": "",
       "topics": [
-        "Rand Paul",
-        "Anthony Fauci",
-        "gain-of-function research",
-        "Senate testimony"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -868,8 +815,6 @@
         ]
       },
       "topic_ids": [
-        "person:rand-paul",
-        "person:anthony-fauci",
         "topic:gain-of-function-research"
       ],
       "entity_ids": {
@@ -909,10 +854,7 @@
       "summary": "C-SPAN/YouTube video of a heated Rand Paul–Fauci exchange on gain-of-function.",
       "book_role": "",
       "topics": [
-        "Rand Paul",
-        "Anthony Fauci",
-        "gain-of-function research",
-        "C-SPAN"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -929,8 +871,6 @@
         ]
       },
       "topic_ids": [
-        "person:rand-paul",
-        "person:anthony-fauci",
         "topic:gain-of-function-research"
       ],
       "entity_ids": {
@@ -971,8 +911,7 @@
       "topics": [
         "censorship",
         "COVID-19",
-        "biosecurity",
-        "Chinese Center for Disease Control and Prevention"
+        "biosecurity"
       ],
       "entities": {
         "people": [],
@@ -988,7 +927,9 @@
         "orgs": [
           "org:chinese-center-for-disease-control-and-prevention"
         ],
-        "places": []
+        "places": [
+          "place:china"
+        ]
       },
       "source_key": "ch12-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -999,8 +940,7 @@
       "topic_ids": [
         "topic:censorship",
         "topic:covid-19",
-        "topic:biosecurity",
-        "org:chinese-center-for-disease-control-and-prevention"
+        "topic:biosecurity"
       ],
       "date_iso": "2020-02-25"
     },
@@ -1038,7 +978,9 @@
         "orgs": [
           "org:the-state-council-novel-coronavirus-pneumonia-epidemic-joint-prevention-and-control-mechanism-scientific-research-task-force"
         ],
-        "places": []
+        "places": [
+          "place:china"
+        ]
       },
       "source_key": "ch12-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -1070,9 +1012,7 @@
       "topics": [
         "censorship",
         "lab-leak hypothesis",
-        "zoonosis",
-        "CNN",
-        "Huanan Seafood Market"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -1101,7 +1041,9 @@
         ],
         "places": [
           "place:wuhan",
-          "place:huanan-seafood-market"
+          "place:huanan-seafood-market",
+          "place:beijing",
+          "place:china"
         ]
       },
       "source_key": "ch12-n03",
@@ -1117,9 +1059,7 @@
       "topic_ids": [
         "topic:censorship",
         "topic:lab-leak-hypothesis",
-        "topic:zoonosis",
-        "org:cnn",
-        "place:huanan-seafood-market"
+        "topic:zoonosis"
       ],
       "date_iso": "2020-04-16",
       "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/150820163747-profile-background-stock-no-photo.jpg?c=16x9&q=h_270,w_480,c_fill/c_thumb,g_face,w_50,h_50"
@@ -1140,8 +1080,7 @@
       "book_role": "Notes citation documenting China’s early COVID information censorship machine.",
       "topics": [
         "censorship",
-        "COVID-19",
-        "The New York Times"
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -1163,7 +1102,8 @@
           "org:the-new-york-times"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch12-n04",
@@ -1176,8 +1116,7 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:covid-19",
-        "org:the-new-york-times"
+        "topic:covid-19"
       ],
       "date_iso": "2020-12-19"
     },
@@ -1197,12 +1136,7 @@
       "book_role": "Notes citation framing the public GoF funding dispute around WIV.",
       "topics": [
         "gain-of-function research",
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology",
-        "EcoHealth Alliance",
-        "NIH",
-        "Anthony Fauci",
-        "Rand Paul"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1246,12 +1180,7 @@
       ],
       "topic_ids": [
         "topic:gain-of-function-research",
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology",
-        "org:ecohealth-alliance",
-        "org:nih",
-        "person:anthony-fauci",
-        "person:rand-paul"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2021-05-21",
       "image_url": "https://cdn.factcheck.org/UploadedFiles/getty-wuhan-lab.jpg"
@@ -1272,13 +1201,7 @@
       "book_role": "Notes citation for mainstream fact-checking of the Paul–Fauci GoF exchange.",
       "topics": [
         "gain-of-function research",
-        "lab-leak hypothesis",
-        "Anthony Fauci",
-        "Rand Paul",
-        "Ralph Baric",
-        "Shi Zhengli",
-        "The Washington Post",
-        "NIH"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1324,13 +1247,7 @@
       ],
       "topic_ids": [
         "topic:gain-of-function-research",
-        "topic:lab-leak-hypothesis",
-        "person:anthony-fauci",
-        "person:rand-paul",
-        "person:ralph-baric",
-        "person:shi-zhengli",
-        "org:the-washington-post",
-        "org:nih"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2021-05-18",
       "image_url": "https://www.washingtonpost.com/dr/resources/images/generic-newsletter-signup.png"
@@ -1352,13 +1269,7 @@
       "topics": [
         "gain-of-function research",
         "lab-leak hypothesis",
-        "censorship",
-        "Anthony Fauci",
-        "Rand Paul",
-        "Rowan Jacobsen",
-        "Newsweek",
-        "Wuhan Institute of Virology",
-        "NIH"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -1388,7 +1299,8 @@
           "org:wuhan-institute-of-virology"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch12-n07",
@@ -1402,13 +1314,7 @@
       "topic_ids": [
         "topic:gain-of-function-research",
         "topic:lab-leak-hypothesis",
-        "topic:censorship",
-        "person:anthony-fauci",
-        "person:rand-paul",
-        "person:rowan-jacobsen",
-        "org:newsweek",
-        "org:wuhan-institute-of-virology",
-        "org:nih"
+        "topic:censorship"
       ],
       "date_iso": "2021-11-22",
       "image_url": "https://assets.newsweek.com/wp-content/uploads/2025/08/1926588-fauci-rand-paul-covid-19-origin-hearing.jpg?w=1200&amp;crop=1"
@@ -1430,9 +1336,7 @@
       "topics": [
         "lab-leak hypothesis",
         "gain-of-function research",
-        "censorship",
-        "Rand Paul",
-        "Amazon"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -1465,9 +1369,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research",
-        "topic:censorship",
-        "person:rand-paul",
-        "org:amazon"
+        "topic:censorship"
       ],
       "date_iso": "2023-10-10",
       "image_url": "https://m.media-amazon.com/images/I/41bxTHYSB6L.jpg"

@@ -21,10 +21,7 @@
       "summary": "WaPo report that WIV staff received state-secrets training in May 2019 and that classified military-linked research at the lab complicates origins inquiries. Opening retrieved behind subscription wall.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "WIV secrecy",
-        "state secrets training",
-        "military research"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -80,12 +77,7 @@
       "language": "en",
       "summary": "Tweet highlighting a redacted Feb 1, 2020 teleconference email line about discussing the viral ‘backbone’ as well as the ‘insert.’",
       "book_role": "",
-      "topics": [
-        "Feb 1 teleconference",
-        "backbone",
-        "furin insert",
-        "redacted emails"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "HumbleScientist"
@@ -108,7 +100,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:twitter"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 3,
@@ -124,12 +117,7 @@
       "language": "en",
       "summary": "Birrell Mail on Sunday column on secrecy-cloaked inquiries, WHO letting Beijing vet investigators, and Daszak’s Wuhan-linked appointment—reused artifact from chapter 9.",
       "book_role": "",
-      "topics": [
-        "Peter Daszak",
-        "China",
-        "WHO conflicts",
-        "secrecy"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ian Birrell",
@@ -146,10 +134,7 @@
           "United Kingdom"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak",
-        "place:china"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ian-birrell",
@@ -191,11 +176,7 @@
       "language": "en",
       "summary": "Bloomberg feature on Danielle Anderson, the last foreign scientist at WIV before COVID, speaking on the origins debate and what she observed in the lab.",
       "book_role": "",
-      "topics": [
-        "Danielle Anderson",
-        "WIV foreign scientist",
-        "origins debate"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Danielle Anderson",
@@ -211,9 +192,7 @@
           "Melbourne"
         ]
       },
-      "topic_ids": [
-        "person:danielle-anderson"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:danielle-anderson",
@@ -250,11 +229,7 @@
       "language": "en",
       "summary": "Wellcome Trust ‘Who we are’ institutional page—context for Jeremy Farrar’s foundation role in early origins teleconferences and scientific funding networks.",
       "book_role": "",
-      "topics": [
-        "Wellcome Trust",
-        "Jeremy Farrar",
-        "research funding"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jeremy Farrar"
@@ -266,10 +241,7 @@
           "United Kingdom"
         ]
       },
-      "topic_ids": [
-        "org:wellcome-trust",
-        "person:jeremy-farrar"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jeremy-farrar"
@@ -310,8 +282,7 @@
         "SARS-CoV-2",
         "pangolins",
         "intermediate host",
-        "furin cleavage site",
-        "Nature"
+        "furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -346,8 +317,7 @@
         "topic:sars-cov-2",
         "topic:pangolins",
         "topic:intermediate-host",
-        "topic:furin-cleavage-site",
-        "org:nature"
+        "topic:furin-cleavage-site"
       ],
       "date_iso": "2021-06-24",
       "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-021-92388-5/MediaObjects/41598_2021_92388_Fig1_HTML.png"
@@ -369,9 +339,7 @@
       "topics": [
         "censorship",
         "lab-leak hypothesis",
-        "ACE2 receptors",
-        "Ian Birrell",
-        "UnHerd"
+        "ACE2 receptors"
       ],
       "entities": {
         "people": [
@@ -393,7 +361,10 @@
         "orgs": [
           "org:unherd"
         ],
-        "places": []
+        "places": [
+          "place:beijing",
+          "place:china"
+        ]
       },
       "source_key": "ch13-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -406,9 +377,7 @@
       "topic_ids": [
         "topic:censorship",
         "topic:lab-leak-hypothesis",
-        "topic:ace2-receptors",
-        "person:ian-birrell",
-        "org:unherd"
+        "topic:ace2-receptors"
       ],
       "date_iso": "2021-06-08",
       "image_url": "https://unherd.com/wp-content/uploads/2021/06/gettyimages-1208075486-594x594-1.jpg"
@@ -430,9 +399,7 @@
       "topics": [
         "censorship",
         "lab-leak hypothesis",
-        "Freedom of Information requests",
-        "ResearchGate",
-        "U.S. Right to Know"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -465,9 +432,7 @@
       "topic_ids": [
         "topic:censorship",
         "topic:lab-leak-hypothesis",
-        "topic:freedom-of-information-requests",
-        "org:researchgate",
-        "org:u-s-right-to-know"
+        "topic:freedom-of-information-requests"
       ],
       "date_iso": "2021-09",
       "image_url": "https://i1.rgstatic.net/ii/profile.image/11431281114645328-1674593544904_Q128/Charles-Rixey.jpg"
@@ -489,12 +454,7 @@
       "topics": [
         "lab-leak hypothesis",
         "censorship",
-        "SARS-CoV-2",
-        "Nicholas Wade",
-        "Jeremy Farrar",
-        "Anthony Fauci",
-        "Bulletin of the Atomic Scientists",
-        "Wellcome Trust"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -522,7 +482,11 @@
           "org:bulletin-of-the-atomic-scientists",
           "org:wellcome-trust"
         ],
-        "places": []
+        "places": [
+          "place:china",
+          "place:united-kingdom",
+          "place:united-states"
+        ]
       },
       "source_key": "ch13-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -535,12 +499,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:censorship",
-        "topic:sars-cov-2",
-        "person:nicholas-wade",
-        "person:jeremy-farrar",
-        "person:anthony-fauci",
-        "org:bulletin-of-the-atomic-scientists",
-        "org:wellcome-trust"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2021-08-17",
       "image_url": "https://thebulletin.org/wp-content/uploads/2021/08/GettyImages-1230578755-1024x683.jpg.webp"

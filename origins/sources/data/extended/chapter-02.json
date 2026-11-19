@@ -20,36 +20,30 @@
       "language": "en",
       "summary": "Washington Times article quoting analyst Dany Shoham on a possible link between the Wuhan outbreak and Chinese biological-warfare–related laboratories. Notes record an earlier 24 January headline variant tying Wuhan labs to a bio-warfare program.",
       "book_role": "Opens the bioweapons chapter: Gertz/Shoham reporting linking Wuhan labs to China’s biowarfare program.",
-      "topics": [
-        "Dany Shoham",
-        "Wuhan Institute of Virology",
-        "bioweapons",
-        "China BW program"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Dany Shoham",
           "Bill Gertz"
         ],
         "orgs": [
-          "The Washington Times"
+          "The Washington Times",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
           "China"
         ]
       },
-      "topic_ids": [
-        "person:dany-shoham",
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:dany-shoham",
           "person:bill-gertz"
         ],
         "orgs": [
-          "org:the-washington-times"
+          "org:the-washington-times",
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan",
@@ -81,9 +75,7 @@
       "summary": "David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy.",
       "book_role": "Hoffman’s Dead Hand history discussed with Otto as Cold War bioweapons context.",
       "topics": [
-        "biological weapons",
-        "Cold War",
-        "arms race"
+        "biological weapons"
       ],
       "entities": {
         "people": [
@@ -136,11 +128,7 @@
       "language": "en",
       "summary": "Ken Alibek’s insider account of the Soviet biological weapons program.",
       "book_role": "Alibek’s Biohazard account of a covert Soviet outbreak used as historical warning.",
-      "topics": [
-        "Ken Alibek",
-        "Biopreparat",
-        "Soviet bioweapons"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ken Alibek",
@@ -156,10 +144,7 @@
           "Russia"
         ]
       },
-      "topic_ids": [
-        "person:ken-alibek",
-        "org:biopreparat"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ken-alibek",
@@ -202,9 +187,7 @@
       "summary": "STAT report that WHO confirmed Chinese authorities believed a new coronavirus may cause Wuhan’s mysterious pneumonia cases, before China had fully stated that publicly.",
       "book_role": "First major Western article attributing the Wuhan outbreak to a new virus and linking it to the seafood market.",
       "topics": [
-        "WHO",
-        "SARS-CoV-2",
-        "Wuhan pneumonia"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -221,7 +204,6 @@
         ]
       },
       "topic_ids": [
-        "org:who",
         "topic:sars-cov-2"
       ],
       "entity_ids": {
@@ -265,8 +247,7 @@
       "book_role": "",
       "topics": [
         "lab-leak hypothesis",
-        "gain-of-function research",
-        "1977 H1N1"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -330,8 +311,7 @@
       "topics": [
         "biological weapons",
         "biodefense complex",
-        "biosecurity",
-        "Dany Shoham"
+        "biosecurity"
       ],
       "entities": {
         "people": [
@@ -339,7 +319,7 @@
         ],
         "orgs": [
           "Journal of Defence Studies",
-          "PLA"
+          "People’s Liberation Army"
         ],
         "places": [
           "China"
@@ -350,9 +330,12 @@
           "person:dany-shoham"
         ],
         "orgs": [
-          "org:journal-of-defence-studies"
+          "org:journal-of-defence-studies",
+          "org:people-s-liberation-army"
         ],
-        "places": []
+        "places": [
+          "place:china"
+        ]
       },
       "source_key": "ch02-n01",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -365,8 +348,7 @@
       "topic_ids": [
         "topic:biological-weapons",
         "topic:biodefense-complex",
-        "topic:biosecurity",
-        "person:dany-shoham"
+        "topic:biosecurity"
       ],
       "date_iso": "2015"
     },
@@ -387,9 +369,7 @@
       "topics": [
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "COVID-19",
-        "Wuhan Institute of Virology",
-        "Dany Shoham"
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -413,7 +393,8 @@
           "org:besa-center"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch02-n02",
@@ -427,9 +408,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:covid-19",
-        "org:wuhan-institute-of-virology",
-        "person:dany-shoham"
+        "topic:covid-19"
       ],
       "date_iso": "2020-12-14",
       "image_url": "https://besacenter.org/wp-content/uploads/2020/12/COVID-19-image-by-Fernando-Zhiminaicela-via-Pixabay-e1607415152875.jpg"
@@ -450,8 +429,7 @@
       "book_role": "Notes citation for Cold War covert biological/chemical experimentation precedents.",
       "topics": [
         "biological weapons",
-        "biodefense complex",
-        "CIA"
+        "biodefense complex"
       ],
       "entities": {
         "people": [
@@ -486,8 +464,7 @@
       ],
       "topic_ids": [
         "topic:biological-weapons",
-        "topic:biodefense-complex",
-        "org:cia"
+        "topic:biodefense-complex"
       ],
       "date_iso": "2019"
     },
@@ -507,8 +484,7 @@
       "book_role": "Notes citation establishing that high-consequence lab escapes have happened before.",
       "topics": [
         "biosafety",
-        "lab-leak hypothesis",
-        "Martin Furmanski"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -528,7 +504,9 @@
         "orgs": [
           "org:national-post"
         ],
-        "places": []
+        "places": [
+          "place:china"
+        ]
       },
       "source_key": "ch02-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -540,8 +518,7 @@
       ],
       "topic_ids": [
         "topic:biosafety",
-        "topic:lab-leak-hypothesis",
-        "person:martin-furmanski"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2014-04-11",
       "image_url": "https://beta.nationalpost.com/wp-content/uploads/sites/2/2014/04/518025850.jpg"

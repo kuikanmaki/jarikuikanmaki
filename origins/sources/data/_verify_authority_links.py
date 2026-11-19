@@ -29,6 +29,9 @@ def main() -> int:
             topic_ids = list(source.get("topic_ids") or [])
             topics = list(source.get("topics") or [])
             for i, aid in enumerate(topic_ids):
+                if not isinstance(aid, str) or not aid.startswith("topic:"):
+                    errors.append(f"{key}: topic_ids[{i}]={aid!r} must be topic:*")
+                    continue
                 if aid not in auth_map:
                     errors.append(f"{key}: unknown topic_ids[{i}]={aid}")
                     continue
@@ -57,6 +60,15 @@ def main() -> int:
                         errors.append(
                             f"{key}: entities.{bucket}[{i}]={labels[i]!r} != prefLabel {expect!r} for {aid}"
                         )
+            for bucket, prefix in (("works", "work:"), ("events", "event:")):
+                for i, aid in enumerate(ent_ids.get(bucket) or []):
+                    if not isinstance(aid, str) or not aid.startswith(prefix):
+                        errors.append(
+                            f"{key}: entity_ids.{bucket}[{i}]={aid!r} must be {prefix}*"
+                        )
+                        continue
+                    if aid not in auth_map:
+                        errors.append(f"{key}: unknown entity_ids.{bucket}[{i}]={aid}")
 
             for field, ids in (
                 ("author_ids", source.get("author_ids") or []),

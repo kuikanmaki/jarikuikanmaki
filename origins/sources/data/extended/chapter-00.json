@@ -21,8 +21,6 @@
       "summary": "Profile of Shi Zhengli’s bat-coronavirus fieldwork and Wuhan Institute of Virology role, including her recollection of learning about the Wuhan pneumonia outbreak while in Shanghai and rushing back by night train. Frames her as a leading SARS-like virus hunter and recounts WIV BSL-4 context.",
       "book_role": "Primary source for Shi Zhengli’s December 2019 night-train return to Wuhan that opens the Prologue.",
       "topics": [
-        "Shi Zhengli",
-        "Wuhan Institute of Virology",
         "bat coronaviruses",
         "BSL-4 laboratory",
         "SARS"
@@ -46,8 +44,6 @@
         ]
       },
       "topic_ids": [
-        "person:shi-zhengli",
-        "org:wuhan-institute-of-virology",
         "topic:bat-coronaviruses",
         "topic:bsl-4-laboratory",
         "topic:sars"
@@ -97,7 +93,6 @@
       "book_role": "Early reporting on the Wuhan BSL-4 lab used when introducing the institute’s high-containment work.",
       "topics": [
         "BSL-4 laboratory",
-        "Wuhan Institute of Virology",
         "biosafety"
       ],
       "entities": {
@@ -115,7 +110,6 @@
       },
       "topic_ids": [
         "topic:bsl-4-laboratory",
-        "org:wuhan-institute-of-virology",
         "topic:biosafety"
       ],
       "entity_ids": {
@@ -157,10 +151,7 @@
       "summary": "Investigative article arguing Chinese authorities constrained public discussion of early genomic findings and origin questions around Shi Zhengli and related research. Used in the book’s notes as evidence of suppression during early reporting.",
       "book_role": "Documents that Shi’s early interviews took place while authorities were already suppressing origin discussion.",
       "topics": [
-        "Shi Zhengli",
-        "lab-leak hypothesis",
-        "information control",
-        "genome sequencing"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -178,7 +169,6 @@
         ]
       },
       "topic_ids": [
-        "person:shi-zhengli",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -222,8 +212,6 @@
       "summary": "Science interview/profile in which Shi Zhengli denies lab responsibility for the pandemic, describes WIV biosafety work, and demands an apology from then-President Trump for lab-origin allegations.",
       "book_role": "",
       "topics": [
-        "Shi Zhengli",
-        "Wuhan Institute of Virology",
         "biosafety",
         "lab-leak hypothesis"
       ],
@@ -245,8 +233,6 @@
         ]
       },
       "topic_ids": [
-        "person:shi-zhengli",
-        "org:wuhan-institute-of-virology",
         "topic:biosafety",
         "topic:lab-leak-hypothesis"
       ],
@@ -292,10 +278,7 @@
       "summary": "Long MIT Technology Review feature (listed in the bibliography under Scientific American) revisiting Shi Zhengli amid the lab-leak controversy, WHO origins visit optics, and contested claims about WIV research and transparency.",
       "book_role": "",
       "topics": [
-        "Shi Zhengli",
-        "Wuhan Institute of Virology",
-        "lab-leak hypothesis",
-        "WHO origins investigation"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -314,8 +297,6 @@
         ]
       },
       "topic_ids": [
-        "person:shi-zhengli",
-        "org:wuhan-institute-of-virology",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -359,9 +340,7 @@
       "summary": "Washington Post investigation into the French-engineered Wuhan P4 lab, its leadership (including Yuan Zhiming), and unresolved questions around the facility’s role in the pandemic origin story.",
       "book_role": "",
       "topics": [
-        "BSL-4 laboratory",
-        "Wuhan Institute of Virology",
-        "Franco-Chinese collaboration"
+        "BSL-4 laboratory"
       ],
       "entities": {
         "people": [
@@ -383,8 +362,7 @@
         ]
       },
       "topic_ids": [
-        "topic:bsl-4-laboratory",
-        "org:wuhan-institute-of-virology"
+        "topic:bsl-4-laboratory"
       ],
       "entity_ids": {
         "people": [
@@ -426,10 +404,7 @@
       "summary": "DRASTIC researcher overview of the Wuhan BSL-4 project’s timeline, partners, governance, and open questions compiled from public records and investigative synthesis.",
       "book_role": "",
       "topics": [
-        "BSL-4 laboratory",
-        "DRASTIC",
-        "Wuhan Institute of Virology",
-        "project timeline"
+        "BSL-4 laboratory"
       ],
       "entities": {
         "people": [
@@ -446,9 +421,7 @@
         ]
       },
       "topic_ids": [
-        "topic:bsl-4-laboratory",
-        "org:drastic",
-        "org:wuhan-institute-of-virology"
+        "topic:bsl-4-laboratory"
       ],
       "entity_ids": {
         "people": [
@@ -489,12 +462,7 @@
       "language": "en",
       "summary": "WHO Disease Outbreak News item reporting 44 pneumonia-of-unknown-cause cases in Wuhan as of 3 January 2020, market closure, isolation of patients, and then-official statements of no clear significant human-to-human transmission or health-worker infections.",
       "book_role": "WHO Disease Outbreak News bulletin quoted for the early “pneumonia of unknown cause” announcement.",
-      "topics": [
-        "Huanan Seafood Market",
-        "WHO",
-        "Disease Outbreak News",
-        "Wuhan pneumonia"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -508,10 +476,7 @@
           "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [
-        "place:huanan-seafood-market",
-        "org:who"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -547,11 +512,7 @@
       "language": "en",
       "summary": "Archived ProMED request-for-information posting from 30 December 2019 alerting the infectious-disease community to undiagnosed pneumonia in Hubei. The hosted PDF could not be retrieved (CDN/edge block); citation metadata retained from the bibliography.",
       "book_role": "ProMED alert of 30 December 2019 quoted as an early circulating outbreak notice.",
-      "topics": [
-        "ProMED",
-        "undiagnosed pneumonia",
-        "early outbreak alerts"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -581,7 +542,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:promed"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 10,
@@ -597,12 +559,7 @@
       "language": "zh",
       "summary": "Beijing News (Xin Jing Bao) archived interview with Li Wenliang discussing the police admonishment after he warned classmates about SARS-like cases linked to the Huanan market; includes his account of the WeChat messages and later public attention to the ‘rumor-mongers.’",
       "book_role": "Wuhan police admonishment of Li Wenliang quoted in the Prologue’s suppression arc.",
-      "topics": [
-        "Li Wenliang",
-        "Huanan Seafood Market",
-        "whistleblowers",
-        "admonishment"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Li Wenliang",
@@ -618,10 +575,7 @@
           "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [
-        "person:li-wenliang",
-        "place:huanan-seafood-market"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:li-wenliang"
@@ -655,17 +609,11 @@
       "language": "zh",
       "summary": "Caixin commentary/report (Wayback capture) on Li Wenliang as coronavirus whistleblower, arguing that establishing truth about early warnings matters more than symbolic rehabilitation.",
       "book_role": "",
-      "topics": [
-        "Li Wenliang",
-        "whistleblowers",
-        "early warnings",
-        "press coverage in China"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Li Wenliang",
-          "Jianxing Tan",
-          "Tan Jianxing"
+          "Jianxing Tan"
         ],
         "orgs": [
           "Wuhan Central Hospital",
@@ -676,9 +624,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "person:li-wenliang"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:li-wenliang",
@@ -715,11 +661,7 @@
       "language": "zh",
       "summary": "Archived 31 December 2019 Chinese news item circulating official messaging that Wuhan’s unexplained pneumonia cases had not been confirmed as SARS, while noting critically ill patients. Capture is thin (Wayback chrome + partial page).",
       "book_role": "",
-      "topics": [
-        "Wuhan pneumonia",
-        "SARS comparison",
-        "official statements"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -745,7 +687,8 @@
       "date_iso": "2019-12-31",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 13,
@@ -761,12 +704,7 @@
       "language": "en",
       "summary": "BBC report on the death of Li Wenliang from COVID-19, recounting his early WeChat warning, police admonishment, infection while working at Wuhan Central Hospital, and the public anger that followed.",
       "book_role": "",
-      "topics": [
-        "Li Wenliang",
-        "Wuhan Central Hospital",
-        "whistleblowers",
-        "public anger"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Li Wenliang"
@@ -780,10 +718,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "person:li-wenliang",
-        "org:wuhan-central-hospital"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:li-wenliang"
@@ -824,10 +759,7 @@
       "book_role": "Notes citation mapping China’s high-containment labs beyond Wuhan alone.",
       "topics": [
         "BSL-4 laboratory",
-        "biosafety",
-        "Wuhan Institute of Virology",
-        "DRASTIC",
-        "Gilles Demaneuf"
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -840,9 +772,9 @@
         ],
         "places": [
           "Wuhan",
+          "China",
           "Kunming",
-          "Harbin",
-          "China"
+          "Harbin"
         ]
       },
       "entity_ids": {
@@ -855,7 +787,8 @@
           "org:medium"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch00-n01",
@@ -868,10 +801,7 @@
       ],
       "topic_ids": [
         "topic:bsl-4-laboratory",
-        "topic:biosafety",
-        "org:wuhan-institute-of-virology",
-        "org:drastic",
-        "person:gilles-demaneuf"
+        "topic:biosafety"
       ],
       "date_iso": "2022-04-27",
       "image_url": "https://miro.medium.com/v2/resize:fill:32:32/1*dmbNkD5D-u45r44go_cf0g.png"

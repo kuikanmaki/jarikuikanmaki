@@ -21,9 +21,7 @@
       "summary": "GenBank partial RdRp for RaTG13_Yunnan (bat SARS-like CoV).",
       "book_role": "",
       "topics": [
-        "RaTG13",
-        "GenBank",
-        "RdRp"
+        "RaTG13"
       ],
       "entities": {
         "people": [
@@ -40,8 +38,7 @@
         ]
       },
       "topic_ids": [
-        "topic:ratg13",
-        "org:genbank"
+        "topic:ratg13"
       ],
       "entity_ids": {
         "people": [
@@ -83,8 +80,6 @@
       "summary": "Washington Examiner: in early 2020 Fauci suggested FBI and MI5 might need warning that COVID could have emerged from a Wuhan lab—before he publicly argued the virus most likely arose naturally.",
       "book_role": "",
       "topics": [
-        "Anthony Fauci",
-        "FBI",
         "lab-leak hypothesis"
       ],
       "entities": {
@@ -102,8 +97,6 @@
         ]
       },
       "topic_ids": [
-        "person:anthony-fauci",
-        "org:fbi",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -144,9 +137,7 @@
       "summary": "House Energy & Commerce release on investigation uncovering the earliest known SARS-CoV-2 sequence released/deleted dynamics.",
       "book_role": "",
       "topics": [
-        "SARS-CoV-2",
-        "earliest sequence",
-        "House E&C"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [],
@@ -194,11 +185,7 @@
       "language": "en",
       "summary": "WSJ reporting that a Chinese lab mapped the deadly coronavirus two weeks before Beijing told the world.",
       "book_role": "",
-      "topics": [
-        "genome mapping",
-        "Beijing delay",
-        "Chinese lab"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Warren Strobel"
@@ -232,7 +219,8 @@
       ],
       "publication_ids": [
         "org:the-wall-street-journal"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 5,
@@ -248,11 +236,7 @@
       "language": "en",
       "summary": "GenBank submission record for BetaCoV/Wuhan/IPBCAMS-WH-01/2019—early Wuhan sequence entry.",
       "book_role": "",
-      "topics": [
-        "GenBank",
-        "IPBCAMS-WH-01",
-        "early Wuhan sequence"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Lili Ren"
@@ -266,9 +250,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "org:genbank"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:lili-ren"
@@ -305,11 +287,7 @@
       "language": "en",
       "summary": "Official/email record regarding deletion of GenBank submission BankIt2298002 Coronavirus/Wuhan—same early-sequence deletion thread.",
       "book_role": "",
-      "topics": [
-        "GenBank deletion",
-        "BankIt2298002",
-        "early sequence"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -337,7 +315,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:genbank-ncbi"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 7,
@@ -353,11 +332,7 @@
       "language": "en",
       "summary": "Social post noting 163 sequences from a paper were sent to GenBank in July 2018—pre-pandemic sequence-deposit chronology.",
       "book_role": "",
-      "topics": [
-        "GenBank",
-        "163 sequences",
-        "July 2018"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Edward Holmes"
@@ -368,9 +343,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "org:genbank"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:edward-holmes"
@@ -406,11 +379,7 @@
       "language": "en",
       "summary": "Coverage of the Chinese researcher who mapped COVID weeks before official release—and the consequences that followed.",
       "book_role": "",
-      "topics": [
-        "genome mapper",
-        "early sequence",
-        "Chinese researcher"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Paul D. Thacker"
@@ -438,7 +407,8 @@
       "author_ids": [
         "person:paul-d-thacker"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 9,
@@ -454,11 +424,7 @@
       "language": "en",
       "summary": "Reporting that a top NIH official advised COVID scientists he uses personal email—records-avoidance allegation.",
       "book_role": "",
-      "topics": [
-        "NIH",
-        "personal email",
-        "records"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jimmy Tobias"
@@ -471,9 +437,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:nih"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jimmy-tobias"
@@ -511,11 +475,7 @@
       "language": "en",
       "summary": "Emails alleging a top NIH adviser deleted records and used a ‘secret’ backchannel during COVID origins discussions.",
       "book_role": "",
-      "topics": [
-        "deleted records",
-        "NIH adviser",
-        "secret email"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Josh Christenson"
@@ -549,7 +509,8 @@
       ],
       "publication_ids": [
         "org:new-york-post"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 11,
@@ -565,11 +526,7 @@
       "language": "en",
       "summary": "Congressional hearing with NIAID leadership on pandemic origins, funding, and oversight failures.",
       "book_role": "",
-      "topics": [
-        "U.S. Congress",
-        "NIAID hearing",
-        "oversight"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Anthony Fauci"
@@ -594,9 +551,7 @@
           "place:united-states"
         ]
       },
-      "topic_ids": [
-        "org:u-s-congress"
-      ],
+      "topic_ids": [],
       "source_key": "ch19-s11",
       "date_iso": "2024-05-22",
       "acquisition_note": "",
@@ -619,11 +574,7 @@
       "language": "en",
       "summary": "Deposition of Margaret Moore in the congressional origins/records investigation.",
       "book_role": "",
-      "topics": [
-        "Margaret Moore",
-        "deposition",
-        "records"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Margaret Moore"
@@ -635,9 +586,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:margaret-moore"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:margaret-moore"
@@ -671,11 +620,7 @@
       "language": "en",
       "summary": "NYT-linked reporting that health officials tried to evade public-records laws.",
       "book_role": "",
-      "topics": [
-        "public records",
-        "evasion",
-        "health officials"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Benjamin Mueller"
@@ -706,7 +651,8 @@
       ],
       "publication_ids": [
         "org:the-new-york-times"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 14,
@@ -722,11 +668,7 @@
       "language": "en",
       "summary": "Report that scientists at the center of the lab-leak controversy met with NIH and Fauci around Proximal Origin timing.",
       "book_role": "",
-      "topics": [
-        "The proximal origin of SARS-CoV-2",
-        "NIH meeting",
-        "lab leak scientists"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Anthony Fauci",
@@ -741,9 +683,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "work:the-proximal-origin-of-sars-cov-2"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:anthony-fauci",
@@ -756,6 +696,9 @@
         ],
         "places": [
           "place:united-states"
+        ],
+        "works": [
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "source_key": "ch19-s14",
@@ -783,10 +726,7 @@
       "language": "en",
       "summary": "Cell Symposium program on emerging and re-emerging viruses—context for scientist gatherings around outbreak science.",
       "book_role": "Cell Symposium program placing Fauci, Daszak, Shi and other key figures on the same stage.",
-      "topics": [
-        "Cell Symposium",
-        "emerging viruses"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -807,7 +747,8 @@
         ],
         "places": []
       },
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 16,
@@ -823,10 +764,7 @@
       "language": "en",
       "summary": "Sunday Times Insight: fresh evidence from confidential files that Chinese scientists spliced together deadly pathogens shortly before the pandemic—reconstruction of WIV’s pre-outbreak weeks.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "pre-outbreak"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jonathan Calvert",
@@ -840,9 +778,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jonathan-calvert",
@@ -882,11 +818,7 @@
       "language": "en",
       "summary": "Congressional/GAO confirmation that U.S. taxpayer dollars flowed to WIV. Only a very thin page fragment was retrieved.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "GAO",
-        "taxpayer dollars"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -899,9 +831,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -935,11 +865,7 @@
       "language": "en",
       "summary": "Reporting on State Department cables that WIV conducted classified research with military links.",
       "book_role": "",
-      "topics": [
-        "State Department cables",
-        "classified research",
-        "WIV military"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Emily Kopp"
@@ -975,7 +901,8 @@
       ],
       "publication_ids": [
         "org:u-s-right-to-know"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 19,
@@ -991,11 +918,7 @@
       "language": "en",
       "summary": "Long Daily Mail-style investigation of new clues: Wuhan scientists’ planned/related experiments and origin implications.",
       "book_role": "",
-      "topics": [
-        "Wuhan scientists",
-        "origin clues",
-        "experiments"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ian Birrell"
@@ -1029,7 +952,8 @@
       "publication_ids": [
         "org:daily-mail"
       ],
-      "image_url": "https://i.dailymail.com/1s/2026/10/27/05/112112047-0-image-a-29_1793077218557.jpg"
+      "image_url": "https://i.dailymail.com/1s/2026/10/27/05/112112047-0-image-a-29_1793077218557.jpg",
+      "topic_ids": []
     },
     {
       "id": 20,
@@ -1046,9 +970,7 @@
       "summary": "FOIA’d China National Virome Project (CNVP) initiative meeting agenda.",
       "book_role": "China National Virome Project agenda showing Daszak, Carroll, and PLA-linked speakers together.",
       "topics": [
-        "Freedom of Information requests",
-        "CNVP",
-        "virome project"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [],
@@ -1094,11 +1016,7 @@
       "language": "en",
       "summary": "FOIA list of foreign collaborators on U.S. research grants FY2014–2017 including Cao/Wuhan names.",
       "book_role": "",
-      "topics": [
-        "Wuhan",
-        "foreign collaborators",
-        "U.S. grants"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Cao Wu"
@@ -1109,7 +1027,8 @@
         ],
         "places": [
           "China",
-          "United States"
+          "United States",
+          "Wuhan"
         ]
       },
       "entity_ids": {
@@ -1120,12 +1039,11 @@
         ],
         "places": [
           "place:china",
-          "place:united-states"
+          "place:united-states",
+          "place:wuhan"
         ]
       },
-      "topic_ids": [
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "source_key": "ch19-s21",
       "date_iso": "2022-06-17",
       "acquisition_note": "",
@@ -1149,11 +1067,7 @@
       "language": "en",
       "summary": "Declassified SARS-CoV-2 genome analysis (DIA/intel).",
       "book_role": "Declassified DIA SARS-CoV-2 genome analysis treating lab-origin features as consistent with the data.",
-      "topics": [
-        "genome analysis",
-        "declassified",
-        "DIA"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -1183,7 +1097,8 @@
       "publication_ids": [
         "org:defense-intelligence-agency",
         "org:u-s-right-to-know"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 24,
@@ -1200,9 +1115,7 @@
       "summary": "News on a U.S. intelligence agency’s classified analysis offering detailed scientific assessment of origins.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "classified analysis",
-        "intelligence"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1259,10 +1172,7 @@
       "language": "en",
       "summary": "DIA authoritative assessment document on SARS-CoV-2 origins.",
       "book_role": "Later DIA authoritative assessment in the chapter’s intelligence-reversals sequence.",
-      "topics": [
-        "DIA assessment",
-        "SARS-CoV-2 origins"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -1290,7 +1200,8 @@
       "publication_ids": [
         "org:defense-intelligence-agency",
         "org:u-s-right-to-know"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 26,
@@ -1306,11 +1217,7 @@
       "language": "en",
       "summary": "Reporting that DIA considered a lab-leak scenario already in March 2020.",
       "book_role": "",
-      "topics": [
-        "DIA",
-        "March 2020",
-        "lab leak scenario"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Lewis Kamb"
@@ -1344,7 +1251,8 @@
       ],
       "publication_ids": [
         "org:u-s-right-to-know"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 27,
@@ -1360,10 +1268,7 @@
       "language": "en",
       "summary": "WSJ: U.S. Energy Department now assesses a lab leak in China as the most likely COVID origin.",
       "book_role": "",
-      "topics": [
-        "Energy Department",
-        "lab leak most likely"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Michael Gordon",
@@ -1399,7 +1304,8 @@
       ],
       "publication_ids": [
         "org:the-wall-street-journal"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 28,
@@ -1416,8 +1322,6 @@
       "summary": "WSJ: FBI Director says COVID pandemic likely caused by a Chinese lab leak.",
       "book_role": "",
       "topics": [
-        "FBI",
-        "Christopher Wray",
         "lab-leak hypothesis"
       ],
       "entities": {
@@ -1435,8 +1339,6 @@
         ]
       },
       "topic_ids": [
-        "org:fbi",
-        "person:christopher-wray",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -1480,9 +1382,7 @@
       "summary": "NBC: CIA shifts prior assessments and concludes COVID likely leaked from a Chinese lab, while noting low confidence.",
       "book_role": "",
       "topics": [
-        "CIA",
-        "lab-leak hypothesis",
-        "origins assessment"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1497,7 +1397,6 @@
         ]
       },
       "topic_ids": [
-        "org:cia",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -1537,11 +1436,7 @@
       "language": "en",
       "summary": "Congressional release on CIA whistleblower testimony alleging new COVID-origins information and pressure.",
       "book_role": "",
-      "topics": [
-        "U.S. Congress",
-        "CIA whistleblower",
-        "COVID origins"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -1562,9 +1457,7 @@
           "place:united-states"
         ]
       },
-      "topic_ids": [
-        "org:u-s-congress"
-      ],
+      "topic_ids": [],
       "source_key": "ch19-s30",
       "date_iso": "2023-09-12",
       "image_url": "https://oversight.house.gov/wp-content/uploads/2025/02/social-share1.png",
@@ -1588,11 +1481,7 @@
       "language": "en",
       "summary": "Social post recounting Daszak in 2015 stopping conversation about lab risks—‘for the record’ anecdote.",
       "book_role": "Huff’s claim that Daszak discussed CIA work with him beginning in 2015.",
-      "topics": [
-        "Peter Daszak",
-        "2015",
-        "lab risk"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -1604,9 +1493,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -1643,11 +1530,7 @@
       "language": "en",
       "summary": "Andrew Huff book page/listing for The Truth about Wuhan—insider EcoHealth allegations.",
       "book_role": "",
-      "topics": [
-        "Andrew Huff",
-        "EcoHealth Alliance",
-        "Wuhan"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Andrew Huff"
@@ -1660,11 +1543,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:andrew-huff",
-        "org:ecohealth-alliance",
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:andrew-huff"
@@ -1702,10 +1581,7 @@
       "language": "en",
       "summary": "EcoHealth Alliance statement responding to Andrew Huff’s book.",
       "book_role": "",
-      "topics": [
-        "Andrew Huff",
-        "EcoHealth statement"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Andrew Huff",
@@ -1716,9 +1592,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "person:andrew-huff"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:andrew-huff",
@@ -1751,11 +1625,7 @@
       "language": "en",
       "summary": "Congressional hearing with EcoHealth president Peter Daszak. Page failed to load.",
       "book_role": "Daszak’s May 2024 congressional testimony on intelligence contacts.",
-      "topics": [
-        "EcoHealth Alliance",
-        "U.S. Congress",
-        "Peter Daszak hearing"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
@@ -1768,10 +1638,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance",
-        "org:u-s-congress"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
@@ -1806,11 +1673,7 @@
       "language": "en",
       "summary": "Sen. Rand Paul seeks intelligence-community records related to COVID origins.",
       "book_role": "Senator Paul’s records request on Baric’s ODNI/CIA contacts and 2020 BSEG briefing.",
-      "topics": [
-        "Rand Paul",
-        "intelligence records",
-        "COVID origins"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Rand Paul"
@@ -1823,9 +1686,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:rand-paul"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:rand-paul"
@@ -1860,10 +1721,7 @@
       "language": "en",
       "summary": "Government presentation deck titled 2019-nHCoV—early official technical briefing materials.",
       "book_role": "",
-      "topics": [
-        "2019-nHCoV",
-        "government presentation"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ralph Baric"
@@ -1888,7 +1746,8 @@
       "author_ids": [
         "person:ralph-baric"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 37,
@@ -1904,11 +1763,7 @@
       "language": "en",
       "summary": "Transcribed House Oversight interview in the coronavirus origins investigation.",
       "book_role": "",
-      "topics": [
-        "House Oversight",
-        "transcribed interview",
-        "origins"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ralph Baric"
@@ -1940,7 +1795,8 @@
       ],
       "publication_ids": [
         "org:u-s-congress"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 38,
@@ -1957,9 +1813,7 @@
       "summary": "Report that a prominent virologist warned the intelligence community COVID could have a lab origin.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "virologist warning",
-        "intelligence community"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -2005,10 +1859,7 @@
       "language": "en",
       "summary": "Congressional Biomedical Research Caucus presentation video.",
       "book_role": "",
-      "topics": [
-        "Congressional Biomedical Research Caucus",
-        "presentation"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ralph Baric"
@@ -2039,7 +1890,8 @@
       ],
       "publication_ids": [
         "org:u-s-house-of-representatives"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 40,
@@ -2055,11 +1907,7 @@
       "language": "en",
       "summary": "Rand Paul letters to fifteen federal agencies after discovering further origins-related issues.",
       "book_role": "",
-      "topics": [
-        "Rand Paul",
-        "fifteen agencies",
-        "letters"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Rand Paul"
@@ -2072,9 +1920,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:rand-paul"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:rand-paul"
@@ -2109,11 +1955,7 @@
       "language": "en",
       "summary": "Research note on EcoHealth documents made public by Congress—including Daszak calendar findings.",
       "book_role": "",
-      "topics": [
-        "U.S. Congress",
-        "EcoHealth documents",
-        "Daszak calendar"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -2123,7 +1965,8 @@
         "orgs": [
           "EcoHealth Alliance",
           "DRASTIC",
-          "ResearchGate"
+          "ResearchGate",
+          "U.S. Congress"
         ],
         "places": []
       },
@@ -2136,13 +1979,12 @@
         "orgs": [
           "org:ecohealth-alliance",
           "org:drastic",
-          "org:researchgate"
+          "org:researchgate",
+          "org:u-s-congress"
         ],
         "places": []
       },
-      "topic_ids": [
-        "org:u-s-congress"
-      ],
+      "topic_ids": [],
       "source_key": "ch19-s41",
       "date_iso": "2025-09",
       "image_url": "https://i1.rgstatic.net/ii/profile.image/11431281422588023-1746448964636_Q128/Billy-Bostickson.jpg",
@@ -2171,8 +2013,6 @@
       "summary": "German BND assessment reportedly concluded COVID likely leaked from a lab (papers/reporting).",
       "book_role": "",
       "topics": [
-        "BND",
-        "Germany",
         "lab-leak hypothesis"
       ],
       "entities": {
@@ -2190,8 +2030,6 @@
         ]
       },
       "topic_ids": [
-        "org:bnd",
-        "place:germany",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -2234,15 +2072,12 @@
       "language": "en",
       "summary": "Government memorandum analyzing circumstantial evidence for Wuhan labs as COVID source.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "circumstantial evidence",
-        "memorandum"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
-          "U.S. Department of State"
+          "U.S. Department of State",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -2251,7 +2086,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:u-s-department-of-state"
+          "org:u-s-department-of-state",
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan"
@@ -2260,9 +2096,7 @@
       "source_key": "ch19-s43",
       "date_iso": "2020",
       "acquisition_note": "Fixed truncated filename (Circumstantial); live PDF retrieved. Scanned pages; little extractable text, full PDF saved.",
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "author_ids": [],
       "publication_ids": [
         "org:u-s-department-of-state"
@@ -2282,11 +2116,7 @@
       "language": "en",
       "summary": "Remarks related to Joe Rogan Experience episode #2255—public long-form origins discussion.",
       "book_role": "Zuckerberg’s admission that the White House pressured Facebook to censor COVID content.",
-      "topics": [
-        "Joe Rogan",
-        "podcast",
-        "origins"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Mark Zuckerberg",
@@ -2313,7 +2143,8 @@
       "author_ids": [
         "person:mark-zuckerberg"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 45,
@@ -2329,11 +2160,7 @@
       "language": "en",
       "summary": "Report that USAID staff were told to shred and burn classified documents.",
       "book_role": "",
-      "topics": [
-        "USAID",
-        "shred documents",
-        "classified"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -2344,9 +2171,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:usaid"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -2380,11 +2205,7 @@
       "language": "en",
       "summary": "Reporting EcoHealth sought to block disclosure of COVID-relevant virus sequences/data.",
       "book_role": "",
-      "topics": [
-        "EcoHealth Alliance",
-        "sequence disclosure",
-        "FOIA resistance"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -2396,9 +2217,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -2435,12 +2254,7 @@
       "language": "en",
       "summary": "Report that a WHO top scientist was a collaborator of Peter Daszak—conflict on origins probe.",
       "book_role": "",
-      "topics": [
-        "WHO",
-        "Peter Daszak",
-        "collaborator",
-        "conflict"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -2453,10 +2267,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "org:who",
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -2496,8 +2307,7 @@
       "book_role": "",
       "topics": [
         "SARS",
-        "MERS",
-        "bat emergence"
+        "MERS"
       ],
       "entities": {
         "people": [
@@ -2549,9 +2359,7 @@
       "summary": "Email to Peter Daszak—primary correspondence in the FOIA/oversight corpus.",
       "book_role": "Morens emails to Daszak and Proximal Origin authors after FOIA releases.",
       "topics": [
-        "Peter Daszak",
-        "Freedom of Information requests",
-        "email"
+        "Freedom of Information requests"
       ],
       "entities": {
         "people": [
@@ -2564,7 +2372,6 @@
         "places": []
       },
       "topic_ids": [
-        "person:peter-daszak",
         "topic:freedom-of-information-requests"
       ],
       "entity_ids": {
@@ -2599,11 +2406,7 @@
       "language": "en",
       "summary": "Rand Paul issues subpoenas to fourteen agencies on COVID origins.",
       "book_role": "",
-      "topics": [
-        "Rand Paul",
-        "subpoenas",
-        "fourteen agencies"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Rand Paul"
@@ -2616,9 +2419,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:rand-paul"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:rand-paul"
@@ -2653,11 +2454,7 @@
       "language": "en",
       "summary": "White Coat Waste investigation: EcoHealth received ~$46M in new taxpayer funds during scrutiny period.",
       "book_role": "",
-      "topics": [
-        "EcoHealth funding",
-        "$46M",
-        "White Coat Waste"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
@@ -2689,7 +2486,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:white-coat-waste-project"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 52,
@@ -2705,33 +2503,28 @@
       "language": "en",
       "summary": "CRS/congressional research on termination of State Department’s Global Engagement Center.",
       "book_role": "",
-      "topics": [
-        "Global Engagement Center",
-        "U.S. Department of State",
-        "CRS"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Matthew Weed"
         ],
         "orgs": [
           "U.S. Department of State",
+          "Global Engagement Center",
           "Congressional Research Service"
         ],
         "places": [
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:global-engagement-center",
-        "org:u-s-department-of-state"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:matthew-weed"
         ],
         "orgs": [
-          "org:u-s-department-of-state"
+          "org:u-s-department-of-state",
+          "org:global-engagement-center"
         ],
         "places": [
           "place:united-states"
@@ -2759,11 +2552,7 @@
       "language": "en",
       "summary": "House Oversight release: after an eight-month investigation HHS cut off all funding and formally debarred EcoHealth Alliance and its former president Peter Daszak.",
       "book_role": "",
-      "topics": [
-        "EcoHealth Alliance",
-        "Peter Daszak",
-        "HHS debarment"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
@@ -2777,17 +2566,15 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance",
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
         ],
         "orgs": [
           "org:ecohealth-alliance",
-          "org:u-s-house-of-representatives"
+          "org:u-s-house-of-representatives",
+          "org:hhs"
         ],
         "places": [
           "place:united-states"
@@ -2816,11 +2603,7 @@
       "language": "en",
       "summary": "Rand Paul uncovers new evidence of Fauci deleting official records.",
       "book_role": "",
-      "topics": [
-        "Anthony Fauci",
-        "Rand Paul",
-        "deleted records"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Anthony Fauci",
@@ -2835,10 +2618,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:anthony-fauci",
-        "person:rand-paul"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:anthony-fauci",
@@ -2875,11 +2655,7 @@
       "language": "en",
       "summary": "ABC News: Biden issues preemptive pardons to potential Trump-admin targets including Anthony Fauci, Mark Milley, and Jan. 6 committee members hours before the transition.",
       "book_role": "",
-      "topics": [
-        "Anthony Fauci",
-        "Joe Biden",
-        "preemptive pardon"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Joe Biden",
@@ -2895,10 +2671,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:anthony-fauci",
-        "person:joe-biden"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:joe-biden",
@@ -2906,7 +2679,8 @@
           "person:alexandra-hutzler"
         ],
         "orgs": [
-          "org:abc-news"
+          "org:abc-news",
+          "org:white-house"
         ],
         "places": [
           "place:united-states"
@@ -2944,9 +2718,7 @@
         "Ra4991",
         "BLAST",
         "SARS-CoV-2",
-        "bat coronaviruses",
-        "Jari Kuikanmäki",
-        "Wuhan Institute of Virology"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -2964,7 +2736,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:jari-kuikanmaki"
+          "person:jari-kuikanmaki",
+          "person:lili-ren"
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
@@ -2987,9 +2760,7 @@
         "topic:ra4991",
         "topic:blast",
         "topic:sars-cov-2",
-        "topic:bat-coronaviruses",
-        "person:jari-kuikanmaki",
-        "org:wuhan-institute-of-virology"
+        "topic:bat-coronaviruses"
       ],
       "date_iso": "2026-05-10",
       "image_url": "https://zenodo.org/static/images/zenodo-og.png"
@@ -3011,11 +2782,7 @@
       "topics": [
         "COVID-19",
         "censorship",
-        "Patient Zero",
-        "Ian Lipkin",
-        "Ian Birrell",
-        "WHO",
-        "Wuhan"
+        "Patient Zero"
       ],
       "entities": {
         "people": [
@@ -3024,8 +2791,7 @@
         ],
         "orgs": [
           "WHO",
-          "Daily Mail",
-          "Mail on Sunday"
+          "Daily Mail"
         ],
         "places": [
           "Wuhan",
@@ -3042,7 +2808,8 @@
           "org:daily-mail"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch19-n02",
@@ -3056,11 +2823,7 @@
       "topic_ids": [
         "topic:covid-19",
         "topic:censorship",
-        "topic:patient-zero",
-        "person:ian-lipkin",
-        "person:ian-birrell",
-        "org:who",
-        "place:wuhan"
+        "topic:patient-zero"
       ],
       "date_iso": "2021-09-05"
     },
@@ -3080,9 +2843,7 @@
       "book_role": "Notes citation for Lipkin’s sworn subcommittee interview.",
       "topics": [
         "lab-leak hypothesis",
-        "SARS-CoV-2",
-        "Ian Lipkin",
-        "U.S. House of Representatives"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -3111,9 +2872,7 @@
       ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:sars-cov-2",
-        "person:ian-lipkin",
-        "org:u-s-house-of-representatives"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2023-04-06"
     },
@@ -3135,11 +2894,7 @@
         "lab-leak hypothesis",
         "gain-of-function research",
         "furin cleavage site",
-        "chimeric viruses",
-        "Richard Ebright",
-        "EcoHealth Alliance",
-        "Wuhan Institute of Virology",
-        "DARPA"
+        "chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -3182,11 +2937,7 @@
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research",
         "topic:furin-cleavage-site",
-        "topic:chimeric-viruses",
-        "person:richard-ebright",
-        "org:ecohealth-alliance",
-        "org:wuhan-institute-of-virology",
-        "org:darpa"
+        "topic:chimeric-viruses"
       ],
       "date_iso": "2024-06-18"
     },
@@ -3208,12 +2959,7 @@
         "gain-of-function research",
         "furin cleavage site",
         "chimeric viruses",
-        "bat coronaviruses",
-        "EcoHealth Alliance",
-        "Wuhan Institute of Virology",
-        "DARPA",
-        "DRASTIC",
-        "Peter Daszak"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -3233,13 +2979,15 @@
       },
       "entity_ids": {
         "people": [
-          "person:peter-daszak"
+          "person:peter-daszak",
+          "person:steven-quay"
         ],
         "orgs": [
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
           "org:darpa",
-          "org:drastic"
+          "org:drastic",
+          "org:zenodo"
         ],
         "places": [
           "place:wuhan"
@@ -3255,12 +3003,7 @@
         "topic:gain-of-function-research",
         "topic:furin-cleavage-site",
         "topic:chimeric-viruses",
-        "topic:bat-coronaviruses",
-        "org:ecohealth-alliance",
-        "org:wuhan-institute-of-virology",
-        "org:darpa",
-        "org:drastic",
-        "person:peter-daszak"
+        "topic:bat-coronaviruses"
       ],
       "date_iso": "2021-09",
       "image_url": "https://zenodo.org/static/images/zenodo-og.png"
@@ -3282,12 +3025,7 @@
       "topics": [
         "lab-leak hypothesis",
         "gain-of-function research",
-        "biosafety",
-        "Peter Daszak",
-        "EcoHealth Alliance",
-        "NIH",
-        "Science",
-        "U.S. House of Representatives"
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -3316,7 +3054,9 @@
           "org:nih",
           "org:u-s-house-of-representatives"
         ],
-        "places": []
+        "places": [
+          "place:china"
+        ]
       },
       "source_key": "ch19-n06",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -3329,12 +3069,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:gain-of-function-research",
-        "topic:biosafety",
-        "person:peter-daszak",
-        "org:ecohealth-alliance",
-        "org:nih",
-        "org:science",
-        "org:u-s-house-of-representatives"
+        "topic:biosafety"
       ],
       "date_iso": "2024-05-01",
       "image_url": "https://www.science.org/do/10.1126/science.zf2v5er/full/_20240501_on_daszak_hearing_covid_origins.jpg"
@@ -3356,12 +3091,7 @@
       "topics": [
         "gain-of-function research",
         "furin cleavage site",
-        "lab-leak hypothesis",
-        "Josh Christenson",
-        "Richard Ebright",
-        "Peter Daszak",
-        "New York Post",
-        "EcoHealth Alliance"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -3402,12 +3132,7 @@
       "topic_ids": [
         "topic:gain-of-function-research",
         "topic:furin-cleavage-site",
-        "topic:lab-leak-hypothesis",
-        "person:josh-christenson",
-        "person:richard-ebright",
-        "person:peter-daszak",
-        "org:new-york-post",
-        "org:ecohealth-alliance"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2024-05-01",
       "image_url": "https://nypost.com/wp-content/uploads/sites/2/2024/05/rep-brad-wenstrup-r-oh-81012186.jpg?quality=75&#038;strip=all&#038;w=1200"
@@ -3428,8 +3153,7 @@
       "book_role": "Notes citation tying domestic censorship infrastructure to lab-leak suppression.",
       "topics": [
         "censorship",
-        "lab-leak hypothesis",
-        "U.S. House of Representatives"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -3450,7 +3174,9 @@
         "orgs": [
           "org:u-s-house-of-representatives"
         ],
-        "places": []
+        "places": [
+          "place:united-states"
+        ]
       },
       "source_key": "ch19-n08",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -3462,8 +3188,7 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:lab-leak-hypothesis",
-        "org:u-s-house-of-representatives"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2023-03-09"
     },
@@ -3503,9 +3228,12 @@
           "person:david-zweig"
         ],
         "orgs": [
-          "org:the-free-press"
+          "org:the-free-press",
+          "org:twitter"
         ],
-        "places": []
+        "places": [
+          "place:united-states"
+        ]
       },
       "source_key": "ch19-n09",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -3540,8 +3268,7 @@
       "topics": [
         "lab-leak hypothesis",
         "reverse genetics",
-        "SARS-CoV-2",
-        "bioRxiv"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -3556,7 +3283,8 @@
       },
       "entity_ids": {
         "people": [
-          "person:valentin-bruttel"
+          "person:valentin-bruttel",
+          "person:alex-washburne"
         ],
         "orgs": [
           "org:biorxiv"
@@ -3574,8 +3302,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:reverse-genetics",
-        "topic:sars-cov-2",
-        "org:biorxiv"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2023-04-11"
     },
@@ -3596,9 +3323,7 @@
       "topics": [
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "reverse genetics",
-        "Skyhorse Publishing",
-        "Amazon"
+        "reverse genetics"
       ],
       "entities": {
         "people": [
@@ -3631,9 +3356,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:reverse-genetics",
-        "org:skyhorse-publishing",
-        "org:amazon"
+        "topic:reverse-genetics"
       ],
       "date_iso": "2025"
     },
@@ -3653,11 +3376,7 @@
       "book_role": "Notes citation for the formal HHS/NIH EcoHealth suspension and proposed debarment.",
       "topics": [
         "gain-of-function research",
-        "biosafety",
-        "EcoHealth Alliance",
-        "NIH",
-        "NIAID",
-        "Peter Daszak"
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -3683,7 +3402,9 @@
           "org:niaid",
           "org:hhs"
         ],
-        "places": []
+        "places": [
+          "place:united-states"
+        ]
       },
       "source_key": "ch19-n12",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -3694,11 +3415,7 @@
       ],
       "topic_ids": [
         "topic:gain-of-function-research",
-        "topic:biosafety",
-        "org:ecohealth-alliance",
-        "org:nih",
-        "org:niaid",
-        "person:peter-daszak"
+        "topic:biosafety"
       ],
       "date_iso": "2024-05-15"
     },
@@ -3720,8 +3437,7 @@
         "ACE2 receptors",
         "bat coronaviruses",
         "zoonosis",
-        "MERS",
-        "PubMed"
+        "MERS"
       ],
       "entities": {
         "people": [
@@ -3755,8 +3471,7 @@
         "topic:ace2-receptors",
         "topic:bat-coronaviruses",
         "topic:zoonosis",
-        "topic:mers",
-        "org:pubmed"
+        "topic:mers"
       ],
       "date_iso": "2025-03-20"
     },
@@ -3778,13 +3493,11 @@
         "lab-leak hypothesis",
         "zoonosis",
         "furin cleavage site",
-        "SARS-CoV-2",
-        "Journal of Virology"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
           "James Alwine",
-          "James C. Alwine",
           "Arturo Casadevall"
         ],
         "orgs": [
@@ -3813,8 +3526,7 @@
         "topic:lab-leak-hypothesis",
         "topic:zoonosis",
         "topic:furin-cleavage-site",
-        "topic:sars-cov-2",
-        "org:journal-of-virology"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2023-03-28"
     }

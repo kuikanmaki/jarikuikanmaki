@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "DRASTIC tweet announcing the leaked 2018 EcoHealth DEFUSE proposal to DARPA.",
       "book_role": "",
-      "topics": [
-        "DEFUSE",
-        "DRASTIC",
-        "DARPA",
-        "EcoHealth Alliance"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -39,12 +34,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "work:defuse",
-        "org:drastic",
-        "org:darpa",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
@@ -55,7 +45,10 @@
           "org:darpa",
           "org:twitter"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "work:defuse"
+        ]
       },
       "source_key": "ch14-s01",
       "date_iso": "2021-09-20",
@@ -80,12 +73,8 @@
       "summary": "2018 EcoHealth Alliance DEFUSE proposal to DARPA PREEMPT: engineer SARS-related bat CoVs with novel/human-specific cleavage sites (including furin-like), test chimeras in human airway cells and hACE2 mice at WIV, with Baric UNC work and Yunnan bat sampling.",
       "book_role": "Primary DEFUSE proposal text naming Daszak and the Wuhan Institute of Virology.",
       "topics": [
-        "DEFUSE",
         "chimeric viruses",
-        "Wuhan Institute of Virology",
-        "PREEMPT",
-        "furin cleavage site",
-        "hACE2 mice"
+        "furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -106,10 +95,7 @@
         ]
       },
       "topic_ids": [
-        "work:defuse",
         "topic:chimeric-viruses",
-        "org:wuhan-institute-of-virology",
-        "work:preempt",
         "topic:furin-cleavage-site"
       ],
       "entity_ids": {
@@ -127,6 +113,10 @@
         "places": [
           "place:yunnan",
           "place:wuhan"
+        ],
+        "works": [
+          "work:defuse",
+          "work:preempt"
         ]
       },
       "source_key": "ch14-s02",
@@ -153,11 +143,7 @@
       "language": "en",
       "summary": "Sky News Australia video claiming footage shows bats kept in a Wuhan lab.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "bats in Wuhan lab",
-        "footage"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Sharri Markson"
@@ -171,9 +157,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:sharri-markson"
@@ -208,12 +192,7 @@
       "language": "en",
       "summary": "Mail on Sunday report on secret bat cages at a Wuhan lab where researchers planned to breed animals for virus experiments—live-animal infrastructure for bat CoV work.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "bat cages",
-        "animal breeding",
-        "virus experiments"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Glen Owen",
@@ -228,9 +207,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:glen-owen",
@@ -271,12 +248,7 @@
       "language": "en",
       "summary": "Daszak tweet denying live or dead bats in labs he collaborated with for 15 years, calling bat-in-lab claims a conspiracy theory.",
       "book_role": "Daszak’s public denial that partner labs kept live bats—set against DEFUSE’s bat plans.",
-      "topics": [
-        "Peter Daszak",
-        "bats in labs",
-        "denial",
-        "conspiracy framing"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
@@ -289,9 +261,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
@@ -328,35 +298,29 @@
       "language": "en",
       "summary": "Daszak tweet insisting only samples—not bats—went to Wuhan labs and that bats are released where caught.",
       "book_role": "Daszak’s public denial that bats were sent to Wuhan—set against DEFUSE partner plans.",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "Peter Daszak",
-        "bat samples",
-        "field collection"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
         ],
         "orgs": [
           "EcoHealth Alliance",
-          "Twitter"
+          "Twitter",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology",
-        "person:peter-daszak"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
         ],
         "orgs": [
           "org:ecohealth-alliance",
-          "org:twitter"
+          "org:twitter",
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan"
@@ -386,11 +350,7 @@
       "language": "en",
       "summary": "Intercept reporting new details from FOIA’d EcoHealth/NIH documents on coronavirus research at the Chinese lab—progress reports and experimental descriptions.",
       "book_role": "",
-      "topics": [
-        "EcoHealth FOIA",
-        "WIV coronavirus research",
-        "NIH grant documents"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -435,7 +395,8 @@
       ],
       "publication_ids": [
         "org:the-intercept"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 8,
@@ -451,12 +412,7 @@
       "language": "en",
       "summary": "Large FOIA dump of the EcoHealth/NIH bat-coronavirus emergence grant materials, including the Year-4 progress report (2017–2018) describing WIV collaborative experiments.",
       "book_role": "EcoHealth FOIA progress report on sample shipping and Baric’s letter of support.",
-      "topics": [
-        "EcoHealth Alliance",
-        "Year-4 Progress Report (EcoHealth Alliance)",
-        "NIH FOIA",
-        "bat coronavirus emergence"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -473,10 +429,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:ecohealth-alliance",
-        "work:year-4-progress-report-ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -491,6 +444,9 @@
         "places": [
           "place:wuhan",
           "place:united-states"
+        ],
+        "works": [
+          "work:year-4-progress-report-ecohealth-alliance"
         ]
       },
       "source_key": "ch14-s08",
@@ -516,12 +472,7 @@
       "language": "en",
       "summary": "Thacker Substack piece arguing funding documents complicate Danielle Anderson’s role as a ‘conspiracy buster’ on Wuhan lab origins.",
       "book_role": "",
-      "topics": [
-        "Danielle Anderson",
-        "Wuhan Institute of Virology",
-        "funding documents",
-        "origins debate"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Danielle Anderson",
@@ -536,10 +487,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:danielle-anderson",
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:danielle-anderson",
@@ -582,17 +530,13 @@
       "book_role": "Notes citation establishing Shi’s pre-pandemic bat SARS-like coronavirus research record.",
       "topics": [
         "bat coronaviruses",
-        "SARS",
-        "Shi Zhengli",
-        "Wuhan Institute of Virology",
-        "Chinese Academy of Sciences"
+        "SARS"
       ],
       "entities": {
         "people": [
           "Shi Zhengli",
           "Wei Lu",
-          "Zheng Liu",
-          "Lu Wei"
+          "Zheng Liu"
         ],
         "orgs": [
           "Wuhan Institute of Virology",
@@ -601,8 +545,8 @@
         ],
         "places": [
           "Wuhan",
-          "Henan",
-          "China"
+          "China",
+          "Henan"
         ]
       },
       "entity_ids": {
@@ -617,7 +561,8 @@
           "org:sciencenet-news"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch14-n01",
@@ -631,10 +576,7 @@
       ],
       "topic_ids": [
         "topic:bat-coronaviruses",
-        "topic:sars",
-        "person:shi-zhengli",
-        "org:wuhan-institute-of-virology",
-        "org:chinese-academy-of-sciences"
+        "topic:sars"
       ],
       "date_iso": "2009-03-10",
       "image_url": "https://web.archive.org/web/20190207020202im_/http://news.sciencenet.cn/upload/news/images/2009/3/2009310222017356.jpg"

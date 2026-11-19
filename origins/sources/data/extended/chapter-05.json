@@ -22,10 +22,7 @@
       "book_role": "WIV Nature paper framing a probable bat origin as the official scientific storyline.",
       "topics": [
         "SARS-CoV-2",
-        "RaTG13",
-        "Wuhan Institute of Virology",
-        "Shi Zhengli",
-        "bat origin"
+        "RaTG13"
       ],
       "entities": {
         "people": [
@@ -43,9 +40,7 @@
       },
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:ratg13",
-        "org:wuhan-institute-of-virology",
-        "person:shi-zhengli"
+        "topic:ratg13"
       ],
       "entity_ids": {
         "people": [
@@ -89,8 +84,7 @@
       "topics": [
         "pangolins",
         "intermediate host",
-        "zoonosis",
-        "Guangzhou research"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -147,11 +141,7 @@
       "language": "en",
       "summary": "Barron’s piece arguing China’s coronavirus statistics look too perfect to be trustworthy, echoing long-standing skepticism about Chinese official data. Full article behind subscription; only lede retrieved.",
       "book_role": "",
-      "topics": [
-        "Chinese official data",
-        "case counts",
-        "data reliability"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Lisa Beilfuss"
@@ -180,7 +170,8 @@
       "author_ids": [
         "person:lisa-beilfuss"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 4,
@@ -196,30 +187,22 @@
       "language": "en",
       "summary": "Early February 2020 preprint discussing possible origins of 2019-nCoV, noting genomic similarity to bat CoV ZC45 and questioning whether the Huanan market alone explains the epidemic’s start.",
       "book_role": "Xiao & Xiao preprint that instead pointed toward lab-linked origin possibilities around Wuhan.",
-      "topics": [
-        "Huanan Seafood Market",
-        "2019-nCoV origins",
-        "bat CoV ZC45",
-        "preprint"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Xiao Botao",
-          "Xiao Lei",
-          "Botao Xiao",
-          "Lei Xiao"
+          "Xiao Lei"
         ],
         "orgs": [
           "ResearchGate"
         ],
         "places": [
           "Wuhan",
-          "China"
+          "China",
+          "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [
-        "place:huanan-seafood-market"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:xiao-botao",
@@ -230,7 +213,8 @@
         ],
         "places": [
           "place:wuhan",
-          "place:china"
+          "place:china",
+          "place:huanan-seafood-market"
         ]
       },
       "source_key": "ch05-s04",
@@ -260,17 +244,13 @@
       "summary": "Daily Mail report on the Xiao/Xiao preprint arguing the virus likely came from a Wuhan lab (WHCDC and/or WIV), citing bat research near the Huanan market, bat–researcher accidents, and the distance of native bats from Wuhan.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology",
-        "Huanan Seafood Market",
-        "Wuhan CDC",
-        "bats"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
           "Ross Ibbetson",
-          "Botao Xiao",
-          "Lei Xiao"
+          "Xiao Botao",
+          "Xiao Lei"
         ],
         "orgs": [
           "Daily Mail",
@@ -282,17 +262,18 @@
           "Wuhan",
           "Hubei",
           "Yunnan",
-          "China"
+          "China",
+          "Huanan Seafood Market"
         ]
       },
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology",
-        "place:huanan-seafood-market"
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
-          "person:ross-ibbetson"
+          "person:ross-ibbetson",
+          "person:xiao-botao",
+          "person:xiao-lei"
         ],
         "orgs": [
           "org:daily-mail",
@@ -302,7 +283,8 @@
           "place:wuhan",
           "place:hubei",
           "place:yunnan",
-          "place:china"
+          "place:china",
+          "place:huanan-seafood-market"
         ]
       },
       "source_key": "ch05-s05",
@@ -332,9 +314,7 @@
       "book_role": "",
       "topics": [
         "bat coronaviruses",
-        "chimeric viruses",
-        "Ralph Baric",
-        "human emergence"
+        "chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -352,8 +332,7 @@
       },
       "topic_ids": [
         "topic:bat-coronaviruses",
-        "topic:chimeric-viruses",
-        "person:ralph-baric"
+        "topic:chimeric-viruses"
       ],
       "entity_ids": {
         "people": [

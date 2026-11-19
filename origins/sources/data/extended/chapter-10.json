@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "Biden White House statement ordering U.S. intelligence to redouble origins investigation and report in 90 days after agencies remained divided on lab versus natural origin.",
       "book_role": "",
-      "topics": [
-        "Biden origins investigation",
-        "intelligence community",
-        "90-day report",
-        "lab vs natural"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Joe Biden"
@@ -57,7 +52,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:white-house"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 2,
@@ -73,12 +69,7 @@
       "language": "en",
       "summary": "Tedros remarks releasing the China-part origins report: team lacked raw-data access; lab-incident assessment ‘not extensive enough’; though ranked least likely, lab leak needs further study—‘all hypotheses remain on the table.’",
       "book_role": "Tedros’s post-mission remark that all origin hypotheses remained open.",
-      "topics": [
-        "Tedros Adhanom Ghebreyesus",
-        "all hypotheses",
-        "lab investigation",
-        "data access"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Tedros Adhanom Ghebreyesus",
@@ -110,9 +101,7 @@
       "date_iso": "2021-03-30",
       "image_url": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30",
       "acquisition_note": "",
-      "topic_ids": [
-        "person:tedros-adhanom-ghebreyesus"
-      ],
+      "topic_ids": [],
       "author_ids": [
         "person:tedros-adhanom-ghebreyesus"
       ],
@@ -134,12 +123,7 @@
       "language": "en",
       "summary": "Joint statement by the U.S. and 13 partners expressing shared concern that the WHO-convened China study was significantly delayed and lacked access to complete original data and samples, demanding transparent phase-2 work.",
       "book_role": "Joint statement of governments criticizing the WHO–China origins study.",
-      "topics": [
-        "joint statement",
-        "data access",
-        "WHO study critique",
-        "transparency"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -173,7 +157,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:u-s-department-of-state"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 4,
@@ -189,12 +174,7 @@
       "language": "en",
       "summary": "Politico on Facebook ending removal of ‘man-made’ COVID claims as Washington surges toward a fuller origins investigation—policy flip matching the political floodgates.",
       "book_role": "",
-      "topics": [
-        "Facebook policy",
-        "man-made COVID",
-        "content moderation",
-        "origins debate"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Cristiano Lima"
@@ -229,7 +209,8 @@
       ],
       "publication_ids": [
         "org:politico"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 5,
@@ -246,10 +227,7 @@
       "summary": "The Hill reports WaPo correcting its Feb 2020 Cotton story—removing ‘debunked’ and ‘conspiracy theory’ because there was then, as now, no determination of the virus’s origins.",
       "book_role": "",
       "topics": [
-        "Tom Cotton",
-        "lab-leak hypothesis",
-        "Washington Post correction",
-        "conspiracy theory framing"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -266,7 +244,6 @@
         ]
       },
       "topic_ids": [
-        "person:tom-cotton",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -305,11 +282,7 @@
       "language": "en",
       "summary": "Glenn Kessler Fact Checker timeline on how the Wuhan lab-leak idea moved from dismissed fringe to suddenly credible in spring 2021 as evidence and elite opinion shifted.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "lab-leak credibility",
-        "media timeline"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Glenn Kessler"
@@ -323,9 +296,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:glenn-kessler"
@@ -365,10 +336,7 @@
       "summary": "Vox piece that originally ‘debunked’ lab-origin claims, later carrying a May 2021 editor’s note as the hypothesis regained legitimacy.",
       "book_role": "",
       "topics": [
-        "Vox",
-        "lab-leak hypothesis",
-        "debunking",
-        "editor’s note"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -383,7 +351,6 @@
         ]
       },
       "topic_ids": [
-        "org:vox",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -425,10 +392,7 @@
       "book_role": "Fauci’s early email forwarding the Baric–Shi Nature Medicine paper amid Proximal Origin’s inception.",
       "topics": [
         "Freedom of Information requests",
-        "gain-of-function research",
-        "Hugh Auchincloss",
-        "Fauci emails",
-        "Baric-Shi"
+        "gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -460,8 +424,7 @@
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
-        "topic:gain-of-function-research",
-        "person:hugh-auchincloss"
+        "topic:gain-of-function-research"
       ],
       "source_key": "ch10-s08",
       "date_iso": "2020-02-01",
@@ -485,12 +448,7 @@
       "language": "en",
       "summary": "Archived April 17, 2020 task-force briefing transcript; includes press questions tying a Wuhan BSL-4 lab to NIH funding of Chinese research—early public collision of lab-origin and U.S. grant politics later reopened in 2021.",
       "book_role": "",
-      "topics": [
-        "Anthony Fauci",
-        "Trump briefing",
-        "Wuhan lab funding",
-        "NIH grant"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Donald Trump",
@@ -508,9 +466,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:anthony-fauci"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:donald-trump",
@@ -548,12 +504,7 @@
       "language": "en",
       "summary": "Lancet addendum on competing interests tied to the February 2020 origins letter (Daszak/EcoHealth). Only a thin interstitial was retrieved.",
       "book_role": "Lancet letter authors’ later competing-interests addendum after floodgates opened.",
-      "topics": [
-        "Lancet letter (February 2020)",
-        "Peter Daszak",
-        "EcoHealth Alliance",
-        "competing interests"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
@@ -564,11 +515,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "work:lancet-letter-february-2020",
-        "person:peter-daszak",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
@@ -577,7 +524,10 @@
           "org:the-lancet",
           "org:ecohealth-alliance"
         ],
-        "places": []
+        "places": [],
+        "works": [
+          "work:lancet-letter-february-2020"
+        ]
       },
       "source_key": "ch10-s10",
       "date_iso": "2021-06-21",
@@ -601,11 +551,7 @@
       "language": "en",
       "summary": "Telegraph investigation of links between scientists who dismissed the Wuhan lab theory and Chinese research partners.",
       "book_role": "",
-      "topics": [
-        "conflicts of interest",
-        "Chinese research links",
-        "lab-leak dismissal"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Sarah Knapton"
@@ -640,7 +586,8 @@
       ],
       "publication_ids": [
         "org:the-telegraph"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 12,
@@ -656,11 +603,7 @@
       "language": "en",
       "summary": "TWiV episode featuring Peter Daszak of EcoHealth Alliance.",
       "book_role": "TWiV interview in which Daszak describes inserting spike proteins into bat coronaviruses.",
-      "topics": [
-        "Peter Daszak",
-        "EcoHealth Alliance",
-        "TWiV"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -673,10 +616,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "person:peter-daszak",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -713,12 +653,7 @@
       "language": "en",
       "summary": "NIH RePORTER record for EcoHealth/Daszak project ‘Understanding the Risk of Bat Coronavirus Emergence’ (2R01AI110964)—the bat-CoV grant at the center of Wuhan collaboration funding fights.",
       "book_role": "",
-      "topics": [
-        "Peter Daszak",
-        "EcoHealth Alliance",
-        "NIH grant",
-        "bat coronavirus emergence"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak"
@@ -732,10 +667,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "person:peter-daszak",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak"
@@ -770,10 +702,7 @@
       "summary": "Newsweek feature on DRASTIC amateur investigators whose open-source finds on WIV and lab-leak clues outpaced mainstream media that had branded the theory racist conspiracy.",
       "book_role": "",
       "topics": [
-        "DRASTIC",
-        "lab-leak hypothesis",
-        "open-source investigation",
-        "media failure"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -791,7 +720,6 @@
         ]
       },
       "topic_ids": [
-        "org:drastic",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -834,12 +762,7 @@
       "language": "en",
       "summary": "DRASTIC/ResearchGate report: WIV’s main virus/sample database went offline 12 Sep 2019 and eventually all 16 WIV virus databases; documents why batvirus.whiov.ac.cn matters for origins and the suspicious Dec 30, 2019 description changes.",
       "book_role": "",
-      "topics": [
-        "WIV databases",
-        "batvirus.whiov.ac.cn",
-        "offline September 2019",
-        "transparency"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Gilles Demaneuf",
@@ -879,7 +802,8 @@
       ],
       "publication_ids": [
         "org:researchgate"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 16,
@@ -895,11 +819,7 @@
       "language": "en",
       "summary": "NY Post column on open-source finds that WIV censored its virus database the evening of Dec 30, 2019—day before WHO was alerted—amid sample destruction and whistleblower punishment.",
       "book_role": "Early Devine reporting that WIV databases were altered as Shi returned to Wuhan.",
-      "topics": [
-        "WIV database censorship",
-        "China cover-up",
-        "Dec 30 2019"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Miranda Devine"
@@ -937,7 +857,8 @@
       ],
       "publication_ids": [
         "org:new-york-post"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 17,
@@ -953,12 +874,7 @@
       "language": "en",
       "summary": "Bloom recovers SARS-CoV-2 deep-sequencing data deleted from NIH’s SRA; reconstructed early Wuhan sequences suggest market viruses are not fully representative and the progenitor was closer to bat relatives—undercutting WHO–China market focus.",
       "book_role": "Bloom’s recovery of early Wuhan sequencing data deleted from public archives.",
-      "topics": [
-        "Huanan Seafood Market",
-        "deleted SRA data",
-        "early Wuhan sequences",
-        "phylogenetics"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jesse Bloom"
@@ -970,22 +886,23 @@
         ],
         "places": [
           "Wuhan",
-          "China"
+          "China",
+          "Huanan Seafood Market"
         ]
       },
-      "topic_ids": [
-        "place:huanan-seafood-market"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jesse-bloom"
         ],
         "orgs": [
-          "org:molecular-biology-and-evolution"
+          "org:molecular-biology-and-evolution",
+          "org:biorxiv"
         ],
         "places": [
           "place:wuhan",
-          "place:china"
+          "place:china",
+          "place:huanan-seafood-market"
         ]
       },
       "source_key": "ch10-s17",
@@ -1012,12 +929,7 @@
       "language": "en",
       "summary": "Birrell UnHerd investigation using Farrar’s Spike and FOIA emails: Feb 1 confidential call, early lab suspicions (Andersen/Holmes), Lancet letter orchestration by Daszak, and Farrar’s role convening Proximal Origin while stifling lab-leak talk.",
       "book_role": "Birrell reporting on how scientists helped stifle the lab-leak theory.",
-      "topics": [
-        "Jeremy Farrar",
-        "Lancet letter (February 2020)",
-        "The proximal origin of SARS-CoV-2",
-        "Feb 1 conference call"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ian Birrell",
@@ -1038,11 +950,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:jeremy-farrar",
-        "work:lancet-letter-february-2020",
-        "work:the-proximal-origin-of-sars-cov-2"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ian-birrell",
@@ -1060,6 +968,10 @@
           "place:united-kingdom",
           "place:united-states",
           "place:wuhan"
+        ],
+        "works": [
+          "work:lancet-letter-february-2020",
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "source_key": "ch10-s18",
@@ -1087,13 +999,7 @@
       "language": "en",
       "summary": "Intercept report that Proximal Origin authors misled Congress about a pending multimillion-dollar NIH/NIAID grant around the time they shaped the natural-origin narrative—meta-debate over how that narrative was crafted.",
       "book_role": "Reporting that a Proximal Origin author misled Congress about a pending NIAID grant.",
-      "topics": [
-        "Kristian Andersen",
-        "Robert Garry",
-        "U.S. Congress",
-        "The proximal origin of SARS-CoV-2",
-        "NIH grant"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Kristian Andersen",
@@ -1105,18 +1011,14 @@
           "The Intercept",
           "NIH",
           "NIAID",
+          "U.S. Congress",
           "Scripps Research"
         ],
         "places": [
           "United States"
         ]
       },
-      "topic_ids": [
-        "person:kristian-andersen",
-        "person:robert-garry",
-        "org:u-s-congress",
-        "work:the-proximal-origin-of-sars-cov-2"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:kristian-andersen",
@@ -1127,10 +1029,14 @@
         "orgs": [
           "org:the-intercept",
           "org:nih",
-          "org:niaid"
+          "org:niaid",
+          "org:u-s-congress"
         ],
         "places": [
           "place:united-states"
+        ],
+        "works": [
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "source_key": "ch10-s19",
@@ -1158,12 +1064,7 @@
       "language": "en",
       "summary": "Mail on Sunday FOI obtained 32 emails about the early UK–US origins teleconference involving Patrick Vallance; nearly every word was redacted—prompting condemnation that government was hiding how scientists flipped from lab-leak suspicion.",
       "book_role": "",
-      "topics": [
-        "Patrick Vallance",
-        "FOI redactions",
-        "conference call",
-        "Covid origins emails"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Ian Birrell",
@@ -1178,9 +1079,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "person:patrick-vallance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:ian-birrell",
@@ -1223,10 +1122,7 @@
       "book_role": "Notes citation on WHO concessions that sidelined an early origins investigation.",
       "topics": [
         "zoonosis",
-        "lab-leak hypothesis",
-        "WHO",
-        "The New York Times",
-        "Huanan Seafood Market"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1254,7 +1150,9 @@
         ],
         "places": [
           "place:wuhan",
-          "place:huanan-seafood-market"
+          "place:huanan-seafood-market",
+          "place:beijing",
+          "place:china"
         ]
       },
       "source_key": "ch10-n01",
@@ -1267,10 +1165,7 @@
       ],
       "topic_ids": [
         "topic:zoonosis",
-        "topic:lab-leak-hypothesis",
-        "org:who",
-        "org:the-new-york-times",
-        "place:huanan-seafood-market"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2020-11-02",
       "image_url": "https://web.archive.org/web/20201102180037im_/https://static01.nyt.com/images/2020/10/30/world/who-china-beijing/merlin_167257800_4ba97718-7adc-468d-9065-ac50e3a6e476-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
@@ -1291,11 +1186,7 @@
       "book_role": "Notes citation detailing how WHO’s Wuhan mission was structurally constrained.",
       "topics": [
         "zoonosis",
-        "lab-leak hypothesis",
-        "WHO",
-        "The Wall Street Journal",
-        "Jeremy Page",
-        "Huanan Seafood Market"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1321,7 +1212,8 @@
         ],
         "places": [
           "place:wuhan",
-          "place:huanan-seafood-market"
+          "place:huanan-seafood-market",
+          "place:china"
         ]
       },
       "source_key": "ch10-n02",
@@ -1334,11 +1226,7 @@
       ],
       "topic_ids": [
         "topic:zoonosis",
-        "topic:lab-leak-hypothesis",
-        "org:who",
-        "org:the-wall-street-journal",
-        "person:jeremy-page",
-        "place:huanan-seafood-market"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2021-03-17",
       "image_url": "https://images.wsj.net/im-312614/square?width=1280&height=1280"
@@ -1359,10 +1247,7 @@
       "book_role": "Notes citation on China’s long-term WHO influence and pandemic consequences.",
       "topics": [
         "COVID-19",
-        "SARS",
-        "WHO",
-        "The Times",
-        "Jonathan Calvert"
+        "SARS"
       ],
       "entities": {
         "people": [
@@ -1390,7 +1275,8 @@
           "org:the-sunday-times"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch10-n03",
@@ -1404,10 +1290,7 @@
       ],
       "topic_ids": [
         "topic:covid-19",
-        "topic:sars",
-        "org:who",
-        "org:the-times",
-        "person:jonathan-calvert"
+        "topic:sars"
       ],
       "date_iso": "2021-08-14",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/19da5b84-fc2e-11eb-b378-10cb54573352.jpg?amp;sourceHeight=900&#038;crop=0px%2C0px%2C1600px%2C900px&#038;w=1200&#038;strip=all&#038;format=webp"
@@ -1428,10 +1311,7 @@
       "book_role": "Notes citation for allied governments’ formal critique of the WHO–China origins study.",
       "topics": [
         "lab-leak hypothesis",
-        "zoonosis",
-        "WHO",
-        "Reuters",
-        "Tedros Adhanom Ghebreyesus"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -1456,7 +1336,10 @@
           "org:who",
           "org:reuters"
         ],
-        "places": []
+        "places": [
+          "place:china",
+          "place:united-states"
+        ]
       },
       "source_key": "ch10-n04",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -1468,10 +1351,7 @@
       ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:zoonosis",
-        "org:who",
-        "org:reuters",
-        "person:tedros-adhanom-ghebreyesus"
+        "topic:zoonosis"
       ],
       "date_iso": "2021-03-30",
       "image_url": "https://www.reuters.com/resizer/v2/Z3ARX4KDCFLLRK74Q2C5T3D2PE.jpg?auth=78916f7da9afd8686f21c937916edfa7f55b4bdb18da1a214552d17937ece687&width=1080&quality=80"
@@ -1491,10 +1371,7 @@
       "summary": "Times report that Britain, the U.S., and other countries questioned the WHO Covid origins report and demanded fuller Chinese access, while Tedros said a lab-leak pathway still needed deeper investigation despite the team ranking it least likely.",
       "book_role": "Notes citation for Tedros and allied governments pushing past the joint study’s lab-leak dismissal.",
       "topics": [
-        "lab-leak hypothesis",
-        "WHO",
-        "The Times",
-        "Tedros Adhanom Ghebreyesus"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1521,7 +1398,9 @@
           "org:the-times"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china",
+          "place:united-kingdom"
         ]
       },
       "source_key": "ch10-n05",
@@ -1533,10 +1412,7 @@
         "org:the-times"
       ],
       "topic_ids": [
-        "topic:lab-leak-hypothesis",
-        "org:who",
-        "org:the-times",
-        "person:tedros-adhanom-ghebreyesus"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2021-03-30",
       "image_url": "https://cms.thetimes.com/wp-content/uploads/image-server/production/835788c0-917b-11eb-af3b-900f1f5fe235.jpg?amp;sourceHeight=2822&#038;strip=all&#038;format=webp&#038;crop=52px%2C91px%2C4129px%2C2322px&#038;w=1200"
@@ -1557,9 +1433,7 @@
       "book_role": "Notes citation on media failure around early lab-leak coverage.",
       "topics": [
         "lab-leak hypothesis",
-        "censorship",
-        "Wuhan Institute of Virology",
-        "The Wall Street Journal"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -1595,9 +1469,7 @@
       ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:censorship",
-        "org:wuhan-institute-of-virology",
-        "org:the-wall-street-journal"
+        "topic:censorship"
       ],
       "date_iso": "2021-05-28"
     },
@@ -1674,11 +1546,7 @@
       "topics": [
         "lab-leak hypothesis",
         "censorship",
-        "BSL-4 laboratory",
-        "Ashley Rindsberg",
-        "Peter Daszak",
-        "EcoHealth Alliance",
-        "Wuhan Institute of Virology"
+        "BSL-4 laboratory"
       ],
       "entities": {
         "people": [
@@ -1719,11 +1587,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:censorship",
-        "topic:bsl-4-laboratory",
-        "person:ashley-rindsberg",
-        "person:peter-daszak",
-        "org:ecohealth-alliance",
-        "org:wuhan-institute-of-virology"
+        "topic:bsl-4-laboratory"
       ],
       "date_iso": "2021-11-16",
       "image_url": "https://tablet-mag-images.b-cdn.net/production/3d2e717445919b0df2f79b1b23f273167909a292-543x317.jpg?w=1250&q=70&auto=format&dpr=1"
@@ -1768,7 +1632,8 @@
           "org:politifact"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch10-n09",
@@ -1800,10 +1665,7 @@
       "book_role": "Notes citation for Andersen’s sworn subcommittee testimony on Proximal Origin and origins science.",
       "topics": [
         "lab-leak hypothesis",
-        "SARS-CoV-2",
-        "Kristian Andersen",
-        "U.S. House of Representatives",
-        "Nature Medicine"
+        "SARS-CoV-2"
       ],
       "entities": {
         "people": [
@@ -1834,10 +1696,7 @@
       ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:sars-cov-2",
-        "person:kristian-andersen",
-        "org:u-s-house-of-representatives",
-        "org:nature-medicine"
+        "topic:sars-cov-2"
       ],
       "date_iso": "2023-06-16"
     },
@@ -1858,10 +1717,7 @@
       "topics": [
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "censorship",
-        "Ralph Baric",
-        "Kristian Andersen",
-        "U.S. Right to Know"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -1880,7 +1736,8 @@
         "people": [
           "person:sainath-suryanarayanan",
           "person:ralph-baric",
-          "person:kristian-andersen"
+          "person:kristian-andersen",
+          "person:trevor-bedford"
         ],
         "orgs": [
           "org:u-s-right-to-know"
@@ -1898,10 +1755,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:censorship",
-        "person:ralph-baric",
-        "person:kristian-andersen",
-        "org:u-s-right-to-know"
+        "topic:censorship"
       ],
       "date_iso": "2020-12-14",
       "image_url": "https://usrtk.org/wp-content/uploads/2020/12/nas.jpg"
@@ -1922,13 +1776,7 @@
       "book_role": "Notes citation on Daszak’s hidden role in the Lancet origins letter.",
       "topics": [
         "lab-leak hypothesis",
-        "censorship",
-        "Peter Daszak",
-        "Ralph Baric",
-        "EcoHealth Alliance",
-        "The Lancet",
-        "U.S. Right to Know",
-        "Wuhan Institute of Virology"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -1951,7 +1799,8 @@
         "people": [
           "person:sainath-suryanarayanan",
           "person:peter-daszak",
-          "person:ralph-baric"
+          "person:ralph-baric",
+          "person:linfa-wang"
         ],
         "orgs": [
           "org:u-s-right-to-know",
@@ -1973,13 +1822,7 @@
       ],
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:censorship",
-        "person:peter-daszak",
-        "person:ralph-baric",
-        "org:ecohealth-alliance",
-        "org:the-lancet",
-        "org:u-s-right-to-know",
-        "org:wuhan-institute-of-virology"
+        "topic:censorship"
       ],
       "date_iso": "2021-02-15",
       "image_url": "https://usrtk.org/wp-content/uploads/2021/02/Daszak_collaborators.jpg"
@@ -2001,9 +1844,7 @@
       "topics": [
         "SARS-CoV-2",
         "censorship",
-        "lab-leak hypothesis",
-        "Jesse Bloom",
-        "NIH"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -2030,7 +1871,9 @@
           "org:financial-times"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china",
+          "place:united-states"
         ]
       },
       "source_key": "ch10-n13",
@@ -2042,9 +1885,7 @@
       "topic_ids": [
         "topic:sars-cov-2",
         "topic:censorship",
-        "topic:lab-leak-hypothesis",
-        "person:jesse-bloom",
-        "org:nih"
+        "topic:lab-leak-hypothesis"
       ],
       "date_iso": "2021-06-24",
       "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F669ec8d4-5723-4af0-bf36-2df3324880a2.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1"
@@ -2065,10 +1906,7 @@
       "book_role": "Notes citation for NIH’s CREID network launch during the pandemic.",
       "topics": [
         "COVID-19",
-        "zoonosis",
-        "NIH",
-        "NIAID",
-        "Anthony Fauci"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -2098,10 +1936,7 @@
       ],
       "topic_ids": [
         "topic:covid-19",
-        "topic:zoonosis",
-        "org:nih",
-        "org:niaid",
-        "person:anthony-fauci"
+        "topic:zoonosis"
       ],
       "date_iso": "2020-08-27",
       "image_url": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2025-03/20200827-covid.jpg?itok=CJNW668Y"

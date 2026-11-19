@@ -20,12 +20,7 @@
       "language": "en",
       "summary": "PubMed record for Kontis et al. in Nature Medicine estimating first-wave excess all-cause mortality across 21 industrialized countries by age and sex.",
       "book_role": "",
-      "topics": [
-        "excess mortality",
-        "first wave",
-        "all-cause mortality",
-        "industrialized countries"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Vasilis Kontis"
@@ -54,7 +49,8 @@
       ],
       "publication_ids": [
         "org:nature-medicine"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 2,
@@ -70,12 +66,7 @@
       "language": "fi",
       "summary": "Finnish Safety Investigation Authority report on the first phase of the 2020 coronavirus epidemic in Finland.",
       "book_role": "",
-      "topics": [
-        "Finland",
-        "first phase",
-        "safety investigation",
-        "epidemic response"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -86,9 +77,7 @@
           "Finland"
         ]
       },
-      "topic_ids": [
-        "place:finland"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [],
@@ -116,12 +105,7 @@
       "language": "en",
       "summary": "STAT report on University of Hong Kong researchers documenting the first confirmed COVID-19 reinfection—a 33-year-old man re-infected months later with a genetically distinct virus—raising questions about immunity durability.",
       "book_role": "",
-      "topics": [
-        "Hong Kong",
-        "reinfection",
-        "immunity",
-        "viral sequencing"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Maria Van Kerkhove",
@@ -152,9 +136,7 @@
           "place:europe"
         ]
       },
-      "topic_ids": [
-        "place:hong-kong"
-      ],
+      "topic_ids": [],
       "source_key": "ch08-s03",
       "date_iso": "2020-08-24",
       "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/GettyImages-1225250385-1024x576.jpg",
@@ -180,12 +162,7 @@
       "language": "en",
       "summary": "WHO landing page for historical working definitions and primary actions on SARS-CoV-2 variants (TAG-VE), with a downloadable PDF annex of prior VOC definitions. Only the thin landing page was retrieved.",
       "book_role": "",
-      "topics": [
-        "WHO",
-        "variants",
-        "VOC definitions",
-        "TAG-VE"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -194,9 +171,7 @@
         ],
         "places": []
       },
-      "topic_ids": [
-        "org:who"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [],
         "orgs": [
@@ -226,12 +201,7 @@
       "language": "en",
       "summary": "Pfizer–BioNTech press release announcing BNT162b2 exceeded 90% efficacy in the first Phase 3 interim analysis (94 cases), with no serious safety concerns reported and EUA submission planned after the safety milestone.",
       "book_role": "",
-      "topics": [
-        "mRNA vaccine",
-        "Phase 3",
-        "BNT162b2",
-        "EUA"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Albert Bourla",
@@ -259,7 +229,8 @@
       "date_iso": "2020-11-09",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 6,
@@ -275,11 +246,7 @@
       "language": "en",
       "summary": "BBC coverage of the Pfizer–BioNTech interim result: more than 90% protection from two doses, trials across six countries, and plans to seek emergency approval by month’s end.",
       "book_role": "",
-      "topics": [
-        "vaccine efficacy",
-        "Pfizer-BioNTech",
-        "emergency approval"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "James Gallagher",
@@ -288,7 +255,6 @@
         ],
         "orgs": [
           "BBC News",
-          "BBC",
           "Pfizer",
           "BioNTech"
         ],
@@ -312,7 +278,8 @@
       },
       "publication_ids": [
         "org:bbc-news"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 7,
@@ -329,10 +296,7 @@
       "summary": "EU Commission/UNESCO guide listing traits of conspiracy theories and, under COVID-19, explicitly treating claims that the virus was artificially created in a laboratory as dangerous conspiracy theories—guidance that remains online.",
       "book_role": "European Commission guide that branded lab-manipulation claims as dangerous conspiracy theories.",
       "topics": [
-        "lab-leak hypothesis",
-        "conspiracy theories",
-        "disinformation",
-        "European Commission"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
@@ -377,12 +341,7 @@
       "language": "en",
       "summary": "Mail on Sunday investigation alleging the MoD’s 77th Brigade and related information-warfare units compiled dossiers on lockdown critics—including Peter Hitchens, Toby Young, and David Davis—and fed them to No 10.",
       "book_role": "",
-      "topics": [
-        "77th Brigade",
-        "lockdown critics",
-        "surveillance",
-        "information warfare"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Glen Owen",
@@ -419,7 +378,8 @@
       "publication_ids": [
         "org:daily-mail"
       ],
-      "image_url": "https://i.dailymail.com/1s/2026/09/10/23/111177623-0-image-a-4_1789080576211.jpg"
+      "image_url": "https://i.dailymail.com/1s/2026/09/10/23/111177623-0-image-a-4_1789080576211.jpg",
+      "topic_ids": []
     },
     {
       "id": 9,
@@ -438,8 +398,7 @@
       "topics": [
         "pangolins",
         "intermediate host",
-        "zoonosis",
-        "pangolin-CoV-2020"
+        "zoonosis"
       ],
       "entities": {
         "people": [
@@ -497,12 +456,7 @@
       "language": "en",
       "summary": "New York Times investigation of how China’s post-SARS contagion-alert system failed in the early COVID outbreak.",
       "book_role": "",
-      "topics": [
-        "disease surveillance",
-        "China early warning",
-        "SARS lessons",
-        "outbreak failure"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Steven Myers",
@@ -538,7 +492,8 @@
       ],
       "publication_ids": [
         "org:the-new-york-times"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 11,
@@ -554,11 +509,7 @@
       "language": "en",
       "summary": "Asia Times piece on Beijing trying to reverse the COVID origins blame narrative. Only a browser-check interstitial was retrieved.",
       "book_role": "",
-      "topics": [
-        "origins narrative",
-        "China propaganda",
-        "blame game"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Frank Chen"
@@ -589,7 +540,8 @@
       ],
       "publication_ids": [
         "org:asia-times"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 12,
@@ -605,12 +557,7 @@
       "language": "en",
       "summary": "CNN report that Trump claimed high confidence the virus came from a Wuhan lab—contradicting the same-day ODNI statement that intel was still examining lab accident versus animal contact and had not made that assessment.",
       "book_role": "",
-      "topics": [
-        "Wuhan Institute of Virology",
-        "Donald Trump",
-        "ODNI",
-        "intelligence assessment"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Donald Trump",
@@ -619,6 +566,7 @@
         ],
         "orgs": [
           "CNN",
+          "Wuhan Institute of Virology",
           "Office of the Director of National Intelligence"
         ],
         "places": [
@@ -627,10 +575,7 @@
           "United States"
         ]
       },
-      "topic_ids": [
-        "org:wuhan-institute-of-virology",
-        "person:donald-trump"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:donald-trump",
@@ -638,7 +583,8 @@
           "person:zachary-cohen"
         ],
         "orgs": [
-          "org:cnn"
+          "org:cnn",
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan",
@@ -671,11 +617,7 @@
       "language": "en",
       "summary": "ABC News YouTube clip of Pompeo calling China’s coronavirus response a classic communist disinformation effort.",
       "book_role": "",
-      "topics": [
-        "Mike Pompeo",
-        "disinformation",
-        "China response"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Mike Pompeo",
@@ -707,9 +649,7 @@
       "source_key": "ch08-s13",
       "date_iso": "2020-05-03",
       "acquisition_note": "Embedded YouTube player; text scrape skipped by policy.",
-      "topic_ids": [
-        "person:mike-pompeo"
-      ],
+      "topic_ids": [],
       "author_ids": [
         "person:martha-raddatz"
       ],
@@ -732,10 +672,7 @@
       "summary": "Guardian piece citing Five Eyes sources saying there was then no evidence of a Wuhan lab leak, distancing allied intel from White House claims and from the Australian Daily Telegraph’s 15-page dossier.",
       "book_role": "",
       "topics": [
-        "Five Eyes",
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology",
-        "dossier"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -755,9 +692,7 @@
         ]
       },
       "topic_ids": [
-        "org:five-eyes",
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology"
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [
@@ -801,12 +736,7 @@
       "language": "en",
       "summary": "Australian Daily Telegraph report on a 15-page Western-government research dossier alleging China suppressed outbreak evidence—silencing doctors, destroying lab evidence, and refusing live samples—costing many lives.",
       "book_role": "Markson dossier reporting contrasted with anonymous Five Eyes pushback.",
-      "topics": [
-        "dossier",
-        "China cover-up",
-        "bat virus program",
-        "transparency"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Sharri Markson"
@@ -841,7 +771,8 @@
       "author_ids": [
         "person:sharri-markson"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 16,
@@ -857,12 +788,7 @@
       "language": "en",
       "summary": "Archived ODNI press release page for the April 30, 2020 Intelligence Community statement on COVID-19 origins—publicly affirming the virus was ‘not manmade or genetically modified’ while saying agencies were examining natural contact versus lab accident.",
       "book_role": "April 2020 ODNI statement aligning the IC with “not manmade or genetically modified.”",
-      "topics": [
-        "ODNI",
-        "not manmade",
-        "lab accident vs natural",
-        "intelligence community"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -887,7 +813,8 @@
       "date_iso": "2020-04-30",
       "acquisition_note": "Archive chrome dominates the scrape; statement substance confirmed via contemporaneous reporting (s12/s17) and chapter notes.",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 17,
@@ -903,16 +830,11 @@
       "language": "en",
       "summary": "WSJ report that ODNI publicly confirmed investigating a possible Wuhan lab escape while also stating Covid-19 was not manmade or genetically modified.",
       "book_role": "",
-      "topics": [
-        "Wuhan",
-        "lab accident investigation",
-        "ODNI statement"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Warren Strobel",
-          "Dustin Volz",
-          "Warren P. Strobel"
+          "Dustin Volz"
         ],
         "orgs": [
           "The Wall Street Journal",
@@ -938,9 +860,7 @@
           "place:united-states"
         ]
       },
-      "topic_ids": [
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "source_key": "ch08-s17",
       "date_iso": "2020-04-30",
       "image_url": "https://images.wsj.net/im-11136007?width=330&height=185",
@@ -968,10 +888,7 @@
       "summary": "Archived Project Evidence open dossier arguing SARS-CoV-2 emerged from a Wuhan biological laboratory, structured around claims that the virus was present at a Wuhan lab and may have begun from an infected worker or animal, with references including pre-pandemic coronavirus experiments.",
       "book_role": "",
       "topics": [
-        "Project Evidence",
-        "lab-leak hypothesis",
-        "Wuhan Institute of Virology",
-        "open-source investigation"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
@@ -985,9 +902,7 @@
         ]
       },
       "topic_ids": [
-        "org:project-evidence",
-        "topic:lab-leak-hypothesis",
-        "org:wuhan-institute-of-virology"
+        "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
         "people": [],
@@ -1019,12 +934,7 @@
       "language": "en",
       "summary": "2019 JBC paper using TGEV as an alphacoronavirus model: a conserved nsp1 motif inhibits host gene expression and is critical for virulence; recombinant virus work explores attenuation. Listed among Project Evidence references (chapter notes).",
       "book_role": "Pre-pandemic chimeric/bat-coronavirus experiment cited via Project Evidence.",
-      "topics": [
-        "nsp1",
-        "alphacoronavirus",
-        "virulence",
-        "TGEV"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Shen Zhou"
@@ -1050,7 +960,8 @@
       "author_ids": [
         "person:shen-zhou"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 20,
@@ -1066,16 +977,10 @@
       "language": "en",
       "summary": "SCMP report that the Shanghai lab which first released the SARS-CoV-2 genome was ordered closed for ‘rectification,’ hampering research. Headline and lead retrieved; body behind login.",
       "book_role": "",
-      "topics": [
-        "genome sequence",
-        "Shanghai laboratory",
-        "rectification",
-        "Zhang Yongzhen"
-      ],
+      "topics": [],
       "entities": {
         "people": [
-          "Pinghui Zhuang",
-          "Zhuang Pinghui"
+          "Pinghui Zhuang"
         ],
         "orgs": [
           "South China Morning Post"
@@ -1106,7 +1011,8 @@
       ],
       "publication_ids": [
         "org:south-china-morning-post"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 21,
@@ -1122,16 +1028,10 @@
       "language": "en",
       "summary": "Straits Times / Caixin investigation: Chinese labs sequenced a SARS-like virus by late December—days before WHO notification and weeks before public confirmation of human-to-human spread—while alerts failed to trigger a public response.",
       "book_role": "",
-      "topics": [
-        "early sequencing",
-        "Caixin investigation",
-        "alert system failure",
-        "Wuhan pneumonia"
-      ],
+      "topics": [],
       "entities": {
         "people": [
-          "Yu Gao",
-          "Gao Yu"
+          "Yu Gao"
         ],
         "orgs": [
           "WHO",
@@ -1164,7 +1064,8 @@
       "author_ids": [
         "person:yu-gao"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 22,
@@ -1181,10 +1082,7 @@
       "summary": "Josh Rogin opinion based on 2018 U.S. Embassy cables warning of safety and staffing weaknesses at WIV’s BSL-4 bat-coronavirus research—and the risk of a SARS-like pandemic—years before COVID.",
       "book_role": "Rogin’s State Department cables warning about safety problems at the Wuhan lab.",
       "topics": [
-        "bat coronaviruses",
-        "Shi Zhengli",
-        "State Department cables",
-        "WIV biosafety"
+        "bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -1205,8 +1103,7 @@
         ]
       },
       "topic_ids": [
-        "topic:bat-coronaviruses",
-        "person:shi-zhengli"
+        "topic:bat-coronaviruses"
       ],
       "entity_ids": {
         "people": [
@@ -1248,12 +1145,7 @@
       "language": "en",
       "summary": "Minerva article presenting the Sørensen–Dalgleish–Susrud paper arguing SARS-CoV-2’s spike inserts and stability make a laboratory origin the most logical explanation, with interview commentary from Birger Sørensen.",
       "book_role": "",
-      "topics": [
-        "Birger Sørensen",
-        "spike protein inserts",
-        "non-natural origin",
-        "Angus Dalgleish"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Birger Sørensen",
@@ -1267,9 +1159,7 @@
           "Norway"
         ]
       },
-      "topic_ids": [
-        "person:birger-s-rensen"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:birger-s-rensen",
@@ -1302,10 +1192,7 @@
       "summary": "Telegraph exclusive: former MI6 chief Sir Richard Dearlove says COVID began as a Chinese lab accident, citing the Sørensen–Dalgleish report on inserted spike features, and raising the prospect of Chinese reparations.",
       "book_role": "",
       "topics": [
-        "Richard Dearlove",
-        "lab-leak hypothesis",
-        "MI6",
-        "reparations"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1324,7 +1211,6 @@
         ]
       },
       "topic_ids": [
-        "person:richard-dearlove",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -1370,8 +1256,7 @@
       "book_role": "Notes citation on early political pressure shaping official COVID disinformation narratives.",
       "topics": [
         "censorship",
-        "COVID-19",
-        "The New York Times"
+        "COVID-19"
       ],
       "entities": {
         "people": [
@@ -1383,8 +1268,8 @@
         ],
         "places": [
           "Europe",
-          "Brussels",
-          "China"
+          "China",
+          "Brussels"
         ]
       },
       "entity_ids": {
@@ -1395,7 +1280,8 @@
           "org:the-new-york-times"
         ],
         "places": [
-          "place:europe"
+          "place:europe",
+          "place:china"
         ]
       },
       "source_key": "ch08-n01",
@@ -1408,8 +1294,7 @@
       ],
       "topic_ids": [
         "topic:censorship",
-        "topic:covid-19",
-        "org:the-new-york-times"
+        "topic:covid-19"
       ],
       "date_iso": "2020-04-24"
     },
@@ -1428,9 +1313,6 @@
       "summary": "Archived May 2019 English WIV ‘Partnerships’ page listing international collaborators before the pandemic, including EcoHealth Alliance, NIH, Institut Pasteur, Lyon P4, and multiple U.S. and European universities.",
       "book_role": "Notes citation preserving WIV’s pre-pandemic international partnership roster.",
       "topics": [
-        "Wuhan Institute of Virology",
-        "EcoHealth Alliance",
-        "NIH",
         "BSL-4 laboratory"
       ],
       "entities": {
@@ -1457,7 +1339,9 @@
           "org:chinese-academy-of-sciences"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:france",
+          "place:united-states"
         ]
       },
       "source_key": "ch08-n02",
@@ -1467,9 +1351,6 @@
         "org:wuhan-institute-of-virology"
       ],
       "topic_ids": [
-        "org:wuhan-institute-of-virology",
-        "org:ecohealth-alliance",
-        "org:nih",
         "topic:bsl-4-laboratory"
       ],
       "date_iso": "2019-05-29",
@@ -1492,10 +1373,7 @@
       "topics": [
         "BSL-4 laboratory",
         "biosafety",
-        "biosecurity",
-        "Wuhan Institute of Virology",
-        "Chinese Academy of Sciences",
-        "U.S. Right to Know"
+        "biosecurity"
       ],
       "entities": {
         "people": [],
@@ -1519,7 +1397,10 @@
           "org:u-s-right-to-know"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:beijing",
+          "place:china",
+          "place:france"
         ]
       },
       "source_key": "ch08-n03",
@@ -1531,10 +1412,7 @@
       "topic_ids": [
         "topic:bsl-4-laboratory",
         "topic:biosafety",
-        "topic:biosecurity",
-        "org:wuhan-institute-of-virology",
-        "org:chinese-academy-of-sciences",
-        "org:u-s-right-to-know"
+        "topic:biosecurity"
       ]
     },
     {
@@ -1555,14 +1433,13 @@
         "lab-leak hypothesis",
         "SARS-CoV-2",
         "bat coronaviruses",
-        "reverse genetics",
-        "Daily Mail"
+        "reverse genetics"
       ],
       "entities": {
         "people": [
           "Josh Boswell",
-          "Angus Dalgleish",
-          "Birger Sørensen"
+          "Birger Sørensen",
+          "Angus Dalgleish"
         ],
         "orgs": [
           "Daily Mail"
@@ -1574,13 +1451,15 @@
       },
       "entity_ids": {
         "people": [
-          "person:josh-boswell"
+          "person:josh-boswell",
+          "person:birger-s-rensen"
         ],
         "orgs": [
           "org:daily-mail"
         ],
         "places": [
-          "place:wuhan"
+          "place:wuhan",
+          "place:china"
         ]
       },
       "source_key": "ch08-n04",
@@ -1595,8 +1474,7 @@
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
         "topic:bat-coronaviruses",
-        "topic:reverse-genetics",
-        "org:daily-mail"
+        "topic:reverse-genetics"
       ],
       "date_iso": "2021-05-28",
       "image_url": "https://i.dailymail.com/1s/2026/09/11/20/111197649-0-image-a-99_1789156755660.jpg"
@@ -1668,8 +1546,7 @@
       "book_role": "Notes citation for WHO’s mid-2020 framing of how COVID spreads and what precautions follow.",
       "topics": [
         "SARS-CoV-2",
-        "COVID-19",
-        "WHO"
+        "COVID-19"
       ],
       "entities": {
         "people": [],
@@ -1693,8 +1570,7 @@
       ],
       "topic_ids": [
         "topic:sars-cov-2",
-        "topic:covid-19",
-        "org:who"
+        "topic:covid-19"
       ],
       "date_iso": "2020-07-09",
       "image_url": "https://www.who.int/images/default-source/searo---images/health-topics/corona-virus19/coronavirus-blue.tmb-1200v.jpg?Culture=en&amp;sfvrsn=1bdbbe71_6"

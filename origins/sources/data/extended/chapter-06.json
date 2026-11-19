@@ -22,9 +22,7 @@
       "book_role": "",
       "topics": [
         "gain-of-function research",
-        "biosafety",
-        "laboratory escapes",
-        "potential pandemic pathogens"
+        "biosafety"
       ],
       "entities": {
         "people": [
@@ -72,12 +70,7 @@
       "language": "en",
       "summary": "Washington Post investigation of early Chinese official secrecy and missteps that likely let the virus spread farther and faster.",
       "book_role": "",
-      "topics": [
-        "Wuhan",
-        "Chinese secrecy",
-        "early outbreak response",
-        "information control"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Gerry Shih",
@@ -105,9 +98,7 @@
           "place:china"
         ]
       },
-      "topic_ids": [
-        "place:wuhan"
-      ],
+      "topic_ids": [],
       "source_key": "ch06-s02",
       "date_iso": "2020-02-01",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
@@ -133,12 +124,7 @@
       "language": "en",
       "summary": "Guardian report on citizen journalist Chen Qiushi going missing in Wuhan amid anger after Li Wenliang’s death, with claims authorities were silencing another whistleblower.",
       "book_role": "",
-      "topics": [
-        "Li Wenliang",
-        "Chen Qiushi",
-        "whistleblowers",
-        "media suppression"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Li Wenliang",
@@ -153,9 +139,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "person:li-wenliang"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:li-wenliang",
@@ -194,12 +178,7 @@
       "language": "en",
       "summary": "U.S. Global Engagement Center report tracking Russia-linked personas amplifying coronavirus themes in multiple languages from late January 2020 as part of a broader disinformation apparatus.",
       "book_role": "",
-      "topics": [
-        "GEC",
-        "Russian disinformation",
-        "coronavirus propaganda",
-        "narrative control"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -230,7 +209,8 @@
       "date_iso": "2020-02-14",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "topic_ids": []
     },
     {
       "id": 5,
@@ -246,11 +226,7 @@
       "language": "en",
       "summary": "France 24/AFP report summarizing U.S. claims that a Russia-linked campaign was fueling coronavirus alarm and related narratives online.",
       "book_role": "",
-      "topics": [
-        "Russian disinformation",
-        "U.S. government messaging",
-        "coronavirus alarm"
-      ],
+      "topics": [],
       "entities": {
         "people": [],
         "orgs": [
@@ -280,7 +256,8 @@
       "author_ids": [],
       "publication_ids": [
         "org:france-24"
-      ]
+      ],
+      "topic_ids": []
     },
     {
       "id": 6,
@@ -297,10 +274,7 @@
       "summary": "FOIA-released State Department analysis arguing there is no smoking-gun proof of a lab leak but substantial circumstantial evidence pointing to Wuhan CDC and WIV as the least probed, most plausible sources.",
       "book_role": "",
       "topics": [
-        "Wuhan Institute of Virology",
-        "lab-leak hypothesis",
-        "circumstantial evidence",
-        "Wuhan CDC"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [],
@@ -318,7 +292,6 @@
         ]
       },
       "topic_ids": [
-        "org:wuhan-institute-of-virology",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -357,10 +330,7 @@
       "summary": "Business Insider coverage of Sen. Tom Cotton suggesting at a Senate hearing that the coronavirus—‘worse than Chernobyl’—might have come from a Chinese ‘superlaboratory’ and that Beijing had misled about the outbreak.",
       "book_role": "",
       "topics": [
-        "Tom Cotton",
-        "lab-leak hypothesis",
-        "superlaboratory",
-        "China transparency"
+        "lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -379,7 +349,6 @@
         ]
       },
       "topic_ids": [
-        "person:tom-cotton",
         "topic:lab-leak-hypothesis"
       ],
       "entity_ids": {
@@ -419,11 +388,7 @@
       "language": "en",
       "summary": "New York Times piece framing Cotton’s Wuhan-lab comments as a fringe origin theory.",
       "book_role": "",
-      "topics": [
-        "Tom Cotton",
-        "fringe theory framing",
-        "media narrative"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Tom Cotton",
@@ -450,9 +415,7 @@
           "place:united-states"
         ]
       },
-      "topic_ids": [
-        "person:tom-cotton"
-      ],
+      "topic_ids": [],
       "source_key": "ch06-s08",
       "date_iso": "2020-02-17",
       "acquisition_note": "Live NYT blocked; replaced with earliest Internet Archive capture. Scraped via browser.",
@@ -477,11 +440,7 @@
       "language": "en",
       "summary": "Washington Post politics piece that originally called Cotton’s Wuhan-research comments a debunked conspiracy theory; a later correction removed ‘debunked’/‘conspiracy theory’ language. Only partial text retrieved.",
       "book_role": "",
-      "topics": [
-        "Tom Cotton",
-        "conspiracy theory framing",
-        "media correction"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Tom Cotton",
@@ -510,9 +469,7 @@
           "place:united-states"
         ]
       },
-      "topic_ids": [
-        "person:tom-cotton"
-      ],
+      "topic_ids": [],
       "source_key": "ch06-s09",
       "date_iso": "2020-02-17",
       "image_url": "https://palomaimages.washingtonpost.com/prod/512x288_TodaysHeadlines_tstmp_1623893120.jpg",
@@ -539,11 +496,8 @@
       "summary": "Nature Medicine correspondence arguing SARS-CoV-2 is not a laboratory construct and that no laboratory-based scenario is plausible—the paper that became the scientific centerpiece of ‘natural origin’ certainty.",
       "book_role": "The Nature Medicine “Proximal Origin” paper that declared a laboratory origin implausible.",
       "topics": [
-        "The proximal origin of SARS-CoV-2",
         "SARS-CoV-2",
-        "furin cleavage site",
-        "natural origin",
-        "lab leak dismissal"
+        "furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -562,7 +516,6 @@
         ]
       },
       "topic_ids": [
-        "work:the-proximal-origin-of-sars-cov-2",
         "topic:sars-cov-2",
         "topic:furin-cleavage-site"
       ],
@@ -580,6 +533,9 @@
         "places": [
           "place:wuhan",
           "place:china"
+        ],
+        "works": [
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "source_key": "ch06-s10",
@@ -607,12 +563,7 @@
       "language": "en",
       "summary": "USRTK FOIA-based report that EcoHealth’s Peter Daszak drafted The Lancet statement condemning lab-origin ‘conspiracy theories,’ intending it not to look like it came from any one organization.",
       "book_role": "",
-      "topics": [
-        "Lancet letter (February 2020)",
-        "Peter Daszak",
-        "EcoHealth Alliance",
-        "FOIA emails"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -630,11 +581,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "work:lancet-letter-february-2020",
-        "person:peter-daszak",
-        "org:ecohealth-alliance"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -650,6 +597,9 @@
         "places": [
           "place:united-states",
           "place:wuhan"
+        ],
+        "works": [
+          "work:lancet-letter-february-2020"
         ]
       },
       "source_key": "ch06-s11",
@@ -679,9 +629,7 @@
       "book_role": "",
       "topics": [
         "lab-leak hypothesis",
-        "furin cleavage site",
-        "The proximal origin of SARS-CoV-2",
-        "NIH FOIA"
+        "furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -698,18 +646,21 @@
       },
       "topic_ids": [
         "topic:lab-leak-hypothesis",
-        "topic:furin-cleavage-site",
-        "work:the-proximal-origin-of-sars-cov-2"
+        "topic:furin-cleavage-site"
       ],
       "entity_ids": {
         "people": [
-          "person:nicholas-wade"
+          "person:nicholas-wade",
+          "person:jimmy-tobias"
         ],
         "orgs": [
           "org:nih"
         ],
         "places": [
           "place:united-states"
+        ],
+        "works": [
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "source_key": "ch06-s12",
@@ -736,10 +687,7 @@
       "summary": "Detailed USRTK timeline of how five virologists moved from overnight alarm about the furin cleavage site to publishing Nature Medicine’s claim that no lab scenario was plausible.",
       "book_role": "",
       "topics": [
-        "furin cleavage site",
-        "Nature Medicine",
-        "The proximal origin of SARS-CoV-2",
-        "Wuhan Institute of Virology"
+        "furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -748,7 +696,8 @@
         ],
         "orgs": [
           "U.S. Right to Know",
-          "Nature Medicine"
+          "Nature Medicine",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -762,18 +711,19 @@
         ],
         "orgs": [
           "org:u-s-right-to-know",
-          "org:nature-medicine"
+          "org:nature-medicine",
+          "org:wuhan-institute-of-virology"
         ],
         "places": [
           "place:wuhan",
           "place:china"
+        ],
+        "works": [
+          "work:the-proximal-origin-of-sars-cov-2"
         ]
       },
       "topic_ids": [
-        "topic:furin-cleavage-site",
-        "org:nature-medicine",
-        "work:the-proximal-origin-of-sars-cov-2",
-        "org:wuhan-institute-of-virology"
+        "topic:furin-cleavage-site"
       ],
       "source_key": "ch06-s13",
       "date_iso": "2023-04-11",
@@ -800,12 +750,7 @@
       "language": "en",
       "summary": "Lancet multi-author statement supporting Chinese scientists and condemning conspiracy theories that COVID-19 lacked a natural origin.",
       "book_role": "",
-      "topics": [
-        "Lancet letter (February 2020)",
-        "natural origin",
-        "conspiracy theories",
-        "China scientists"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Peter Daszak",
@@ -819,9 +764,7 @@
           "Wuhan"
         ]
       },
-      "topic_ids": [
-        "work:lancet-letter-february-2020"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:peter-daszak",
@@ -833,6 +776,9 @@
         "places": [
           "place:china",
           "place:wuhan"
+        ],
+        "works": [
+          "work:lancet-letter-february-2020"
         ]
       },
       "source_key": "ch06-s14",
@@ -859,12 +805,7 @@
       "language": "en",
       "summary": "Science news coverage of the 27-scientist Lancet statement condemning rumors that COVID-19 came from a Wuhan lab and warning that such talk threatened open data sharing.",
       "book_role": "",
-      "topics": [
-        "Lancet letter (February 2020)",
-        "conspiracy theories",
-        "Wuhan lab rumors",
-        "scientific messaging"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jon Cohen"
@@ -878,9 +819,7 @@
           "China"
         ]
       },
-      "topic_ids": [
-        "work:lancet-letter-february-2020"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jon-cohen"
@@ -892,6 +831,9 @@
         "places": [
           "place:wuhan",
           "place:china"
+        ],
+        "works": [
+          "work:lancet-letter-february-2020"
         ]
       },
       "source_key": "ch06-s15",
@@ -919,11 +861,7 @@
       "language": "en",
       "summary": "Jeremy Farrar’s memoir Spike, his insider account of early pandemic science and policy.",
       "book_role": "",
-      "topics": [
-        "Jeremy Farrar",
-        "Wellcome Trust",
-        "early pandemic insider account"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jeremy Farrar",
@@ -938,10 +876,7 @@
           "United Kingdom"
         ]
       },
-      "topic_ids": [
-        "person:jeremy-farrar",
-        "org:wellcome-trust"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jeremy-farrar",
@@ -979,11 +914,7 @@
       "language": "en",
       "summary": "Reuters report that WHO appointed Jeremy Farrar as chief scientist in 2022, succeeding Soumya Swaminathan amid a broader agency shakeup.",
       "book_role": "",
-      "topics": [
-        "Jeremy Farrar",
-        "Tedros Adhanom Ghebreyesus",
-        "WHO chief scientist"
-      ],
+      "topics": [],
       "entities": {
         "people": [
           "Jeremy Farrar",
@@ -1001,10 +932,7 @@
           "Switzerland"
         ]
       },
-      "topic_ids": [
-        "person:jeremy-farrar",
-        "person:tedros-adhanom-ghebreyesus"
-      ],
+      "topic_ids": [],
       "entity_ids": {
         "people": [
           "person:jeremy-farrar",
@@ -1049,11 +977,7 @@
       "topics": [
         "lab-leak hypothesis",
         "SARS-CoV-2",
-        "censorship",
-        "Kristian Andersen",
-        "Nature Medicine",
-        "EcoHealth Alliance",
-        "U.S. Right to Know"
+        "censorship"
       ],
       "entities": {
         "people": [
@@ -1092,11 +1016,7 @@
       "topic_ids": [
         "topic:lab-leak-hypothesis",
         "topic:sars-cov-2",
-        "topic:censorship",
-        "person:kristian-andersen",
-        "org:nature-medicine",
-        "org:ecohealth-alliance",
-        "org:u-s-right-to-know"
+        "topic:censorship"
       ],
       "date_iso": "2023-04-20",
       "image_url": "https://usrtk.org/wp-content/uploads/2023/12/garry-andersen-scaled.jpeg"
