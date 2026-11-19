@@ -699,9 +699,12 @@ img {
 .sources-page .sources-intro { margin-top: 1rem; font-size: 1rem; line-height: 1.75; color: hsl(var(--muted-foreground)); }
 
 /* Authority keyword search (MiniSearch) */
-.sources-page .sources-search {
+.sources-page .sources-search,
+.sources-page #sources-search {
   position: relative;
   margin-top: 1.5rem;
+  /* Clear sticky header + a few px when pinning Search from keyword links. */
+  scroll-margin-top: calc(4.5rem + 12px);
 }
 .sources-page .sources-search-controls {
   display: block;
@@ -836,9 +839,6 @@ img {
   flex-direction: column;
   gap: 1.25rem;
 }
-.sources-page .catalog-shelves.is-filtered {
-  opacity: 0.55;
-}
 .sources-page .catalog-shelf-title {
   display: block;
   margin: 0 0 0.5rem;
@@ -852,8 +852,8 @@ img {
 }
 .sources-page #sources-chapters,
 .sources-page #chapters-label {
-  /* Clear the sticky site header when pinning Chapters on picker open. */
-  scroll-margin-top: 4.5rem;
+  /* Clear the sticky site header + a few px when pinning Chapters from chapter links. */
+  scroll-margin-top: calc(4.5rem + 12px);
 }
 .sources-page .catalog-shelf #chapter-list,
 .sources-page .catalog-chapter-picker {
@@ -972,94 +972,13 @@ img {
     display: block;
   }
 }
-.sources-page .catalog-shelf-examples {
-  margin-top: 0;
-}
-@media (max-width: 639px) {
-  /* Most cited chips: desktop/tablet only — too noisy on narrow viewports. */
-  .sources-page .catalog-shelf-examples {
-    display: none;
-  }
-}
-/* Source / chapter entry views: keep banner; hide catalog chrome.
-   Source also drops the page H1 (breadcrumb replaces it).
-   Chapter keeps Back to top (long notes); source hides it. */
-.sources-page.sources-entry-source #sources-top,
-.sources-page.sources-entry-source .sources-intro,
-.sources-page.sources-entry-source .sources-search,
-.sources-page.sources-entry-source .catalog-shelves,
-.sources-page.sources-entry-source #back-to-top,
-.sources-page.sources-entry-chapter .sources-intro,
-.sources-page.sources-entry-chapter .sources-search,
-.sources-page.sources-entry-chapter .catalog-shelves {
+/* Individual Source reading view: strip catalog chrome; card (+ optional ← Back) only. */
+.sources-page.sources-view-source #sources-top,
+.sources-page.sources-view-source .sources-intro,
+.sources-page.sources-view-source .sources-search,
+.sources-page.sources-view-source .catalog-shelves,
+.sources-page.sources-view-source #back-to-top {
   display: none;
-}
-.sources-page .source-entry-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.5rem;
-  margin: 1.25rem 0 0;
-  padding: 0;
-}
-.sources-page .source-entry-nav-link {
-  font-size: 0.9375rem;
-  font-weight: 600;
-  color: hsl(var(--accent));
-  text-decoration: none;
-}
-.sources-page .source-entry-nav-link:hover,
-.sources-page .source-entry-nav-link:focus-visible {
-  text-decoration: underline;
-  outline: none;
-}
-.sources-page .catalog-explore {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: transparent;
-}
-.sources-page .catalog-explore-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  min-height: 2.25rem;
-  padding: 0.35rem 0.85rem;
-  border: 1px solid hsl(var(--border));
-  border-radius: var(--radius);
-  background: hsl(var(--card));
-  color: hsl(var(--foreground));
-  font: inherit;
-  font-size: 0.9375rem;
-  line-height: 1.4;
-  cursor: pointer;
-}
-.sources-page .catalog-explore-chip:hover,
-.sources-page .catalog-explore-chip:focus-visible {
-  border-color: hsl(var(--accent));
-  color: hsl(var(--accent));
-  outline: none;
-}
-.sources-page .catalog-explore-chip.active {
-  border-color: hsl(var(--accent));
-  background: hsl(var(--accent) / 0.08);
-  color: hsl(var(--accent));
-  font-weight: 600;
-}
-.sources-page .catalog-explore-chip-label {
-  font-weight: inherit;
-}
-.sources-page .catalog-explore-chip-meta {
-  font-size: inherit;
-  font-variant-numeric: tabular-nums;
-  color: hsl(var(--muted-foreground));
-}
-.sources-page .catalog-explore-chip.active .catalog-explore-chip-meta,
-.sources-page .catalog-explore-chip:hover .catalog-explore-chip-meta {
-  color: inherit;
-  opacity: 0.85;
 }
 /* Chapter title above Sources list + "Notes to Chapter N" — same section-head recipe. */
 .sources-page #sources-heading,
@@ -1410,7 +1329,7 @@ img {
   text-decoration: underline;
   text-underline-offset: 0.15rem;
 }
-.sources-page #sources-heading { scroll-margin-top: 1.25rem; }
+.sources-page #sources-heading { scroll-margin-top: 4.5rem; }
 /* Hide the shared audiobook strip on the Sources page only. */
 .sources-page .audiobook-announcement { display: none; }
 /* Back-to-top lands just above the "Sources and Notes" title with a comfortable margin. */
@@ -1539,12 +1458,12 @@ img {
   border: 1px solid hsl(var(--border));
   align-self: start;
 }
-/* Source page only (not search/explore lists): larger desktop thumb. */
+/* Single-source panel only (not search lists): larger desktop thumb. */
 @media (min-width: 640px) {
-  .sources-page.sources-entry-source .catalog-card-layout--media {
+  .sources-page.sources-view-source .catalog-card-layout--media {
     grid-template-columns: minmax(0, 1fr) 7rem;
   }
-  .sources-page.sources-entry-source .catalog-card-media {
+  .sources-page.sources-view-source .catalog-card-media {
     width: 7rem;
     height: 5.25rem;
   }

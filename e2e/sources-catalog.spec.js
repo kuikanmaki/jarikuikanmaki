@@ -12,15 +12,21 @@ function isMobile(projectName) {
   return projectName === "mobile";
 }
 
+async function expectStableChrome(page) {
+  await expect(page.locator("#sources-top")).toBeVisible();
+  await expect(page.locator(".sources-intro")).toBeVisible();
+  await expect(page.locator("#sources-search")).toBeVisible();
+  await expect(page.locator("#catalog-shelves")).toBeVisible();
+  await expect(page.locator("#sources-chapters")).toBeVisible();
+}
+
 test.describe("Sources catalog smoke", () => {
   test("idle catalog chrome is ready", async ({ page }, testInfo) => {
     await waitForCatalog(page);
 
-    await expect(page.locator(".sources-intro")).toBeVisible();
-    await expect(page.locator("#sources-search")).toBeVisible();
-    await expect(page.locator("#catalog-shelves")).toBeVisible();
-    await expect(page.locator("body")).not.toHaveClass(/sources-entry-source/);
-    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
+    await expectStableChrome(page);
+    await expect(page.locator("body")).not.toHaveClass(/sources-view-source/);
+    await expect(page.locator("body")).not.toHaveClass(/sources-view-chapter/);
 
     if (isMobile(testInfo.project.name)) {
       await expect(page.locator("#authority-search-input")).toHaveAttribute(
@@ -29,15 +35,13 @@ test.describe("Sources catalog smoke", () => {
       );
       await expect(page.locator("#chapter-select")).toBeVisible();
       await expect(page.locator(".catalog-chapter-custom")).toBeHidden();
-      await expect(page.locator(".catalog-shelf-examples")).toBeHidden();
     } else {
       await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
       await expect(page.locator("#chapter-select")).toBeHidden();
-      await expect(page.locator(".catalog-shelf-examples")).toBeVisible();
     }
   });
 
-  test("Chapters selector browses in-page without ?chapter= and without entry chrome", async ({
+  test("Chapters selector browses in-page without ?chapter=", async ({
     page,
   }, testInfo) => {
     await waitForCatalog(page);
@@ -47,12 +51,6 @@ test.describe("Sources catalog smoke", () => {
     } else {
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
-      // Opening the picker pins "Chapters" near the top of the viewport.
-      await expect
-        .poll(async () =>
-          page.locator("#chapters-label").evaluate((el) => el.getBoundingClientRect().top)
-        )
-        .toBeLessThan(100);
       // In-flow menu sits below the trigger (not flipped above).
       const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
       const menuBox = await page.locator("#chapter-custom-list").boundingBox();
@@ -60,12 +58,6 @@ test.describe("Sources catalog smoke", () => {
       expect(menuBox).toBeTruthy();
       expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
       await page.locator('#chapter-custom-list [data-value="5"]').click();
-      // Selecting a chapter re-pins Chapters at the top.
-      await expect
-        .poll(async () =>
-          page.locator("#chapters-label").evaluate((el) => el.getBoundingClientRect().top)
-        )
-        .toBeLessThan(100);
     }
 
     await expect(page.locator("#sources-heading")).toBeVisible();
@@ -73,25 +65,25 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#sources-output .source-item").first()).toBeVisible();
     await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
 
-    // In-page browse: chrome stays; URL stays clean (no ?chapter=).
-    await expect(page.locator(".sources-intro")).toBeVisible();
-    await expect(page.locator("#catalog-shelves")).toBeVisible();
-    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
+    // Stable chrome; URL stays clean (no ?chapter=).
+    await expectStableChrome(page);
+    await expect(page.locator("body")).toHaveClass(/sources-view-chapter/);
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
     expect(new URL(page.url()).search).toBe("");
 
-    // After scrolling away, picking another chapter should pin Chapters again.
+    // Switching chapters updates the panel without auto-scrolling the viewport.
     if (!isMobile(testInfo.project.name)) {
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      const scrollBefore = await page.evaluate(() => window.scrollY);
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
       await page.locator('#chapter-custom-list [data-value="7"]').click();
       await expect(page.locator("#sources-heading")).toContainText(/Everything Is Under Control/i);
-      await expect
-        .poll(async () =>
-          page.locator("#chapters-label").evaluate((el) => el.getBoundingClientRect().top)
-        )
-        .toBeLessThan(100);
+      await expectStableChrome(page);
+      // No pin/jump back to Chapters — scroll position stays put (allow clamp if page shortened).
+      const scrollAfter = await page.evaluate(() => window.scrollY);
+      expect(scrollAfter).toBeGreaterThan(100);
+      expect(Math.abs(scrollAfter - scrollBefore)).toBeLessThan(80);
     }
   });
 
@@ -122,6 +114,7 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#back-to-top")).toBeVisible();
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
     expect(new URL(page.url()).hash).toBe("");
+    await expectStableChrome(page);
 
     if (isMobile(testInfo.project.name)) {
       await expect(page.locator("#chapter-select")).toHaveValue("12");
@@ -130,51 +123,21 @@ test.describe("Sources catalog smoke", () => {
     }
   });
 
-  test("?chapter=N loads stripped chapter entry; exit links restore idle", async ({
-    page,
-  }, testInfo) => {
+  test("?chapter=N keeps stable chrome and loads chapter panel", async ({ page }) => {
     await page.goto(`${SOURCES}?chapter=12`);
     await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
 
-    await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
-    await expect(page.locator(".sources-intro")).toBeHidden();
-    await expect(page.locator("#sources-search")).toBeHidden();
-    await expect(page.locator("#catalog-shelves")).toBeHidden();
+    await expect(page.locator("body")).toHaveClass(/sources-view-chapter/);
+    await expectStableChrome(page);
     await expect(page.locator("#sources-heading")).toContainText(/Chapter 12/i);
     await expect(page.locator("#sources-output .source-item").first()).toBeVisible();
-    await expect(page.locator("#sources-output [data-source-exit]")).toHaveCount(2);
     await expect(page.locator("#back-to-top")).toBeVisible();
-    // Exit nav is repeated after notes for long chapter pages.
     await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
-    await expect(page.locator("#catalog-notes [data-source-exit]")).toHaveCount(2);
-
-    // Browse by chapter: focus only (closed control), idle chrome back near page top.
-    // Prefer the after-notes copy (covers the long-page exit path).
-    await page.locator("#catalog-notes [data-source-exit=\"chapters\"]").click({ force: true });
-    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
-    await expect(page.locator("#catalog-shelves")).toBeVisible();
-    await expect(page).toHaveURL(/\/origins\/sources\/?$/);
-    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(40);
-
-    if (isMobile(testInfo.project.name)) {
-      await expect(page.locator("#chapter-select")).toBeFocused();
-      await expect(page.locator(".catalog-chapter-custom")).toBeHidden();
-    } else {
-      await expect(page.locator("#chapter-custom-trigger")).toBeFocused();
-      await expect(page.locator("#chapter-custom-list")).toBeHidden();
-    }
-
-    // Return to chapter entry, then Search all sources.
-    await page.goto(`${SOURCES}?chapter=12`);
-    await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
-    await page.locator("#catalog-notes [data-source-exit=\"search\"]").click({ force: true });
-    await expect(page.locator("body")).not.toHaveClass(/sources-entry-chapter/);
-    await expect(page.locator("#sources-search")).toBeVisible();
-    await expect(page.locator("#authority-search-input")).toBeFocused();
-    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(40);
+    // No stripped-entry exit nav — search/chapters are always in the shell.
+    await expect(page.locator("[data-source-exit]")).toHaveCount(0);
   });
 
-  test("?source= loads stripped source entry; chapter link and history back work", async ({
+  test("?source= strips catalog chrome; chapter link and history back work", async ({
     page,
   }) => {
     await waitForCatalog(page);
@@ -191,12 +154,13 @@ test.describe("Sources catalog smoke", () => {
     await page.goto(`${SOURCES}?source=${encodeURIComponent(sample.key)}`);
     await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
 
-    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator("body")).toHaveClass(/sources-view-source/);
     await expect(page.locator("#sources-top")).toBeHidden();
     await expect(page.locator(".sources-intro")).toBeHidden();
+    await expect(page.locator("#sources-search")).toBeHidden();
     await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
-    // No breadcrumb heading; card meta is "Sources: Chapter N".
+    // No extra heading; card meta is "Sources: Chapter N".
     await expect(page.locator("#sources-heading")).toBeHidden();
     await expect(page.locator("#sources-output [data-source-exit=\"search\"]")).toBeVisible();
     await expect(page.locator("#sources-output [data-open-chapter]")).toBeVisible();
@@ -205,11 +169,13 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#sources-history-back")).toBeHidden();
 
     await page.locator("#sources-output [data-open-chapter]").click();
-    await expect(page.locator("body")).toHaveClass(/sources-entry-chapter/);
+    await expect(page.locator("body")).toHaveClass(/sources-view-chapter/);
+    await expectStableChrome(page);
     await expect(page).toHaveURL(new RegExp(`[?&]chapter=${sample.chapter}\\b`));
 
     await page.goBack();
-    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator("body")).toHaveClass(/sources-view-source/);
+    await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page).toHaveURL(new RegExp(`[?&]source=`));
   });
 
@@ -229,13 +195,15 @@ test.describe("Sources catalog smoke", () => {
     });
     await page.locator("#sources-output .source-page-link").first().click();
 
-    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator("body")).toHaveClass(/sources-view-source/);
+    await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page.locator("#sources-history-back")).toBeVisible();
     await expect(page.locator("#sources-output .catalog-card")).toHaveCount(1);
 
     await page.locator("#sources-history-back .sources-history-back").click();
-    await expect(page.locator("body")).not.toHaveClass(/sources-entry-source/);
-    await expect(page.locator("#sources-search")).toBeVisible();
+    await expect(page.locator("body")).toHaveClass(/sources-view-chapter/);
+    await expect(page.locator("body")).not.toHaveClass(/sources-view-source/);
+    await expectStableChrome(page);
     await expect(page.locator("#sources-heading")).toContainText(/Chapter 12|What Did They Study/i);
     await expect(page.locator("#sources-history-back")).toBeHidden();
   });
@@ -258,6 +226,7 @@ test.describe("Sources catalog smoke", () => {
     test.skip(isMobile(testInfo.project.name), "Hover previews are desktop-only");
     await page.goto(`${SOURCES}?chapter=5`);
     await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
+    await expectStableChrome(page);
     const link = page.locator(".sources-list .source-ref a").first();
     await expect(link).toBeVisible();
     await link.hover();
@@ -281,6 +250,7 @@ test.describe("Sources catalog smoke", () => {
     await page.goto(`${SOURCES}?chapter=1`);
     await expect(page.locator("#authority-search-input")).toBeEnabled({ timeout: 15_000 });
     await expect(page.locator("#catalog-notes")).toBeVisible({ timeout: 10_000 });
+    await expectStableChrome(page);
 
     const cite = page.locator("#catalog-notes a.notes-source-ref").first();
     await expect(cite).toBeVisible();
@@ -320,7 +290,8 @@ test.describe("Sources catalog smoke", () => {
     await expect(preview).toBeHidden();
 
     await noteSource.click();
-    await expect(page.locator("body")).toHaveClass(/sources-entry-source/);
+    await expect(page.locator("body")).toHaveClass(/sources-view-source/);
+    await expect(page.locator("#catalog-shelves")).toBeHidden();
     await expect(page).toHaveURL(/\?source=ch01-n01\b/);
   });
 
@@ -338,5 +309,6 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#sources-heading")).toContainText(/Shi/i);
     await expect(page).toHaveURL(/keyword=/);
     await expect(page.locator("#sources-output .catalog-card").first()).toBeVisible();
+    await expectStableChrome(page);
   });
 });

@@ -18,7 +18,6 @@
   var chapterTriggerEl = document.getElementById("chapter-custom-trigger");
   var chapterTriggerLabelEl = document.getElementById("chapter-custom-trigger-label");
   var chapterMenuEl = document.getElementById("chapter-custom-list");
-  var exploreEl = document.getElementById("explore-keywords");
   var outEl = document.getElementById("sources-output");
   var headingEl = document.getElementById("sources-heading");
   var pagerEl = document.getElementById("catalog-pager");
@@ -340,11 +339,11 @@
             escapeHtml(chapterLabel(chNum)) +
           "</a>"
         : "";
-    // Source page: "Sources: Chapter N" (Sources replaces the old breadcrumb exit).
+    // Source panel: "Sources: Chapter N" — Sources clears to idle/search; chapter opens that chapter.
     if (view.mode === "source") {
       var path = location.pathname || "/origins/sources/";
       var sourcesLink =
-        '<a class="catalog-sources-link" href="' + escapeHtml(path) + '#sources-top" data-source-exit="search">Sources</a>';
+        '<a class="catalog-sources-link" href="' + escapeHtml(path) + '#sources-search" data-source-exit="search">Sources</a>';
       if (!chapterLink) {
         return '<p class="catalog-card-meta">' + sourcesLink + "</p>";
       }
@@ -696,16 +695,6 @@
     return n + (n === 1 ? " source" : " sources");
   }
 
-  function renderEntryNav() {
-    var base = location.pathname || "/origins/sources/";
-    return (
-      '<nav class="source-entry-nav" aria-label="Continue browsing the catalog">' +
-        '<a class="source-entry-nav-link" href="' + escapeHtml(base) + '#sources-search" data-source-exit="search">Search all sources</a>' +
-        '<a class="source-entry-nav-link" href="' + escapeHtml(base) + '#sources-chapters" data-source-exit="chapters">Browse by chapter</a>' +
-      "</nav>"
-    );
-  }
-
   function catalogFocusFromHash() {
     var hash = (location.hash || "").replace(/^#/, "");
     if (hash === "sources-search") return "search";
@@ -751,9 +740,9 @@
     var rows = sourcesForView();
     var total = rows.length;
 
-    // Chapter entry keeps Back to top (long notes); source entry hides it.
+    // Chapter / search keep Back to top; source reading view is a short card page.
     backEl.hidden = view.mode === "source";
-    // Source page: no heading/breadcrumb — "Sources: Chapter N" lives on the card.
+    // Source panel: no extra heading — "Sources: Chapter N" lives on the card.
     headingEl.hidden = view.mode === "source";
     syncSourceHistoryBack();
     syncClearButton();
@@ -782,7 +771,6 @@
 
       var start = (view.page - 1) * PAGE_SIZE;
       var pageRows = rows.slice(start, start + PAGE_SIZE);
-      var entryNav = view.mode === "source" ? renderEntryNav() : "";
       if (!pageRows.length) {
         outEl.innerHTML =
           '<div class="catalog-empty" role="status">' +
@@ -794,16 +782,14 @@
             (view.mode === "source"
               ? ""
               : '<button type="button" class="catalog-empty-clear">Clear search</button>') +
-          "</div>" +
-          entryNav;
+          "</div>";
         renderPager(0);
         return;
       }
       outEl.innerHTML =
         '<div class="catalog-card-list">' +
         pageRows.map(renderCard).join("") +
-        "</div>" +
-        entryNav;
+        "</div>";
       ensureTwitterWidgets(outEl);
       renderPager(total);
       return;
@@ -821,9 +807,7 @@
     }
     pagerEl.hidden = true;
     pagerEl.innerHTML = "";
-    outEl.innerHTML =
-      renderChapterSourceList(rows) +
-      (view.chapterEntry ? renderEntryNav() : "");
+    outEl.innerHTML = renderChapterSourceList(rows);
     return loadNotes(view.chapter);
   }
 
@@ -897,23 +881,21 @@
         return res.text();
       })
       .then(function (html) {
-        // Repeat exit nav after notes so long chapter pages still offer a way out.
-        notesEl.innerHTML =
-          '<hr class="notes-divider">' +
-          html +
-          (view.chapterEntry ? renderEntryNav() : "");
+        notesEl.innerHTML = '<hr class="notes-divider">' + html;
         enhanceNotesSourceLinks(notesEl);
-        // Back restore wins over the usual Chapters re-pin (which also smooth-scrolls via CSS).
+        // History ← Back may need scrollY re-applied after notes HTML grows the page.
         if (applyPendingRestoreScroll()) {
           return true;
         }
-        // Notes inject can nudge scroll; keep Chapters pinned for in-page browse.
-        if (view.mode === "chapter" && !view.chapterEntry) pinChaptersShelf();
+        // Link/permalink chapter loads: keep the Chapters selector pinned after notes inject.
+        if (view.mode === "chapter" && view.chapterEntry) {
+          pinChaptersShelf();
+        }
         return true;
       })
       .catch(function () {
-        notesEl.innerHTML = view.chapterEntry ? renderEntryNav() : "";
-        notesEl.hidden = !view.chapterEntry;
+        notesEl.innerHTML = "";
+        notesEl.hidden = true;
         applyPendingRestoreScroll();
         return false;
       });
@@ -924,10 +906,10 @@
   }
 
   function chapterOptionLabel(value) {
-    if (!chapterSelectEl) return "Select a chapter…";
-    if (value === "" || value == null) return "Select a chapter…";
+    if (!chapterSelectEl) return "Choose a chapter…";
+    if (value === "" || value == null) return "Choose a chapter…";
     var opt = chapterSelectEl.querySelector('option[value="' + String(value).replace(/"/g, '\\"') + '"]');
-    return (opt && opt.textContent) || "Select a chapter…";
+    return (opt && opt.textContent) || "Choose a chapter…";
   }
 
   function syncChapterCustomUi(value) {
@@ -984,19 +966,43 @@
     setChapterMenuOpen(false);
   }
 
-  function scrollChaptersLabelIntoView() {
-    // Desktop: pin the "Chapters" shelf at the top (below the sticky header).
-    if (!isDesktopChapterPicker()) return;
+  function scrollBelowStickyHeader(el, gapPx) {
+    if (!el) return;
+    var header = document.querySelector(".site-header");
+    var headerH = header ? header.getBoundingClientRect().height : 0;
+    var gap = typeof gapPx === "number" ? gapPx : 12;
+    var top = el.getBoundingClientRect().top + window.scrollY - headerH - gap;
+    scrollWindowInstant(Math.max(0, top));
+  }
+
+  function scrollSearchBarIntoView() {
+    // Pin the Search field below the sticky header (small top margin).
+    var target = document.getElementById("sources-search") || inputEl;
+    if (!target) return;
+    scrollBelowStickyHeader(target, 12);
+  }
+
+  function pinSearchBar() {
+    requestAnimationFrame(function () {
+      scrollSearchBarIntoView();
+      requestAnimationFrame(scrollSearchBarIntoView);
+    });
+  }
+
+  function scrollChaptersShelfIntoView() {
+    // Pin the Chapters selector below the sticky header (small top margin).
     var target =
       document.getElementById("sources-chapters") ||
       document.getElementById("chapters-label");
     if (!target) return;
-    var header = document.querySelector(".site-header");
-    var headerH = header ? header.getBoundingClientRect().height : 0;
-    var gap = 8;
-    var top = target.getBoundingClientRect().top + window.scrollY - headerH - gap;
-    // Instant — site CSS scroll-behavior:smooth would animate behavior:"auto".
-    scrollWindowInstant(Math.max(0, top));
+    scrollBelowStickyHeader(target, 12);
+  }
+
+  function pinChaptersShelf() {
+    requestAnimationFrame(function () {
+      scrollChaptersShelfIntoView();
+      requestAnimationFrame(scrollChaptersShelfIntoView);
+    });
   }
 
   function openChapterMenu(opts) {
@@ -1005,11 +1011,7 @@
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
     setChapterMenuOpen(true);
-    if (opts.pinChapters !== false) {
-      pinChaptersShelf();
-    }
-    // Do not scrollIntoView a selected option here: that jumps the page so the
-    // trigger sits above the viewport and the list looks like it opened above it.
+    // No auto-scroll: stable shell; focus options without moving the viewport.
     if (opts.focusOption === false) return;
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
@@ -1028,12 +1030,6 @@
     if (chapterSelectEl.value !== value) chapterSelectEl.value = value;
     syncChapterCustomUi(value);
     closeChapterMenu();
-  }
-
-  function clearExploreActive() {
-    Array.prototype.forEach.call(exploreEl.querySelectorAll("button"), function (b) {
-      b.classList.remove("active");
-    });
   }
 
   function catalogHistoryState() {
@@ -1170,7 +1166,7 @@
     var chapterRaw = params.get("chapter");
     if (chapterRaw != null && chapterRaw !== "") {
       var chapter = Number(chapterRaw);
-      // ?chapter=N is always the stripped chapter permalink entry.
+      // ?chapter=N is a shareable chapter URL (same stable chrome as in-page browse).
       if (!Number.isNaN(chapter)) return { mode: "chapter", chapter: chapter, entry: true };
     }
     var keyword = params.get("keyword");
@@ -1225,20 +1221,18 @@
   }
 
   function syncEntryLayout() {
-    // Source entry + chapter permalink entry: keep banner; hide intro/search/shelves.
-    // Source entry also hides the page H1 (breadcrumb is enough).
-    // Chapters selector browse stays on the main catalog page (chapterEntry false).
-    var isSourceEntry = view.mode === "source";
-    var isChapterEntry = view.mode === "chapter" && !!view.chapterEntry;
-    document.body.classList.toggle("sources-entry-source", isSourceEntry);
-    document.body.classList.toggle("sources-entry-chapter", isChapterEntry);
-    // Match visual hide for AT: display:none chrome should also be inert / aria-hidden.
-    var hideChrome = isSourceEntry || isChapterEntry;
+    // Catalog modes (idle / chapter / search): stable shell.
+    // Source reading view: stripped — card (+ optional ← Back) only.
+    var isSource = view.mode === "source";
+    document.body.classList.toggle("sources-view-source", isSource);
+    document.body.classList.toggle("sources-view-chapter", view.mode === "chapter");
+    // Drop legacy entry classes if a stale tab still has them.
+    document.body.classList.remove("sources-entry-source", "sources-entry-chapter");
     var intro = document.querySelector(".sources-intro");
     var pageTitle = document.getElementById("sources-top");
-    [intro, document.getElementById("sources-search"), shelvesEl].forEach(function (el) {
+    [intro, pageTitle, document.getElementById("sources-search"), shelvesEl].forEach(function (el) {
       if (!el) return;
-      if (hideChrome) {
+      if (isSource) {
         el.setAttribute("aria-hidden", "true");
         el.inert = true;
       } else {
@@ -1246,15 +1240,6 @@
         el.inert = false;
       }
     });
-    if (pageTitle) {
-      if (isSourceEntry) {
-        pageTitle.setAttribute("aria-hidden", "true");
-        pageTitle.inert = true;
-      } else {
-        pageTitle.removeAttribute("aria-hidden");
-        pageTitle.inert = false;
-      }
-    }
   }
 
   function showIdle(opts) {
@@ -1269,8 +1254,6 @@
     hideSuggestions();
     hideSourcePreview();
     clearChapterActive();
-    clearExploreActive();
-    if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     headingEl.hidden = true;
     headingEl.classList.remove("sources-heading--breadcrumb");
     headingEl.textContent = "";
@@ -1304,29 +1287,15 @@
     inputEl.value = "";
     hideSuggestions();
     setChapterActive(number);
-    clearExploreActive();
-    if (shelvesEl) shelvesEl.classList.remove("is-filtered");
     dismissMobileKeyboard();
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
-    if (opts.scroll !== false) {
-      if (view.chapterEntry) {
-        // Chapter permalink entry: stay at page top.
-        scrollWindowInstant(0);
-      } else {
-        // In-page selector: re-pin Chapters after layout (menu close + new results).
-        pinChaptersShelf();
-      }
+    // Internal Chapter links / ?chapter=: pin the Chapters selector at the top.
+    // In-page selector browse (entry:false) does not auto-scroll.
+    if (opts.scroll !== false && view.chapterEntry) {
+      pinChaptersShelf();
     }
-  }
-
-  function pinChaptersShelf() {
-    // Re-run after layout settles — closing the in-flow menu can adjust scrollY.
-    requestAnimationFrame(function () {
-      scrollChaptersLabelIntoView();
-      requestAnimationFrame(scrollChaptersLabelIntoView);
-    });
   }
 
   function openKeyword(hit, mode, opts) {
@@ -1345,18 +1314,13 @@
     inputEl.value = hit.label;
     hideSuggestions();
     clearChapterActive();
-    clearExploreActive();
-    if (mode === "explore") {
-      var btn = exploreEl.querySelector('[data-id="' + hit.id + '"]');
-      if (btn) btn.classList.add("active");
-    }
-    if (shelvesEl) shelvesEl.classList.add("is-filtered");
     dismissMobileKeyboard();
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
+    // Keyword links / suggestions: pin the Search bar at the top.
     if (opts.scroll !== false) {
-      headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      pinSearchBar();
     }
   }
 
@@ -1379,13 +1343,11 @@
     inputEl.value = "";
     hideSuggestions();
     clearChapterActive();
-    clearExploreActive();
     dismissMobileKeyboard();
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
-    // Source entry: stay at the normal page top (banner), not scrolled to the heading.
-    // Instant — avoid smooth-scroll animation from mid-page chapter lists.
+    // Stripped reading view: land at page top so the card is in view (not catalog pin-scroll).
     if (opts.scroll !== false) {
       scrollWindowInstant(0);
     }
@@ -1402,8 +1364,6 @@
     inputEl.value = "";
     view.keyword = null;
     view.sourceKey = null;
-    if (shelvesEl) shelvesEl.classList.remove("is-filtered");
-    clearExploreActive();
     if (view.chapter != null) {
       openChapter(view.chapter, { entry: view.chapterEntry });
     } else {
@@ -1428,7 +1388,7 @@
   function syncSearchPlaceholder() {
     if (inputEl.disabled) return;
     inputEl.placeholder = window.matchMedia("(min-width: 640px)").matches
-      ? "Search people, organizations, topics, titles…"
+      ? "Search names, topics, titles…"
       : "Search…";
   }
 
@@ -1570,7 +1530,7 @@
     chapterSelectEl.innerHTML = "";
     var placeholder = document.createElement("option");
     placeholder.value = "";
-    placeholder.textContent = "Select a chapter…";
+    placeholder.textContent = "Choose a chapter…";
     chapterSelectEl.appendChild(placeholder);
     chapters.forEach(function (ch) {
       var opt = document.createElement("option");
@@ -1586,7 +1546,7 @@
       clearOpt.setAttribute("role", "option");
       clearOpt.setAttribute("tabindex", "-1");
       clearOpt.setAttribute("data-value", "");
-      clearOpt.textContent = "Select a chapter…";
+      clearOpt.textContent = "Choose a chapter…";
       chapterMenuEl.appendChild(clearOpt);
       chapters.forEach(function (ch) {
         var item = document.createElement("li");
@@ -1600,34 +1560,6 @@
     }
 
     setChapterActive(view.chapter);
-  }
-
-  function renderExploreShelf() {
-    if (!searchIndex) return;
-    var preferredTypes = { person: 1, org: 1, topic: 1, work: 1 };
-    var picks = (searchIndex.keywords || [])
-      .filter(function (k) { return preferredTypes[k.type] && k.sourceCount >= 8; })
-      .sort(function (a, b) { return b.sourceCount - a.sourceCount; })
-      .slice(0, 8);
-
-    exploreEl.innerHTML = "";
-    picks.forEach(function (k) {
-      var btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "catalog-explore-chip";
-      btn.setAttribute("data-id", k.id);
-      btn.setAttribute(
-        "aria-label",
-        k.label + ", " + k.typeLabel + ", " + sourceCountLabel(k.sourceCount)
-      );
-      btn.innerHTML =
-        '<span class="catalog-explore-chip-label">' + escapeHtml(k.label) + "</span>" +
-        '<span class="catalog-explore-chip-meta">' + escapeHtml(String(k.sourceCount)) + "</span>";
-      btn.addEventListener("click", function () {
-        openKeyword(k, "explore");
-      });
-      exploreEl.appendChild(btn);
-    });
   }
 
   function clearChapterActive() {
@@ -1659,7 +1591,6 @@
     chapterTriggerEl.addEventListener("click", function (e) {
       e.preventDefault();
       // Mouse open: keep focus on the trigger so the menu isn't dismissed mid-click.
-      // openChapterMenu pins the Chapters label after the list expands.
       toggleChapterMenu({ focusOption: false });
     });
     chapterTriggerEl.addEventListener("keydown", function (e) {
@@ -1766,7 +1697,6 @@
     if (btn.getAttribute("data-page") === "prev") view.page = Math.max(1, view.page - 1);
     if (btn.getAttribute("data-page") === "next") view.page = Math.min(pages, view.page + 1);
     renderResults();
-    headingEl.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   function onCatalogClick(e) {
@@ -1990,7 +1920,6 @@
       syncSearchPlaceholder();
       renderChapterList(chapterMeta);
       syncChapterPickerA11y();
-      renderExploreShelf();
       // Read hash before replaceState (catalog URLs omit the fragment).
       var hashFocus = catalogFocusFromHash();
       var landingState = parseLocationState();
