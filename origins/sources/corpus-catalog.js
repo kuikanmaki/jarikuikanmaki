@@ -953,19 +953,36 @@
   }
 
   function fitChapterMenuToViewport() {
-    // Cap the open list to the space under the trigger so short desktop
-    // windows don't clip the menu below the fold (60vh alone is too tall).
+    // Size the open list to the space under the trigger, but never shorter than
+    // ~6 chapter rows (tiny menus on mid-page opens are worse than mild overflow).
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
       chapterMenuEl.style.maxHeight = "";
       return;
     }
     var gap = 12;
-    var room = Math.floor(window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap);
-    var cssCap = Math.min(22 * 16, window.innerHeight * 0.6);
-    // Prefer fitting the viewport over a minimum height — short windows must not clip.
-    var next = Math.max(0, Math.min(cssCap, room));
-    if (next < 1) next = Math.min(cssCap, 10 * 16);
+    var minItems = 6;
+    var sample = chapterMenuEl.querySelector('[role="option"]');
+    var rowH = sample ? Math.ceil(sample.getBoundingClientRect().height) : 44;
+    var minH = minItems * rowH + 12;
+    var cssCap = Math.min(22 * 16, Math.floor(window.innerHeight * 0.6));
+    var room = Math.floor(
+      window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap
+    );
+
+    // If fewer than 6 rows fit, scroll the page up so the list can open taller.
+    if (room < minH && windowScrollY() > 0) {
+      var lift = Math.min(minH - room, windowScrollY());
+      if (lift > 0) {
+        scrollWindowInstant(windowScrollY() - lift);
+        room = Math.floor(
+          window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap
+        );
+      }
+    }
+
+    var next = Math.min(cssCap, Math.max(minH, room));
+    if (next < 1) next = Math.min(cssCap, minH);
     chapterMenuEl.style.maxHeight = next + "px";
   }
 

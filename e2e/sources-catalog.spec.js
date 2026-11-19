@@ -127,8 +127,10 @@ test.describe("Sources catalog smoke", () => {
     await expect
       .poll(async () =>
         page.locator("#chapter-custom-list").evaluate((el) => {
-          const r = el.getBoundingClientRect();
-          return r.bottom <= window.innerHeight + 1 && el.scrollHeight > el.clientHeight;
+          const opts = el.querySelectorAll('[role="option"]');
+          const rowH = opts[0] ? opts[0].getBoundingClientRect().height : 44;
+          // At least ~6 rows visible (allow ½-row slack).
+          return el.clientHeight + 2 >= rowH * 6 && el.scrollHeight > el.clientHeight;
         })
       )
       .toBe(true);

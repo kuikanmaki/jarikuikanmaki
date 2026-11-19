@@ -954,7 +954,8 @@ img {
   margin: 0.25rem 0 0;
   padding: 0.35rem 0;
   list-style: none;
-  max-height: min(22rem, 60vh, calc(100dvh - 12rem));
+  /* JS further sizes to viewport and enforces a ~6-row minimum. */
+  max-height: min(22rem, 60vh);
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
