@@ -57,10 +57,23 @@ test.describe("Sources catalog smoke", () => {
     const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
-    // Opening the selector must not move the page.
-    await expect
-      .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
-      .toBe(scrollBefore);
+    if (!isMobile(testInfo.project.name)) {
+      // Desktop: opening while still above the shelf pins it near the top.
+      await expect
+        .poll(async () =>
+          page.locator("#sources-chapters").evaluate((el) => {
+            const header = document.querySelector(".site-header");
+            const headerH = header ? header.getBoundingClientRect().height : 0;
+            return el.getBoundingClientRect().top - headerH;
+          })
+        )
+        .toBeLessThan(40);
+    } else {
+      // Mobile: opening must not move the page.
+      await expect
+        .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
+        .toBe(scrollBefore);
+    }
     // Overlay menu sits below the trigger (not flipped above) and scrolls internally.
     const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
     const menuBox = await page.locator("#chapter-custom-list").boundingBox();
