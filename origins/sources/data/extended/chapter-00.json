@@ -21,7 +21,7 @@
       "summary": "Profile of Shi Zhengli’s bat-coronavirus fieldwork and Wuhan Institute of Virology role, including her recollection of learning about the Wuhan pneumonia outbreak while in Shanghai and rushing back by night train. Frames her as a leading SARS-like virus hunter and recounts WIV BSL-4 context.",
       "book_role": "Primary source for Shi Zhengli’s December 2019 night-train return to Wuhan that opens the Prologue.",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "BSL-4 laboratory",
         "SARS",
         "Wuhan pneumonia"
@@ -95,7 +95,7 @@
       "book_role": "Early reporting on the Wuhan BSL-4 lab used when introducing the institute’s high-containment work.",
       "topics": [
         "BSL-4 laboratory",
-        "biosafety",
+        "Biosafety",
         "Early reporting"
       ],
       "entities": {
@@ -153,7 +153,7 @@
       "summary": "Investigative article arguing Chinese authorities constrained public discussion of early genomic findings and origin questions around Shi Zhengli and related research. Used in the book’s notes as evidence of suppression during early reporting.",
       "book_role": "Documents that Shi’s early interviews took place while authorities were already suppressing origin discussion.",
       "topics": [
-        "censorship",
+        "Censorship",
         "Early reporting"
       ],
       "entities": {
@@ -212,7 +212,7 @@
       "summary": "Science interview/profile in which Shi Zhengli denies lab responsibility for the pandemic, describes WIV biosafety work, and demands an apology from then-President Trump for lab-origin allegations.",
       "book_role": "",
       "topics": [
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [
@@ -271,7 +271,7 @@
       "summary": "Long MIT Technology Review feature (listed in the bibliography under Scientific American) revisiting Shi Zhengli amid the lab-leak controversy, WHO origins visit optics, and contested claims about WIV research and transparency.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Transparency"
       ],
       "entities": {
@@ -742,7 +742,7 @@
       "book_role": "Notes citation mapping China’s high-containment labs beyond Wuhan alone.",
       "topics": [
         "BSL-4 laboratory",
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [

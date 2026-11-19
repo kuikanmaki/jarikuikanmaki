@@ -334,7 +334,7 @@
       "summary": "HHS TAGGS award page for NIAID grant R01AI110964 (2014–2024) to study bat coronavirus emergence risk, summarizing SARSr-CoV surveillance work funded after SARS/MERS and into the COVID era.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "NIH grant"
       ],
       "entities": {
@@ -380,8 +380,8 @@
       "summary": "USRTK investigation that early emails/schedules show Fauci met Ralph Baric in February 2020 about chimeric/gain-of-function work while Baric’s WIV collaborations were under scrutiny.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
-        "chimeric viruses"
+        "Gain-of-function research",
+        "Chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -545,7 +545,7 @@
       "book_role": "Frieman’s account of Baric’s private reaction after meeting Fauci.",
       "topics": [
         "Freedom of Information requests",
-        "chimeric viruses"
+        "Chimeric viruses"
       ],
       "entities": {
         "people": [
@@ -598,7 +598,7 @@
       "summary": "Early January 2020 technical essay by Karl and Dan Sirotkin arguing logistical and genomic reasons to take a laboratory origin for the Wuhan coronavirus seriously.",
       "book_role": "Early public proposal that SARS-CoV-2 could have emerged via serial passage in humanized mice.",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Genome analysis"
       ],
       "entities": {
@@ -653,9 +653,9 @@
       "summary": "Long Medium essay reading SARS-CoV-2 against published gain-of-function and reverse-genetics work, arguing a lab-related genealogy cannot be dismissed and that modern engineering need leave no obvious genomic scars.",
       "book_role": "Early public proposal, with the Sirotkins, of a laboratory serial-passage origin path.",
       "topics": [
-        "gain-of-function research",
-        "lab-leak hypothesis",
-        "reverse genetics",
+        "Gain-of-function research",
+        "Lab-leak hypothesis",
+        "Reverse genetics",
         "SARS-CoV-2"
       ],
       "entities": {
@@ -710,8 +710,8 @@
       "summary": "March 2020 blog essay by Shu Kang arguing, from published sequence and research evidence, that a non-natural (laboratory) origin of the Wuhan coronavirus is scientifically legitimate and under-discussed relative to zoonosis claims.",
       "book_role": "Early Notes citation assembling a public case for a man-made origin hypothesis.",
       "topics": [
-        "lab-leak hypothesis",
-        "gain-of-function research"
+        "Lab-leak hypothesis",
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -817,7 +817,7 @@
       "summary": "Mail on Sunday report that WIV researchers sampled bats more than 1,000 miles away in Yunnan caves linked to SARS-like coronaviruses, and that a lab accident in Wuhan was ‘no longer being discounted.’",
       "book_role": "Notes citation tying WIV bat fieldwork in Yunnan to early lab-accident scrutiny.",
       "topics": [
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -877,8 +877,8 @@
       "summary": "Mail on Sunday follow-up that NIH awarded about $3.7 million supporting coronavirus work connected to the Wuhan Institute of Virology, including bat coronavirus research tied to Yunnan cave samples.",
       "book_role": "Notes citation on U.S. funding links to WIV bat-coronavirus research.",
       "topics": [
-        "bat coronaviruses",
-        "gain-of-function research"
+        "Bat coronaviruses",
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [

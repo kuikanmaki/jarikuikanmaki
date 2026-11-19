@@ -71,8 +71,8 @@
       "summary": "2018 EcoHealth Alliance DEFUSE proposal to DARPA PREEMPT: engineer SARS-related bat CoVs with novel/human-specific cleavage sites (including furin-like), test chimeras in human airway cells and hACE2 mice at WIV, with Baric UNC work and Yunnan bat sampling.",
       "book_role": "Primary DEFUSE proposal text naming Daszak and the Wuhan Institute of Virology.",
       "topics": [
-        "chimeric viruses",
-        "furin cleavage site"
+        "Chimeric viruses",
+        "Furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -411,7 +411,7 @@
       "book_role": "EcoHealth FOIA progress report on sample shipping and Baric’s letter of support.",
       "topics": [
         "Freedom of Information requests",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -423,11 +423,7 @@
           "NIH",
           "USAID"
         ],
-        "places": [],
-        "works": [
-          "Year-4 Progress Report (EcoHealth Alliance)",
-          "Understanding the Risk of Bat Coronavirus Emergence"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
@@ -536,7 +532,7 @@
       "summary": "2009 Sciencenet profile of Shi Zhengli as a Wuhan Institute of Virology bat-virus researcher—covering her post-SARS field sampling in Chinese bats, discovery of SARS-like CoVs in horseshoe bats, and Science/JGV publications that made her a leading bat-coronavirus figure.",
       "book_role": "Notes citation establishing Shi’s pre-pandemic bat SARS-like coronavirus research record.",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "SARS"
       ],
       "entities": {

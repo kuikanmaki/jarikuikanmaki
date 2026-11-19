@@ -130,7 +130,7 @@
       "summary": "Vanity Fair long-form on EcoHealth Alliance’s virus-hunting network, Daszak, WIV ties, and the lab-leak controversy’s funding politics.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -302,7 +302,7 @@
       "summary": "Vanity Fair investigation of the internal U.S. fight over the lab-leak theory—State Department investigators, classified cables, and opposition from parts of the intel/scientific establishment.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Intelligence community",
         "COVID-19"
       ],
@@ -319,10 +319,7 @@
           "Academy of Military Medical Sciences",
           "Lawrence Livermore National Laboratory"
         ],
-        "places": [],
-        "events": [
-          "Mojiang miners outbreak (2012)"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:lab-leak-hypothesis",
@@ -411,7 +408,7 @@
       "summary": "2014 review of coronavirus reverse-genetic systems—infectious clones and replicons enabling engineered CoV recovery.",
       "book_role": "",
       "topics": [
-        "reverse genetics"
+        "Reverse genetics"
       ],
       "entities": {
         "people": [
@@ -453,7 +450,7 @@
       "summary": "Shi Zhengli webinar presentation on bat coronaviruses from SARS/MERS to COVID-19. No URL in source data.",
       "book_role": "Shi review used in the funding/Wuhan research discussion; notes flag later Sunday Times claims on undisclosed Mojiang variants.",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "SARS",
         "MERS",
         "COVID-19"
@@ -570,7 +567,7 @@
       "book_role": "",
       "topics": [
         "Freedom of Information requests",
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -581,10 +578,7 @@
           "NIAID",
           "White Coat Waste Project"
         ],
-        "places": [],
-        "events": [
-          "Gain-of-function moratorium (2014)"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
@@ -668,7 +662,7 @@
       "summary": "WHO SAGO independent assessment (updated June 2025) reviewing published science, intelligence reports, and expert input on SARS-CoV-2 origins—restating the need for fuller data sharing and further studies after SAGO’s earlier 2022 findings.",
       "book_role": "Notes citation for SAGO’s formal independent origins assessment to WHO.",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "SARS-CoV-2",
         "Intelligence community"
       ],
@@ -717,7 +711,7 @@
       "summary": "Nature commentary by 23 of 27 original WHO SAGO members summarizing their June 2025 origins assessment—weighing zoonosis, market amplification at Huanan, and lab-incident hypotheses while noting unresolved evidence and conflicting intelligence confidence levels.",
       "book_role": "Notes citation for SAGO members’ public digest of what is and isn’t known about COVID’s origins.",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "Intelligence community"
       ],
       "entities": {
@@ -772,8 +766,8 @@
       "summary": "April 2020 Newsweek investigation reporting the Defense Intelligence Agency revised its assessment to include possible accidental lab release, and examining controversial bat-coronavirus/gain-of-function work linked to the Wuhan lab and Baric–Shi collaboration.",
       "book_role": "Early Notes citation connecting DIA lab-accident openness to Wuhan experiment scrutiny.",
       "topics": [
-        "gain-of-function research",
-        "chimeric viruses",
+        "Gain-of-function research",
+        "Chimeric viruses",
         "Intelligence community"
       ],
       "entities": {
@@ -789,9 +783,6 @@
         ],
         "places": [
           "Wuhan"
-        ],
-        "works": [
-          "SARS-CoV-2 Genome Analysis (DIA report)"
         ]
       },
       "entity_ids": {
@@ -846,8 +837,8 @@
       "summary": "October 2019 New York Times report that the U.S. was shutting down USAID’s PREDICT program for hunting animal viruses with pandemic potential—cutting funding just before COVID emerged. Archived capture.",
       "book_role": "Notes citation on the eve-of-pandemic cutoff of U.S. viral discovery surveillance.",
       "topics": [
-        "zoonosis",
-        "biosecurity"
+        "Zoonosis",
+        "Biosecurity"
       ],
       "entities": {
         "people": [
@@ -906,9 +897,9 @@
       "summary": "Katherine Eban’s Vanity Fair report on Ralph Baric’s testimony that a Wuhan lab leak remains plausible—recalling his 2015 chimeric coronavirus work with Shi Zhengli and arguing genomic timing undercuts a simple Huanan-market-first story.",
       "book_role": "Notes citation for Baric’s later acknowledgment that lab leak is plausible.",
       "topics": [
-        "lab-leak hypothesis",
-        "chimeric viruses",
-        "gain-of-function research"
+        "Lab-leak hypothesis",
+        "Chimeric viruses",
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [

@@ -135,7 +135,7 @@
       "summary": "BBC report on Peter Ben Embarek calling a Wuhan lab leak ‘extremely unlikely,’ favoring a natural bat reservoir (likely not in Wuhan), while Daszak floated shifting focus to Southeast Asia—effectively sidelining the lab hypothesis from future study.",
       "book_role": "BBC/WHO coverage of the mission’s “extremely unlikely” lab-leak ranking.",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -582,7 +582,7 @@
       "summary": "Facebook/Meta integrity update expanding removal of COVID false claims; the page also records the later policy shift that they would no longer remove ‘COVID-19 is man-made’ claims amid origins investigations.",
       "book_role": "",
       "topics": [
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -861,7 +861,7 @@
       "summary": "Science letter by Bloom et al. arguing lab release and zoonotic spillover both remain viable; criticizing the WHO–China joint study for ranking a lab incident ‘extremely unlikely’ without balanced consideration and calling for transparent, conflict-managed investigation.",
       "book_role": "",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "Conflicts of interest",
         "Transparency"
       ],
@@ -873,10 +873,7 @@
           "Science",
           "WHO"
         ],
-        "places": [],
-        "events": [
-          "WHO China origins study (2021)"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -986,7 +983,7 @@
       "book_role": "",
       "topics": [
         "RaTG13",
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [],
@@ -1044,7 +1041,7 @@
       "book_role": "",
       "topics": [
         "RaTG13",
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1110,9 +1107,9 @@
       "summary": "WHO-convened joint study report (China Part) on SARS-CoV-2 origins—mission findings from Wuhan covering market, zoonotic, and laboratory pathways, later widely criticized for access limits and for ranking a lab incident as extremely unlikely.",
       "book_role": "Notes citation for the official WHO–China joint origins report.",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "SARS-CoV-2",
-        "intermediate host"
+        "Intermediate host"
       ],
       "entities": {
         "people": [],
@@ -1167,9 +1164,9 @@
       "summary": "Bulletin of the Atomic Scientists analysis by Filippa Lentzos arguing that while genetic evidence then favored natural spillover, a research-lab accident at Wuhan coronavirus labs remained a serious possibility requiring a credible international investigation.",
       "book_role": "Early Notes citation insisting lab-leak deserved serious, evidence-based inquiry.",
       "topics": [
-        "lab-leak hypothesis",
-        "zoonosis",
-        "biosafety",
+        "Lab-leak hypothesis",
+        "Zoonosis",
+        "Biosafety",
         "BSL-4 laboratory"
       ],
       "entities": {
@@ -1231,9 +1228,9 @@
       "summary": "Matt Ridley WSJ essay on SARS-CoV-2 origins research—asking how the virus became so infectious in humans and weighing bats, wildlife markets, possible intermediate hosts, and laboratories. Partial page capture.",
       "book_role": "Notes citation opening mainstream discussion of lab involvement alongside market/zoonosis stories.",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "SARS-CoV-2",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -1284,8 +1281,8 @@
       "summary": "Independent Science News essay by Jonathan Latham and Allison Wilson arguing a laboratory origin for COVID-19 is scientifically plausible, stressing the outbreak’s proximity to Wuhan’s leading SARS-like coronavirus research and collection center.",
       "book_role": "Notes citation assembling an early scientific case for lab origin beyond partisan framing.",
       "topics": [
-        "lab-leak hypothesis",
-        "bat coronaviruses",
+        "Lab-leak hypothesis",
+        "Bat coronaviruses",
         "COVID-19"
       ],
       "entities": {
@@ -1344,8 +1341,8 @@
       "summary": "Milton Leitenberg in the Bulletin arguing a lab escape from Wuhan bat-coronavirus research (WIV and Wuhan CDC) is a plausible, non-conspiratorial hypothesis—listing circumstantial evidence including animal infections and weak PPE/biosafety practices.",
       "book_role": "Notes citation treating lab escape from Wuhan bat-virus programs as a serious possibility.",
       "topics": [
-        "bat coronaviruses",
-        "biosafety",
+        "Bat coronaviruses",
+        "Biosafety",
         "SARS-CoV-2"
       ],
       "entities": {
@@ -1412,7 +1409,7 @@
       "summary": "David Relman’s PNAS perspective arguing that ten months into COVID-19, origins remain unknown; spillover and lab scenarios cannot be ruled out, and only a transparent, politically neutral investigation with full sample and data access can resolve them.",
       "book_role": "Notes citation for a senior scientist demanding a rigorous, open origins inquiry.",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "RaTG13",
         "Data access"
       ],

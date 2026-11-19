@@ -133,7 +133,7 @@
       "summary": "UnHerd essay arguing post-9/11 Cheney-era biodefense strategy elevated Fauci’s role and built the risky pathogen-research complex that later backfired.",
       "book_role": "",
       "topics": [
-        "biodefense complex"
+        "Biodefense complex"
       ],
       "entities": {
         "people": [
@@ -145,10 +145,7 @@
         "orgs": [
           "UnHerd"
         ],
-        "places": [],
-        "events": [
-          "September 11 attacks"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:biodefense-complex"
@@ -194,7 +191,7 @@
       "summary": "2014 survey comparing BSL-3 practices at U.S. select-agent versus non–select-agent facilities—empirical look at biosafety variation inside the domestic biodefense lab network.",
       "book_role": "",
       "topics": [
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [
@@ -337,7 +334,7 @@
       "summary": "AP/CBC report on Bruce Ivins’s suicide as FBI prepared to indict him in the 2001 anthrax-letter attacks—foundational trauma of the U.S. biodefense era.",
       "book_role": "",
       "topics": [
-        "anthrax"
+        "Anthrax"
       ],
       "entities": {
         "people": [
@@ -395,9 +392,9 @@
       "summary": "David Willman’s 2011 book The Mirage Man on Bruce Ivins and the 2001 anthrax attacks—examining the FBI case, biodefense politics, and America’s rush to war. Amazon interstitial only; no book text captured.",
       "book_role": "Notes citation for U.S. anthrax/lab-pathogen precedent in the biodefense era.",
       "topics": [
-        "anthrax",
-        "biodefense complex",
-        "biosecurity"
+        "Anthrax",
+        "Biodefense complex",
+        "Biosecurity"
       ],
       "entities": {
         "people": [

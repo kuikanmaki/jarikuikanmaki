@@ -21,8 +21,8 @@
       "summary": "Bulletin essay warning that gain-of-function work on potential pandemic pathogens creates a self-fulfilling risk of laboratory escape, surveying historical lab-escape episodes and biosafety debates.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
-        "biosafety",
+        "Gain-of-function research",
+        "Biosafety",
         "Potential pandemic pathogens"
       ],
       "entities": {
@@ -32,11 +32,7 @@
         "orgs": [
           "Bulletin of the Atomic Scientists"
         ],
-        "places": [],
-        "events": [
-          "SARS lab escapes (2003–2004)",
-          "Taiwan BSL-4 laboratory breach (2003)"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:gain-of-function-research",
@@ -81,7 +77,7 @@
       "summary": "Washington Post investigation of early Chinese official secrecy and missteps that likely let the virus spread farther and faster.",
       "book_role": "",
       "topics": [
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -498,9 +494,9 @@
       "book_role": "The Nature Medicine “Proximal Origin” paper that declared a laboratory origin implausible.",
       "topics": [
         "SARS-CoV-2",
-        "furin cleavage site",
-        "zoonosis",
-        "lab-leak hypothesis"
+        "Furin cleavage site",
+        "Zoonosis",
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -627,8 +623,8 @@
       "summary": "Nicholas Wade analysis of newly released emails arguing Proximal Origin authors rushed a predetermined anti-lab-leak conclusion while sidelining features suggestive of manipulation.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
-        "furin cleavage site",
+        "Lab-leak hypothesis",
+        "Furin cleavage site",
         "Freedom of Information requests"
       ],
       "entities": {
@@ -683,7 +679,7 @@
       "summary": "Detailed USRTK timeline of how five virologists moved from overnight alarm about the furin cleavage site to publishing Nature Medicine’s claim that no lab scenario was plausible.",
       "book_role": "",
       "topics": [
-        "furin cleavage site"
+        "Furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -753,7 +749,7 @@
       "summary": "Lancet multi-author statement supporting Chinese scientists and condemning conspiracy theories that COVID-19 lacked a natural origin.",
       "book_role": "",
       "topics": [
-        "zoonosis",
+        "Zoonosis",
         "Conspiracy theories"
       ],
       "entities": {
@@ -979,7 +975,7 @@
       "book_role": "Notes citation documenting the Proximal Origin drafting and messaging timeline.",
       "topics": [
         "SARS-CoV-2",
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -992,13 +988,7 @@
           "Wellcome Trust",
           "University of North Carolina"
         ],
-        "places": [],
-        "events": [
-          "Origins teleconference (1 February 2020)"
-        ],
-        "works": [
-          "The proximal origin of SARS-CoV-2"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [

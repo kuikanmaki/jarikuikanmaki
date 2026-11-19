@@ -382,9 +382,9 @@
       "summary": "PubMed abstract of Liu et al.: pangolin-CoV-2020 from sick Malayan pangolins is related to SARS-CoV-2 and bat CoVs but does not support SARS-CoV-2 emerging directly from that pangolin virus; pangolins are natural betacoronavirus hosts.",
       "book_role": "",
       "topics": [
-        "pangolins",
-        "intermediate host",
-        "zoonosis"
+        "Pangolins",
+        "Intermediate host",
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -1081,9 +1081,9 @@
       "summary": "Josh Rogin opinion based on 2018 U.S. Embassy cables warning of safety and staffing weaknesses at WIV’s BSL-4 bat-coronavirus research—and the risk of a SARS-like pandemic—years before COVID.",
       "book_role": "Rogin’s State Department cables warning about safety problems at the Wuhan lab.",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "State Department cables",
-        "biosafety",
+        "Biosafety",
         "BSL-4 laboratory"
       ],
       "entities": {
@@ -1149,7 +1149,7 @@
       "summary": "Minerva article presenting the Sørensen–Dalgleish–Susrud paper arguing SARS-CoV-2’s spike inserts and stability make a laboratory origin the most logical explanation, with interview commentary from Birger Sørensen.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1259,7 +1259,7 @@
       "summary": "New York Times report that EU officials softened language criticizing China in a COVID-19 disinformation assessment after heavy pressure from Beijing, based on documents, emails, and interviews.",
       "book_role": "Notes citation on early political pressure shaping official COVID disinformation narratives.",
       "topics": [
-        "censorship",
+        "Censorship",
         "COVID-19",
         "Disinformation"
       ],
@@ -1372,8 +1372,8 @@
       "book_role": "Notes citation for the State Department cable on WIV BSL-4 staffing and safety gaps.",
       "topics": [
         "BSL-4 laboratory",
-        "biosafety",
-        "biosecurity"
+        "Biosafety",
+        "Biosecurity"
       ],
       "entities": {
         "people": [],
@@ -1430,8 +1430,8 @@
       "summary": "Daily Mail coverage of a Dalgleish–Sørensen study claiming Chinese scientists engineered SARS-CoV-2 then reverse-engineered related sequences to mimic natural bat evolution—reporting that journals had long ignored their evidence.",
       "book_role": "Notes citation for press amplification of the Dalgleish–Sørensen lab-engineering claim.",
       "topics": [
-        "bat coronaviruses",
-        "reverse genetics"
+        "Bat coronaviruses",
+        "Reverse genetics"
       ],
       "entities": {
         "people": [
@@ -1489,7 +1489,7 @@
       "book_role": "Notes citation for cross-country tracking of lockdown and related COVID policy stringency.",
       "topics": [
         "COVID-19",
-        "Zero Covid"
+        "Zero COVID"
       ],
       "entities": {
         "people": [
@@ -1584,8 +1584,8 @@
       "book_role": "Notes citation on lockdown-era democratic backsliding and information controls.",
       "topics": [
         "COVID-19",
-        "censorship",
-        "Zero Covid"
+        "Censorship",
+        "Zero COVID"
       ],
       "entities": {
         "people": [],
@@ -1631,7 +1631,7 @@
       "book_role": "Notes citation questioning the mortality payoff of early mandatory lockdowns.",
       "topics": [
         "COVID-19",
-        "Zero Covid"
+        "Zero COVID"
       ],
       "entities": {
         "people": [

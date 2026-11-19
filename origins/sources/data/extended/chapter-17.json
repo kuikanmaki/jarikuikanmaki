@@ -77,7 +77,7 @@
       "book_role": "",
       "topics": [
         "Freedom of Information requests",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [],
@@ -87,10 +87,7 @@
           "Wuhan Institute of Virology",
           "Global Virome Project"
         ],
-        "places": [],
-        "works": [
-          "Understanding the Risk of Bat Coronavirus Emergence"
-        ]
+        "places": []
       },
       "topic_ids": [
         "topic:freedom-of-information-requests",
@@ -229,7 +226,7 @@
       "book_role": "BANAL-52 discovery showing close sarbecovirus relatives in Laos, still not a direct progenitor.",
       "topics": [
         "RaTG13",
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "BANAL-52"
       ],
       "entities": {
@@ -386,9 +383,9 @@
       "summary": "Washburne Substack cataloging zoonotic-origin evidence that is still missing—intermediate hosts, early animal positives, market chain—versus what lab-leak critics demand.",
       "book_role": "",
       "topics": [
-        "intermediate host",
+        "Intermediate host",
         "Origins debate",
-        "zoonosis"
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -489,9 +486,9 @@
       "summary": "Fauci’s 2012 mBio commentary defending a path forward for highly pathogenic H5N1 research amid gain-of-function controversy.",
       "book_role": "Fauci’s own earlier writing that a GoF experiment gone wrong could start a pandemic.",
       "topics": [
-        "gain-of-function research",
+        "Gain-of-function research",
         "H5N1 avian flu",
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [
@@ -541,7 +538,7 @@
       "summary": "Pre-COVID Bulletin warning that human error in high-biocontainment labs is a likely pandemic threat—lab-accident risk as mainstream biosafety concern.",
       "book_role": "",
       "topics": [
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [
@@ -590,7 +587,7 @@
       "summary": "Archived Sept 2019 procurement notice for WIV central air-conditioning renovation—cited in debates over pre-outbreak lab infrastructure problems. Thin archive capture.",
       "book_role": "",
       "topics": [
-        "biosafety",
+        "Biosafety",
         "September 2019"
       ],
       "entities": {
@@ -967,7 +964,7 @@
       "book_role": "Notes citation reconstructing progenitor SARS-CoV-2 and early lineage offshoots.",
       "topics": [
         "SARS-CoV-2",
-        "viral lineages A and B"
+        "Viral lineages A and B"
       ],
       "entities": {
         "people": [
@@ -1019,9 +1016,9 @@
       "summary": "Lancet correspondence led by Jacques van Helden and dozens of scientists appealing for an open, transparent origins debate—arguing a research-related origin remains plausible and must not be excluded a priori.",
       "book_role": "Notes citation for the open scientific appeal to keep lab origin on the table.",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "SARS-CoV-2",
-        "censorship",
+        "Censorship",
         "Origins debate"
       ],
       "entities": {
@@ -1127,7 +1124,7 @@
       "summary": "Vanity Fair/ProPublica investigation with Senate analyst Toy Reid decoding WIV ‘party speak’ archives—highlighting a November 2019 ‘complex and grave situation’ and biosafety concerns used to bolster lab-linked origins scrutiny.",
       "book_role": "Notes citation on WIV internal documents and the Nov 2019 crisis language.",
       "topics": [
-        "biosafety",
+        "Biosafety",
         "BSL-4 laboratory",
         "COVID-19"
       ],
@@ -1197,7 +1194,7 @@
       "book_role": "Notes citation preserving translated Chinese primary reporting on the outbreak’s start.",
       "topics": [
         "COVID-19",
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1252,7 +1249,7 @@
       "book_role": "Notes citation for firsthand evidence that early Wuhan case counts were suppressed.",
       "topics": [
         "COVID-19",
-        "censorship",
+        "Censorship",
         "Patient Zero"
       ],
       "entities": {
@@ -1539,8 +1536,8 @@
       "summary": "Alison Young USA Today opinion arguing the Wuhan lab-leak hypothesis should not be dismissed—drawing on her lab-safety investigations (including forgotten NIH smallpox vials) to show high-containment accidents and lapses are real precedents.",
       "book_role": "Notes citation that mainstream reporting urged taking lab accident seriously.",
       "topics": [
-        "lab-leak hypothesis",
-        "biosafety",
+        "Lab-leak hypothesis",
+        "Biosafety",
         "COVID-19"
       ],
       "entities": {
@@ -1555,9 +1552,6 @@
         ],
         "places": [
           "Wuhan"
-        ],
-        "events": [
-          "SARS lab escapes (2003–2004)"
         ]
       },
       "entity_ids": {
@@ -1608,9 +1602,9 @@
       "summary": "Alison Young’s 2023 book Pandora’s Gamble on lab leaks, pandemics, and biosafety risk—extending her investigative reporting on high-containment accidents. Amazon page only; no book text captured.",
       "book_role": "Notes citation for Young’s book-length treatment of lab-leak risk.",
       "topics": [
-        "lab-leak hypothesis",
-        "biosafety",
-        "biosecurity"
+        "Lab-leak hypothesis",
+        "Biosafety",
+        "Biosecurity"
       ],
       "entities": {
         "people": [

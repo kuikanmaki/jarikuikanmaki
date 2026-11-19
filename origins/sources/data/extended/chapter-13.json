@@ -120,7 +120,7 @@
       "book_role": "",
       "topics": [
         "Conflicts of interest",
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -284,9 +284,9 @@
       "topics": [
         "ACE2 receptors",
         "SARS-CoV-2",
-        "pangolins",
-        "intermediate host",
-        "furin cleavage site"
+        "Pangolins",
+        "Intermediate host",
+        "Furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -339,7 +339,7 @@
       "summary": "Ian Birrell in UnHerd arguing science journals encouraged and enforced a false natural-origin COVID narrative—citing suppression of papers like Petrovsky’s human-adapted spike analysis while rapid peer review favored the conventional zoonosis line.",
       "book_role": "Notes citation on journal gatekeeping around early lab-origin science.",
       "topics": [
-        "censorship",
+        "Censorship",
         "ACE2 receptors"
       ],
       "entities": {
@@ -397,7 +397,7 @@
       "summary": "Charles Rixey’s ResearchGate chronology (Dec 2019–May 2020) of early-pandemic ‘manufactured consensus,’ compiling FOIA and published records on collusion among officials, scientists, and publishers to shut down lab-origin discussion.",
       "book_role": "Notes citation timeline of early scientific censorship around COVID origins.",
       "topics": [
-        "censorship",
+        "Censorship",
         "Freedom of Information requests",
         "Origins debate"
       ],
@@ -459,7 +459,7 @@
       "summary": "Nicholas Wade in the Bulletin arguing COVID origins were obscured by Chinese concealment and by Western officials—centering the Feb 1, 2020 Farrar teleconference where virologists briefly favored lab manipulation then reversed into journal letters closing the question.",
       "book_role": "Notes citation on East–West scientific messaging that shut down early lab-origin debate.",
       "topics": [
-        "censorship",
+        "Censorship",
         "Origins debate"
       ],
       "entities": {

@@ -21,7 +21,7 @@
       "summary": "Baric-lab 2002 JVI paper on assembling a full-length infectious cDNA of mouse hepatitis virus—early synthetic coronavirus reverse-genetics platform.",
       "book_role": "Early Baric reverse-genetics paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
-        "reverse genetics"
+        "Reverse genetics"
       ],
       "entities": {
         "people": [
@@ -73,7 +73,7 @@
       "summary": "2007 PLOS Pathogens study creating a mouse-adapted SARS-CoV that causes disease and mortality in BALB/c mice via serial passage—lab evolution of pathogenicity.",
       "book_role": "Baric mouse-adapted SARS paper in the research lineage later tied to Wuhan collaboration.",
       "topics": [
-        "serial passaging",
+        "Serial passaging",
         "SARS"
       ],
       "entities": {
@@ -173,7 +173,7 @@
       "summary": "2005 Science paper establishing horseshoe bats as natural reservoirs of SARS-like coronaviruses—foundational for Shi Zhengli’s subsequent WIV program.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -223,11 +223,11 @@
       "summary": "MIT Technology Review deep dive on gain-of-function bat-virus engineering linking U.S. labs (Baric/EcoHealth) to Wuhan, including WIV1 reverse genetics under lower biosafety.",
       "book_role": "Jacobsen’s account of U.S.–China bat-virus engineering links and WIV BSL-2 practice.",
       "topics": [
-        "gain-of-function research",
+        "Gain-of-function research",
         "WIV1",
-        "biosafety",
-        "reverse genetics",
-        "bat coronaviruses"
+        "Biosafety",
+        "Reverse genetics",
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -290,7 +290,7 @@
       "summary": "2015 Nature news on the Menachery/Baric/Shi chimeric bat SARS-like virus paper that stirred gain-of-function debate over risky research.",
       "book_role": "",
       "topics": [
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -301,10 +301,7 @@
         "orgs": [
           "Nature"
         ],
-        "places": [],
-        "works": [
-          "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -349,7 +346,7 @@
       "summary": "2008 JVI Shi-associated paper on receptor-usage differences; chapter notes: chimeric spikes showed bat SARS-like CoVs could be modified to infect human cells.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -437,7 +434,7 @@
       "book_role": "WIV1 bat SARS-like coronavirus infection study in the Wuhan research record.",
       "topics": [
         "WIV1",
-        "reverse genetics"
+        "Reverse genetics"
       ],
       "entities": {
         "people": [
@@ -490,7 +487,7 @@
       "summary": "2017 PLoS Pathogens Hu et al.: rich Yunnan-cave gene pool of bat SARS-related CoVs; native and chimeric viruses infect human cells—direct WIV lab characterization of spillover-capable viruses.",
       "book_role": "",
       "topics": [
-        "chimeric viruses",
+        "Chimeric viruses",
         "SARSr-CoV gene pool"
       ],
       "entities": {
@@ -547,7 +544,7 @@
       "summary": "2018 Nature Zhou et al. on SADS: fatal swine acute diarrhoea from an HKU2-related bat coronavirus—WIV work infecting piglets with a bat CoV (chapter notes).",
       "book_role": "Shi/WIV swine acute diarrhoea coronavirus paper in the chapter’s Wuhan research survey.",
       "topics": [
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -651,7 +648,7 @@
       "summary": "NIH RePORTER record for EcoHealth/Daszak R01AI110964 bat-coronavirus emergence grant.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "NIH grant"
       ],
       "entities": {
@@ -697,7 +694,7 @@
       "summary": "DOI twin of Hu et al. 2017 PLoS Pathogens Yunnan SARSr-CoV gene-pool paper (same study as s10).",
       "book_role": "",
       "topics": [
-        "chimeric viruses",
+        "Chimeric viruses",
         "SARSr-CoV gene pool"
       ],
       "entities": {
@@ -752,7 +749,7 @@
       "summary": "Rev transcript of May 11, 2021 Senate testimony including Fauci’s exchange on NIH funding and gain-of-function research linked to Wuhan.",
       "book_role": "",
       "topics": [
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -801,7 +798,7 @@
       "summary": "C-SPAN/YouTube video of a heated Rand Paul–Fauci exchange on gain-of-function.",
       "book_role": "",
       "topics": [
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -849,8 +846,8 @@
       "summary": "China CDC February 2020 supplementary regulations tightening science-and-technology management during the novel-coronavirus emergency—reinforcing controls on research projects, biological samples, and related scientific activities.",
       "book_role": "Notes citation for early China CDC emergency research-management rules.",
       "topics": [
-        "censorship",
-        "biosecurity"
+        "Censorship",
+        "Biosecurity"
       ],
       "entities": {
         "people": [],
@@ -899,7 +896,7 @@
       "summary": "State Council joint prevention-and-control mechanism notice standardizing publication of novel-coronavirus scientific research—requiring centralized review and coordinated deployment before epidemic-related findings are released.",
       "book_role": "Notes citation for China’s centralized pre-publication control of COVID research.",
       "topics": [
-        "censorship",
+        "Censorship",
         "COVID-19",
         "Freedom of Information requests"
       ],
@@ -949,8 +946,8 @@
       "summary": "CNN report that Beijing imposed extra vetting on COVID academic papers—especially origins studies needing State Council–level approval—amid the U.S.–China origins dispute, described by researchers as narrative control.",
       "book_role": "Notes citation on China’s publication chokehold over origins research.",
       "topics": [
-        "censorship",
-        "zoonosis"
+        "Censorship",
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -1014,7 +1011,7 @@
       "summary": "New York Times investigation of how Chinese censors scrubbed ‘negative’ coronavirus news—mapping propaganda directives and platform deletions that shaped what the public could see as the outbreak spread.",
       "book_role": "Notes citation documenting China’s early COVID information censorship machine.",
       "topics": [
-        "censorship",
+        "Censorship",
         "COVID-19"
       ],
       "entities": {
@@ -1070,7 +1067,7 @@
       "summary": "FactCheck.org explainer on the Rand Paul–Anthony Fauci clash over whether NIH/EcoHealth funding of WIV amounted to gain-of-function research, clarifying the ~$600,000 WIV subaward while noting unresolved zoonosis and lab-accident questions.",
       "book_role": "Notes citation framing the public GoF funding dispute around WIV.",
       "topics": [
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -1135,7 +1132,7 @@
       "summary": "Washington Post Fact Checker piece by Glenn Kessler assessing Senator Paul’s claim that Fauci supported NIH funding of Wuhan lab gain-of-function work—parsing EcoHealth/WIV grants, Baric–Shi collaboration context, and disputed GoF definitions.",
       "book_role": "Notes citation for mainstream fact-checking of the Paul–Fauci GoF exchange.",
       "topics": [
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -1198,8 +1195,8 @@
       "summary": "Newsweek investigation by Rowan Jacobsen arguing Fauci and other officials withheld information about China’s coronavirus experiments amid the Senate GoF fight—examining whether NIH-linked WIV research could bear on pandemic origins.",
       "book_role": "Notes citation alleging official opacity around China coronavirus experiments.",
       "topics": [
-        "gain-of-function research",
-        "censorship"
+        "Gain-of-function research",
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1259,8 +1256,8 @@
       "summary": "Rand Paul’s 2023 book Deception: The Great Covid Cover-Up, arguing officials and scientists obscured COVID origins and related gain-of-function controversies. Amazon product page only; no book text captured.",
       "book_role": "Notes citation for Paul’s book-length cover-up argument.",
       "topics": [
-        "gain-of-function research",
-        "censorship",
+        "Gain-of-function research",
+        "Censorship",
         "Origins debate"
       ],
       "entities": {

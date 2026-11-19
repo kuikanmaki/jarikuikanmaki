@@ -21,8 +21,8 @@
     },
     {
       "id": "topic:anthrax",
-      "prefLabel": "anthrax",
-      "indexTerm": "anthrax",
+      "prefLabel": "Anthrax",
+      "indexTerm": "Anthrax",
       "altLabels": [
         "anthrax attacks"
       ],
@@ -49,8 +49,8 @@
     },
     {
       "id": "topic:bat-coronaviruses",
-      "prefLabel": "bat coronaviruses",
-      "indexTerm": "bat coronaviruses",
+      "prefLabel": "Bat coronaviruses",
+      "indexTerm": "Bat coronaviruses",
       "altLabels": [
         "bat coronavirus emergence",
         "bat origin"
@@ -82,8 +82,8 @@
     },
     {
       "id": "topic:biodefense-complex",
-      "prefLabel": "biodefense complex",
-      "indexTerm": "biodefense complex",
+      "prefLabel": "Biodefense complex",
+      "indexTerm": "Biodefense complex",
       "altLabels": [],
       "related": [
         {
@@ -103,8 +103,8 @@
     },
     {
       "id": "topic:biological-weapons",
-      "prefLabel": "biological weapons",
-      "indexTerm": "biological weapons",
+      "prefLabel": "Biological weapons",
+      "indexTerm": "Biological weapons",
       "altLabels": [],
       "related": [
         {
@@ -131,8 +131,8 @@
     },
     {
       "id": "topic:biosafety",
-      "prefLabel": "biosafety",
-      "indexTerm": "biosafety",
+      "prefLabel": "Biosafety",
+      "indexTerm": "Biosafety",
       "altLabels": [
         "biosecurity",
         "WIV biosafety",
@@ -148,8 +148,8 @@
     },
     {
       "id": "topic:biosecurity",
-      "prefLabel": "biosecurity",
-      "indexTerm": "biosecurity",
+      "prefLabel": "Biosecurity",
+      "indexTerm": "Biosecurity",
       "altLabels": [],
       "related": [],
       "subentries": [
@@ -199,8 +199,8 @@
     },
     {
       "id": "topic:censorship",
-      "prefLabel": "censorship",
-      "indexTerm": "censorship",
+      "prefLabel": "Censorship",
+      "indexTerm": "Censorship",
       "altLabels": [
         "WIV database censorship",
         "content moderation",
@@ -225,8 +225,8 @@
     },
     {
       "id": "topic:chimeric-viruses",
-      "prefLabel": "chimeric viruses",
-      "indexTerm": "chimeric viruses",
+      "prefLabel": "Chimeric viruses",
+      "indexTerm": "Chimeric viruses",
       "altLabels": [],
       "related": [
         {
@@ -368,8 +368,8 @@
     },
     {
       "id": "topic:furin-cleavage-site",
-      "prefLabel": "furin cleavage site",
-      "indexTerm": "furin cleavage site",
+      "prefLabel": "Furin cleavage site",
+      "indexTerm": "Furin cleavage site",
       "altLabels": [
         "FCS",
         "furin site"
@@ -381,8 +381,8 @@
     },
     {
       "id": "topic:gain-of-function-research",
-      "prefLabel": "gain-of-function research",
-      "indexTerm": "gain-of-function research",
+      "prefLabel": "Gain-of-function research",
+      "indexTerm": "Gain-of-function research",
       "altLabels": [
         "gain-of-function",
         "gain of function",
@@ -430,8 +430,8 @@
     },
     {
       "id": "topic:humanized-mouse-models",
-      "prefLabel": "humanized mouse models",
-      "indexTerm": "humanized mouse models",
+      "prefLabel": "Humanized mouse models",
+      "indexTerm": "Humanized mouse models",
       "altLabels": [],
       "related": [
         {
@@ -471,8 +471,8 @@
     },
     {
       "id": "topic:intermediate-host",
-      "prefLabel": "intermediate host",
-      "indexTerm": "intermediate host",
+      "prefLabel": "Intermediate host",
+      "indexTerm": "Intermediate host",
       "altLabels": [],
       "related": [],
       "subentries": [
@@ -484,8 +484,8 @@
     },
     {
       "id": "topic:lab-leak-hypothesis",
-      "prefLabel": "lab-leak hypothesis",
-      "indexTerm": "lab-leak hypothesis",
+      "prefLabel": "Lab-leak hypothesis",
+      "indexTerm": "Lab-leak hypothesis",
       "altLabels": [
         "lab leak",
         "lab leak hypothesis",
@@ -598,8 +598,8 @@
     },
     {
       "id": "topic:pangolins",
-      "prefLabel": "pangolins",
-      "indexTerm": "pangolins",
+      "prefLabel": "Pangolins",
+      "indexTerm": "Pangolins",
       "altLabels": [],
       "related": [],
       "subentries": [
@@ -664,8 +664,8 @@
     },
     {
       "id": "topic:raccoon-dogs",
-      "prefLabel": "raccoon dogs",
-      "indexTerm": "raccoon dogs",
+      "prefLabel": "Raccoon dogs",
+      "indexTerm": "Raccoon dogs",
       "altLabels": [],
       "related": [],
       "subentries": [],
@@ -702,8 +702,8 @@
     },
     {
       "id": "topic:reverse-genetics",
-      "prefLabel": "reverse genetics",
-      "indexTerm": "reverse genetics",
+      "prefLabel": "Reverse genetics",
+      "indexTerm": "Reverse genetics",
       "altLabels": [],
       "related": [],
       "subentries": [],
@@ -712,8 +712,8 @@
     },
     {
       "id": "topic:sarbecoviruses",
-      "prefLabel": "sarbecoviruses",
-      "indexTerm": "sarbecoviruses",
+      "prefLabel": "Sarbecoviruses",
+      "indexTerm": "Sarbecoviruses",
       "altLabels": [],
       "related": [],
       "subentries": [],
@@ -780,8 +780,8 @@
     },
     {
       "id": "topic:serial-passaging",
-      "prefLabel": "serial passaging",
-      "indexTerm": "serial passaging",
+      "prefLabel": "Serial passaging",
+      "indexTerm": "Serial passaging",
       "altLabels": [],
       "related": [
         {
@@ -856,8 +856,8 @@
     },
     {
       "id": "topic:viral-lineages-a-and-b",
-      "prefLabel": "viral lineages A and B",
-      "indexTerm": "viral lineages A and B",
+      "prefLabel": "Viral lineages A and B",
+      "indexTerm": "Viral lineages A and B",
       "altLabels": [],
       "related": [],
       "subentries": [],
@@ -901,8 +901,8 @@
     },
     {
       "id": "topic:zero-covid",
-      "prefLabel": "Zero Covid",
-      "indexTerm": "Zero Covid",
+      "prefLabel": "Zero COVID",
+      "indexTerm": "Zero COVID",
       "altLabels": [],
       "related": [],
       "subentries": [],
@@ -914,8 +914,8 @@
     },
     {
       "id": "topic:zoonosis",
-      "prefLabel": "zoonosis",
-      "indexTerm": "zoonosis",
+      "prefLabel": "Zoonosis",
+      "indexTerm": "Zoonosis",
       "altLabels": [
         "lab vs zoonosis",
         "natural origin"

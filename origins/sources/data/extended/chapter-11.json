@@ -83,9 +83,9 @@
       "summary": "Racaniello blog discussing pangolin CoVs, RaTG13 RBD differences, and the SARS-CoV-2 furin cleavage site absent from RaTG13—early technical framing of origin clues.",
       "book_role": "",
       "topics": [
-        "pangolins",
+        "Pangolins",
         "RaTG13",
-        "furin cleavage site"
+        "Furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -130,7 +130,7 @@
       "summary": "2016 Virologica Sinica paper documenting multiple coronaviruses coexisting in bat colonies in an abandoned mineshaft—the Mojiang site later tied to RaTG13/BtCoV/4991.",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "RaTG13"
       ],
       "entities": {
@@ -620,7 +620,7 @@
       "summary": "Ridley & Chan Telegraph essay arguing the lab-escape case: wet-market/pangolin story weaknesses, WIV bat research, and Mojiang-linked closest relatives—foreshadowing their book Viral.",
       "book_role": "",
       "topics": [
-        "pangolins",
+        "Pangolins",
         "COVID-19"
       ],
       "entities": {
@@ -745,7 +745,7 @@
       "book_role": "",
       "topics": [
         "ACE2 receptors",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -797,7 +797,7 @@
       "summary": "2006 Virology study inserting a furin cleavage site at the SARS-CoV S1–S2 junction—showing the technique was already known (chapter notes).",
       "book_role": "",
       "topics": [
-        "furin cleavage site"
+        "Furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -928,8 +928,8 @@
       "summary": "USRTK FOIA reporting that Liu et al. authors privately discussed possible lab origin and furin-cleavage concerns even while publishing ‘no credible evidence’ of engineering.",
       "book_role": "Reporting on conflicts among authors of the February 2020 paper denying lab engineering.",
       "topics": [
-        "furin cleavage site",
-        "lab-leak hypothesis",
+        "Furin cleavage site",
+        "Lab-leak hypothesis",
         "Freedom of Information requests"
       ],
       "entities": {
@@ -988,7 +988,7 @@
       "summary": "AP investigation of China’s internal, tightly controlled origins hunt—including bat and animal sampling—while suppressing independent inquiry and controlling what leaves the country.",
       "book_role": "",
       "topics": [
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1041,7 +1041,7 @@
       "summary": "PMC full text of the 2016 Mojiang mineshaft coronavirus coexistence paper (same study as s03).",
       "book_role": "",
       "topics": [
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -1101,9 +1101,9 @@
       "summary": "Journal of Virology study on Chinese horseshoe bats showing evolutionary arms-race diversity in bat SARSr-CoV spike genes and polymorphic ACE2 receptors—identifying residues relevant to interspecies transmission and spillover risk.",
       "book_role": "Notes citation on bat SARSr-CoV spike/ACE2 diversity underlying spillover debates.",
       "topics": [
-        "bat coronaviruses",
+        "Bat coronaviruses",
         "ACE2 receptors",
-        "sarbecoviruses",
+        "Sarbecoviruses",
         "SARS"
       ],
       "entities": {
@@ -1155,10 +1155,10 @@
       "summary": "Environmental Chemistry Letters editorial by Segreto and colleagues arguing that features such as human-optimized RBD binding and the unique sarbecovirus furin cleavage site mean a laboratory origin of COVID-19 should not be discounted versus natural zoonosis.",
       "book_role": "Notes citation pushing back against near-consensus dismissal of lab origin.",
       "topics": [
-        "lab-leak hypothesis",
-        "furin cleavage site",
+        "Lab-leak hypothesis",
+        "Furin cleavage site",
         "ACE2 receptors",
-        "zoonosis",
+        "Zoonosis",
         "COVID-19"
       ],
       "entities": {
@@ -1212,7 +1212,7 @@
       "summary": "Independent Science News commentary by Jonathan Latham and Allison Wilson proposing a laboratory-linked pathway for SARS-CoV-2, including discussion of serial passaging and why RaTG13 alone is an imperfect natural progenitor explanation.",
       "book_role": "Notes citation for a detailed proposed lab-origin pathway for SARS-CoV-2.",
       "topics": [
-        "serial passaging",
+        "Serial passaging",
         "RaTG13",
         "SARS-CoV-2"
       ],
@@ -1271,11 +1271,11 @@
       "summary": "BioEssays paper by Segreto and Deigin arguing SARS-CoV-2’s chimeric genome (RaTG13-like backbone with pangolin-like RBD) and furin cleavage site are compatible with genetic manipulation or other laboratory intervention, not only natural recombination.",
       "book_role": "Notes citation that genetic structure does not rule out a laboratory origin.",
       "topics": [
-        "lab-leak hypothesis",
-        "furin cleavage site",
-        "chimeric viruses",
+        "Lab-leak hypothesis",
+        "Furin cleavage site",
+        "Chimeric viruses",
         "RaTG13",
-        "pangolins",
+        "Pangolins",
         "SARS-CoV-2"
       ],
       "entities": {
@@ -1334,7 +1334,7 @@
       "summary": "Matt Ridley and Alina Chan’s 2021 book Viral: The Search for the Origin of COVID-19, investigating market spillover versus Wuhan laboratory hypotheses. Amazon product page only; no book text captured.",
       "book_role": "Notes citation for the Ridley–Chan book-length origins investigation.",
       "topics": [
-        "zoonosis"
+        "Zoonosis"
       ],
       "entities": {
         "people": [

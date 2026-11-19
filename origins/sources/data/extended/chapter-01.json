@@ -312,8 +312,8 @@
       "summary": "2012 New York Times editorial on risks of engineered pandemic pathogens / gain-of-function research.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
-        "biosafety"
+        "Gain-of-function research",
+        "Biosafety"
       ],
       "entities": {
         "people": [],
@@ -356,9 +356,9 @@
       "summary": "Cambridge Working Group consensus statement opposing certain creation of potential pandemic pathogens, preserved as a historical biosafety advocacy document.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
+        "Gain-of-function research",
         "Potential pandemic pathogens",
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [],
@@ -409,7 +409,7 @@
       "topics": [
         "MERS",
         "SARS",
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [],
@@ -418,9 +418,6 @@
         ],
         "places": [
           "United States"
-        ],
-        "events": [
-          "Gain-of-function moratorium (2014)"
         ]
       },
       "entity_ids": {
@@ -461,7 +458,7 @@
       "summary": "Landmark Science paper demonstrating airborne transmission of H5N1 influenza between ferrets—central exhibit in gain-of-function controversy.",
       "book_role": "",
       "topics": [
-        "gain-of-function research",
+        "Gain-of-function research",
         "H5N1 avian flu"
       ],
       "entities": {
@@ -632,7 +629,7 @@
       "book_role": "Notes citation placing a SARS/Ebola-capable lab in Wuhan at the start of the outbreak narrative.",
       "topics": [
         "BSL-4 laboratory",
-        "biosafety",
+        "Biosafety",
         "SARS"
       ],
       "entities": {

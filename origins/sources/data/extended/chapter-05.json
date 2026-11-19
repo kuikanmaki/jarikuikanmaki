@@ -23,7 +23,7 @@
       "topics": [
         "SARS-CoV-2",
         "RaTG13",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -82,9 +82,9 @@
       "summary": "Nature news report on Guangzhou researchers suggesting pangolins as the probable intermediate animal source of the coronavirus outbreak then infecting tens of thousands.",
       "book_role": "",
       "topics": [
-        "pangolins",
-        "intermediate host",
-        "zoonosis"
+        "Pangolins",
+        "Intermediate host",
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -300,8 +300,8 @@
       "summary": "2015 Nature Medicine study (Menachery/Baric et al.) showing a SARS-like bat coronavirus cluster with potential for human emergence; later cited in COVID origin debates (with a 2020 editors’ note rejecting unverified engineering claims).",
       "book_role": "",
       "topics": [
-        "bat coronaviruses",
-        "chimeric viruses",
+        "Bat coronaviruses",
+        "Chimeric viruses",
         "SARS"
       ],
       "entities": {

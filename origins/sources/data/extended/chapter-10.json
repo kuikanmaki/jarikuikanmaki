@@ -180,7 +180,7 @@
       "summary": "Politico on Facebook ending removal of ‘man-made’ COVID claims as Washington surges toward a fuller origins investigation—policy flip matching the political floodgates.",
       "book_role": "",
       "topics": [
-        "censorship",
+        "Censorship",
         "Origins debate"
       ],
       "entities": {
@@ -231,7 +231,7 @@
       "summary": "The Hill reports WaPo correcting its Feb 2020 Cotton story—removing ‘debunked’ and ‘conspiracy theory’ because there was then, as now, no determination of the virus’s origins.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Conspiracy theories"
       ],
       "entities": {
@@ -286,7 +286,7 @@
       "summary": "Glenn Kessler Fact Checker timeline on how the Wuhan lab-leak idea moved from dismissed fringe to suddenly credible in spring 2021 as evidence and elite opinion shifted.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -393,7 +393,7 @@
       "book_role": "Fauci’s early email forwarding the Baric–Shi Nature Medicine paper amid Proximal Origin’s inception.",
       "topics": [
         "Freedom of Information requests",
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -405,10 +405,7 @@
           "NIH",
           "DocumentCloud"
         ],
-        "places": [],
-        "works": [
-          "A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -611,7 +608,7 @@
       "summary": "TWiV episode featuring Peter Daszak of EcoHealth Alliance.",
       "book_role": "TWiV interview in which Daszak describes inserting spike proteins into bat coronaviruses.",
       "topics": [
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -664,7 +661,7 @@
       "book_role": "",
       "topics": [
         "NIH grant",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [],
@@ -707,7 +704,7 @@
       "summary": "Newsweek feature on DRASTIC amateur investigators whose open-source finds on WIV and lab-leak clues outpaced mainstream media that had branded the theory racist conspiracy.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Open-source investigation"
       ],
       "entities": {
@@ -825,7 +822,7 @@
       "summary": "NY Post column on open-source finds that WIV censored its virus database the evening of Dec 30, 2019—day before WHO was alerted—amid sample destruction and whistleblower punishment.",
       "book_role": "Early Devine reporting that WIV databases were altered as Shi returned to Wuhan.",
       "topics": [
-        "censorship",
+        "Censorship",
         "China cover-up"
       ],
       "entities": {
@@ -944,7 +941,7 @@
       "summary": "Birrell UnHerd investigation using Farrar’s Spike and FOIA emails: Feb 1 confidential call, early lab suspicions (Andersen/Holmes), Lancet letter orchestration by Daszak, and Farrar’s role convening Proximal Origin while stifling lab-leak talk.",
       "book_role": "Birrell reporting on how scientists helped stifle the lab-leak theory.",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Freedom of Information requests"
       ],
       "entities": {
@@ -1143,7 +1140,7 @@
       "summary": "New York Times investigation that WHO leadership, while publicly praising Beijing, quietly negotiated terms that blocked its own experts from probing China’s early response or visiting the live-animal market—undercutting the best early chance to trace origins.",
       "book_role": "Notes citation on WHO concessions that sidelined an early origins investigation.",
       "topics": [
-        "zoonosis"
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -1203,7 +1200,7 @@
       "summary": "WSJ investigation of the WHO-led Wuhan origins mission: China delayed the probe, vetted participants, and constrained the team—leaving little power for an impartial exam even as the joint vote spotlighted animal spillover.",
       "book_role": "Notes citation detailing how WHO’s Wuhan mission was structurally constrained.",
       "topics": [
-        "zoonosis"
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -1326,7 +1323,7 @@
       "summary": "Reuters report on a U.S.-led joint statement by 14 countries criticizing the WHO origins study as delayed and denied complete original data and samples, and calling for transparent follow-up access.",
       "book_role": "Notes citation for allied governments’ formal critique of the WHO–China origins study.",
       "topics": [
-        "zoonosis"
+        "Zoonosis"
       ],
       "entities": {
         "people": [
@@ -1390,7 +1387,7 @@
       "summary": "Times report that Britain, the U.S., and other countries questioned the WHO Covid origins report and demanded fuller Chinese access, while Tedros said a lab-leak pathway still needed deeper investigation despite the team ranking it least likely.",
       "book_role": "Notes citation for Tedros and allied governments pushing past the joint study’s lab-leak dismissal.",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Origins debate"
       ],
       "entities": {
@@ -1405,9 +1402,6 @@
         ],
         "places": [
           "United Kingdom"
-        ],
-        "events": [
-          "WHO China origins study (2021)"
         ]
       },
       "entity_ids": {
@@ -1457,8 +1451,8 @@
       "summary": "Holman W. Jenkins Jr. WSJ opinion arguing the Wuhan lab theory exposed media bias—news outlets had ruled out a lab leak for months without evidence, then scrambled as contrary facts caught up to Fauci and other deniers.",
       "book_role": "Notes citation on media failure around early lab-leak coverage.",
       "topics": [
-        "lab-leak hypothesis",
-        "censorship"
+        "Lab-leak hypothesis",
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1513,8 +1507,8 @@
       "summary": "David Rozado’s Social Sciences computational study of news-media prevalence of natural-emergence versus lab-leak COVID origins hypotheses, documenting a sharp mid-2021 rise in lab-leak coverage after long dominance of the zoonosis frame.",
       "book_role": "Notes citation quantifying how news media treated competing origin hypotheses over time.",
       "topics": [
-        "zoonosis",
-        "censorship",
+        "Zoonosis",
+        "Censorship",
         "Origins debate"
       ],
       "entities": {
@@ -1566,8 +1560,8 @@
       "summary": "Ashley Rindsberg in Tablet Mag arguing mainstream media enforced falsehoods about COVID origins for over a year—never weighing lab-leak evidence, never apologizing—and highlighting Daszak’s WIV ties as a conflicted news source.",
       "book_role": "Notes citation on media enforcement against the lab-leak hypothesis.",
       "topics": [
-        "lab-leak hypothesis",
-        "censorship",
+        "Lab-leak hypothesis",
+        "Censorship",
         "BSL-4 laboratory",
         "Origins debate"
       ],
@@ -1623,8 +1617,8 @@
       "summary": "Archived PolitiFact fact-check that labeled Li-Meng Yan’s Tucker Carlson claim of a man-made Wuhan lab virus a ‘debunked conspiracy theory’; a May 2021 editor’s note later withdrew it, saying earlier ‘could not have been manipulated’ assertions were more widely disputed.",
       "book_role": "Notes citation for fact-checking that branded lab-origin claims conspiracy—then pulled the rating.",
       "topics": [
-        "lab-leak hypothesis",
-        "censorship"
+        "Lab-leak hypothesis",
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1728,7 +1722,7 @@
       "book_role": "Notes citation for behind-the-scenes scientific messaging on SARS-CoV-2 origins.",
       "topics": [
         "SARS-CoV-2",
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1788,7 +1782,7 @@
       "summary": "USRTK emails showing EcoHealth’s Peter Daszak orchestrating The Lancet’s February 2020 natural-origin statement while discussing with Baric and Linfa Wang how to mask EcoHealth’s involvement so the letter would appear independent.",
       "book_role": "Notes citation on Daszak’s hidden role in the Lancet origins letter.",
       "topics": [
-        "censorship",
+        "Censorship",
         "Origins debate"
       ],
       "entities": {
@@ -1849,7 +1843,7 @@
       "summary": "Financial Times report that NIH confirmed Chinese scientists had sequences from early Wuhan COVID cases removed from a U.S. database months after submission—Jesse Bloom’s finding framed by an expert as deliberate obfuscation of origins evidence.",
       "book_role": "Notes citation on deletion of early Wuhan viral sequence records.",
       "topics": [
-        "censorship"
+        "Censorship"
       ],
       "entities": {
         "people": [
@@ -1909,7 +1903,7 @@
       "book_role": "Notes citation for NIH’s CREID network launch during the pandemic.",
       "topics": [
         "COVID-19",
-        "zoonosis"
+        "Zoonosis"
       ],
       "entities": {
         "people": [

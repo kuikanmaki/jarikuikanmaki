@@ -75,7 +75,7 @@
       "summary": "David Hoffman’s history of Cold War nuclear/biological arms racing and the Soviet ‘Dead Hand’ legacy.",
       "book_role": "Hoffman’s Dead Hand history discussed with Otto as Cold War bioweapons context.",
       "topics": [
-        "biological weapons"
+        "Biological weapons"
       ],
       "entities": {
         "people": [
@@ -122,7 +122,7 @@
       "summary": "Ken Alibek’s insider account of the Soviet biological weapons program.",
       "book_role": "Alibek’s Biohazard account of a covert Soviet outbreak used as historical warning.",
       "topics": [
-        "biological weapons"
+        "Biological weapons"
       ],
       "entities": {
         "people": [
@@ -243,7 +243,7 @@
       "summary": "mBio analysis linking the 1977 H1N1 reemergence (widely discussed as a possible lab-related event) to contemporary gain-of-function policy debates.",
       "book_role": "",
       "topics": [
-        "gain-of-function research"
+        "Gain-of-function research"
       ],
       "entities": {
         "people": [
@@ -256,9 +256,6 @@
         ],
         "places": [
           "Soviet Union"
-        ],
-        "events": [
-          "Russian flu (1977)"
         ]
       },
       "entity_ids": {
@@ -309,9 +306,9 @@
       "summary": "2015 Journal of Defence Studies paper by Dany Shoham profiling China’s biological warfare programme—arguing a large network of defence- and PLA-affiliated facilities support BW research, development, production, testing, or storage.",
       "book_role": "Notes citation on China’s pre-pandemic biological-weapons research infrastructure.",
       "topics": [
-        "biological weapons",
-        "biodefense complex",
-        "biosecurity"
+        "Biological weapons",
+        "Biodefense complex",
+        "Biosecurity"
       ],
       "entities": {
         "people": [
@@ -323,9 +320,6 @@
         ],
         "places": [
           "China"
-        ],
-        "events": [
-          "Biological Weapons Convention (1972)"
         ]
       },
       "entity_ids": {
@@ -425,8 +419,8 @@
       "summary": "Stephen Kinzer’s 2019 biography of CIA chemist Sidney Gottlieb and MK-Ultra, documenting Cold War mind-control and covert chemical/biological experiments. Amazon product page only; no book text captured.",
       "book_role": "Notes citation for Cold War covert biological/chemical experimentation precedents.",
       "topics": [
-        "biological weapons",
-        "biodefense complex"
+        "Biological weapons",
+        "Biodefense complex"
       ],
       "entities": {
         "people": [
@@ -438,10 +432,7 @@
           "Amazon",
           "Henry Holt and Co."
         ],
-        "places": [],
-        "events": [
-          "MKUltra"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -486,7 +477,7 @@
       "summary": "National Post / Bulletin of the Atomic Scientists piece by Martin Furmanski on historical pathogen lab escapes, including the argument that the 1977 H1N1 ‘Russian flu’ pandemic began from a laboratory accident tied to vaccine work.",
       "book_role": "Notes citation establishing that high-consequence lab escapes have happened before.",
       "topics": [
-        "biosafety"
+        "Biosafety"
       ],
       "entities": {
         "people": [
@@ -497,11 +488,6 @@
         ],
         "places": [
           "China"
-        ],
-        "events": [
-          "SARS lab escapes (2003–2004)",
-          "Russian flu (1977)",
-          "Taiwan BSL-4 laboratory breach (2003)"
         ]
       },
       "entity_ids": {

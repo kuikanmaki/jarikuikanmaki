@@ -79,7 +79,7 @@
       "summary": "Washington Examiner: in early 2020 Fauci suggested FBI and MI5 might need warning that COVID could have emerged from a Wuhan lab—before he publicly argued the virus most likely arose naturally.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -659,7 +659,7 @@
       "summary": "Report that scientists at the center of the lab-leak controversy met with NIH and Fauci around Proximal Origin timing.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1245,7 +1245,7 @@
       "book_role": "",
       "topics": [
         "Intelligence community",
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1255,10 +1255,7 @@
           "Defense Intelligence Agency",
           "U.S. Right to Know"
         ],
-        "places": [],
-        "works": [
-          "SARS-CoV-2 Genome Analysis (DIA report)"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -1303,7 +1300,7 @@
       "summary": "WSJ: U.S. Energy Department now assesses a lab leak in China as the most likely COVID origin.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "COVID-19"
       ],
       "entities": {
@@ -1366,7 +1363,7 @@
       "summary": "WSJ: FBI Director says COVID pandemic likely caused by a Chinese lab leak.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis"
+        "Lab-leak hypothesis"
       ],
       "entities": {
         "people": [
@@ -1429,7 +1426,7 @@
       "summary": "NBC: CIA shifts prior assessments and concludes COVID likely leaked from a Chinese lab, while noting low confidence.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Origins debate"
       ],
       "entities": {
@@ -1879,7 +1876,7 @@
       "summary": "Report that a prominent virologist warned the intelligence community COVID could have a lab origin.",
       "book_role": "",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "Intelligence community",
         "COVID-19"
       ],
@@ -2468,7 +2465,7 @@
       "book_role": "",
       "topics": [
         "Origins debate",
-        "gain-of-function research",
+        "Gain-of-function research",
         "COVID-19"
       ],
       "entities": {
@@ -2756,7 +2753,7 @@
         "Ra4991",
         "BLAST",
         "SARS-CoV-2",
-        "bat coronaviruses"
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -2811,7 +2808,7 @@
       "summary": "Mail on Sunday / Ian Birrell report that Columbia epidemiologist Ian Lipkin said he learned of Wuhan’s new outbreak on December 15, 2019—more than two weeks before WHO was notified—undercutting Beijing’s early case narrative.",
       "book_role": "Notes citation for Lipkin’s early private tip about the Wuhan outbreak.",
       "topics": [
-        "censorship",
+        "Censorship",
         "Patient Zero"
       ],
       "entities": {
@@ -2920,9 +2917,9 @@
       "summary": "Richard Ebright’s June 18, 2024 Senate Homeland Security written testimony on COVID origins—detailing EcoHealth/WIV bat SARS-like chimeric work and DEFUSE plans to insert furin cleavage sites into lab-generated sarbecoviruses.",
       "book_role": "Notes citation for Ebright’s Senate record on GoF/DEFUSE and origins risk.",
       "topics": [
-        "gain-of-function research",
-        "furin cleavage site",
-        "chimeric viruses",
+        "Gain-of-function research",
+        "Furin cleavage site",
+        "Chimeric viruses",
         "Origins debate"
       ],
       "entities": {
@@ -2935,10 +2932,7 @@
           "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
           "University of North Carolina"
         ],
-        "places": [],
-        "works": [
-          "DEFUSE"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -2986,10 +2980,10 @@
       "summary": "Zenodo release of Project DEFUSE-related documents—including EcoHealth/Daszak budget annex material for WIV—detailing the DARPA proposal many cite for planned chimeric SARS-like viruses with furin-site insertions.",
       "book_role": "Notes citation preserving DEFUSE budget/proposal documents for WIV work.",
       "topics": [
-        "gain-of-function research",
-        "furin cleavage site",
-        "chimeric viruses",
-        "bat coronaviruses"
+        "Gain-of-function research",
+        "Furin cleavage site",
+        "Chimeric viruses",
+        "Bat coronaviruses"
       ],
       "entities": {
         "people": [
@@ -3003,10 +2997,7 @@
           "DRASTIC",
           "Zenodo"
         ],
-        "places": [],
-        "works": [
-          "DEFUSE"
-        ]
+        "places": []
       },
       "entity_ids": {
         "people": [
@@ -3055,8 +3046,8 @@
       "summary": "Science news report on bipartisan House grilling of EcoHealth’s Peter Daszak—criticizing late NIH progress reports, WIV collaborator safety conditions, and stewardship of U.S. grant funds amid COVID origins scrutiny.",
       "book_role": "Notes citation for congressional bipartisan pressure on EcoHealth leadership.",
       "topics": [
-        "gain-of-function research",
-        "biosafety",
+        "Gain-of-function research",
+        "Biosafety",
         "Origins debate"
       ],
       "entities": {
@@ -3121,8 +3112,8 @@
       "summary": "New York Post report that the House COVID panel urged a criminal probe into gain-of-function virus research linked to EcoHealth/WIV—citing DEFUSE plans, Ebright commentary on the unique FCS, and Baric’s later testimony.",
       "book_role": "Notes citation for the panel’s call to criminally investigate GoF-linked research.",
       "topics": [
-        "gain-of-function research",
-        "furin cleavage site"
+        "Gain-of-function research",
+        "Furin cleavage site"
       ],
       "entities": {
         "people": [
@@ -3180,8 +3171,8 @@
       "summary": "Michael Shellenberger’s March 2023 House Weaponization Committee testimony mapping a ‘censorship industrial complex,’ including a dedicated section on U.S. government-linked efforts that delegitimized the COVID lab-leak theory in 2020–2021.",
       "book_role": "Notes citation tying domestic censorship infrastructure to lab-leak suppression.",
       "topics": [
-        "censorship",
-        "lab-leak hypothesis",
+        "Censorship",
+        "Lab-leak hypothesis",
         "Disinformation"
       ],
       "entities": {
@@ -3236,7 +3227,7 @@
       "summary": "David Zweig’s Twitter Files #10 in The Free Press arguing Twitter suppressed true COVID information from doctors and public-health experts that conflicted with U.S. government policy—rigging platform debate.",
       "book_role": "Notes citation for Twitter Files evidence of COVID speech suppression.",
       "topics": [
-        "censorship",
+        "Censorship",
         "COVID-19"
       ],
       "entities": {
@@ -3290,7 +3281,7 @@
       "summary": "bioRxiv preprint by Bruttel, Washburne, and VanDongen arguing SARS-CoV-2’s restriction-endonuclease site pattern matches fingerprints typical of synthetic in-vitro genome assembly more than wild coronaviruses.",
       "book_role": "Notes citation for the endonuclease ‘synthetic fingerprint’ lab-origin argument.",
       "topics": [
-        "reverse genetics",
+        "Reverse genetics",
         "SARS-CoV-2"
       ],
       "entities": {
@@ -3343,9 +3334,9 @@
       "summary": "Steven Quay’s 2025 Skyhorse book The Code as Witness arguing the SARS-CoV-2 genome reveals laboratory origins and lessons for preventing future outbreaks. Amazon page only; no book text captured.",
       "book_role": "Notes citation for Quay’s genome-as-evidence lab-origin book.",
       "topics": [
-        "lab-leak hypothesis",
+        "Lab-leak hypothesis",
         "SARS-CoV-2",
-        "reverse genetics"
+        "Reverse genetics"
       ],
       "entities": {
         "people": [
@@ -3397,8 +3388,8 @@
       "summary": "May 15, 2024 HHS suspension and proposed debarment notice against EcoHealth Alliance—citing NIH grant-policy violations and the R01AI110964 NIAID award record, barring EHA from federal procurement and nonprocurement programs.",
       "book_role": "Notes citation for the formal HHS/NIH EcoHealth suspension and proposed debarment.",
       "topics": [
-        "gain-of-function research",
-        "biosafety",
+        "Gain-of-function research",
+        "Biosafety",
         "NIH grant"
       ],
       "entities": {
@@ -3451,8 +3442,8 @@
       "book_role": "Notes citation on a bat merbecovirus already competent for human ACE2 entry.",
       "topics": [
         "ACE2 receptors",
-        "bat coronaviruses",
-        "zoonosis",
+        "Bat coronaviruses",
+        "Zoonosis",
         "MERS"
       ],
       "entities": {
@@ -3506,8 +3497,8 @@
       "summary": "Journal of Virology editorial by Alwine, Casadevall, and coauthors critically examining evidence offered for zoonotic versus laboratory SARS-CoV-2 origin hypotheses—and how those claims should be tested scientifically.",
       "book_role": "Notes citation for a peer-reviewed critical appraisal of both origin hypotheses’ evidence.",
       "topics": [
-        "zoonosis",
-        "furin cleavage site",
+        "Zoonosis",
+        "Furin cleavage site",
         "SARS-CoV-2"
       ],
       "entities": {
