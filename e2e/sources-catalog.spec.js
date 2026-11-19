@@ -49,8 +49,15 @@ test.describe("Sources catalog smoke", () => {
     if (isMobile(testInfo.project.name)) {
       await page.locator("#chapter-select").selectOption("5");
     } else {
+      // From mid-page, opening Chapters should pin the shelf near the top.
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
+      await expect
+        .poll(async () =>
+          page.locator("#sources-chapters").evaluate((el) => el.getBoundingClientRect().top)
+        )
+        .toBeLessThan(140);
       // In-flow menu sits below the trigger (not flipped above) and scrolls internally.
       const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
       const menuBox = await page.locator("#chapter-custom-list").boundingBox();

@@ -1007,6 +1007,25 @@
     });
   }
 
+  function chaptersShelfNeedsOpenPin() {
+    // Open the menu only after pinning when Chapters is mid-page or cramped for a downward list.
+    var target =
+      document.getElementById("sources-chapters") ||
+      document.getElementById("chapters-label");
+    if (!target) return false;
+    var header = document.querySelector(".site-header");
+    var headerH = header ? header.getBoundingClientRect().height : 0;
+    var clearTop = headerH + 12;
+    var rect = target.getBoundingClientRect();
+    // Already parked under the header — leave scroll alone.
+    if (Math.abs(rect.top - clearTop) <= 24) return false;
+    // Under the sticky header, or lower on the page than the pin position.
+    if (rect.top < clearTop - 8 || rect.top > clearTop + 24) return true;
+    // Not enough viewport below the shelf for the capped downward menu.
+    var menuBudget = Math.min(22 * 16, window.innerHeight * 0.6);
+    return window.innerHeight - rect.bottom < Math.min(menuBudget, 220);
+  }
+
   function resultsHeadingIsAboveClearZone() {
     // True when the chapter/result title sits above the area under the sticky header.
     if (!headingEl || headingEl.hidden) return false;
@@ -1045,12 +1064,15 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
+    // If Chapters is mid-page, pin it first so the downward menu has room on screen.
+    if (opts.pinChapters !== false && chaptersShelfNeedsOpenPin()) {
+      scrollChaptersShelfIntoView();
+    }
     setChapterMenuOpen(true);
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     // Reveal the current chapter inside the capped list without moving the page.
     scrollOptionIntoChapterMenu(selected || focusOpt);
-    // No page auto-scroll: stable shell; focus options without moving the viewport.
     if (opts.focusOption === false) return;
     focusWithoutScroll(focusOpt);
   }
