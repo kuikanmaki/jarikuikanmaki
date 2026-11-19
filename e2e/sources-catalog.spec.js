@@ -49,15 +49,14 @@ test.describe("Sources catalog smoke", () => {
     if (isMobile(testInfo.project.name)) {
       await page.locator("#chapter-select").selectOption("5");
     } else {
-      // From mid-page, opening Chapters should pin the shelf near the top.
-      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
+      const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
+      // Opening the selector must not move the page.
       await expect
-        .poll(async () =>
-          page.locator("#sources-chapters").evaluate((el) => el.getBoundingClientRect().top)
-        )
-        .toBeLessThan(140);
+        .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
+        .toBe(scrollBefore);
       // In-flow menu sits below the trigger (not flipped above) and scrolls internally.
       const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
       const menuBox = await page.locator("#chapter-custom-list").boundingBox();
@@ -69,6 +68,12 @@ test.describe("Sources catalog smoke", () => {
           page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
         )
         .toMatch(/auto|scroll/);
+      // Short desktop heights: menu must stay inside the viewport (scroll internally).
+      const menuFits = await page.locator("#chapter-custom-list").evaluate((el) => {
+        const r = el.getBoundingClientRect();
+        return r.bottom <= window.innerHeight + 1;
+      });
+      expect(menuFits).toBe(true);
       await page.locator('#chapter-custom-list [data-value="5"]').click();
     }
 
@@ -104,6 +109,23 @@ test.describe("Sources catalog smoke", () => {
         )
         .toBeLessThan(160);
     }
+  });
+
+  test("Chapters menu fits short desktop viewports", async ({ page }, testInfo) => {
+    test.skip(isMobile(testInfo.project.name), "desktop custom listbox only");
+    await page.setViewportSize({ width: 1280, height: 560 });
+    await waitForCatalog(page);
+
+    await page.locator("#chapter-custom-trigger").click();
+    await expect(page.locator("#chapter-custom-list")).toBeVisible();
+    await expect
+      .poll(async () =>
+        page.locator("#chapter-custom-list").evaluate((el) => {
+          const r = el.getBoundingClientRect();
+          return r.bottom <= window.innerHeight + 1 && el.scrollHeight > el.clientHeight;
+        })
+      )
+      .toBe(true);
   });
 
   test("Back to Top keeps in-page chapter selection", async ({ page }, testInfo) => {

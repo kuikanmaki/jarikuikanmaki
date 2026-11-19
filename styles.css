@@ -933,14 +933,15 @@ img {
   white-space: nowrap;
 }
 .sources-page .catalog-chapter-menu {
-  /* In-flow list capped so long chapter lists scroll inside the menu, not the page. */
+  /* In-flow list capped so long chapter lists scroll inside the menu, not the page.
+     JS further tightens max-height to the space under the trigger on short viewports. */
   position: static;
   z-index: auto;
   width: 100%;
   margin: 0.25rem 0 0;
   padding: 0.35rem 0;
   list-style: none;
-  max-height: min(22rem, 60vh);
+  max-height: min(22rem, 60vh, calc(100dvh - 12rem));
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;

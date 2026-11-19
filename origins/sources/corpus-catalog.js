@@ -932,6 +932,23 @@
     });
   }
 
+  function fitChapterMenuToViewport() {
+    // Cap the open list to the space under the trigger so short desktop
+    // windows don't clip the menu below the fold (60vh alone is too tall).
+    if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
+    if (!isDesktopChapterPicker()) {
+      chapterMenuEl.style.maxHeight = "";
+      return;
+    }
+    var gap = 12;
+    var room = Math.floor(window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap);
+    var cssCap = Math.min(22 * 16, window.innerHeight * 0.6);
+    // Prefer fitting the viewport over a minimum height — short windows must not clip.
+    var next = Math.max(0, Math.min(cssCap, room));
+    if (next < 1) next = Math.min(cssCap, 10 * 16);
+    chapterMenuEl.style.maxHeight = next + "px";
+  }
+
   function setChapterMenuOpen(open) {
     if (!chapterMenuEl || !chapterTriggerEl) return;
     chapterMenuEl.hidden = !open;
@@ -940,9 +957,11 @@
     if (open) {
       chapterMenuEl.removeAttribute("aria-hidden");
       chapterMenuEl.inert = false;
+      fitChapterMenuToViewport();
     } else {
       chapterMenuEl.setAttribute("aria-hidden", "true");
       chapterMenuEl.inert = true;
+      chapterMenuEl.style.maxHeight = "";
     }
   }
 
@@ -1016,25 +1035,6 @@
     });
   }
 
-  function chaptersShelfNeedsOpenPin() {
-    // Open the menu only after pinning when Chapters is mid-page or cramped for a downward list.
-    var target =
-      document.getElementById("sources-chapters") ||
-      document.getElementById("chapters-label");
-    if (!target) return false;
-    var header = document.querySelector(".site-header");
-    var headerH = header ? header.getBoundingClientRect().height : 0;
-    var clearTop = headerH + 12;
-    var rect = target.getBoundingClientRect();
-    // Already parked under the header — leave scroll alone.
-    if (Math.abs(rect.top - clearTop) <= 24) return false;
-    // Under the sticky header, or lower on the page than the pin position.
-    if (rect.top < clearTop - 8 || rect.top > clearTop + 24) return true;
-    // Not enough viewport below the shelf for the capped downward menu.
-    var menuBudget = Math.min(22 * 16, window.innerHeight * 0.6);
-    return window.innerHeight - rect.bottom < Math.min(menuBudget, 220);
-  }
-
   function resultsHeadingIsAboveClearZone() {
     // True when the chapter/result title sits above the area under the sticky header.
     if (!headingEl || headingEl.hidden) return false;
@@ -1068,12 +1068,9 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
-    // If Chapters is mid-page, pin it first so the downward menu has room on screen.
-    // Instant here — opening the list during a smooth page roll makes the menu drift.
-    if (opts.pinChapters !== false && chaptersShelfNeedsOpenPin()) {
-      scrollChaptersShelfIntoView("instant");
-    }
+    // No page scroll on open — menu height is fitted to the space under the trigger.
     setChapterMenuOpen(true);
+    fitChapterMenuToViewport();
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     // Reveal the current chapter inside the capped list without moving the page.
@@ -2150,4 +2147,8 @@
       desktopMq.addListener(onDesktopMqChange);
     }
   }
+
+  window.addEventListener("resize", function () {
+    if (chapterMenuEl && !chapterMenuEl.hidden) fitChapterMenuToViewport();
+  });
 })();
