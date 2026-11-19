@@ -251,10 +251,18 @@
   function topicChipsHtml(s, opts) {
     opts = opts || {};
     // Authority-only chips: topics first, then linked entities (people/orgs/places/works/events).
-    // Labels come from parallel prefLabel arrays — no free-text orphans.
+    // Skip author_ids / publication_ids — those are already linked in the biblio line.
     var limit = 8;
     var items = [];
     var seen = Object.create(null);
+    var authorIds = s.author_ids || [];
+    var publicationIds = s.publication_ids || [];
+    for (var a = 0; a < authorIds.length; a++) {
+      if (authorIds[a]) seen[authorIds[a]] = true;
+    }
+    for (var p = 0; p < publicationIds.length; p++) {
+      if (publicationIds[p]) seen[publicationIds[p]] = true;
+    }
 
     var topicIds = s.topic_ids || [];
     var topicLabels = s.topics || [];
