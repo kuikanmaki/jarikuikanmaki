@@ -968,11 +968,20 @@
     });
   }
 
+  function resetChapterMenuPlacement() {
+    if (!chapterMenuEl) return;
+    chapterMenuEl.style.maxHeight = "";
+    chapterMenuEl.style.top = "";
+    chapterMenuEl.style.bottom = "";
+    chapterMenuEl.classList.remove("is-flipped");
+  }
+
   function fitChapterMenuToViewport() {
-    // Normal dropdown: ~10 visible rows, capped further by space under the trigger.
+    // ~10-row dropdown; stay inside the viewport. Prefer below the trigger; flip
+    // above when there isn't enough room under it (short windows / near fold).
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
-      chapterMenuEl.style.maxHeight = "";
+      resetChapterMenuPlacement();
       return;
     }
     var gap = 12;
@@ -980,12 +989,26 @@
     var sample = chapterMenuEl.querySelector('[role="option"]');
     var rowH = sample ? Math.ceil(sample.getBoundingClientRect().height) : 44;
     var comfort = comfortRows * rowH + 12;
-    var room = Math.floor(
-      window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap
-    );
-    var next = Math.min(comfort, Math.max(rowH * 3, room));
-    if (next < 1) next = Math.min(comfort, rowH * 3);
+    var minH = rowH * 3;
+    var triggerRect = chapterTriggerEl.getBoundingClientRect();
+    var roomBelow = Math.floor(window.innerHeight - triggerRect.bottom - gap);
+    var roomAbove = Math.floor(triggerRect.top - gap);
+    var openUp = roomBelow < minH && roomAbove > roomBelow;
+    var room = openUp ? roomAbove : roomBelow;
+    var next = Math.min(comfort, Math.max(0, room));
+    if (next < 1) next = Math.min(comfort, Math.max(roomAbove, roomBelow, minH));
+    // Never grow past the chosen direction's free space (avoids clipping off-screen).
+    if (room > 0) next = Math.min(next, room);
     chapterMenuEl.style.maxHeight = next + "px";
+    if (openUp) {
+      chapterMenuEl.style.top = "auto";
+      chapterMenuEl.style.bottom = "calc(100% + 0.25rem)";
+      chapterMenuEl.classList.add("is-flipped");
+    } else {
+      chapterMenuEl.style.top = "";
+      chapterMenuEl.style.bottom = "";
+      chapterMenuEl.classList.remove("is-flipped");
+    }
   }
 
   function setChapterMenuOpen(open) {
@@ -1000,7 +1023,7 @@
     } else {
       chapterMenuEl.setAttribute("aria-hidden", "true");
       chapterMenuEl.inert = true;
-      chapterMenuEl.style.maxHeight = "";
+      resetChapterMenuPlacement();
     }
   }
 

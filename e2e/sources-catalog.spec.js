@@ -160,16 +160,22 @@ test.describe("Sources catalog smoke", () => {
           const el = document.getElementById("chapter-custom-list");
           const opt = el.querySelector('[role="option"]');
           const rowH = opt ? opt.getBoundingClientRect().height : 44;
-          const room = Math.floor(
-            window.innerHeight - trigger.getBoundingClientRect().bottom - 12
-          );
+          const gap = 12;
+          const minH = rowH * 3;
           const comfort = rowH * 10 + 12;
+          const t = trigger.getBoundingClientRect();
+          const roomBelow = Math.floor(window.innerHeight - t.bottom - gap);
+          const roomAbove = Math.floor(t.top - gap);
+          const openUp = roomBelow < minH && roomAbove > roomBelow;
+          const room = openUp ? roomAbove : roomBelow;
+          const expected = Math.min(comfort, Math.max(0, room));
           const r = el.getBoundingClientRect();
-          const expected = Math.min(comfort, Math.max(room, rowH * 3));
           const sized = Math.abs(el.clientHeight - expected) <= 16;
-          const inView = r.bottom <= window.innerHeight + 1;
+          const inView =
+            r.top >= -1 && r.bottom <= window.innerHeight + 1;
           const scrolls = el.scrollHeight > el.clientHeight;
-          return sized && inView && scrolls;
+          const flipped = el.classList.contains("is-flipped") === openUp;
+          return sized && inView && scrolls && flipped;
         })
       )
       .toBe(true);
