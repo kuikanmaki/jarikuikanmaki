@@ -887,9 +887,11 @@
         if (applyPendingRestoreScroll()) {
           return true;
         }
-        // Link/permalink chapter loads: keep the Chapters selector pinned after notes inject.
+        // Link/permalink: keep Chapters pinned. Selector browse: rescue if title is above the fold.
         if (view.mode === "chapter" && view.chapterEntry) {
           pinChaptersShelf();
+        } else if (view.mode === "chapter" && !view.chapterEntry) {
+          pinResultsHeadingIfObscured();
         }
         return true;
       })
@@ -1005,16 +1007,51 @@
     });
   }
 
+  function resultsHeadingIsAboveClearZone() {
+    // True when the chapter/result title sits above the area under the sticky header.
+    if (!headingEl || headingEl.hidden) return false;
+    var header = document.querySelector(".site-header");
+    var headerH = header ? header.getBoundingClientRect().height : 0;
+    return headingEl.getBoundingClientRect().top < headerH + 12;
+  }
+
+  function pinResultsHeadingIfObscured() {
+    // Selector browse safety net: only scroll if the new title is off-screen above.
+    requestAnimationFrame(function () {
+      if (!resultsHeadingIsAboveClearZone()) return;
+      scrollBelowStickyHeader(headingEl, 12);
+      requestAnimationFrame(function () {
+        if (resultsHeadingIsAboveClearZone()) {
+          scrollBelowStickyHeader(headingEl, 12);
+        }
+      });
+    });
+  }
+
+  function scrollOptionIntoChapterMenu(opt) {
+    // Keep page scroll still; only move the capped menu's scrollTop.
+    if (!opt || !chapterMenuEl || !chapterMenuEl.contains(opt)) return;
+    var menu = chapterMenuEl;
+    var optTop = opt.offsetTop;
+    var optBottom = optTop + opt.offsetHeight;
+    var viewTop = menu.scrollTop;
+    var viewBottom = viewTop + menu.clientHeight;
+    if (optTop < viewTop) menu.scrollTop = optTop;
+    else if (optBottom > viewBottom) menu.scrollTop = Math.max(0, optBottom - menu.clientHeight);
+  }
+
   function openChapterMenu(opts) {
     opts = opts || {};
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
     setChapterMenuOpen(true);
-    // No auto-scroll: stable shell; focus options without moving the viewport.
-    if (opts.focusOption === false) return;
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
+    // Reveal the current chapter inside the capped list without moving the page.
+    scrollOptionIntoChapterMenu(selected || focusOpt);
+    // No page auto-scroll: stable shell; focus options without moving the viewport.
+    if (opts.focusOption === false) return;
     focusWithoutScroll(focusOpt);
   }
 
@@ -1291,11 +1328,14 @@
     syncEntryLayout();
     if (opts.history !== false) syncCatalogUrl({ replace: !!opts.replace });
     renderResults();
+    if (opts.scroll === false) return;
     // Internal Chapter links / ?chapter=: pin the Chapters selector at the top.
-    // In-page selector browse (entry:false) does not auto-scroll.
-    if (opts.scroll !== false && view.chapterEntry) {
+    if (view.chapterEntry) {
       pinChaptersShelf();
+      return;
     }
+    // Selector browse: only auto-scroll if the new chapter title is above the viewport.
+    pinResultsHeadingIfObscured();
   }
 
   function openKeyword(hit, mode, opts) {

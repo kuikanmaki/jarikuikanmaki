@@ -933,15 +933,17 @@ img {
   white-space: nowrap;
 }
 .sources-page .catalog-chapter-menu {
-  /* In-flow list: picker grows with the open menu; page scroll is the only scrollbar. */
+  /* In-flow list capped so long chapter lists scroll inside the menu, not the page. */
   position: static;
   z-index: auto;
   width: 100%;
   margin: 0.25rem 0 0;
   padding: 0.35rem 0;
   list-style: none;
-  max-height: none;
-  overflow: visible;
+  max-height: min(22rem, 60vh);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   border: 1px solid hsl(var(--border));
   border-radius: var(--radius);
   background: hsl(var(--card));

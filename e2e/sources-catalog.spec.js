@@ -51,12 +51,17 @@ test.describe("Sources catalog smoke", () => {
     } else {
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
-      // In-flow menu sits below the trigger (not flipped above).
+      // In-flow menu sits below the trigger (not flipped above) and scrolls internally.
       const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
       const menuBox = await page.locator("#chapter-custom-list").boundingBox();
       expect(triggerBox).toBeTruthy();
       expect(menuBox).toBeTruthy();
       expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
+      await expect
+        .poll(async () =>
+          page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
+        )
+        .toMatch(/auto|scroll/);
       await page.locator('#chapter-custom-list [data-value="5"]').click();
     }
 
@@ -71,19 +76,26 @@ test.describe("Sources catalog smoke", () => {
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
     expect(new URL(page.url()).search).toBe("");
 
-    // Switching chapters updates the panel without auto-scrolling the viewport.
+    // If the title was scrolled above the fold while the menu stayed open, rescue to the title.
     if (!isMobile(testInfo.project.name)) {
-      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-      const scrollBefore = await page.evaluate(() => window.scrollY);
       await page.locator("#chapter-custom-trigger").click();
       await expect(page.locator("#chapter-custom-list")).toBeVisible();
-      await page.locator('#chapter-custom-list [data-value="7"]').click();
+      await page.evaluate(() => {
+        const heading = document.getElementById("sources-heading");
+        const header = document.querySelector(".site-header");
+        if (!heading) return;
+        const headerH = header ? header.getBoundingClientRect().height : 0;
+        // Nudge the page so the chapter title sits above the sticky-header clear zone.
+        window.scrollBy(0, heading.getBoundingClientRect().top - headerH + 40);
+      });
+      await page.locator('#chapter-custom-list [data-value="7"]').click({ force: true });
       await expect(page.locator("#sources-heading")).toContainText(/Everything Is Under Control/i);
       await expectStableChrome(page);
-      // No pin/jump back to Chapters — scroll position stays put (allow clamp if page shortened).
-      const scrollAfter = await page.evaluate(() => window.scrollY);
-      expect(scrollAfter).toBeGreaterThan(100);
-      expect(Math.abs(scrollAfter - scrollBefore)).toBeLessThan(80);
+      await expect
+        .poll(async () =>
+          page.locator("#sources-heading").evaluate((el) => el.getBoundingClientRect().top)
+        )
+        .toBeLessThan(160);
     }
   });
 
