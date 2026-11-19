@@ -85,7 +85,11 @@
         ],
         "orgs": [
           "Science",
-          "The Lancet"
+          "The Lancet",
+          "Wuhan Municipal Health Commission",
+          "Reuters",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -101,7 +105,8 @@
         ],
         "orgs": [
           "org:science",
-          "org:the-lancet"
+          "org:the-lancet",
+          "org:wuhan-municipal-health-commission"
         ],
         "places": [
           "place:wuhan",
@@ -143,6 +148,7 @@
         "orgs": [
           "NIAID",
           "NIH",
+          "The Telegraph",
           "OpenTheBooks"
         ],
         "places": [
@@ -158,7 +164,8 @@
         ],
         "orgs": [
           "org:niaid",
-          "org:nih"
+          "org:nih",
+          "org:the-telegraph"
         ],
         "places": []
       },
@@ -194,7 +201,9 @@
         "orgs": [
           "CDC",
           "The Seattle Times",
-          "Washington State Department of Health"
+          "Washington State Department of Health",
+          "Associated Press",
+          "U.S. Department of State"
         ],
         "places": [
           "United States",
@@ -242,7 +251,13 @@
         "orgs": [
           "NIAID",
           "Boston Herald",
-          "Fred Hutchinson Cancer Center"
+          "Fred Hutchinson Cancer Center",
+          "Medium",
+          "NIH",
+          "Science",
+          "The New York Times",
+          "The Wall Street Journal",
+          "Twitter"
         ],
         "places": [
           "Seattle"
@@ -301,7 +316,11 @@
           "NIH",
           "EcoHealth Alliance",
           "U.S. Right to Know",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "White House",
+          "Nature",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -322,7 +341,8 @@
           "org:nih",
           "org:ecohealth-alliance",
           "org:u-s-right-to-know",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:white-house"
         ],
         "places": []
       },
@@ -356,7 +376,10 @@
         "people": [],
         "orgs": [
           "NIAID",
-          "HHS TAGGS"
+          "HHS",
+          "HHS TAGGS",
+          "EcoHealth Alliance",
+          "Cell"
         ],
         "places": [
           "Asia"
@@ -369,7 +392,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:niaid"
+          "org:niaid",
+          "org:hhs"
         ],
         "places": []
       },
@@ -406,7 +430,18 @@
         "orgs": [
           "U.S. Right to Know",
           "Wuhan Institute of Virology",
-          "University of North Carolina"
+          "University of North Carolina",
+          "DocumentCloud",
+          "White House",
+          "The Week",
+          "Substack",
+          "White Coat Waste Project",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "Twitter",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -426,7 +461,12 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:wuhan-institute-of-virology",
-          "org:university-of-north-carolina"
+          "org:university-of-north-carolina",
+          "org:documentcloud",
+          "org:white-house",
+          "org:the-week",
+          "org:substack",
+          "org:white-coat-waste-project"
         ],
         "places": [
           "place:wuhan"
@@ -467,8 +507,31 @@
         ],
         "orgs": [
           "NIAID",
+          "Chinese Center for Disease Control and Prevention",
+          "House Oversight and Reform Committee",
+          "Moderna",
+          "University of North Carolina",
+          "Wellcome Trust",
+          "White House",
+          "Substack",
+          "bioRxiv",
           "National Security Council",
-          "OpenTheBooks"
+          "OpenTheBooks",
+          "Amazon",
+          "DARPA",
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIH",
+          "Science",
+          "The Wall Street Journal",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Right to Know",
+          "U.S. Senate",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "YouTube"
         ],
         "places": [
           "Washington"
@@ -480,7 +543,15 @@
           "person:ralph-baric"
         ],
         "orgs": [
-          "org:niaid"
+          "org:niaid",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:house-oversight-and-reform-committee",
+          "org:moderna",
+          "org:university-of-north-carolina",
+          "org:wellcome-trust",
+          "org:white-house",
+          "org:substack",
+          "org:biorxiv"
         ],
         "places": []
       },
@@ -518,7 +589,25 @@
         "orgs": [
           "NIH",
           "DocumentCloud",
-          "United States District Court for the Western District of Louisiana"
+          "University of North Carolina",
+          "ABC News",
+          "Politico",
+          "White House",
+          "UnHerd",
+          "Substack",
+          "United States District Court for the Western District of Louisiana",
+          "EcoHealth Alliance",
+          "Meta",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "Science",
+          "The New York Times",
+          "The Washington Post",
+          "U.S. Congress",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Bethesda",
@@ -531,7 +620,13 @@
         ],
         "orgs": [
           "org:nih",
-          "org:documentcloud"
+          "org:documentcloud",
+          "org:university-of-north-carolina",
+          "org:abc-news",
+          "org:politico",
+          "org:white-house",
+          "org:unherd",
+          "org:substack"
         ],
         "places": []
       },
@@ -622,7 +717,26 @@
           "Dan Sirotkin"
         ],
         "orgs": [
-          "Los Alamos National Laboratory"
+          "USAID",
+          "Wikipedia",
+          "mBio",
+          "Substack",
+          "bioRxiv",
+          "BioEssays",
+          "Los Alamos National Laboratory",
+          "Amazon",
+          "Chinese Academy of Sciences",
+          "Medium",
+          "Nature",
+          "NIAID",
+          "PubMed",
+          "Science",
+          "The Lancet",
+          "Twitter",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "ResearchGate",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -633,7 +747,14 @@
           "person:karl-sirotkin",
           "person:dan-sirotkin"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:usaid",
+          "org:wikipedia",
+          "org:mbio",
+          "org:substack",
+          "org:biorxiv",
+          "org:bioessays"
+        ],
         "places": [
           "place:wuhan"
         ]
@@ -676,7 +797,17 @@
           "Yuri Deigin"
         ],
         "orgs": [
-          "Medium"
+          "Medium",
+          "Wikipedia",
+          "bioRxiv",
+          "GenBank",
+          "Nature",
+          "PubMed",
+          "Science",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "ResearchGate",
+          "Cell"
         ],
         "places": []
       },
@@ -691,7 +822,9 @@
           "person:yuri-deigin"
         ],
         "orgs": [
-          "org:medium"
+          "org:medium",
+          "org:wikipedia",
+          "org:biorxiv"
         ],
         "places": []
       },
@@ -731,7 +864,28 @@
           "Shu Kang"
         ],
         "orgs": [
-          "Nerd Has Power"
+          "Nerd Has Power",
+          "Chinese Communist Party",
+          "University of North Carolina",
+          "USAID",
+          "bioRxiv",
+          "PNAS",
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "Nature",
+          "Nature Medicine",
+          "PubMed",
+          "Science",
+          "The New York Times",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "U.S. Congress",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -742,7 +896,12 @@
           "person:shu-kang"
         ],
         "orgs": [
-          "org:nerd-has-power"
+          "org:nerd-has-power",
+          "org:chinese-communist-party",
+          "org:university-of-north-carolina",
+          "org:usaid",
+          "org:biorxiv",
+          "org:pnas"
         ],
         "places": [
           "place:wuhan"
@@ -785,7 +944,11 @@
           "Prashant Pradhan"
         ],
         "orgs": [
-          "bioRxiv"
+          "bioRxiv",
+          "PubMed",
+          "Science",
+          "Twitter",
+          "Cell"
         ],
         "places": []
       },
@@ -834,7 +997,16 @@
         ],
         "orgs": [
           "Daily Mail",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Chinese Communist Party",
+          "White House",
+          "Harper",
+          "Amazon",
+          "NIH",
+          "Science",
+          "U.S. Congress",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -847,7 +1019,10 @@
         ],
         "orgs": [
           "org:daily-mail",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:chinese-communist-party",
+          "org:white-house",
+          "org:harper"
         ],
         "places": [
           "place:wuhan",
@@ -893,7 +1068,18 @@
         "orgs": [
           "Daily Mail",
           "NIH",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Scientific American",
+          "White House",
+          "White Coat Waste Project",
+          "Harper",
+          "Amazon",
+          "Nature",
+          "Science",
+          "The Guardian",
+          "U.S. Congress",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -908,7 +1094,11 @@
         "orgs": [
           "org:daily-mail",
           "org:nih",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:scientific-american",
+          "org:white-house",
+          "org:white-coat-waste-project",
+          "org:harper"
         ],
         "places": [
           "place:wuhan",

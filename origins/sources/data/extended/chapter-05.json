@@ -31,7 +31,20 @@
         ],
         "orgs": [
           "Nature",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Chinese Center for Disease Control and Prevention",
+          "Wuhan Municipal Health Commission",
+          "bioRxiv",
+          "Chinese Academy of Sciences",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "PMC",
+          "PubMed",
+          "Science",
+          "The Lancet",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -48,7 +61,10 @@
         ],
         "orgs": [
           "org:nature",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:wuhan-municipal-health-commission",
+          "org:biorxiv"
         ],
         "places": [
           "place:wuhan"
@@ -89,7 +105,12 @@
           "David Cyranoski"
         ],
         "orgs": [
-          "Nature"
+          "Nature",
+          "Chinese Academy of Sciences",
+          "Medium",
+          "Science",
+          "Twitter",
+          "Cell"
         ],
         "places": [
           "China",
@@ -143,8 +164,12 @@
           "Lisa Beilfuss"
         ],
         "orgs": [
+          "The Week",
           "Barron's",
-          "Dow Jones"
+          "Dow Jones",
+          "Amazon",
+          "Meta",
+          "U.S. Congress"
         ],
         "places": [
           "China"
@@ -154,7 +179,9 @@
         "people": [
           "person:lisa-beilfuss"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:the-week"
+        ],
         "places": [
           "place:china"
         ]
@@ -190,7 +217,17 @@
           "Xiao Lei"
         ],
         "orgs": [
-          "ResearchGate"
+          "ResearchGate",
+          "Wuhan Central Hospital",
+          "PLOS Pathogens",
+          "Chinese Academy of Sciences",
+          "Meta",
+          "Nature",
+          "Nature Medicine",
+          "Science",
+          "The Lancet",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -204,7 +241,9 @@
           "person:xiao-lei"
         ],
         "orgs": [
-          "org:researchgate"
+          "org:researchgate",
+          "org:wuhan-central-hospital",
+          "org:plos-pathogens"
         ],
         "places": [
           "place:wuhan",
@@ -247,8 +286,13 @@
         "orgs": [
           "Daily Mail",
           "Wuhan Institute of Virology",
+          "CDC",
           "South China University of Technology",
-          "Wuhan CDC"
+          "Wuhan CDC",
+          "Amazon",
+          "Meta",
+          "Science",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -267,7 +311,8 @@
         ],
         "orgs": [
           "org:daily-mail",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:cdc"
         ],
         "places": [
           "place:wuhan",
@@ -314,7 +359,20 @@
         ],
         "orgs": [
           "Nature Medicine",
-          "University of North Carolina"
+          "University of North Carolina",
+          "USAID",
+          "mBio",
+          "Chinese Academy of Sciences",
+          "EcoHealth Alliance",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "Nature",
+          "NIH",
+          "PubMed",
+          "Science",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -330,7 +388,9 @@
         ],
         "orgs": [
           "org:nature-medicine",
-          "org:university-of-north-carolina"
+          "org:university-of-north-carolina",
+          "org:usaid",
+          "org:mbio"
         ],
         "places": []
       },

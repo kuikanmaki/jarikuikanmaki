@@ -2,6 +2,25 @@
   "type": "event",
   "items": [
     {
+      "id": "event:anthrax-attacks-2001",
+      "prefLabel": "Anthrax attacks (2001)",
+      "indexTerm": "anthrax attacks, 2001",
+      "altLabels": [
+        "Amerithrax",
+        "2001 anthrax attacks",
+        "anthrax attacks"
+      ],
+      "related": [
+        {
+          "label": "September 11 attacks",
+          "id": "event:september-11-attacks"
+        }
+      ],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
       "id": "event:aral-smallpox-outbreak-1971",
       "prefLabel": "Aral smallpox outbreak (1971)",
       "indexTerm": "Aral smallpox outbreak, 1971",
@@ -25,6 +44,33 @@
         "175"
       ],
       "source": "book-index"
+    },
+    {
+      "id": "event:covid-19-pandemic",
+      "prefLabel": "COVID-19 pandemic",
+      "indexTerm": "COVID-19 pandemic",
+      "altLabels": [
+        "Covid-19 pandemic",
+        "coronavirus pandemic"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "event:covid-protests",
+      "prefLabel": "COVID protests",
+      "indexTerm": "COVID protests",
+      "altLabels": [
+        "Covid protests",
+        "COVID-19 protests",
+        "anti-COVID protests"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     },
     {
       "id": "event:gain-of-function-moratorium-2014",
@@ -58,6 +104,19 @@
       "source": "book-index"
     },
     {
+      "id": "event:mojiang-miners-outbreak-2012",
+      "prefLabel": "Mojiang miners outbreak (2012)",
+      "indexTerm": "Mojiang miners outbreak, 2012",
+      "altLabels": [
+        "Mojiang miners",
+        "Mojiang pneumonia cases (2012)"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
       "id": "event:operation-paperclip",
       "prefLabel": "Operation Paperclip",
       "indexTerm": "Operation Paperclip",
@@ -82,16 +141,18 @@
       "source": "book-index"
     },
     {
-      "id": "event:russian-flu-1977",
-      "prefLabel": "Russian flu (1977)",
-      "indexTerm": "Russian flu, 1977",
-      "altLabels": [],
+      "id": "event:origins-teleconference-1-february-2020",
+      "prefLabel": "Origins teleconference (1 February 2020)",
+      "indexTerm": "origins teleconference, 1 February 2020",
+      "altLabels": [
+        "February 1, 2020 teleconference",
+        "1 February 2020 conference call",
+        "Feb 1 2020 call"
+      ],
       "related": [],
       "subentries": [],
-      "pages": [
-        "33"
-      ],
-      "source": "book-index"
+      "pages": [],
+      "source": "corpus-extension"
     },
     {
       "id": "event:russia-ukraine-war",
@@ -104,6 +165,18 @@
         "origins debate displaced"
       ],
       "pages": [],
+      "source": "book-index"
+    },
+    {
+      "id": "event:russian-flu-1977",
+      "prefLabel": "Russian flu (1977)",
+      "indexTerm": "Russian flu, 1977",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [
+        "33"
+      ],
       "source": "book-index"
     },
     {
@@ -124,6 +197,24 @@
         "130"
       ],
       "source": "book-index"
+    },
+    {
+      "id": "event:sars-lab-escapes-2003-2004",
+      "prefLabel": "SARS lab escapes (2003–2004)",
+      "indexTerm": "SARS lab escapes, 2003–2004",
+      "altLabels": [
+        "SARS laboratory escapes",
+        "SARS lab escape"
+      ],
+      "related": [
+        {
+          "label": "SARS epidemic (2002–2004)",
+          "id": "event:sars-epidemic-2002-2004"
+        }
+      ],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     },
     {
       "id": "event:september-11-attacks",
@@ -187,6 +278,33 @@
         "220"
       ],
       "source": "book-index"
+    },
+    {
+      "id": "event:who-china-origins-study-2021",
+      "prefLabel": "WHO China origins study (2021)",
+      "indexTerm": "WHO China origins study, 2021",
+      "altLabels": [
+        "WHO-convened global study of origins of SARS-CoV-2",
+        "WHO origins study",
+        "WHO Wuhan mission"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "event:wuhan-lockdown-2020",
+      "prefLabel": "Wuhan lockdown (2020)",
+      "indexTerm": "Wuhan lockdown, 2020",
+      "altLabels": [
+        "Wuhan lockdown",
+        "lockdown of Wuhan"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

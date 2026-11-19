@@ -82,7 +82,17 @@
           "EcoHealth Alliance",
           "DARPA",
           "Wuhan Institute of Virology",
-          "University of North Carolina"
+          "University of North Carolina",
+          "USAID",
+          "mBio",
+          "PNAS",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "Nature",
+          "NIAID",
+          "Science",
+          "Cell"
         ],
         "places": [
           "Yunnan",
@@ -103,7 +113,10 @@
           "org:ecohealth-alliance",
           "org:darpa",
           "org:wuhan-institute-of-virology",
-          "org:university-of-north-carolina"
+          "org:university-of-north-carolina",
+          "org:usaid",
+          "org:mbio",
+          "org:pnas"
         ],
         "places": [
           "place:yunnan",
@@ -195,7 +208,18 @@
         ],
         "orgs": [
           "Daily Mail",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Chinese Communist Party",
+          "Amazon",
+          "EcoHealth Alliance",
+          "Nature",
+          "Science",
+          "The Guardian",
+          "The New York Times",
+          "U.S. Department of State",
+          "U.S. Senate",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -209,7 +233,8 @@
         ],
         "orgs": [
           "org:daily-mail",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:wuhan"
@@ -296,7 +321,8 @@
         ],
         "orgs": [
           "Twitter",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Science"
         ],
         "places": [
           "Wuhan"
@@ -350,7 +376,16 @@
         "orgs": [
           "The Intercept",
           "EcoHealth Alliance",
-          "NIH"
+          "NIH",
+          "DocumentCloud",
+          "The Free Press",
+          "NIAID",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Right to Know",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "China"
@@ -364,7 +399,9 @@
         "orgs": [
           "org:the-intercept",
           "org:ecohealth-alliance",
-          "org:nih"
+          "org:nih",
+          "org:documentcloud",
+          "org:the-free-press"
         ],
         "places": [
           "place:china"
@@ -411,7 +448,18 @@
           "The Intercept",
           "EcoHealth Alliance",
           "NIH",
-          "NIAID"
+          "NIAID",
+          "DocumentCloud",
+          "US Geological Survey National Wildlife Health Center",
+          "USAID",
+          "Virologica Sinica",
+          "Amazon",
+          "Nature",
+          "Science",
+          "U.S. Congress",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -427,7 +475,11 @@
           "org:the-intercept",
           "org:ecohealth-alliance",
           "org:nih",
-          "org:niaid"
+          "org:niaid",
+          "org:documentcloud",
+          "org:us-geological-survey-national-wildlife-health-center",
+          "org:usaid",
+          "org:virologica-sinica"
         ],
         "places": [],
         "works": [
@@ -468,7 +520,35 @@
         "orgs": [
           "Wuhan Institute of Virology",
           "Substack",
-          "DisInformation Chronicle"
+          "Chinese Communist Party",
+          "DocumentCloud",
+          "People’s Liberation Army",
+          "Scientific American",
+          "New York Post",
+          "Politico",
+          "Newsweek",
+          "bioRxiv",
+          "PolitiFact",
+          "DisInformation Chronicle",
+          "Amazon",
+          "Chinese Academy of Sciences",
+          "Daily Mail",
+          "DARPA",
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "Science",
+          "The Intercept",
+          "The Lancet",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Department of State",
+          "U.S. Right to Know",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -484,7 +564,16 @@
         ],
         "orgs": [
           "org:wuhan-institute-of-virology",
-          "org:substack"
+          "org:substack",
+          "org:chinese-communist-party",
+          "org:documentcloud",
+          "org:people-s-liberation-army",
+          "org:scientific-american",
+          "org:new-york-post",
+          "org:politico",
+          "org:newsweek",
+          "org:biorxiv",
+          "org:politifact"
         ],
         "places": [
           "place:wuhan"
@@ -529,7 +618,10 @@
         ],
         "orgs": [
           "Chinese Academy of Sciences",
-          "Sciencenet News"
+          "Sciencenet News",
+          "Science",
+          "Twitter",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",

@@ -280,7 +280,11 @@
       "id": "org:department-of-energy-us",
       "prefLabel": "Department of Energy (US)",
       "indexTerm": "Department of Energy (US)",
-      "altLabels": [],
+      "altLabels": [
+        "DOE",
+        "Energy Department",
+        "Department of Energy"
+      ],
       "related": [],
       "subentries": [],
       "pages": [
@@ -292,7 +296,11 @@
       "id": "org:director-of-national-intelligence",
       "prefLabel": "Director of National Intelligence",
       "indexTerm": "Director of National Intelligence",
-      "altLabels": [],
+      "altLabels": [
+        "DNI",
+        "ODNI",
+        "Office of the Director of National Intelligence"
+      ],
       "related": [],
       "subentries": [],
       "pages": [
@@ -721,7 +729,10 @@
       "id": "org:sequence-read-archive",
       "prefLabel": "Sequence Read Archive",
       "indexTerm": "Sequence Read Archive",
-      "altLabels": [],
+      "altLabels": [
+        "SRA",
+        "NCBI SRA"
+      ],
       "related": [],
       "subentries": [],
       "pages": [
@@ -1015,7 +1026,9 @@
       "id": "org:usamriid",
       "prefLabel": "USAMRIID",
       "indexTerm": "USAMRIID",
-      "altLabels": [],
+      "altLabels": [
+        "U.S. Army Medical Research Institute of Infectious Diseases"
+      ],
       "related": [
         {
           "label": "Fort Detrick",

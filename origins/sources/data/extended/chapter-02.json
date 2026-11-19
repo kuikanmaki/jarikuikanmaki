@@ -28,7 +28,16 @@
         ],
         "orgs": [
           "The Washington Times",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Chinese Center for Disease Control and Prevention",
+          "Wuhan Institute of Biological Products",
+          "Chinese Academy of Sciences",
+          "Daily Mail",
+          "Nature",
+          "Science",
+          "U.S. Congress",
+          "U.S. Department of State",
+          "WHO"
         ],
         "places": [
           "Wuhan",
@@ -43,7 +52,9 @@
         ],
         "orgs": [
           "org:the-washington-times",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:wuhan-institute-of-biological-products"
         ],
         "places": [
           "place:wuhan",
@@ -83,7 +94,11 @@
         ],
         "orgs": [
           "Amazon",
-          "Doubleday"
+          "The Times",
+          "Doubleday",
+          "Science",
+          "The New York Times",
+          "The Washington Post"
         ],
         "places": [
           "Soviet Union"
@@ -97,7 +112,8 @@
           "person:david-hoffman"
         ],
         "orgs": [
-          "org:amazon"
+          "org:amazon",
+          "org:the-times"
         ],
         "places": [
           "place:soviet-union"
@@ -137,7 +153,12 @@
         "orgs": [
           "Biopreparat",
           "Amazon",
-          "Random House"
+          "Random House",
+          "Unit 731",
+          "USAMRIID",
+          "mBio",
+          "Science",
+          "The New York Times"
         ],
         "places": [
           "Soviet Union",
@@ -155,7 +176,10 @@
         "orgs": [
           "org:biopreparat",
           "org:amazon",
-          "org:random-house"
+          "org:random-house",
+          "org:unit-731",
+          "org:usamriid",
+          "org:mbio"
         ],
         "places": [
           "place:soviet-union",
@@ -198,7 +222,9 @@
         "orgs": [
           "WHO",
           "The Wall Street Journal",
-          "STAT News"
+          "STAT News",
+          "CDC",
+          "University of North Carolina"
         ],
         "places": [
           "Wuhan",
@@ -215,7 +241,9 @@
         "orgs": [
           "org:who",
           "org:the-wall-street-journal",
-          "org:stat-news"
+          "org:stat-news",
+          "org:cdc",
+          "org:university-of-north-carolina"
         ],
         "places": [
           "place:wuhan",
@@ -257,7 +285,23 @@
         ],
         "orgs": [
           "mBio",
-          "American Society for Microbiology"
+          "Biopreparat",
+          "CDC",
+          "Chinese Academy of Medical Sciences",
+          "White House",
+          "Regnery",
+          "American Society for Microbiology",
+          "Medium",
+          "Nature",
+          "NIH",
+          "PubMed",
+          "Science",
+          "The Guardian",
+          "The New York Times",
+          "The Washington Post",
+          "Twitter",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Soviet Union"
@@ -269,7 +313,12 @@
           "person:gigi-kwik-gronvall"
         ],
         "orgs": [
-          "org:mbio"
+          "org:mbio",
+          "org:biopreparat",
+          "org:cdc",
+          "org:chinese-academy-of-medical-sciences",
+          "org:white-house",
+          "org:regnery"
         ],
         "places": [
           "place:soviet-union"
@@ -317,7 +366,15 @@
         ],
         "orgs": [
           "Journal of Defence Studies",
-          "People’s Liberation Army"
+          "People’s Liberation Army",
+          "Defense Intelligence Agency",
+          "Chinese Academy of Sciences",
+          "Nature",
+          "Science",
+          "U.S. Congress",
+          "U.S. Senate",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "China"
@@ -329,7 +386,8 @@
         ],
         "orgs": [
           "org:journal-of-defence-studies",
-          "org:people-s-liberation-army"
+          "org:people-s-liberation-army",
+          "org:defense-intelligence-agency"
         ],
         "places": [
           "place:china"
@@ -372,7 +430,14 @@
           "Dany Shoham"
         ],
         "orgs": [
-          "BESA Center"
+          "BESA Center",
+          "Five Eyes",
+          "UNESCO",
+          "Wuhan Institute of Biological Products",
+          "Nature",
+          "Science",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -381,9 +446,15 @@
           "person:dany-shoham"
         ],
         "orgs": [
-          "org:besa-center"
+          "org:besa-center",
+          "org:five-eyes",
+          "org:unesco",
+          "org:wuhan-institute-of-biological-products"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:covid-19-pandemic"
+        ]
       },
       "source_key": "ch02-n02",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -425,7 +496,9 @@
         "orgs": [
           "CIA",
           "Amazon",
-          "Henry Holt and Co."
+          "Henry Holt and Co.",
+          "Medium",
+          "Science"
         ],
         "places": []
       },
@@ -476,7 +549,15 @@
           "Martin Furmanski"
         ],
         "orgs": [
-          "National Post"
+          "National Post",
+          "Amazon",
+          "Medium",
+          "Nature",
+          "PubMed",
+          "Science",
+          "Twitter",
+          "WHO",
+          "Bulletin of the Atomic Scientists"
         ],
         "places": [
           "China"
@@ -491,6 +572,9 @@
         ],
         "places": [
           "place:china"
+        ],
+        "events": [
+          "event:sars-lab-escapes-2003-2004"
         ]
       },
       "source_key": "ch02-n04",

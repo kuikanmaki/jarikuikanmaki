@@ -27,7 +27,9 @@
         ],
         "orgs": [
           "The Washington Post",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Amazon",
+          "U.S. Senate"
         ],
         "places": [
           "Wuhan"
@@ -44,6 +46,9 @@
         ],
         "places": [
           "place:wuhan"
+        ],
+        "events": [
+          "event:covid-19-pandemic"
         ]
       },
       "source_key": "ch13-s01",
@@ -86,7 +91,10 @@
         "orgs": [
           "org:twitter"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:origins-teleconference-1-february-2020"
+        ]
       },
       "source_key": "ch13-s02",
       "date_iso": "2021-07-18",
@@ -121,7 +129,17 @@
         ],
         "orgs": [
           "Daily Mail",
-          "WHO"
+          "WHO",
+          "University of North Carolina",
+          "White House",
+          "Amazon",
+          "Nature",
+          "Science",
+          "The Lancet",
+          "U.S. Right to Know",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "China",
@@ -139,7 +157,9 @@
         ],
         "orgs": [
           "org:daily-mail",
-          "org:who"
+          "org:who",
+          "org:university-of-north-carolina",
+          "org:white-house"
         ],
         "places": [
           "place:china",
@@ -182,7 +202,8 @@
         ],
         "orgs": [
           "Wuhan Institute of Virology",
-          "Bloomberg"
+          "Bloomberg",
+          "Medium"
         ],
         "places": [
           "Wuhan",
@@ -233,7 +254,10 @@
           "Jeremy Farrar"
         ],
         "orgs": [
-          "Wellcome Trust"
+          "Wellcome Trust",
+          "Wikipedia",
+          "Science",
+          "Cell"
         ],
         "places": [
           "United Kingdom"
@@ -245,7 +269,8 @@
           "person:jeremy-farrar"
         ],
         "orgs": [
-          "org:wellcome-trust"
+          "org:wellcome-trust",
+          "org:wikipedia"
         ],
         "places": [
           "place:united-kingdom"
@@ -288,7 +313,14 @@
         ],
         "orgs": [
           "Nature",
-          "Scientific Reports"
+          "Scientific Reports",
+          "mBio",
+          "bioRxiv",
+          "GenBank",
+          "Medium",
+          "Science",
+          "WHO",
+          "Cell"
         ],
         "places": []
       },
@@ -298,7 +330,9 @@
         ],
         "orgs": [
           "org:nature",
-          "org:scientific-reports"
+          "org:scientific-reports",
+          "org:mbio",
+          "org:biorxiv"
         ],
         "places": []
       },
@@ -344,7 +378,21 @@
           "Nikolai Petrovsky"
         ],
         "orgs": [
-          "UnHerd"
+          "UnHerd",
+          "Wellcome Trust",
+          "White House",
+          "bioRxiv",
+          "Financial Times",
+          "Scientific Reports",
+          "EcoHealth Alliance",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "Science",
+          "The Lancet",
+          "Twitter",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "Beijing",
@@ -356,7 +404,12 @@
           "person:ian-birrell"
         ],
         "orgs": [
-          "org:unherd"
+          "org:unherd",
+          "org:wellcome-trust",
+          "org:white-house",
+          "org:biorxiv",
+          "org:financial-times",
+          "org:scientific-reports"
         ],
         "places": [
           "place:beijing",
@@ -403,7 +456,24 @@
         ],
         "orgs": [
           "ResearchGate",
-          "U.S. Right to Know"
+          "U.S. Right to Know",
+          "Academy of Military Medical Sciences",
+          "People’s Liberation Army",
+          "Wellcome Trust",
+          "ProMED",
+          "White House",
+          "Substack",
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "PubMed",
+          "Science",
+          "The Lancet",
+          "U.S. Congress",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -413,9 +483,18 @@
         ],
         "orgs": [
           "org:researchgate",
-          "org:u-s-right-to-know"
+          "org:u-s-right-to-know",
+          "org:academy-of-military-medical-sciences",
+          "org:people-s-liberation-army",
+          "org:wellcome-trust",
+          "org:promed",
+          "org:white-house",
+          "org:substack"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:covid-19-pandemic"
+        ]
       },
       "source_key": "ch13-n03",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -459,7 +538,29 @@
         ],
         "orgs": [
           "Bulletin of the Atomic Scientists",
-          "Wellcome Trust"
+          "Wellcome Trust",
+          "CDC",
+          "Chinese Communist Party",
+          "DocumentCloud",
+          "White House",
+          "UnHerd",
+          "The Week",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "NIH",
+          "Science",
+          "The Guardian",
+          "The Lancet",
+          "The New York Times",
+          "Twitter",
+          "U.S. Right to Know",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "ResearchGate"
         ],
         "places": [
           "United Kingdom"
@@ -473,10 +574,19 @@
         ],
         "orgs": [
           "org:bulletin-of-the-atomic-scientists",
-          "org:wellcome-trust"
+          "org:wellcome-trust",
+          "org:cdc",
+          "org:chinese-communist-party",
+          "org:documentcloud",
+          "org:white-house",
+          "org:unherd",
+          "org:the-week"
         ],
         "places": [
           "place:united-kingdom"
+        ],
+        "events": [
+          "event:origins-teleconference-1-february-2020"
         ]
       },
       "source_key": "ch13-n04",

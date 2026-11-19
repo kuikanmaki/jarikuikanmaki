@@ -25,7 +25,8 @@
         "people": [],
         "orgs": [
           "Reuters",
-          "Taliban"
+          "Taliban",
+          "Medium"
         ],
         "places": [
           "United States",
@@ -70,7 +71,10 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Euronews"
+          "Euronews",
+          "Medium",
+          "Twitter",
+          "Cell"
         ],
         "places": [
           "Europe",
@@ -111,7 +115,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters"
+          "Reuters",
+          "Medium"
         ],
         "places": [
           "Ukraine",
@@ -158,7 +163,13 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Al Jazeera"
+          "CDC",
+          "USAID",
+          "Al Jazeera",
+          "Reuters",
+          "Twitter",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Europe",
@@ -167,7 +178,10 @@
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:cdc",
+          "org:usaid"
+        ],
         "places": [
           "place:europe",
           "place:united-kingdom"
@@ -203,7 +217,12 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters"
+          "Reuters",
+          "Amazon",
+          "Medium",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Senate"
         ],
         "places": [
           "United States"
@@ -250,7 +269,10 @@
       "entities": {
         "people": [],
         "orgs": [
-          "France 24"
+          "France 24",
+          "Meta",
+          "Reuters",
+          "Twitter"
         ],
         "places": [
           "Europe",
@@ -265,6 +287,9 @@
         ],
         "places": [
           "place:europe"
+        ],
+        "events": [
+          "event:covid-protests"
         ]
       },
       "source_key": "ch18-s06",
@@ -299,7 +324,14 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Associated Press"
+          "Associated Press",
+          "White House",
+          "Amazon",
+          "Medium",
+          "Science",
+          "The Guardian",
+          "Twitter",
+          "U.S. Congress"
         ],
         "places": [
           "Canada",
@@ -309,10 +341,14 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:associated-press"
+          "org:associated-press",
+          "org:white-house"
         ],
         "places": [
           "place:canada"
+        ],
+        "events": [
+          "event:covid-protests"
         ]
       },
       "source_key": "ch18-s07",
@@ -346,7 +382,11 @@
           "Vladimir Putin"
         ],
         "orgs": [
-          "Reuters"
+          "Reuters",
+          "White House",
+          "Amazon",
+          "Associated Press",
+          "Medium"
         ],
         "places": [
           "Ukraine",
@@ -359,7 +399,8 @@
           "person:vladimir-putin"
         ],
         "orgs": [
-          "org:reuters"
+          "org:reuters",
+          "org:white-house"
         ],
         "places": [
           "place:ukraine",
@@ -394,7 +435,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Reuters"
+          "Reuters",
+          "Medium"
         ],
         "places": [
           "Ukraine",
@@ -482,7 +524,11 @@
       "entities": {
         "people": [],
         "orgs": [
-          "UNESCO"
+          "UNESCO",
+          "Medium",
+          "Nature",
+          "Science",
+          "Twitter"
         ],
         "places": []
       },
@@ -525,7 +571,15 @@
           "David Rising"
         ],
         "orgs": [
-          "Associated Press"
+          "Associated Press",
+          "White House",
+          "Amazon",
+          "Medium",
+          "Science",
+          "The Guardian",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Senate"
         ],
         "places": [
           "Ukraine",
@@ -538,7 +592,8 @@
           "person:david-rising"
         ],
         "orgs": [
-          "org:associated-press"
+          "org:associated-press",
+          "org:white-house"
         ],
         "places": [
           "place:ukraine",
@@ -579,7 +634,11 @@
           "Dwight D. Eisenhower"
         ],
         "orgs": [
-          "National Archives"
+          "White House",
+          "National Archives",
+          "Science",
+          "U.S. Congress",
+          "U.S. Senate"
         ],
         "places": []
       },
@@ -587,7 +646,9 @@
         "people": [
           "person:dwight-d-eisenhower"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:white-house"
+        ],
         "places": []
       },
       "source_key": "ch18-s13",
@@ -663,7 +724,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "The Guardian"
+          "The Guardian",
+          "U.S. Congress"
         ],
         "places": [
           "Ukraine",
@@ -717,7 +779,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "WHO"
+          "WHO",
+          "Meta"
         ],
         "places": [
           "South Africa"
@@ -764,7 +827,34 @@
           "J. Michael Waller"
         ],
         "orgs": [
-          "Center for Security Policy"
+          "Center for Security Policy",
+          "CDC",
+          "Chinese Center for Disease Control and Prevention",
+          "Chinese Communist Party",
+          "Global Engagement Center",
+          "Scientific American",
+          "Wikipedia",
+          "Wuhan Center for Disease Control and Prevention",
+          "Wuhan Central Hospital",
+          "South China Morning Post",
+          "Asia Times",
+          "White House",
+          "USA Today",
+          "Associated Press",
+          "Medium",
+          "NIAID",
+          "Reuters",
+          "Science",
+          "The New York Times",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Department of State",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -774,7 +864,19 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:center-for-security-policy"
+          "org:center-for-security-policy",
+          "org:cdc",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:chinese-communist-party",
+          "org:global-engagement-center",
+          "org:scientific-american",
+          "org:wikipedia",
+          "org:wuhan-center-for-disease-control-and-prevention",
+          "org:wuhan-central-hospital",
+          "org:south-china-morning-post",
+          "org:asia-times",
+          "org:white-house",
+          "org:usa-today"
         ],
         "places": [
           "place:wuhan",
@@ -816,7 +918,8 @@
         ],
         "orgs": [
           "Amazon",
-          "Vintage"
+          "Vintage",
+          "Medium"
         ],
         "places": []
       },
@@ -867,7 +970,11 @@
         ],
         "orgs": [
           "Potomac Institute",
-          "Potomac Institute for Policy Studies"
+          "Potomac Institute for Policy Studies",
+          "DARPA",
+          "Science",
+          "U.S. Senate",
+          "Cell"
         ],
         "places": []
       },

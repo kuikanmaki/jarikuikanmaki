@@ -80,7 +80,9 @@
         ],
         "orgs": [
           "Reuters",
-          "French Health Ministry"
+          "French Health Ministry",
+          "Medium",
+          "WHO"
         ],
         "places": [
           "France",
@@ -184,7 +186,8 @@
         ],
         "orgs": [
           "The Lancet Infectious Diseases",
-          "Johns Hopkins University"
+          "Johns Hopkins University",
+          "The Lancet"
         ],
         "places": []
       },
@@ -291,7 +294,8 @@
         ],
         "orgs": [
           "South China Morning Post",
-          "University of Hong Kong"
+          "University of Hong Kong",
+          "Cell"
         ],
         "places": [
           "Hong Kong",
@@ -345,7 +349,8 @@
         "people": [],
         "orgs": [
           "World Bank",
-          "ICAO"
+          "ICAO",
+          "Twitter"
         ],
         "places": [
           "China"
@@ -391,7 +396,8 @@
         "orgs": [
           "New England Complex Systems Institute",
           "New York University",
-          "Universa Investments"
+          "Universa Investments",
+          "DRASTIC"
         ],
         "places": []
       },
@@ -401,7 +407,10 @@
           "person:joseph-norman"
         ],
         "orgs": [],
-        "places": []
+        "places": [],
+        "events": [
+          "event:covid-19-pandemic"
+        ]
       },
       "source_key": "ch04-s08",
       "date_iso": "2020-01-26",
@@ -434,7 +443,9 @@
           "Nassim Nicholas Taleb"
         ],
         "orgs": [
-          "Random House"
+          "Random House",
+          "Amazon",
+          "WHO"
         ],
         "places": []
       },
@@ -486,7 +497,10 @@
         ],
         "orgs": [
           "Imperial College London",
-          "WHO Collaborating Centre for Infectious Disease Modelling"
+          "WHO Collaborating Centre for Infectious Disease Modelling",
+          "Nature",
+          "Science",
+          "WHO"
         ],
         "places": [
           "United Kingdom"
@@ -535,7 +549,8 @@
           "Tedros Adhanom Ghebreyesus"
         ],
         "orgs": [
-          "WHO"
+          "WHO",
+          "Wuhan Municipal Health Commission"
         ],
         "places": [
           "Beijing"
@@ -546,7 +561,8 @@
           "person:tedros-adhanom-ghebreyesus"
         ],
         "orgs": [
-          "org:who"
+          "org:who",
+          "org:wuhan-municipal-health-commission"
         ],
         "places": [
           "place:beijing"
@@ -626,7 +642,9 @@
         "people": [],
         "orgs": [
           "Reuters",
-          "Italian government"
+          "Italian government",
+          "DRASTIC",
+          "Medium"
         ],
         "places": [
           "Italy",
@@ -677,7 +695,10 @@
         "orgs": [
           "WHO",
           "Iltasanomat",
-          "THL"
+          "THL",
+          "Medium",
+          "Twitter",
+          "YouTube"
         ],
         "places": [
           "Finland",
@@ -730,7 +751,13 @@
           "Emma Hodcroft"
         ],
         "orgs": [
-          "Nextstrain"
+          "Chinese Academy of Medical Sciences",
+          "Chinese Center for Disease Control and Prevention",
+          "Nextstrain",
+          "Chinese Academy of Sciences",
+          "Meta",
+          "Science",
+          "Wuhan Institute of Virology"
         ],
         "places": []
       },
@@ -744,7 +771,10 @@
           "person:trevor-bedford",
           "person:emma-hodcroft"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:chinese-academy-of-medical-sciences",
+          "org:chinese-center-for-disease-control-and-prevention"
+        ],
         "places": []
       },
       "source_key": "ch04-s15",

@@ -1,0 +1,613 @@
+{
+  "sources_changed": 368,
+  "org_link_adds": 2716,
+  "orgs_newly_linked": [
+    {
+      "id": "org:science",
+      "label": "Science",
+      "sourceCount": 251
+    },
+    {
+      "id": "org:wuhan-institute-of-virology",
+      "label": "Wuhan Institute of Virology",
+      "sourceCount": 188
+    },
+    {
+      "id": "org:cell",
+      "label": "Cell",
+      "sourceCount": 170
+    },
+    {
+      "id": "org:nature",
+      "label": "Nature",
+      "sourceCount": 167
+    },
+    {
+      "id": "org:twitter",
+      "label": "Twitter",
+      "sourceCount": 154
+    },
+    {
+      "id": "org:who",
+      "label": "WHO",
+      "sourceCount": 121
+    },
+    {
+      "id": "org:ecohealth-alliance",
+      "label": "EcoHealth Alliance",
+      "sourceCount": 117
+    },
+    {
+      "id": "org:nih",
+      "label": "NIH",
+      "sourceCount": 107
+    },
+    {
+      "id": "org:medium",
+      "label": "Medium",
+      "sourceCount": 100
+    },
+    {
+      "id": "org:u-s-congress",
+      "label": "U.S. Congress",
+      "sourceCount": 88
+    },
+    {
+      "id": "org:niaid",
+      "label": "NIAID",
+      "sourceCount": 87
+    },
+    {
+      "id": "org:white-house",
+      "label": "White House",
+      "sourceCount": 68
+    },
+    {
+      "id": "org:pubmed",
+      "label": "PubMed",
+      "sourceCount": 65
+    },
+    {
+      "id": "org:meta",
+      "label": "Meta",
+      "sourceCount": 59
+    },
+    {
+      "id": "org:u-s-senate",
+      "label": "U.S. Senate",
+      "sourceCount": 58
+    },
+    {
+      "id": "org:the-lancet",
+      "label": "The Lancet",
+      "sourceCount": 56
+    },
+    {
+      "id": "org:amazon",
+      "label": "Amazon",
+      "sourceCount": 54
+    },
+    {
+      "id": "org:university-of-north-carolina",
+      "label": "University of North Carolina",
+      "sourceCount": 48
+    },
+    {
+      "id": "org:u-s-department-of-state",
+      "label": "U.S. Department of State",
+      "sourceCount": 47
+    },
+    {
+      "id": "org:youtube",
+      "label": "YouTube",
+      "sourceCount": 46
+    },
+    {
+      "id": "org:chinese-academy-of-sciences",
+      "label": "Chinese Academy of Sciences",
+      "sourceCount": 46
+    },
+    {
+      "id": "org:the-new-york-times",
+      "label": "The New York Times",
+      "sourceCount": 45
+    },
+    {
+      "id": "org:u-s-right-to-know",
+      "label": "U.S. Right to Know",
+      "sourceCount": 43
+    },
+    {
+      "id": "org:the-washington-post",
+      "label": "The Washington Post",
+      "sourceCount": 42
+    },
+    {
+      "id": "org:nature-medicine",
+      "label": "Nature Medicine",
+      "sourceCount": 42
+    },
+    {
+      "id": "org:genbank",
+      "label": "GenBank",
+      "sourceCount": 42
+    },
+    {
+      "id": "org:reuters",
+      "label": "Reuters",
+      "sourceCount": 37
+    },
+    {
+      "id": "org:cdc",
+      "label": "CDC",
+      "sourceCount": 37
+    },
+    {
+      "id": "org:chinese-center-for-disease-control-and-prevention",
+      "label": "Chinese Center for Disease Control and Prevention",
+      "sourceCount": 36
+    },
+    {
+      "id": "org:drastic",
+      "label": "DRASTIC",
+      "sourceCount": 34
+    },
+    {
+      "id": "org:biorxiv",
+      "label": "bioRxiv",
+      "sourceCount": 33
+    },
+    {
+      "id": "org:the-wall-street-journal",
+      "label": "The Wall Street Journal",
+      "sourceCount": 32
+    },
+    {
+      "id": "org:usaid",
+      "label": "USAID",
+      "sourceCount": 30
+    },
+    {
+      "id": "org:scientific-american",
+      "label": "Scientific American",
+      "sourceCount": 29
+    },
+    {
+      "id": "org:documentcloud",
+      "label": "DocumentCloud",
+      "sourceCount": 28
+    },
+    {
+      "id": "org:the-guardian",
+      "label": "The Guardian",
+      "sourceCount": 27
+    },
+    {
+      "id": "org:darpa",
+      "label": "DARPA",
+      "sourceCount": 25
+    },
+    {
+      "id": "org:the-week",
+      "label": "The Week",
+      "sourceCount": 21
+    },
+    {
+      "id": "org:daily-mail",
+      "label": "Daily Mail",
+      "sourceCount": 20
+    },
+    {
+      "id": "org:chinese-communist-party",
+      "label": "Chinese Communist Party",
+      "sourceCount": 20
+    },
+    {
+      "id": "org:mbio",
+      "label": "mBio",
+      "sourceCount": 18
+    },
+    {
+      "id": "org:wikipedia",
+      "label": "Wikipedia",
+      "sourceCount": 18
+    },
+    {
+      "id": "org:chinese-academy-of-medical-sciences",
+      "label": "Chinese Academy of Medical Sciences",
+      "sourceCount": 18
+    },
+    {
+      "id": "org:wellcome-trust",
+      "label": "Wellcome Trust",
+      "sourceCount": 17
+    },
+    {
+      "id": "org:researchgate",
+      "label": "ResearchGate",
+      "sourceCount": 16
+    },
+    {
+      "id": "org:pmc",
+      "label": "PMC",
+      "sourceCount": 16
+    },
+    {
+      "id": "org:director-of-national-intelligence",
+      "label": "Director of National Intelligence",
+      "sourceCount": 16
+    },
+    {
+      "id": "org:associated-press",
+      "label": "Associated Press",
+      "sourceCount": 16
+    },
+    {
+      "id": "org:the-intercept",
+      "label": "The Intercept",
+      "sourceCount": 15
+    },
+    {
+      "id": "org:u-s-house-of-representatives",
+      "label": "U.S. House of Representatives",
+      "sourceCount": 14
+    },
+    {
+      "id": "org:politico",
+      "label": "Politico",
+      "sourceCount": 14
+    },
+    {
+      "id": "org:zenodo",
+      "label": "Zenodo",
+      "sourceCount": 13
+    },
+    {
+      "id": "org:virologica-sinica",
+      "label": "Virologica Sinica",
+      "sourceCount": 13
+    },
+    {
+      "id": "org:the-times",
+      "label": "The Times",
+      "sourceCount": 13
+    },
+    {
+      "id": "org:newsweek",
+      "label": "Newsweek",
+      "sourceCount": 13
+    },
+    {
+      "id": "org:wuhan-municipal-health-commission",
+      "label": "Wuhan Municipal Health Commission",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:wuhan-central-hospital",
+      "label": "Wuhan Central Hospital",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:vanity-fair",
+      "label": "Vanity Fair",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:the-telegraph",
+      "label": "The Telegraph",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:substack",
+      "label": "Substack",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:people-s-liberation-army",
+      "label": "People’s Liberation Army",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:journal-of-virology",
+      "label": "Journal of Virology",
+      "sourceCount": 12
+    },
+    {
+      "id": "org:south-china-morning-post",
+      "label": "South China Morning Post",
+      "sourceCount": 10
+    },
+    {
+      "id": "org:plos-pathogens",
+      "label": "PLOS Pathogens",
+      "sourceCount": 10
+    },
+    {
+      "id": "org:new-york-post",
+      "label": "New York Post",
+      "sourceCount": 10
+    },
+    {
+      "id": "org:bulletin-of-the-atomic-scientists",
+      "label": "Bulletin of the Atomic Scientists",
+      "sourceCount": 10
+    },
+    {
+      "id": "org:wuhan-center-for-disease-control-and-prevention",
+      "label": "Wuhan Center for Disease Control and Prevention",
+      "sourceCount": 9
+    },
+    {
+      "id": "org:nbc-news",
+      "label": "NBC News",
+      "sourceCount": 9
+    },
+    {
+      "id": "org:global-virome-project",
+      "label": "Global Virome Project",
+      "sourceCount": 9
+    },
+    {
+      "id": "org:defense-intelligence-agency",
+      "label": "Defense Intelligence Agency",
+      "sourceCount": 9
+    },
+    {
+      "id": "org:bbc-news",
+      "label": "BBC News",
+      "sourceCount": 9
+    },
+    {
+      "id": "org:academy-of-military-medical-sciences",
+      "label": "Academy of Military Medical Sciences",
+      "sourceCount": 9
+    },
+    {
+      "id": "org:abc-news",
+      "label": "ABC News",
+      "sourceCount": 8
+    },
+    {
+      "id": "org:white-coat-waste-project",
+      "label": "White Coat Waste Project",
+      "sourceCount": 7
+    },
+    {
+      "id": "org:unherd",
+      "label": "UnHerd",
+      "sourceCount": 7
+    },
+    {
+      "id": "org:independent-science-news",
+      "label": "Independent Science News",
+      "sourceCount": 7
+    },
+    {
+      "id": "org:financial-times",
+      "label": "Financial Times",
+      "sourceCount": 7
+    },
+    {
+      "id": "org:usamriid",
+      "label": "USAMRIID",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac",
+      "label": "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:promed",
+      "label": "ProMED",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:pnas",
+      "label": "PNAS",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:hhs",
+      "label": "HHS",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:five-eyes",
+      "label": "Five Eyes",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:bioessays",
+      "label": "BioEssays",
+      "sourceCount": 6
+    },
+    {
+      "id": "org:the-sunday-times",
+      "label": "The Sunday Times",
+      "sourceCount": 5
+    },
+    {
+      "id": "org:the-free-press",
+      "label": "The Free Press",
+      "sourceCount": 5
+    },
+    {
+      "id": "org:harper",
+      "label": "Harper",
+      "sourceCount": 5
+    },
+    {
+      "id": "org:global-engagement-center",
+      "label": "Global Engagement Center",
+      "sourceCount": 5
+    },
+    {
+      "id": "org:dtra",
+      "label": "DTRA",
+      "sourceCount": 5
+    },
+    {
+      "id": "org:cia",
+      "label": "CIA",
+      "sourceCount": 5
+    },
+    {
+      "id": "org:wuhan-institute-of-biological-products",
+      "label": "Wuhan Institute of Biological Products",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:usa-today",
+      "label": "USA Today",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:unesco",
+      "label": "UNESCO",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:the-washington-times",
+      "label": "The Washington Times",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:moderna",
+      "label": "Moderna",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:lancet-covid-19-commission",
+      "label": "Lancet COVID-19 Commission",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:fbi",
+      "label": "FBI",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:cambridge-working-group",
+      "label": "Cambridge Working Group",
+      "sourceCount": 4
+    },
+    {
+      "id": "org:the-new-england-journal-of-medicine",
+      "label": "The New England Journal of Medicine",
+      "sourceCount": 3
+    },
+    {
+      "id": "org:social-sciences",
+      "label": "Social Sciences",
+      "sourceCount": 3
+    },
+    {
+      "id": "org:scientific-reports",
+      "label": "Scientific Reports",
+      "sourceCount": 3
+    },
+    {
+      "id": "org:politifact",
+      "label": "PolitiFact",
+      "sourceCount": 3
+    },
+    {
+      "id": "org:biological-sciences-experts-group",
+      "label": "Biological Sciences Experts Group",
+      "sourceCount": 3
+    },
+    {
+      "id": "org:asia-times",
+      "label": "Asia Times",
+      "sourceCount": 3
+    },
+    {
+      "id": "org:vintage",
+      "label": "Vintage",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:this-week-in-virology",
+      "label": "This Week in Virology",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:regnery",
+      "label": "Regnery",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:project-evidence",
+      "label": "Project Evidence",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:oxford-covid-19-government-response-tracker",
+      "label": "Oxford COVID-19 Government Response Tracker",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:house-oversight-and-reform-committee",
+      "label": "House Oversight and Reform Committee",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:factcheck-org",
+      "label": "FactCheck.org",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:environmental-chemistry-letters",
+      "label": "Environmental Chemistry Letters",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:china-virome-project",
+      "label": "China Virome Project",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:center-for-security-policy",
+      "label": "Center for Security Policy",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:biopreparat",
+      "label": "Biopreparat",
+      "sourceCount": 2
+    },
+    {
+      "id": "org:unit-731",
+      "label": "Unit 731",
+      "sourceCount": 1
+    },
+    {
+      "id": "org:sequence-read-archive",
+      "label": "Sequence Read Archive",
+      "sourceCount": 1
+    },
+    {
+      "id": "org:lawrence-livermore-national-laboratory",
+      "label": "Lawrence Livermore National Laboratory",
+      "sourceCount": 1
+    },
+    {
+      "id": "org:house-intelligence-committee",
+      "label": "House Intelligence Committee",
+      "sourceCount": 1
+    },
+    {
+      "id": "org:barda",
+      "label": "BARDA",
+      "sourceCount": 1
+    }
+  ],
+  "orgs_still_zero_links": [
+    "Chengdu Military Center",
+    "Church Committee",
+    "Department of Energy (US)",
+    "Project Coast",
+    "US Geological Survey National Wildlife Health Center"
+  ]
+}

@@ -35,7 +35,15 @@
         "orgs": [
           "Wuhan Institute of Virology",
           "Chinese Academy of Sciences",
-          "Scientific American"
+          "Scientific American",
+          "University of North Carolina",
+          "Wuhan Center for Disease Control and Prevention",
+          "bioRxiv",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "Science",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -59,7 +67,10 @@
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:chinese-academy-of-sciences",
-          "org:scientific-american"
+          "org:scientific-american",
+          "org:university-of-north-carolina",
+          "org:wuhan-center-for-disease-control-and-prevention",
+          "org:biorxiv"
         ],
         "places": [
           "place:wuhan",
@@ -103,7 +114,10 @@
           "David Cyranoski"
         ],
         "orgs": [
-          "Nature"
+          "Nature",
+          "PubMed",
+          "Science",
+          "Twitter"
         ],
         "places": [
           "Wuhan",
@@ -162,7 +176,18 @@
           "Ian Birrell"
         ],
         "orgs": [
-          "Daily Mail"
+          "Daily Mail",
+          "Scientific American",
+          "White Coat Waste Project",
+          "Meta",
+          "Nature",
+          "NIH",
+          "Science",
+          "The Guardian",
+          "U.S. Congress",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "Beijing",
@@ -179,7 +204,9 @@
           "person:ian-birrell"
         ],
         "orgs": [
-          "org:daily-mail"
+          "org:daily-mail",
+          "org:scientific-american",
+          "org:white-coat-waste-project"
         ],
         "places": [
           "place:beijing",
@@ -222,7 +249,20 @@
         "orgs": [
           "Science",
           "Wuhan Institute of Virology",
-          "AAAS"
+          "Scientific American",
+          "The Washington Times",
+          "Wuhan Center for Disease Control and Prevention",
+          "White House",
+          "Virologica Sinica",
+          "AAAS",
+          "Chinese Academy of Sciences",
+          "Daily Mail",
+          "EcoHealth Alliance",
+          "Nature",
+          "Nature Medicine",
+          "NIH",
+          "The Lancet",
+          "WHO"
         ],
         "places": [
           "China"
@@ -238,7 +278,12 @@
         ],
         "orgs": [
           "org:science",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:scientific-american",
+          "org:the-washington-times",
+          "org:wuhan-center-for-disease-control-and-prevention",
+          "org:white-house",
+          "org:virologica-sinica"
         ],
         "places": [
           "place:china"
@@ -280,7 +325,28 @@
         "orgs": [
           "WHO",
           "Scientific American",
-          "MIT Technology Review"
+          "Chinese Academy of Medical Sciences",
+          "Chinese Center for Disease Control and Prevention",
+          "Chinese Communist Party",
+          "DocumentCloud",
+          "University of North Carolina",
+          "Wuhan Municipal Health Commission",
+          "Newsweek",
+          "The Week",
+          "Scientific Reports",
+          "MIT Technology Review",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "NIH",
+          "Science",
+          "The Intercept",
+          "The Washington Post",
+          "Twitter",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -294,7 +360,16 @@
         ],
         "orgs": [
           "org:who",
-          "org:scientific-american"
+          "org:scientific-american",
+          "org:chinese-academy-of-medical-sciences",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:chinese-communist-party",
+          "org:documentcloud",
+          "org:university-of-north-carolina",
+          "org:wuhan-municipal-health-commission",
+          "org:newsweek",
+          "org:the-week",
+          "org:scientific-reports"
         ],
         "places": []
       },
@@ -337,7 +412,8 @@
         ],
         "orgs": [
           "The Washington Post",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Amazon"
         ],
         "places": [
           "Wuhan",
@@ -394,7 +470,11 @@
         ],
         "orgs": [
           "DRASTIC",
-          "Medium"
+          "Medium",
+          "Nature",
+          "Science",
+          "Wuhan Institute of Virology",
+          "ResearchGate"
         ],
         "places": [
           "Wuhan"
@@ -501,7 +581,11 @@
         "people": [],
         "orgs": [
           "ProMED",
-          "International Society for Infectious Diseases"
+          "Wikipedia",
+          "Wuhan Municipal Health Commission",
+          "International Society for Infectious Diseases",
+          "Meta",
+          "Cell"
         ],
         "places": [
           "Hubei",
@@ -511,7 +595,9 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:promed"
+          "org:promed",
+          "org:wikipedia",
+          "org:wuhan-municipal-health-commission"
         ],
         "places": [
           "place:hubei",
@@ -552,7 +638,8 @@
         "orgs": [
           "Wuhan Central Hospital",
           "Wuhan Police Bureau",
-          "Beijing News"
+          "Beijing News",
+          "Twitter"
         ],
         "places": [
           "Wuhan",
@@ -605,7 +692,9 @@
         ],
         "orgs": [
           "Wuhan Central Hospital",
-          "Caixin"
+          "Caixin",
+          "Science",
+          "Twitter"
         ],
         "places": []
       },
@@ -653,7 +742,8 @@
         "people": [],
         "orgs": [
           "Wuhan Municipal Health Commission",
-          "People's Daily"
+          "People's Daily",
+          "Twitter"
         ],
         "places": [
           "Wuhan"
@@ -701,7 +791,10 @@
         ],
         "orgs": [
           "Wuhan Central Hospital",
-          "BBC News"
+          "BBC News",
+          "Medium",
+          "Twitter",
+          "WHO"
         ],
         "places": [
           "Wuhan",
@@ -760,7 +853,17 @@
         "orgs": [
           "DRASTIC",
           "Wuhan Institute of Virology",
-          "Medium"
+          "Medium",
+          "Chinese Academy of Medical Sciences",
+          "Chinese Center for Disease Control and Prevention",
+          "USAMRIID",
+          "Wikipedia",
+          "Wuhan Institute of Biological Products",
+          "Chinese Academy of Sciences",
+          "NIAID",
+          "Science",
+          "U.S. Right to Know",
+          "WHO"
         ],
         "places": [
           "Wuhan",
@@ -776,7 +879,12 @@
         "orgs": [
           "org:drastic",
           "org:wuhan-institute-of-virology",
-          "org:medium"
+          "org:medium",
+          "org:chinese-academy-of-medical-sciences",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:usamriid",
+          "org:wikipedia",
+          "org:wuhan-institute-of-biological-products"
         ],
         "places": [
           "place:wuhan",

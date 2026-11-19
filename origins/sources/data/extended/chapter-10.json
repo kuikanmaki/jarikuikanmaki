@@ -30,7 +30,8 @@
         ],
         "orgs": [
           "White House",
-          "U.S. Intelligence Community"
+          "U.S. Intelligence Community",
+          "U.S. Congress"
         ],
         "places": []
       },
@@ -79,7 +80,10 @@
           "Liang Wannian"
         ],
         "orgs": [
-          "WHO"
+          "WHO",
+          "The Week",
+          "Science",
+          "Cell"
         ],
         "places": [
           "Geneva"
@@ -90,7 +94,8 @@
           "person:tedros-adhanom-ghebreyesus"
         ],
         "orgs": [
-          "org:who"
+          "org:who",
+          "org:the-week"
         ],
         "places": []
       },
@@ -130,7 +135,8 @@
         "people": [],
         "orgs": [
           "U.S. Department of State",
-          "WHO"
+          "WHO",
+          "Science"
         ],
         "places": [
           "China",
@@ -148,6 +154,9 @@
           "place:china",
           "place:united-kingdom",
           "place:australia"
+        ],
+        "events": [
+          "event:who-china-origins-study-2021"
         ]
       },
       "source_key": "ch10-s03",
@@ -188,7 +197,14 @@
         "orgs": [
           "Meta",
           "Politico",
-          "Facebook"
+          "Facebook",
+          "Nature",
+          "The Wall Street Journal",
+          "Twitter",
+          "U.S. Congress",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "Cell"
         ],
         "places": []
       },
@@ -242,7 +258,11 @@
         ],
         "orgs": [
           "The Washington Post",
-          "The Hill"
+          "White House",
+          "The Hill",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Senate"
         ],
         "places": [
           "United States"
@@ -258,7 +278,8 @@
           "person:olafimihan-oshin"
         ],
         "orgs": [
-          "org:the-washington-post"
+          "org:the-washington-post",
+          "org:white-house"
         ],
         "places": [
           "place:united-states"
@@ -296,7 +317,9 @@
         ],
         "orgs": [
           "The Washington Post",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Amazon",
+          "U.S. Senate"
         ],
         "places": [
           "Wuhan"
@@ -350,7 +373,24 @@
           "Eliza Barclay"
         ],
         "orgs": [
-          "Vox"
+          "Vox",
+          "Chinese Communist Party",
+          "This Week in Virology",
+          "New York Post",
+          "South China Morning Post",
+          "White House",
+          "The Week",
+          "EcoHealth Alliance",
+          "Nature",
+          "Nature Medicine",
+          "Science",
+          "The Lancet",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -362,7 +402,13 @@
           "person:eliza-barclay"
         ],
         "orgs": [
-          "org:vox"
+          "org:vox",
+          "org:chinese-communist-party",
+          "org:this-week-in-virology",
+          "org:new-york-post",
+          "org:south-china-morning-post",
+          "org:white-house",
+          "org:the-week"
         ],
         "places": []
       },
@@ -404,7 +450,9 @@
         "orgs": [
           "NIH",
           "DocumentCloud",
-          "NIAID"
+          "NIAID",
+          "Nature",
+          "Nature Medicine"
         ],
         "places": []
       },
@@ -460,7 +508,9 @@
         "orgs": [
           "NIH",
           "CDC",
-          "White House"
+          "White House",
+          "Science",
+          "U.S. Senate"
         ],
         "places": [
           "Wuhan"
@@ -556,7 +606,16 @@
           "Sarah Knapton"
         ],
         "orgs": [
-          "The Telegraph"
+          "The Telegraph",
+          "Global Virome Project",
+          "Wellcome Trust",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "Science",
+          "The Lancet",
+          "The Wall Street Journal",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "China",
@@ -569,7 +628,9 @@
           "person:sarah-knapton"
         ],
         "orgs": [
-          "org:the-telegraph"
+          "org:the-telegraph",
+          "org:global-virome-project",
+          "org:wellcome-trust"
         ],
         "places": [
           "place:china",
@@ -666,7 +727,11 @@
         "people": [],
         "orgs": [
           "NIH",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "U.S. Congress",
+          "Cell"
         ],
         "places": []
       },
@@ -714,7 +779,25 @@
         "orgs": [
           "DRASTIC",
           "Wuhan Institute of Virology",
-          "Newsweek"
+          "Newsweek",
+          "Scientific American",
+          "The Sunday Times",
+          "UnHerd",
+          "The Week",
+          "EcoHealth Alliance",
+          "Medium",
+          "Meta",
+          "Nature",
+          "Science",
+          "The Lancet",
+          "The New York Times",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Senate",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -732,7 +815,11 @@
         "orgs": [
           "org:drastic",
           "org:wuhan-institute-of-virology",
-          "org:newsweek"
+          "org:newsweek",
+          "org:scientific-american",
+          "org:the-sunday-times",
+          "org:unherd",
+          "org:the-week"
         ],
         "places": [
           "place:wuhan"
@@ -774,7 +861,21 @@
         "orgs": [
           "Wuhan Institute of Virology",
           "DRASTIC",
-          "ResearchGate"
+          "ResearchGate",
+          "China Virome Project",
+          "Global Virome Project",
+          "Scientific American",
+          "USAID",
+          "The Week",
+          "Virologica Sinica",
+          "Chinese Academy of Sciences",
+          "EcoHealth Alliance",
+          "GenBank",
+          "Meta",
+          "Nature",
+          "NIAID",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -786,7 +887,13 @@
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:drastic",
-          "org:researchgate"
+          "org:researchgate",
+          "org:china-virome-project",
+          "org:global-virome-project",
+          "org:scientific-american",
+          "org:usaid",
+          "org:the-week",
+          "org:virologica-sinica"
         ],
         "places": []
       },
@@ -829,7 +936,11 @@
         "orgs": [
           "Wuhan Institute of Virology",
           "WHO",
-          "New York Post"
+          "New York Post",
+          "Chinese Communist Party",
+          "Scientific American",
+          "ABC News",
+          "Twitter"
         ],
         "places": [
           "Wuhan",
@@ -843,7 +954,10 @@
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:who",
-          "org:new-york-post"
+          "org:new-york-post",
+          "org:chinese-communist-party",
+          "org:scientific-american",
+          "org:abc-news"
         ],
         "places": [
           "place:wuhan",
@@ -889,7 +1003,15 @@
         "orgs": [
           "Molecular Biology and Evolution",
           "bioRxiv",
-          "NIH Sequence Read Archive"
+          "Moderna",
+          "Sequence Read Archive",
+          "NIH Sequence Read Archive",
+          "NIH",
+          "PubMed",
+          "Science",
+          "Twitter",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -905,7 +1027,9 @@
         ],
         "orgs": [
           "org:molecular-biology-and-evolution",
-          "org:biorxiv"
+          "org:biorxiv",
+          "org:moderna",
+          "org:sequence-read-archive"
         ],
         "places": [
           "place:wuhan",
@@ -951,7 +1075,25 @@
         "orgs": [
           "Wellcome Trust",
           "The Lancet",
-          "UnHerd"
+          "UnHerd",
+          "CDC",
+          "Moderna",
+          "USAMRIID",
+          "Politico",
+          "Financial Times",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "Science",
+          "The Guardian",
+          "Twitter",
+          "U.S. Right to Know",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "United Kingdom"
@@ -971,7 +1113,12 @@
         "orgs": [
           "org:wellcome-trust",
           "org:the-lancet",
-          "org:unherd"
+          "org:unherd",
+          "org:cdc",
+          "org:moderna",
+          "org:usamriid",
+          "org:politico",
+          "org:financial-times"
         ],
         "places": [
           "place:united-kingdom"
@@ -979,6 +1126,9 @@
         "works": [
           "work:lancet-letter-february-2020",
           "work:the-proximal-origin-of-sars-cov-2"
+        ],
+        "events": [
+          "event:origins-teleconference-1-february-2020"
         ]
       },
       "source_key": "ch10-s18",
@@ -1021,7 +1171,20 @@
           "NIH",
           "NIAID",
           "U.S. Congress",
-          "Scripps Research"
+          "DocumentCloud",
+          "Politico",
+          "White House",
+          "The Free Press",
+          "Scripps Research",
+          "DARPA",
+          "EcoHealth Alliance",
+          "Meta",
+          "Nature",
+          "Nature Medicine",
+          "Science",
+          "Twitter",
+          "U.S. Senate",
+          "Wuhan Institute of Virology"
         ],
         "places": []
       },
@@ -1039,7 +1202,11 @@
           "org:the-intercept",
           "org:nih",
           "org:niaid",
-          "org:u-s-congress"
+          "org:u-s-congress",
+          "org:documentcloud",
+          "org:politico",
+          "org:white-house",
+          "org:the-free-press"
         ],
         "places": [],
         "works": [
@@ -1082,7 +1249,18 @@
         ],
         "orgs": [
           "Daily Mail",
-          "UK Government"
+          "Wellcome Trust",
+          "UK Government",
+          "Amazon",
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "Nature",
+          "Science",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Right to Know",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "United Kingdom"
@@ -1098,10 +1276,14 @@
           "person:patrick-vallance"
         ],
         "orgs": [
-          "org:daily-mail"
+          "org:daily-mail",
+          "org:wellcome-trust"
         ],
         "places": [
           "place:united-kingdom"
+        ],
+        "events": [
+          "event:origins-teleconference-1-february-2020"
         ]
       },
       "source_key": "ch10-s20",
@@ -1140,7 +1322,15 @@
         ],
         "orgs": [
           "WHO",
-          "The New York Times"
+          "The New York Times",
+          "The Times",
+          "Associated Press",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "Science",
+          "Twitter"
         ],
         "places": [
           "Huanan Seafood Market",
@@ -1155,7 +1345,8 @@
         ],
         "orgs": [
           "org:who",
-          "org:the-new-york-times"
+          "org:the-new-york-times",
+          "org:the-times"
         ],
         "places": [
           "place:huanan-seafood-market",
@@ -1200,7 +1391,8 @@
         ],
         "orgs": [
           "WHO",
-          "The Wall Street Journal"
+          "The Wall Street Journal",
+          "Nature"
         ],
         "places": [
           "Wuhan",
@@ -1261,7 +1453,25 @@
         "orgs": [
           "WHO",
           "The Times",
-          "The Sunday Times"
+          "The Sunday Times",
+          "Chinese Communist Party",
+          "People’s Liberation Army",
+          "Wuhan Central Hospital",
+          "Wuhan Municipal Health Commission",
+          "The Week",
+          "Associated Press",
+          "EcoHealth Alliance",
+          "GenBank",
+          "Nature",
+          "Reuters",
+          "Science",
+          "The Lancet",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Department of State",
+          "Wuhan Institute of Virology",
+          "Vanity Fair",
+          "Cell"
         ],
         "places": [
           "China"
@@ -1275,7 +1485,12 @@
         "orgs": [
           "org:who",
           "org:the-times",
-          "org:the-sunday-times"
+          "org:the-sunday-times",
+          "org:chinese-communist-party",
+          "org:people-s-liberation-army",
+          "org:wuhan-central-hospital",
+          "org:wuhan-municipal-health-commission",
+          "org:the-week"
         ],
         "places": [
           "place:china"
@@ -1320,7 +1535,9 @@
         ],
         "orgs": [
           "WHO",
-          "Reuters"
+          "Reuters",
+          "CDC",
+          "Medium"
         ],
         "places": [
           "China",
@@ -1334,11 +1551,15 @@
         ],
         "orgs": [
           "org:who",
-          "org:reuters"
+          "org:reuters",
+          "org:cdc"
         ],
         "places": [
           "place:china",
           "place:united-states"
+        ],
+        "events": [
+          "event:who-china-origins-study-2021"
         ]
       },
       "source_key": "ch10-n04",
@@ -1380,7 +1601,11 @@
         ],
         "orgs": [
           "WHO",
-          "The Times"
+          "The Times",
+          "Chinese Communist Party",
+          "Reuters",
+          "Twitter",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "United Kingdom"
@@ -1393,7 +1618,8 @@
         ],
         "orgs": [
           "org:who",
-          "org:the-times"
+          "org:the-times",
+          "org:chinese-communist-party"
         ],
         "places": [
           "place:united-kingdom"
@@ -1438,7 +1664,8 @@
         ],
         "orgs": [
           "The Wall Street Journal",
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "White House"
         ],
         "places": [
           "Wuhan"
@@ -1450,7 +1677,8 @@
         ],
         "orgs": [
           "org:the-wall-street-journal",
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan"
@@ -1495,7 +1723,30 @@
         ],
         "orgs": [
           "Social Sciences",
-          "Social Sciences (MDPI)"
+          "Wikipedia",
+          "New York Post",
+          "The Week",
+          "bioRxiv",
+          "Zenodo",
+          "Social Sciences (MDPI)",
+          "EcoHealth Alliance",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "PubMed",
+          "Reuters",
+          "Science",
+          "The Lancet",
+          "The New York Times",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Department of State",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "BBC News",
+          "Bulletin of the Atomic Scientists",
+          "Cell"
         ],
         "places": []
       },
@@ -1504,7 +1755,12 @@
           "person:david-rozado"
         ],
         "orgs": [
-          "org:social-sciences"
+          "org:social-sciences",
+          "org:wikipedia",
+          "org:new-york-post",
+          "org:the-week",
+          "org:biorxiv",
+          "org:zenodo"
         ],
         "places": []
       },
@@ -1549,7 +1805,34 @@
           "Ashley Rindsberg"
         ],
         "orgs": [
-          "Tablet Magazine"
+          "Tablet Magazine",
+          "Chinese Communist Party",
+          "The Washington Times",
+          "ProMED",
+          "ABC News",
+          "Politico",
+          "UnHerd",
+          "Substack",
+          "NBC News",
+          "FactCheck.org",
+          "Amazon",
+          "Associated Press",
+          "Daily Mail",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "NIH",
+          "Science",
+          "The Guardian",
+          "The Lancet",
+          "The New York Times",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "YouTube",
+          "Vanity Fair"
         ],
         "places": []
       },
@@ -1558,7 +1841,16 @@
           "person:ashley-rindsberg"
         ],
         "orgs": [
-          "org:tablet-magazine"
+          "org:tablet-magazine",
+          "org:chinese-communist-party",
+          "org:the-washington-times",
+          "org:promed",
+          "org:abc-news",
+          "org:politico",
+          "org:unherd",
+          "org:substack",
+          "org:nbc-news",
+          "org:factcheck-org"
         ],
         "places": []
       },
@@ -1604,8 +1896,24 @@
         ],
         "orgs": [
           "PolitiFact",
+          "CDC",
+          "Chinese Communist Party",
+          "Defense Intelligence Agency",
+          "New York Post",
+          "South China Morning Post",
+          "Newsweek",
+          "Zenodo",
           "Fox News",
-          "Editor’s Note"
+          "Editor’s Note",
+          "Nature",
+          "NIAID",
+          "Reuters",
+          "Science",
+          "The New York Times",
+          "The Washington Post",
+          "Twitter",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -1614,7 +1922,14 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:politifact"
+          "org:politifact",
+          "org:cdc",
+          "org:chinese-communist-party",
+          "org:defense-intelligence-agency",
+          "org:new-york-post",
+          "org:south-china-morning-post",
+          "org:newsweek",
+          "org:zenodo"
         ],
         "places": [
           "place:wuhan"
@@ -1656,7 +1971,12 @@
         "orgs": [
           "U.S. House of Representatives",
           "Nature Medicine",
-          "Select Subcommittee on the Coronavirus Pandemic"
+          "House Oversight and Reform Committee",
+          "Select Subcommittee on the Coronavirus Pandemic",
+          "Nature",
+          "Science",
+          "U.S. Congress",
+          "Cell"
         ],
         "places": []
       },
@@ -1666,9 +1986,13 @@
         ],
         "orgs": [
           "org:u-s-house-of-representatives",
-          "org:nature-medicine"
+          "org:nature-medicine",
+          "org:house-oversight-and-reform-committee"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:covid-19-pandemic"
+        ]
       },
       "source_key": "ch10-n10",
       "acquisition_note": "Ingested from Notes HTML hyperlink.",
@@ -1708,7 +2032,19 @@
         ],
         "orgs": [
           "U.S. Right to Know",
-          "National Academies of Sciences"
+          "Chinese Center for Disease Control and Prevention",
+          "University of North Carolina",
+          "White House",
+          "National Academies of Sciences",
+          "EcoHealth Alliance",
+          "Nature",
+          "Nature Medicine",
+          "Science",
+          "The Lancet",
+          "Twitter",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -1720,7 +2056,10 @@
           "person:trevor-bedford"
         ],
         "orgs": [
-          "org:u-s-right-to-know"
+          "org:u-s-right-to-know",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:university-of-north-carolina",
+          "org:white-house"
         ],
         "places": []
       },
@@ -1767,7 +2106,12 @@
         "orgs": [
           "U.S. Right to Know",
           "EcoHealth Alliance",
-          "The Lancet"
+          "The Lancet",
+          "Lancet COVID-19 Commission",
+          "Science",
+          "Twitter",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": []
       },
@@ -1781,7 +2125,8 @@
         "orgs": [
           "org:u-s-right-to-know",
           "org:ecohealth-alliance",
-          "org:the-lancet"
+          "org:the-lancet",
+          "org:lancet-covid-19-commission"
         ],
         "places": []
       },
@@ -1825,7 +2170,11 @@
         ],
         "orgs": [
           "NIH",
-          "Financial Times"
+          "Financial Times",
+          "Science",
+          "Twitter",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -1883,7 +2232,9 @@
         ],
         "orgs": [
           "NIH",
-          "NIAID"
+          "NIAID",
+          "EcoHealth Alliance",
+          "Cell"
         ],
         "places": []
       },

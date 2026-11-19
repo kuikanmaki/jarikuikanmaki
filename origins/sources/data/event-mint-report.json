@@ -1,0 +1,45 @@
+{
+  "minted": [
+    {
+      "id": "event:anthrax-attacks-2001",
+      "prefLabel": "Anthrax attacks (2001)",
+      "source_links": 2
+    },
+    {
+      "id": "event:covid-19-pandemic",
+      "prefLabel": "COVID-19 pandemic",
+      "source_links": 16
+    },
+    {
+      "id": "event:mojiang-miners-outbreak-2012",
+      "prefLabel": "Mojiang miners outbreak (2012)",
+      "source_links": 2
+    },
+    {
+      "id": "event:wuhan-lockdown-2020",
+      "prefLabel": "Wuhan lockdown (2020)",
+      "source_links": 0
+    },
+    {
+      "id": "event:who-china-origins-study-2021",
+      "prefLabel": "WHO China origins study (2021)",
+      "source_links": 5
+    },
+    {
+      "id": "event:origins-teleconference-1-february-2020",
+      "prefLabel": "Origins teleconference (1 February 2020)",
+      "source_links": 2
+    },
+    {
+      "id": "event:sars-lab-escapes-2003-2004",
+      "prefLabel": "SARS lab escapes (2003\u20132004)",
+      "source_links": 2
+    },
+    {
+      "id": "event:covid-protests",
+      "prefLabel": "COVID protests",
+      "source_links": 2
+    }
+  ],
+  "sources_changed": 31
+}

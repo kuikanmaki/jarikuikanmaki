@@ -4,7 +4,7 @@
     "version": 1,
     "seed": "book-index.bits.xml",
     "counts": {
-      "event": 13,
+      "event": 21,
       "org": 86,
       "person": 84,
       "place": 26,
@@ -28,11 +28,31 @@
       "corpus-extension entries cover high-frequency entities absent from the back-of-book index.",
       "Authors linked via _link_authors.py; corpus-extension persons/orgs minted for frequent bylines.",
       "Publications linked via _link_publications.py; corpus-extension orgs minted for frequent venues.",
-      "Topics minted/linked via _mint_and_link_topics.py from catalog demand + BITS-aware aliases."
+      "Topics minted/linked via _mint_and_link_topics.py from catalog demand + BITS-aware aliases.",
+      "Events extended via corpus-extension (anthrax 2001, COVID pandemic, Mojiang 2012, Wuhan lockdown, WHO 2021 study, 1 Feb 2020 call, SARS lab escapes, COVID protests)."
     ]
   },
   "authorities": {
     "event": [
+      {
+        "id": "event:anthrax-attacks-2001",
+        "prefLabel": "Anthrax attacks (2001)",
+        "indexTerm": "anthrax attacks, 2001",
+        "altLabels": [
+          "Amerithrax",
+          "2001 anthrax attacks",
+          "anthrax attacks"
+        ],
+        "related": [
+          {
+            "label": "September 11 attacks",
+            "id": "event:september-11-attacks"
+          }
+        ],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
       {
         "id": "event:aral-smallpox-outbreak-1971",
         "prefLabel": "Aral smallpox outbreak (1971)",
@@ -57,6 +77,33 @@
           "175"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "event:covid-19-pandemic",
+        "prefLabel": "COVID-19 pandemic",
+        "indexTerm": "COVID-19 pandemic",
+        "altLabels": [
+          "Covid-19 pandemic",
+          "coronavirus pandemic"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "event:covid-protests",
+        "prefLabel": "COVID protests",
+        "indexTerm": "COVID protests",
+        "altLabels": [
+          "Covid protests",
+          "COVID-19 protests",
+          "anti-COVID protests"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "event:gain-of-function-moratorium-2014",
@@ -90,6 +137,19 @@
         "source": "book-index"
       },
       {
+        "id": "event:mojiang-miners-outbreak-2012",
+        "prefLabel": "Mojiang miners outbreak (2012)",
+        "indexTerm": "Mojiang miners outbreak, 2012",
+        "altLabels": [
+          "Mojiang miners",
+          "Mojiang pneumonia cases (2012)"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
         "id": "event:operation-paperclip",
         "prefLabel": "Operation Paperclip",
         "indexTerm": "Operation Paperclip",
@@ -114,16 +174,18 @@
         "source": "book-index"
       },
       {
-        "id": "event:russian-flu-1977",
-        "prefLabel": "Russian flu (1977)",
-        "indexTerm": "Russian flu, 1977",
-        "altLabels": [],
+        "id": "event:origins-teleconference-1-february-2020",
+        "prefLabel": "Origins teleconference (1 February 2020)",
+        "indexTerm": "origins teleconference, 1 February 2020",
+        "altLabels": [
+          "February 1, 2020 teleconference",
+          "1 February 2020 conference call",
+          "Feb 1 2020 call"
+        ],
         "related": [],
         "subentries": [],
-        "pages": [
-          "33"
-        ],
-        "source": "book-index"
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "event:russia-ukraine-war",
@@ -136,6 +198,18 @@
           "origins debate displaced"
         ],
         "pages": [],
+        "source": "book-index"
+      },
+      {
+        "id": "event:russian-flu-1977",
+        "prefLabel": "Russian flu (1977)",
+        "indexTerm": "Russian flu, 1977",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [
+          "33"
+        ],
         "source": "book-index"
       },
       {
@@ -156,6 +230,24 @@
           "130"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "event:sars-lab-escapes-2003-2004",
+        "prefLabel": "SARS lab escapes (2003–2004)",
+        "indexTerm": "SARS lab escapes, 2003–2004",
+        "altLabels": [
+          "SARS laboratory escapes",
+          "SARS lab escape"
+        ],
+        "related": [
+          {
+            "label": "SARS epidemic (2002–2004)",
+            "id": "event:sars-epidemic-2002-2004"
+          }
+        ],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       },
       {
         "id": "event:september-11-attacks",
@@ -219,6 +311,33 @@
           "220"
         ],
         "source": "book-index"
+      },
+      {
+        "id": "event:who-china-origins-study-2021",
+        "prefLabel": "WHO China origins study (2021)",
+        "indexTerm": "WHO China origins study, 2021",
+        "altLabels": [
+          "WHO-convened global study of origins of SARS-CoV-2",
+          "WHO origins study",
+          "WHO Wuhan mission"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "event:wuhan-lockdown-2020",
+        "prefLabel": "Wuhan lockdown (2020)",
+        "indexTerm": "Wuhan lockdown, 2020",
+        "altLabels": [
+          "Wuhan lockdown",
+          "lockdown of Wuhan"
+        ],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       }
     ],
     "org": [
@@ -501,7 +620,11 @@
         "id": "org:department-of-energy-us",
         "prefLabel": "Department of Energy (US)",
         "indexTerm": "Department of Energy (US)",
-        "altLabels": [],
+        "altLabels": [
+          "DOE",
+          "Energy Department",
+          "Department of Energy"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -513,7 +636,11 @@
         "id": "org:director-of-national-intelligence",
         "prefLabel": "Director of National Intelligence",
         "indexTerm": "Director of National Intelligence",
-        "altLabels": [],
+        "altLabels": [
+          "DNI",
+          "ODNI",
+          "Office of the Director of National Intelligence"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -942,7 +1069,10 @@
         "id": "org:sequence-read-archive",
         "prefLabel": "Sequence Read Archive",
         "indexTerm": "Sequence Read Archive",
-        "altLabels": [],
+        "altLabels": [
+          "SRA",
+          "NCBI SRA"
+        ],
         "related": [],
         "subentries": [],
         "pages": [
@@ -1236,7 +1366,9 @@
         "id": "org:usamriid",
         "prefLabel": "USAMRIID",
         "indexTerm": "USAMRIID",
-        "altLabels": [],
+        "altLabels": [
+          "U.S. Army Medical Research Institute of Infectious Diseases"
+        ],
         "related": [
           {
             "label": "Fort Detrick",

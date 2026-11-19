@@ -27,7 +27,9 @@
         ],
         "orgs": [
           "Nature Medicine",
-          "PubMed"
+          "PubMed",
+          "Nature",
+          "Science"
         ],
         "places": []
       },
@@ -39,7 +41,10 @@
           "org:nature-medicine",
           "org:pubmed"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:covid-19-pandemic"
+        ]
       },
       "source_key": "ch08-s01",
       "date_iso": "2020-10-14",
@@ -71,7 +76,9 @@
         "people": [],
         "orgs": [
           "Safety Investigation Authority of Finland",
-          "OTKES"
+          "OTKES",
+          "Meta",
+          "Twitter"
         ],
         "places": [
           "Finland"
@@ -115,7 +122,8 @@
           "WHO",
           "STAT News",
           "STAT",
-          "University of Hong Kong"
+          "University of Hong Kong",
+          "Cell"
         ],
         "places": [
           "Hong Kong",
@@ -210,7 +218,12 @@
         "orgs": [
           "Pfizer",
           "BioNTech",
-          "FDA"
+          "FDA",
+          "Nature",
+          "Science",
+          "Twitter",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Germany"
@@ -254,7 +267,11 @@
         "orgs": [
           "BBC News",
           "Pfizer",
-          "BioNTech"
+          "BioNTech",
+          "Medium",
+          "Science",
+          "Twitter",
+          "Cell"
         ],
         "places": []
       },
@@ -301,7 +318,9 @@
         "people": [],
         "orgs": [
           "UNESCO",
-          "European Commission"
+          "European Commission",
+          "Medium",
+          "Science"
         ],
         "places": [
           "Europe"
@@ -351,8 +370,14 @@
         ],
         "orgs": [
           "Daily Mail",
+          "White House",
           "Ministry of Defence",
-          "77th Brigade"
+          "77th Brigade",
+          "Amazon",
+          "Science",
+          "Twitter",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "United Kingdom"
@@ -363,7 +388,8 @@
           "person:glen-owen"
         ],
         "orgs": [
-          "org:daily-mail"
+          "org:daily-mail",
+          "org:white-house"
         ],
         "places": [
           "place:united-kingdom"
@@ -406,7 +432,11 @@
         ],
         "orgs": [
           "PubMed",
-          "PLOS Pathogens"
+          "PLOS Pathogens",
+          "Nature",
+          "PMC",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -459,7 +489,11 @@
           "Chris Buckley"
         ],
         "orgs": [
-          "The New York Times"
+          "The New York Times",
+          "Chinese Center for Disease Control and Prevention",
+          "Wuhan Central Hospital",
+          "Science",
+          "WHO"
         ],
         "places": [
           "China"
@@ -471,7 +505,9 @@
           "person:chris-buckley"
         ],
         "orgs": [
-          "org:the-new-york-times"
+          "org:the-new-york-times",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:wuhan-central-hospital"
         ],
         "places": [
           "place:china"
@@ -513,7 +549,14 @@
           "Frank Chen"
         ],
         "orgs": [
-          "Asia Times"
+          "Asia Times",
+          "CDC",
+          "Chinese Academy of Medical Sciences",
+          "Chinese Academy of Sciences",
+          "Science",
+          "The New York Times",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "China"
@@ -524,7 +567,9 @@
           "person:frank-chen"
         ],
         "orgs": [
-          "org:asia-times"
+          "org:asia-times",
+          "org:cdc",
+          "org:chinese-academy-of-medical-sciences"
         ],
         "places": [
           "place:china"
@@ -566,7 +611,15 @@
         ],
         "orgs": [
           "CNN",
-          "Office of the Director of National Intelligence"
+          "Director of National Intelligence",
+          "Five Eyes",
+          "White House",
+          "Office of the Director of National Intelligence",
+          "Nature",
+          "The New York Times",
+          "U.S. Department of State",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -582,7 +635,10 @@
           "person:zachary-cohen"
         ],
         "orgs": [
-          "org:cnn"
+          "org:cnn",
+          "org:director-of-national-intelligence",
+          "org:five-eyes",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan",
@@ -625,7 +681,8 @@
         ],
         "orgs": [
           "U.S. Department of State",
-          "ABC News"
+          "ABC News",
+          "YouTube"
         ],
         "places": [
           "China"
@@ -681,7 +738,15 @@
         ],
         "orgs": [
           "The Guardian",
-          "Five Eyes"
+          "Five Eyes",
+          "Scientific American",
+          "The Telegraph",
+          "White House",
+          "Science",
+          "The New York Times",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -699,7 +764,10 @@
         ],
         "orgs": [
           "org:the-guardian",
-          "org:five-eyes"
+          "org:five-eyes",
+          "org:scientific-american",
+          "org:the-telegraph",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan",
@@ -741,7 +809,20 @@
           "Sharri Markson"
         ],
         "orgs": [
-          "Daily Telegraph"
+          "Director of National Intelligence",
+          "Five Eyes",
+          "Scientific American",
+          "The Telegraph",
+          "University of North Carolina",
+          "Wuhan Municipal Health Commission",
+          "South China Morning Post",
+          "Daily Telegraph",
+          "Chinese Academy of Sciences",
+          "Science",
+          "The New York Times",
+          "The Washington Post",
+          "Twitter",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "China",
@@ -752,7 +833,15 @@
         "people": [
           "person:sharri-markson"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:director-of-national-intelligence",
+          "org:five-eyes",
+          "org:scientific-american",
+          "org:the-telegraph",
+          "org:university-of-north-carolina",
+          "org:wuhan-municipal-health-commission",
+          "org:south-china-morning-post"
+        ],
         "places": [
           "place:china",
           "place:australia"
@@ -793,13 +882,17 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Office of the Director of National Intelligence"
+          "Director of National Intelligence",
+          "Office of the Director of National Intelligence",
+          "Twitter"
         ],
         "places": []
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:director-of-national-intelligence"
+        ],
         "places": []
       },
       "source_key": "ch08-s16",
@@ -837,7 +930,12 @@
         ],
         "orgs": [
           "The Wall Street Journal",
-          "Office of the Director of National Intelligence"
+          "Director of National Intelligence",
+          "White House",
+          "Office of the Director of National Intelligence",
+          "Amazon",
+          "U.S. Senate",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan",
@@ -850,7 +948,9 @@
           "person:dustin-volz"
         ],
         "orgs": [
-          "org:the-wall-street-journal"
+          "org:the-wall-street-journal",
+          "org:director-of-national-intelligence",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan",
@@ -892,7 +992,27 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Project Evidence"
+          "Project Evidence",
+          "Chinese Center for Disease Control and Prevention",
+          "Scientific American",
+          "Wikipedia",
+          "Wuhan Center for Disease Control and Prevention",
+          "Virologica Sinica",
+          "The New England Journal of Medicine",
+          "Chinese Academy of Sciences",
+          "Medium",
+          "Nature",
+          "NIH",
+          "PubMed",
+          "Science",
+          "The Lancet",
+          "The Wall Street Journal",
+          "Twitter",
+          "U.S. Department of State",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "ResearchGate",
+          "Cell"
         ],
         "places": [
           "Wuhan",
@@ -905,7 +1025,13 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:project-evidence"
+          "org:project-evidence",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:scientific-american",
+          "org:wikipedia",
+          "org:wuhan-center-for-disease-control-and-prevention",
+          "org:virologica-sinica",
+          "org:the-new-england-journal-of-medicine"
         ],
         "places": [
           "place:wuhan",
@@ -938,7 +1064,16 @@
         ],
         "orgs": [
           "PMC",
-          "Journal of Biological Chemistry"
+          "Project Evidence",
+          "Journal of Biological Chemistry",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "Nature",
+          "NIH",
+          "PubMed",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -947,7 +1082,8 @@
           "person:shen-zhou"
         ],
         "orgs": [
-          "org:pmc"
+          "org:pmc",
+          "org:project-evidence"
         ],
         "places": []
       },
@@ -1034,9 +1170,21 @@
         ],
         "orgs": [
           "WHO",
+          "Chinese Academy of Medical Sciences",
+          "Wuhan Central Hospital",
+          "Wuhan Municipal Health Commission",
           "The Straits Times",
           "Caixin",
-          "BGI"
+          "BGI",
+          "Amazon",
+          "Chinese Academy of Sciences",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "Science",
+          "Twitter",
+          "Wuhan Institute of Virology",
+          "YouTube"
         ],
         "places": [
           "China",
@@ -1048,7 +1196,10 @@
           "person:yu-gao"
         ],
         "orgs": [
-          "org:who"
+          "org:who",
+          "org:chinese-academy-of-medical-sciences",
+          "org:wuhan-central-hospital",
+          "org:wuhan-municipal-health-commission"
         ],
         "places": [
           "place:china"
@@ -1095,7 +1246,15 @@
         "orgs": [
           "The Washington Post",
           "Wuhan Institute of Virology",
-          "U.S. Department of State"
+          "U.S. Department of State",
+          "Wuhan Center for Disease Control and Prevention",
+          "Amazon",
+          "Nature",
+          "Science",
+          "The Lancet",
+          "The New York Times",
+          "Twitter",
+          "U.S. Senate"
         ],
         "places": [
           "Wuhan",
@@ -1116,7 +1275,8 @@
         "orgs": [
           "org:the-washington-post",
           "org:wuhan-institute-of-virology",
-          "org:u-s-department-of-state"
+          "org:u-s-department-of-state",
+          "org:wuhan-center-for-disease-control-and-prevention"
         ],
         "places": [
           "place:wuhan",
@@ -1158,7 +1318,15 @@
           "Angus Dalgleish"
         ],
         "orgs": [
-          "Minerva"
+          "Scientific American",
+          "University of North Carolina",
+          "Wikipedia",
+          "Minerva",
+          "Nature",
+          "Science",
+          "The Washington Post",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "Norway"
@@ -1172,7 +1340,11 @@
           "person:birger-s-rensen",
           "person:aksel-fridstr-m"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:scientific-american",
+          "org:university-of-north-carolina",
+          "org:wikipedia"
+        ],
         "places": []
       },
       "source_key": "ch08-s23",
@@ -1208,7 +1380,12 @@
         ],
         "orgs": [
           "The Telegraph",
-          "MI6"
+          "MI6",
+          "Journal of Virology",
+          "Nature",
+          "Science",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "China",
@@ -1268,7 +1445,15 @@
         ],
         "orgs": [
           "The New York Times",
-          "European Union"
+          "Chinese Communist Party",
+          "The Times",
+          "Politico",
+          "Center for Security Policy",
+          "Financial Times",
+          "European Union",
+          "Reuters",
+          "Twitter",
+          "WHO"
         ],
         "places": [
           "Europe",
@@ -1281,7 +1466,12 @@
           "person:matt-apuzzo"
         ],
         "orgs": [
-          "org:the-new-york-times"
+          "org:the-new-york-times",
+          "org:chinese-communist-party",
+          "org:the-times",
+          "org:politico",
+          "org:center-for-security-policy",
+          "org:financial-times"
         ],
         "places": [
           "place:europe",
@@ -1327,7 +1517,12 @@
           "EcoHealth Alliance",
           "NIH",
           "Chinese Academy of Sciences",
-          "Institut Pasteur"
+          "Institut Pasteur",
+          "Medium",
+          "Science",
+          "Twitter",
+          "WHO",
+          "Cell"
         ],
         "places": [
           "France"
@@ -1381,7 +1576,13 @@
         "orgs": [
           "Wuhan Institute of Virology",
           "Chinese Academy of Sciences",
-          "U.S. Right to Know"
+          "U.S. Right to Know",
+          "USAID",
+          "PLOS Pathogens",
+          "NIAID",
+          "Science",
+          "U.S. Department of State",
+          "WHO"
         ],
         "places": [
           "Beijing",
@@ -1394,7 +1595,9 @@
         "orgs": [
           "org:wuhan-institute-of-virology",
           "org:chinese-academy-of-sciences",
-          "org:u-s-right-to-know"
+          "org:u-s-right-to-know",
+          "org:usaid",
+          "org:plos-pathogens"
         ],
         "places": [
           "place:beijing",
@@ -1439,7 +1642,24 @@
           "Angus Dalgleish"
         ],
         "orgs": [
-          "Daily Mail"
+          "Daily Mail",
+          "Director of National Intelligence",
+          "Scientific American",
+          "The Times",
+          "White House",
+          "EcoHealth Alliance",
+          "GenBank",
+          "Nature",
+          "NIH",
+          "Science",
+          "The Lancet",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "U.S. Congress",
+          "U.S. Department of State",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "China"
@@ -1451,7 +1671,11 @@
           "person:birger-s-rensen"
         ],
         "orgs": [
-          "org:daily-mail"
+          "org:daily-mail",
+          "org:director-of-national-intelligence",
+          "org:scientific-american",
+          "org:the-times",
+          "org:white-house"
         ],
         "places": [
           "place:china"
@@ -1544,14 +1768,25 @@
       "entities": {
         "people": [],
         "orgs": [
-          "WHO"
+          "WHO",
+          "CDC",
+          "Chinese Center for Disease Control and Prevention",
+          "bioRxiv",
+          "Medium",
+          "Meta",
+          "Nature",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:who"
+          "org:who",
+          "org:cdc",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:biorxiv"
         ],
         "places": []
       },
@@ -1590,7 +1825,8 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Freedom House"
+          "Freedom House",
+          "Twitter"
         ],
         "places": []
       },
@@ -1640,7 +1876,12 @@
           "Steve Hanke"
         ],
         "orgs": [
-          "Public Choice"
+          "Public Choice",
+          "Oxford COVID-19 Government Response Tracker",
+          "Meta",
+          "Nature",
+          "Science",
+          "WHO"
         ],
         "places": []
       },
@@ -1649,7 +1890,8 @@
           "person:jonas-herby"
         ],
         "orgs": [
-          "org:public-choice"
+          "org:public-choice",
+          "org:oxford-covid-19-government-response-tracker"
         ],
         "places": []
       },

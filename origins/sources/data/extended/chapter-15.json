@@ -30,7 +30,14 @@
           "EcoHealth Alliance",
           "Wuhan Institute of Virology",
           "DRASTIC",
-          "Newsweek"
+          "Newsweek",
+          "US Geological Survey National Wildlife Health Center",
+          "Meta",
+          "NIH",
+          "Science",
+          "Twitter",
+          "WHO",
+          "YouTube"
         ],
         "places": [
           "Wuhan"
@@ -46,7 +53,8 @@
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
           "org:drastic",
-          "org:newsweek"
+          "org:newsweek",
+          "org:us-geological-survey-national-wildlife-health-center"
         ],
         "places": [
           "place:wuhan"
@@ -89,7 +97,19 @@
         "orgs": [
           "The Lancet",
           "Lancet COVID-19 Commission",
-          "Current Affairs"
+          "The Week",
+          "Current Affairs",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "Science",
+          "The Guardian",
+          "The New York Times",
+          "Twitter",
+          "U.S. Congress",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "United States"
@@ -103,10 +123,14 @@
         ],
         "orgs": [
           "org:the-lancet",
-          "org:lancet-covid-19-commission"
+          "org:lancet-covid-19-commission",
+          "org:the-week"
         ],
         "places": [
           "place:united-states"
+        ],
+        "events": [
+          "event:covid-19-pandemic"
         ]
       },
       "source_key": "ch15-s02",
@@ -143,7 +167,23 @@
         ],
         "orgs": [
           "NIAID",
-          "UnHerd"
+          "UnHerd",
+          "New York Post",
+          "ABC News",
+          "White House",
+          "NBC News",
+          "Amazon",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIH",
+          "Science",
+          "The New York Times",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "Vanity Fair",
+          "Cell"
         ],
         "places": []
       },
@@ -158,7 +198,11 @@
         ],
         "orgs": [
           "org:niaid",
-          "org:unherd"
+          "org:unherd",
+          "org:new-york-post",
+          "org:abc-news",
+          "org:white-house",
+          "org:nbc-news"
         ],
         "places": []
       },
@@ -196,7 +240,17 @@
         ],
         "orgs": [
           "PMC",
-          "Biosecurity and Bioterrorism"
+          "CDC",
+          "White House",
+          "Biosecurity and Bioterrorism",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "PubMed",
+          "Science",
+          "U.S. Congress",
+          "BBC News",
+          "Cell"
         ],
         "places": [
           "United States"
@@ -210,7 +264,9 @@
           "person:stephanie-richards"
         ],
         "orgs": [
-          "org:pmc"
+          "org:pmc",
+          "org:cdc",
+          "org:white-house"
         ],
         "places": [
           "place:united-states"
@@ -245,7 +301,13 @@
         ],
         "orgs": [
           "University of North Carolina",
-          "ResearchGate"
+          "ResearchGate",
+          "GenBank",
+          "Meta",
+          "Nature",
+          "NIH",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -293,7 +355,9 @@
           "Dezhong Xu"
         ],
         "orgs": [
-          "Academy of Military Medical Sciences Press"
+          "Academy of Military Medical Sciences",
+          "Academy of Military Medical Sciences Press",
+          "Science"
         ],
         "places": []
       },
@@ -301,7 +365,9 @@
         "people": [
           "person:dezhong-xu"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:academy-of-military-medical-sciences"
+        ],
         "places": []
       },
       "source_key": "ch15-s06",
@@ -340,7 +406,8 @@
           "Associated Press",
           "FBI",
           "CBC",
-          "U.S. Army"
+          "U.S. Army",
+          "U.S. Congress"
         ],
         "places": []
       },
@@ -355,7 +422,10 @@
           "org:associated-press",
           "org:fbi"
         ],
-        "places": []
+        "places": [],
+        "events": [
+          "event:anthrax-attacks-2001"
+        ]
       },
       "source_key": "ch15-s07",
       "date_iso": "2008-08-01",
@@ -394,7 +464,9 @@
         ],
         "orgs": [
           "Amazon",
-          "Bantam"
+          "Bantam",
+          "FBI",
+          "Medium"
         ],
         "places": [
           "United States"
@@ -407,10 +479,14 @@
         ],
         "orgs": [
           "org:amazon",
-          "org:bantam"
+          "org:bantam",
+          "org:fbi"
         ],
         "places": [
           "place:united-states"
+        ],
+        "events": [
+          "event:anthrax-attacks-2001"
         ]
       },
       "source_key": "ch15-n01",

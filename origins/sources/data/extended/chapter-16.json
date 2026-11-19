@@ -29,7 +29,14 @@
           "EcoHealth Alliance",
           "New York Post",
           "DTRA",
-          "U.S. Department of Defense"
+          "U.S. Department of Defense",
+          "NIAID",
+          "NIH",
+          "Reuters",
+          "U.S. Congress",
+          "U.S. Senate",
+          "WHO",
+          "Wuhan Institute of Virology"
         ],
         "places": [
           "Wuhan"
@@ -85,7 +92,24 @@
         "orgs": [
           "The Intercept",
           "NIH",
-          "EcoHealth Alliance"
+          "EcoHealth Alliance",
+          "DocumentCloud",
+          "Politico",
+          "White House",
+          "The Free Press",
+          "DARPA",
+          "Nature",
+          "NIAID",
+          "Science",
+          "The Lancet",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Right to Know",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "YouTube"
         ],
         "places": []
       },
@@ -100,7 +124,11 @@
         "orgs": [
           "org:the-intercept",
           "org:nih",
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:documentcloud",
+          "org:politico",
+          "org:white-house",
+          "org:the-free-press"
         ],
         "places": []
       },
@@ -140,7 +168,34 @@
         "orgs": [
           "EcoHealth Alliance",
           "Wuhan Institute of Virology",
-          "Vanity Fair"
+          "Vanity Fair",
+          "CDC",
+          "Chinese Center for Disease Control and Prevention",
+          "DocumentCloud",
+          "Global Virome Project",
+          "University of North Carolina",
+          "USAID",
+          "Wellcome Trust",
+          "White House",
+          "Virologica Sinica",
+          "DARPA",
+          "DRASTIC",
+          "GenBank",
+          "Nature",
+          "Nature Medicine",
+          "NIAID",
+          "NIH",
+          "Science",
+          "The Intercept",
+          "The Lancet",
+          "The New York Times",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Department of State",
+          "U.S. Right to Know",
+          "WHO",
+          "Cell"
         ],
         "places": []
       },
@@ -154,7 +209,16 @@
         "orgs": [
           "org:ecohealth-alliance",
           "org:wuhan-institute-of-virology",
-          "org:vanity-fair"
+          "org:vanity-fair",
+          "org:cdc",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:documentcloud",
+          "org:global-virome-project",
+          "org:university-of-north-carolina",
+          "org:usaid",
+          "org:wellcome-trust",
+          "org:white-house",
+          "org:virologica-sinica"
         ],
         "places": []
       },
@@ -187,7 +251,14 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Global Virome Project"
+          "Global Virome Project",
+          "Chinese Center for Disease Control and Prevention",
+          "EcoHealth Alliance",
+          "Meta",
+          "NIAID",
+          "NIH",
+          "Science",
+          "WHO"
         ],
         "places": []
       },
@@ -195,7 +266,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:global-virome-project"
+          "org:global-virome-project",
+          "org:chinese-center-for-disease-control-and-prevention"
         ],
         "places": []
       },
@@ -224,14 +296,21 @@
       "entities": {
         "people": [],
         "orgs": [
+          "DTRA",
           "Defense Threat Reduction Agency",
-          "U.S. Department of Defense"
+          "U.S. Department of Defense",
+          "EcoHealth Alliance",
+          "Medium",
+          "Twitter",
+          "YouTube"
         ],
         "places": []
       },
       "entity_ids": {
         "people": [],
-        "orgs": [],
+        "orgs": [
+          "org:dtra"
+        ],
         "places": []
       },
       "source_key": "ch16-s05",
@@ -260,7 +339,9 @@
         "people": [],
         "orgs": [
           "EcoHealth Alliance",
-          "Defense Threat Reduction Agency"
+          "DTRA",
+          "Defense Threat Reduction Agency",
+          "U.S. Congress"
         ],
         "places": []
       },
@@ -268,7 +349,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:ecohealth-alliance"
+          "org:ecohealth-alliance",
+          "org:dtra"
         ],
         "places": []
       },
@@ -303,7 +385,43 @@
         ],
         "orgs": [
           "U.S. Department of State",
-          "Vanity Fair"
+          "Vanity Fair",
+          "Academy of Military Medical Sciences",
+          "CDC",
+          "Chinese Center for Disease Control and Prevention",
+          "Department of Energy (US)",
+          "Director of National Intelligence",
+          "House Intelligence Committee",
+          "Lawrence Livermore National Laboratory",
+          "People’s Liberation Army",
+          "Scientific American",
+          "University of North Carolina",
+          "USAID",
+          "Wuhan Center for Disease Control and Prevention",
+          "New York Post",
+          "White House",
+          "The Week",
+          "bioRxiv",
+          "Amazon",
+          "DRASTIC",
+          "EcoHealth Alliance",
+          "Medium",
+          "Nature",
+          "NIAID",
+          "NIH",
+          "Science",
+          "The Lancet",
+          "The New York Times",
+          "The Wall Street Journal",
+          "The Washington Post",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Right to Know",
+          "U.S. Senate",
+          "WHO",
+          "Wuhan Institute of Virology",
+          "Bulletin of the Atomic Scientists",
+          "Cell"
         ],
         "places": []
       },
@@ -318,7 +436,23 @@
         ],
         "orgs": [
           "org:u-s-department-of-state",
-          "org:vanity-fair"
+          "org:vanity-fair",
+          "org:academy-of-military-medical-sciences",
+          "org:cdc",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:department-of-energy-us",
+          "org:director-of-national-intelligence",
+          "org:house-intelligence-committee",
+          "org:lawrence-livermore-national-laboratory",
+          "org:people-s-liberation-army",
+          "org:scientific-american",
+          "org:university-of-north-carolina",
+          "org:usaid",
+          "org:wuhan-center-for-disease-control-and-prevention",
+          "org:new-york-post",
+          "org:white-house",
+          "org:the-week",
+          "org:biorxiv"
         ],
         "places": []
       },
@@ -354,7 +488,14 @@
         ],
         "orgs": [
           "PMC",
-          "Viruses"
+          "Viruses",
+          "GenBank",
+          "Medium",
+          "Meta",
+          "NIH",
+          "PubMed",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -399,7 +540,13 @@
         ],
         "orgs": [
           "PMC",
-          "Virus Research"
+          "mBio",
+          "Virus Research",
+          "Nature",
+          "NIH",
+          "PubMed",
+          "Science",
+          "Cell"
         ],
         "places": []
       },
@@ -408,7 +555,8 @@
           "person:fernando-almazan"
         ],
         "orgs": [
-          "org:pmc"
+          "org:pmc",
+          "org:mbio"
         ],
         "places": []
       },
@@ -448,6 +596,7 @@
           "Shi Zhengli"
         ],
         "orgs": [
+          "The Sunday Times",
           "French National Academy of Medicine"
         ],
         "places": [
@@ -465,7 +614,9 @@
         "people": [
           "person:shi-zhengli"
         ],
-        "orgs": [],
+        "orgs": [
+          "org:the-sunday-times"
+        ],
         "places": [
           "place:france",
           "place:wuhan"
@@ -502,7 +653,12 @@
         "orgs": [
           "The Times",
           "Wuhan Institute of Virology",
-          "People’s Liberation Army"
+          "People’s Liberation Army",
+          "White House",
+          "Chinese Academy of Sciences",
+          "Science",
+          "The New York Times",
+          "Twitter"
         ],
         "places": [
           "Wuhan",
@@ -518,7 +674,8 @@
         "orgs": [
           "org:the-times",
           "org:wuhan-institute-of-virology",
-          "org:people-s-liberation-army"
+          "org:people-s-liberation-army",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan",
@@ -562,7 +719,17 @@
         ],
         "orgs": [
           "NIAID",
-          "White Coat Waste Project"
+          "White Coat Waste Project",
+          "DTRA",
+          "University of North Carolina",
+          "USAID",
+          "Chinese Academy of Sciences",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIH",
+          "Science",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": []
       },
@@ -576,7 +743,10 @@
         ],
         "orgs": [
           "org:niaid",
-          "org:white-coat-waste-project"
+          "org:white-coat-waste-project",
+          "org:dtra",
+          "org:university-of-north-carolina",
+          "org:usaid"
         ],
         "places": []
       },
@@ -608,7 +778,14 @@
       "entities": {
         "people": [],
         "orgs": [
-          "Wuhan Institute of Virology"
+          "Wuhan Institute of Virology",
+          "Virologica Sinica",
+          "Chinese Academy of Sciences",
+          "EcoHealth Alliance",
+          "Meta",
+          "Science",
+          "WHO",
+          "Cell"
         ],
         "places": []
       },
@@ -616,7 +793,8 @@
       "entity_ids": {
         "people": [],
         "orgs": [
-          "org:wuhan-institute-of-virology"
+          "org:wuhan-institute-of-virology",
+          "org:virologica-sinica"
         ],
         "places": []
       },
@@ -653,7 +831,8 @@
         "people": [],
         "orgs": [
           "WHO SAGO",
-          "WHO"
+          "WHO",
+          "Science"
         ],
         "places": []
       },
@@ -702,7 +881,21 @@
         "orgs": [
           "WHO SAGO",
           "Nature",
-          "WHO"
+          "WHO",
+          "CDC",
+          "Chinese Center for Disease Control and Prevention",
+          "University of North Carolina",
+          "Zenodo",
+          "Chinese Academy of Sciences",
+          "EcoHealth Alliance",
+          "Medium",
+          "Meta",
+          "NIH",
+          "PubMed",
+          "Science",
+          "Twitter",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "Huanan Seafood Market"
@@ -713,7 +906,11 @@
         "orgs": [
           "org:who-sago",
           "org:nature",
-          "org:who"
+          "org:who",
+          "org:cdc",
+          "org:chinese-center-for-disease-control-and-prevention",
+          "org:university-of-north-carolina",
+          "org:zenodo"
         ],
         "places": [
           "place:huanan-seafood-market"
@@ -759,7 +956,22 @@
         "orgs": [
           "Newsweek",
           "Wuhan Institute of Virology",
-          "Defense Intelligence Agency"
+          "Defense Intelligence Agency",
+          "Cambridge Working Group",
+          "University of North Carolina",
+          "USAID",
+          "White House",
+          "Chinese Academy of Sciences",
+          "Nature",
+          "Nature Medicine",
+          "NIH",
+          "Science",
+          "The Lancet",
+          "The Washington Post",
+          "Twitter",
+          "WHO",
+          "YouTube",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -773,10 +985,17 @@
         "orgs": [
           "org:newsweek",
           "org:wuhan-institute-of-virology",
-          "org:defense-intelligence-agency"
+          "org:defense-intelligence-agency",
+          "org:cambridge-working-group",
+          "org:university-of-north-carolina",
+          "org:usaid",
+          "org:white-house"
         ],
         "places": [
           "place:wuhan"
+        ],
+        "events": [
+          "event:covid-19-pandemic"
         ]
       },
       "source_key": "ch16-n03",
@@ -819,7 +1038,15 @@
         ],
         "orgs": [
           "USAID",
-          "The New York Times"
+          "The New York Times",
+          "CDC",
+          "Global Virome Project",
+          "EcoHealth Alliance",
+          "NIH",
+          "Science",
+          "Twitter",
+          "U.S. Congress",
+          "WHO"
         ],
         "places": [
           "United States"
@@ -831,7 +1058,9 @@
         ],
         "orgs": [
           "org:usaid",
-          "org:the-new-york-times"
+          "org:the-new-york-times",
+          "org:cdc",
+          "org:global-virome-project"
         ],
         "places": [
           "place:united-states"
@@ -876,7 +1105,21 @@
           "Ralph Baric"
         ],
         "orgs": [
-          "Vanity Fair"
+          "Vanity Fair",
+          "House Oversight and Reform Committee",
+          "University of North Carolina",
+          "bioRxiv",
+          "DARPA",
+          "EcoHealth Alliance",
+          "Nature",
+          "NIAID",
+          "Science",
+          "Twitter",
+          "U.S. Congress",
+          "U.S. Right to Know",
+          "U.S. Senate",
+          "Wuhan Institute of Virology",
+          "Cell"
         ],
         "places": [
           "Wuhan"
@@ -888,7 +1131,10 @@
           "person:ralph-baric"
         ],
         "orgs": [
-          "org:vanity-fair"
+          "org:vanity-fair",
+          "org:house-oversight-and-reform-committee",
+          "org:university-of-north-carolina",
+          "org:biorxiv"
         ],
         "places": [
           "place:wuhan"

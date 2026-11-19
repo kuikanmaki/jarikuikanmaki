@@ -1958,22 +1958,24 @@
         if (k && k.id) keywordById[k.id] = k;
       });
 
-      // Second index: source titles (plus author/publication) so typing a
-      // paper/article/book title can hit that catalog record directly.
+      // Second index: titles plus author/publication/summary so org names and
+      // other entities mentioned in card copy are findable even before/without
+      // a keyword authority hit.
       titleSearch = new MiniSearch({
         idField: "source_key",
-        fields: ["title", "author", "publication"],
+        fields: ["title", "author", "publication", "summary"],
         storeFields: [
           "title",
           "author",
           "publication",
+          "summary",
           "chapter",
           "source_key",
           "section",
           "content_kind_label",
         ],
         searchOptions: {
-          boost: { title: 6, author: 2, publication: 1 },
+          boost: { title: 6, author: 2, publication: 2, summary: 1 },
           prefix: true,
           fuzzy: 0.15,
         },
