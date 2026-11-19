@@ -72,12 +72,20 @@ test.describe("Sources catalog smoke", () => {
         page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
       )
       .toMatch(/auto|scroll/);
-    // Menu must stay inside the viewport (scroll internally).
+    // Menu uses the remaining viewport under the trigger (not an arbitrary short cap).
     const menuFits = await page.locator("#chapter-custom-list").evaluate((el) => {
       const r = el.getBoundingClientRect();
       return r.bottom <= window.innerHeight + 1;
     });
     expect(menuFits).toBe(true);
+    const usesRoom = await page.evaluate(() => {
+      const trigger = document.getElementById("chapter-custom-trigger");
+      const menu = document.getElementById("chapter-custom-list");
+      const room = window.innerHeight - trigger.getBoundingClientRect().bottom - 12;
+      const h = menu.getBoundingClientRect().height;
+      return room > 120 ? h >= Math.min(room, 200) - 8 : h > 0;
+    });
+    expect(usesRoom).toBe(true);
     await page.locator('#chapter-custom-list [data-value="5"]').click();
 
     await expect(page.locator("#sources-heading")).toBeVisible();
@@ -134,11 +142,17 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
     await expect
       .poll(async () =>
-        page.locator("#chapter-custom-list").evaluate((el) => {
-          const opts = el.querySelectorAll('[role="option"]');
-          const rowH = opts[0] ? opts[0].getBoundingClientRect().height : 44;
-          // At least ~6 rows visible (allow ½-row slack).
-          return el.clientHeight + 2 >= rowH * 6 && el.scrollHeight > el.clientHeight;
+        page.evaluate(() => {
+          const trigger = document.getElementById("chapter-custom-trigger");
+          const el = document.getElementById("chapter-custom-list");
+          const room = Math.floor(
+            window.innerHeight - trigger.getBoundingClientRect().bottom - 12
+          );
+          const r = el.getBoundingClientRect();
+          const fillsRoom = Math.abs(el.clientHeight - Math.max(room, 0)) <= 12;
+          const inView = r.bottom <= window.innerHeight + 1;
+          const scrollsIfNeeded = el.scrollHeight <= el.clientHeight + 1 || el.scrollHeight > el.clientHeight;
+          return fillsRoom && inView && scrollsIfNeeded;
         })
       )
       .toBe(true);

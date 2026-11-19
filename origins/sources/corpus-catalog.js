@@ -969,25 +969,22 @@
   }
 
   function fitChapterMenuToViewport() {
-    // Size the overlay list to the space under the trigger. Never move the page —
-    // opening must not change document height or scroll position.
+    // Size the overlay to the remaining viewport under the trigger. No page-length
+    // hacks; internal scroll only when the full list still exceeds that room.
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
       chapterMenuEl.style.maxHeight = "";
       return;
     }
     var gap = 12;
-    var minItems = 6;
     var sample = chapterMenuEl.querySelector('[role="option"]');
     var rowH = sample ? Math.ceil(sample.getBoundingClientRect().height) : 44;
-    var minH = minItems * rowH + 12;
-    var cssCap = Math.min(22 * 16, Math.floor(window.innerHeight * 0.6));
     var room = Math.floor(
       window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - gap
     );
-    // Prefer ~6 rows; if the trigger is near the fold, allow a shorter overlay.
-    var next = Math.min(cssCap, room >= minH ? Math.max(minH, room) : Math.max(rowH * 3, room));
-    if (next < 1) next = Math.min(cssCap, minH);
+    // Use the remaining viewport under the trigger (floor ~3 rows if room is tiny).
+    var next = room > 0 ? room : rowH * 3;
+    if (next < 1) next = rowH * 3;
     chapterMenuEl.style.maxHeight = next + "px";
   }
 
@@ -1175,21 +1172,28 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
-    // Pin only when the user is above the shelf and the page can actually scroll
-    // there (idle/short pages open in place — no spacer thrash).
+    // 1) Open first at a comfortable height for the space under the trigger.
+    setChapterMenuOpen(true);
+    fitChapterMenuToViewport();
+    var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
+    var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
+    scrollOptionIntoChapterMenu(selected || focusOpt);
+    // 2) Then pin the shelf if the user is still above it and the page can scroll there.
     if (
       isDesktopLayout() &&
       chaptersShelfIsBelowPinLine() &&
       canScrollChaptersToPin()
     ) {
-      scrollChaptersShelfIntoView("instant");
+      scrollChaptersShelfIntoView("smooth");
+      window.setTimeout(function () {
+        if (!chapterMenuEl || chapterMenuEl.hidden) return;
+        fitChapterMenuToViewport();
+        scrollOptionIntoChapterMenu(
+          chapterMenuEl.querySelector('[role="option"][aria-selected="true"]') ||
+            chapterMenuEl.querySelector('[role="option"]')
+        );
+      }, 420);
     }
-    setChapterMenuOpen(true);
-    fitChapterMenuToViewport();
-    var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
-    var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
-    // Reveal the current chapter inside the capped list without moving the page.
-    scrollOptionIntoChapterMenu(selected || focusOpt);
     if (opts.focusOption === false) return;
     focusWithoutScroll(focusOpt);
   }
