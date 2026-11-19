@@ -929,6 +929,7 @@
         } else {
           pinResultsHeadingIfObscured();
         }
+        maybeClearMainRoomForChaptersPin();
         return true;
       })
       .catch(function () {
@@ -1033,16 +1034,25 @@
     setChapterMenuOpen(false);
   }
 
+  function stickyHeaderEl() {
+    return (
+      document.querySelector(".site-header") ||
+      document.querySelector("#site-header") ||
+      document.querySelector("header.sticky")
+    );
+  }
+
   function stickyClearancePx(el, gapPx) {
-    // Prefer the element's scroll-margin (matches CSS pin intent under the header).
     var gap = typeof gapPx === "number" ? gapPx : 12;
+    var header = stickyHeaderEl();
+    var headerH = header ? header.getBoundingClientRect().height : 0;
+    if (headerH > 0) return headerH + gap;
+    // Header markup may still be hydrating; honor scroll-margin.
     if (el) {
       var sm = parseFloat(window.getComputedStyle(el).scrollMarginTop);
       if (!isNaN(sm) && sm > 0) return sm;
     }
-    var header = document.querySelector(".site-header");
-    var headerH = header ? header.getBoundingClientRect().height : 0;
-    return headerH + gap;
+    return gap;
   }
 
   function chaptersPinScrollTarget() {
@@ -1066,11 +1076,53 @@
   }
 
   function canScrollChaptersToPin() {
-    // Only pin when the document already has enough length — never invent spacer
-    // height (that caused open-menu scroll thrash and a snap back to the top).
     var desired = chaptersPinScrollTarget();
     if (desired == null) return false;
     return desired <= maxWindowScroll() + 8;
+  }
+
+  function sourcesMainEl() {
+    return document.querySelector(".sources-page main") || document.querySelector("main");
+  }
+
+  function ensureMainRoomForChaptersPin() {
+    // Grow main via margin-bottom (not body/footer spacer). paddingBottom is a
+    // no-op here: main is border-box + min-h-screen, so padding is swallowed.
+    var main = sourcesMainEl();
+    var desired = chaptersPinScrollTarget();
+    if (!main || desired == null) return canScrollChaptersToPin();
+    var deficit = Math.ceil(desired - maxWindowScroll());
+    if (deficit <= 0) return true;
+    var cur = parseFloat(main.getAttribute("data-chapters-pin-pad") || "0") || 0;
+    var next = cur + deficit + 8;
+    main.setAttribute("data-chapters-pin-pad", String(next));
+    main.style.marginBottom = next + "px";
+    void main.offsetHeight; // flush layout before canScroll check
+    return canScrollChaptersToPin();
+  }
+
+  function clearMainRoomForChaptersPin() {
+    var main = sourcesMainEl();
+    if (!main || !main.hasAttribute("data-chapters-pin-pad")) return;
+    main.removeAttribute("data-chapters-pin-pad");
+    main.style.marginBottom = "";
+    var maxScroll = maxWindowScroll();
+    if (windowScrollY() > maxScroll) scrollWindowInstant(maxScroll);
+  }
+
+  function maybeClearMainRoomForChaptersPin() {
+    // Drop main pin room once real content makes it unnecessary (no scroll yank).
+    var main = sourcesMainEl();
+    if (!main || !main.hasAttribute("data-chapters-pin-pad")) return;
+    var pad = main.getAttribute("data-chapters-pin-pad");
+    main.style.marginBottom = "";
+    void main.offsetHeight;
+    var maxWithout = maxWindowScroll();
+    if (windowScrollY() <= maxWithout + 8) {
+      main.removeAttribute("data-chapters-pin-pad");
+      return;
+    }
+    main.style.marginBottom = pad + "px";
   }
 
   function scrollBelowStickyHeader(el, gapPx, mode) {
@@ -1128,11 +1180,11 @@
   }
 
   function pinChaptersShelfIfUserAbove(mode) {
-    // Select/activate: only park when the user is still above it and the page
-    // is already long enough to reach the pin line.
+    // Park when the user is still above the shelf; grow main if the page is short.
     requestAnimationFrame(function () {
       requestAnimationFrame(function () {
         if (!chaptersShelfIsBelowPinLine()) return;
+        ensureMainRoomForChaptersPin();
         if (!canScrollChaptersToPin()) return;
         scrollChaptersShelfIntoView(mode || "smooth");
       });
@@ -1178,21 +1230,20 @@
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');
     scrollOptionIntoChapterMenu(selected || focusOpt);
-    // 2) Then pin the shelf if the user is still above it and the page can scroll there.
-    if (
-      isDesktopLayout() &&
-      chaptersShelfIsBelowPinLine() &&
-      canScrollChaptersToPin()
-    ) {
-      scrollChaptersShelfIntoView("smooth");
-      window.setTimeout(function () {
-        if (!chapterMenuEl || chapterMenuEl.hidden) return;
-        fitChapterMenuToViewport();
-        scrollOptionIntoChapterMenu(
-          chapterMenuEl.querySelector('[role="option"][aria-selected="true"]') ||
-            chapterMenuEl.querySelector('[role="option"]')
-        );
-      }, 420);
+    // 2) Then pin if the user is still above the shelf.
+    if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
+      ensureMainRoomForChaptersPin();
+      if (canScrollChaptersToPin()) {
+        scrollChaptersShelfIntoView("smooth");
+        window.setTimeout(function () {
+          if (!chapterMenuEl || chapterMenuEl.hidden) return;
+          fitChapterMenuToViewport();
+          scrollOptionIntoChapterMenu(
+            chapterMenuEl.querySelector('[role="option"][aria-selected="true"]') ||
+              chapterMenuEl.querySelector('[role="option"]')
+          );
+        }, 420);
+      }
     }
     if (opts.focusOption === false) return;
     focusWithoutScroll(focusOpt);
@@ -1577,6 +1628,7 @@
     hideSourcePreview();
     clearChapterActive();
     clearTopicCloudActive();
+    clearMainRoomForChaptersPin();
     headingEl.hidden = true;
     headingEl.classList.remove("sources-heading--breadcrumb");
     headingEl.textContent = "";
@@ -1646,6 +1698,7 @@
     inputEl.value = hit.label;
     hideSuggestions();
     clearChapterActive();
+    clearMainRoomForChaptersPin();
     syncTopicCloudActive();
     dismissMobileKeyboard();
     syncEntryLayout();

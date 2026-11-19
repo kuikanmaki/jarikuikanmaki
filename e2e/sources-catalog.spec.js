@@ -57,10 +57,38 @@ test.describe("Sources catalog smoke", () => {
     const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
-    // Idle/short page: opening must not invent scroll room or thrash the viewport.
-    await expect
-      .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
-      .toBe(scrollBefore);
+    if (!isMobile(testInfo.project.name)) {
+      // Desktop idle: open tall menu, then pin (main grows — not a footer spacer).
+      await expect
+        .poll(async () =>
+          page.locator("#sources-chapters").evaluate((el) => {
+            const sm = parseFloat(getComputedStyle(el).scrollMarginTop);
+            const header =
+              document.querySelector(".site-header") ||
+              document.querySelector("#site-header");
+            const clear = !Number.isNaN(sm) && sm > 0
+              ? sm
+              : (header ? header.getBoundingClientRect().height : 0) + 12;
+            return el.getBoundingClientRect().top - clear;
+          })
+        )
+        .toBeLessThan(24);
+      const mainPad = await page.evaluate(() => {
+        const main = document.querySelector("main");
+        return main
+          ? {
+              pad: main.getAttribute("data-chapters-pin-pad"),
+              marginBottom: main.style.marginBottom,
+            }
+          : null;
+      });
+      expect(mainPad && mainPad.pad).toBeTruthy();
+      expect(mainPad.marginBottom).toMatch(/px$/);
+    } else {
+      await expect
+        .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
+        .toBe(scrollBefore);
+    }
     // Overlay menu sits below the trigger (not flipped above) and scrolls internally.
     const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
     const menuBox = await page.locator("#chapter-custom-list").boundingBox();
