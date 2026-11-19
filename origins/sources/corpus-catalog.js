@@ -981,18 +981,14 @@
   }
 
   function fitChapterMenuToViewport() {
-    // In-flow dropdown: ~10 rows, or whatever still fits under the trigger after pin.
+    // In-flow dropdown: always ~10 rows. The picker grows; the page scrolls — never
+    // collapse to a one-row stub just because the trigger sits near the fold.
     if (!chapterMenuEl || !chapterTriggerEl || chapterMenuEl.hidden) return;
     if (!isDesktopChapterPicker()) {
       chapterMenuEl.style.maxHeight = "";
       return;
     }
-    var comfort = chapterMenuComfortHeight();
-    var roomBelow = Math.floor(
-      window.innerHeight - chapterTriggerEl.getBoundingClientRect().bottom - 12
-    );
-    var next = roomBelow > 0 ? Math.min(comfort, roomBelow) : comfort;
-    chapterMenuEl.style.maxHeight = next + "px";
+    chapterMenuEl.style.maxHeight = chapterMenuComfortHeight() + "px";
   }
 
   function setChapterMenuOpen(open) {
@@ -1183,7 +1179,7 @@
     if (!chapterMenuEl || !chapterTriggerEl || chapterTriggerEl.disabled) return;
     if (!isDesktopChapterPicker()) return;
     hideSuggestions();
-    // One paint: pin first, pre-size to comfort, then reveal — no short stub → grow → jump.
+    // Pin, open at full comfort height (in-flow growth), pin again if growth unlocked scroll.
     if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
       scrollChaptersShelfIntoView("instant");
     }
@@ -1192,7 +1188,6 @@
     fitChapterMenuToViewport();
     if (isDesktopLayout() && chaptersShelfIsBelowPinLine()) {
       scrollChaptersShelfIntoView("instant");
-      fitChapterMenuToViewport();
     }
     var selected = chapterMenuEl.querySelector('[role="option"][aria-selected="true"]');
     var focusOpt = selected || chapterMenuEl.querySelector('[role="option"]');

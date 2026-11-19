@@ -87,7 +87,7 @@ test.describe("Sources catalog smoke", () => {
         page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
       )
       .toMatch(/auto|scroll/);
-    // After open (+ pin when needed), menu stays on screen under the trigger.
+    // In-flow ~10-row menu under the trigger (page scroll handles the rest).
     await expect
       .poll(async () =>
         page.evaluate(() => {
@@ -98,10 +98,10 @@ test.describe("Sources catalog smoke", () => {
           const r = menu.getBoundingClientRect();
           const t = trigger.getBoundingClientRect();
           const comfort = rowH * 10 + 12;
-          const inView = r.top >= -1 && r.bottom <= window.innerHeight + 1;
           const under = r.top >= t.bottom - 2;
-          const sized = r.height <= comfort + 12 && r.height >= rowH * 2 - 4;
-          return inView && under && sized;
+          const sized = Math.abs(r.height - Math.min(comfort, menu.scrollHeight)) <= 16;
+          const scrolls = menu.scrollHeight > menu.clientHeight;
+          return under && sized && scrolls;
         })
       )
       .toBe(true);
@@ -159,13 +159,16 @@ test.describe("Sources catalog smoke", () => {
 
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
-    // In-flow growth + pin: menu opens below the trigger and stays on screen.
+    // Narrow desktop: still a real ~10-row in-flow list (not a one-row stub).
     await expect
       .poll(async () =>
         page.evaluate(() => {
           const trigger = document.getElementById("chapter-custom-trigger");
           const el = document.getElementById("chapter-custom-list");
           const wrap = document.querySelector(".catalog-chapter-custom");
+          const opt = el.querySelector('[role="option"]');
+          const rowH = opt ? opt.getBoundingClientRect().height : 44;
+          const comfort = rowH * 10 + 12;
           const t = trigger.getBoundingClientRect();
           const r = el.getBoundingClientRect();
           const w = wrap.getBoundingClientRect();
@@ -173,9 +176,10 @@ test.describe("Sources catalog smoke", () => {
             getComputedStyle(el).position === "static" &&
             r.top >= t.bottom - 2 &&
             w.bottom >= r.bottom - 2;
-          const inView = r.top >= -1 && r.bottom <= window.innerHeight + 1;
+          const sized = Math.abs(r.height - Math.min(comfort, el.scrollHeight)) <= 16;
           const scrolls = el.scrollHeight > el.clientHeight;
-          return inFlow && inView && scrolls;
+          const notStub = r.height >= rowH * 5;
+          return inFlow && sized && scrolls && notStub;
         })
       )
       .toBe(true);
