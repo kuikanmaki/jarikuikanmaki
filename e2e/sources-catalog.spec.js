@@ -57,23 +57,10 @@ test.describe("Sources catalog smoke", () => {
     const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
     await page.locator("#chapter-custom-trigger").click();
     await expect(page.locator("#chapter-custom-list")).toBeVisible();
-    if (!isMobile(testInfo.project.name)) {
-      // Desktop: opening while still above the shelf pins it near the top.
-      await expect
-        .poll(async () =>
-          page.locator("#sources-chapters").evaluate((el) => {
-            const header = document.querySelector(".site-header");
-            const headerH = header ? header.getBoundingClientRect().height : 0;
-            return el.getBoundingClientRect().top - headerH;
-          })
-        )
-        .toBeLessThan(40);
-    } else {
-      // Mobile: opening must not move the page.
-      await expect
-        .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
-        .toBe(scrollBefore);
-    }
+    // Idle/short page: opening must not invent scroll room or thrash the viewport.
+    await expect
+      .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
+      .toBe(scrollBefore);
     // Overlay menu sits below the trigger (not flipped above) and scrolls internally.
     const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
     const menuBox = await page.locator("#chapter-custom-list").boundingBox();
@@ -104,24 +91,29 @@ test.describe("Sources catalog smoke", () => {
     await expect(page).toHaveURL(/\/origins\/sources\/?$/);
     expect(new URL(page.url()).search).toBe("");
 
-    // Desktop: selecting while still above the shelf pins it; already-pinned stays put.
+    // Desktop: with chapter content (page long enough), opening from above pins;
+    // already-pinned stays put.
     if (!isMobile(testInfo.project.name)) {
+      await page.evaluate(() => window.scrollTo({ top: 0, left: 0, behavior: "instant" }));
+      await page.locator("#chapter-custom-trigger").click();
+      await expect(page.locator("#chapter-custom-list")).toBeVisible();
       await expect
         .poll(async () =>
           page.locator("#sources-chapters").evaluate((el) => {
+            const sm = parseFloat(getComputedStyle(el).scrollMarginTop);
+            if (!Number.isNaN(sm) && sm > 0) {
+              return el.getBoundingClientRect().top - sm;
+            }
             const header = document.querySelector(".site-header");
             const headerH = header ? header.getBoundingClientRect().height : 0;
-            return el.getBoundingClientRect().top - headerH;
+            return el.getBoundingClientRect().top - headerH - 12;
           })
         )
-        .toBeLessThan(40);
+        .toBeLessThan(24);
       const pinnedScroll = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
-      await page.locator("#chapter-custom-trigger").click();
-      await expect(page.locator("#chapter-custom-list")).toBeVisible();
       await page.locator('#chapter-custom-list [data-value="7"]').click();
       await expect(page.locator("#sources-heading")).toContainText(/Everything Is Under Control/i);
       await expectStableChrome(page);
-      // Already at/above the pin line — selecting again must not yank scroll.
       await expect
         .poll(async () =>
           page.evaluate((y0) => Math.abs((window.scrollY || window.pageYOffset || 0) - y0), pinnedScroll)
