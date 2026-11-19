@@ -12,6 +12,14 @@ function isMobile(projectName) {
   return projectName === "mobile";
 }
 
+async function pickChapter(page, value) {
+  await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
+  await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
+  await page.locator("#chapter-custom-trigger").click();
+  await expect(page.locator("#chapter-custom-list")).toBeVisible();
+  await page.locator(`#chapter-custom-list [data-value="${value}"]`).click();
+}
+
 async function expectStableChrome(page) {
   await expect(page.locator("#sources-top")).toBeVisible();
   await expect(page.locator(".sources-intro")).toBeVisible();
@@ -33,12 +41,11 @@ test.describe("Sources catalog smoke", () => {
         "placeholder",
         "Search…"
       );
-      await expect(page.locator("#chapter-select")).toBeVisible();
-      await expect(page.locator(".catalog-chapter-custom")).toBeHidden();
-    } else {
-      await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
-      await expect(page.locator("#chapter-select")).toBeHidden();
     }
+    // Custom listbox at all widths (native <select> is visually hidden / synced only).
+    await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
+    await expect(page.locator(".catalog-chapter-custom")).toBeVisible();
+    await expect(page.locator("#chapter-select")).toHaveAttribute("aria-hidden", "true");
   });
 
   test("Chapters selector browses in-page without ?chapter=", async ({
@@ -46,36 +53,32 @@ test.describe("Sources catalog smoke", () => {
   }, testInfo) => {
     await waitForCatalog(page);
 
-    if (isMobile(testInfo.project.name)) {
-      await page.locator("#chapter-select").selectOption("5");
-    } else {
-      await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
-      const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
-      await page.locator("#chapter-custom-trigger").click();
-      await expect(page.locator("#chapter-custom-list")).toBeVisible();
-      // Opening the selector must not move the page.
-      await expect
-        .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
-        .toBe(scrollBefore);
-      // In-flow menu sits below the trigger (not flipped above) and scrolls internally.
-      const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
-      const menuBox = await page.locator("#chapter-custom-list").boundingBox();
-      expect(triggerBox).toBeTruthy();
-      expect(menuBox).toBeTruthy();
-      expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
-      await expect
-        .poll(async () =>
-          page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
-        )
-        .toMatch(/auto|scroll/);
-      // Short desktop heights: menu must stay inside the viewport (scroll internally).
-      const menuFits = await page.locator("#chapter-custom-list").evaluate((el) => {
-        const r = el.getBoundingClientRect();
-        return r.bottom <= window.innerHeight + 1;
-      });
-      expect(menuFits).toBe(true);
-      await page.locator('#chapter-custom-list [data-value="5"]').click();
-    }
+    await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
+    const scrollBefore = await page.evaluate(() => window.scrollY || window.pageYOffset || 0);
+    await page.locator("#chapter-custom-trigger").click();
+    await expect(page.locator("#chapter-custom-list")).toBeVisible();
+    // Opening the selector must not move the page.
+    await expect
+      .poll(async () => page.evaluate(() => window.scrollY || window.pageYOffset || 0))
+      .toBe(scrollBefore);
+    // In-flow menu sits below the trigger (not flipped above) and scrolls internally.
+    const triggerBox = await page.locator("#chapter-custom-trigger").boundingBox();
+    const menuBox = await page.locator("#chapter-custom-list").boundingBox();
+    expect(triggerBox).toBeTruthy();
+    expect(menuBox).toBeTruthy();
+    expect(menuBox.y).toBeGreaterThanOrEqual(triggerBox.y + triggerBox.height - 2);
+    await expect
+      .poll(async () =>
+        page.locator("#chapter-custom-list").evaluate((el) => getComputedStyle(el).overflowY)
+      )
+      .toMatch(/auto|scroll/);
+    // Menu must stay inside the viewport (scroll internally).
+    const menuFits = await page.locator("#chapter-custom-list").evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      return r.bottom <= window.innerHeight + 1;
+    });
+    expect(menuFits).toBe(true);
+    await page.locator('#chapter-custom-list [data-value="5"]').click();
 
     await expect(page.locator("#sources-heading")).toBeVisible();
     await expect(page.locator("#sources-heading")).toContainText(/Pangolin/i);
@@ -111,9 +114,12 @@ test.describe("Sources catalog smoke", () => {
     }
   });
 
-  test("Chapters menu fits short desktop viewports", async ({ page }, testInfo) => {
-    test.skip(isMobile(testInfo.project.name), "desktop custom listbox only");
-    await page.setViewportSize({ width: 1280, height: 560 });
+  test("Chapters menu fits short and narrow viewports", async ({ page }, testInfo) => {
+    if (isMobile(testInfo.project.name)) {
+      await page.setViewportSize({ width: 390, height: 700 });
+    } else {
+      await page.setViewportSize({ width: 1280, height: 560 });
+    }
     await waitForCatalog(page);
 
     await page.locator("#chapter-custom-trigger").click();
@@ -131,15 +137,7 @@ test.describe("Sources catalog smoke", () => {
   test("Back to Top keeps in-page chapter selection", async ({ page }, testInfo) => {
     await waitForCatalog(page);
 
-    if (isMobile(testInfo.project.name)) {
-      await page.locator("#chapter-select").selectOption("12");
-    } else {
-      await expect(page.locator("#chapter-custom-trigger")).toBeEnabled();
-      await page.locator("#sources-chapters").scrollIntoViewIfNeeded();
-      await page.locator("#chapter-custom-trigger").click();
-      await expect(page.locator("#chapter-custom-list")).toBeVisible();
-      await page.locator('#chapter-custom-list [data-value="12"]').click();
-    }
+    await pickChapter(page, "12");
 
     await expect(page.locator("#sources-heading")).toBeVisible();
     await expect(page.locator("#sources-heading")).toContainText(/Chapter 12|Wuhan/i);
@@ -157,11 +155,8 @@ test.describe("Sources catalog smoke", () => {
     expect(new URL(page.url()).hash).toBe("");
     await expectStableChrome(page);
 
-    if (isMobile(testInfo.project.name)) {
-      await expect(page.locator("#chapter-select")).toHaveValue("12");
-    } else {
-      await expect(page.locator("#chapter-custom-trigger-label")).toContainText(/12\./);
-    }
+    await expect(page.locator("#chapter-custom-trigger-label")).toContainText(/12\./);
+    await expect(page.locator("#chapter-select")).toHaveValue("12");
   });
 
   test("?chapter=N keeps stable chrome and loads chapter panel", async ({ page }) => {
@@ -225,12 +220,7 @@ test.describe("Sources catalog smoke", () => {
   }, testInfo) => {
     await waitForCatalog(page);
 
-    if (isMobile(testInfo.project.name)) {
-      await page.locator("#chapter-select").selectOption("12");
-    } else {
-      await page.locator("#chapter-custom-trigger").click();
-      await page.locator('#chapter-custom-list [data-value="12"]').click();
-    }
+    await pickChapter(page, "12");
     await expect(page.locator("#sources-output .source-page-link").first()).toBeVisible({
       timeout: 10_000,
     });
@@ -249,10 +239,9 @@ test.describe("Sources catalog smoke", () => {
     await expect(page.locator("#sources-history-back")).toBeHidden();
   });
 
-  test("closed Chapters menu stays out of the accessibility tree (desktop)", async ({
+  test("closed Chapters menu stays out of the accessibility tree", async ({
     page,
-  }, testInfo) => {
-    test.skip(isMobile(testInfo.project.name), "Mobile uses the native select");
+  }) => {
     await waitForCatalog(page);
     await expect(page.locator("#chapter-custom-list")).toBeHidden();
     await expect(page.locator("#chapter-custom-list")).toHaveAttribute("aria-hidden", "true");

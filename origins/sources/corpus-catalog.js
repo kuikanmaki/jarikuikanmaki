@@ -930,7 +930,8 @@
   }
 
   function isDesktopChapterPicker() {
-    return window.matchMedia("(min-width: 640px)").matches;
+    // Custom listbox at all widths — native <select> popups break on narrow desktop/macOS.
+    return true;
   }
 
   function chapterOptionLabel(value) {
