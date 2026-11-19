@@ -785,7 +785,9 @@ img {
   }
 }
 .sources-page .sources-search-controls {
+  position: relative;
   display: block;
+  z-index: 20;
 }
 .sources-page .sources-search-field {
   position: relative;
