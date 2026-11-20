@@ -267,13 +267,15 @@
         long: "Source access note: Full text may be paywalled.",
       };
     }
-    if (s.status === "skipped" && embed) return null;
-    if (s.status && s.status !== "ok") {
+    if (s.status === "empty_url") {
       return {
-        short: String(s.status),
-        long: "Access note: " + String(s.status),
+        short: "No URL available.",
+        long: "No public URL is available for this source.",
       };
     }
+    if (s.status === "skipped" && embed) return null;
+    // Never dump raw internal status enums into the visitor UI.
+    if (s.status && s.status !== "ok") return null;
     return null;
   }
 
