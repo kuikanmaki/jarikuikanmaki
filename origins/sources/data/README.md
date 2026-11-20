@@ -143,8 +143,11 @@ Keep these as **printed/cited** text. Do not replace `author` with an authority 
 |---|---|
 | `summary` | Neutral descriptive abstract for the catalog card |
 | `book_role` | How the source functions in the book’s argument (may be empty) |
+| `note` | Optional source-specific Chapter Note: `{ title, html, shared_with }`. Body HTML only (no `<h3>`). `shared_with` lists other `source_key`s that share the same note (multi-source blocks). Omit when none. |
 
 Keep `summary` visitor-safe. Put scrape/paywall mechanics in `acquisition_note`, not in `summary`.
+
+Source notes are migrated from `notes/NN.html` with `_migrate_source_notes.py` (chapter HTML then keeps only the shell + non-source sections). The SPA composes “Note on Source…” headings from corpus `note` fields + the slim chapter notes file.
 
 ### 5.4 Subject analysis & authorities
 
@@ -283,6 +286,8 @@ From repo root, prefix with `origins/sources/data/`.
 | Script | Purpose |
 |---|---|
 | `_add_sources.py` | Mint 1..N stubs into extended chapters (gap-fill `id` supported); optional `--scrape` / `--enrich-images` / `--link` / `--rebuild` |
+| `_extract_source_notes_dryrun.py` | Map `notes/NN.html` “Note on Source…” blocks → `source_key`(s); writes nothing |
+| `_migrate_source_notes.py` | Write `note` onto extended records and strip those blocks from chapter notes HTML |
 | `_link_authors.py` | Parse `author` → `author_ids` |
 | `_link_publications.py` | Resolve `publication` → `publication_ids` |
 | `_sync_labels_from_authorities.py` | Refresh `topics` / `entities` strings from ids |

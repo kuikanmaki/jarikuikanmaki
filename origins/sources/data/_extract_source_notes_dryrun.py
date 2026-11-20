@@ -84,7 +84,11 @@ def strip_heading_html(heading_html: str) -> str:
 
 
 def extract_blocks(html: str) -> list[dict]:
-    """Split a notes file into h3 sections (and optional preamble)."""
+    """Split a notes file into h3 sections (and optional preamble).
+
+    Bodies are trimmed at a following <h2>/<h1> so mid-document section titles
+    are not attributed to the preceding source note.
+    """
     html = html.strip()
     parts = H3_SPLIT.split(html)
     blocks: list[dict] = []
@@ -98,7 +102,7 @@ def extract_blocks(html: str) -> list[dict]:
             continue
         heading = strip_heading_html(m.group(1))
         body = part[m.end() :].strip()
-        # Drop trailing sibling sections accidentally included? split already isolates.
+        body = re.split(r"(?=<h[12]\b)", body, maxsplit=1, flags=re.I)[0].strip()
         blocks.append({"heading": heading, "html": body})
     return blocks
 

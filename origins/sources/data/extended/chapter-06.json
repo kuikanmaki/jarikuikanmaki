@@ -544,7 +544,12 @@
       ],
       "publication_ids": [
         "org:nature-medicine"
-      ]
+      ],
+      "note": {
+        "title": "Reporting on “Proximal Origin”",
+        "html": "<p>Recommended primer into how the Proximal Origin paper was created: <a href=\"https://usrtk.org/covid-19-origins/visual-timeline-proximal-origin/\" target=\"_blank\" rel=\"noopener noreferrer\">Kopp, Emily, Visual Timeline: Key Events in the Writing and Publication of “Proximal Origin of SARS-CoV-2”, U.S. Right to Know, April 20, 2023</a>.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 11,

@@ -1517,6 +1517,32 @@ img {
 .sources-page #sources-output .catalog-card-copy p {
   margin-block: 0;
 }
+.sources-page .catalog-card--note .catalog-card-note-title {
+  margin: 0 0 0.55rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: hsl(var(--foreground));
+}
+.sources-page .catalog-card--note .catalog-card-note-body {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: hsl(var(--foreground));
+}
+.sources-page .catalog-card--note .catalog-card-note-body > :first-child {
+  margin-top: 0;
+}
+.sources-page .catalog-card--note .catalog-card-note-body > :last-child {
+  margin-bottom: 0;
+}
+.sources-page .catalog-card--note .catalog-card-note-body a {
+  color: hsl(var(--primary));
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+.sources-page .catalog-card--note .catalog-card-note-body a:hover {
+  text-decoration-thickness: 2px;
+}
 .sources-page .catalog-card-media {
   margin: 0;
   width: 5.5rem;

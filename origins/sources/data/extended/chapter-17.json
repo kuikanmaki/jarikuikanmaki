@@ -266,7 +266,12 @@
       ],
       "publication_ids": [
         "org:nature"
-      ]
+      ],
+      "note": {
+        "title": "Discovery of BANAL-52",
+        "html": "<p>The late 2021 discovery of BANAL-52 and related sarbecoviruses in Laos confirmed that close relatives of SARS-CoV-2 circulate across the broader Yunnan–Laos region, not just in a single cave system. However, BANAL-52 itself was still too distant to be a direct progenitor. If SARS-CoV-2 emerged from laboratory experiments — such as spike swaps or passaging in humanized mice — the search for a perfect wild ancestor may be futile, as such modifications could create a virus without a directly matching natural progenitor anywhere in the world.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 6,
@@ -469,7 +474,12 @@
       },
       "publication_ids": [
         "org:biorxiv"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>In 2026, it was revealed that this preprint was cited in an early classified Pentagon assessment on the origins of SARS-CoV-2 (See <a href=\"?chapter=19\">Chapter 19</a> Sources: <em><a href=\"?source=ch19-s25\">DIA March 27, 2020</a></em>).</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 10,

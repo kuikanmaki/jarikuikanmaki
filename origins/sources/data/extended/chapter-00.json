@@ -77,7 +77,12 @@
       ],
       "publication_ids": [
         "org:scientific-american"
-      ]
+      ],
+      "note": {
+        "title": "Shi Zhengli’s account",
+        "html": "<p>Later reporting has raised significant questions about Shi Zhengli’s timeline and recollection of events. Among other things, a Chinese Academy of Medical Sciences laboratory in Beijing had already sequenced the genome of SARS-CoV-2 two days before the phone call Shi described (<a href=\"?chapter=19\">Chapter 19</a> <em><a href=\"?source=ch19-s04\">Strobel 2024</a></em> and NCBI GenBank / HHS 2024). During the night of 30 December 2019, while Shi was traveling back to Wuhan, the Wuhan Institute of Virology’s virus databases were altered, and Shi later gave conflicting explanations about the disappearance of the Institute’s public virus databases in the autumn of 2019 (<a href=\"?chapter=10\">Chapter 10</a> <em><a href=\"?source=ch10-s16\">Devine 2020</a></em> and <em><a href=\"?source=ch10-s15\">Small et al. 2021</a></em>). For further inconsistencies in Shi Zhengli’s publications regarding the genome sequencing of SARS-CoV-2, see <a href=\"?chapter=11\">Chapter 11</a>. Shi’s interview (<em><a href=\"?source=ch00-s01\">Qiu 2020</a></em>) took place while Chinese authorities were already actively suppressing discussion of the outbreak’s origin (<em><a href=\"?source=ch00-s03\">Birrell 2020</a></em>).</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 2,

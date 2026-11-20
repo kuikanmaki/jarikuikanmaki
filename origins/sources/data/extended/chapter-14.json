@@ -123,7 +123,12 @@
       ],
       "publication_ids": [
         "org:ecohealth-alliance"
-      ]
+      ],
+      "note": {
+        "title": "DARPA DEFUSE",
+        "html": "<p>For a more comprehensive overview of the contents of the DEFUSE application, see Appendix B: DARPA DEFUSE.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 3,
@@ -274,7 +279,14 @@
       ],
       "publication_ids": [
         "org:twitter-x"
-      ]
+      ],
+      "note": {
+        "title": "Daszak’s Claims About Bats",
+        "html": "<p>In December 2020, Peter Daszak publicly denied that the laboratories he collaborated with kept live bats or conducted experiments with them. These statements were made while he served as a member of the WHO’s origins investigation team sent to Wuhan. This was despite the existence of the DEFUSE proposal, authored by Daszak, which included plans for bat virus experiments at the WIV, and described the live bat colonies in various DEFUSE partner institutions (see DEFUSE Note section 6 above: Experiments on Wild-Caught Bats). For additional context, see also the 2009 article describing Shi Zhengli raising bats in the laboratory: <a href=\"https://web.archive.org/web/20190207020202/http://news.sciencenet.cn/sbhtmlnews/2009/3/216816.html\" target=\"_blank\" rel=\"noopener noreferrer\">Lu, Wei, and Zheng Liu, Shi Zhengli: The Female Scientist with viruses, Sciencenet News, March 10, 2009</a> (archived).</p>",
+        "shared_with": [
+          "ch14-s06"
+        ]
+      }
     },
     {
       "id": 6,
@@ -325,7 +337,14 @@
       ],
       "publication_ids": [
         "org:twitter-x"
-      ]
+      ],
+      "note": {
+        "title": "Daszak’s Claims About Bats",
+        "html": "<p>In December 2020, Peter Daszak publicly denied that the laboratories he collaborated with kept live bats or conducted experiments with them. These statements were made while he served as a member of the WHO’s origins investigation team sent to Wuhan. This was despite the existence of the DEFUSE proposal, authored by Daszak, which included plans for bat virus experiments at the WIV, and described the live bat colonies in various DEFUSE partner institutions (see DEFUSE Note section 6 above: Experiments on Wild-Caught Bats). For additional context, see also the 2009 article describing Shi Zhengli raising bats in the laboratory: <a href=\"https://web.archive.org/web/20190207020202/http://news.sciencenet.cn/sbhtmlnews/2009/3/216816.html\" target=\"_blank\" rel=\"noopener noreferrer\">Lu, Wei, and Zheng Liu, Shi Zhengli: The Female Scientist with viruses, Sciencenet News, March 10, 2009</a> (archived).</p>",
+        "shared_with": [
+          "ch14-s05"
+        ]
+      }
     },
     {
       "id": 7,
@@ -452,7 +471,12 @@
       "author_ids": [],
       "publication_ids": [
         "org:the-intercept"
-      ]
+      ],
+      "note": {
+        "title": "EcoHealth Alliance Year-4 Progress Report",
+        "html": "<p>FOIA documents from the earlier NIH grant show that Shi Zhengli and Peter Daszak had already been shipping virus samples abroad before the DEFUSE: “Drs Shi, Zhang, and Daszak have collaborated together since 2002 and have been involved in … shipping samples into and out of China.” (p. 15). The grant documents also mention a letter of support from Dr Ralph Baric (p. 118).</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 9,

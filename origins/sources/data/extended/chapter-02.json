@@ -58,7 +58,12 @@
       ],
       "publication_ids": [
         "org:the-washington-times"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>The Washington Times article was originally published on January 24, 2020, under the headline “Virus-hit Wuhan has two laboratories linked to Chinese bio-warfare program.” For more on Dany Shoham’s earlier research into Chinese biological warfare programs: <a href=\"https://www.idsa.in/system/files/jds/jds_9_2_2015_DanyShoham.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Shoham, Dany, China’s Biological Warfare Programme, Journal of Defence Studies, April-June 2015</a>; for his later views on the COVID-19 pandemic: <a href=\"https://besacenter.org/covid-pandemic-roots/\" target=\"_blank\" rel=\"noopener noreferrer\">Shoham, Dany, The Roots of the COVID-19 Pandemic, BESA Center, December 14, 2020</a>.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 2,

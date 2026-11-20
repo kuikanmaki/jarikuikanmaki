@@ -106,7 +106,14 @@
       "author_ids": [],
       "publication_ids": [
         "org:reuters"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>Later research indicated that SARS-CoV-2 may have already been circulating earlier than first thought in the countries mentioned. For evidence of earlier-than-reported spread in France, see <a href=\"?chapter=17\">Chapter 17</a> <em><a href=\"?source=ch17-n09\">Deslandes, A. et al. 2020</a></em>. For evidence of earlier-than-reported spread in Italy, see <a href=\"?chapter=17\">Chapter 17</a> <em><a href=\"?source=ch17-n10\">La Rosa et al 2020</a></em> and <em><a href=\"?source=ch17-n11\">Apolone et al 2020</a></em>.</p>",
+        "shared_with": [
+          "ch04-s13"
+        ]
+      }
     },
     {
       "id": 3,
@@ -636,7 +643,14 @@
       "publication_ids": [
         "org:reuters"
       ],
-      "topic_ids": []
+      "topic_ids": [],
+      "note": {
+        "title": "",
+        "html": "<p>Later research indicated that SARS-CoV-2 may have already been circulating earlier than first thought in the countries mentioned. For evidence of earlier-than-reported spread in France, see <a href=\"?chapter=17\">Chapter 17</a> <em><a href=\"?source=ch17-n09\">Deslandes, A. et al. 2020</a></em>. For evidence of earlier-than-reported spread in Italy, see <a href=\"?chapter=17\">Chapter 17</a> <em><a href=\"?source=ch17-n10\">La Rosa et al 2020</a></em> and <em><a href=\"?source=ch17-n11\">Apolone et al 2020</a></em>.</p>",
+        "shared_with": [
+          "ch04-s02"
+        ]
+      }
     },
     {
       "id": 14,

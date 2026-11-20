@@ -213,7 +213,12 @@
       "author_ids": [],
       "publication_ids": [
         "org:global-virome-project"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>The 2016 Global Virome Project Bellagio meeting brought together several individuals who would later play influential roles in the origins debate. Among the attendees were Peter Daszak, Dennis Carroll, and George Gao. In 2017, Daszak, Carroll, and Gao also attended a China National Virome Project meeting in Beijing together with PLA biodefense officer Cao Wuchun, who served on the advisory board of the Wuhan Institute of Virology (see <a href=\"?chapter=19\">Chapter 19</a>). Daszak was later appointed to the WHO’s 2021 Wuhan origins mission despite his central involvement in the underlying research; he was subsequently debarred from US federal funding for NIH grant violations (see <a href=\"?chapter=19\">Chapter 19</a>). Gao became the senior author of a major Huanan Seafood Market study (see Appendix: <em>Liu et al. 2023</em>).</p>\n<p>Among the attendees was also Columbia University Professor Ian Lipkin, who later became a co-author of the influential “Proximal Origin” paper (<a href=\"?chapter=6\">Chapter 6</a> <em><a href=\"?source=ch06-s10\">Andersen et al. 2020</a></em>). Notably, Lipkin stated in a later interview that he had already been informed of a Wuhan outbreak on December 15, 2019. Also present was Dr. Maria Van Kerkhove, who later coordinated the WHO’s SAGO advisory group on SARS-CoV-2 origins (see next note).</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 5,
@@ -391,7 +396,12 @@
         "person:jinlong-cheng"
       ],
       "publication_ids": [],
-      "topic_ids": []
+      "topic_ids": [],
+      "note": {
+        "title": "",
+        "html": "<p>This 2014 paper was cited in “Proximal Origin” (<a href=\"?chapter=6\">Chapter 6</a> <em><a href=\"?source=ch06-s10\">Andersen et al. 2020</a></em>) as evidence that no known virus backbone existed for SARS-CoV-2. The citation is highly misleading: the paper predates the pandemic by five years, yet the authors asserted, based on this source: “However, the genetic data irrefutably show that SARS-CoV-2 is not derived from any previously used virus backbone.”</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 9,
@@ -491,7 +501,12 @@
       "author_ids": [
         "person:shi-zhengli"
       ],
-      "publication_ids": []
+      "publication_ids": [],
+      "note": {
+        "title": "Later Reporting on Undisclosed Variants at WIV",
+        "html": "<p>According to subsequent reporting by the Sunday Times, the Wuhan Institute of Virology had been working with undisclosed variants from the Mojiang mine. At least one of these unpublished strains was believed to be an even closer genetic match to SARS-CoV-2 than RaTG13. As one investigator stated: “We are confident they were working on a closer unpublished variant — possibly collected in Mojiang” (<a href=\"?chapter=19\">Chapter 19</a> <em><a href=\"?source=ch19-s16\">Calvert & Arbuthnott 2023</a></em>).</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 11,

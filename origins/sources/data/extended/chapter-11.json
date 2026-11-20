@@ -222,7 +222,12 @@
       "author_ids": [],
       "publication_ids": [
         "org:genbank"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>The partial Ra4991 genome sequence (later renamed RaTG13) was first uploaded to GenBank in 2016.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 5,
@@ -332,7 +337,12 @@
       "author_ids": [],
       "publication_ids": [
         "org:genbank"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>The complete RaTG13 genome was published by Shi Zhengli’s team in 2020.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 7,
@@ -866,7 +876,12 @@
       "publication_ids": [
         "org:journal-of-virology"
       ],
-      "topic_ids": []
+      "topic_ids": [],
+      "note": {
+        "title": "",
+        "html": "<p>A 2006 study demonstrated the insertion of a furin cleavage site at the S1–S2 junction of SARS-CoV-1, showing the technique was already well known.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 17,
@@ -911,7 +926,12 @@
       "publication_ids": [],
       "topic_ids": [
         "topic:sars-cov-2"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>A 2000 paper showed how modifying the spike protein could alter a coronavirus’s host species range.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 18,
@@ -971,7 +991,12 @@
       ],
       "publication_ids": [
         "org:u-s-right-to-know"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>The February 2020 Liu et al. paper argued there was “no credible evidence” of laboratory engineering of SARS-CoV-2.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 19,
@@ -1024,7 +1049,12 @@
       "publication_ids": [],
       "topic_ids": [
         "topic:censorship"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>Internal emails among the Liu et al. authors reveal significant private concerns about the furin cleavage site — in sharp contrast to the conclusions of their published paper. A similar pattern of evasion about the FCS also evident in the “Proximal Origin” deliberations (see <a href=\"?chapter=6\">Chapter 6</a> <em><a href=\"?source=ch06-s10\">Andersen et al. 2020</a></em>).</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 20,

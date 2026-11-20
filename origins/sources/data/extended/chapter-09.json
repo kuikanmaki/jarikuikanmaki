@@ -180,7 +180,12 @@
       ],
       "publication_ids": [
         "org:bbc-news"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>The WHO team’s final report was released under the title <a href=\"https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part\" target=\"_blank\" rel=\"noopener noreferrer\">WHO-convened global study of origins of SARS-CoV-2: China Part</a>, March 30, 2021. For more about the political fallout and backlash that followed the WHO’s initial assessments from Wuhan, as well as China’s broader influence on the organization, see <a href=\"?chapter=10\">Chapter 10</a> and <a href=\"?chapter=10\">Chapter 10</a> Notes.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 4,

@@ -540,6 +540,20 @@
     return cardHtml;
   }
 
+  function renderSourceNoteCard(s) {
+    if (!s || !s.note || !(s.note.html || "").trim()) return "";
+    return (
+      '<article class="catalog-card catalog-card--note" aria-label="Source note">' +
+        '<h3 class="catalog-card-note-title">' +
+          escapeHtml(sourceNoteHeading(s)) +
+        "</h3>" +
+        '<div class="catalog-card-note-body">' +
+          (s.note.html || "") +
+        "</div>" +
+      "</article>"
+    );
+  }
+
   function renderChapterSourceList(rows) {
     if (!rows.length) {
       return '<p class="status">No sources listed for this chapter.</p>';
@@ -824,11 +838,16 @@
         renderPager(0);
         return;
       }
+      var cardsHtml = pageRows.map(renderCard).join("");
+      if (view.mode === "source" && pageRows[0]) {
+        cardsHtml += renderSourceNoteCard(pageRows[0]);
+      }
       outEl.innerHTML =
-        '<div class="catalog-card-list">' +
-        pageRows.map(renderCard).join("") +
-        "</div>";
+        '<div class="catalog-card-list">' + cardsHtml + "</div>";
       ensureTwitterWidgets(outEl);
+      if (view.mode === "source") {
+        enhanceNotesSourceLinks(outEl);
+      }
       renderPager(total);
       return;
     }
@@ -902,6 +921,105 @@
     });
   }
 
+  function noteGroupKeys(s) {
+    var key = s && s.source_key;
+    if (!key) return [];
+    var shared = (s.note && s.note.shared_with) || [];
+    return [key].concat(shared);
+  }
+
+  function isNotePrimary(s) {
+    if (!s || !s.note || !(s.note.html || "").trim()) return false;
+    var keys = noteGroupKeys(s);
+    if (keys.length <= 1) return true;
+    var byKey = {};
+    (corpus.sources || []).forEach(function (row) {
+      if (row.source_key) byKey[row.source_key] = row;
+    });
+    var primary = keys
+      .map(function (k) {
+        return byKey[k];
+      })
+      .filter(Boolean)
+      .sort(function (a, b) {
+        return (Number(a.id) || 0) - (Number(b.id) || 0);
+      })[0];
+    return primary && primary.source_key === s.source_key;
+  }
+
+  function formatNoteRefsLabel(ids) {
+    if (!ids.length) return "";
+    if (ids.length === 1) return String(ids[0]);
+    var sequential = ids.every(function (id, i) {
+      return id === ids[0] + i;
+    });
+    if (sequential) return ids[0] + "–" + ids[ids.length - 1];
+    return ids.join(" and ");
+  }
+
+  function sourceNoteHeading(s) {
+    var keys = noteGroupKeys(s);
+    var byKey = {};
+    (corpus.sources || []).forEach(function (row) {
+      if (row.source_key) byKey[row.source_key] = row;
+    });
+    var ids = keys
+      .map(function (k) {
+        return byKey[k];
+      })
+      .filter(Boolean)
+      .map(function (row) {
+        return Number(row.id);
+      })
+      .filter(function (n) {
+        return !Number.isNaN(n);
+      })
+      .sort(function (a, b) {
+        return a - b;
+      });
+    var title = (s.note && s.note.title) || "";
+    var refs = formatNoteRefsLabel(ids);
+    var head =
+      ids.length > 1 ? "Note on Sources " + refs : "Note on Source " + (refs || "?");
+    return title ? head + ": " + title : head;
+  }
+
+  function renderSourceNoteSection(s) {
+    if (!isNotePrimary(s)) return "";
+    var heading = escapeHtml(sourceNoteHeading(s));
+    var body = (s.note && s.note.html) || "";
+    return "<h3>" + heading + "</h3>\n" + body;
+  }
+
+  function composeSourceNotesHtml(chapterNumber) {
+    if (!corpus || !corpus.sources) return "";
+    var rows = (corpus.sources || [])
+      .filter(function (s) {
+        return (
+          Number(s.chapter) === Number(chapterNumber) &&
+          (s.section || "main") === "main" &&
+          s.note &&
+          (s.note.html || "").trim()
+        );
+      })
+      .sort(function (a, b) {
+        return (Number(a.id) || 0) - (Number(b.id) || 0);
+      });
+    var parts = [];
+    rows.forEach(function (s) {
+      var html = renderSourceNoteSection(s);
+      if (html) parts.push(html);
+    });
+    return parts.join("\n");
+  }
+
+  function splitChapterNotesShell(html) {
+    var text = String(html || "").trim();
+    var m = text.match(/^(<h2\b[^>]*>[\s\S]*?<\/h2>)\s*([\s\S]*)$/i);
+    if (!m) return { h2: "", body: text };
+    return { h2: m[1], body: (m[2] || "").trim() };
+  }
+
   function loadNotes(chapterNumber) {
     notesEl.hidden = false;
     notesEl.innerHTML = '<p class="status">Loading notes…</p>';
@@ -915,7 +1033,13 @@
         if (view.mode !== "chapter" || view.chapter !== chapterNumber) {
           return false;
         }
-        notesEl.innerHTML = '<hr class="notes-divider">' + html;
+        var shell = splitChapterNotesShell(html);
+        var sourceNotes = composeSourceNotesHtml(chapterNumber);
+        var composed =
+          (shell.h2 ? shell.h2 + "\n" : "") +
+          (sourceNotes ? sourceNotes + "\n" : "") +
+          (shell.body || "");
+        notesEl.innerHTML = '<hr class="notes-divider">' + composed;
         enhanceNotesSourceLinks(notesEl);
         // History ← Back may need scrollY re-applied after notes HTML grows the page.
         if (applyPendingRestoreScroll()) {

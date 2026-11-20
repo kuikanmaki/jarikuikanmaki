@@ -180,7 +180,12 @@
       "image_url": "https://www.aljazeera.com/wp-content/uploads/2021/12/AP21362595458007.jpg?resize=1920%2C1440",
       "acquisition_note": "",
       "author_ids": [],
-      "publication_ids": []
+      "publication_ids": [],
+      "note": {
+        "title": "Omicron Variant",
+        "html": "<p>For the official classification of the Omicron variant, see: <a href=\"https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern\" target=\"_blank\" rel=\"noopener noreferrer\">Classification of Omicron (B.1.1.529): SARS-CoV-2 Variant of Concern, WHO News, November 26, 2021</a>.</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 5,

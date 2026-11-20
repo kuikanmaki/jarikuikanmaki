@@ -254,7 +254,12 @@
       ],
       "topic_ids": [
         "topic:travel-restrictions"
-      ]
+      ],
+      "note": {
+        "title": "",
+        "html": "<p>WHO continued to advise against travel restrictions even as the virus spread internationally: “WHO has published updated advice for international traffic, and continues to recommend against the application of any travel or trade restrictions in relation to the current COVID-19 outbreak.”</p>",
+        "shared_with": []
+      }
     },
     {
       "id": 6,

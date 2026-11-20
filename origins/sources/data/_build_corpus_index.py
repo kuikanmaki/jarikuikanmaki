@@ -127,7 +127,7 @@ def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_m
         else remote_image
     )
 
-    return {
+    public = {
         "source_key": source_key,
         "section": section,
         "chapter": chapter,
@@ -155,6 +155,14 @@ def _public_card(source: dict, chapter, chapter_title: str, section: str, auth_m
         "entities": entities,
         "authority_ids": authority_ids,
     }
+    note = source.get("note")
+    if isinstance(note, dict) and (note.get("html") or "").strip():
+        public["note"] = {
+            "title": note.get("title") or "",
+            "html": note.get("html") or "",
+            "shared_with": list(note.get("shared_with") or []),
+        }
+    return public
 
 
 def main() -> None:
