@@ -19,10 +19,11 @@
     "fetched_at": "2026-11-19T15:58:34Z"
   },
   "ch00-s03": {
-    "remote": "https://i.dailymail.com/1s/2026/09/16/04/111276999-0-image-m-33_1789530116932.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2020/04/11/19/27079668-8210951-image-a-30_1586631426250.jpg",
     "path": "/assets/source-previews/ch00-s03.webp",
-    "bytes": 11592,
-    "fetched_at": "2026-11-19T16:00:05Z"
+    "bytes": 48496,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch00-s04": {
     "remote": "https://www.science.org/cms/asset/10d04c33-7966-40d7-ab33-35b6e2721279/cc_1_main_gettyimages-643961442_1280p.jpg",
@@ -57,10 +58,11 @@
     "fetched_at": "2026-11-19T15:58:36Z"
   },
   "ch01-n01": {
-    "remote": "https://i.dailymail.com/1s/2026/09/10/16/111155329-0-image-a-6_1789055733762.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2020/01/23/22/23795084-7922379-image-a-8_1579817036564.jpg",
     "path": "/assets/source-previews/ch01-n01.webp",
-    "bytes": 21872,
-    "fetched_at": "2026-11-19T16:00:05Z"
+    "bytes": 51254,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch01-s03": {
     "remote": "https://ichef.bbci.co.uk/news/1024/branded_news/ECFF/production/_110617606_059331569.jpg",
@@ -149,17 +151,12 @@
     "bytes": 24780,
     "fetched_at": "2026-11-19T15:58:36Z"
   },
-  "ch03-n03": {
-    "remote": "https://i.dailymail.com/1s/2026/10/06/20/111687845-0-image-m-3_1791315410624.jpg",
-    "path": "/assets/source-previews/ch03-n03.webp",
-    "bytes": 27726,
-    "fetched_at": "2026-11-19T16:00:06Z"
-  },
   "ch03-n04": {
-    "remote": "https://i.dailymail.com/1s/2026/09/10/16/111155329-0-image-a-6_1789055733762.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2020/04/12/01/27086004-8211291-image-a-7_1586650490164.jpg",
     "path": "/assets/source-previews/ch03-n04.webp",
-    "bytes": 21872,
-    "fetched_at": "2026-11-19T16:00:06Z"
+    "bytes": 40184,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch03-s04": {
     "remote": "https://images.seattletimes.com/wp-content/uploads/2020/01/153738.jpg?d=780x574",
@@ -275,10 +272,11 @@
     "fetched_at": "2026-11-19T15:58:37Z"
   },
   "ch05-s05": {
-    "remote": "https://i.dailymail.com/1s/2026/11/09/06/112389839-0-image-a-28_1794204603129.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2020/02/16/13/24803668-8009669-image-a-26_1581859063211.jpg",
     "path": "/assets/source-previews/ch05-s05.webp",
-    "bytes": 32804,
-    "fetched_at": "2026-11-19T16:00:07Z"
+    "bytes": 49108,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch05-s06": {
     "remote": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fnm.3985/MediaObjects/41591_2015_BFnm3985_Fig1_HTML.jpg",
@@ -387,10 +385,11 @@
     "source": "artifact"
   },
   "ch08-n04": {
-    "remote": "https://i.dailymail.com/1s/2026/09/11/20/111197649-0-image-a-99_1789156755660.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2021/05/28/21/43565641-9629563-An_explosive_new_study_on_the_origins_of_COVID_19_pandemic_claim-a-40_1622235063342.jpg",
     "path": "/assets/source-previews/ch08-n04.webp",
-    "bytes": 12296,
-    "fetched_at": "2026-11-19T16:00:07Z"
+    "bytes": 48348,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch08-n06": {
     "remote": "https://www.who.int/images/default-source/searo---images/health-topics/corona-virus19/coronavirus-blue.tmb-1200v.jpg?Culture=en&sfvrsn=1bdbbe71_6",
@@ -436,10 +435,11 @@
     "fetched_at": "2026-11-19T15:58:39Z"
   },
   "ch08-s08": {
-    "remote": "https://i.dailymail.com/1s/2026/09/10/23/111177623-0-image-a-4_1789080576211.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2023/01/28/21/67077865-11687675-image-m-17_1674940515890.jpg",
     "path": "/assets/source-previews/ch08-s08.webp",
-    "bytes": 11468,
-    "fetched_at": "2026-11-19T16:00:07Z"
+    "bytes": 30510,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch08-s09": {
     "remote": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a2dc/7224457/ea7900f60d83/ppat.1008421.g001.gif",
@@ -551,10 +551,11 @@
     "fetched_at": "2026-11-19T15:58:40Z"
   },
   "ch09-s04": {
-    "remote": "https://i.dailymail.com/1s/2026/10/30/15/112174879-0-image-m-30_1793375655129.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2020/12/19/20/37049344-9071191-image-a-1_1608411330917.jpg",
     "path": "/assets/source-previews/ch09-s04.webp",
-    "bytes": 13350,
-    "fetched_at": "2026-11-19T16:00:07Z"
+    "bytes": 36684,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch09-s07": {
     "remote": "https://i.guim.co.uk/img/media/936eb15416a692d2f2f32c7ac6692c706bd5c070/0_120_3600_2161/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=c47e1df9362b0549859622cee80a96e4",
@@ -563,10 +564,11 @@
     "fetched_at": "2026-11-19T16:00:07Z"
   },
   "ch09-s10": {
-    "remote": "https://i.dailymail.com/1s/2026/09/12/21/111211823-0-image-a-41_1789243978863.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2021/01/09/21/37805396-9129681-Shi_Zhengli_the_Wuhan_based_scientist_noted_for_her_trips_to_gat-m-42_1610229385532.jpg",
     "path": "/assets/source-previews/ch09-s10.webp",
-    "bytes": 22150,
-    "fetched_at": "2026-11-19T16:00:07Z"
+    "bytes": 42176,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch09-s11": {
     "remote": "https://about.fb.com/wp-content/uploads/2020/04/NRP-COVID_Misinfo_Update_inline-1.jpg?resize=960%2C640",
@@ -744,10 +746,11 @@
     "fetched_at": "2026-11-19T16:00:08Z"
   },
   "ch10-s20": {
-    "remote": "https://i.dailymail.com/1s/2026/09/12/00/111201837-0-image-a-8_1789168639304.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2021/10/02/19/48682383-10052689-image-a-8_1633199938539.jpg",
     "path": "/assets/source-previews/ch10-s20.webp",
-    "bytes": 9036,
-    "fetched_at": "2026-11-19T16:00:09Z"
+    "bytes": 20000,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch11-n02": {
     "remote": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10311-021-01211-0/MediaObjects/10311_2021_1211_Fig1_HTML.png",
@@ -960,10 +963,11 @@
     "fetched_at": "2026-11-19T15:58:45Z"
   },
   "ch13-s03": {
-    "remote": "https://i.dailymail.com/1s/2026/10/30/15/112174879-0-image-m-30_1793375655129.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2020/12/19/20/37049344-9071191-image-a-1_1608411330917.jpg",
     "path": "/assets/source-previews/ch13-s03.webp",
-    "bytes": 13350,
-    "fetched_at": "2026-11-19T16:00:09Z"
+    "bytes": 36684,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch13-s04": {
     "remote": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8J6oFkzuFyg/v0/-1x-1.webp",
@@ -978,10 +982,11 @@
     "fetched_at": "2026-11-19T15:58:45Z"
   },
   "ch14-s04": {
-    "remote": "https://i.dailymail.com/1s/2026/09/28/20/111525695-0-image-a-5_1790622752713.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2021/02/13/21/39253350-9257413-image-a-65_1613252432201.jpg",
     "path": "/assets/source-previews/ch14-s04.webp",
-    "bytes": 33664,
-    "fetched_at": "2026-11-19T16:00:09Z"
+    "bytes": 23890,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch14-s07": {
     "remote": "https://theintercept.com/wp-content/uploads/2021/09/GettyImages-1230940643-crop.jpg?fit=2000%2C1000&w=1200&h=800",
@@ -1340,10 +1345,11 @@
     "fetched_at": "2026-11-19T15:58:53Z"
   },
   "ch19-s19": {
-    "remote": "https://i.dailymail.com/1s/2026/10/27/05/112112047-0-image-a-29_1793077218557.jpg",
+    "remote": "https://i.dailymail.co.uk/1s/2021/04/24/20/42170292-9507749-Major_General_Chen_Wei_China_s_top_biodefence_expert-a-35_1619292455261.jpg",
     "path": "/assets/source-previews/ch19-s19.webp",
-    "bytes": 16116,
-    "fetched_at": "2026-11-19T16:00:11Z"
+    "bytes": 22908,
+    "fetched_at": "2026-11-20T08:47:01Z",
+    "source": "dailymail-artifact-fix"
   },
   "ch19-s24": {
     "remote": "https://usrtk.org/wp-content/uploads/2025/04/Wuhan-Institute-of-Virology-front-view.jpg",
