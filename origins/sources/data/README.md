@@ -212,12 +212,32 @@ Used for filtering/labels in the public catalog (`content_kind_label` is added a
 
 ### 8.2 Add a new source to a chapter
 
+**Preferred:** use the orchestrator (one or many stubs; supports **id gap-fill**):
+
+```bash
+cd origins/sources/data
+
+# Validate planned keys
+python3 _add_sources.py --stub '{"chapter":19,"id":22,"author":"Kopp, Emily","title":"…","url":"https://…"}' --dry-run
+
+# Mint + scrape only those keys + enrich + link + rebuild
+python3 _add_sources.py \
+  --stub '{"chapter":19,"id":22,"author":"Kopp, Emily","title":"…","url":"https://…"}' \
+  --scrape --only-missing --enrich-images --link --rebuild
+
+# Batch: --stubs-file stubs.json  (JSON array or {"stubs":[…]})
+```
+
+Omit `id` to append the next free id in that array. Set `"section":"notes"` for Notes-only records. Cursor skill: `.cursor/skills/add-sources/`.
+
+**Manual fallback** (same schema the CLI writes):
+
 1. Append a new object to that chapter’s `sources` array (main bibliography) **or** `notes_sources` (Notes-only).
-2. Set `id` to the next unused integer **in that array**.
+2. Set `id` to the next unused integer **in that array** (or an explicit gap id).
 3. Set `source_key` to `ch{NN}-s{id:02d}` (main) or `ch{NN}-n{id:02d}` (notes).
 4. Fill citation fields, `type`, `content_kind`, `language`, `summary`.
 5. Set `url` if public; else `status: "empty_url"` and `url: ""`.
-6. If the page can be captured, scrape with `extended/_scrape_chapter.py` (see §9.4). URL/paywall cleanup is a **post-crawl** review, same as the main bibliography.
+6. If the page can be captured, scrape with `extended/_scrape_chapter.py` (see §9.3), preferably `--keys chNN-sMM`. URL/paywall cleanup is a **post-crawl** review.
 7. Add `topics` / `entities` as working strings; run linkers + label sync so `*_ids` populate.
 8. Confirm the work is not already in the corpus (any chapter, main or notes).
 9. Rebuild indexes (§10).
@@ -262,6 +282,7 @@ From repo root, prefix with `origins/sources/data/`.
 
 | Script | Purpose |
 |---|---|
+| `_add_sources.py` | Mint 1..N stubs into extended chapters (gap-fill `id` supported); optional `--scrape` / `--enrich-images` / `--link` / `--rebuild` |
 | `_link_authors.py` | Parse `author` → `author_ids` |
 | `_link_publications.py` | Resolve `publication` → `publication_ids` |
 | `_sync_labels_from_authorities.py` | Refresh `topics` / `entities` strings from ids |
@@ -274,7 +295,7 @@ From repo root, prefix with `origins/sources/data/`.
 | `_cache_preview_images_browser.py` | Playwright Chromium fallback for URLs urllib can’t fetch (still blocked by Cloudflare/Archive rate limits on some hosts) |
 | `_normalize_catalog.py` | Catalog normalization helpers |
 | `_authority_lib.py` | Shared authority loaders |
-| `extended/_scrape_chapter.py` | Firecrawl scrape into artifacts; patches `extended/chapter-NN.json` in place (`--section main\|notes\|all`, `--only-missing`) |
+| `extended/_scrape_chapter.py` | Firecrawl scrape into artifacts; patches `extended/chapter-NN.json` in place (`--section main\|notes\|all`, `--only-missing`, `--keys`) |
 | `extended/_build_extended.py` | **Legacy only** — refuses to overwrite live chapters (would drop `notes_sources` / authority fields) |
 
 ### 9.3 Scrape artifacts (main or Notes)
@@ -292,6 +313,9 @@ python3 extended/_scrape_chapter.py 8 --section notes --only-missing
 
 # Main bibliography only (default --section)
 python3 extended/_scrape_chapter.py 8
+
+# Single key (preferred after _add_sources.py mint)
+python3 extended/_scrape_chapter.py 19 --section all --keys ch19-s22 --only-missing
 ```
 
 Artifact paths: main `artifacts/chNN-sMM.md`, Notes `artifacts/chNN-nMM.md`. Scrape-only outcomes (`skipped`, `not_found`, …) stay in the scrape log / `acquisition_note`; catalog `status` remains `ok` / `paywall` / `empty_url` until post-crawl review. Do **not** run `_build_extended.py` on live chapters.

@@ -294,6 +294,17 @@ def scrape_one(
     return entry
 
 
+def parse_keys_arg(raw: str | None) -> set[str] | None:
+    """Parse comma/space-separated source_key filter; None means no filter."""
+    if raw is None or not str(raw).strip():
+        return None
+    keys: set[str] = set()
+    for part in re.split(r"[\s,]+", str(raw).strip()):
+        if part:
+            keys.add(part)
+    return keys or None
+
+
 def parse_args(argv: list[str]) -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Scrape extended chapter sources into artifacts and patch catalog records."
@@ -310,6 +321,11 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         action="store_true",
         help="Skip records that already have a usable local artifact file",
     )
+    p.add_argument(
+        "--keys",
+        default=None,
+        help="Only scrape these source_key values (comma/space-separated), e.g. ch19-s22",
+    )
     return p.parse_args(argv)
 
 
@@ -325,14 +341,25 @@ def main(argv: list[str] | None = None) -> int:
     ART.mkdir(parents=True, exist_ok=True)
     LOGS.mkdir(parents=True, exist_ok=True)
     cache = load_cache()
+    key_filter = parse_keys_arg(args.keys)
 
     before = firecrawl_status()
     m = re.search(r"Credits:\s*([0-9,]+)", before)
     credits_before = m.group(1).replace(",", "") if m else None
 
     targets = list(iter_section_records(data, args.section))
+    if key_filter is not None:
+        filtered = []
+        for section, source in targets:
+            sid = source_key_for(ch, section, source)
+            if sid in key_filter:
+                filtered.append((section, source))
+        missing = sorted(key_filter - {source_key_for(ch, s, src) for s, src in filtered})
+        if missing:
+            print(f"WARNING: --keys not found in chapter {ch}: {', '.join(missing)}", file=sys.stderr)
+        targets = filtered
     if not targets:
-        print(f"No targets for chapter {ch} section={args.section}")
+        print(f"No targets for chapter {ch} section={args.section}" + (f" keys={args.keys}" if args.keys else ""))
         return 0
 
     results = []
@@ -361,6 +388,7 @@ def main(argv: list[str] | None = None) -> int:
         "chapter": ch,
         "section": args.section,
         "only_missing": args.only_missing,
+        "keys": sorted(key_filter) if key_filter is not None else None,
         "credits_before": int(credits_before) if credits_before else None,
         "credits_after": int(credits_after) if credits_after else None,
         "sources": results,

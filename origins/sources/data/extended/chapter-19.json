@@ -967,7 +967,7 @@
       "publication_ids": [
         "org:daily-mail"
       ],
-      "image_url": "https://i.dailymail.co.uk/1s/2021/04/24/20/42170292-9507749-Major_General_Chen_Wei_China_s_top_biodefence_expert-a-35_1619292455261.jpg",
+      "image_url": "https://i.dailymail.com/1s/2026/10/27/05/112112047-0-image-a-29_1793077218557.jpg",
       "topic_ids": []
     },
     {
@@ -1078,6 +1078,72 @@
         "org:nih",
         "org:u-s-right-to-know"
       ]
+    },
+    {
+      "id": 22,
+      "source_key": "ch19-s22",
+      "type": "News article",
+      "author": "Kopp, Emily",
+      "title": "US scientists proposed to make viruses with unique features of SARS-CoV-2 in Wuhan",
+      "publication": "U.S. Right to Know",
+      "date": "January 18, 2024",
+      "url": "https://usrtk.org/covid-19-origins/scientists-proposed-making-viruses-with-unique-features-of-sars-cov-2-in-wuhan/",
+      "status": "ok",
+      "artifact": "artifacts/ch19-s22.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "USRTK report on documents showing U.S. scientists proposed engineering novel coronaviruses with SARS-CoV-2-like features together with the Wuhan Institute of Virology the year before the outbreak, including furin-cleavage and seamless-assembly workstreams tied to DEFUSE.",
+      "book_role": "Documents DEFUSE-era proposals and procurement evidence (including seamless-assembly reagents) for engineering SARS-CoV-2-like features in Wuhan.",
+      "topics": [
+        "Lab-leak hypothesis"
+      ],
+      "entities": {
+        "people": [
+          "Emily Kopp",
+          "Peter Daszak",
+          "Ralph Baric",
+          "Shi Zhengli"
+        ],
+        "orgs": [
+          "U.S. Right to Know",
+          "Wuhan Institute of Virology",
+          "EcoHealth Alliance"
+        ],
+        "places": [
+          "Wuhan"
+        ]
+      },
+      "topic_ids": [
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:emily-kopp",
+          "person:peter-daszak",
+          "person:ralph-baric",
+          "person:shi-zhengli"
+        ],
+        "orgs": [
+          "org:u-s-right-to-know",
+          "org:wuhan-institute-of-virology",
+          "org:ecohealth-alliance"
+        ],
+        "places": [
+          "place:wuhan"
+        ],
+        "works": [
+          "work:defuse"
+        ]
+      },
+      "author_ids": [
+        "person:emily-kopp"
+      ],
+      "publication_ids": [
+        "org:u-s-right-to-know"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2024-01-18",
+      "image_url": "https://usrtk.org/wp-content/uploads/2024/01/bats-scaled.jpeg"
     },
     {
       "id": 23,

@@ -1455,5 +1455,12 @@
     "bytes": 23250,
     "fetched_at": "2026-11-19T16:37:51Z",
     "source": "artifact"
+  },
+  "ch19-s22": {
+    "remote": "https://usrtk.org/wp-content/uploads/2024/01/bats-scaled.jpeg",
+    "path": "/assets/source-previews/ch19-s22.webp",
+    "bytes": 11066,
+    "fetched_at": "2026-11-20T10:59:58Z",
+    "source": "image_url"
   }
 }
