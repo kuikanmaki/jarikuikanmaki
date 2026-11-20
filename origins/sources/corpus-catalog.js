@@ -542,11 +542,16 @@
 
   function renderSourceNoteCard(s) {
     if (!s || !s.note || !(s.note.html || "").trim()) return "";
+    var heading = sourcePageNoteHeading(s);
+    var titleHtml = heading
+      ? heading.kind === "meta"
+        ? '<p class="catalog-card-note-meta">' + escapeHtml(heading.text) + "</p>"
+        : '<h3 class="catalog-card-note-title">' + escapeHtml(heading.text) + "</h3>"
+      : "";
     return (
       '<article class="catalog-card catalog-card--note" aria-label="Source note">' +
-        '<h3 class="catalog-card-note-title">' +
-          escapeHtml(sourceNoteHeading(s)) +
-        "</h3>" +
+        '<p class="catalog-card-meta">Source note</p>' +
+        titleHtml +
         '<div class="catalog-card-note-body">' +
           (s.note.html || "") +
         "</div>" +
@@ -957,13 +962,13 @@
     return ids.join(" and ");
   }
 
-  function sourceNoteHeading(s) {
+  function noteGroupIds(s) {
     var keys = noteGroupKeys(s);
     var byKey = {};
     (corpus.sources || []).forEach(function (row) {
       if (row.source_key) byKey[row.source_key] = row;
     });
-    var ids = keys
+    return keys
       .map(function (k) {
         return byKey[k];
       })
@@ -977,11 +982,33 @@
       .sort(function (a, b) {
         return a - b;
       });
+  }
+
+  function sourceNoteHeading(s) {
+    var ids = noteGroupIds(s);
     var title = (s.note && s.note.title) || "";
     var refs = formatNoteRefsLabel(ids);
     var head =
       ids.length > 1 ? "Note on Sources " + refs : "Note on Source " + (refs || "?");
     return title ? head + ": " + title : head;
+  }
+
+  // Source page card: no "Note on Source N" scaffold. Prefer topical title;
+  // for shared notes without a title, a quiet "Also covers…" line.
+  function sourcePageNoteHeading(s) {
+    if (!s || !s.note) return null;
+    var title = String(s.note.title || "").trim();
+    if (title) return { kind: "title", text: title };
+    var shared = s.note.shared_with || [];
+    if (!shared.length) return null;
+    var selfId = Number(s.id);
+    var otherIds = noteGroupIds(s).filter(function (id) {
+      return id !== selfId;
+    });
+    if (!otherIds.length) return null;
+    var refs = formatNoteRefsLabel(otherIds);
+    var label = otherIds.length === 1 ? "source " + refs : "sources " + refs;
+    return { kind: "meta", text: "Also covers " + label };
   }
 
   function renderSourceNoteSection(s) {
