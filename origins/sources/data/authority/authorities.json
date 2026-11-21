@@ -6,9 +6,9 @@
     "counts": {
       "event": 21,
       "org": 86,
-      "person": 84,
+      "person": 278,
       "place": 26,
-      "topic": 63,
+      "topic": 64,
       "work": 14
     },
     "redirects": [
@@ -2324,6 +2324,26 @@
         "id": "org:cell-press",
         "prefLabel": "Cell Press",
         "indexTerm": "Cell Press",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "org:u-s-department-of-justice",
+        "prefLabel": "U.S. Department of Justice",
+        "indexTerm": "U.S. Department of Justice",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "org:u-s-department-of-justice-u-s-attorney-s-office-for-the-district-of-maryland",
+        "prefLabel": "U.S. Department of Justice, U.S. Attorney’s Office for the District of Maryland",
+        "indexTerm": "U.S. Department of Justice, U.S. Attorney’s Office for the District of Maryland",
         "altLabels": [],
         "related": [],
         "subentries": [],
@@ -5430,6 +5450,16 @@
         "subentries": [],
         "pages": [],
         "source": "corpus-extension"
+      },
+      {
+        "id": "person:sarah-newey",
+        "prefLabel": "Sarah Newey",
+        "indexTerm": "Newey, Sarah",
+        "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
       }
     ],
     "place": [
@@ -6318,6 +6348,19 @@
         "prefLabel": "Mojiang miners",
         "indexTerm": "Mojiang miners",
         "altLabels": [],
+        "related": [],
+        "subentries": [],
+        "pages": [],
+        "source": "corpus-extension"
+      },
+      {
+        "id": "topic:new-developments",
+        "prefLabel": "New developments",
+        "indexTerm": "New developments",
+        "altLabels": [
+          "Updates since the first edition",
+          "Updates"
+        ],
         "related": [],
         "subentries": [],
         "pages": [],

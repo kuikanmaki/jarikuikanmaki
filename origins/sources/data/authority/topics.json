@@ -549,6 +549,19 @@
       "source": "corpus-extension"
     },
     {
+      "id": "topic:new-developments",
+      "prefLabel": "New developments",
+      "indexTerm": "New developments",
+      "altLabels": [
+        "Updates since the first edition",
+        "Updates"
+      ],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
       "id": "topic:nih-grant",
       "prefLabel": "NIH grant",
       "indexTerm": "NIH grant",

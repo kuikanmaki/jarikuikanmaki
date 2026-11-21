@@ -1462,5 +1462,72 @@
     "bytes": 11066,
     "fetched_at": "2026-11-20T10:59:58Z",
     "source": "image_url"
+  },
+  "ch90-s01": {
+    "remote": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png",
+    "path": "/assets/source-previews/ch90-s01.webp",
+    "bytes": 14500,
+    "fetched_at": "2026-11-21T10:01:39Z",
+    "source": "image_url"
+  },
+  "ch90-s04": {
+    "remote": "https://www.theassemblync.com/wp-content/uploads/2025/03/Baric.jpeg",
+    "path": "/assets/source-previews/ch90-s04.webp",
+    "bytes": 28118,
+    "fetched_at": "2026-11-21T10:01:40Z",
+    "source": "image_url"
+  },
+  "ch90-s05": {
+    "remote": "https://nypost.com/wp-content/uploads/sites/2/2026/05/newspress-collage-hq640jrt3-1778688225200.jpg?quality=75&strip=all&1778673859&w=1200",
+    "path": "/assets/source-previews/ch90-s05.webp",
+    "bytes": 16550,
+    "fetched_at": "2026-11-21T10:01:40Z",
+    "source": "image_url"
+  },
+  "ch90-s08": {
+    "remote": "https://nypost.com/wp-content/uploads/sites/2/2026/07/chinas-wet-markets-gained-bad-135660330.jpg?quality=75&strip=all&w=1200",
+    "path": "/assets/source-previews/ch90-s08.webp",
+    "bytes": 47170,
+    "fetched_at": "2026-11-21T10:01:40Z",
+    "source": "image_url"
+  },
+  "ch90-s14": {
+    "remote": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/08/Screenshot%202026-08-28%20at%2010.29.56%E2%80%AFAM.png",
+    "path": "/assets/source-previews/ch90-s14.webp",
+    "bytes": 12124,
+    "fetched_at": "2026-11-21T10:01:40Z",
+    "source": "image_url"
+  },
+  "ch90-s10": {
+    "source": "primary",
+    "image_url": "https://dims.apnews.com/dims4/default/6853259/2147483647/strip/true/crop/3701x2467+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6c%2Fd2%2Fbc44e18cc90ebca9181cd42040aa%2Fd2ce50e7983a4dc4bbc5bcb424b99bb9"
+  },
+  "ch90-s09": {
+    "source": "primary",
+    "image_url": "https://dims.apnews.com/dims4/default/4a8213b/2147483647/strip/true/crop/3965x2644+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb0%2F4e%2F7d6e3a74ace848811b559c743985%2F1aa3639caed84ac6921c6ebe9f206a2f"
+  },
+  "ch90-s12": {
+    "source": "primary",
+    "image_url": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png"
+  },
+  "ch90-s06": {
+    "source": "primary",
+    "image_url": "https://www.odni.gov/wp-content/themes/dni-gov/assets/images/ODNI_Mono_Seal-scaled.png"
+  },
+  "ch90-s13": {
+    "source": "primary",
+    "image_url": "https://assets.apnews.com/c3/e2/3a794a139534541c6dfcedc265a1/de8d9158cd274bcfafaad949b37961a4"
+  },
+  "ch90-s03": {
+    "source": "primary",
+    "image_url": "https://www.science.org/do/10.1126/science.z30r5x7/full/_20260429_on_morens_folo_1200.jpg"
+  },
+  "ch90-s07": {
+    "source": "primary",
+    "image_url": "https://www.hsgac.senate.gov/wp-content/uploads/HSGAC_Logo_Social.jpg"
+  },
+  "ch90-s02": {
+    "source": "primary",
+    "image_url": "https://www.theassemblync.com/wp-content/uploads/2025/03/Baric.jpeg"
   }
 }

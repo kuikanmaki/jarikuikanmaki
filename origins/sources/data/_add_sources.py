@@ -145,6 +145,15 @@ def normalize_stub(raw: dict) -> dict:
             die(f"Invalid id {sid}")
     url = (raw.get("url") or "").strip()
     status = (raw.get("status") or ("ok" if url else "empty_url")).strip()
+    topic_ids = list(raw.get("topic_ids") or [])
+    topics = list(raw.get("topics") or [])
+    # Chapter 90 (New developments shelf): always include the shelf topic tag.
+    if ch == 90:
+        shelf_topic = "topic:new-developments"
+        if shelf_topic not in topic_ids:
+            topic_ids.insert(0, shelf_topic)
+        if "New developments" not in topics:
+            topics.insert(0, "New developments")
     stub = {
         "chapter": ch,
         "section": section,
@@ -161,9 +170,9 @@ def normalize_stub(raw: dict) -> dict:
         "language": (raw.get("language") or "en").strip(),
         "summary": (raw.get("summary") or "").strip(),
         "book_role": (raw.get("book_role") or "").strip(),
-        "topics": list(raw.get("topics") or []),
+        "topics": topics,
         "entities": dict(raw.get("entities") or {}),
-        "topic_ids": list(raw.get("topic_ids") or []),
+        "topic_ids": topic_ids,
         "entity_ids": dict(raw.get("entity_ids") or {}),
         "author_ids": list(raw.get("author_ids") or []),
         "publication_ids": list(raw.get("publication_ids") or []),

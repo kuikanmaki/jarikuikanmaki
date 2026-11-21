@@ -176,11 +176,19 @@ def main() -> None:
         chapter = data.get("chapter")
         chapter_title = data.get("chapter_title") or f"Chapter {chapter}"
         printed = data.get("printed_pages") or {}
+        kind = data.get("kind") or ("prologue" if chapter == 0 else "chapter")
+        if kind == "updates" or chapter == 90:
+            name = "New developments"
+        elif chapter == 0:
+            name = "Prologue"
+        else:
+            name = f"Chapter {chapter}"
         chapters.append(
             {
                 "number": chapter,
                 "title": chapter_title,
-                "name": "Prologue" if chapter == 0 else f"Chapter {chapter}",
+                "name": name,
+                "kind": kind,
                 "printed_pages": printed,
                 "source_count": len(data.get("sources") or []),
             }

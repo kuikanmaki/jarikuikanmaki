@@ -3099,6 +3099,16 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "person:sarah-newey",
+      "prefLabel": "Sarah Newey",
+      "indexTerm": "Newey, Sarah",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }

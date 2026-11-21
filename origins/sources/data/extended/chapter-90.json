@@ -1,0 +1,691 @@
+{
+  "chapter": 90,
+  "chapter_title": "New developments",
+  "kind": "updates",
+  "printed_pages": null,
+  "sources": [
+    {
+      "id": 1,
+      "source_key": "ch90-s01",
+      "type": "Press release",
+      "author": "",
+      "title": "Former Senior NIAID Official Indicted for Concealing Federal Records During COVID-19 Pandemic",
+      "publication": "U.S. Department of Justice",
+      "date": "April 28, 2026",
+      "url": "https://www.justice.gov/opa/pr/former-senior-niaid-official-indicted-concealing-federal-records-during-covid-19-pandemic-0",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s01.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments"
+      ],
+      "entities": {
+        "people": [
+          "David Morens",
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "NIAID"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:david-morens",
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:niaid"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-department-of-justice"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-04-28",
+      "image_url": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png"
+    },
+    {
+      "id": 2,
+      "source_key": "ch90-s02",
+      "type": "PDF document",
+      "author": "",
+      "title": "Notice of Suspension and Proposed Debarment of Ralph Baric, PhD",
+      "publication": "U.S. Department of Health and Human Services",
+      "date": "May 7, 2026",
+      "url": "https://www.science.org/do/10.1126/science.z0ao13t/full/hhssuspensionandproposeddebarmentofralphbaricphd_05.06.2026.pdf",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s02.md",
+      "content_kind": "pdf",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Gain-of-function research"
+      ],
+      "entities": {
+        "people": [
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "HHS"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:gain-of-function-research"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:hhs"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [],
+      "acquisition_note": "",
+      "date_iso": "2026-05-07",
+      "image_url": "https://www.theassemblync.com/wp-content/uploads/2025/03/Baric.jpeg"
+    },
+    {
+      "id": 3,
+      "source_key": "ch90-s03",
+      "type": "News article",
+      "author": "Cohen, Jon",
+      "title": "Guns and bulletproof vests: How federal agents arrested Fauci aide",
+      "publication": "Science",
+      "date": "May 8, 2026",
+      "url": "https://www.science.org/content/article/guns-and-bulletproof-vests-how-federal-agents-arrested-fauci-aide",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s03.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments"
+      ],
+      "entities": {
+        "people": [
+          "David Morens",
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "NIAID"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:david-morens",
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:niaid"
+        ],
+        "places": []
+      },
+      "author_ids": [
+        "person:jon-cohen"
+      ],
+      "publication_ids": [
+        "org:science"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-05-08",
+      "image_url": "https://www.science.org/do/10.1126/science.z30r5x7/full/_20260429_on_morens_folo_1200.jpg"
+    },
+    {
+      "id": 4,
+      "source_key": "ch90-s04",
+      "type": "News article",
+      "author": "",
+      "title": "UNC coronavirus researcher Ralph Baric announces retirement",
+      "publication": "The Assembly",
+      "date": "May 9, 2026",
+      "url": "https://www.theassemblync.com/news/education/higher-education/unc-coronavirus-researcher-ralph-baric-retire/",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s04.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Gain-of-function research"
+      ],
+      "entities": {
+        "people": [
+          "Ralph Baric"
+        ],
+        "orgs": [
+          "University of North Carolina"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:gain-of-function-research"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:ralph-baric"
+        ],
+        "orgs": [
+          "org:university-of-north-carolina"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [],
+      "acquisition_note": "",
+      "date_iso": "2026-05-09",
+      "image_url": "https://www.theassemblync.com/wp-content/uploads/2025/03/Baric.jpeg"
+    },
+    {
+      "id": 5,
+      "source_key": "ch90-s05",
+      "type": "Newspaper article",
+      "author": "Christenson, Josh",
+      "title": "CIA whistleblower James Erdman reveals Anthony Fauci ‘influenced’ COVID origins intel probe as part of lab leak ‘cover-up’",
+      "publication": "New York Post",
+      "date": "May 13, 2026",
+      "url": "https://nypost.com/2026/05/13/us-news/cia-whistleblower-ided-as-james-erdman-iii-in-dramatic-reveal-at-rand-paul-covid-origins-hearing/",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s05.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Intelligence community"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "CIA"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:intelligence-community"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:cia"
+        ],
+        "places": []
+      },
+      "author_ids": [
+        "person:josh-christenson"
+      ],
+      "publication_ids": [
+        "org:new-york-post"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-05-13",
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/05/newspress-collage-hq640jrt3-1778688225200.jpg?quality=75&#038;strip=all&#038;1778673859&#038;w=1200"
+    },
+    {
+      "id": 6,
+      "source_key": "ch90-s06",
+      "type": "Report",
+      "author": "",
+      "title": "Fauci Funded Wuhan Lab Research That Sparked COVID",
+      "publication": "Office of the Director of National Intelligence",
+      "date": "June 18, 2026",
+      "url": "https://www.odni.gov/index.php/newsroom/press-releases/press-releases-2026/4166-pr-11-26",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s06.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Lab-leak hypothesis"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "Director of National Intelligence"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:lab-leak-hypothesis"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:director-of-national-intelligence"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:director-of-national-intelligence"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-06-18",
+      "image_url": "https://www.odni.gov/wp-content/themes/dni-gov/assets/images/ODNI_Mono_Seal-scaled.png"
+    },
+    {
+      "id": 7,
+      "source_key": "ch90-s07",
+      "type": "Congressional press release",
+      "author": "",
+      "title": "Chairman Paul Launches “The Reading Room,” a Public Archive of the Committee’s Ongoing COVID-19 Origins Investigations",
+      "publication": "U.S. Senate Homeland Security and Governmental Affairs Committee",
+      "date": "July 20, 2026",
+      "url": "https://www.hsgac.senate.gov/media/reps/chairman-paul-launches-the-reading-room-a-public-archive-of-the-committees-ongoing-covid-19-origins-investigations/",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s07.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Origins debate"
+      ],
+      "entities": {
+        "people": [
+          "Rand Paul"
+        ],
+        "orgs": [
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:origins-debate"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-07-20",
+      "image_url": "https://www.hsgac.senate.gov/wp-content/uploads/HSGAC_Logo_Social.jpg"
+    },
+    {
+      "id": 8,
+      "source_key": "ch90-s08",
+      "type": "Newspaper article",
+      "author": "",
+      "title": "Dr. Anthony Fauci ruled out Wuhan market origin for COVID-19 in private diary entries",
+      "publication": "New York Post",
+      "date": "July 27, 2026",
+      "url": "https://nypost.com/2026/07/27/us-news/dr-anthony-fauci-ruled-out-wuhan-market-origin-for-covid-19-in-private-diary-entries/",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s08.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Lab-leak hypothesis",
+        "Origins debate"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:lab-leak-hypothesis",
+        "topic:origins-debate"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:new-york-post"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-07-27",
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/07/chinas-wet-markets-gained-bad-135660330.jpg?quality=75&#038;strip=all&#038;w=1200"
+    },
+    {
+      "id": 9,
+      "source_key": "ch90-s09",
+      "type": "News article",
+      "author": "",
+      "title": "Fauci repeatedly invokes the Fifth Amendment in a contentious Senate committee hearing",
+      "publication": "Associated Press",
+      "date": "July 29, 2026",
+      "url": "https://apnews.com/article/fauci-covid19-pandemic-senate-rand-paul-a774a79e46824ebec9e8e270b9cb9825",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s09.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci",
+          "Rand Paul"
+        ],
+        "orgs": [
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci",
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:associated-press"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-07-29",
+      "image_url": "https://dims.apnews.com/dims4/default/4a8213b/2147483647/strip/true/crop/3965x2644+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb0%2F4e%2F7d6e3a74ace848811b559c743985%2F1aa3639caed84ac6921c6ebe9f206a2f"
+    },
+    {
+      "id": 10,
+      "source_key": "ch90-s10",
+      "type": "News article",
+      "author": "",
+      "title": "Senate committee votes to hold Anthony Fauci in contempt of Congress over his refusal to answer questions at COVID hearing",
+      "publication": "Associated Press",
+      "date": "August 6, 2026",
+      "url": "https://apnews.com/article/fauci-congress-justice-department-c068561f3d2adddd0a659e099c212c49",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s10.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci",
+          "Rand Paul"
+        ],
+        "orgs": [
+          "U.S. Senate Homeland Security and Governmental Affairs Committee (HSGAC)"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci",
+          "person:rand-paul"
+        ],
+        "orgs": [
+          "org:u-s-senate-homeland-security-and-governmental-affairs-committee-hsgac"
+        ],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:associated-press"
+      ],
+      "date_iso": "2026-08-06",
+      "image_url": "https://dims.apnews.com/dims4/default/6853259/2147483647/strip/true/crop/3701x2467+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6c%2Fd2%2Fbc44e18cc90ebca9181cd42040aa%2Fd2ce50e7983a4dc4bbc5bcb424b99bb9"
+    },
+    {
+      "id": 11,
+      "source_key": "ch90-s11",
+      "type": "Newspaper article",
+      "author": "Newey, Sarah",
+      "title": "Top British scientist steps down from WHO",
+      "publication": "The Telegraph",
+      "date": "August 18, 2026",
+      "url": "https://www.telegraph.co.uk/gift/8e6c91f16b646981",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s11.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Origins debate"
+      ],
+      "entities": {
+        "people": [
+          "Jeremy Farrar"
+        ],
+        "orgs": [
+          "WHO"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:origins-debate"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:jeremy-farrar"
+        ],
+        "orgs": [
+          "org:who"
+        ],
+        "places": []
+      },
+      "author_ids": [
+        "person:sarah-newey"
+      ],
+      "publication_ids": [
+        "org:the-telegraph"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-08-18"
+    },
+    {
+      "id": 12,
+      "source_key": "ch90-s12",
+      "type": "Press release",
+      "author": "U.S. Department of Justice, U.S. Attorney’s Office for the District of Maryland",
+      "title": "Former Senior NIAID Official Pleads Guilty to Charges Connected to Concealing Federal Records During COVID-19 Pandemic",
+      "publication": "U.S. Department of Justice",
+      "date": "August 18, 2026",
+      "url": "https://www.justice.gov/usao-md/pr/former-senior-niaid-official-pleads-guilty-charges-connected-concealing-federal-records",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s12.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments"
+      ],
+      "entities": {
+        "people": [
+          "David Morens"
+        ],
+        "orgs": [
+          "NIAID"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:david-morens"
+        ],
+        "orgs": [
+          "org:niaid"
+        ],
+        "places": []
+      },
+      "author_ids": [
+        "org:u-s-department-of-justice-u-s-attorney-s-office-for-the-district-of-maryland"
+      ],
+      "publication_ids": [
+        "org:u-s-department-of-justice"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-08-18",
+      "image_url": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png"
+    },
+    {
+      "id": 13,
+      "source_key": "ch90-s13",
+      "type": "News article",
+      "author": "",
+      "title": "Ex-Fauci adviser pleads guilty to plotting to conceal COVID-19 research records during pandemic",
+      "publication": "Associated Press",
+      "date": "August 18, 2026",
+      "url": "https://apnews.com/article/coronavirus-origins-guilty-plea-fauci-morens-f0a02a0c5dc8e7ae81cd992292c89884",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s13.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments",
+        "Freedom of Information requests"
+      ],
+      "entities": {
+        "people": [
+          "David Morens",
+          "Anthony Fauci"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments",
+        "topic:freedom-of-information-requests"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:david-morens",
+          "person:anthony-fauci"
+        ],
+        "orgs": [],
+        "places": []
+      },
+      "author_ids": [],
+      "publication_ids": [
+        "org:associated-press"
+      ],
+      "acquisition_note": "",
+      "date_iso": "2026-08-18",
+      "image_url": "https://assets.apnews.com/c3/e2/3a794a139534541c6dfcedc265a1/de8d9158cd274bcfafaad949b37961a4"
+    },
+    {
+      "id": 14,
+      "source_key": "ch90-s14",
+      "type": "News article",
+      "author": "Kopp, Emily",
+      "title": "Exclusive: Documents Confirm Anthony Fauci NIAID-CIA Link",
+      "publication": "Daily Caller",
+      "date": "August 28, 2026",
+      "url": "https://dailycaller.com/2026/08/28/exclusive-documents-confirm-anthony-fauci-niaid-cia-link/",
+      "status": "ok",
+      "artifact": "artifacts/ch90-s14.md",
+      "content_kind": "html_article",
+      "language": "en",
+      "summary": "",
+      "book_role": "Post-publication update; candidate for a future Epilogue/Postscript.",
+      "topics": [
+        "New developments"
+      ],
+      "entities": {
+        "people": [
+          "Anthony Fauci"
+        ],
+        "orgs": [
+          "NIAID",
+          "CIA"
+        ],
+        "places": []
+      },
+      "topic_ids": [
+        "topic:new-developments"
+      ],
+      "entity_ids": {
+        "people": [
+          "person:anthony-fauci"
+        ],
+        "orgs": [
+          "org:niaid",
+          "org:cia"
+        ],
+        "places": []
+      },
+      "author_ids": [
+        "person:emily-kopp"
+      ],
+      "publication_ids": [],
+      "acquisition_note": "",
+      "date_iso": "2026-08-28",
+      "image_url": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/08/Screenshot%202026-08-28%20at%2010.29.56%E2%80%AFAM.png"
+    }
+  ],
+  "notes_sources": []
+}

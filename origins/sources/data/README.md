@@ -96,9 +96,10 @@ Each `extended/chapter-NN.json`:
 
 | Field | Type | Notes |
 |---|---|---|
-| `chapter` | integer | `0` = Prologue; `1`–`19` = chapters |
-| `chapter_title` | string | Full chapter title as in the book |
-| `printed_pages` | object | Print-edition page span for the chapter |
+| `chapter` | integer | `0` = Prologue; `1`–`19` = book chapters; `90` = New developments shelf |
+| `chapter_title` | string | Full chapter title as in the book (or New developments shelf title) |
+| `kind` | string | Optional. `updates` for the post-publication New developments shelf (`chapter` 90). Omit for normal chapters. |
+| `printed_pages` | object | Print-edition page span for the chapter (`null` for New developments) |
 | `sources` | array | Ordered **main** bibliographic records (printed Sources list) |
 | `notes_sources` | array | Optional. Same record shape as `sources`, for citations that appear only in Notes. Independent `id` sequence starting at `1`. |
 

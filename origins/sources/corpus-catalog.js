@@ -107,8 +107,25 @@
       .replace(/'/g, "&#39;");
   }
 
+  function chapterShelfMeta(n) {
+    // Prefer corpus.chapters (has kind); fall back to sources-index list.
+    var lists = [];
+    if (corpus && corpus.chapters) lists.push(corpus.chapters);
+    if (chapterMeta && chapterMeta.length) lists.push(chapterMeta);
+    for (var i = 0; i < lists.length; i++) {
+      var hit = lists[i].find(function (c) {
+        return c.number === n;
+      });
+      if (hit) return hit;
+    }
+    return null;
+  }
+
   function chapterLabel(n) {
-    return n === 0 ? "Prologue" : "Chapter " + n;
+    var meta = chapterShelfMeta(n);
+    if (meta && (meta.kind === "updates" || meta.number === 90)) return "New developments";
+    if (n === 0) return "Prologue";
+    return "Chapter " + n;
   }
 
   function sortByChapterThenId(rows) {
@@ -142,6 +159,7 @@
       }));
     }
     if (view.chapter != null) {
+      // Chapter 90 (New developments) uses the same id-ascending order as book chapters.
       return sortByChapterThenId(corpus.sources.filter(function (s) {
         return s.chapter === view.chapter && (s.section || "main") === "main";
       }));
@@ -919,6 +937,8 @@
     });
     var byUrl = sourceKeyByNormalizedUrl();
     Array.prototype.forEach.call(root.querySelectorAll('a[href^="http"]'), function (a) {
+      // Never rewrite the card's external Open URL (or it becomes a self-referral).
+      if (a.classList.contains("source-open-original")) return;
       if (a.getAttribute("data-source-key")) return;
       var key = byUrl[normalizeSourceUrl(a.getAttribute("href") || "")];
       if (!key) return;
@@ -2001,9 +2021,9 @@
 
   function chapterFullName(ch) {
     // Chapters list: "5. Pangolins" (not "Chapter 5 — Pangolins").
-    // Prologue keeps its own title wording.
-    if (ch.number === 0) {
-      return ch.title || ch.name || "Prologue";
+    // Prologue / New developments keep their own title wording (no numeric prefix).
+    if (ch.number === 0 || ch.kind === "updates" || ch.number === 90) {
+      return ch.title || ch.name || chapterLabel(ch.number);
     }
     if (ch.title) return ch.number + ". " + ch.title;
     return ch.number + ". " + (ch.name || chapterLabel(ch.number));

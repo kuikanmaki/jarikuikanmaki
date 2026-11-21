@@ -1989,6 +1989,26 @@
       "subentries": [],
       "pages": [],
       "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-department-of-justice",
+      "prefLabel": "U.S. Department of Justice",
+      "indexTerm": "U.S. Department of Justice",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
+    },
+    {
+      "id": "org:u-s-department-of-justice-u-s-attorney-s-office-for-the-district-of-maryland",
+      "prefLabel": "U.S. Department of Justice, U.S. Attorney’s Office for the District of Maryland",
+      "indexTerm": "U.S. Department of Justice, U.S. Attorney’s Office for the District of Maryland",
+      "altLabels": [],
+      "related": [],
+      "subentries": [],
+      "pages": [],
+      "source": "corpus-extension"
     }
   ]
 }
